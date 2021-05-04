@@ -1,0 +1,1008 @@
+21:29:10 INFO  : Registering command handlers for SDK TCF services
+21:29:11 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+21:29:14 INFO  : XSCT server has started successfully.
+21:29:14 INFO  : Successfully done setting XSCT server connection channel  
+21:29:15 INFO  : Successfully done setting SDK workspace  
+21:29:15 INFO  : Processing command line option -hwspec /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf.
+21:30:46 ERROR : Unable to load properties file .sdkproject for project WS2812b_SW_bsp.
+21:30:46 ERROR : Unable to load properties file .sdkproject for project WS2812b_SW_bsp.
+21:31:03 ERROR : Unable to load properties file .sdkproject for project WS2812b_SW_bsp.
+21:33:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:33:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+21:33:59 INFO  : FPGA configured successfully with bitstream "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/W2812b_design_1_wrapper.bit"
+21:34:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+21:34:10 INFO  : 'fpga -state' command is executed.
+21:34:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:11 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+21:34:11 INFO  : 'jtag frequency' command is executed.
+21:34:11 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:34:11 INFO  : Context for 'APU' is selected.
+21:34:11 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+21:34:11 INFO  : 'configparams force-mem-access 1' command is executed.
+21:34:11 INFO  : Context for 'APU' is selected.
+21:34:11 INFO  : 'stop' command is executed.
+21:34:13 INFO  : 'ps7_init' command is executed.
+21:34:13 INFO  : 'ps7_post_config' command is executed.
+21:34:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:34:13 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:34:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:34:16 ERROR : Memory write error at 0x100000. AP transaction timeout
+21:34:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+----------------End of Script----------------
+
+21:34:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+21:34:49 INFO  : 'fpga -state' command is executed.
+21:34:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:49 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+21:34:49 INFO  : 'jtag frequency' command is executed.
+21:34:49 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:34:49 INFO  : Context for 'APU' is selected.
+21:34:49 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+21:34:49 INFO  : 'configparams force-mem-access 1' command is executed.
+21:34:49 INFO  : Context for 'APU' is selected.
+21:34:49 INFO  : 'stop' command is executed.
+21:34:49 ERROR : AP transaction error, DAP status f0000021
+21:34:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+21:35:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:35:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+21:35:14 ERROR : fpga configuration failed. DONE PIN is not HIGH
+21:35:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:36:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:36:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+21:36:21 INFO  : FPGA configured successfully with bitstream "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/W2812b_design_1_wrapper.bit"
+21:36:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+21:36:29 INFO  : 'fpga -state' command is executed.
+21:36:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:36:29 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+21:36:29 INFO  : 'jtag frequency' command is executed.
+21:36:29 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:36:29 INFO  : Context for 'APU' is selected.
+21:36:29 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+21:36:29 INFO  : 'configparams force-mem-access 1' command is executed.
+21:36:29 INFO  : Context for 'APU' is selected.
+21:36:29 INFO  : 'stop' command is executed.
+21:36:30 INFO  : 'ps7_init' command is executed.
+21:36:30 INFO  : 'ps7_post_config' command is executed.
+21:36:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:36:30 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:36:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:36:30 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:36:30 INFO  : 'configparams force-mem-access 0' command is executed.
+21:36:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:36:30 INFO  : Memory regions updated for context APU
+21:36:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:36:30 INFO  : 'con' command is executed.
+21:36:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+21:36:30 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+21:37:03 INFO  : Disconnected from the channel tcfchan#1.
+22:17:12 INFO  : Registering command handlers for SDK TCF services
+22:17:13 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+22:17:16 INFO  : XSCT server has started successfully.
+22:17:17 INFO  : Successfully done setting XSCT server connection channel  
+22:17:17 INFO  : Successfully done setting SDK workspace  
+10:32:34 INFO  : Registering command handlers for SDK TCF services
+10:32:36 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+10:32:39 INFO  : XSCT server has started successfully.
+10:32:40 INFO  : Successfully done setting XSCT server connection channel  
+10:32:40 INFO  : Successfully done setting SDK workspace  
+10:32:40 INFO  : Processing command line option -hwspec /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf.
+10:32:40 INFO  : Checking for hwspec changes in the project W2812b_design_1_wrapper_hw_platform_0.
+10:32:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1614418284000,  Project:1614371318000
+10:32:44 INFO  : The hardware specification for project 'W2812b_design_1_wrapper_hw_platform_0' is different from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf.
+10:32:44 INFO  : Copied contents of /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf into /W2812b_design_1_wrapper_hw_platform_0/system.hdf.
+10:32:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:32:48 INFO  : 
+10:32:49 INFO  : Updating hardware inferred compiler options for bare_metal_app.
+10:32:49 INFO  : Clearing existing target manager status.
+10:32:49 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:32:50 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+10:39:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:39:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+10:39:11 INFO  : FPGA configured successfully with bitstream "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/W2812b_design_1_wrapper.bit"
+10:41:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+10:41:15 INFO  : 'fpga -state' command is executed.
+10:41:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:41:15 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+10:41:15 INFO  : 'jtag frequency' command is executed.
+10:41:15 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:41:15 INFO  : Context for 'APU' is selected.
+10:41:15 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+10:41:15 INFO  : 'configparams force-mem-access 1' command is executed.
+10:41:15 INFO  : Context for 'APU' is selected.
+10:41:15 INFO  : 'stop' command is executed.
+10:41:15 INFO  : 'ps7_init' command is executed.
+10:41:15 INFO  : 'ps7_post_config' command is executed.
+10:41:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:41:15 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:41:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:41:16 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:41:16 INFO  : 'configparams force-mem-access 0' command is executed.
+10:41:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:41:16 INFO  : Memory regions updated for context APU
+10:41:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:41:16 INFO  : 'con' command is executed.
+10:41:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+10:41:16 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+10:42:32 INFO  : Disconnected from the channel tcfchan#1.
+10:42:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+10:42:33 INFO  : 'fpga -state' command is executed.
+10:42:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:42:33 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+10:42:33 INFO  : 'jtag frequency' command is executed.
+10:42:33 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:42:33 INFO  : Context for 'APU' is selected.
+10:42:35 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+10:42:35 INFO  : 'configparams force-mem-access 1' command is executed.
+10:42:35 INFO  : Context for 'APU' is selected.
+10:42:35 INFO  : 'stop' command is executed.
+10:42:35 INFO  : 'ps7_init' command is executed.
+10:42:35 INFO  : 'ps7_post_config' command is executed.
+10:42:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:42:36 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:42:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:42:36 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:42:36 INFO  : 'configparams force-mem-access 0' command is executed.
+10:42:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:42:36 INFO  : Memory regions updated for context APU
+10:42:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:42:36 INFO  : 'con' command is executed.
+10:42:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+10:42:36 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+10:47:57 INFO  : Disconnected from the channel tcfchan#2.
+10:47:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+10:47:58 INFO  : 'fpga -state' command is executed.
+10:47:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:47:59 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+10:47:59 INFO  : 'jtag frequency' command is executed.
+10:47:59 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:47:59 INFO  : Context for 'APU' is selected.
+10:47:59 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+10:47:59 INFO  : 'configparams force-mem-access 1' command is executed.
+10:47:59 INFO  : Context for 'APU' is selected.
+10:47:59 INFO  : 'stop' command is executed.
+10:47:59 INFO  : 'ps7_init' command is executed.
+10:47:59 INFO  : 'ps7_post_config' command is executed.
+10:47:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:47:59 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:47:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:47:59 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:47:59 INFO  : 'configparams force-mem-access 0' command is executed.
+10:47:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:47:59 INFO  : Memory regions updated for context APU
+10:47:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:47:59 INFO  : 'con' command is executed.
+10:47:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+10:47:59 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+10:48:15 INFO  : Disconnected from the channel tcfchan#3.
+10:48:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+10:48:16 INFO  : 'fpga -state' command is executed.
+10:48:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:48:17 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+10:48:17 INFO  : 'jtag frequency' command is executed.
+10:48:17 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:48:17 INFO  : Context for 'APU' is selected.
+10:48:17 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+10:48:17 INFO  : 'configparams force-mem-access 1' command is executed.
+10:48:17 INFO  : Context for 'APU' is selected.
+10:48:17 INFO  : 'stop' command is executed.
+10:48:17 INFO  : 'ps7_init' command is executed.
+10:48:17 INFO  : 'ps7_post_config' command is executed.
+10:48:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:48:17 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:48:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:48:17 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:48:17 INFO  : 'configparams force-mem-access 0' command is executed.
+10:48:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:48:17 INFO  : Memory regions updated for context APU
+10:48:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:48:18 INFO  : 'con' command is executed.
+10:48:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+10:48:18 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+10:50:21 INFO  : Disconnected from the channel tcfchan#4.
+10:50:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+10:50:22 INFO  : 'fpga -state' command is executed.
+10:50:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:50:22 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+10:50:22 INFO  : 'jtag frequency' command is executed.
+10:50:22 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:50:22 INFO  : Context for 'APU' is selected.
+10:50:22 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+10:50:22 INFO  : 'configparams force-mem-access 1' command is executed.
+10:50:22 INFO  : Context for 'APU' is selected.
+10:50:22 INFO  : 'stop' command is executed.
+10:50:22 INFO  : 'ps7_init' command is executed.
+10:50:22 INFO  : 'ps7_post_config' command is executed.
+10:50:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:50:22 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:50:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:50:23 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:50:23 INFO  : 'configparams force-mem-access 0' command is executed.
+10:50:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:50:23 INFO  : Memory regions updated for context APU
+10:50:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:50:23 INFO  : 'con' command is executed.
+10:50:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+10:50:23 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+10:50:49 INFO  : Disconnected from the channel tcfchan#5.
+10:50:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+10:50:50 INFO  : 'fpga -state' command is executed.
+10:50:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:50:50 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+10:50:50 INFO  : 'jtag frequency' command is executed.
+10:50:50 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:50:50 INFO  : Context for 'APU' is selected.
+10:50:50 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+10:50:50 INFO  : 'configparams force-mem-access 1' command is executed.
+10:50:51 INFO  : Context for 'APU' is selected.
+10:50:51 INFO  : 'stop' command is executed.
+10:50:51 INFO  : 'ps7_init' command is executed.
+10:50:51 INFO  : 'ps7_post_config' command is executed.
+10:50:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:50:51 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:50:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:50:51 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:50:51 INFO  : 'configparams force-mem-access 0' command is executed.
+10:50:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:50:51 INFO  : Memory regions updated for context APU
+10:50:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:50:51 INFO  : 'con' command is executed.
+10:50:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+10:50:51 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+10:51:03 INFO  : Disconnected from the channel tcfchan#6.
+11:39:51 INFO  : Registering command handlers for SDK TCF services
+11:39:53 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+11:39:56 INFO  : XSCT server has started successfully.
+11:39:56 INFO  : Successfully done setting XSCT server connection channel  
+11:39:57 INFO  : Successfully done setting SDK workspace  
+11:39:57 INFO  : Processing command line option -hwspec /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf.
+11:39:57 INFO  : Checking for hwspec changes in the project W2812b_design_1_wrapper_hw_platform_0.
+11:40:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1614422294000,  Project:1614418284000
+11:40:01 INFO  : The hardware specification for project 'W2812b_design_1_wrapper_hw_platform_0' is different from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf.
+11:40:02 INFO  : Copied contents of /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf into /W2812b_design_1_wrapper_hw_platform_0/system.hdf.
+11:40:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:40:06 INFO  : 
+11:40:07 INFO  : Updating hardware inferred compiler options for bare_metal_app.
+11:40:07 INFO  : Clearing existing target manager status.
+11:40:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:40:08 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:41:05 INFO  : Registering command handlers for SDK TCF services
+11:41:06 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+11:41:09 INFO  : XSCT server has started successfully.
+11:41:09 INFO  : Successfully done setting XSCT server connection channel  
+11:41:09 INFO  : Successfully done setting SDK workspace  
+11:41:09 INFO  : Processing command line option -hwspec /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf.
+11:41:09 INFO  : Checking for hwspec changes in the project W2812b_design_1_wrapper_hw_platform_0.
+11:42:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+11:42:29 INFO  : FPGA configured successfully with bitstream "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/W2812b_design_1_wrapper.bit"
+11:42:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+11:42:37 INFO  : 'fpga -state' command is executed.
+11:42:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:37 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+11:42:37 INFO  : 'jtag frequency' command is executed.
+11:42:37 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:42:37 INFO  : Context for 'APU' is selected.
+11:42:37 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+11:42:37 INFO  : 'configparams force-mem-access 1' command is executed.
+11:42:37 INFO  : Context for 'APU' is selected.
+11:42:37 INFO  : 'stop' command is executed.
+11:42:37 INFO  : 'ps7_init' command is executed.
+11:42:37 INFO  : 'ps7_post_config' command is executed.
+11:42:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:37 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+11:42:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:38 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:42:38 INFO  : 'configparams force-mem-access 0' command is executed.
+11:42:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:42:38 INFO  : Memory regions updated for context APU
+11:42:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:38 INFO  : 'con' command is executed.
+11:42:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+11:42:38 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:18:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:18:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:18:35 INFO  : FPGA configured successfully with bitstream "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/W2812b_design_1_wrapper.bit"
+12:18:47 INFO  : Disconnected from the channel tcfchan#1.
+12:18:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:18:48 INFO  : 'fpga -state' command is executed.
+12:18:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:18:48 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:18:48 INFO  : 'jtag frequency' command is executed.
+12:18:48 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:18:48 INFO  : Context for 'APU' is selected.
+12:18:49 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:18:49 INFO  : 'configparams force-mem-access 1' command is executed.
+12:18:49 INFO  : Context for 'APU' is selected.
+12:18:50 INFO  : 'stop' command is executed.
+12:18:50 INFO  : 'ps7_init' command is executed.
+12:18:50 INFO  : 'ps7_post_config' command is executed.
+12:18:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:18:50 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:18:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:18:50 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:18:50 INFO  : 'configparams force-mem-access 0' command is executed.
+12:18:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:18:50 INFO  : Memory regions updated for context APU
+12:18:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:18:50 INFO  : 'con' command is executed.
+12:18:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:18:50 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:22:06 INFO  : Disconnected from the channel tcfchan#2.
+12:22:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:22:07 INFO  : 'fpga -state' command is executed.
+12:22:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:22:07 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:22:07 INFO  : 'jtag frequency' command is executed.
+12:22:07 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:22:07 INFO  : Context for 'APU' is selected.
+12:22:09 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:22:09 INFO  : 'configparams force-mem-access 1' command is executed.
+12:22:09 INFO  : Context for 'APU' is selected.
+12:22:09 INFO  : 'stop' command is executed.
+12:22:09 INFO  : 'ps7_init' command is executed.
+12:22:09 INFO  : 'ps7_post_config' command is executed.
+12:22:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:22:09 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:22:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:22:09 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:22:09 INFO  : 'configparams force-mem-access 0' command is executed.
+12:22:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:22:09 INFO  : Memory regions updated for context APU
+12:22:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:22:09 INFO  : 'con' command is executed.
+12:22:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:22:09 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:29:33 INFO  : Disconnected from the channel tcfchan#3.
+12:29:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:29:34 INFO  : 'fpga -state' command is executed.
+12:29:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:29:34 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:29:34 INFO  : 'jtag frequency' command is executed.
+12:29:34 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:29:34 INFO  : Context for 'APU' is selected.
+12:29:36 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:29:36 INFO  : 'configparams force-mem-access 1' command is executed.
+12:29:36 INFO  : Context for 'APU' is selected.
+12:29:36 INFO  : 'stop' command is executed.
+12:29:37 INFO  : 'ps7_init' command is executed.
+12:29:37 INFO  : 'ps7_post_config' command is executed.
+12:29:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:29:37 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:29:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:29:37 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:29:37 INFO  : 'configparams force-mem-access 0' command is executed.
+12:29:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:29:37 INFO  : Memory regions updated for context APU
+12:29:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:29:37 INFO  : 'con' command is executed.
+12:29:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:29:37 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:35:03 INFO  : Disconnected from the channel tcfchan#4.
+12:35:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:35:04 INFO  : 'fpga -state' command is executed.
+12:35:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:35:04 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:35:04 INFO  : 'jtag frequency' command is executed.
+12:35:04 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:35:04 INFO  : Context for 'APU' is selected.
+12:35:06 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:35:06 INFO  : 'configparams force-mem-access 1' command is executed.
+12:35:06 INFO  : Context for 'APU' is selected.
+12:35:06 INFO  : 'stop' command is executed.
+12:35:06 INFO  : 'ps7_init' command is executed.
+12:35:06 INFO  : 'ps7_post_config' command is executed.
+12:35:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:06 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:35:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:07 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:35:07 INFO  : 'configparams force-mem-access 0' command is executed.
+12:35:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:35:07 INFO  : Memory regions updated for context APU
+12:35:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:07 INFO  : 'con' command is executed.
+12:35:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:35:07 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:35:42 INFO  : Disconnected from the channel tcfchan#5.
+12:35:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:35:43 INFO  : 'fpga -state' command is executed.
+12:35:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:35:43 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:35:43 INFO  : 'jtag frequency' command is executed.
+12:35:43 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:35:43 INFO  : Context for 'APU' is selected.
+12:35:45 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:35:45 INFO  : 'configparams force-mem-access 1' command is executed.
+12:35:45 INFO  : Context for 'APU' is selected.
+12:35:45 INFO  : 'stop' command is executed.
+12:35:45 INFO  : 'ps7_init' command is executed.
+12:35:45 INFO  : 'ps7_post_config' command is executed.
+12:35:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:35:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:46 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:35:46 INFO  : 'configparams force-mem-access 0' command is executed.
+12:35:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:35:46 INFO  : Memory regions updated for context APU
+12:35:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:46 INFO  : 'con' command is executed.
+12:35:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:35:46 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:36:22 INFO  : Disconnected from the channel tcfchan#6.
+12:37:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:37:06 INFO  : 'fpga -state' command is executed.
+12:37:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:37:06 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:37:06 INFO  : 'jtag frequency' command is executed.
+12:37:06 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:37:06 INFO  : Context for 'APU' is selected.
+12:37:08 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:37:08 INFO  : 'configparams force-mem-access 1' command is executed.
+12:37:08 INFO  : Context for 'APU' is selected.
+12:37:08 INFO  : 'stop' command is executed.
+12:37:09 INFO  : 'ps7_init' command is executed.
+12:37:09 INFO  : 'ps7_post_config' command is executed.
+12:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:09 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:09 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:37:09 INFO  : 'configparams force-mem-access 0' command is executed.
+12:37:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:37:09 INFO  : Memory regions updated for context APU
+12:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:09 INFO  : 'con' command is executed.
+12:37:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:37:09 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:40:13 INFO  : Disconnected from the channel tcfchan#7.
+12:40:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:40:14 INFO  : 'fpga -state' command is executed.
+12:40:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:40:14 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:40:14 INFO  : 'jtag frequency' command is executed.
+12:40:14 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:40:14 INFO  : Context for 'APU' is selected.
+12:40:16 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:40:16 INFO  : 'configparams force-mem-access 1' command is executed.
+12:40:16 INFO  : Context for 'APU' is selected.
+12:40:16 INFO  : 'stop' command is executed.
+12:40:16 INFO  : 'ps7_init' command is executed.
+12:40:16 INFO  : 'ps7_post_config' command is executed.
+12:40:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:40:16 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:40:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:40:16 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:40:16 INFO  : 'configparams force-mem-access 0' command is executed.
+12:40:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:40:16 INFO  : Memory regions updated for context APU
+12:40:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:40:17 INFO  : 'con' command is executed.
+12:40:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:40:17 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:43:24 INFO  : Disconnected from the channel tcfchan#8.
+12:43:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:43:25 INFO  : 'fpga -state' command is executed.
+12:43:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:43:26 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:43:26 INFO  : 'jtag frequency' command is executed.
+12:43:26 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:43:26 INFO  : Context for 'APU' is selected.
+12:43:28 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:43:28 INFO  : 'configparams force-mem-access 1' command is executed.
+12:43:28 INFO  : Context for 'APU' is selected.
+12:43:28 INFO  : 'stop' command is executed.
+12:43:28 INFO  : 'ps7_init' command is executed.
+12:43:28 INFO  : 'ps7_post_config' command is executed.
+12:43:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:28 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:43:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:29 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:43:29 INFO  : 'configparams force-mem-access 0' command is executed.
+12:43:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:43:29 INFO  : Memory regions updated for context APU
+12:43:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:29 INFO  : 'con' command is executed.
+12:43:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:43:29 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:45:22 INFO  : Disconnected from the channel tcfchan#9.
+12:45:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:45:23 INFO  : 'fpga -state' command is executed.
+12:45:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:45:23 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:45:23 INFO  : 'jtag frequency' command is executed.
+12:45:23 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:45:23 INFO  : Context for 'APU' is selected.
+12:45:25 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:45:25 INFO  : 'configparams force-mem-access 1' command is executed.
+12:45:25 INFO  : Context for 'APU' is selected.
+12:45:25 INFO  : 'stop' command is executed.
+12:45:26 INFO  : 'ps7_init' command is executed.
+12:45:26 INFO  : 'ps7_post_config' command is executed.
+12:45:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:45:26 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:45:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:45:26 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:45:26 INFO  : 'configparams force-mem-access 0' command is executed.
+12:45:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:45:26 INFO  : Memory regions updated for context APU
+12:45:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:45:26 INFO  : 'con' command is executed.
+12:45:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:45:26 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:49:36 INFO  : Disconnected from the channel tcfchan#10.
+12:49:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:49:37 INFO  : 'fpga -state' command is executed.
+12:49:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:49:37 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:49:37 INFO  : 'jtag frequency' command is executed.
+12:49:37 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:49:37 INFO  : Context for 'APU' is selected.
+12:49:39 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:49:39 INFO  : 'configparams force-mem-access 1' command is executed.
+12:49:39 INFO  : Context for 'APU' is selected.
+12:49:39 INFO  : 'stop' command is executed.
+12:49:39 INFO  : 'ps7_init' command is executed.
+12:49:39 INFO  : 'ps7_post_config' command is executed.
+12:49:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:49:39 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:49:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:49:40 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:49:40 INFO  : 'configparams force-mem-access 0' command is executed.
+12:49:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:49:40 INFO  : Memory regions updated for context APU
+12:49:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:49:40 INFO  : 'con' command is executed.
+12:49:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:49:40 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:50:46 INFO  : Disconnected from the channel tcfchan#11.
+12:50:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248584969" && level==0} -index 1' command is executed.
+12:50:51 INFO  : 'fpga -state' command is executed.
+12:50:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:50:51 INFO  : Jtag cable 'Digilent Zed 210248584969' is selected.
+12:50:51 INFO  : 'jtag frequency' command is executed.
+12:50:51 INFO  : Sourcing of '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:50:51 INFO  : Context for 'APU' is selected.
+12:50:53 INFO  : Hardware design information is loaded from '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf'.
+12:50:53 INFO  : 'configparams force-mem-access 1' command is executed.
+12:50:53 INFO  : Context for 'APU' is selected.
+12:50:53 INFO  : 'stop' command is executed.
+12:50:54 INFO  : 'ps7_init' command is executed.
+12:50:54 INFO  : 'ps7_post_config' command is executed.
+12:50:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:50:54 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:50:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:50:54 INFO  : The application '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:50:54 INFO  : 'configparams force-mem-access 0' command is executed.
+12:50:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+loadhw -hw /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+dow /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare_metal_app/Debug/bare_metal_app.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:50:54 INFO  : Memory regions updated for context APU
+12:50:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:50:54 INFO  : 'con' command is executed.
+12:50:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248584969"} -index 0
+con
+----------------End of Script----------------
+
+12:50:54 INFO  : Launch script is exported to file '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_bare_metal_app.elf_on_local.tcl'
+12:51:08 INFO  : Disconnected from the channel tcfchan#12.
+13:28:13 INFO  : Registering command handlers for SDK TCF services
+13:28:15 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+13:28:18 INFO  : XSCT server has started successfully.
+13:28:18 INFO  : Successfully done setting XSCT server connection channel  
+13:28:18 INFO  : Successfully done setting SDK workspace  
+15:45:01 INFO  : Registering command handlers for SDK TCF services
+15:45:03 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+15:45:06 INFO  : XSCT server has started successfully.
+15:45:06 INFO  : Successfully done setting XSCT server connection channel  
+15:45:06 INFO  : Successfully done setting SDK workspace  
+16:26:24 INFO  : Registering command handlers for SDK TCF services
+16:26:26 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+16:26:29 INFO  : XSCT server has started successfully.
+16:26:29 INFO  : Successfully done setting XSCT server connection channel  
+16:26:30 INFO  : Successfully done setting SDK workspace  
+17:31:37 INFO  : Registering command handlers for SDK TCF services
+17:31:38 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+17:31:42 INFO  : XSCT server has started successfully.
+17:31:43 INFO  : Successfully done setting XSCT server connection channel  
+17:31:43 INFO  : Successfully done setting SDK workspace  
+17:37:00 INFO  : Registering command handlers for SDK TCF services
+17:37:01 INFO  : Launching XSCT server: xsct -n -interactive /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/temp_xsdb_launch_script.tcl
+17:37:04 INFO  : XSCT server has started successfully.
+17:37:05 INFO  : Successfully done setting XSCT server connection channel  
+17:37:05 INFO  : Successfully done setting SDK workspace  

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Dec  3 08:52:38 2020
+# Process ID: 15848
+# Current directory: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4016 C:\Users\wilson\Documents\Project\my_w2812b_Project\ip_repo\edit_myW2812bDesignIP_v1_0.xpr
+# Log file: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/vivado.log
+# Journal file: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Dec  3 10:43:40 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Dec  3 12:18:06 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log

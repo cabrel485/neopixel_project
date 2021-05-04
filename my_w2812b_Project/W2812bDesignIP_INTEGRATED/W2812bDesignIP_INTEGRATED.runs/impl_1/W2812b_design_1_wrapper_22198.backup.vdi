@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Feb 27 11:13:03 2021
+# Process ID: 22198
+# Current directory: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.runs/impl_1
+# Command line: vivado -log W2812b_design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source W2812b_design_1_wrapper.tcl -notrace
+# Log file: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.runs/impl_1/W2812b_design_1_wrapper.vdi
+# Journal file: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source W2812b_design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/wilson/Xilinx/Vivado/2019.1/data/ip'.
+Command: link_design -top W2812b_design_1_wrapper -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Netlist 29-17] Analyzing 682 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_processing_system7_0_0/W2812b_design_1_processing_system7_0_0.xdc] for cell 'W2812b_design_1_i/processing_system7_0/inst'
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.294090 which will be rounded to 0.294 to ensure it is an integer multiple of 1 picosecond [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_processing_system7_0_0/W2812b_design_1_processing_system7_0_0.xdc:21]
+Finished Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_processing_system7_0_0/W2812b_design_1_processing_system7_0_0.xdc] for cell 'W2812b_design_1_i/processing_system7_0/inst'
+Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_rst_ps7_0_100M_0/W2812b_design_1_rst_ps7_0_100M_0_board.xdc] for cell 'W2812b_design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_rst_ps7_0_100M_0/W2812b_design_1_rst_ps7_0_100M_0_board.xdc] for cell 'W2812b_design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_rst_ps7_0_100M_0/W2812b_design_1_rst_ps7_0_100M_0.xdc] for cell 'W2812b_design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_rst_ps7_0_100M_0/W2812b_design_1_rst_ps7_0_100M_0.xdc] for cell 'W2812b_design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_axi_gpio_0_0/W2812b_design_1_axi_gpio_0_0_board.xdc] for cell 'W2812b_design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_axi_gpio_0_0/W2812b_design_1_axi_gpio_0_0_board.xdc] for cell 'W2812b_design_1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_axi_gpio_0_0/W2812b_design_1_axi_gpio_0_0.xdc] for cell 'W2812b_design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/sources_1/bd/W2812b_design_1/ip/W2812b_design_1_axi_gpio_0_0/W2812b_design_1_axi_gpio_0_0.xdc] for cell 'W2812b_design_1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1706.559 ; gain = 0.000 ; free physical = 149 ; free virtual = 550
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 480 instances were transformed.
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 96 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 192 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 96 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 96 instances
+
+10 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1706.559 ; gain = 341.992 ; free physical = 148 ; free virtual = 550
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 3 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1768.242 ; gain = 61.684 ; free physical = 129 ; free virtual = 544
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 17ba952e9
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2204.102 ; gain = 435.859 ; free physical = 75 ; free virtual = 162

@@ -1,0 +1,6 @@
+Breakpoint File Version 1.0
+117 true C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.srcs/sources_1/new/WS2812_FEED.vhd
+131 true C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.srcs/sources_1/new/WS2812_FEED.vhd
+65 true C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.srcs/sources_1/new/WS2812_controller.vhd
+139 true C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.srcs/sources_1/new/WS2812_FEED.vhd
+142 true C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.srcs/sources_1/new/WS2812_FEED.vhd

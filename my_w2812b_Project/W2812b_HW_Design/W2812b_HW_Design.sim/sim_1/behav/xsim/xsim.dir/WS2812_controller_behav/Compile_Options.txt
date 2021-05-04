@@ -1,0 +1,1 @@
+-wto "20284ac54ea34f73831e45d01022907a" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "WS2812_controller_behav" "xil_defaultlib.WS2812_controller" -log "elaborate.log" 

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Feb 27 11:36:38 2021
+# Process ID: 6341
+# Current directory: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.runs/impl_1
+# Command line: vivado -log W2812b_design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source W2812b_design_1_wrapper.tcl -notrace
+# Log file: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.runs/impl_1/W2812b_design_1_wrapper.vdi
+# Journal file: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source W2812b_design_1_wrapper.tcl -notrace

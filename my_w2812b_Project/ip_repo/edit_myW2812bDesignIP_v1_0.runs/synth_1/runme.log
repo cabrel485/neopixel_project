@@ -1,0 +1,455 @@
+
+*** Running vivado
+    with args -log myW2812bDesignIP_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source myW2812bDesignIP_v1_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source myW2812bDesignIP_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/wilson/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top myW2812bDesignIP_v1_0 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19481 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:02:20 . Memory (MB): peak = 1500.379 ; gain = 145.461 ; free physical = 833 ; free virtual = 1061
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'myW2812bDesignIP_v1_0' [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0.vhd:49]
+	Parameter size_of_led_vector bound to: 8 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter nber_led_vec_size bound to: 8 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'myW2812bDesignIP_v1_0_S00_AXI' declared at '/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:5' bound to instance 'myW2812bDesignIP_v1_0_S00_AXI_inst' of component 'myW2812bDesignIP_v1_0_S00_AXI' [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'myW2812bDesignIP_v1_0_S00_AXI' [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:86]
+	Parameter nber_led_vec_size bound to: 8 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:403]
+	Parameter clock_frequency bound to: 100000000 - type: integer 
+	Parameter number_led_vector_size bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'WS2812_controller' declared at '/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/src/WS2812_controller.vhd:5' bound to instance 'ctr_led_0' of component 'WS2812_controller' [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:487]
+INFO: [Synth 8-638] synthesizing module 'WS2812_controller' [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/src/WS2812_controller.vhd:23]
+	Parameter clock_frequency bound to: 100000000 - type: integer 
+	Parameter number_led_vector_size bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'WS2812_controller' (1#1) [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/src/WS2812_controller.vhd:23]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:274]
+WARNING: [Synth 8-6014] Unused sequential element loc_reg0_reg was removed.  [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:280]
+WARNING: [Synth 8-6014] Unused sequential element led_idx_reg was removed.  [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:281]
+WARNING: [Synth 8-6014] Unused sequential element loc_reg2_reg was removed.  [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:294]
+WARNING: [Synth 8-6014] Unused sequential element index_reg was removed.  [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:452]
+INFO: [Synth 8-256] done synthesizing module 'myW2812bDesignIP_v1_0_S00_AXI' (2#1) [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'myW2812bDesignIP_v1_0' (3#1) [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0.vhd:49]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:02:23 . Memory (MB): peak = 1554.129 ; gain = 199.211 ; free physical = 793 ; free virtual = 1089
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:02:23 . Memory (MB): peak = 1557.098 ; gain = 202.180 ; free physical = 789 ; free virtual = 1087
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:02:24 . Memory (MB): peak = 1565.102 ; gain = 210.184 ; free physical = 788 ; free virtual = 1088
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'WS2812_controller'
+INFO: [Synth 8-4471] merging register 'slv_reg1_reg[31:0]' into 'slv_reg0_reg[31:0]' [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:269]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loc_reg1_reg' and it is trimmed from '32' to '8' bits. [/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:289]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                    load |                              001 |                              001
+                   parse |                              010 |                              010
+                send_bit |                              011 |                              011
+                next_led |                              100 |                              100
+                    show |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'WS2812_controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:02:24 . Memory (MB): peak = 1573.109 ; gain = 218.191 ; free physical = 734 ; free virtual = 1047
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               24 Bit    Registers := 2     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 11    
++---RAMs : 
+	              23K Bit         RAMs := 1     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   5 Input     24 Bit        Muxes := 1     
+	   4 Input     24 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   6 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module WS2812_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 3     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 11    
+Module myW2812bDesignIP_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 9     
++---RAMs : 
+	              23K Bit         RAMs := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   5 Input     24 Bit        Muxes := 1     
+	   4 Input     24 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 7     
+	   6 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_wstrb[3]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_wstrb[2]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_wstrb[1]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_wstrb[0]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design myW2812bDesignIP_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[7]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[7]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[0]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[0]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[1]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[1]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[2]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[2]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[3]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[3]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[4]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[4]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[5]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[5]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg_rep[6]' (FDE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/led_index_in_reg[6]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[0]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[1]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[2]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[3]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[4]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[5]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[6]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[7]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[8]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[9]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[10]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[11]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[12]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[13]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[14]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[15]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[16]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[17]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[18]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[19]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[20]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[21]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[22]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[23]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[24]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[25]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[25]' (FD) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[26]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[26]' (FD) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[27]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[27]' (FD) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[28]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[28]' (FD) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[29]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[29]' (FD) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[30]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31]'
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[30]' (FD) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg0_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myW2812bDesignIP_v1_0_S00_AXI_inst/slv_reg3_reg[31] )
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myW2812bDesignIP_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'myW2812bDesignIP_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'myW2812bDesignIP_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myW2812bDesignIP_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:02:29 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 449 ; free virtual = 851
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------------+---------------------------------------------------+-----------+----------------------+---------------------------------------------------------------+
+|Module Name           | RTL Object                                        | Inference | Size (Depth x Width) | Primitives                                                    | 
++----------------------+---------------------------------------------------+-----------+----------------------+---------------------------------------------------------------+
+|myW2812bDesignIP_v1_0 | myW2812bDesignIP_v1_0_S00_AXI_inst/color_data_reg | Implied   | 256 x 24             | RAM16X1D x 48  RAM32X1D x 24  RAM64X1D x 24  RAM128X1D x 24   | 
++----------------------+---------------------------------------------------+-----------+----------------------+---------------------------------------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:02:29 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 452 ; free virtual = 854
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++----------------------+---------------------------------------------------+-----------+----------------------+---------------------------------------------------------------+
+|Module Name           | RTL Object                                        | Inference | Size (Depth x Width) | Primitives                                                    | 
++----------------------+---------------------------------------------------+-----------+----------------------+---------------------------------------------------------------+
+|myW2812bDesignIP_v1_0 | myW2812bDesignIP_v1_0_S00_AXI_inst/color_data_reg | Implied   | 256 x 24             | RAM16X1D x 48  RAM32X1D x 24  RAM64X1D x 24  RAM128X1D x 24   | 
++----------------------+---------------------------------------------------+-----------+----------------------+---------------------------------------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:02:30 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 436 ; free virtual = 853
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 846
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 846
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 846
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 846
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 846
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 846
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |    37|
+|3     |LUT1      |    97|
+|4     |LUT2      |   103|
+|5     |LUT3      |    28|
+|6     |LUT4      |    48|
+|7     |LUT5      |   114|
+|8     |LUT6      |    30|
+|9     |MUXF7     |     4|
+|10    |RAM128X1D |    24|
+|11    |RAM16X1D  |    48|
+|12    |RAM32X1D  |    24|
+|13    |RAM64X1D  |    24|
+|14    |FDCE      |     3|
+|15    |FDRE      |   281|
+|16    |FDSE      |     3|
+|17    |IBUF      |    43|
+|18    |OBUF      |    42|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+------------------------------+------+
+|      |Instance                             |Module                        |Cells |
++------+-------------------------------------+------------------------------+------+
+|1     |top                                  |                              |   954|
+|2     |  myW2812bDesignIP_v1_0_S00_AXI_inst |myW2812bDesignIP_v1_0_S00_AXI |   868|
+|3     |    ctr_led_0                        |WS2812_controller             |   455|
++------+-------------------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 846
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 26 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.305 ; gain = 359.387 ; free physical = 361 ; free virtual = 847
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:02:34 . Memory (MB): peak = 1714.312 ; gain = 359.387 ; free physical = 360 ; free virtual = 847
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 161 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1821.844 ; gain = 0.000 ; free physical = 229 ; free virtual = 774
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 120 instances were transformed.
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 24 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 48 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 24 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 24 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+75 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:02:37 . Memory (MB): peak = 1821.844 ; gain = 467.184 ; free physical = 313 ; free virtual = 874
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1821.844 ; gain = 0.000 ; free physical = 313 ; free virtual = 875
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/myW2812bDesignIP_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file myW2812bDesignIP_v1_0_utilization_synth.rpt -pb myW2812bDesignIP_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 27 11:00:18 2021...

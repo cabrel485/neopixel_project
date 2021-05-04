@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 26 18:19:06 2020
+# Process ID: 12000
+# Current directory: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13372 C:\Users\wilson\Documents\Project\my_w2812b_Project\W2812b_HW_Design\W2812b_HW_Design.xpr
+# Log file: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/vivado.log
+# Journal file: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Nov 26 18:20:23 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Nov 26 18:21:48 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.runs/synth_1/runme.log
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Nov 26 18:25:12 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.runs/synth_1/runme.log
+create_peripheral xilinx.com user myW2812bDesignIP 1.0 -dir C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/../ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core xilinx.com:user:myW2812bDesignIP:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design -force [ipx::find_open_core xilinx.com:user:myW2812bDesignIP:1.0]
+write_peripheral [ipx::find_open_core xilinx.com:user:myW2812bDesignIP:1.0]
+set_property  ip_repo_paths  C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/../ip_repo/myW2812bDesignIP_1.0 [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+ipx::edit_ip_in_project -upgrade true -name edit_myW2812bDesignIP_v1_0 -directory C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/../ip_repo c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1282.461 ; gain = 6.250
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/src C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812b_HW_Design/W2812b_HW_Design.srcs/sources_1/new/WS2812_controller.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Thu Nov 26 19:30:11 2020] Launched synth_1...
+Run output will be captured here: c:/users/wilson/documents/project/my_w2812b_project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Nov 26 19:34:42 2020] Launched synth_1...
+Run output will be captured here: c:/users/wilson/documents/project/my_w2812b_project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property value_validation_type none [ipx::get_user_parameters number_leds -of_objects [ipx::current_core]]
+ipgui::add_param -name {number_leds} -component [ipx::current_core] -display_name {Number Leds} -show_label {true} -show_range {true} -widget {}
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified .Providing a default widget
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Nov 26 19:36:47 2020] Launched synth_1...
+Run output will be captured here: c:/users/wilson/documents/project/my_w2812b_project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property widget {textEdit} [ipgui::get_guiparamspec -name "number_leds" -component [ipx::current_core] ]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 26 20:39:50 2020...

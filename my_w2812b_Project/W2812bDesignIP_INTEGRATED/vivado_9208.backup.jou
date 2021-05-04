@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec  4 16:16:16 2020
+# Process ID: 9208
+# Current directory: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3876 C:\Users\wilson\Documents\Project\my_w2812b_Project\W2812bDesignIP_INTEGRATED\W2812bDesignIP_INTEGRATED.xpr
+# Log file: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/vivado.log
+# Journal file: C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.xpr
+update_compile_order -fileset sources_1
+file copy -force C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.runs/impl_1/W2812b_design_1_wrapper.sysdef C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf
+
+launch_sdk -workspace C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk -hwspec C:/Users/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/W2812b_design_1_wrapper.hdf

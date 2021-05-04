@@ -1,0 +1,1265 @@
+12:17:14 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:18:43 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:22:01 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/led.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.cc"
+Finished building: ../src/led.cc
+ 
+Building target: bare_metal_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../bare_metal_app_bsp/ps7_cortexa9_0/lib -o "bare_metal_app.elf"  ./src/led.o ./src/main.o ./src/my_gpio.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: bare_metal_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bare_metal_app.elf  |tee "bare_metal_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41200	   2600	  23328	  67128	  10638	bare_metal_app.elf
+Finished building: bare_metal_app.elf.size
+ 
+12:29:29 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/led.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.cc"
+Finished building: ../src/led.cc
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: bare_metal_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../bare_metal_app_bsp/ps7_cortexa9_0/lib -o "bare_metal_app.elf"  ./src/led.o ./src/main.o ./src/my_gpio.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: bare_metal_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bare_metal_app.elf  |tee "bare_metal_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41284	   2600	  23328	  67212	  1068c	bare_metal_app.elf
+Finished building: bare_metal_app.elf.size
+ 
+12:35:00 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/led.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.cc"
+Finished building: ../src/led.cc
+ 
+Building target: bare_metal_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../bare_metal_app_bsp/ps7_cortexa9_0/lib -o "bare_metal_app.elf"  ./src/led.o ./src/main.o ./src/my_gpio.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: bare_metal_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bare_metal_app.elf  |tee "bare_metal_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41284	   2600	  23328	  67212	  1068c	bare_metal_app.elf
+Finished building: bare_metal_app.elf.size
+ 
+12:35:39 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:37:03 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:39:16 **** Auto Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:75:6: error: 'printf' was not declared in this scope
+      printf("Update completedb \n");
+      ^~~~~~
+../src/main.cc:75:6: note: 'printf' is defined in header '<cstdio>'; did you forget to '#include <cstdio>'?
+../src/main.cc:10:1:
++#include <cstdio>
+ 
+../src/main.cc:75:6:
+      printf("Update completedb \n");
+      ^~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:27: recipe for target 'src/main.o' failed
+12:39:30 **** Auto Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:75:6: error: 'printf' was not declared in this scope
+      printf("Update completed \n");
+      ^~~~~~
+../src/main.cc:75:6: note: 'printf' is defined in header '<cstdio>'; did you forget to '#include <cstdio>'?
+../src/main.cc:10:1:
++#include <cstdio>
+ 
+../src/main.cc:75:6:
+      printf("Update completed \n");
+      ^~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:27: recipe for target 'src/main.o' failed
+12:40:04 **** Auto Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: bare_metal_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../bare_metal_app_bsp/ps7_cortexa9_0/lib -o "bare_metal_app.elf"  ./src/led.o ./src/main.o ./src/my_gpio.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: bare_metal_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bare_metal_app.elf  |tee "bare_metal_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46772	   2600	  23328	  72700	  11bfc	bare_metal_app.elf
+Finished building: bare_metal_app.elf.size
+ 
+12:40:09 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:43:21 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:45:19 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:49:32 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/led.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.cc"
+Finished building: ../src/led.cc
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: bare_metal_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../bare_metal_app_bsp/ps7_cortexa9_0/lib -o "bare_metal_app.elf"  ./src/led.o ./src/main.o ./src/my_gpio.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: bare_metal_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bare_metal_app.elf  |tee "bare_metal_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46772	   2600	  23328	  72700	  11bfc	bare_metal_app.elf
+Finished building: bare_metal_app.elf.size
+ 
+12:50:49 **** Incremental Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:51:39 **** Auto Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/led.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.cc"
+Finished building: ../src/led.cc
+ 
+Building target: bare_metal_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../bare_metal_app_bsp/ps7_cortexa9_0/lib -o "bare_metal_app.elf"  ./src/led.o ./src/main.o ./src/my_gpio.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: bare_metal_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bare_metal_app.elf  |tee "bare_metal_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46772	   2600	  23328	  72700	  11bfc	bare_metal_app.elf
+Finished building: bare_metal_app.elf.size
+ 
+12:53:46 **** Auto Build of configuration Debug for project bare_metal_app ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/led.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../bare_metal_app_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.cc"
+Finished building: ../src/led.cc
+ 
+Building target: bare_metal_app.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../bare_metal_app_bsp/ps7_cortexa9_0/lib -o "bare_metal_app.elf"  ./src/led.o ./src/main.o ./src/my_gpio.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: bare_metal_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size bare_metal_app.elf  |tee "bare_metal_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46772	   2600	  23328	  72700	  11bfc	bare_metal_app.elf
+Finished building: bare_metal_app.elf.size
+ 
+13:29:31 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+13:32:07 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+13:37:06 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7984	    512	     64	   8560	   2170	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:37:18 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:121:2: error: ‘start_t’ undeclared (first use in this function); did you mean ‘stack_t’?
+src/subdir.mk:21: recipe for target 'src/myapp.o' failed
+  start_t = clock();
+  ^~~~~~~
+  stack_t
+../src/myapp.c:121:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/myapp.o] Error 1
+13:37:30 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7916	    508	     60	   8484	   2124	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:38:34 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7916	    508	     60	   8484	   2124	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:45:48 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8048	    508	     60	   8616	   21a8	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:52:09 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8052	    508	     60	   8620	   21ac	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:54:23 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8056	    508	     60	   8624	   21b0	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:56:14 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8056	    508	     60	   8624	   21b0	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:58:20 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8068	    508	     60	   8636	   21bc	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+13:58:25 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:04:48 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:05:53 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:06:27 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:07:19 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:09:37 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:10:31 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:18:30 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:19:32 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8143	    512	     60	   8715	   220b	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:26:08 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:26:11 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:230:14: warning: unused variable ‘state’ [-Wunused-variable]
+          int state = get_update_state();
+              ^~~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8139	    512	     60	   8711	   2207	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:27:47 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:28:03 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:31:51 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8143	    512	     60	   8715	   220b	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:33:43 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8199	    512	     60	   8771	   2243	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:36:11 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8183	    512	     60	   8755	   2233	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:36:37 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:38:51 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8203	    512	     60	   8775	   2247	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:39:44 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:227:12: warning: unused variable ‘a’ [-Wunused-variable]
+        int a = get_update_state();
+            ^
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8191	    512	     60	   8763	   223b	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:43:38 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:210:14: warning: unused variable ‘a’ [-Wunused-variable]
+          int a = 0;
+              ^
+../src/myapp.c:209:19: warning: unused variable ‘echo’ [-Wunused-variable]
+          uint32_t echo = led_set_color_echo();
+                   ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8219	    512	     60	   8791	   2257	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:45:44 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:210:14: warning: unused variable ‘a’ [-Wunused-variable]
+          int a = 0;
+              ^
+../src/myapp.c:209:14: warning: unused variable ‘echo’ [-Wunused-variable]
+          int echo = led_set_color_echo();
+              ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8223	    512	     60	   8795	   225b	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:46:07 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:51:30 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8127	    512	     60	   8699	   21fb	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:52:19 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:172:10: warning: unused variable ‘child_pid’ [-Wunused-variable]
+    pid_t child_pid = 0;
+          ^~~~~~~~~
+../src/myapp.c:110:6: warning: unused variable ‘led_idx’ [-Wunused-variable]
+  int led_idx;
+      ^~~~~~~
+../src/myapp.c:109:7: warning: unused variable ‘intval’ [-Wunused-variable]
+  long intval;
+       ^~~~~~
+../src/myapp.c:108:8: warning: variable ‘response’ set but not used [-Wunused-but-set-variable]
+  char *response;
+        ^~~~~~~~
+../src/myapp.c:106:8: warning: variable ‘recvBuff’ set but not used [-Wunused-but-set-variable]
+  char *recvBuff;
+        ^~~~~~~~
+../src/myapp.c:104:53: warning: unused variable ‘send_len’ [-Wunused-variable]
+  int listenfd = 0, connfd = 0, fd, recvlen, buflen, send_len;
+                                                     ^~~~~~~~
+../src/myapp.c:104:45: warning: unused variable ‘buflen’ [-Wunused-variable]
+  int listenfd = 0, connfd = 0, fd, recvlen, buflen, send_len;
+                                             ^~~~~~
+../src/myapp.c:104:36: warning: unused variable ‘recvlen’ [-Wunused-variable]
+  int listenfd = 0, connfd = 0, fd, recvlen, buflen, send_len;
+                                    ^~~~~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6699	    480	     60	   7239	   1c47	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:55:09 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:178:14: warning: unused variable ‘echo’ [-Wunused-variable]
+     uint32_t echo = led_set_color_echo();
+              ^~~~
+../src/myapp.c:172:10: warning: unused variable ‘child_pid’ [-Wunused-variable]
+    pid_t child_pid = 0;
+          ^~~~~~~~~
+../src/myapp.c:110:6: warning: unused variable ‘led_idx’ [-Wunused-variable]
+  int led_idx;
+      ^~~~~~~
+../src/myapp.c:109:7: warning: unused variable ‘intval’ [-Wunused-variable]
+  long intval;
+       ^~~~~~
+../src/myapp.c:108:8: warning: variable ‘response’ set but not used [-Wunused-but-set-variable]
+  char *response;
+        ^~~~~~~~
+../src/myapp.c:106:8: warning: variable ‘recvBuff’ set but not used [-Wunused-but-set-variable]
+  char *recvBuff;
+        ^~~~~~~~
+../src/myapp.c:104:53: warning: unused variable ‘send_len’ [-Wunused-variable]
+  int listenfd = 0, connfd = 0, fd, recvlen, buflen, send_len;
+                                                     ^~~~~~~~
+../src/myapp.c:104:45: warning: unused variable ‘buflen’ [-Wunused-variable]
+  int listenfd = 0, connfd = 0, fd, recvlen, buflen, send_len;
+                                             ^~~~~~
+../src/myapp.c:104:36: warning: unused variable ‘recvlen’ [-Wunused-variable]
+  int listenfd = 0, connfd = 0, fd, recvlen, buflen, send_len;
+                                    ^~~~~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6739	    480	     60	   7279	   1c6f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+14:55:36 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:57:06 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+14:59:23 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:141:12: warning: unused variable ‘echo’ [-Wunused-variable]
+   uint32_t echo = led_set_color_echo();
+            ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5675	    444	     60	   6179	   1823	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:00:18 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:141:12: warning: unused variable ‘echo’ [-Wunused-variable]
+   uint32_t echo = led_set_color_echo();
+            ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5675	    444	     60	   6179	   1823	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:02:28 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function ‘axi_slv2_read’:
+../src/led.c:155:9: warning: implicit declaration of function ‘ntonl’; did you mean ‘htonl’? [-Wimplicit-function-declaration]
+  return ntonl(*((uint32_t *)(mem_ptr+page_offset_led+REG2_OFFSET)));
+         ^~~~~
+         htonl
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+/home/wilson/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/8.2.0/../../../../arm-linux-gnueabihf/bin/ld: ./src/led.o: in function `axi_slv2_read':
+/home/wilson/Documents/project-saved-peta-app/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/testmyapp/Debug/../src/led.c:155: undefined reference to `ntonl'
+collect2: error: ld returned 1 exit status
+makefile:37: recipe for target 'testmyapp.elf' failed
+make: *** [testmyapp.elf] Error 1
+15:02:56 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5723	    448	     60	   6231	   1857	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:03:00 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:03:50 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5671	    444	     60	   6175	   181f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:04:46 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5611	    440	     60	   6111	   17df	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:05:09 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:142:7: warning: unused variable ‘a’ [-Wunused-variable]
+   int a = 0;
+       ^
+../src/myapp.c:141:12: warning: unused variable ‘echo’ [-Wunused-variable]
+   uint32_t echo = led_set_color_echo();
+            ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5619	    440	     60	   6119	   17e7	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:08:59 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:142:7: warning: unused variable ‘a’ [-Wunused-variable]
+   int a = 0;
+       ^
+../src/myapp.c:141:12: warning: unused variable ‘echo’ [-Wunused-variable]
+   uint32_t echo = led_set_color_echo();
+            ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5599	    440	     60	   6099	   17d3	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:09:37 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:142:7: warning: unused variable ‘a’ [-Wunused-variable]
+   int a = 0;
+       ^
+../src/myapp.c:141:12: warning: unused variable ‘echo’ [-Wunused-variable]
+   uint32_t echo = led_set_color_echo();
+            ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5619	    440	     60	   6119	   17e7	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:10:52 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:144:7: warning: unused variable ‘a’ [-Wunused-variable]
+   int a = 0;
+       ^
+../src/myapp.c:143:7: warning: unused variable ‘val’ [-Wunused-variable]
+   int val = get_update_state();
+       ^~~
+../src/myapp.c:141:12: warning: unused variable ‘echo’ [-Wunused-variable]
+   uint32_t echo = led_set_color_echo();
+            ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5631	    440	     60	   6131	   17f3	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:12:22 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:31 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:14:55 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:145:7: warning: unused variable ‘a’ [-Wunused-variable]
+   int a = 0;
+       ^
+../src/myapp.c:143:7: warning: unused variable ‘val’ [-Wunused-variable]
+   int val = get_update_state();
+       ^~~
+../src/myapp.c:141:12: warning: unused variable ‘echo’ [-Wunused-variable]
+   uint32_t echo = led_set_color_echo();
+            ^~~~
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5635	    440	     60	   6135	   17f7	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:15:46 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:16:00 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:31 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8115	    512	     60	   8687	   21ef	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:20:35 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+../src/myapp.c: In function ‘main’:
+../src/myapp.c:230:12: error: ‘val’ undeclared (first use in this function)
+         if(val = get_update_state())
+            ^~~
+../src/myapp.c:230:12: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:21: recipe for target 'src/myapp.o' failed
+make: *** [src/myapp.o] Error 1
+15:20:40 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8131	    512	     60	   8703	   21ff	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:23:29 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:28:49 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:30:50 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:41:01 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+15:43:25 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+15:45:45 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:54 **** Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:15:37 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:16:04 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:17:59 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building file: ../src/myapp.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/myapp.o" -MMD -MP -MF"src/myapp.d" -MT"src/myapp.o" -o "src/myapp.o" "../src/myapp.c"
+Finished building: ../src/myapp.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+17:18:22 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:18:25 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:25:54 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:32:05 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:33:47 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8068	    508	     60	   8636	   21bc	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+17:37:14 **** Auto Build of configuration Debug for project testmyapp ****
+make all 
+Building file: ../src/led.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -I"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/include" -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+Finished building: ../src/led.c
+ 
+Building target: testmyapp.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/usr/lib" -L"/home/wilson/Documents/updated_my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs/lib" -o "testmyapp.elf"  ./src/led.o ./src/myapp.o   
+Finished building target: testmyapp.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size testmyapp.elf  |tee "testmyapp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8147	    512	     60	   8719	   220f	testmyapp.elf
+Finished building: testmyapp.elf.size
+ 
+17:37:18 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:37 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:40 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:42 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:44 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:52 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:05 **** Incremental Build of configuration Debug for project testmyapp ****
+make all 
+make: Nothing to be done for 'all'.

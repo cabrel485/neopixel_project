@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="get_update_state" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="get_update_state"/>
+			<item value="axi_slv0_write"/>
+			<item value="axi_slv3_read"/>
+			<item value="axi_slv0_read"/>
+			<item value="start_t"/>
+			<item value="init_leds"/>
+			<item value="setGpioLed"/>
+			<item value="gpioControl"/>
+		</list>
+		<list key="replacehistory">
+			<item value="LED_AXI_BASE_ADDR"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="312" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="450" key="DIALOG_HEIGHT"/>
+		<item value="1160" key="DIALOG_X_ORIGIN"/>
+		<item value="326" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

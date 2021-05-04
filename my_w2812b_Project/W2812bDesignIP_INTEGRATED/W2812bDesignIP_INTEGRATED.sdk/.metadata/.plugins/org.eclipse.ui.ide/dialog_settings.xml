@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/wilson/Documents/project-saved-peta-app/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/testmyapp"/>
+		<item value="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/WS2812b_SW"/>
+		<item value="/home/wilson/Documents/project-saved-peta-app/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare metal app/WS2812b_SW_bsp"/>
+		<item value="/home/wilson/Documents/project-saved-peta-app/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/bare metal app/WS2812b_SW"/>
+		<item value="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/testmyapp"/>
+		<item value="/home/wilson/Documents/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/testmyapp"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>

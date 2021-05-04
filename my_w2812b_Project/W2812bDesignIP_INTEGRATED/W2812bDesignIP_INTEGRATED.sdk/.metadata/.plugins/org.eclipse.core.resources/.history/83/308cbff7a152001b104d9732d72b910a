@@ -1,0 +1,308 @@
+/*****************************************************************************/
+/*                         I N C L U D E   F I L E S                         */
+/*****************************************************************************/
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+#include <time.h>
+
+#include "led.h"
+
+/*****************************************************************************/
+/*                            D E F I N E S                                */
+/* 			 !!!!!!!do not modify this block of definition!!!!!!                   */
+/*****************************************************************************/
+
+#define LED0_AXI_BASE_ADDR		0x43C00000
+#define LED0_AXI_HIGH_ADDR		0x43C0FFFF
+
+#define LED1_AXI_BASE_ADDR		0x43C10000
+#define LED1_AXI_HIGH_ADDR		0x43C1FFFF
+
+#define LED2_AXI_BASE_ADDR		0x43C20000
+#define LED2_AXI_HIGH_ADDR		0x43C2FFFF
+
+#define LED3_AXI_BASE_ADDR		0x43C30000
+#define LED3_AXI_HIGH_ADDR		0x43C3FFFF
+
+/*****************************************************************************/
+/*                            D E F I N E S    END                           */
+/*****************************************************************************/
+
+int optionParser (int argc, char **argv);
+void error(char *msg);
+
+/*****************************************************************************/
+/*                                M A I N                                    */
+/*****************************************************************************/
+int main(int argc, char *argv[])
+{
+	int listenfd = 0, connfd = 0, fd, recvlen, buflen, send_len, pid, PORT = 8875;
+	struct sockaddr_in serv_addr;
+	char *recvBuff;
+	char *buffer;
+	char *response;
+	long intval;
+	int led_idx;
+
+	/* Mux(select call) Variable */
+	fd_set fds;
+    struct timeval timeout;
+	int mux = 0;
+
+
+	if(argc < 3) error("failed to start. \nuse port and nbr of pixels like: path/filename socket_port number_leds\n\nNB, number_leds_max = 255\n");
+
+	if(atoi(argv[1]) <= 0 || atoi(argv[2]) <= 0 || atoi(argv[2]) > 255) error("failed to start. valid conditions : \nport > 0 and 0 < nbr led <256 \n");
+
+
+	/*****************************************************************************/
+	/*                                INIT                                   */
+	/*****************************************************************************/
+
+	start_t = clock();
+	PORT = atoi(argv[1]);
+	NUM_LEDS = atoi(argv[2]);
+	//NUM_LEDS = 64; // default value. will be set by init
+	page_size_led = sysconf(_SC_PAGESIZE);
+	fd = open("/dev/mem",O_RDWR);
+	page_addr_led	= (LED0_AXI_BASE_ADDR & ~(page_size_led-1));
+	page_offset_led	= LED0_AXI_BASE_ADDR - page_addr_led;
+
+	mem_ptr = mmap(NULL,page_size_led,PROT_READ|PROT_WRITE,MAP_SHARED,fd,(LED0_AXI_BASE_ADDR & ~(page_size_led-1)));
+
+	//Allocate memory
+	recvBuff = (char*)malloc(1*sizeof(char));
+	buffer = (char*)malloc(20*sizeof(char));
+
+	// set the default number of leds
+	set_number_led(NUM_LEDS);
+	usleep(20000);  // spend some clock to set the number of led
+	// reset all leds
+	init_leds();
+
+
+	fprintf(stdout,"End Init\n");
+
+	/*****************************************************************************/
+	/*                                Create the TCP socket                                   */
+	/*****************************************************************************/
+
+    if((listenfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) error("Failed to create socket\n");
+    memset(&serv_addr, '0', sizeof(serv_addr));
+
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    serv_addr.sin_port = htons(PORT);
+
+    if((bind(listenfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr))) < 0) error("Failed to bind socket\n");
+    listen(listenfd, 10);
+	while(1)
+	{
+		if((connfd = accept(listenfd, (struct sockaddr*)NULL, NULL)) < 0) fprintf(stdout,"Failed on accept \n");
+
+		pid = fork();
+		if (pid < 0)
+			fprintf(stdout, "ERROR on fork \n");
+		if (pid == 0)
+		{
+			close(listenfd);
+
+			 /* Create a descriptor set containing our two sockets.  */
+			FD_ZERO(&fds);
+			FD_SET(connfd, &fds); // set new client for multiplexing
+			sprintf(buffer, " "); // clear buffer, in oder for it not to contain invalid data
+			while(1)
+			{
+				 /* Set time limit. */
+				  timeout.tv_sec = 3;
+				  timeout.tv_usec = 0;
+
+				  mux = select(connfd+1, &fds, NULL, NULL, NULL);
+				  if (mux < 0) {
+					 perror("select failed");
+					 fprintf(stdout,"Client disconnected\n");
+					 return -1;
+				  }
+
+				  if (mux > 0)
+				  {
+
+						memset(recvBuff, '0', 1);
+						recvlen = read(connfd,recvBuff,1);
+						if (recvlen > 0)
+						{
+							recvBuff[recvlen]='\0';
+							// send response to client if ":" in recvBuff  :
+							if(strncmp(recvBuff, ";",1)==0 || strncmp(recvBuff, "?",1)==0)
+							{
+								fprintf(stdout,"client said: %s \n", buffer);
+								//fprintf(stdout, " %d bytes \n", strlen(buffer));
+
+								buflen = strlen(buffer);
+								buffer[buflen] = '\0';
+
+								if(strncmp(buffer, " show",4)==0)
+								{
+									//fprintf(stdout,"show \n");
+									show();
+								}
+								else if(strncmp(buffer, " init",4)==0)
+								{
+									//fprintf(stdout,"show \n");
+									init_leds();
+								}
+								else  // pixel data
+								{
+									intval = atol(buffer);
+									led_idx = intval >> 24;
+									if(led_idx>= 0 && led_idx < NUM_LEDS && led_idx < 256)  // support max 1 byte
+									{
+										fprintf(stdout,"send \n");
+										axi_slv0_write(intval);
+									}
+									else
+									{
+										response = "pixel index is out of range !";
+										send_len = write(connfd, response, strlen(response));
+										if (send_len < 1)
+										{
+											fprintf(stdout,"Error by writing to client\n");
+											close(connfd); // close child socket if connection get lost
+										}
+									}
+								}
+
+								if(strncmp(recvBuff, "?",1)==0)  // response to client if "?" comes
+								{
+									response = "DONE";
+									send_len = write(connfd, response, strlen(response));
+									if (send_len < 1)
+									{
+										fprintf(stdout,"Error by writing to client\n");
+										close(connfd); // close child socket if connection get lost
+									}
+								}
+
+								sprintf(buffer, " ");
+								continue;
+							}
+
+							strcat(buffer, recvBuff);  // add the byte into the buffer
+						}
+						else
+						{
+							fprintf(stdout,"empty buffer\n");
+							//close child socket if connection get lost
+							//and select will remove its process on next select()
+							close(connfd);
+						}
+				  }
+				}
+		} else close(connfd); // close child socket if fork failed
+	}
+    munmap(mem_ptr, page_size_led);
+
+}
+
+
+void error(char *msg)
+{
+    perror(msg);
+    exit(1);
+}
+
+int optionParser (int argc, char **argv)
+{
+  int c;
+  static int verbose_flag;
+
+  while (1)
+    {
+      static struct option long_options[] =
+        {
+          /* These options don’t set a flag.
+             We distinguish them by their indices. */
+          {"help"   ,  no_argument, 0, 'h'},
+          {"display",  required_argument, 0, 'd'},
+          {"port"   ,  required_argument, 0, 'p'},
+          {"length" ,  required_argument, 0, 'l'},
+          {"verbose",  no_argument      , 0, 'v'},
+          {0, 0, 0, 0}
+        };
+      /* getopt_long stores the option index here. */
+      int option_index = -1;
+
+      c = getopt_long (argc, argv, "hd:p:l:v",
+                       long_options, &option_index);
+
+      /* Detect the end of the options. */
+      if (c == -1)
+        break;
+
+      switch (c)
+        {
+        case 0:
+          /* If this option set a flag, do nothing else now. */
+          if (long_options[option_index].flag != 0)
+            break;
+          printf ("option %s", long_options[option_index].name);
+          if (optarg)
+            printf (" with arg %s", optarg);
+          printf ("\n");
+          break;
+
+        case 'h':
+          fprintf(stdout,"\nthe program needs some arguments to start properly. Those argument are: \n"
+                            "1. usage: -d / --display  value. desc: A display number from 0 up to 3. These number depend on which pin on the zedboard the display is connected.\n"
+                            "    0 = > JA1 ; 1 = > JA1 ; 2 = > JB1 ; 3 => JB2 . Specified \n"
+                            "2. usage: -l / --length  value. desc: a display length. This is the number of pixel(leds) that the display contains.\n"
+                            "3. usage: -p / --port  value. desc: a socket port on wich the server will launch. This port have to be in range 1024 - 65535\n"
+                            "4. (optional) usage: -v / --verbose. desc: this will allow the program to print all the socket-trafic  on the terminal.\n\n"
+
+                            "Exemple : \"path/programName -d 1 -l 64 -p 8888\"\n\n");
+        exit(0);
+        case 'd':
+          printf ("server control display %s ", optarg);
+          break;
+
+        case 'p':
+          printf ("on port %s.\n", optarg);
+          break;
+
+        case 'l':
+          printf ("with %s pixel(s) ", optarg);
+          break;
+
+        case 'v':
+          verbose_flag = 1;
+
+          printf ("All the trafic will be printed on terminal\n");
+          break;
+
+        case '?':
+          /* getopt_long already printed an error message. */
+          break;
+
+        default:
+        return -1;
+          //abort ();
+        }
+    }
+
+   fprintf(stdout, "continue \n");
+  if (verbose_flag)
+    puts ("verbose flag is set");
+
+
+  return (0);
+}

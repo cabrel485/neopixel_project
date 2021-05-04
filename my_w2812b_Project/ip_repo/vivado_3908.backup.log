@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec  4 17:04:18 2020
+# Process ID: 3908
+# Current directory: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8552 C:\Users\wilson\Documents\Project\my_w2812b_Project\ip_repo\edit_myW2812bDesignIP_v1_0.xpr
+# Log file: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/vivado.log
+# Journal file: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Dec  4 17:06:43 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+ipx::open_ipxact_file {C:\Users\wilson\Documents\Project\my_w2812b_Project\ip_repo\myW2812bDesignIP_1.0\component.xml}
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/src/WS2812_controller.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/src/WS2812_controller.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0_S00_AXI.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_vhdlbehavioralsimulation (VHDL Simulation)': File 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/hdl/myW2812bDesignIP_v1_0.vhd' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 27 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Dec  4 17:36:59 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+set_property core_revision 28 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+set_property core_revision 29 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Dec  4 18:25:47 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Dec  4 18:27:02 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+set_property core_revision 30 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+set_property value 8 [ipx::get_user_parameters size_of_led_vector -of_objects [ipx::current_core]]
+set_property value 8 [ipx::get_hdl_parameters size_of_led_vector -of_objects [ipx::current_core]]
+ipgui::add_param -name {size_of_led_vector} -component [ipx::current_core] -display_name {Size of the vector for the number of leds} -show_label {true} -show_range {true} -widget {}
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified .Providing a default widget
+set_property core_revision 31 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Dec  4 19:11:46 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Dec  4 19:13:18 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Dec  4 19:13:58 2020] Launched synth_1...
+Run output will be captured here: C:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/edit_myW2812bDesignIP_v1_0.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::merge_project_changes ports [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 32 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+set_property core_revision 33 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/wilson/Documents/Project/my_w2812b_Project/ip_repo/myW2812bDesignIP_1.0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  4 20:09:54 2020...

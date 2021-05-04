@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 3 resources" deleteContents="true" description="Delete 3 resources" element1="/W2812b_design_1_wrapper_hw_platform_0" element2="/WS2812b_SW" element3="/WS2812b_SW_bsp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1610196647868"/>
+</session>
