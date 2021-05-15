@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444634.27 
+make-4.2.1-r0: do_package_write_rpm_setscene
+Elapsed time: 0.20 seconds
+utime: 23
+stime: 3
+cutime: 2
+cstime: 1
+IO wchar: 2475421
+IO syscr: 395
+IO write_bytes: 1314816
+IO cancelled_write_bytes: 0
+IO read_bytes: 962560
+IO rchar: 2389616
+IO syscw: 353
+rusage ru_utime: 0.23934899999999998
+rusage ru_stime: 0.037991
+rusage ru_maxrss: 131416
+rusage ru_minflt: 13348
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 87
+Child rusage ru_utime: 0.02403
+Child rusage ru_stime: 0.010491
+Child rusage ru_maxrss: 128644
+Child rusage ru_minflt: 2239
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1880
+Child rusage ru_oublock: 2392
+Child rusage ru_nvcsw: 58
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1614444634.47 

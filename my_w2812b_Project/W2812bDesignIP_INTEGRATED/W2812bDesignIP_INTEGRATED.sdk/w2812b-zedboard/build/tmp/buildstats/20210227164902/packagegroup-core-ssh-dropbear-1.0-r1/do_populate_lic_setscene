@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444590.47 
+packagegroup-core-ssh-dropbear-1.0-r1: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 14
+stime: 3
+cutime: 0
+cstime: 1
+IO wchar: 128636
+IO syscr: 177
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 187910
+IO syscw: 126
+rusage ru_utime: 0.14871299999999998
+rusage ru_stime: 0.034318
+rusage ru_maxrss: 131176
+rusage ru_minflt: 6544
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 144
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 97
+Child rusage ru_utime: 0.007789
+Child rusage ru_stime: 0.019644
+Child rusage ru_maxrss: 128496
+Child rusage ru_minflt: 2164
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1614444590.59 

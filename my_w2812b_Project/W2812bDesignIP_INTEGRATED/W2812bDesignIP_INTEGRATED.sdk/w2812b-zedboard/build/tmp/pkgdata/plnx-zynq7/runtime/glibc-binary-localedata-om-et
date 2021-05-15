@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-om-et: binary locale definition for om-et
+SUMMARY_glibc-binary-localedata-om-et: binary locale definition for om-et
+SECTION: base
+PKG_glibc-binary-localedata-om-et: glibc-binary-localedata-om-et
+FILES_glibc-binary-localedata-om-et: /usr/lib/locale/om_ET
+FILES_INFO: {"/usr/lib/locale/om_ET/LC_TELEPHONE": 56, "/usr/lib/locale/om_ET/LC_PAPER": 34, "/usr/lib/locale/om_ET/LC_NUMERIC": 54, "/usr/lib/locale/om_ET/LC_MONETARY": 290, "/usr/lib/locale/om_ET/LC_IDENTIFICATION": 401, "/usr/lib/locale/om_ET/LC_COLLATE": 2588954, "/usr/lib/locale/om_ET/LC_NAME": 68, "/usr/lib/locale/om_ET/LC_MEASUREMENT": 23, "/usr/lib/locale/om_ET/LC_CTYPE": 348812, "/usr/lib/locale/om_ET/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/om_ET/LC_TIME": 3548, "/usr/lib/locale/om_ET/LC_ADDRESS": 133}
+PKGSIZE_glibc-binary-localedata-om-et: 2942439

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444613.60 
+gawk-4.2.1-r0: do_populate_lic_setscene
+Elapsed time: 0.22 seconds
+utime: 34
+stime: 7
+cutime: 1
+cstime: 1
+IO wchar: 278995
+IO syscr: 198
+IO write_bytes: 155648
+IO cancelled_write_bytes: 0
+IO read_bytes: 24576
+IO rchar: 367063
+IO syscw: 144
+rusage ru_utime: 0.348142
+rusage ru_stime: 0.071536
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13408
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 134
+Child rusage ru_utime: 0.01587
+Child rusage ru_stime: 0.011436
+Child rusage ru_maxrss: 128732
+Child rusage ru_minflt: 2258
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444613.83 

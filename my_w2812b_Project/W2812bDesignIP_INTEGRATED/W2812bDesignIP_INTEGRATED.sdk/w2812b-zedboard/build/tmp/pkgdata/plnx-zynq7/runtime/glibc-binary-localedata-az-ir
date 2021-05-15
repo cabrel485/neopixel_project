@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-az-ir: binary locale definition for az-ir
+SUMMARY_glibc-binary-localedata-az-ir: binary locale definition for az-ir
+SECTION: base
+PKG_glibc-binary-localedata-az-ir: glibc-binary-localedata-az-ir
+FILES_glibc-binary-localedata-az-ir: /usr/lib/locale/az_IR
+FILES_INFO: {"/usr/lib/locale/az_IR/LC_TELEPHONE": 70, "/usr/lib/locale/az_IR/LC_PAPER": 34, "/usr/lib/locale/az_IR/LC_MONETARY": 310, "/usr/lib/locale/az_IR/LC_MEASUREMENT": 23, "/usr/lib/locale/az_IR/LC_IDENTIFICATION": 326, "/usr/lib/locale/az_IR/LC_CTYPE": 342232, "/usr/lib/locale/az_IR/LC_TIME": 5368, "/usr/lib/locale/az_IR/LC_ADDRESS": 162, "/usr/lib/locale/az_IR/LC_NUMERIC": 54, "/usr/lib/locale/az_IR/LC_COLLATE": 2586878, "/usr/lib/locale/az_IR/LC_NAME": 102, "/usr/lib/locale/az_IR/LC_MESSAGES/SYS_LC_MESSAGES": 72}
+PKGSIZE_glibc-binary-localedata-az-ir: 2935631

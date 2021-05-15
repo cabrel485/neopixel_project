@@ -1,0 +1,14 @@
+PN: glibc
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RPROVIDES_glibc-lic:  glibc-lic (=2.28)
+SECTION: libs
+PKG_glibc-lic: libc6-lic
+FILES_glibc-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/glibc/LICENSES": 18941, "/usr/share/licenses/glibc/COPYRIGHT": 956, "/usr/share/licenses/glibc/generic_LGPLv2.1": 25878, "/usr/share/licenses/glibc/COPYING": 18092, "/usr/share/licenses/glibc/COPYING.LIB": 26530, "/usr/share/licenses/glibc/generic_GPLv2": 17611}
+PKGSIZE_glibc-lic: 108008

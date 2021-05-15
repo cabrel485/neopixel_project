@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444602.68 
+automake-native-1.16.1-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 26
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 210650
+IO syscr: 199
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 281382
+IO syscw: 145
+rusage ru_utime: 0.265623
+rusage ru_stime: 0.042968
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13361
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 160
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 79
+Child rusage ru_utime: 0.017806
+Child rusage ru_stime: 0.011843
+Child rusage ru_maxrss: 128724
+Child rusage ru_minflt: 2286
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1614444602.78 

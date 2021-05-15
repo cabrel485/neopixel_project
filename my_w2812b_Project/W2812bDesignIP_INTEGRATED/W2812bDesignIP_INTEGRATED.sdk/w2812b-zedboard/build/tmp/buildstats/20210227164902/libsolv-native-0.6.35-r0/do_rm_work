@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444797.66 
+libsolv-native-0.6.35-r0: do_rm_work
+Elapsed time: 0.09 seconds
+utime: 15
+stime: 1
+cutime: 1
+cstime: 1
+IO wchar: 31941
+IO syscr: 175
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 163840
+IO rchar: 149709
+IO syscw: 30
+rusage ru_utime: 0.159984
+rusage ru_stime: 0.011998
+rusage ru_maxrss: 131740
+rusage ru_minflt: 4722
+rusage ru_majflt: 0
+rusage ru_inblock: 80
+rusage ru_oublock: 72
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.017172
+Child rusage ru_stime: 0.014450999999999999
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 3482
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 240
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 77
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1614444797.75 

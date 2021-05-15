@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-html: Python HTML processing support
+RDEPENDS_python-html: python-core
+RRECOMMENDS_python-html: python-lic
+SECTION: devel/python
+PKG_python-html: python-html
+FILES_python-html:  /usr/lib/python2.7/HTMLParser.py /usr/lib/python2.7/HTMLParser.pyc /usr/lib/python2.7/formatter.py /usr/lib/python2.7/formatter.pyc /usr/lib/python2.7/htmlentitydefs.py /usr/lib/python2.7/htmlentitydefs.pyc /usr/lib/python2.7/htmllib.py /usr/lib/python2.7/htmllib.pyc /usr/lib/python2.7/markupbase.py /usr/lib/python2.7/markupbase.pyc /usr/lib/python2.7/sgmllib.py /usr/lib/python2.7/sgmllib.pyc
+FILES_INFO: {"/usr/lib/python2.7/HTMLParser.py": 17171, "/usr/lib/python2.7/htmlentitydefs.pyc": 6365, "/usr/lib/python2.7/formatter.pyc": 19024, "/usr/lib/python2.7/htmllib.pyc": 20127, "/usr/lib/python2.7/markupbase.pyc": 9233, "/usr/lib/python2.7/sgmllib.pyc": 15342, "/usr/lib/python2.7/sgmllib.py": 17884, "/usr/lib/python2.7/htmlentitydefs.py": 18056, "/usr/lib/python2.7/formatter.py": 14911, "/usr/lib/python2.7/HTMLParser.pyc": 13663, "/usr/lib/python2.7/htmllib.py": 12869, "/usr/lib/python2.7/markupbase.py": 14643}
+PKGSIZE_python-html: 179288

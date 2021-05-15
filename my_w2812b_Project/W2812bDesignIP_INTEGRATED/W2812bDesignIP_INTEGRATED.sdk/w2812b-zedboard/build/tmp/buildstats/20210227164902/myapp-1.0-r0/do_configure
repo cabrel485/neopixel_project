@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444785.41 
+myapp-1.0-r0: do_configure
+Elapsed time: 0.07 seconds
+utime: 15
+stime: 1
+cutime: 0
+cstime: 0
+IO wchar: 29110
+IO syscr: 1087
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 89010
+IO syscw: 22
+rusage ru_utime: 0.152086
+rusage ru_stime: 0.012006
+rusage ru_maxrss: 131740
+rusage ru_minflt: 4783
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.006776
+Child rusage ru_stime: 0.004037
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 774
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 5
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1614444785.48 

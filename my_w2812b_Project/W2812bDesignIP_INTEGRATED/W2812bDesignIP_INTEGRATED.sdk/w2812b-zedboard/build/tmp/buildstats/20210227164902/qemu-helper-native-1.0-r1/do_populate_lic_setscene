@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444617.66 
+qemu-helper-native-1.0-r1: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 11
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 172095
+IO syscr: 182
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 258542
+IO syscw: 129
+rusage ru_utime: 0.117645
+rusage ru_stime: 0.03795
+rusage ru_maxrss: 131188
+rusage ru_minflt: 6524
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 173
+Child rusage ru_utime: 0.012853
+Child rusage ru_stime: 0.013869999999999999
+Child rusage ru_maxrss: 128504
+Child rusage ru_minflt: 2247
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1614444617.77 

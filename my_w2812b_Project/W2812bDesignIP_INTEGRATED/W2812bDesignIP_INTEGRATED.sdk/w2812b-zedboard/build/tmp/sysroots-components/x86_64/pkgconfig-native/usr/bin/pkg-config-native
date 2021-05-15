@@ -1,0 +1,7 @@
+#! /bin/sh
+
+PKG_CONFIG_PATH="FIXMESTAGINGDIRHOST/usr/lib/pkgconfig:FIXMESTAGINGDIRHOST/usr/share/pkgconfig"
+PKG_CONFIG_LIBDIR="FIXMESTAGINGDIRHOST/usr/lib/pkgconfig"
+unset PKG_CONFIG_SYSROOT_DIR
+
+pkg-config.real "$@"

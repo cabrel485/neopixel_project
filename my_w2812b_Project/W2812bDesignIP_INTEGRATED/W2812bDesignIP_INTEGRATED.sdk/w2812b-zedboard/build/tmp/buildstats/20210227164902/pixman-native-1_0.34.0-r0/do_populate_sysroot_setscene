@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444658.51 
+pixman-native-1_0.34.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.13 seconds
+utime: 35
+stime: 6
+cutime: 0
+cstime: 2
+IO wchar: 1646875
+IO syscr: 289
+IO write_bytes: 831488
+IO cancelled_write_bytes: 0
+IO read_bytes: 282624
+IO rchar: 1306046
+IO syscw: 259
+rusage ru_utime: 0.35098199999999996
+rusage ru_stime: 0.062199
+rusage ru_maxrss: 131464
+rusage ru_minflt: 13460
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 177
+Child rusage ru_utime: 0.008078
+Child rusage ru_stime: 0.026619
+Child rusage ru_maxrss: 128720
+Child rusage ru_minflt: 2300
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 552
+Child rusage ru_oublock: 1448
+Child rusage ru_nvcsw: 43
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1614444658.65 

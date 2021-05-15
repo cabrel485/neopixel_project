@@ -1,0 +1,15 @@
+PN: ca-certificates
+PV: 20180409
+PR: r0
+PKGV: 20180409
+PKGR: r0
+LICENSE: GPL-2.0+ & MPL-2.0
+DESCRIPTION_ca-certificates-staticdev: This package includes PEM files of CA certificates to allow SSL-based applications to check for the authenticity of SSL connections. This derived from Debian's CA Certificates.  This package contains static libraries for software development.
+SUMMARY_ca-certificates-staticdev: Common CA certificates - Development files (Static Libraries)
+RDEPENDS_ca-certificates-staticdev: ca-certificates-dev (= 20180409-r0)
+RRECOMMENDS_ca-certificates-staticdev: ca-certificates-lic
+SECTION_ca-certificates-staticdev: devel
+PKG_ca-certificates-staticdev: ca-certificates-staticdev
+FILES_ca-certificates-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ca-certificates/*.a
+FILES_INFO: {}
+PKGSIZE_ca-certificates-staticdev: 0

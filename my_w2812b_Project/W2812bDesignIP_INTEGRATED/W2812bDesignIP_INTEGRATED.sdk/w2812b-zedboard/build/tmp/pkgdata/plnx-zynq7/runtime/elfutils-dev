@@ -1,0 +1,16 @@
+PN: elfutils
+PV: 0.175
+PR: r0
+PKGV: 0.175
+PKGR: r0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION_elfutils-dev: Utilities and libraries for handling compiled object files.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_elfutils-dev: Utilities and libraries for handling compiled object files - Development files
+RDEPENDS_elfutils-dev: elfutils (= 0.175-r0) libasm libdw libelf
+RRECOMMENDS_elfutils-dev: bzip2-dev elfutils-lic libtool-dev zlib-dev libdw-dev libstdc++-dev libelf-dev glibc-dev libbz2-dev libasm-dev
+SECTION_elfutils-dev: devel
+PKG_elfutils-dev: elfutils-dev
+ALLOW_EMPTY_elfutils-dev: 1
+FILES_elfutils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/elfutils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/include/elfutils/libasm.h": 7094, "/usr/include/nlist.h": 1601, "/usr/lib/libasm.so": 11, "/usr/include/elfutils/known-dwarf.h": 41677, "/usr/lib/pkgconfig/libelf.pc": 262, "/usr/include/elfutils/libdwelf.h": 6105, "/usr/lib/pkgconfig/libdw.pc": 639, "/usr/include/elfutils/version.h": 1274, "/usr/include/elfutils/libebl.h": 16784, "/usr/lib/libelf.so": 11, "/usr/include/libelf.h": 19573, "/usr/include/gelf.h": 11312, "/usr/lib/libdw.so": 10, "/usr/include/dwarf.h": 30795, "/usr/include/elfutils/elf-knowledge.h": 3947, "/usr/include/elfutils/libdwfl.h": 38301, "/usr/include/elfutils/libdw.h": 44920}
+PKGSIZE_elfutils-dev: 224316

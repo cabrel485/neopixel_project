@@ -1,0 +1,13 @@
+PN: linux-libc-headers
+PV: 4.18
+PR: r0
+PKGV: 4.18
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Sanitized set of kernel headers for the C library's use.
+SUMMARY: Sanitized set of kernel headers for the C library's use
+SECTION: devel
+PKG_linux-libc-headers-lic: linux-libc-headers-lic
+FILES_linux-libc-headers-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/linux-libc-headers/COPYING": 423, "/usr/share/licenses/linux-libc-headers/generic_GPLv2": 17611}
+PKGSIZE_linux-libc-headers-lic: 18034

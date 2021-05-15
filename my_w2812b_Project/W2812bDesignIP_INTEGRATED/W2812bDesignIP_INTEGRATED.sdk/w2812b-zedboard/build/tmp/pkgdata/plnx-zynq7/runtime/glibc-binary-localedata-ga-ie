@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ga-ie: binary locale definition for ga-ie
+SUMMARY_glibc-binary-localedata-ga-ie: binary locale definition for ga-ie
+SECTION: base
+PKG_glibc-binary-localedata-ga-ie: glibc-binary-localedata-ga-ie
+FILES_glibc-binary-localedata-ga-ie: /usr/lib/locale/ga_IE
+FILES_INFO: {"/usr/lib/locale/ga_IE/LC_ADDRESS": 150, "/usr/lib/locale/ga_IE/LC_MEASUREMENT": 23, "/usr/lib/locale/ga_IE/LC_COLLATE": 2586242, "/usr/lib/locale/ga_IE/LC_TIME": 3768, "/usr/lib/locale/ga_IE/LC_CTYPE": 337024, "/usr/lib/locale/ga_IE/LC_MONETARY": 294, "/usr/lib/locale/ga_IE/LC_IDENTIFICATION": 318, "/usr/lib/locale/ga_IE/LC_TELEPHONE": 52, "/usr/lib/locale/ga_IE/LC_NAME": 62, "/usr/lib/locale/ga_IE/LC_NUMERIC": 54, "/usr/lib/locale/ga_IE/LC_PAPER": 34, "/usr/lib/locale/ga_IE/LC_MESSAGES/SYS_LC_MESSAGES": 61}
+PKGSIZE_glibc-binary-localedata-ga-ie: 2928082

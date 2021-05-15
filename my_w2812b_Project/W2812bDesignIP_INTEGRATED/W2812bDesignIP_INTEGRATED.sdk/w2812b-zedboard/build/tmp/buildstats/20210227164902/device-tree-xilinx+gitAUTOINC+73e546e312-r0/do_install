@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444751.85 
+device-tree-xilinx+gitAUTOINC+73e546e312-r0: do_install
+Elapsed time: 1.13 seconds
+utime: 40
+stime: 39
+cutime: 2
+cstime: 4
+IO syscw: 24101
+IO rchar: 1833268
+IO cancelled_write_bytes: 0
+IO read_bytes: 1134592
+IO wchar: 3401841
+IO syscr: 10640
+IO write_bytes: 299008
+rusage ru_utime: 0.40818
+rusage ru_stime: 0.396406
+rusage ru_maxrss: 133832
+rusage ru_minflt: 17267
+rusage ru_majflt: 0
+rusage ru_inblock: 1824
+rusage ru_oublock: 160
+rusage ru_nvcsw: 672
+rusage ru_nivcsw: 18487
+Child rusage ru_utime: 0.026333
+Child rusage ru_stime: 0.042635
+Child rusage ru_maxrss: 130892
+Child rusage ru_minflt: 3559
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 392
+Child rusage ru_oublock: 424
+Child rusage ru_nvcsw: 279
+Child rusage ru_nivcsw: 167
+Status: PASSED 
+Ended: 1614444752.98 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444640.13 
+init-ifupdown-1.0-r7: do_packagedata_setscene
+Elapsed time: 0.20 seconds
+utime: 21
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 159808
+IO syscr: 176
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 214310
+IO syscw: 147
+rusage ru_utime: 0.216572
+rusage ru_stime: 0.046408
+rusage ru_maxrss: 131300
+rusage ru_minflt: 13155
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 95
+Child rusage ru_utime: 0.016215999999999998
+Child rusage ru_stime: 0.012905
+Child rusage ru_maxrss: 128536
+Child rusage ru_minflt: 2212
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1614444640.33 

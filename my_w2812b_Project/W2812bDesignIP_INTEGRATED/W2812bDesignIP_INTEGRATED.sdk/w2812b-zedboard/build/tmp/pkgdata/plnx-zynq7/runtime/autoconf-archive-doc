@@ -1,0 +1,14 @@
+PN: autoconf-archive
+PV: 2018.03.13
+PR: r0
+PKGV: 2018.03.13
+PKGR: r0
+LICENSE: GPL-3.0-with-autoconf-exception
+DESCRIPTION_autoconf-archive-doc: a collection of freely re-usable Autoconf macros.  This package contains documentation.
+SUMMARY_autoconf-archive-doc: a collection of freely re-usable Autoconf macros - Documentation files
+RRECOMMENDS_autoconf-archive-doc: autoconf-archive-lic
+SECTION_autoconf-archive-doc: doc
+PKG_autoconf-archive-doc: autoconf-archive-doc
+FILES_autoconf-archive-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/autoconf-archive.info-3": 298713, "/usr/share/info/autoconf-archive.info": 19664, "/usr/share/info/autoconf-archive.info-4": 258767, "/usr/share/info/autoconf-archive.info-1": 300681, "/usr/share/info/autoconf-archive.info-2": 301396}
+PKGSIZE_autoconf-archive-doc: 1179221

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444687.92 
+libarchive-native-3.3.3-r0: do_rm_work
+Elapsed time: 0.08 seconds
+utime: 23
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 40207
+IO syscr: 180
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 176031
+IO syscw: 37
+rusage ru_utime: 0.23152399999999998
+rusage ru_stime: 0.047089
+rusage ru_maxrss: 131544
+rusage ru_minflt: 11155
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 90
+Child rusage ru_utime: 0.017395
+Child rusage ru_stime: 0.010373
+Child rusage ru_maxrss: 128844
+Child rusage ru_minflt: 3330
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 43
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1614444688.00 

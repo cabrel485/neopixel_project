@@ -1,0 +1,13 @@
+PN: sysfsutils
+PV: 2.1.0
+PR: r5
+PKGV: 2.1.0
+PKGR: r5
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Tools for working with the sysfs virtual filesystem.  The tool 'systool' can query devices by bus, class and topology.
+SUMMARY: Tools for working with sysfs
+SECTION: base
+PKG_sysfsutils-lic: sysfsutils-lic
+FILES_sysfsutils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/sysfsutils/GPL": 16446, "/usr/share/licenses/sysfsutils/COPYING": 359, "/usr/share/licenses/sysfsutils/LGPL": 26617, "/usr/share/licenses/sysfsutils/generic_LGPLv2.1": 25878, "/usr/share/licenses/sysfsutils/generic_GPLv2": 17611}
+PKGSIZE_sysfsutils-lic: 86911

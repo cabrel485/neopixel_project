@@ -1,0 +1,218 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export AR="arm-xilinx-linux-gnueabi-ar"
+export AS="arm-xilinx-linux-gnueabi-as "
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export BUILD_CC="gcc "
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_CPP="gcc  -E"
+export BUILD_CPPFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/include"
+export BUILD_CXX="g++ "
+export BUILD_CXXFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_FC="gfortran "
+export BUILD_LD="ld "
+export BUILD_LDFLAGS="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export BUILD_STRIP="strip"
+export CC="arm-xilinx-linux-gnueabi-gcc  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot"
+export CCACHE_DIR="/home/wilson/.ccache"
+export CCLD="arm-xilinx-linux-gnueabi-gcc  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot"
+export CC_FOR_BUILD="gcc "
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0=/usr/src/debug/make/4.2.1-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native= "
+export CFLAGS_FOR_BUILD="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export CONFIG_SITE="/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/endian-little /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/arm-common /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/arm-32 /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/common-linux /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/common-glibc /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/arm-linux /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/common /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-openembedded/meta-networking/site/endian-little "
+export CPP="arm-xilinx-linux-gnueabi-gcc -E --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security"
+export CPPFLAGS=""
+export CPPFLAGS_FOR_BUILD="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/include"
+export CPP_FOR_BUILD="gcc  -E"
+export CXX="arm-xilinx-linux-gnueabi-g++  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot"
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0=/usr/src/debug/make/4.2.1-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden"
+export CXXFLAGS_FOR_BUILD="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export CXX_FOR_BUILD="g++ "
+unset DISTRO
+export FC="arm-xilinx-linux-gnueabi-gfortran  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot"
+export GETTEXTDATADIRS=":/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot/usr/share/gettext"
+export HOME="/home/wilson"
+export LC_ALL="en_US.UTF-8"
+export LD="arm-xilinx-linux-gnueabi-ld --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot "
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now"
+export LDFLAGS_FOR_BUILD="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export LD_FOR_BUILD="ld "
+export LOGNAME="wilson"
+unset MACHINE
+export MAKE="make"
+export NM="arm-xilinx-linux-gnueabi-nm"
+export OBJCOPY="arm-xilinx-linux-gnueabi-objcopy"
+export OBJDUMP="arm-xilinx-linux-gnueabi-objdump"
+export PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/bin/arm-xilinx-linux-gnueabi:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/microblaze/lin/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/armr5/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch64/lin/aarch64-none/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/bitbake/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools"
+export PKG_CONFIG_DIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export PKG_CONFIG_LIBDIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot/usr/lib/pkgconfig:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot/usr/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot"
+export PKG_CONFIG_SYSTEM_INCLUDE_PATH="/usr/include"
+export PKG_CONFIG_SYSTEM_LIBRARY_PATH="/lib:/usr/lib"
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export RANLIB="arm-xilinx-linux-gnueabi-ranlib"
+export READELF="arm-xilinx-linux-gnueabi-readelf"
+unset SHELL
+export STRINGS="arm-xilinx-linux-gnueabi-strings"
+export STRIP="arm-xilinx-linux-gnueabi-strip"
+unset TARGET_ARCH
+export TARGET_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0=/usr/src/debug/make/4.2.1-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native= "
+export TARGET_CPPFLAGS=""
+export TARGET_CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0=/usr/src/debug/make/4.2.1-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/recipe-sysroot-native= "
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now"
+export TERM="xterm-256color"
+export TZ="UTC"
+export USER="wilson"
+export base_bindir="/bin"
+export base_libdir="/lib"
+export base_prefix=""
+export base_sbindir="/sbin"
+export bindir="/usr/bin"
+export datadir="/usr/share"
+export docdir="/usr/share/doc"
+export exec_prefix="/usr"
+export includedir="/usr/include"
+export infodir="/usr/share/info"
+export libdir="/usr/lib"
+export libexecdir="/usr/libexec"
+export localstatedir="/var"
+export lt_cv_sys_lib_dlsearch_path_spec="/usr/lib /lib"
+export mandir="/usr/share/man"
+export nonarch_base_libdir="/lib"
+export nonarch_libdir="/usr/lib"
+export oldincludedir="/usr/include"
+export prefix="/usr"
+export sbindir="/usr/sbin"
+export servicedir="/srv"
+export sharedstatedir="/com"
+export sysconfdir="/etc"
+export systemd_system_unitdir="/lib/systemd/system"
+export systemd_unitdir="/lib/systemd"
+export systemd_user_unitdir="/usr/lib/systemd/user"
+
+do_rm_work() {
+    # If the recipe name is in the RM_WORK_EXCLUDE, skip the recipe.
+    for p in  myapp; do
+        if [ "$p" = "make" ]; then
+            bbnote "rm_work: Skipping make since it is in RM_WORK_EXCLUDE"
+            exit 0
+        fi
+    done
+
+    # Need to add pseudo back or subsqeuent work in this workdir
+    # might fail since setscene may not rerun to recreate it
+    mkdir -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/pseudo/
+
+    excludes='temp'
+
+    # Change normal stamps into setscene stamps as they better reflect the
+    # fact WORKDIR is now empty
+    # Also leave noexec stamps since setscene stamps don't cover them
+    cd `dirname /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/stamps/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0`
+    for i in `basename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/stamps/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0`*
+    do
+        # By default we'll delete the stamp, unless $i is changed by the inner loop
+        # (i=dummy does this)
+
+        case $i in
+        *sigdata*|*sigbasedata*)
+            # Save/skip anything that looks like a signature data file.
+            i=dummy
+            ;;
+        *do_image_complete_setscene*)
+            # Ensure we don't 'stack' setscene extensions to this stamp with the section below
+            i=dummy
+            ;;
+        *do_image_complete*)
+            # Promote do_image_complete stamps to setscene versions (ahead of *do_image* below)
+            mv $i `echo $i | sed -e "s#do_image_complete#do_image_complete_setscene#"`
+            i=dummy
+            ;;
+        *do_package_write*|*do_rootfs*|*do_image*|*do_bootimg*|*do_write_qemuboot_conf*|*do_build*)
+            i=dummy
+            ;;
+        *do_addto_recipe_sysroot*)
+            # Preserve recipe-sysroot-native if do_addto_recipe_sysroot has been used
+            excludes="$excludes recipe-sysroot-native"
+            i=dummy
+            ;;
+        *do_package|*do_package.*|*do_package_setscene.*)
+            # We remove do_package entirely, including any
+            # sstate version since otherwise we'd need to leave 'plaindirs' around
+            # such as 'packages' and 'packages-split' and these can be large. No end
+            # of chain tasks depend directly on do_package anymore.
+            rm -f $i;
+            i=dummy
+            ;;
+        *_setscene*)
+            # Skip stamps which are already setscene versions
+            i=dummy
+            ;;
+        esac
+
+        for j in do_package do_package_qa do_package_write_rpm do_packagedata do_populate_lic do_populate_sysroot do_shared_workdir
+        do
+            case $i in
+            dummy)
+                break
+                ;;
+            *$j|*$j.*)
+                # Promote the stamp to a setscene version
+                mv $i `echo $i | sed -e "s#${j}#${j}_setscene#"`
+                i=dummy
+                break
+                ;;
+            esac
+        done
+
+        rm -f $i
+    done
+
+    cd /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0
+    for dir in *
+    do
+        # Retain only logs and other files in temp, safely ignore
+        # failures of removing pseudo folers on NFS2/3 server.
+        if [ $dir = 'pseudo' ]; then
+            rm -rf $dir 2> /dev/null || true
+        elif ! echo "$excludes" | grep -q -w "$dir"; then
+            rm -rf $dir
+        fi
+    done
+}
+
+bbnote() {
+	if [ -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/temp/fifo.29765 ] ; then
+		printf "%b\0" "bbnote $*" > /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/make/4.2.1-r0/temp/fifo.29765
+	else
+		echo "NOTE: $*"
+	fi
+}
+
+do_rm_work
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

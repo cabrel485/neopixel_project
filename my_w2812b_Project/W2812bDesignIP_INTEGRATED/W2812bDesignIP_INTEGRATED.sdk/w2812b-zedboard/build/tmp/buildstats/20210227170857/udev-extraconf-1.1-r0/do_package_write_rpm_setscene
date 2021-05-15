@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445758.23 
+udev-extraconf-1.1-r0: do_package_write_rpm_setscene
+Elapsed time: 0.13 seconds
+utime: 13
+stime: 4
+cutime: 1
+cstime: 1
+IO cancelled_write_bytes: 0
+IO wchar: 136215
+IO syscr: 172
+IO syscw: 63
+IO rchar: 277496
+IO write_bytes: 98304
+IO read_bytes: 106496
+rusage ru_utime: 0.139118
+rusage ru_stime: 0.047696999999999996
+rusage ru_maxrss: 124516
+rusage ru_minflt: 6786
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 120
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 19
+Child rusage ru_utime: 0.012303
+Child rusage ru_stime: 0.015021999999999999
+Child rusage ru_maxrss: 121756
+Child rusage ru_minflt: 2067
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 192
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1614445758.36 

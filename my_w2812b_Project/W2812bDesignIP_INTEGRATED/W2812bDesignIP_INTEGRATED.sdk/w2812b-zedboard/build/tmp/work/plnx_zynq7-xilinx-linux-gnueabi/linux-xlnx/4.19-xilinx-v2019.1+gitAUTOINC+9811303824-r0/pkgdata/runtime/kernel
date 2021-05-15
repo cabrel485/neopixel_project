@@ -1,0 +1,15 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RDEPENDS_kernel: kernel-base
+RRECOMMENDS_kernel: linux-xlnx-lic
+SECTION: kernel
+PKG_kernel: kernel
+ALLOW_EMPTY_kernel: 1
+FILES_INFO: {}
+PKGSIZE_kernel: 0

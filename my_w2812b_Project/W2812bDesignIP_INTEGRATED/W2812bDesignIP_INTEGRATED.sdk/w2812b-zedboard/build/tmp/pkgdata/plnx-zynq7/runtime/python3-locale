@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY: The Python Programming Language
+RRECOMMENDS_python3-locale: python3-lic
+SECTION: devel/python
+PKG_python3-locale: python3-locale
+FILES_python3-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_python3-locale: 0

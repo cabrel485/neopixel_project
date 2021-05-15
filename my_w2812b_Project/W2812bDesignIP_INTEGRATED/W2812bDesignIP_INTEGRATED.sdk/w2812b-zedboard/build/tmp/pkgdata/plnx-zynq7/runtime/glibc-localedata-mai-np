@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mai-np: locale definition for mai-np
+SUMMARY_glibc-localedata-mai-np: locale definition for mai-np
+RDEPENDS_glibc-localedata-mai-np: glibc-localedata-hi-in glibc-localedata-mai-in glibc-localedata-ne-np
+SECTION: base
+PKG_glibc-localedata-mai-np: glibc-localedata-mai-np
+FILES_glibc-localedata-mai-np: /usr/share/i18n/locales/mai_NP
+FILES_INFO: {"/usr/share/i18n/locales/mai_NP": 1862}
+PKGSIZE_glibc-localedata-mai-np: 1862

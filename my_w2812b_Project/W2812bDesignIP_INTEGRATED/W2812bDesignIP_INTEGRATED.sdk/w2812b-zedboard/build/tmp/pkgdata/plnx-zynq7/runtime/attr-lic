@@ -1,0 +1,13 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION: Utilities for manipulating filesystem extended attributes.
+SUMMARY: Utilities for manipulating filesystem extended attributes
+SECTION: libs
+PKG_attr-lic: attr-lic
+FILES_attr-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/attr/COPYING": 18312, "/usr/share/licenses/attr/generic_LGPLv2.1": 25878, "/usr/share/licenses/attr/attr.c": 735, "/usr/share/licenses/attr/libattr.c": 758, "/usr/share/licenses/attr/generic_GPLv2": 17611}
+PKGSIZE_attr-lic: 63294

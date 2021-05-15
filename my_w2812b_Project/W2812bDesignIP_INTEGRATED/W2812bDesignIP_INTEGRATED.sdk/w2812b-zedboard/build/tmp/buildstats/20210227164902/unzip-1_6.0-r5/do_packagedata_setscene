@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444633.54 
+unzip-1_6.0-r5: do_packagedata_setscene
+Elapsed time: 0.20 seconds
+utime: 19
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 168456
+IO syscr: 175
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 230405
+IO syscw: 148
+rusage ru_utime: 0.196485
+rusage ru_stime: 0.057789
+rusage ru_maxrss: 131304
+rusage ru_minflt: 13173
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 144
+Child rusage ru_utime: 0.010934
+Child rusage ru_stime: 0.017332
+Child rusage ru_maxrss: 128544
+Child rusage ru_minflt: 2197
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1614444633.74 

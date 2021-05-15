@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444797.99 
+swig-native-3.0.12-r0: do_rm_work
+Elapsed time: 0.12 seconds
+utime: 16
+stime: 2
+cutime: 1
+cstime: 2
+IO wchar: 42208
+IO syscr: 190
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 397312
+IO rchar: 166472
+IO syscw: 39
+rusage ru_utime: 0.16197599999999998
+rusage ru_stime: 0.024295999999999998
+rusage ru_maxrss: 131740
+rusage ru_minflt: 4711
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 80
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.017252999999999998
+Child rusage ru_stime: 0.022317999999999998
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 3596
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 704
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 97
+Child rusage ru_nivcsw: 73
+Status: PASSED 
+Ended: 1614444798.11 

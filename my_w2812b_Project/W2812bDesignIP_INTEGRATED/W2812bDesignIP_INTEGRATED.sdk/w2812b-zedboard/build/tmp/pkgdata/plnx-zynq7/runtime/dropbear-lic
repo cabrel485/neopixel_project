@@ -1,0 +1,13 @@
+PN: dropbear
+PV: 2018.76
+PR: r0
+PKGV: 2018.76
+PKGR: r0
+LICENSE: MIT & BSD-3-Clause & BSD-2-Clause & PD
+DESCRIPTION: A lightweight SSH and SCP implementation.
+SUMMARY: A lightweight SSH and SCP implementation
+SECTION: console/network
+PKG_dropbear-lic: dropbear-lic
+FILES_dropbear-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/dropbear/generic_BSD-2-Clause": 1512, "/usr/share/licenses/dropbear/generic_BSD-3-Clause": 1468, "/usr/share/licenses/dropbear/LICENSE": 5880, "/usr/share/licenses/dropbear/generic_PD": 52, "/usr/share/licenses/dropbear/generic_MIT": 1080}
+PKGSIZE_dropbear-lic: 9992

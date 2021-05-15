@@ -1,0 +1,18 @@
+PN: openssl
+PV: 1.1.1a
+PR: r0
+PKGV: 1.1.1a
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RPROVIDES_openssl-conf: openssl10-conf
+RRECOMMENDS_openssl-conf: openssl-lic
+RREPLACES_openssl-conf: openssl10-conf
+RCONFLICTS_openssl-conf: openssl10-conf
+SECTION: libs/network
+PKG_openssl-conf: openssl-conf
+FILES_openssl-conf: /etc/ssl/openssl.cnf
+CONFFILES_openssl-conf: /etc/ssl/openssl.cnf
+FILES_INFO: {"/etc/ssl/openssl.cnf": 10911}
+PKGSIZE_openssl-conf: 10911

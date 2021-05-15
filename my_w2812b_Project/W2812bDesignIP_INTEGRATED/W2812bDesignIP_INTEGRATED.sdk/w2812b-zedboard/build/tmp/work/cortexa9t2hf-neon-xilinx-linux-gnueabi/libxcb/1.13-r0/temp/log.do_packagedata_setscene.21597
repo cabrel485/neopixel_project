@@ -1,0 +1,240 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz for b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz
+DEBUG: Searching for b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo for b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b6/sstate%3Alibxcb%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.13%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo;downloadfilename=b6/sstate:libxcb:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.13:r0:cortexa9t2hf-neon:3:b69a0d94f784ce2a9f2d73e46305a2f4_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/libxcb
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libxcb-render0
+pkgdata/runtime-reverse/libxcb-composite0
+pkgdata/runtime-reverse/libxcb-glx0
+pkgdata/runtime-reverse/libxcb1
+pkgdata/runtime-reverse/libxcb-shape0
+pkgdata/runtime-reverse/libxcb-dpms0
+pkgdata/runtime-reverse/libxcb-randr0
+pkgdata/runtime-reverse/libxcb-doc
+pkgdata/runtime-reverse/libxcb-xvmc0
+pkgdata/runtime-reverse/libxcb-dev
+pkgdata/runtime-reverse/libxcb-dbg
+pkgdata/runtime-reverse/libxcb-xfixes0
+pkgdata/runtime-reverse/libxcb-screensaver0
+pkgdata/runtime-reverse/libxcb-xkb1
+pkgdata/runtime-reverse/libxcb-lic
+pkgdata/runtime-reverse/libxcb-record0
+pkgdata/runtime-reverse/libxcb-xtest0
+pkgdata/runtime-reverse/libxcb-shm0
+pkgdata/runtime-reverse/libxcb-damage0
+pkgdata/runtime-reverse/libxcb-xinerama0
+pkgdata/runtime-reverse/libxcb-present0
+pkgdata/runtime-reverse/libxcb-dri2-0
+pkgdata/runtime-reverse/libxcb-xinput0
+pkgdata/runtime-reverse/libxcb-sync1
+pkgdata/runtime-reverse/libxcb-dri3-0
+pkgdata/runtime-reverse/libxcb-xv0
+pkgdata/runtime-reverse/libxcb-xf86dri0
+pkgdata/runtime-reverse/libxcb-res0
+pkgdata/runtime/
+pkgdata/runtime/libxcb-xv
+pkgdata/runtime/libxcb-render.packaged
+pkgdata/runtime/libxcb-xf86dri.packaged
+pkgdata/runtime/libxcb-xtest
+pkgdata/runtime/libxcb-damage
+pkgdata/runtime/libxcb-randr.packaged
+pkgdata/runtime/libxcb-xkb
+pkgdata/runtime/libxcb-shape.packaged
+pkgdata/runtime/libxcb-record
+pkgdata/runtime/libxcb-shape
+pkgdata/runtime/libxcb
+pkgdata/runtime/libxcb-composite
+pkgdata/runtime/libxcb-xinput
+pkgdata/runtime/libxcb-locale
+pkgdata/runtime/libxcb-staticdev
+pkgdata/runtime/libxcb-xfixes
+pkgdata/runtime/libxcb-doc
+pkgdata/runtime/libxcb-record.packaged
+pkgdata/runtime/libxcb-render
+pkgdata/runtime/libxcb-screensaver.packaged
+pkgdata/runtime/libxcb-present.packaged
+pkgdata/runtime/libxcb-dev
+pkgdata/runtime/libxcb-dbg
+pkgdata/runtime/libxcb-xtest.packaged
+pkgdata/runtime/libxcb-dri2
+pkgdata/runtime/libxcb-res
+pkgdata/runtime/libxcb-xinerama
+pkgdata/runtime/libxcb-damage.packaged
+pkgdata/runtime/libxcb-shm
+pkgdata/runtime/libxcb-dri3.packaged
+pkgdata/runtime/libxcb-randr
+pkgdata/runtime/libxcb-lic
+pkgdata/runtime/libxcb-present
+pkgdata/runtime/libxcb-xinerama.packaged
+pkgdata/runtime/libxcb-xvmc
+pkgdata/runtime/libxcb-xf86dri
+pkgdata/runtime/libxcb-dri2.packaged
+pkgdata/runtime/libxcb-sync
+pkgdata/runtime/libxcb-res.packaged
+pkgdata/runtime/libxcb-xvmc.packaged
+pkgdata/runtime/libxcb-xkb.packaged
+pkgdata/runtime/libxcb-dpms
+pkgdata/runtime/libxcb-lic.packaged
+pkgdata/runtime/libxcb-doc.packaged
+pkgdata/runtime/libxcb-composite.packaged
+pkgdata/runtime/libxcb-screensaver
+pkgdata/runtime/libxcb-sync.packaged
+pkgdata/runtime/libxcb-dpms.packaged
+pkgdata/runtime/libxcb-dri3
+pkgdata/runtime/libxcb-xfixes.packaged
+pkgdata/runtime/libxcb-dev.packaged
+pkgdata/runtime/libxcb.packaged
+pkgdata/runtime/libxcb-dbg.packaged
+pkgdata/runtime/libxcb-glx
+pkgdata/runtime/libxcb-glx.packaged
+pkgdata/runtime/libxcb-shm.packaged
+pkgdata/runtime/libxcb-xinput.packaged
+pkgdata/runtime/libxcb-xv.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/libxcb-dri3.list
+pkgdata/shlibs2/libxcb-xv.list
+pkgdata/shlibs2/libxcb-randr.list
+pkgdata/shlibs2/libxcb-screensaver.list
+pkgdata/shlibs2/libxcb-render.list
+pkgdata/shlibs2/libxcb-res.list
+pkgdata/shlibs2/libxcb-xf86dri.list
+pkgdata/shlibs2/libxcb-shape.list
+pkgdata/shlibs2/libxcb-dpms.list
+pkgdata/shlibs2/libxcb-xinput.list
+pkgdata/shlibs2/libxcb-shm.list
+pkgdata/shlibs2/libxcb-xtest.list
+pkgdata/shlibs2/libxcb-composite.list
+pkgdata/shlibs2/libxcb-present.list
+pkgdata/shlibs2/libxcb-damage.list
+pkgdata/shlibs2/libxcb-record.list
+pkgdata/shlibs2/libxcb-xkb.list
+pkgdata/shlibs2/libxcb-xfixes.list
+pkgdata/shlibs2/libxcb-glx.list
+pkgdata/shlibs2/libxcb-xinerama.list
+pkgdata/shlibs2/libxcb-sync.list
+pkgdata/shlibs2/libxcb-xvmc.list
+pkgdata/shlibs2/libxcb-dri2.list
+pkgdata/shlibs2/libxcb-dev.pclist
+pkgdata/shlibs2/libxcb.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/libxcb-xv/
+pkgdata/runtime-rprovides/libxcb-xv/libxcb-xv
+pkgdata/runtime-rprovides/(=1.13)/
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xv
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xtest
+pkgdata/runtime-rprovides/(=1.13)/libxcb-damage
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xkb
+pkgdata/runtime-rprovides/(=1.13)/libxcb-record
+pkgdata/runtime-rprovides/(=1.13)/libxcb-shape
+pkgdata/runtime-rprovides/(=1.13)/libxcb
+pkgdata/runtime-rprovides/(=1.13)/libxcb-composite
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xinput
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xfixes
+pkgdata/runtime-rprovides/(=1.13)/libxcb-render
+pkgdata/runtime-rprovides/(=1.13)/libxcb-dri2
+pkgdata/runtime-rprovides/(=1.13)/libxcb-res
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xinerama
+pkgdata/runtime-rprovides/(=1.13)/libxcb-shm
+pkgdata/runtime-rprovides/(=1.13)/libxcb-randr
+pkgdata/runtime-rprovides/(=1.13)/libxcb-present
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xvmc
+pkgdata/runtime-rprovides/(=1.13)/libxcb-xf86dri
+pkgdata/runtime-rprovides/(=1.13)/libxcb-sync
+pkgdata/runtime-rprovides/(=1.13)/libxcb-dpms
+pkgdata/runtime-rprovides/(=1.13)/libxcb-screensaver
+pkgdata/runtime-rprovides/(=1.13)/libxcb-dri3
+pkgdata/runtime-rprovides/(=1.13)/libxcb-glx
+pkgdata/runtime-rprovides/libxcb-xtest/
+pkgdata/runtime-rprovides/libxcb-xtest/libxcb-xtest
+pkgdata/runtime-rprovides/libxcb-damage/
+pkgdata/runtime-rprovides/libxcb-damage/libxcb-damage
+pkgdata/runtime-rprovides/libxcb-xkb/
+pkgdata/runtime-rprovides/libxcb-xkb/libxcb-xkb
+pkgdata/runtime-rprovides/libxcb-record/
+pkgdata/runtime-rprovides/libxcb-record/libxcb-record
+pkgdata/runtime-rprovides/libxcb-shape/
+pkgdata/runtime-rprovides/libxcb-shape/libxcb-shape
+pkgdata/runtime-rprovides/libxcb/
+pkgdata/runtime-rprovides/libxcb/libxcb
+pkgdata/runtime-rprovides/libxcb-composite/
+pkgdata/runtime-rprovides/libxcb-composite/libxcb-composite
+pkgdata/runtime-rprovides/libxcb-xinput/
+pkgdata/runtime-rprovides/libxcb-xinput/libxcb-xinput
+pkgdata/runtime-rprovides/libxcb-xfixes/
+pkgdata/runtime-rprovides/libxcb-xfixes/libxcb-xfixes
+pkgdata/runtime-rprovides/libxcb-render/
+pkgdata/runtime-rprovides/libxcb-render/libxcb-render
+pkgdata/runtime-rprovides/libxcb-dri2/
+pkgdata/runtime-rprovides/libxcb-dri2/libxcb-dri2
+pkgdata/runtime-rprovides/libxcb-res/
+pkgdata/runtime-rprovides/libxcb-res/libxcb-res
+pkgdata/runtime-rprovides/libxcb-xinerama/
+pkgdata/runtime-rprovides/libxcb-xinerama/libxcb-xinerama
+pkgdata/runtime-rprovides/libxcb-shm/
+pkgdata/runtime-rprovides/libxcb-shm/libxcb-shm
+pkgdata/runtime-rprovides/libxcb-randr/
+pkgdata/runtime-rprovides/libxcb-randr/libxcb-randr
+pkgdata/runtime-rprovides/libxcb-present/
+pkgdata/runtime-rprovides/libxcb-present/libxcb-present
+pkgdata/runtime-rprovides/libxcb-xvmc/
+pkgdata/runtime-rprovides/libxcb-xvmc/libxcb-xvmc
+pkgdata/runtime-rprovides/libxcb-xf86dri/
+pkgdata/runtime-rprovides/libxcb-xf86dri/libxcb-xf86dri
+pkgdata/runtime-rprovides/libxcb-sync/
+pkgdata/runtime-rprovides/libxcb-sync/libxcb-sync
+pkgdata/runtime-rprovides/libxcb-dpms/
+pkgdata/runtime-rprovides/libxcb-dpms/libxcb-dpms
+pkgdata/runtime-rprovides/libxcb-screensaver/
+pkgdata/runtime-rprovides/libxcb-screensaver/libxcb-screensaver
+pkgdata/runtime-rprovides/libxcb-dri3/
+pkgdata/runtime-rprovides/libxcb-dri3/libxcb-dri3
+pkgdata/runtime-rprovides/libxcb-glx/
+pkgdata/runtime-rprovides/libxcb-glx/libxcb-glx
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/libxcb/1.13-r0/pkgdata to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/pkgdata/plnx-zynq7
+DEBUG: Python function do_packagedata_setscene finished

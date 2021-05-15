@@ -1,0 +1,22 @@
+PN: openssh
+PV: 7.8p1+git
+PR: r0
+PKGV: 7.8p1+git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine.
+SUMMARY: A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server
+RDEPENDS_openssh-misc: zlib (>= 1.2.11) libcrypto (>= 1.1.1a) glibc (>= 2.28)
+RRECOMMENDS_openssh-misc: openssh-lic
+SECTION: console/network
+PKG_openssh-misc: openssh-misc
+FILES_openssh-misc: /usr/bin/ssh* /usr/libexec/ssh*
+FILES_INFO: {"/usr/libexec/ssh-pkcs11-helper": 230900, "/usr/bin/ssh-add": 247304, "/usr/bin/ssh-agent": 239128, "/usr/libexec/ssh-keysign": 308840, "/usr/bin/ssh-keyscan": 296560, "/usr/bin/ssh-copy-id": 10658}
+FILERDEPENDSFLIST_openssh-misc: /usr/libexec/ssh-pkcs11-helper /usr/bin/ssh-add /usr/bin/ssh-agent /usr/libexec/ssh-keysign /usr/bin/ssh-keyscan /usr/bin/ssh-copy-id
+FILERDEPENDS_/usr/libexec/ssh-pkcs11-helper_openssh-misc:  ld-linux-armhf.so.3(GLIBC_2.4) libdl.so.2(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.25) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.26) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libcrypto.so.1.1 libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ssh-add_openssh-misc:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.25) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.26) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libcrypto.so.1.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ssh-agent_openssh-misc:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.25) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.26) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libcrypto.so.1.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/ssh-keysign_openssh-misc:  ld-linux-armhf.so.3(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.25) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.26) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcrypto.so.1.1 libz.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ssh-keyscan_openssh-misc:  ld-linux-armhf.so.3(GLIBC_2.4) libresolv.so.2(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.25) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.26) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcrypto.so.1.1 libz.so.1 libresolv.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ssh-copy-id_openssh-misc:  /bin/sh
+PKGSIZE_openssh-misc: 1333390

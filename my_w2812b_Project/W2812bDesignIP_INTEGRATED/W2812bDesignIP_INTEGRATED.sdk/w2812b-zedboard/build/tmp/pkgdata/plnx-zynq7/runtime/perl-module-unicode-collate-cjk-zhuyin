@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-unicode-collate-cjk-zhuyin: perl module unicode-collate-cjk-zhuyin
+SUMMARY_perl-module-unicode-collate-cjk-zhuyin: perl module unicode-collate-cjk-zhuyin
+RDEPENDS_perl-module-unicode-collate-cjk-zhuyin: perl perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-unicode-collate-cjk-zhuyin: perl-module-unicode-collate-cjk-zhuyin
+FILES_perl-module-unicode-collate-cjk-zhuyin: /usr/lib/perl/5.24.4/Unicode/Collate/CJK/Zhuyin.pm
+FILERPROVIDESFLIST_perl-module-unicode-collate-cjk-zhuyin: /usr/lib/perl/5.24.4/Unicode/Collate/CJK/Zhuyin.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Unicode/Collate/CJK/Zhuyin.pm": 112687}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Unicode/Collate/CJK/Zhuyin.pm_perl-module-unicode-collate-cjk-zhuyin:  perl(Unicode::Collate::CJK::Zhuyin)
+PKGSIZE_perl-module-unicode-collate-cjk-zhuyin: 112687

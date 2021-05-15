@@ -1,0 +1,150 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz for 0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz
+DEBUG: Searching for 0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo for 0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/0f/sstate%3Abash%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A4.4.18%3Ar0%3Acortexa9t2hf-neon%3A3%3A0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo;downloadfilename=0f/sstate:bash:cortexa9t2hf-neon-xilinx-linux-gnueabi:4.4.18:r0:cortexa9t2hf-neon:3:0f46ed5a2c910373ae6fdefd56d0d9c3_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/usr/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/licenses/
+sysroot-destdir/usr/share/licenses/bash/
+sysroot-destdir/usr/share/licenses/bash/generic_GPLv3
+sysroot-destdir/usr/share/licenses/bash/COPYING
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/bash.pc
+sysroot-destdir/usr/lib/bash/
+sysroot-destdir/usr/lib/bash/setpgid
+sysroot-destdir/usr/lib/bash/tty
+sysroot-destdir/usr/lib/bash/pathchk
+sysroot-destdir/usr/lib/bash/uname
+sysroot-destdir/usr/lib/bash/push
+sysroot-destdir/usr/lib/bash/realpath
+sysroot-destdir/usr/lib/bash/head
+sysroot-destdir/usr/lib/bash/id
+sysroot-destdir/usr/lib/bash/dirname
+sysroot-destdir/usr/lib/bash/printenv
+sysroot-destdir/usr/lib/bash/strftime
+sysroot-destdir/usr/lib/bash/mkdir
+sysroot-destdir/usr/lib/bash/print
+sysroot-destdir/usr/lib/bash/tee
+sysroot-destdir/usr/lib/bash/whoami
+sysroot-destdir/usr/lib/bash/truefalse
+sysroot-destdir/usr/lib/bash/rmdir
+sysroot-destdir/usr/lib/bash/unlink
+sysroot-destdir/usr/lib/bash/mypid
+sysroot-destdir/usr/lib/bash/finfo
+sysroot-destdir/usr/lib/bash/sleep
+sysroot-destdir/usr/lib/bash/basename
+sysroot-destdir/usr/lib/bash/Makefile.inc
+sysroot-destdir/usr/lib/bash/sync
+sysroot-destdir/usr/lib/bash/logname
+sysroot-destdir/usr/lib/bash/ln
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/bash/
+sysroot-destdir/usr/include/bash/xmalloc.h
+sysroot-destdir/usr/include/bash/config.h
+sysroot-destdir/usr/include/bash/config-top.h
+sysroot-destdir/usr/include/bash/config-bot.h
+sysroot-destdir/usr/include/bash/alias.h
+sysroot-destdir/usr/include/bash/bashintl.h
+sysroot-destdir/usr/include/bash/version.h
+sysroot-destdir/usr/include/bash/command.h
+sysroot-destdir/usr/include/bash/error.h
+sysroot-destdir/usr/include/bash/make_cmd.h
+sysroot-destdir/usr/include/bash/jobs.h
+sysroot-destdir/usr/include/bash/builtins.h
+sysroot-destdir/usr/include/bash/general.h
+sysroot-destdir/usr/include/bash/shell.h
+sysroot-destdir/usr/include/bash/pathnames.h
+sysroot-destdir/usr/include/bash/array.h
+sysroot-destdir/usr/include/bash/signames.h
+sysroot-destdir/usr/include/bash/hashlib.h
+sysroot-destdir/usr/include/bash/unwind_prot.h
+sysroot-destdir/usr/include/bash/builtins/
+sysroot-destdir/usr/include/bash/builtins/builtext.h
+sysroot-destdir/usr/include/bash/builtins/bashgetopt.h
+sysroot-destdir/usr/include/bash/builtins/getopt.h
+sysroot-destdir/usr/include/bash/builtins/common.h
+sysroot-destdir/usr/include/bash/assoc.h
+sysroot-destdir/usr/include/bash/bashjmp.h
+sysroot-destdir/usr/include/bash/siglist.h
+sysroot-destdir/usr/include/bash/sig.h
+sysroot-destdir/usr/include/bash/subst.h
+sysroot-destdir/usr/include/bash/quit.h
+sysroot-destdir/usr/include/bash/conftypes.h
+sysroot-destdir/usr/include/bash/variables.h
+sysroot-destdir/usr/include/bash/arrayfunc.h
+sysroot-destdir/usr/include/bash/include/
+sysroot-destdir/usr/include/bash/include/systimes.h
+sysroot-destdir/usr/include/bash/include/stdc.h
+sysroot-destdir/usr/include/bash/include/shmbchar.h
+sysroot-destdir/usr/include/bash/include/stat-time.h
+sysroot-destdir/usr/include/bash/include/maxpath.h
+sysroot-destdir/usr/include/bash/include/filecntl.h
+sysroot-destdir/usr/include/bash/include/ocache.h
+sysroot-destdir/usr/include/bash/include/posixdir.h
+sysroot-destdir/usr/include/bash/include/posixstat.h
+sysroot-destdir/usr/include/bash/include/chartypes.h
+sysroot-destdir/usr/include/bash/include/memalloc.h
+sysroot-destdir/usr/include/bash/include/posixwait.h
+sysroot-destdir/usr/include/bash/include/typemax.h
+sysroot-destdir/usr/include/bash/include/posixjmp.h
+sysroot-destdir/usr/include/bash/include/posixtime.h
+sysroot-destdir/usr/include/bash/include/unionwait.h
+sysroot-destdir/usr/include/bash/include/shtty.h
+sysroot-destdir/usr/include/bash/include/shmbutil.h
+sysroot-destdir/usr/include/bash/include/ansi_stdlib.h
+sysroot-destdir/usr/include/bash/include/gettext.h
+sysroot-destdir/usr/include/bash/externs.h
+sysroot-destdir/usr/include/bash/bashansi.h
+sysroot-destdir/usr/include/bash/syntax.h
+sysroot-destdir/usr/include/bash/dispose_cmd.h
+sysroot-destdir/usr/include/bash/bashtypes.h
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/bash
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/bash/4.4.18-r0/sysroot-destdir to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/cortexa9t2hf-neon/bash
+DEBUG: Python function do_populate_sysroot_setscene finished

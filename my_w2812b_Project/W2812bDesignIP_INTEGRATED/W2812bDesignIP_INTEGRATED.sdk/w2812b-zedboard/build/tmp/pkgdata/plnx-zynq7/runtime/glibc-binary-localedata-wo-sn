@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-wo-sn: binary locale definition for wo-sn
+SUMMARY_glibc-binary-localedata-wo-sn: binary locale definition for wo-sn
+SECTION: base
+PKG_glibc-binary-localedata-wo-sn: glibc-binary-localedata-wo-sn
+FILES_glibc-binary-localedata-wo-sn: /usr/lib/locale/wo_SN
+FILES_INFO: {"/usr/lib/locale/wo_SN/LC_NAME": 62, "/usr/lib/locale/wo_SN/LC_COLLATE": 2586242, "/usr/lib/locale/wo_SN/LC_MONETARY": 294, "/usr/lib/locale/wo_SN/LC_MEASUREMENT": 23, "/usr/lib/locale/wo_SN/LC_TIME": 3248, "/usr/lib/locale/wo_SN/LC_TELEPHONE": 57, "/usr/lib/locale/wo_SN/LC_PAPER": 34, "/usr/lib/locale/wo_SN/LC_ADDRESS": 147, "/usr/lib/locale/wo_SN/LC_IDENTIFICATION": 314, "/usr/lib/locale/wo_SN/LC_MESSAGES/SYS_LC_MESSAGES": 67, "/usr/lib/locale/wo_SN/LC_NUMERIC": 54, "/usr/lib/locale/wo_SN/LC_CTYPE": 337024}
+PKGSIZE_glibc-binary-localedata-wo-sn: 2927566

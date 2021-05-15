@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444803.23 
+gobject-introspection-native-1.58.0-r0: do_rm_work
+Elapsed time: 0.10 seconds
+utime: 19
+stime: 1
+cutime: 2
+cstime: 0
+IO wchar: 48820
+IO syscr: 202
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 225280
+IO rchar: 196313
+IO syscw: 45
+rusage ru_utime: 0.19702799999999998
+rusage ru_stime: 0.018945
+rusage ru_maxrss: 131740
+rusage ru_minflt: 4840
+rusage ru_majflt: 0
+rusage ru_inblock: 96
+rusage ru_oublock: 80
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 0.02574
+Child rusage ru_stime: 0.009165
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 3602
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 344
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 88
+Child rusage ru_nivcsw: 65
+Status: PASSED 
+Ended: 1614444803.32 

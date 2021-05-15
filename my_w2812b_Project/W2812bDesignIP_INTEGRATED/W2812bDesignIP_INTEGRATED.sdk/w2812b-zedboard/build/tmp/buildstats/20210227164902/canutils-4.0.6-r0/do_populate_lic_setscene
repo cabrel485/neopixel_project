@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444605.75 
+canutils-4.0.6-r0: do_populate_lic_setscene
+Elapsed time: 0.20 seconds
+utime: 22
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 202136
+IO syscr: 188
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 285390
+IO syscw: 136
+rusage ru_utime: 0.22209399999999999
+rusage ru_stime: 0.056533
+rusage ru_maxrss: 131380
+rusage ru_minflt: 13261
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 109
+Child rusage ru_utime: 0.019653999999999998
+Child rusage ru_stime: 0.010924
+Child rusage ru_maxrss: 128600
+Child rusage ru_minflt: 2259
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1614444605.94 

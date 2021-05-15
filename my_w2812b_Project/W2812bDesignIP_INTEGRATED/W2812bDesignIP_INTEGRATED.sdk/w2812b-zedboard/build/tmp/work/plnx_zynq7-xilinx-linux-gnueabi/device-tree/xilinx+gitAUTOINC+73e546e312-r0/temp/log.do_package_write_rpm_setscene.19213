@@ -1,0 +1,20 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/device-tree-dbg-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/device-tree-lic-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/device-tree-dev-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/device-tree-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/plnx_zynq7/
+deploy-rpms/plnx_zynq7/device-tree-dbg-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+deploy-rpms/plnx_zynq7/device-tree-lic-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+deploy-rpms/plnx_zynq7/device-tree-dev-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+deploy-rpms/plnx_zynq7/device-tree-xilinx+git0+73e546e312-r0.plnx_zynq7.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/deploy-rpms to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

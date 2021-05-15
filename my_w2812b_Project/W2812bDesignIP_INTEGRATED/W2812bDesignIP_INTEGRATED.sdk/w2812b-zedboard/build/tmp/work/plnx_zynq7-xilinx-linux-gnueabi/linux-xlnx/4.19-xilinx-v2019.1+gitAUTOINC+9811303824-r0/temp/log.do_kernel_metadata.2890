@@ -1,0 +1,13 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kern-tools/kern-tools-native_git.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['kern-tools-native', 'quilt-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_kernel_metadata
+#
+# scc v0.8
+# processed: Sat Feb 27 16:52:18 UTC 2021
+#
+# This is a scc output file, do not edit
+#
+DEBUG: Shell function do_kernel_metadata finished

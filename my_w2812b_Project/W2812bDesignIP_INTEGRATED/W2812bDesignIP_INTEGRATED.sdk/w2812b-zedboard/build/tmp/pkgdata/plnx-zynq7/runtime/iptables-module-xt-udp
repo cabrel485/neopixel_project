@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-udp: iptables module xt-udp
+SUMMARY_iptables-module-xt-udp: iptables module xt-udp
+RDEPENDS_iptables-module-xt-udp: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-udp: iptables-module-xt-udp
+FILES_iptables-module-xt-udp: /usr/lib/xtables/libxt_udp.so
+FILERPROVIDESFLIST_iptables-module-xt-udp: /usr/lib/xtables/libxt@underscore@udp.so
+FILES_INFO: {"/usr/lib/xtables/libxt_udp.so": 5508}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@udp.so_iptables-module-xt-udp:  libxt_udp.so
+FILERDEPENDSFLIST_iptables-module-xt-udp: /usr/lib/xtables/libxt@underscore@udp.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@udp.so_iptables-module-xt-udp:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-udp: 5508

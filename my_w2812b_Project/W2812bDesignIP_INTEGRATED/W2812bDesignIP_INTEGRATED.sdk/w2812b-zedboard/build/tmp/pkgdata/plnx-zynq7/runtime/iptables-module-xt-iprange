@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-iprange: iptables module xt-iprange
+SUMMARY_iptables-module-xt-iprange: iptables module xt-iprange
+RDEPENDS_iptables-module-xt-iprange: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-iprange: iptables-module-xt-iprange
+FILES_iptables-module-xt-iprange: /usr/lib/xtables/libxt_iprange.so
+FILERPROVIDESFLIST_iptables-module-xt-iprange: /usr/lib/xtables/libxt@underscore@iprange.so
+FILES_INFO: {"/usr/lib/xtables/libxt_iprange.so": 9808}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@iprange.so_iptables-module-xt-iprange:  libxt_iprange.so
+FILERDEPENDSFLIST_iptables-module-xt-iprange: /usr/lib/xtables/libxt@underscore@iprange.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@iprange.so_iptables-module-xt-iprange:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-iprange: 9808

@@ -1,0 +1,15 @@
+PN: libsocketcan
+PV: 0.0.10
+PR: r0
+PKGV: 0.0.10
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libsocketcan-dbg: Control basic functions in socketcan from userspace.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libsocketcan-dbg: Control basic functions in socketcan from userspace - Debugging files
+RRECOMMENDS_libsocketcan-dbg: libsocketcan-lic glibc-dbg
+SECTION_libsocketcan-dbg: devel
+PKG_libsocketcan-dbg: libsocketcan-dbg
+ALLOW_EMPTY_libsocketcan-dbg: 1
+FILES_libsocketcan-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libsocketcan/0.0.10-r0/git/include/can_netlink.h": 3079, "/usr/src/debug/libsocketcan/0.0.10-r0/git/src/libsocketcan.c": 29423, "/usr/lib/.debug/libsocketcan.so.2.2.1": 36204}
+PKGSIZE_libsocketcan-dbg: 68706

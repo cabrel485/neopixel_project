@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445376.08 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_kernel_link_images
+Elapsed time: 0.06 seconds
+utime: 32
+stime: 4
+cutime: 0
+cstime: 0
+IO wchar: 65446
+IO syscr: 93
+IO write_bytes: 28672
+IO cancelled_write_bytes: 0
+IO read_bytes: 61440
+IO rchar: 196889
+IO syscw: 38
+rusage ru_utime: 0.324698
+rusage ru_stime: 0.044618
+rusage ru_maxrss: 132308
+rusage ru_minflt: 6098
+rusage ru_majflt: 0
+rusage ru_inblock: 120
+rusage ru_oublock: 56
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 95
+Child rusage ru_utime: 0.008334
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 129636
+Child rusage ru_minflt: 567
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 3
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1614445376.14 

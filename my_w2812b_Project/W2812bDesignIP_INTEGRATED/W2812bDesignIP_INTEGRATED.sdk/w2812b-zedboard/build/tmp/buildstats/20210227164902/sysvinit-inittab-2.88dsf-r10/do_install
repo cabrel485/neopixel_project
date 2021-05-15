@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444762.80 
+sysvinit-inittab-2.88dsf-r10: do_install
+Elapsed time: 0.20 seconds
+utime: 15
+stime: 4
+cutime: 2
+cstime: 3
+IO syscw: 772
+IO rchar: 216327
+IO cancelled_write_bytes: 8192
+IO read_bytes: 0
+IO wchar: 140157
+IO syscr: 575
+IO write_bytes: 94208
+rusage ru_utime: 0.159467
+rusage ru_stime: 0.049611999999999996
+rusage ru_maxrss: 132148
+rusage ru_minflt: 8470
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 117
+rusage ru_nivcsw: 332
+Child rusage ru_utime: 0.023202
+Child rusage ru_stime: 0.033911
+Child rusage ru_maxrss: 129932
+Child rusage ru_minflt: 5155
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 153
+Child rusage ru_nivcsw: 130
+Status: PASSED 
+Ended: 1614444763.00 

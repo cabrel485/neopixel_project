@@ -1,0 +1,61 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-cpan: perl module cpan
+SUMMARY_perl-module-cpan: perl module cpan
+RDEPENDS_perl-module-cpan: perl perl-module-b perl-module-carp perl-module-config perl-module-cwd perl-module-data-dumper perl-module-dirhandle perl-module-exporter perl-module-extutils-makemaker perl-module-extutils-manifest perl-module-fcntl perl-module-file-basename perl-module-file-copy perl-module-file-find perl-module-file-path perl-module-file-spec perl-module-filehandle perl-module-lib perl-module-net-ping perl-module-overload perl-module-posix perl-module-safe perl-module-scalar-util perl-module-strict perl-module-sys-hostname perl-module-term-readline perl-module-text-parsewords perl-module-text-wrap perl-module-time-local perl-module-vars perl-module-warnings
+RRECOMMENDS_perl-module-cpan: perl-lic
+SECTION: devel
+PKG_perl-module-cpan: perl-module-cpan
+FILES_perl-module-cpan:  /usr/lib/perl/5.24.4/CPAN                            /usr/lib/perl/5.24.4/CPAN.pm /usr/lib/perl/5.24.4/CPAN.pm
+FILERPROVIDESFLIST_perl-module-cpan: /usr/lib/perl/5.24.4/CPAN/Plugin/Specfile.pm /usr/lib/perl/5.24.4/CPAN/Distrostatus.pm /usr/lib/perl/5.24.4/CPAN/Bundle.pm /usr/lib/perl/5.24.4/CPAN/Exception/yaml@underscore@not@underscore@installed.pm /usr/lib/perl/5.24.4/CPAN/Plugin.pm /usr/lib/perl/5.24.4/CPAN/Author.pm /usr/lib/perl/5.24.4/CPAN/FTP/netrc.pm /usr/lib/perl/5.24.4/CPAN/Meta/Validator.pm /usr/lib/perl/5.24.4/CPAN/FirstTime.pm /usr/lib/perl/5.24.4/CPAN/Kwalify.pm /usr/lib/perl/5.24.4/CPAN/Index.pm /usr/lib/perl/5.24.4/CPAN/Meta/Converter.pm /usr/lib/perl/5.24.4/CPAN/Distribution.pm /usr/lib/perl/5.24.4/CPAN/Module.pm /usr/lib/perl/5.24.4/CPAN/HTTP/Credentials.pm /usr/lib/perl/5.24.4/CPAN/Meta/Feature.pm /usr/lib/perl/5.24.4/CPAN/Shell.pm /usr/lib/perl/5.24.4/CPAN/Meta/Prereqs.pm /usr/lib/perl/5.24.4/CPAN/FTP.pm /usr/lib/perl/5.24.4/CPAN/Meta/Requirements.pm /usr/lib/perl/5.24.4/CPAN/Meta/History.pm /usr/lib/perl/5.24.4/CPAN/Mirrors.pm /usr/lib/perl/5.24.4/CPAN/Meta/YAML.pm /usr/lib/perl/5.24.4/CPAN/CacheMgr.pm /usr/lib/perl/5.24.4/CPAN/Version.pm /usr/lib/perl/5.24.4/CPAN/Debug.pm /usr/lib/perl/5.24.4/CPAN/Meta/Merge.pm /usr/lib/perl/5.24.4/CPAN/Exception/blocked@underscore@urllist.pm /usr/lib/perl/5.24.4/CPAN/Complete.pm /usr/lib/perl/5.24.4/CPAN/URL.pm /usr/lib/perl/5.24.4/CPAN/Exception/yaml@underscore@process@underscore@error.pm /usr/lib/perl/5.24.4/CPAN/Nox.pm /usr/lib/perl/5.24.4/CPAN/Tarzip.pm /usr/lib/perl/5.24.4/CPAN/Queue.pm /usr/lib/perl/5.24.4/CPAN/HandleConfig.pm /usr/lib/perl/5.24.4/CPAN/Meta.pm /usr/lib/perl/5.24.4/CPAN/InfoObj.pm /usr/lib/perl/5.24.4/CPAN/Prompt.pm /usr/lib/perl/5.24.4/CPAN/HTTP/Client.pm /usr/lib/perl/5.24.4/CPAN/Distroprefs.pm /usr/lib/perl/5.24.4/CPAN/LWP/UserAgent.pm /usr/lib/perl/5.24.4/CPAN/DeferredCode.pm /usr/lib/perl/5.24.4/CPAN/Meta/Spec.pm /usr/lib/perl/5.24.4/CPAN.pm /usr/lib/perl/5.24.4/CPAN/Exception/RecursiveDependency.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/CPAN/Plugin/Specfile.pm": 8492, "/usr/lib/perl/5.24.4/CPAN/Distrostatus.pm": 972, "/usr/lib/perl/5.24.4/CPAN/Bundle.pm": 9522, "/usr/lib/perl/5.24.4/CPAN/Plugin.pm": 3204, "/usr/lib/perl/5.24.4/CPAN/Author.pm": 6842, "/usr/lib/perl/5.24.4/CPAN/FTP/netrc.pm": 1562, "/usr/lib/perl/5.24.4/CPAN/Meta/Validator.pm": 33905, "/usr/lib/perl/5.24.4/CPAN/FirstTime.pm": 71449, "/usr/lib/perl/5.24.4/CPAN/Kwalify.pm": 3428, "/usr/lib/perl/5.24.4/CPAN/Index.pm": 22213, "/usr/lib/perl/5.24.4/CPAN/Meta/Converter.pm": 49393, "/usr/lib/perl/5.24.4/CPAN/Distribution.pm": 162253, "/usr/lib/perl/5.24.4/CPAN/Module.pm": 22261, "/usr/lib/perl/5.24.4/CPAN/HTTP/Credentials.pm": 2633, "/usr/lib/perl/5.24.4/CPAN/Exception/yaml_not_installed.pm": 490, "/usr/lib/perl/5.24.4/CPAN/Meta/Feature.pm": 3357, "/usr/lib/perl/5.24.4/CPAN/Shell.pm": 73433, "/usr/lib/perl/5.24.4/CPAN/Kwalify/distroprefs.dd": 3227, "/usr/lib/perl/5.24.4/CPAN/Exception/yaml_process_error.pm": 1703, "/usr/lib/perl/5.24.4/CPAN/FTP.pm": 42211, "/usr/lib/perl/5.24.4/CPAN/Meta/Requirements.pm": 31756, "/usr/lib/perl/5.24.4/CPAN/Meta/History.pm": 5302, "/usr/lib/perl/5.24.4/CPAN/Meta/History/Meta_1_3.pod": 18493, "/usr/lib/perl/5.24.4/CPAN/Meta/Prereqs.pm": 11906, "/usr/lib/perl/5.24.4/CPAN/Meta/YAML.pm": 26994, "/usr/lib/perl/5.24.4/CPAN/CacheMgr.pm": 7664, "/usr/lib/perl/5.24.4/CPAN/Version.pm": 4398, "/usr/lib/perl/5.24.4/CPAN/Debug.pm": 2102, "/usr/lib/perl/5.24.4/CPAN/Meta/History/Meta_1_2.pod": 17116, "/usr/lib/perl/5.24.4/CPAN/Meta/Merge.pm": 7501, "/usr/lib/perl/5.24.4/CPAN/Complete.pm": 6023, "/usr/lib/perl/5.24.4/CPAN/URL.pm": 588, "/usr/lib/perl/5.24.4/CPAN/HandleConfig.pm": 23335, "/usr/lib/perl/5.24.4/CPAN/Meta/History/Meta_1_0.pod": 6481, "/usr/lib/perl/5.24.4/CPAN/Meta.pm": 29950, "/usr/lib/perl/5.24.4/CPAN/Nox.pm": 953, "/usr/lib/perl/5.24.4/CPAN/Kwalify/distroprefs.yml": 1593, "/usr/lib/perl/5.24.4/CPAN/Tarzip.pm": 16715, "/usr/lib/perl/5.24.4/CPAN/Queue.pm": 6942, "/usr/lib/perl/5.24.4/CPAN/Mirrors.pm": 16687, "/usr/lib/perl/5.24.4/CPAN/Meta/History/Meta_1_4.pod": 20387, "/usr/lib/perl/5.24.4/CPAN/InfoObj.pm": 6909, "/usr/lib/perl/5.24.4/CPAN/Prompt.pm": 567, "/usr/lib/perl/5.24.4/CPAN/HTTP/Client.pm": 7951, "/usr/lib/perl/5.24.4/CPAN/Distroprefs.pm": 11990, "/usr/lib/perl/5.24.4/CPAN/LWP/UserAgent.pm": 2034, "/usr/lib/perl/5.24.4/CPAN/Exception/blocked_urllist.pm": 920, "/usr/lib/perl/5.24.4/CPAN/DeferredCode.pm": 189, "/usr/lib/perl/5.24.4/CPAN/Meta/Spec.pm": 36849, "/usr/lib/perl/5.24.4/CPAN/Meta/History/Meta_1_1.pod": 8529, "/usr/lib/perl/5.24.4/CPAN.pm": 140083, "/usr/lib/perl/5.24.4/CPAN/Exception/RecursiveDependency.pm": 3037}
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Plugin/Specfile.pm_perl-module-cpan:  perl(CPAN::Plugin::Specfile)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Distrostatus.pm_perl-module-cpan:  perl(CPAN::Distrostatus)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Bundle.pm_perl-module-cpan:  perl(CPAN::Bundle)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Exception/yaml@underscore@not@underscore@installed.pm_perl-module-cpan:  perl(CPAN::Exception::yaml_not_installed)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Plugin.pm_perl-module-cpan:  perl(CPAN::Plugin)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Author.pm_perl-module-cpan:  perl(CPAN::Author)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/FTP/netrc.pm_perl-module-cpan:  perl(CPAN::FTP::netrc)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/Validator.pm_perl-module-cpan:  perl(CPAN::Meta::Validator)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/FirstTime.pm_perl-module-cpan:  perl(CPAN::FirstTime)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Kwalify.pm_perl-module-cpan:  perl(CPAN::Kwalify)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Index.pm_perl-module-cpan:  perl(CPAN::Index)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/Converter.pm_perl-module-cpan:  perl(CPAN::Meta::Converter)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Distribution.pm_perl-module-cpan:  perl(CPAN::Distribution)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Module.pm_perl-module-cpan:  perl(CPAN::Module)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/HTTP/Credentials.pm_perl-module-cpan:  perl(CPAN::HTTP::Credentials)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/Feature.pm_perl-module-cpan:  perl(CPAN::Meta::Feature)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Shell.pm_perl-module-cpan:  perl(CPAN::Shell)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/Prereqs.pm_perl-module-cpan:  perl(CPAN::Meta::Prereqs)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/FTP.pm_perl-module-cpan:  perl(CPAN::FTP)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/Requirements.pm_perl-module-cpan:  perl(CPAN::Meta::Requirements)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/History.pm_perl-module-cpan:  perl(CPAN::Meta::History)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Mirrors.pm_perl-module-cpan:  perl(CPAN::Mirrors) perl(CPAN::Mirrored::By)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/YAML.pm_perl-module-cpan:  perl(CPAN::Meta::YAML)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/CacheMgr.pm_perl-module-cpan:  perl(CPAN::CacheMgr)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Version.pm_perl-module-cpan:  perl(CPAN::Version)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Debug.pm_perl-module-cpan:  perl(CPAN::Debug)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/Merge.pm_perl-module-cpan:  perl(CPAN::Meta::Merge)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Exception/blocked@underscore@urllist.pm_perl-module-cpan:  perl(CPAN::Exception::blocked_urllist)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Complete.pm_perl-module-cpan:  perl(CPAN::Complete)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/URL.pm_perl-module-cpan:  perl(CPAN::URL)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Exception/yaml@underscore@process@underscore@error.pm_perl-module-cpan:  perl(CPAN::Exception::yaml_process_error)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Nox.pm_perl-module-cpan:  perl(CPAN::Nox)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Tarzip.pm_perl-module-cpan:  perl(CPAN::Tarzip)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Queue.pm_perl-module-cpan:  perl(CPAN::Queue) perl(CPAN::Queue::Item)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/HandleConfig.pm_perl-module-cpan:  perl(CPAN::HandleConfig)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta.pm_perl-module-cpan:  perl(CPAN::Meta)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/InfoObj.pm_perl-module-cpan:  perl(CPAN::InfoObj)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Prompt.pm_perl-module-cpan:  perl(CPAN::Prompt)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/HTTP/Client.pm_perl-module-cpan:  perl(CPAN::HTTP::Client)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Distroprefs.pm_perl-module-cpan:  perl(CPAN::Distroprefs) perl(CPAN::Distroprefs::Iterator) perl(CPAN::Distroprefs::Pref) perl(CPAN::Distroprefs::Result) perl(CPAN::Distroprefs::Result::Error) perl(CPAN::Distroprefs::Result::Fatal) perl(CPAN::Distroprefs::Result::Success) perl(CPAN::Distroprefs::Result::Warning) perl(CPAN::Eval)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/LWP/UserAgent.pm_perl-module-cpan:  perl(CPAN::LWP::UserAgent)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/DeferredCode.pm_perl-module-cpan:  perl(CPAN::DeferredCode)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Meta/Spec.pm_perl-module-cpan:  perl(CPAN::Meta::Spec)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN.pm_perl-module-cpan:  perl(CPAN)
+FILERPROVIDES_/usr/lib/perl/5.24.4/CPAN/Exception/RecursiveDependency.pm_perl-module-cpan:  perl(CPAN::Exception::RecursiveDependency)
+PKGSIZE_perl-module-cpan: 1004494

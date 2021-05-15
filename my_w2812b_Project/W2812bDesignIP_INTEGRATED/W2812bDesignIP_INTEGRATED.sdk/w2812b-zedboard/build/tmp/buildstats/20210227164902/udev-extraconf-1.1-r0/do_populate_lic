@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444773.96 
+udev-extraconf-1.1-r0: do_populate_lic
+Elapsed time: 0.22 seconds
+utime: 17
+stime: 2
+cutime: 1
+cstime: 3
+IO wchar: 138475
+IO syscr: 315
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+IO read_bytes: 57344
+IO rchar: 311006
+IO syscw: 77
+rusage ru_utime: 0.17793599999999998
+rusage ru_stime: 0.029656
+rusage ru_maxrss: 131756
+rusage ru_minflt: 12697
+rusage ru_majflt: 0
+rusage ru_inblock: 104
+rusage ru_oublock: 256
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.017924
+Child rusage ru_stime: 0.036518999999999996
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 4329
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 43
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444774.19 

@@ -1,0 +1,15 @@
+PN: libmnl
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libmnl-staticdev: Minimalistic user-space library oriented to Netlink developers, providing     functions for common tasks in parsing, validating, and constructing both the Netlink header and TLVs.  This package contains static libraries for software development.
+SUMMARY_libmnl-staticdev: Minimalistic user-space Netlink utility library - Development files (Static Libraries)
+RDEPENDS_libmnl-staticdev: libmnl-dev (= 1.0.4-r0)
+RRECOMMENDS_libmnl-staticdev: libmnl-lic
+SECTION_libmnl-staticdev: devel
+PKG_libmnl-staticdev: libmnl-staticdev
+FILES_libmnl-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libmnl/*.a
+FILES_INFO: {}
+PKGSIZE_libmnl-staticdev: 0

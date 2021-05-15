@@ -1,0 +1,15 @@
+PN: btrfs-tools
+PV: 4.17.1
+PR: r0
+PKGV: 4.17.1
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_btrfs-tools-dbg: Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_btrfs-tools-dbg: Checksumming Copy on Write Filesystem utilities - Debugging files
+RRECOMMENDS_btrfs-tools-dbg: btrfs-tools-lic util-linux-libuuid-dbg util-linux-libblkid-dbg libcomerr-dbg glibc-dbg lzo-dbg zlib-dbg libext2fs-dbg
+SECTION_btrfs-tools-dbg: devel
+PKG_btrfs-tools-dbg: btrfs-tools-dbg
+ALLOW_EMPTY_btrfs-tools-dbg: 1
+FILES_btrfs-tools-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/lib/python3.5/site-packages/.debug/btrfsutil.cpython-35m-arm-linux-gnueabihf.so": 123400, "/usr/lib/.debug/libbtrfs.so.0.1": 202040, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/constants.c": 2040, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/btrfsutilpy.h": 3068, "/usr/bin/.debug/btrfs-convert": 2238340, "/usr/bin/.debug/mkfs.btrfs": 2181556, "/usr/bin/.debug/btrfstune": 2029040, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/module.c": 9599, "/usr/bin/.debug/btrfs-select-super": 2004820, "/usr/bin/.debug/btrfs": 3808416, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/subvolume.c": 18146, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/qgroup.c": 3935, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/error.c": 5901, "/usr/bin/.debug/btrfs-map-logical": 2017600, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/python/filesystem.c": 2565, "/usr/lib/.debug/libbtrfsutil.so.1.0.0": 67852, "/usr/bin/.debug/btrfs-image": 2166184, "/usr/src/debug/btrfs-tools/4.17.1-r0/git/libbtrfsutil/btrfsutil.h": 22243, "/usr/bin/.debug/btrfs-find-root": 2009960}
+PKGSIZE_btrfs-tools-dbg: 18916705

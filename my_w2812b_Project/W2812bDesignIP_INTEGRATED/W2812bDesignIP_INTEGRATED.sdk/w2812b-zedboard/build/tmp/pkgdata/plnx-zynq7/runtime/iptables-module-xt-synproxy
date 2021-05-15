@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-synproxy: iptables module xt-synproxy
+SUMMARY_iptables-module-xt-synproxy: iptables module xt-synproxy
+RDEPENDS_iptables-module-xt-synproxy: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-synproxy: iptables-module-xt-synproxy
+FILES_iptables-module-xt-synproxy: /usr/lib/xtables/libxt_SYNPROXY.so
+FILERPROVIDESFLIST_iptables-module-xt-synproxy: /usr/lib/xtables/libxt@underscore@SYNPROXY.so
+FILES_INFO: {"/usr/lib/xtables/libxt_SYNPROXY.so": 5516}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@SYNPROXY.so_iptables-module-xt-synproxy:  libxt_SYNPROXY.so
+FILERDEPENDSFLIST_iptables-module-xt-synproxy: /usr/lib/xtables/libxt@underscore@SYNPROXY.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@SYNPROXY.so_iptables-module-xt-synproxy:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-synproxy: 5516

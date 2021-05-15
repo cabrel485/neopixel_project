@@ -1,0 +1,13 @@
+PN: shared-mime-info
+PV: 1.10
+PR: r0
+PKGV: 1.10
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Shared MIME type database and specification.
+SUMMARY: Shared MIME type database and specification
+SECTION: base
+PKG_shared-mime-info-lic: shared-mime-info-lic
+FILES_shared-mime-info-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/shared-mime-info/generic_GPLv2": 17611, "/usr/share/licenses/shared-mime-info/COPYING": 18092}
+PKGSIZE_shared-mime-info-lic: 35703

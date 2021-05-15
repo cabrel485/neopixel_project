@@ -1,0 +1,3 @@
+recipe-sysroot-native/usr/bin/crossscripts/gpg-error-config
+recipe-sysroot-native/usr/bin/gpgrt-config
+recipe-sysroot-native/usr/bin/gpg-error-config

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444680.80 
+automake-native-1.16.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.11 seconds
+utime: 25
+stime: 3
+cutime: 1
+cstime: 2
+IO wchar: 3592273
+IO syscr: 587
+IO write_bytes: 2035712
+IO cancelled_write_bytes: 0
+IO read_bytes: 487424
+IO rchar: 2500042
+IO syscw: 690
+rusage ru_utime: 0.253445
+rusage ru_stime: 0.031124
+rusage ru_maxrss: 131480
+rusage ru_minflt: 13435
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 256
+rusage ru_nvcsw: 52
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 0.019792999999999998
+Child rusage ru_stime: 0.028907
+Child rusage ru_maxrss: 128712
+Child rusage ru_minflt: 2307
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 928
+Child rusage ru_oublock: 3720
+Child rusage ru_nvcsw: 78
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1614444680.90 

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-mai-np: binary locale definition for mai-np
+SUMMARY_glibc-binary-localedata-mai-np: binary locale definition for mai-np
+SECTION: base
+PKG_glibc-binary-localedata-mai-np: glibc-binary-localedata-mai-np
+FILES_glibc-binary-localedata-mai-np: /usr/lib/locale/mai_NP
+FILES_INFO: {"/usr/lib/locale/mai_NP/LC_TELEPHONE": 53, "/usr/lib/locale/mai_NP/LC_MONETARY": 302, "/usr/lib/locale/mai_NP/LC_PAPER": 34, "/usr/lib/locale/mai_NP/LC_TIME": 4032, "/usr/lib/locale/mai_NP/LC_ADDRESS": 143, "/usr/lib/locale/mai_NP/LC_MESSAGES/SYS_LC_MESSAGES": 79, "/usr/lib/locale/mai_NP/LC_NAME": 139, "/usr/lib/locale/mai_NP/LC_CTYPE": 337024, "/usr/lib/locale/mai_NP/LC_NUMERIC": 54, "/usr/lib/locale/mai_NP/LC_MEASUREMENT": 23, "/usr/lib/locale/mai_NP/LC_IDENTIFICATION": 323, "/usr/lib/locale/mai_NP/LC_COLLATE": 2586242}
+PKGSIZE_glibc-binary-localedata-mai-np: 2928448

@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-masquerade: iptables module ipt-masquerade
+SUMMARY_iptables-module-ipt-masquerade: iptables module ipt-masquerade
+RDEPENDS_iptables-module-ipt-masquerade: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-masquerade: iptables-module-ipt-masquerade
+FILES_iptables-module-ipt-masquerade: /usr/lib/xtables/libipt_MASQUERADE.so
+FILERPROVIDESFLIST_iptables-module-ipt-masquerade: /usr/lib/xtables/libipt@underscore@MASQUERADE.so
+FILES_INFO: {"/usr/lib/xtables/libipt_MASQUERADE.so": 5520}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@MASQUERADE.so_iptables-module-ipt-masquerade:  libipt_MASQUERADE.so
+FILERDEPENDSFLIST_iptables-module-ipt-masquerade: /usr/lib/xtables/libipt@underscore@MASQUERADE.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@MASQUERADE.so_iptables-module-ipt-masquerade:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-masquerade: 5520

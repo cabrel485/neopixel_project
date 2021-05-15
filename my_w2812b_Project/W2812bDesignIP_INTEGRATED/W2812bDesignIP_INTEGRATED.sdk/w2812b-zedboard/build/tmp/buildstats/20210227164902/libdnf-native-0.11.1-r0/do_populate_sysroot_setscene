@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444635.06 
+libdnf-native-0.11.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.14 seconds
+utime: 27
+stime: 3
+cutime: 2
+cstime: 1
+IO wchar: 1356951
+IO syscr: 292
+IO write_bytes: 757760
+IO cancelled_write_bytes: 0
+IO read_bytes: 180224
+IO rchar: 1058488
+IO syscw: 333
+rusage ru_utime: 0.277688
+rusage ru_stime: 0.038038999999999996
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13467
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 247
+Child rusage ru_utime: 0.025904
+Child rusage ru_stime: 0.012078
+Child rusage ru_maxrss: 128716
+Child rusage ru_minflt: 2303
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 352
+Child rusage ru_oublock: 1280
+Child rusage ru_nvcsw: 41
+Child rusage ru_nivcsw: 54
+Status: PASSED 
+Ended: 1614444635.21 

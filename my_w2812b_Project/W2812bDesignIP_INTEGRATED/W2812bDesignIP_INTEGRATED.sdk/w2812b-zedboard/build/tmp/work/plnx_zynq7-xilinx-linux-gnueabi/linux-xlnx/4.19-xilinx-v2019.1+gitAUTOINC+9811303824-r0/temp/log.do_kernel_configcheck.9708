@@ -1,0 +1,8 @@
+DEBUG: Executing python function do_kernel_configcheck
+[invalid (9)]: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source/.meta/cfg/invalid.cfg
+   This BSP sets config options that are not offered anywhere within this kernel
+
+[errors (3): /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source/.meta/cfg/fragment_errors.txt
+   There are errors withing the config fragments.
+
+DEBUG: Python function do_kernel_configcheck finished

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-euc-tw: gconv module for character set euc-tw
+SUMMARY_glibc-gconv-euc-tw: gconv module for character set euc-tw
+RDEPENDS_glibc-gconv-euc-tw: glibc-gconv glibc-gconv-libcns (>= 2.28) glibc (>= 2.28)
+SECTION: base
+PKG_glibc-gconv-euc-tw: glibc-gconv-euc-tw
+FILES_glibc-gconv-euc-tw: /usr/lib/gconv/EUC-TW.so
+FILES_INFO: {"/usr/lib/gconv/EUC-TW.so": 17892}
+PKGSIZE_glibc-gconv-euc-tw: 17892

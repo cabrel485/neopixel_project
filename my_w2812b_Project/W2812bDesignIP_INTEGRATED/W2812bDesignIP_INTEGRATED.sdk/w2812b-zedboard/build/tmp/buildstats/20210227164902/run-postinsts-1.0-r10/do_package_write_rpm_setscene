@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444622.29 
+run-postinsts-1.0-r10: do_package_write_rpm_setscene
+Elapsed time: 0.12 seconds
+utime: 12
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 190271
+IO syscr: 178
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 236107
+IO syscw: 132
+rusage ru_utime: 0.12194999999999999
+rusage ru_stime: 0.058872
+rusage ru_maxrss: 131332
+rusage ru_minflt: 6743
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 161
+Child rusage ru_utime: 0.012138
+Child rusage ru_stime: 0.016951
+Child rusage ru_maxrss: 128576
+Child rusage ru_minflt: 2172
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1614444622.40 

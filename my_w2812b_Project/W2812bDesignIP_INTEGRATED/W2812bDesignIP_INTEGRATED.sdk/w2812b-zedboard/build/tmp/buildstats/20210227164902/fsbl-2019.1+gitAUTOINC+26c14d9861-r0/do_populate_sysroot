@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444884.75 
+fsbl-2019.1+gitAUTOINC+26c14d9861-r0: do_populate_sysroot
+Elapsed time: 0.35 seconds
+utime: 20
+stime: 7
+cutime: 5
+cstime: 4
+IO wchar: 862400
+IO syscr: 2029
+IO write_bytes: 364544
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 1363342
+IO syscw: 171
+rusage ru_utime: 0.206527
+rusage ru_stime: 0.074349
+rusage ru_maxrss: 132068
+rusage ru_minflt: 15056
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 417
+Child rusage ru_utime: 0.054846
+Child rusage ru_stime: 0.045385999999999996
+Child rusage ru_maxrss: 129396
+Child rusage ru_minflt: 6493
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 360
+Child rusage ru_nvcsw: 83
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1614444885.10 

@@ -1,0 +1,17 @@
+PN: iproute2
+PV: 4.19.0
+PR: r0
+PKGV: 4.19.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.
+SUMMARY: TCP / IP networking and traffic control utilities
+RDEPENDS_iproute2-lnstat: glibc (>= 2.28)
+RRECOMMENDS_iproute2-lnstat: iproute2-lic
+SECTION: base
+PKG_iproute2-lnstat: iproute2-lnstat
+FILES_iproute2-lnstat: /sbin/lnstat /sbin/ctstat /sbin/rtstat
+FILES_INFO: {"/sbin/lnstat": 13876, "/sbin/ctstat": 6, "/sbin/rtstat": 6}
+FILERDEPENDSFLIST_iproute2-lnstat: /sbin/lnstat
+FILERDEPENDS_/sbin/lnstat_iproute2-lnstat:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iproute2-lnstat: 13888

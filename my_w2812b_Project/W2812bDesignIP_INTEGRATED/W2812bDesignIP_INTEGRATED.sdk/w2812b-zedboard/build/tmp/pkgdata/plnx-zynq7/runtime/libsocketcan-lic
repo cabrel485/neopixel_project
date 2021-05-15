@@ -1,0 +1,13 @@
+PN: libsocketcan
+PV: 0.0.10
+PR: r0
+PKGV: 0.0.10
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION: Control basic functions in socketcan from userspace.
+SUMMARY: Control basic functions in socketcan from userspace
+SECTION: libs/network
+PKG_libsocketcan-lic: libsocketcan-lic
+FILES_libsocketcan-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/libsocketcan/libsocketcan.c": 780, "/usr/share/licenses/libsocketcan/generic_LGPLv2.1": 25878}
+PKGSIZE_libsocketcan-lic: 26658

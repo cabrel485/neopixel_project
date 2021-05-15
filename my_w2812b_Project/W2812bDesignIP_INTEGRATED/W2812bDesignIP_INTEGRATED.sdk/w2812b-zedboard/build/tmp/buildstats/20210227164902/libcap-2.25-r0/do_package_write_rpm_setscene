@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444614.71 
+libcap-2.25-r0: do_package_write_rpm_setscene
+Elapsed time: 0.21 seconds
+utime: 21
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 521583
+IO syscr: 201
+IO write_bytes: 282624
+IO cancelled_write_bytes: 0
+IO read_bytes: 143360
+IO rchar: 570124
+IO syscw: 154
+rusage ru_utime: 0.21534699999999998
+rusage ru_stime: 0.047854
+rusage ru_maxrss: 131204
+rusage ru_minflt: 13178
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 209
+Child rusage ru_utime: 0.013888999999999999
+Child rusage ru_stime: 0.015691999999999998
+Child rusage ru_maxrss: 128508
+Child rusage ru_minflt: 2199
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 280
+Child rusage ru_oublock: 400
+Child rusage ru_nvcsw: 29
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1614444614.92 

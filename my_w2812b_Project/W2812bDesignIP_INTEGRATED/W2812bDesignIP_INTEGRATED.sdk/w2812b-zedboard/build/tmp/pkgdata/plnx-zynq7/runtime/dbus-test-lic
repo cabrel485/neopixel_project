@@ -1,0 +1,13 @@
+PN: dbus-test
+PV: 1.12.10
+PR: r0
+PKGV: 1.12.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION: D-Bus test package (for D-bus functionality testing only).
+SUMMARY: D-Bus test package (for D-bus functionality testing only)
+SECTION: base
+PKG_dbus-test-lic: dbus-test-lic
+FILES_dbus-test-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/dbus-test/dbus.h": 779, "/usr/share/licenses/dbus-test/COPYING": 29176, "/usr/share/licenses/dbus-test/generic_AFL-2": 9014, "/usr/share/licenses/dbus-test/generic_GPLv2": 17611}
+PKGSIZE_dbus-test-lic: 56580

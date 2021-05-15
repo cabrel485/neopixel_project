@@ -1,0 +1,13 @@
+PN: bash-completion
+PV: 2.8
+PR: r0
+PKGV: 2.8
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Programmable Completion for Bash 4.
+SUMMARY: Programmable Completion for Bash 4
+SECTION: console/utils
+PKG_bash-completion-lic: bash-completion-lic
+FILES_bash-completion-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/bash-completion/COPYING": 17987, "/usr/share/licenses/bash-completion/generic_GPLv2": 17611}
+PKGSIZE_bash-completion-lic: 35598

@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-sqlite3: Python Sqlite3 database support
+RDEPENDS_python-sqlite3: python-core python-datetime libpython2 (>= 2.7.15) libsqlite3 (>= 3.23.1) glibc (>= 2.28)
+RRECOMMENDS_python-sqlite3: python-lic
+SECTION: devel/python
+PKG_python-sqlite3: python-sqlite3
+FILES_python-sqlite3:  /usr/lib/python2.7/lib-dynload/_sqlite3.so /usr/lib/python2.7/sqlite3
+FILES_INFO: {"/usr/lib/python2.7/sqlite3/dbapi2.pyc": 2690, "/usr/lib/python2.7/sqlite3/dump.pyc": 2065, "/usr/lib/python2.7/sqlite3/__init__.py": 1037, "/usr/lib/python2.7/sqlite3/dump.py": 2804, "/usr/lib/python2.7/sqlite3/__init__.pyc": 162, "/usr/lib/python2.7/lib-dynload/_sqlite3.so": 54008, "/usr/lib/python2.7/sqlite3/dbapi2.py": 2698}
+FILERDEPENDSFLIST_python-sqlite3: /usr/lib/python2.7/lib-dynload/@underscore@sqlite3.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@sqlite3.so_python-sqlite3:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libsqlite3.so.0 libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python-sqlite3: 65464

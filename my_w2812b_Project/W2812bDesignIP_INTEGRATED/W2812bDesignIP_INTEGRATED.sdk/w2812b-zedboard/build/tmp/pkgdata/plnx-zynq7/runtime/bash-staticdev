@@ -1,0 +1,15 @@
+PN: bash
+PV: 4.4.18
+PR: r0
+PKGV: 4.4.18
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION_bash-staticdev: An sh-compatible command language interpreter.  This package contains static libraries for software development.
+SUMMARY_bash-staticdev: An sh-compatible command language interpreter - Development files (Static Libraries)
+RDEPENDS_bash-staticdev: bash-dev (= 4.4.18-r0)
+RRECOMMENDS_bash-staticdev: bash-lic
+SECTION_bash-staticdev: devel
+PKG_bash-staticdev: bash-staticdev
+FILES_bash-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/bash/*.a
+FILES_INFO: {}
+PKGSIZE_bash-staticdev: 0

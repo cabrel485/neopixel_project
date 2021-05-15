@@ -1,0 +1,335 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz for 08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz
+DEBUG: Searching for 08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo for 08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/08/sstate%3Alibx11%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.6%3Ar0%3Acortexa9t2hf-neon%3A3%3A0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo;downloadfilename=08/sstate:libx11:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.6:r0:cortexa9t2hf-neon:3:0884bfd8e0e8bdcab50ac20a40b6c66d_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/usr/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/X11/
+sysroot-destdir/usr/share/X11/Xcms.txt
+sysroot-destdir/usr/share/X11/locale/
+sysroot-destdir/usr/share/X11/locale/nokhchi-1/
+sysroot-destdir/usr/share/X11/locale/nokhchi-1/Compose
+sysroot-destdir/usr/share/X11/locale/nokhchi-1/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/nokhchi-1/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-9e/
+sysroot-destdir/usr/share/X11/locale/iso8859-9e/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-9e/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-9e/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/th_TH.UTF-8/
+sysroot-destdir/usr/share/X11/locale/th_TH.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/th_TH.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/th_TH/
+sysroot-destdir/usr/share/X11/locale/th_TH/Compose
+sysroot-destdir/usr/share/X11/locale/th_TH/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/th_TH/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/compose.dir
+sysroot-destdir/usr/share/X11/locale/pt_PT.UTF-8/
+sysroot-destdir/usr/share/X11/locale/pt_PT.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/pt_PT.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/pt_PT.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/km_KH.UTF-8/
+sysroot-destdir/usr/share/X11/locale/km_KH.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/km_KH.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/km_KH.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_TW.big5/
+sysroot-destdir/usr/share/X11/locale/zh_TW.big5/Compose
+sysroot-destdir/usr/share/X11/locale/zh_TW.big5/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_TW.big5/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-2/
+sysroot-destdir/usr/share/X11/locale/iso8859-2/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-2/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-2/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/vi_VN.tcvn/
+sysroot-destdir/usr/share/X11/locale/vi_VN.tcvn/Compose
+sysroot-destdir/usr/share/X11/locale/vi_VN.tcvn/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/vi_VN.tcvn/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_HK.UTF-8/
+sysroot-destdir/usr/share/X11/locale/zh_HK.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/zh_HK.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_HK.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/koi8-c/
+sysroot-destdir/usr/share/X11/locale/koi8-c/Compose
+sysroot-destdir/usr/share/X11/locale/koi8-c/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/koi8-c/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/koi8-u/
+sysroot-destdir/usr/share/X11/locale/koi8-u/Compose
+sysroot-destdir/usr/share/X11/locale/koi8-u/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/koi8-u/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1251/
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1251/Compose
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1251/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1251/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ja.SJIS/
+sysroot-destdir/usr/share/X11/locale/ja.SJIS/Compose
+sysroot-destdir/usr/share/X11/locale/ja.SJIS/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ja.SJIS/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ru_RU.UTF-8/
+sysroot-destdir/usr/share/X11/locale/ru_RU.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/ru_RU.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ru_RU.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-5/
+sysroot-destdir/usr/share/X11/locale/iso8859-5/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-5/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-5/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/sr_CS.UTF-8/
+sysroot-destdir/usr/share/X11/locale/sr_CS.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/sr_CS.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/sr_CS.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1256/
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1256/Compose
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1256/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1256/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ko/
+sysroot-destdir/usr/share/X11/locale/ko/Compose
+sysroot-destdir/usr/share/X11/locale/ko/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ko/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ja_JP.UTF-8/
+sysroot-destdir/usr/share/X11/locale/ja_JP.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/ja_JP.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ja_JP.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ja.JIS/
+sysroot-destdir/usr/share/X11/locale/ja.JIS/Compose
+sysroot-destdir/usr/share/X11/locale/ja.JIS/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ja.JIS/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ja/
+sysroot-destdir/usr/share/X11/locale/ja/Compose
+sysroot-destdir/usr/share/X11/locale/ja/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ja/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_CN/
+sysroot-destdir/usr/share/X11/locale/zh_CN/Compose
+sysroot-destdir/usr/share/X11/locale/zh_CN/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_CN/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/tscii-0/
+sysroot-destdir/usr/share/X11/locale/tscii-0/Compose
+sysroot-destdir/usr/share/X11/locale/tscii-0/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/tscii-0/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/locale.dir
+sysroot-destdir/usr/share/X11/locale/iso8859-11/
+sysroot-destdir/usr/share/X11/locale/iso8859-11/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-11/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-11/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/georgian-academy/
+sysroot-destdir/usr/share/X11/locale/georgian-academy/Compose
+sysroot-destdir/usr/share/X11/locale/georgian-academy/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/georgian-academy/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-1/
+sysroot-destdir/usr/share/X11/locale/iso8859-1/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-1/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-1/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/locale.alias
+sysroot-destdir/usr/share/X11/locale/iscii-dev/
+sysroot-destdir/usr/share/X11/locale/iscii-dev/Compose
+sysroot-destdir/usr/share/X11/locale/iscii-dev/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iscii-dev/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1255/
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1255/Compose
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1255/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/microsoft-cp1255/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_TW/
+sysroot-destdir/usr/share/X11/locale/zh_TW/Compose
+sysroot-destdir/usr/share/X11/locale/zh_TW/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_TW/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-4/
+sysroot-destdir/usr/share/X11/locale/iso8859-4/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-4/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-4/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/koi8-r/
+sysroot-destdir/usr/share/X11/locale/koi8-r/Compose
+sysroot-destdir/usr/share/X11/locale/koi8-r/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/koi8-r/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_TW.UTF-8/
+sysroot-destdir/usr/share/X11/locale/zh_TW.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/zh_TW.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_TW.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/isiri-3342/
+sysroot-destdir/usr/share/X11/locale/isiri-3342/Compose
+sysroot-destdir/usr/share/X11/locale/isiri-3342/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/isiri-3342/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-7/
+sysroot-destdir/usr/share/X11/locale/iso8859-7/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-7/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-7/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-6/
+sysroot-destdir/usr/share/X11/locale/iso8859-6/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-6/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-6/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-13/
+sysroot-destdir/usr/share/X11/locale/iso8859-13/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-13/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-13/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-8/
+sysroot-destdir/usr/share/X11/locale/iso8859-8/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/mulelao-1/
+sysroot-destdir/usr/share/X11/locale/mulelao-1/Compose
+sysroot-destdir/usr/share/X11/locale/mulelao-1/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/mulelao-1/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_CN.gb18030/
+sysroot-destdir/usr/share/X11/locale/zh_CN.gb18030/Compose
+sysroot-destdir/usr/share/X11/locale/zh_CN.gb18030/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_CN.gb18030/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/fi_FI.UTF-8/
+sysroot-destdir/usr/share/X11/locale/fi_FI.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/fi_FI.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/fi_FI.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/cs_CZ.UTF-8/
+sysroot-destdir/usr/share/X11/locale/cs_CZ.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/cs_CZ.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/cs_CZ.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/am_ET.UTF-8/
+sysroot-destdir/usr/share/X11/locale/am_ET.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/am_ET.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/am_ET.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-15/
+sysroot-destdir/usr/share/X11/locale/iso8859-15/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-15/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-15/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ko_KR.UTF-8/
+sysroot-destdir/usr/share/X11/locale/ko_KR.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/ko_KR.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ko_KR.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/vi_VN.viscii/
+sysroot-destdir/usr/share/X11/locale/vi_VN.viscii/Compose
+sysroot-destdir/usr/share/X11/locale/vi_VN.viscii/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/vi_VN.viscii/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-3/
+sysroot-destdir/usr/share/X11/locale/iso8859-3/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-3/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-3/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/armscii-8/
+sysroot-destdir/usr/share/X11/locale/armscii-8/Compose
+sysroot-destdir/usr/share/X11/locale/armscii-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/armscii-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/pt_BR.UTF-8/
+sysroot-destdir/usr/share/X11/locale/pt_BR.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/pt_BR.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/pt_BR.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-9/
+sysroot-destdir/usr/share/X11/locale/iso8859-9/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-9/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-9/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/el_GR.UTF-8/
+sysroot-destdir/usr/share/X11/locale/el_GR.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/el_GR.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/el_GR.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/C/
+sysroot-destdir/usr/share/X11/locale/C/Compose
+sysroot-destdir/usr/share/X11/locale/C/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/C/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-14/
+sysroot-destdir/usr/share/X11/locale/iso8859-14/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-14/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-14/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_CN.gbk/
+sysroot-destdir/usr/share/X11/locale/zh_CN.gbk/Compose
+sysroot-destdir/usr/share/X11/locale/zh_CN.gbk/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5/
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5/Compose
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/en_US.UTF-8/
+sysroot-destdir/usr/share/X11/locale/en_US.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/en_US.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/iso8859-10/
+sysroot-destdir/usr/share/X11/locale/iso8859-10/Compose
+sysroot-destdir/usr/share/X11/locale/iso8859-10/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/iso8859-10/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/tatar-cyr/
+sysroot-destdir/usr/share/X11/locale/tatar-cyr/Compose
+sysroot-destdir/usr/share/X11/locale/tatar-cyr/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/tatar-cyr/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/ibm-cp1133/
+sysroot-destdir/usr/share/X11/locale/ibm-cp1133/Compose
+sysroot-destdir/usr/share/X11/locale/ibm-cp1133/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/ibm-cp1133/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_CN.UTF-8/
+sysroot-destdir/usr/share/X11/locale/zh_CN.UTF-8/Compose
+sysroot-destdir/usr/share/X11/locale/zh_CN.UTF-8/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_CN.UTF-8/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/georgian-ps/
+sysroot-destdir/usr/share/X11/locale/georgian-ps/Compose
+sysroot-destdir/usr/share/X11/locale/georgian-ps/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/georgian-ps/XLC_LOCALE
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5hkscs/
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5hkscs/Compose
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5hkscs/XI18N_OBJS
+sysroot-destdir/usr/share/X11/locale/zh_HK.big5hkscs/XLC_LOCALE
+sysroot-destdir/usr/share/X11/XErrorDB
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libX11-xcb.so
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/x11-xcb.pc
+sysroot-destdir/usr/lib/pkgconfig/x11.pc
+sysroot-destdir/usr/lib/libX11-xcb.so.1
+sysroot-destdir/usr/lib/libX11-xcb.so.1.0.0
+sysroot-destdir/usr/lib/libX11.so.6.3.0
+sysroot-destdir/usr/lib/libX11.so.6
+sysroot-destdir/usr/lib/libX11.so
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/X11/
+sysroot-destdir/usr/include/X11/Xlibint.h
+sysroot-destdir/usr/include/X11/cursorfont.h
+sysroot-destdir/usr/include/X11/Xresource.h
+sysroot-destdir/usr/include/X11/Xcms.h
+sysroot-destdir/usr/include/X11/XlibConf.h
+sysroot-destdir/usr/include/X11/Xregion.h
+sysroot-destdir/usr/include/X11/Xlocale.h
+sysroot-destdir/usr/include/X11/XKBlib.h
+sysroot-destdir/usr/include/X11/Xlib.h
+sysroot-destdir/usr/include/X11/Xlib-xcb.h
+sysroot-destdir/usr/include/X11/Xutil.h
+sysroot-destdir/usr/include/X11/ImUtil.h
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/virtual_libx11
+sysroot-destdir/sysroot-providers/libx11
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/libx11/1_1.6.6-r0/sysroot-destdir to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/cortexa9t2hf-neon/libx11
+DEBUG: Python function do_populate_sysroot_setscene finished

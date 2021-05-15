@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-parsexs-constants: perl module extutils-parsexs-constants
+SUMMARY_perl-module-extutils-parsexs-constants: perl module extutils-parsexs-constants
+RDEPENDS_perl-module-extutils-parsexs-constants: perl perl-module-strict perl-module-symbol perl-module-warnings
+SECTION: devel
+PKG_perl-module-extutils-parsexs-constants: perl-module-extutils-parsexs-constants
+FILES_perl-module-extutils-parsexs-constants: /usr/lib/perl/5.24.4/ExtUtils/ParseXS/Constants.pm
+FILERPROVIDESFLIST_perl-module-extutils-parsexs-constants: /usr/lib/perl/5.24.4/ExtUtils/ParseXS/Constants.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/ParseXS/Constants.pm": 1144}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/ParseXS/Constants.pm_perl-module-extutils-parsexs-constants:  perl(ExtUtils::ParseXS::Constants)
+PKGSIZE_perl-module-extutils-parsexs-constants: 1144

@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-netserver: Python Internet Protocol servers
+RDEPENDS_python3-netserver: python3-compression python3-core python3-crypt python3-datetime python3-email python3-html python3-io python3-math python3-mime python3-netclient python3-shell python3-stringold python3-unixadmin
+RRECOMMENDS_python3-netserver: python3-lic
+SECTION: devel/python
+PKG_python3-netserver: python3-netserver
+FILES_python3-netserver:  /usr/lib/python3.5/cgi.py /usr/lib/python3.5/socketserver.py /usr/lib/python3.5/__pycache__/cgi.*.pyc /usr/lib/python3.5/__pycache__/socketserver.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/cgi.cpython-35.opt-2.pyc": 20948, "/usr/lib/python3.5/socketserver.py": 24666, "/usr/lib/python3.5/__pycache__/socketserver.cpython-35.opt-2.pyc": 12397, "/usr/lib/python3.5/cgi.py": 35546, "/usr/lib/python3.5/__pycache__/socketserver.cpython-35.opt-1.pyc": 23181, "/usr/lib/python3.5/__pycache__/socketserver.cpython-35.pyc": 23181, "/usr/lib/python3.5/__pycache__/cgi.cpython-35.opt-1.pyc": 29850, "/usr/lib/python3.5/__pycache__/cgi.cpython-35.pyc": 29850}
+FILERDEPENDSFLIST_python3-netserver: /usr/lib/python3.5/cgi.py
+FILERDEPENDS_/usr/lib/python3.5/cgi.py_python3-netserver:  /usr/bin/env
+PKGSIZE_python3-netserver: 199619

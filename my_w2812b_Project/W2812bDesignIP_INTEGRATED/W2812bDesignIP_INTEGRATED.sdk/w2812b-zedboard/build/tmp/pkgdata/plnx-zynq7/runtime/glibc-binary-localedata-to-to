@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-to-to: binary locale definition for to-to
+SUMMARY_glibc-binary-localedata-to-to: binary locale definition for to-to
+SECTION: base
+PKG_glibc-binary-localedata-to-to: glibc-binary-localedata-to-to
+FILES_glibc-binary-localedata-to-to: /usr/lib/locale/to_TO
+FILES_INFO: {"/usr/lib/locale/to_TO/LC_CTYPE": 337024, "/usr/lib/locale/to_TO/LC_MONETARY": 290, "/usr/lib/locale/to_TO/LC_PAPER": 34, "/usr/lib/locale/to_TO/LC_TIME": 3604, "/usr/lib/locale/to_TO/LC_NUMERIC": 54, "/usr/lib/locale/to_TO/LC_MEASUREMENT": 23, "/usr/lib/locale/to_TO/LC_NAME": 77, "/usr/lib/locale/to_TO/LC_TELEPHONE": 49, "/usr/lib/locale/to_TO/LC_COLLATE": 2586242, "/usr/lib/locale/to_TO/LC_MESSAGES/SYS_LC_MESSAGES": 62, "/usr/lib/locale/to_TO/LC_ADDRESS": 117, "/usr/lib/locale/to_TO/LC_IDENTIFICATION": 392}
+PKGSIZE_glibc-binary-localedata-to-to: 2927968

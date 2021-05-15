@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444584.53 
+acl-native-2.2.52-r0: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 28
+stime: 4
+cutime: 0
+cstime: 1
+IO wchar: 325579
+IO syscr: 211
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+IO read_bytes: 36864
+IO rchar: 334090
+IO syscw: 162
+rusage ru_utime: 0.288091
+rusage ru_stime: 0.047356999999999996
+rusage ru_maxrss: 131548
+rusage ru_minflt: 13398
+rusage ru_majflt: 0
+rusage ru_inblock: 32
+rusage ru_oublock: 160
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 135
+Child rusage ru_utime: 0.009807999999999999
+Child rusage ru_stime: 0.016923
+Child rusage ru_maxrss: 128772
+Child rusage ru_minflt: 2286
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 200
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1614444584.65 

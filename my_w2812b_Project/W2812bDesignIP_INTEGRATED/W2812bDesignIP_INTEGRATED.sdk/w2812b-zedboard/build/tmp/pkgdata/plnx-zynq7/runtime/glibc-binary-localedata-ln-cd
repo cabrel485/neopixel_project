@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ln-cd: binary locale definition for ln-cd
+SUMMARY_glibc-binary-localedata-ln-cd: binary locale definition for ln-cd
+SECTION: base
+PKG_glibc-binary-localedata-ln-cd: glibc-binary-localedata-ln-cd
+FILES_glibc-binary-localedata-ln-cd: /usr/lib/locale/ln_CD
+FILES_INFO: {"/usr/lib/locale/ln_CD/LC_PAPER": 34, "/usr/lib/locale/ln_CD/LC_NUMERIC": 54, "/usr/lib/locale/ln_CD/LC_MONETARY": 290, "/usr/lib/locale/ln_CD/LC_MEASUREMENT": 23, "/usr/lib/locale/ln_CD/LC_TELEPHONE": 58, "/usr/lib/locale/ln_CD/LC_IDENTIFICATION": 384, "/usr/lib/locale/ln_CD/LC_MESSAGES/SYS_LC_MESSAGES": 65, "/usr/lib/locale/ln_CD/LC_NAME": 93, "/usr/lib/locale/ln_CD/LC_ADDRESS": 180, "/usr/lib/locale/ln_CD/LC_CTYPE": 337024, "/usr/lib/locale/ln_CD/LC_COLLATE": 2586218, "/usr/lib/locale/ln_CD/LC_TIME": 4692}
+PKGSIZE_glibc-binary-localedata-ln-cd: 2929115

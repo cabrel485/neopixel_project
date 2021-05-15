@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mfe-mu: locale definition for mfe-mu
+SUMMARY_glibc-localedata-mfe-mu: locale definition for mfe-mu
+RDEPENDS_glibc-localedata-mfe-mu: glibc-localedata-i18n glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-mfe-mu: glibc-localedata-mfe-mu
+FILES_glibc-localedata-mfe-mu: /usr/share/i18n/locales/mfe_MU
+FILES_INFO: {"/usr/share/i18n/locales/mfe_MU": 3594}
+PKGSIZE_glibc-localedata-mfe-mu: 3594

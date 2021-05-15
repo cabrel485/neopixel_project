@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-bg: Locale data from glibc.  This package contains language translation files for the bg locale.
+SUMMARY_glibc-locale-bg: Locale data from glibc - bg translations
+RPROVIDES_glibc-locale-bg: glibc-locale bg-translation
+RRECOMMENDS_glibc-locale-bg: virtual-locale-bg
+SECTION: base
+PKG_glibc-locale-bg: glibc-locale-bg
+FILES_glibc-locale-bg: /usr/share/locale/bg
+FILES_INFO: {}
+PKGSIZE_glibc-locale-bg: 0

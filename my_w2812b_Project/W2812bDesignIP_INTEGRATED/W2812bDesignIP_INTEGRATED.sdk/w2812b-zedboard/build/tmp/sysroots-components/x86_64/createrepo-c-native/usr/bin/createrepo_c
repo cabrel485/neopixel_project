@@ -1,0 +1,5 @@
+#!/bin/bash
+realpath=`readlink -fn $0`
+realdir=`dirname $realpath`
+export RPM_CONFIGDIR=$realdir/../../usr/lib/rpm
+exec -a `dirname $realpath`/createrepo_c `dirname $realpath`/createrepo_c.real "$@"

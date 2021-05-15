@@ -1,0 +1,15 @@
+PN: u-boot-xlnx
+PV: v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94
+PR: r0
+PKGV: v2019.01-xilinx-v2019.1+git0+d895ac5e94
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-xlnx-staticdev: Universal Boot Loader for embedded devices.  This package contains static libraries for software development.
+SUMMARY_u-boot-xlnx-staticdev: Universal Boot Loader for embedded devices - Development files (Static Libraries)
+RDEPENDS_u-boot-xlnx-staticdev: u-boot-xlnx-dev (= v2019.01-xilinx-v2019.1+git0+d895ac5e94-r0)
+RRECOMMENDS_u-boot-xlnx-staticdev: u-boot-xlnx-lic
+SECTION_u-boot-xlnx-staticdev: devel
+PKG_u-boot-xlnx-staticdev: u-boot-xlnx-staticdev
+FILES_u-boot-xlnx-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/u-boot-xlnx/*.a
+FILES_INFO: {}
+PKGSIZE_u-boot-xlnx-staticdev: 0

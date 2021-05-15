@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-json: Python JSON support
+RDEPENDS_python-json: python-core libpython2 (>= 2.7.15) glibc (>= 2.28)
+RRECOMMENDS_python-json: python-lic
+SECTION: devel/python
+PKG_python-json: python-json
+FILES_python-json:  /usr/lib/python2.7/json /usr/lib/python2.7/lib-dynload/_json.so
+FILES_INFO: {"/usr/lib/python2.7/json/__init__.pyc": 13916, "/usr/lib/python2.7/json/decoder.py": 13698, "/usr/lib/python2.7/json/__init__.py": 14721, "/usr/lib/python2.7/json/scanner.py": 2297, "/usr/lib/python2.7/json/tool.pyc": 1290, "/usr/lib/python2.7/lib-dynload/_json.so": 27368, "/usr/lib/python2.7/json/encoder.py": 16399, "/usr/lib/python2.7/json/tool.py": 997, "/usr/lib/python2.7/json/decoder.pyc": 11936, "/usr/lib/python2.7/json/scanner.pyc": 2223, "/usr/lib/python2.7/json/encoder.pyc": 13687}
+FILERDEPENDSFLIST_python-json: /usr/lib/python2.7/lib-dynload/@underscore@json.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@json.so_python-json:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python-json: 118532

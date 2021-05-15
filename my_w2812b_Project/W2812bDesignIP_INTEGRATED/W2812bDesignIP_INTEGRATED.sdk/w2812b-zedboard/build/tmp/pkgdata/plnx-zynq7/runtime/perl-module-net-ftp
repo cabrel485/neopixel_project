@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-net-ftp: perl module net-ftp
+SUMMARY_perl-module-net-ftp: perl module net-ftp
+RDEPENDS_perl-module-net-ftp: perl perl-module-carp perl-module-constant perl-module-fcntl perl-module-file-basename perl-module-io-socket perl-module-io-socket-ip perl-module-net-cmd perl-module-net-config perl-module-net-ftp-a perl-module-net-netrc perl-module-socket perl-module-strict perl-module-time-local perl-module-warnings
+SECTION: devel
+PKG_perl-module-net-ftp: perl-module-net-ftp
+FILES_perl-module-net-ftp: /usr/lib/perl/5.24.4/Net/FTP.pm
+FILERPROVIDESFLIST_perl-module-net-ftp: /usr/lib/perl/5.24.4/Net/FTP.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Net/FTP.pm": 53270}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Net/FTP.pm_perl-module-net-ftp:  perl(Net::FTP) perl(Net::FTP::_SSL_SingleSessionCache)
+PKGSIZE_perl-module-net-ftp: 53270

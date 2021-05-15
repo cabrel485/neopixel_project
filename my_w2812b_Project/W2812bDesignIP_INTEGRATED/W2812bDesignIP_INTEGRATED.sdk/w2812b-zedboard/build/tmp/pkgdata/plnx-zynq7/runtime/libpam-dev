@@ -1,0 +1,16 @@
+PN: libpam
+PV: 1.3.0
+PR: r5
+PKGV: 1.3.0
+PKGR: r5
+LICENSE: GPLv2+ | BSD
+DESCRIPTION_libpam-dev: Linux-PAM (Pluggable Authentication Modules for Linux), a flexible mechanism for authenticating users  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libpam-dev: Linux-PAM (Pluggable Authentication Modules) - Development files
+RDEPENDS_libpam-dev: libpam (= 1.3.0-r5)
+RRECOMMENDS_libpam-dev: cracklib-dev flex-dev libpam-lic glibc-dev libpam-suffix-dev pam-plugin-deny-suffix-dev pam-plugin-permit-suffix-dev pam-plugin-unix-suffix-dev pam-plugin-warn-suffix-dev coreutils-dev pam-plugin-access-suffix-dev pam-plugin-cracklib-suffix-dev pam-plugin-debug-suffix-dev pam-plugin-pwhistory-suffix-dev pam-plugin-succeed-if-suffix-dev pam-plugin-time-suffix-dev libxcrypt-dev
+SECTION_libpam-dev: devel
+PKG_libpam-dev: libpam-dev
+ALLOW_EMPTY_libpam-dev: 1
+FILES_libpam-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libpam/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /lib/security/*.la /lib/*.la /lib/lib*.so
+FILES_INFO: {"/usr/include/security/pam_modules.h": 4725, "/usr/include/security/pam_misc.h": 1526, "/usr/include/security/_pam_types.h": 12904, "/usr/include/security/pam_client.h": 7239, "/lib/libpam_misc.so": 21, "/usr/include/security/_pam_macros.h": 6109, "/usr/include/security/pam_filter.h": 1089, "/usr/include/security/_pam_compat.h": 2972, "/lib/libpamc.so": 17, "/usr/include/security/pam_appl.h": 3297, "/lib/libpam.so": 16, "/usr/include/security/pam_modutil.h": 5220, "/usr/include/security/pam_ext.h": 3631}
+PKGSIZE_libpam-dev: 48766

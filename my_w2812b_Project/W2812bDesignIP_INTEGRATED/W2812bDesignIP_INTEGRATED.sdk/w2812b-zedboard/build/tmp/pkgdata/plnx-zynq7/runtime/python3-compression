@@ -1,0 +1,20 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-compression: Python high-level compression support
+RDEPENDS_python3-compression: python3-core python3-shell python3-unixadmin liblzma (>= 5.2.4) libpython3 (>= 3.5.6) zlib (>= 1.2.11) libbz2 (>= 1.0.6) glibc (>= 2.28)
+RRECOMMENDS_python3-compression: python3-lic
+SECTION: devel/python
+PKG_python3-compression: python3-compression
+FILES_python3-compression:  /usr/lib/python3.5/_compression.py /usr/lib/python3.5/bz2.py /usr/lib/python3.5/gzip.py /usr/lib/python3.5/lib-dynload/_bz2.*.so /usr/lib/python3.5/lib-dynload/_lzma.*.so /usr/lib/python3.5/lib-dynload/zlib.*.so /usr/lib/python3.5/lzma.py /usr/lib/python3.5/tarfile.py /usr/lib/python3.5/zipfile.py /usr/lib/python3.5/__pycache__/_compression.*.pyc /usr/lib/python3.5/__pycache__/bz2.*.pyc /usr/lib/python3.5/__pycache__/gzip.*.pyc /usr/lib/python3.5/__pycache__/lzma.*.pyc /usr/lib/python3.5/__pycache__/tarfile.*.pyc /usr/lib/python3.5/__pycache__/zipfile.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/_compression.py": 5340, "/usr/lib/python3.5/gzip.py": 20260, "/usr/lib/python3.5/__pycache__/zipfile.cpython-35.opt-2.pyc": 44176, "/usr/lib/python3.5/__pycache__/bz2.cpython-35.pyc": 11773, "/usr/lib/python3.5/__pycache__/gzip.cpython-35.pyc": 17565, "/usr/lib/python3.5/__pycache__/lzma.cpython-35.opt-2.pyc": 6300, "/usr/lib/python3.5/lib-dynload/_lzma.cpython-35m-arm-linux-gnueabihf.so": 22808, "/usr/lib/python3.5/__pycache__/bz2.cpython-35.opt-2.pyc": 6738, "/usr/lib/python3.5/__pycache__/tarfile.cpython-35.opt-2.pyc": 55048, "/usr/lib/python3.5/zipfile.py": 73672, "/usr/lib/python3.5/bz2.py": 12424, "/usr/lib/python3.5/__pycache__/tarfile.cpython-35.pyc": 69067, "/usr/lib/python3.5/__pycache__/_compression.cpython-35.opt-2.pyc": 4212, "/usr/lib/python3.5/__pycache__/gzip.cpython-35.opt-1.pyc": 17565, "/usr/lib/python3.5/__pycache__/lzma.cpython-35.opt-1.pyc": 12465, "/usr/lib/python3.5/__pycache__/_compression.cpython-35.pyc": 4434, "/usr/lib/python3.5/__pycache__/tarfile.cpython-35.opt-1.pyc": 69067, "/usr/lib/python3.5/lib-dynload/_bz2.cpython-35m-arm-linux-gnueabihf.so": 16028, "/usr/lib/python3.5/tarfile.py": 93058, "/usr/lib/python3.5/__pycache__/_compression.cpython-35.opt-1.pyc": 4434, "/usr/lib/python3.5/__pycache__/zipfile.cpython-35.opt-1.pyc": 49698, "/usr/lib/python3.5/__pycache__/gzip.cpython-35.opt-2.pyc": 13753, "/usr/lib/python3.5/__pycache__/lzma.cpython-35.pyc": 12465, "/usr/lib/python3.5/lzma.py": 12925, "/usr/lib/python3.5/__pycache__/bz2.cpython-35.opt-1.pyc": 11773, "/usr/lib/python3.5/lib-dynload/zlib.cpython-35m-arm-linux-gnueabihf.so": 22772, "/usr/lib/python3.5/__pycache__/zipfile.cpython-35.pyc": 49780}
+FILERDEPENDSFLIST_python3-compression: /usr/lib/python3.5/lib-dynload/@underscore@bz2.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/@underscore@lzma.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/tarfile.py /usr/lib/python3.5/lib-dynload/zlib.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@bz2.cpython-35m-arm-linux-gnueabihf.so_python3-compression:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libbz2.so.1 libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@lzma.cpython-35m-arm-linux-gnueabihf.so_python3-compression:  ld-linux-armhf.so.3(GLIBC_2.4) liblzma.so.5(XZ_5.0) libc.so.6(GLIBC_2.4) liblzma.so.5 libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/tarfile.py_python3-compression:  /usr/bin/env
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/zlib.cpython-35m-arm-linux-gnueabihf.so_python3-compression:  libz.so.1(ZLIB_1.2.0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libz.so.1 libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-compression: 739600

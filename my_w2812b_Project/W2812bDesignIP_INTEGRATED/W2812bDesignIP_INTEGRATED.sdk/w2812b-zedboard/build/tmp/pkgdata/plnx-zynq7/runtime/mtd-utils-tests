@@ -1,0 +1,63 @@
+PN: mtd-utils
+PV: 2.0.2+AUTOINC+bc63d36e39
+PR: r0
+PKGV: 2.0.2+0+bc63d36e39
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: Tools for managing memory technology devices
+RDEPENDS_mtd-utils-tests: bash glibc (>= 2.28)
+RRECOMMENDS_mtd-utils-tests: mtd-utils-lic
+SECTION: base
+PKG_mtd-utils-tests: mtd-utils-tests
+FILES_mtd-utils-tests: /usr/libexec/mtd-utils/*
+FILES_INFO: {"/usr/libexec/mtd-utils/rndrm00": 21908, "/usr/libexec/mtd-utils/fs_stress00.sh": 1259, "/usr/libexec/mtd-utils/nandsubpagetest": 30160, "/usr/libexec/mtd-utils/rsvol": 21892, "/usr/libexec/mtd-utils/flash_readtest": 30156, "/usr/libexec/mtd-utils/pdfrun": 21908, "/usr/libexec/mtd-utils/fstest_monitor": 9612, "/usr/libexec/mtd-utils/stress_3": 21912, "/usr/libexec/mtd-utils/fwrite00": 26008, "/usr/libexec/mtd-utils/io_paral": 25992, "/usr/libexec/mtd-utils/volrefcnt": 21896, "/usr/libexec/mtd-utils/plotJittervsFill": 9872, "/usr/libexec/mtd-utils/runubitests.sh": 666, "/usr/libexec/mtd-utils/ftrunc": 21908, "/usr/libexec/mtd-utils/stress_2": 21912, "/usr/libexec/mtd-utils/JitterTest": 13748, "/usr/libexec/mtd-utils/orph": 21908, "/usr/libexec/mtd-utils/flash_speed": 30152, "/usr/libexec/mtd-utils/rndrm99": 26004, "/usr/libexec/mtd-utils/nandpagetest": 34256, "/usr/libexec/mtd-utils/load_nandsim.sh": 3676, "/usr/libexec/mtd-utils/integ": 25992, "/usr/libexec/mtd-utils/gcd_hupper": 21912, "/usr/libexec/mtd-utils/io_read": 25988, "/usr/libexec/mtd-utils/test_1": 21908, "/usr/libexec/mtd-utils/integck": 58880, "/usr/libexec/mtd-utils/fs_stress01.sh": 773, "/usr/libexec/mtd-utils/mkvol_bad": 25992, "/usr/libexec/mtd-utils/mkvol_basic": 21896, "/usr/libexec/mtd-utils/fs_help_all.sh": 1504, "/usr/libexec/mtd-utils/io_update": 21896, "/usr/libexec/mtd-utils/makefiles": 9608, "/usr/libexec/mtd-utils/fs_run_all.sh": 809, "/usr/libexec/mtd-utils/rndwrite00": 21912, "/usr/libexec/mtd-utils/flash_stress": 30148, "/usr/libexec/mtd-utils/io_basic": 21896, "/usr/libexec/mtd-utils/test_2": 21908, "/usr/libexec/mtd-utils/nandbiterrs": 30156, "/usr/libexec/mtd-utils/ubi-stress-test.sh": 5866, "/usr/libexec/mtd-utils/rmdir00": 21908, "/usr/libexec/mtd-utils/free_space": 5512, "/usr/libexec/mtd-utils/mkvol_paral": 21896, "/usr/libexec/mtd-utils/filljffs2.sh": 249, "/usr/libexec/mtd-utils/flash_torture": 26060, "/usr/libexec/mtd-utils/stress_1": 21912, "/usr/libexec/mtd-utils/checkfs": 9868, "/usr/libexec/mtd-utils/perf": 21908}
+FILERDEPENDSFLIST_mtd-utils-tests: /usr/libexec/mtd-utils/rndrm00 /usr/libexec/mtd-utils/fstest@underscore@monitor /usr/libexec/mtd-utils/io@underscore@read /usr/libexec/mtd-utils/nandsubpagetest /usr/libexec/mtd-utils/rsvol /usr/libexec/mtd-utils/flash@underscore@readtest /usr/libexec/mtd-utils/pdfrun /usr/libexec/mtd-utils/nandpagetest /usr/libexec/mtd-utils/fwrite00 /usr/libexec/mtd-utils/volrefcnt /usr/libexec/mtd-utils/stress@underscore@2 /usr/libexec/mtd-utils/plotJittervsFill /usr/libexec/mtd-utils/runubitests.sh /usr/libexec/mtd-utils/ftrunc /usr/libexec/mtd-utils/free@underscore@space /usr/libexec/mtd-utils/JitterTest /usr/libexec/mtd-utils/stress@underscore@1 /usr/libexec/mtd-utils/mkvol@underscore@bad /usr/libexec/mtd-utils/orph /usr/libexec/mtd-utils/io@underscore@update /usr/libexec/mtd-utils/integ /usr/libexec/mtd-utils/fs@underscore@help@underscore@all.sh /usr/libexec/mtd-utils/integck /usr/libexec/mtd-utils/fs@underscore@stress01.sh /usr/libexec/mtd-utils/load@underscore@nandsim.sh /usr/libexec/mtd-utils/fs@underscore@stress00.sh /usr/libexec/mtd-utils/io@underscore@basic /usr/libexec/mtd-utils/filljffs2.sh /usr/libexec/mtd-utils/perf /usr/libexec/mtd-utils/mkvol@underscore@basic /usr/libexec/mtd-utils/test@underscore@2 /usr/libexec/mtd-utils/rndwrite00 /usr/libexec/mtd-utils/ubi-stress-test.sh /usr/libexec/mtd-utils/makefiles /usr/libexec/mtd-utils/nandbiterrs /usr/libexec/mtd-utils/fs@underscore@run@underscore@all.sh /usr/libexec/mtd-utils/rmdir00 /usr/libexec/mtd-utils/mkvol@underscore@paral /usr/libexec/mtd-utils/checkfs /usr/libexec/mtd-utils/flash@underscore@speed /usr/libexec/mtd-utils/io@underscore@paral /usr/libexec/mtd-utils/test@underscore@1 /usr/libexec/mtd-utils/rndrm99 /usr/libexec/mtd-utils/gcd@underscore@hupper /usr/libexec/mtd-utils/flash@underscore@stress /usr/libexec/mtd-utils/stress@underscore@3 /usr/libexec/mtd-utils/flash@underscore@torture
+FILERDEPENDS_/usr/libexec/mtd-utils/rndrm00_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/fstest@underscore@monitor_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/io@underscore@read_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/nandsubpagetest_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/rsvol_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/flash@underscore@readtest_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/pdfrun_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/nandpagetest_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/fwrite00_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/volrefcnt_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/stress@underscore@2_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/plotJittervsFill_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/runubitests.sh_mtd-utils-tests:  /bin/sh
+FILERDEPENDS_/usr/libexec/mtd-utils/ftrunc_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/free@underscore@space_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/JitterTest_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/stress@underscore@1_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/mkvol@underscore@bad_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/orph_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/io@underscore@update_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/integ_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/fs@underscore@help@underscore@all.sh_mtd-utils-tests:  /bin/sh
+FILERDEPENDS_/usr/libexec/mtd-utils/integck_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/fs@underscore@stress01.sh_mtd-utils-tests:  /bin/sh
+FILERDEPENDS_/usr/libexec/mtd-utils/load@underscore@nandsim.sh_mtd-utils-tests:  /bin/sh
+FILERDEPENDS_/usr/libexec/mtd-utils/fs@underscore@stress00.sh_mtd-utils-tests:  /bin/sh
+FILERDEPENDS_/usr/libexec/mtd-utils/io@underscore@basic_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/filljffs2.sh_mtd-utils-tests:  /bin/bash
+FILERDEPENDS_/usr/libexec/mtd-utils/perf_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/mkvol@underscore@basic_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/test@underscore@2_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/rndwrite00_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/ubi-stress-test.sh_mtd-utils-tests:  /bin/sh
+FILERDEPENDS_/usr/libexec/mtd-utils/makefiles_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/nandbiterrs_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/fs@underscore@run@underscore@all.sh_mtd-utils-tests:  /bin/sh
+FILERDEPENDS_/usr/libexec/mtd-utils/rmdir00_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/mkvol@underscore@paral_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/checkfs_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/flash@underscore@speed_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/io@underscore@paral_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/test@underscore@1_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/rndrm99_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/gcd@underscore@hupper_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/flash@underscore@stress_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/stress@underscore@3_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/mtd-utils/flash@underscore@torture_mtd-utils-tests:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_mtd-utils-tests: 915162

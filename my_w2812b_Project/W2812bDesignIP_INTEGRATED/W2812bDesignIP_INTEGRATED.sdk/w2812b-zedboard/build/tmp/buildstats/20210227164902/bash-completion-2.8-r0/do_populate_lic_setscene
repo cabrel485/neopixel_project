@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444626.16 
+bash-completion-2.8-r0: do_populate_lic_setscene
+Elapsed time: 0.19 seconds
+utime: 24
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 202584
+IO syscr: 185
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 298412
+IO syscw: 134
+rusage ru_utime: 0.24112199999999998
+rusage ru_stime: 0.045928
+rusage ru_maxrss: 131400
+rusage ru_minflt: 13329
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 118
+Child rusage ru_utime: 0.014587
+Child rusage ru_stime: 0.011429
+Child rusage ru_maxrss: 128612
+Child rusage ru_minflt: 2254
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1614444626.35 

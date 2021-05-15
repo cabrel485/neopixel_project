@@ -1,0 +1,15 @@
+PN: canutils
+PV: 4.0.6
+PR: r0
+PKGV: 4.0.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_canutils-dbg: canutils (PTX flavour).  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_canutils-dbg: canutils (PTX flavour) - Debugging files
+RRECOMMENDS_canutils-dbg: canutils-lic libsocketcan-dbg glibc-dbg
+SECTION_canutils-dbg: devel
+PKG_canutils-dbg: canutils-dbg
+ALLOW_EMPTY_canutils-dbg: 1
+FILES_canutils-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/canutils/4.0.6-r0/git/src/cansequence.c": 5915, "/usr/bin/.debug/cansequence": 21456, "/usr/src/debug/canutils/4.0.6-r0/git/src/canconfig.c": 14107, "/usr/bin/.debug/canecho": 19172, "/usr/src/debug/canutils/4.0.6-r0/git/src/candump.c": 5549, "/usr/src/debug/canutils/4.0.6-r0/git/src/canecho.c": 3568, "/usr/bin/.debug/candump": 22416, "/usr/bin/.debug/cansend": 18336, "/usr/src/debug/canutils/4.0.6-r0/git/src/cansend.c": 4081, "/usr/sbin/.debug/canconfig": 36852}
+PKGSIZE_canutils-dbg: 151452

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444600.13 
+kmod-25+gitAUTOINC+aca4eca103-r0: do_package_write_rpm_setscene
+Elapsed time: 0.12 seconds
+utime: 25
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 1057581
+IO syscr: 271
+IO write_bytes: 548864
+IO cancelled_write_bytes: 0
+IO read_bytes: 413696
+IO rchar: 1124233
+IO syscw: 206
+rusage ru_utime: 0.257544
+rusage ru_stime: 0.045693
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13464
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 176
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 66
+Child rusage ru_utime: 0.015423
+Child rusage ru_stime: 0.015906
+Child rusage ru_maxrss: 128736
+Child rusage ru_minflt: 2262
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 800
+Child rusage ru_oublock: 896
+Child rusage ru_nvcsw: 36
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1614444600.24 

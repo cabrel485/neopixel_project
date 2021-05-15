@@ -1,0 +1,1 @@
+cmd_drivers/iio/buffer/built-in.a := rm -f drivers/iio/buffer/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD drivers/iio/buffer/built-in.a drivers/iio/buffer/industrialio-triggered-buffer.o drivers/iio/buffer/kfifo_buf.o

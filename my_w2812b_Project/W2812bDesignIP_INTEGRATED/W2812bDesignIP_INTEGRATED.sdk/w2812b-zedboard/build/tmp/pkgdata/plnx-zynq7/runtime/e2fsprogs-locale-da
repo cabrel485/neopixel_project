@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-da: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the da locale.
+SUMMARY_e2fsprogs-locale-da: Ext2 Filesystem Utilities - da translations
+RPROVIDES_e2fsprogs-locale-da: e2fsprogs-locale da-translation
+RRECOMMENDS_e2fsprogs-locale-da: virtual-locale-da
+SECTION: base
+PKG_e2fsprogs-locale-da: e2fsprogs-locale-da
+FILES_e2fsprogs-locale-da: /usr/share/locale/da
+FILES_INFO: {"/usr/share/locale/da/LC_MESSAGES/e2fsprogs.mo": 131620}
+PKGSIZE_e2fsprogs-locale-da: 131620

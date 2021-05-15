@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445510.40 
+petalinux-user-image-1.0-r0: do_rm_work
+Elapsed time: 0.26 seconds
+utime: 36
+stime: 5
+cutime: 7
+cstime: 13
+IO wchar: 47171
+IO syscr: 574
+IO write_bytes: 32768
+IO cancelled_write_bytes: 8192
+IO read_bytes: 0
+IO rchar: 535187
+IO syscw: 58
+rusage ru_utime: 0.368965
+rusage ru_stime: 0.050313
+rusage ru_maxrss: 134992
+rusage ru_minflt: 15584
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 64
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 3
+Child rusage ru_utime: 0.077779
+Child rusage ru_stime: 0.13757999999999998
+Child rusage ru_maxrss: 132292
+Child rusage ru_minflt: 11918
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 154
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1614445510.66 

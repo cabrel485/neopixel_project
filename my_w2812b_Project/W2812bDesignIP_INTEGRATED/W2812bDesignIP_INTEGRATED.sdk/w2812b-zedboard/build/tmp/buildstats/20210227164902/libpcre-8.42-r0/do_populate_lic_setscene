@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444616.14 
+libpcre-8.42-r0: do_populate_lic_setscene
+Elapsed time: 0.13 seconds
+utime: 26
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 142225
+IO syscr: 187
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 262918
+IO syscw: 135
+rusage ru_utime: 0.260944
+rusage ru_stime: 0.042841
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13330
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 88
+Child rusage ru_utime: 0.013116
+Child rusage ru_stime: 0.017620999999999998
+Child rusage ru_maxrss: 128716
+Child rusage ru_minflt: 2252
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 21
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1614444616.27 

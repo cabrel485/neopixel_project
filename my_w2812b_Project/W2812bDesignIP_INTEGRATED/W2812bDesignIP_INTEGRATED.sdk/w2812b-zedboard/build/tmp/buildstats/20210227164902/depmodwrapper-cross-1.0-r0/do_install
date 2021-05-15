@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444796.48 
+depmodwrapper-cross-1.0-r0: do_install
+Elapsed time: 0.17 seconds
+utime: 13
+stime: 4
+cutime: 0
+cstime: 3
+IO syscw: 703
+IO rchar: 166607
+IO cancelled_write_bytes: 4096
+IO read_bytes: 0
+IO wchar: 149895
+IO syscr: 454
+IO write_bytes: 86016
+rusage ru_utime: 0.133735
+rusage ru_stime: 0.049672999999999995
+rusage ru_maxrss: 132180
+rusage ru_minflt: 8126
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 54
+rusage ru_nivcsw: 447
+Child rusage ru_utime: 0.001971
+Child rusage ru_stime: 0.034524
+Child rusage ru_maxrss: 130256
+Child rusage ru_minflt: 2496
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 53
+Child rusage ru_nivcsw: 114
+Status: PASSED 
+Ended: 1614444796.65 

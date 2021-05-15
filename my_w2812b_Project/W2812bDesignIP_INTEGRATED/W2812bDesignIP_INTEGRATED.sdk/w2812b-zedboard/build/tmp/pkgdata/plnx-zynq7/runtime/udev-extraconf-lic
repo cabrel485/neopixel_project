@@ -1,0 +1,13 @@
+PN: udev-extraconf
+PV: 1.1
+PR: r0
+PKGV: 1.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Extra machine specific configuration files for udev, specifically blacklist information.
+SUMMARY: Extra machine specific configuration files
+SECTION: base
+PKG_udev-extraconf-lic: udev-extraconf-lic
+FILES_udev-extraconf-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/udev-extraconf/generic_MIT": 1080, "/usr/share/licenses/udev-extraconf/COPYING.MIT": 1035}
+PKGSIZE_udev-extraconf-lic: 2115

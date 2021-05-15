@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444666.23 
+cracklib-2.9.5-r0: do_populate_sysroot_setscene
+Elapsed time: 0.21 seconds
+utime: 22
+stime: 6
+cutime: 2
+cstime: 1
+IO wchar: 1794472
+IO syscr: 295
+IO write_bytes: 929792
+IO cancelled_write_bytes: 0
+IO read_bytes: 286720
+IO rchar: 1376762
+IO syscw: 265
+rusage ru_utime: 0.22108799999999998
+rusage ru_stime: 0.062572
+rusage ru_maxrss: 131424
+rusage ru_minflt: 13304
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 248
+Child rusage ru_utime: 0.025443999999999998
+Child rusage ru_stime: 0.012655999999999999
+Child rusage ru_maxrss: 128632
+Child rusage ru_minflt: 2272
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 560
+Child rusage ru_oublock: 1648
+Child rusage ru_nvcsw: 50
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1614444666.44 

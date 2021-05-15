@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444761.75 
+sysvinit-inittab-2.88dsf-r10: do_patch
+Elapsed time: 0.07 seconds
+utime: 11
+stime: 2
+cutime: 0
+cstime: 0
+IO wchar: 121489
+IO syscr: 100
+IO write_bytes: 122880
+IO cancelled_write_bytes: 4096
+IO read_bytes: 0
+IO rchar: 182354
+IO syscw: 2809
+rusage ru_utime: 0.11770699999999999
+rusage ru_stime: 0.02207
+rusage ru_maxrss: 131760
+rusage ru_minflt: 6095
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 53
+Child rusage ru_utime: 0.009503
+Child rusage ru_stime: 0.007527
+Child rusage ru_maxrss: 127976
+Child rusage ru_minflt: 832
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1614444761.82 

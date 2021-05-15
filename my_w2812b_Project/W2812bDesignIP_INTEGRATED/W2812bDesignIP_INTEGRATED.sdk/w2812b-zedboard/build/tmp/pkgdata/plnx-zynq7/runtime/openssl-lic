@@ -1,0 +1,13 @@
+PN: openssl
+PV: 1.1.1a
+PR: r0
+PKGV: 1.1.1a
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+SECTION: libs/network
+PKG_openssl-lic: openssl-lic
+FILES_openssl-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/openssl/LICENSE": 6128, "/usr/share/licenses/openssl/generic_openssl": 5727}
+PKGSIZE_openssl-lic: 11855

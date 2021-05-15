@@ -1,0 +1,15 @@
+PN: tzdata
+PV: 2018g
+PR: r0
+PKGV: 2018g
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-australia: tzdata-australia
+RRECOMMENDS_tzdata-australia: tzdata-lic
+SECTION: base
+PKG_tzdata-australia: tzdata-australia
+FILES_tzdata-australia:  /usr/share/zoneinfo/Australia/*
+FILES_INFO: {"/usr/share/zoneinfo/Australia/Perth": 470, "/usr/share/zoneinfo/Australia/Broken_Hill": 2269, "/usr/share/zoneinfo/Australia/NSW": 2214, "/usr/share/zoneinfo/Australia/Lord_Howe": 1880, "/usr/share/zoneinfo/Australia/North": 318, "/usr/share/zoneinfo/Australia/Eucla": 494, "/usr/share/zoneinfo/Australia/Queensland": 443, "/usr/share/zoneinfo/Australia/Victoria": 2214, "/usr/share/zoneinfo/Australia/Currie": 2214, "/usr/share/zoneinfo/Australia/Lindeman": 513, "/usr/share/zoneinfo/Australia/Melbourne": 2214, "/usr/share/zoneinfo/Australia/Tasmania": 2326, "/usr/share/zoneinfo/Australia/LHI": 1880, "/usr/share/zoneinfo/Australia/Yancowinna": 2269, "/usr/share/zoneinfo/Australia/Canberra": 2214, "/usr/share/zoneinfo/Australia/West": 470, "/usr/share/zoneinfo/Australia/ACT": 2214, "/usr/share/zoneinfo/Australia/South": 2233, "/usr/share/zoneinfo/Australia/Hobart": 2326}
+PKGSIZE_tzdata-australia: 31175

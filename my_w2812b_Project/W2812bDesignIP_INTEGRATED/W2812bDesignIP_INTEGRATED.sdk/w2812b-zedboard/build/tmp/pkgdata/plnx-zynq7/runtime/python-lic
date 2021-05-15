@@ -1,0 +1,13 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY: The Python Programming Language
+SECTION: devel/python
+PKG_python-lic: python-lic
+FILES_python-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/python/generic_PSFv2": 9795, "/usr/share/licenses/python/LICENSE": 12763}
+PKGSIZE_python-lic: 22558

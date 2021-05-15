@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444584.77 
+run-postinsts-1.0-r10: do_populate_sysroot_setscene
+Elapsed time: 0.13 seconds
+utime: 11
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 130838
+IO syscr: 174
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+IO read_bytes: 40960
+IO rchar: 198198
+IO syscw: 123
+rusage ru_utime: 0.11347399999999999
+rusage ru_stime: 0.052954
+rusage ru_maxrss: 131332
+rusage ru_minflt: 6729
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 160
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 151
+Child rusage ru_utime: 0.016316
+Child rusage ru_stime: 0.014379999999999999
+Child rusage ru_maxrss: 128576
+Child rusage ru_minflt: 2194
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 48
+Status: PASSED 
+Ended: 1614444584.91 

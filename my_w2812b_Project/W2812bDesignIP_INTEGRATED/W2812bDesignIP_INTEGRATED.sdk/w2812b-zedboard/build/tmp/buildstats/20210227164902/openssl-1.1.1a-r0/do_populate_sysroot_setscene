@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444650.69 
+openssl-1.1.1a-r0: do_populate_sysroot_setscene
+Elapsed time: 0.59 seconds
+utime: 23
+stime: 6
+cutime: 25
+cstime: 8
+IO wchar: 46492761
+IO syscr: 3436
+IO write_bytes: 23498752
+IO cancelled_write_bytes: 0
+IO read_bytes: 9428992
+IO rchar: 32773735
+IO syscw: 3417
+rusage ru_utime: 0.23252899999999999
+rusage ru_stime: 0.064145
+rusage ru_maxrss: 131424
+rusage ru_minflt: 13344
+rusage ru_majflt: 0
+rusage ru_inblock: 256
+rusage ru_oublock: 224
+rusage ru_nvcsw: 54
+rusage ru_nivcsw: 148
+Child rusage ru_utime: 0.25670699999999996
+Child rusage ru_stime: 0.08065699999999999
+Child rusage ru_maxrss: 128676
+Child rusage ru_minflt: 2236
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 18160
+Child rusage ru_oublock: 45672
+Child rusage ru_nvcsw: 729
+Child rusage ru_nivcsw: 870
+Status: PASSED 
+Ended: 1614444651.27 

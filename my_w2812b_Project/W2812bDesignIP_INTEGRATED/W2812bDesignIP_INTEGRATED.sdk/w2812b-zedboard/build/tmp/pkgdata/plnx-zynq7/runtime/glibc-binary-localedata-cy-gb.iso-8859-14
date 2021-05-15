@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-cy-gb.iso-8859-14: binary locale definition for cy-gb.iso-8859-14
+SUMMARY_glibc-binary-localedata-cy-gb.iso-8859-14: binary locale definition for cy-gb.iso-8859-14
+SECTION: base
+PKG_glibc-binary-localedata-cy-gb.iso-8859-14: glibc-binary-localedata-cy-gb.iso-8859-14
+FILES_glibc-binary-localedata-cy-gb.iso-8859-14: /usr/lib/locale/cy_GB.ISO-8859-14
+FILES_INFO: {"/usr/lib/locale/cy_GB.ISO-8859-14/LC_NUMERIC": 60, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_TELEPHONE": 62, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_COLLATE": 28132, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_MONETARY": 292, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_ADDRESS": 173, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_CTYPE": 289060, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_MEASUREMENT": 29, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_NAME": 83, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_PAPER": 40, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_TIME": 3332, "/usr/lib/locale/cy_GB.ISO-8859-14/LC_IDENTIFICATION": 363}
+PKGSIZE_glibc-binary-localedata-cy-gb.iso-8859-14: 321692

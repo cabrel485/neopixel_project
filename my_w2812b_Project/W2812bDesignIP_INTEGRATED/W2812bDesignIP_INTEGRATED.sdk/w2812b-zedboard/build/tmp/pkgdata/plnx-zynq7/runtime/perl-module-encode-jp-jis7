@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-jp-jis7: perl module encode-jp-jis7
+SUMMARY_perl-module-encode-jp-jis7: perl module encode-jp-jis7
+RDEPENDS_perl-module-encode-jp-jis7: perl perl-module-bytes perl-module-encode perl-module-encode-cjkconstants perl-module-encode-jp-h2z perl-module-parent perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-encode-jp-jis7: perl-module-encode-jp-jis7
+FILES_perl-module-encode-jp-jis7: /usr/lib/perl/5.24.4/Encode/JP/JIS7.pm
+FILERPROVIDESFLIST_perl-module-encode-jp-jis7: /usr/lib/perl/5.24.4/Encode/JP/JIS7.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Encode/JP/JIS7.pm": 4155}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Encode/JP/JIS7.pm_perl-module-encode-jp-jis7:  perl(Encode::JP::JIS7)
+PKGSIZE_perl-module-encode-jp-jis7: 4155

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444626.94 
+xorgproto-2018.4-r0: do_package_write_rpm_setscene
+Elapsed time: 0.21 seconds
+utime: 22
+stime: 5
+cutime: 0
+cstime: 2
+IO wchar: 724592
+IO syscr: 228
+IO write_bytes: 380928
+IO cancelled_write_bytes: 0
+IO read_bytes: 258048
+IO rchar: 799269
+IO syscw: 174
+rusage ru_utime: 0.229313
+rusage ru_stime: 0.05837
+rusage ru_maxrss: 131392
+rusage ru_minflt: 13372
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 131
+Child rusage ru_utime: 0.006926
+Child rusage ru_stime: 0.027163
+Child rusage ru_maxrss: 128612
+Child rusage ru_minflt: 2256
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 504
+Child rusage ru_oublock: 584
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 50
+Status: PASSED 
+Ended: 1614444627.15 

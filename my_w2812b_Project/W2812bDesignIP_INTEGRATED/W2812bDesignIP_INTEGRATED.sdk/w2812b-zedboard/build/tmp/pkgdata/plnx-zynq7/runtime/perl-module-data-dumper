@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-data-dumper: perl module data-dumper
+SUMMARY_perl-module-data-dumper: perl module data-dumper
+RDEPENDS_perl-module-data-dumper: perl perl-module-b-deparse perl-module-carp perl-module-config perl-module-constant perl-module-exporter perl-module-overload perl-module-scalar-util perl-module-xsloader glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-data-dumper: perl-module-data-dumper
+FILES_perl-module-data-dumper: /usr/lib/perl/5.24.4/auto/Data/Dumper/Dumper.so /usr/lib/perl/5.24.4/Data/Dumper.pm
+FILERPROVIDESFLIST_perl-module-data-dumper: /usr/lib/perl/5.24.4/Data/Dumper.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Data/Dumper.pm": 46002, "/usr/lib/perl/5.24.4/auto/Data/Dumper/Dumper.so": 25884}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Data/Dumper.pm_perl-module-data-dumper:  perl(Data::Dumper)
+FILERDEPENDSFLIST_perl-module-data-dumper: /usr/lib/perl/5.24.4/auto/Data/Dumper/Dumper.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/Data/Dumper/Dumper.so_perl-module-data-dumper:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-data-dumper: 71886

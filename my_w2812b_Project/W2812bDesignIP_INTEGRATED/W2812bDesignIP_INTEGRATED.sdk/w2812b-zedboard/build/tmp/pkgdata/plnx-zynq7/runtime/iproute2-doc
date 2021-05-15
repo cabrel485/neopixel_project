@@ -1,0 +1,14 @@
+PN: iproute2
+PV: 4.19.0
+PR: r0
+PKGV: 4.19.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iproute2-doc: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.  This package contains documentation.
+SUMMARY_iproute2-doc: TCP / IP networking and traffic control utilities - Documentation files
+RRECOMMENDS_iproute2-doc: iproute2-lic
+SECTION_iproute2-doc: doc
+PKG_iproute2-doc: iproute2-doc
+FILES_iproute2-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/iproute2/examples/diffserv/Edge31-ca-u32": 5018, "/usr/share/doc/iproute2/examples/diffserv/Edge32-cb-u32": 4339, "/usr/share/doc/iproute2/examples/diffserv/Edge32-cb-chains": 4425, "/usr/share/doc/iproute2/examples/diffserv/ef-prio": 906, "/usr/share/doc/iproute2/examples/cbqinit.eth1": 2625, "/usr/share/doc/iproute2/examples/diffserv/Edge1": 2028, "/usr/share/doc/iproute2/examples/diffserv/Edge2": 2958, "/usr/share/doc/iproute2/examples/diffserv/regression-testing": 3894, "/usr/share/doc/iproute2/examples/diffserv/Edge31-cb-chains": 3994, "/usr/share/doc/iproute2/examples/gaiconf": 1999, "/usr/share/doc/iproute2/examples/diffserv/Edge32-ca-u32": 5896, "/usr/share/doc/iproute2/examples/cbq.init-v0.7.3": 33517, "/usr/share/doc/iproute2/examples/README.iproute2+tc": 3736, "/usr/share/doc/iproute2/examples/SYN-DoS.rate.limit": 1664, "/usr/share/doc/iproute2/examples/dhcp-client-script": 10032, "/usr/share/doc/iproute2/examples/diffserv/afcbq": 3506, "/usr/share/doc/iproute2/examples/diffserv/efcbq": 1203, "/usr/share/doc/iproute2/examples/diffserv/README": 2305, "/usr/share/doc/iproute2/examples/README.cbq": 4752}
+PKGSIZE_iproute2-doc: 98797

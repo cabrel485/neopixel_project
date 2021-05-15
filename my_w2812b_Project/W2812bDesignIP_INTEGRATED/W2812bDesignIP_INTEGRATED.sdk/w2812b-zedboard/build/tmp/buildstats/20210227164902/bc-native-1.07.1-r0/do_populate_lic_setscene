@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444631.73 
+bc-native-1.07.1-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 26
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 305286
+IO syscr: 217
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+IO read_bytes: 32768
+IO rchar: 385248
+IO syscw: 164
+rusage ru_utime: 0.26264
+rusage ru_stime: 0.040406
+rusage ru_maxrss: 131532
+rusage ru_minflt: 13408
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 96
+Child rusage ru_utime: 0.01647
+Child rusage ru_stime: 0.015802999999999998
+Child rusage ru_maxrss: 128756
+Child rusage ru_minflt: 2268
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 56
+Child rusage ru_oublock: 192
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1614444631.83 

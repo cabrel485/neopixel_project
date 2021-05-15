@@ -1,0 +1,15 @@
+PN: bridge-utils
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_bridge-utils-staticdev: Tools for ethernet bridging.  This package contains static libraries for software development.
+SUMMARY_bridge-utils-staticdev: Tools for ethernet bridging - Development files (Static Libraries)
+RDEPENDS_bridge-utils-staticdev: bridge-utils-dev (= 1.6-r0)
+RRECOMMENDS_bridge-utils-staticdev: bridge-utils-lic
+SECTION_bridge-utils-staticdev: devel
+PKG_bridge-utils-staticdev: bridge-utils-staticdev
+FILES_bridge-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/bridge-utils/*.a
+FILES_INFO: {}
+PKGSIZE_bridge-utils-staticdev: 0

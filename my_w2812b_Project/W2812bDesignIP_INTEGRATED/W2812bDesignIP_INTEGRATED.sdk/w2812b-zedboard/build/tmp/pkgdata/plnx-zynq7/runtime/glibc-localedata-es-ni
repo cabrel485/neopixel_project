@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-ni: locale definition for es-ni
+SUMMARY_glibc-localedata-es-ni: locale definition for es-ni
+RDEPENDS_glibc-localedata-es-ni: glibc-localedata-en-us glibc-localedata-es-es glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-es-ni: glibc-localedata-es-ni
+FILES_glibc-localedata-es-ni: /usr/share/i18n/locales/es_NI
+FILES_INFO: {"/usr/share/i18n/locales/es_NI": 2966}
+PKGSIZE_glibc-localedata-es-ni: 2966

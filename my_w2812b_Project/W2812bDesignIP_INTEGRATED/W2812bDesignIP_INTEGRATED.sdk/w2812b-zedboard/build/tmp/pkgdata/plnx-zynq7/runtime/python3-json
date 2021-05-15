@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-json: Python JSON support
+RDEPENDS_python3-json: python3-core libpython3 (>= 3.5.6) glibc (>= 2.28)
+RRECOMMENDS_python3-json: python3-lic
+SECTION: devel/python
+PKG_python3-json: python3-json
+FILES_python3-json:  /usr/lib/python3.5/json /usr/lib/python3.5/lib-dynload/_json.*.so
+FILES_INFO: {"/usr/lib/python3.5/json/encoder.py": 15961, "/usr/lib/python3.5/json/__pycache__/__init__.cpython-35.opt-2.pyc": 2581, "/usr/lib/python3.5/json/__pycache__/encoder.cpython-35.pyc": 11977, "/usr/lib/python3.5/json/__pycache__/__init__.cpython-35.pyc": 12209, "/usr/lib/python3.5/json/__pycache__/tool.cpython-35.pyc": 1662, "/usr/lib/python3.5/json/decoder.py": 12582, "/usr/lib/python3.5/lib-dynload/_json.cpython-35m-arm-linux-gnueabihf.so": 23436, "/usr/lib/python3.5/json/tool.py": 1645, "/usr/lib/python3.5/json/__pycache__/decoder.cpython-35.pyc": 10654, "/usr/lib/python3.5/json/__pycache__/decoder.cpython-35.opt-2.pyc": 6500, "/usr/lib/python3.5/json/__pycache__/scanner.cpython-35.opt-1.pyc": 2192, "/usr/lib/python3.5/json/scanner.py": 2416, "/usr/lib/python3.5/json/__pycache__/scanner.cpython-35.opt-2.pyc": 2154, "/usr/lib/python3.5/json/__pycache__/encoder.cpython-35.opt-1.pyc": 11977, "/usr/lib/python3.5/json/__pycache__/tool.cpython-35.opt-2.pyc": 1367, "/usr/lib/python3.5/json/__pycache__/__init__.cpython-35.opt-1.pyc": 12209, "/usr/lib/python3.5/json/__pycache__/encoder.cpython-35.opt-2.pyc": 7622, "/usr/lib/python3.5/json/__pycache__/decoder.cpython-35.opt-1.pyc": 10654, "/usr/lib/python3.5/json/__pycache__/scanner.cpython-35.pyc": 2192, "/usr/lib/python3.5/json/__init__.py": 13297, "/usr/lib/python3.5/json/__pycache__/tool.cpython-35.opt-1.pyc": 1662}
+FILERDEPENDSFLIST_python3-json: /usr/lib/python3.5/lib-dynload/@underscore@json.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@json.cpython-35m-arm-linux-gnueabihf.so_python3-json:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-json: 166949

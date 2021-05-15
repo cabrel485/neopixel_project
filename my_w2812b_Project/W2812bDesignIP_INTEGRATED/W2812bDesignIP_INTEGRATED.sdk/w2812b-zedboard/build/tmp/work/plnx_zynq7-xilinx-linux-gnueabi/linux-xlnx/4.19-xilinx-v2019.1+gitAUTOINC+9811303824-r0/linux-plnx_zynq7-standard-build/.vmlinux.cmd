@@ -1,0 +1,1 @@
+cmd_vmlinux := /bin/sh /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source/scripts/link-vmlinux.sh arm-xilinx-linux-gnueabi-ld.bfd    -EL -p --no-undefined -X --pic-veneer  --build-id ;  true

@@ -1,0 +1,23 @@
+def write_image_manifest(d):
+    from oe.rootfs import image_list_installed_packages
+    from oe.utils import format_pkg_list
+
+    deploy_dir = d.getVar('IMGDEPLOYDIR')
+    link_name = d.getVar('IMAGE_LINK_NAME')
+    manifest_name = d.getVar('IMAGE_MANIFEST')
+
+    if not manifest_name:
+        return
+
+    pkgs = image_list_installed_packages(d)
+    with open(manifest_name, 'w+') as image_manifest:
+        image_manifest.write(format_pkg_list(pkgs, "ver"))
+
+    if os.path.exists(manifest_name):
+        manifest_link = deploy_dir + "/" + link_name + ".manifest"
+        if os.path.lexists(manifest_link):
+            os.remove(manifest_link)
+        os.symlink(os.path.basename(manifest_name), manifest_link)
+
+write_image_manifest(d)
+

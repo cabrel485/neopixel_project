@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444751.92 
+shadow-securetty-4.6-r3: do_packagedata
+Elapsed time: 0.21 seconds
+utime: 19
+stime: 3
+cutime: 2
+cstime: 3
+IO wchar: 142190
+IO syscr: 1672
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 346663
+IO syscw: 70
+rusage ru_utime: 0.198732
+rusage ru_stime: 0.033826
+rusage ru_maxrss: 131488
+rusage ru_minflt: 12147
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 224
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 75
+Child rusage ru_utime: 0.022796999999999998
+Child rusage ru_stime: 0.035155
+Child rusage ru_maxrss: 128816
+Child rusage ru_minflt: 4682
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1614444752.13 

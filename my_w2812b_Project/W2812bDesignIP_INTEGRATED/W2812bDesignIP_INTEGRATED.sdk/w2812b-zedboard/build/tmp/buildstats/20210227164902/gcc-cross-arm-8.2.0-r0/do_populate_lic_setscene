@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444620.67 
+gcc-cross-arm-8.2.0-r0: do_populate_lic_setscene
+Elapsed time: 0.20 seconds
+utime: 24
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 410440
+IO syscr: 222
+IO write_bytes: 229376
+IO cancelled_write_bytes: 0
+IO read_bytes: 40960
+IO rchar: 419226
+IO syscw: 172
+rusage ru_utime: 0.243497
+rusage ru_stime: 0.043200999999999996
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13545
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 102
+Child rusage ru_utime: 0.013162
+Child rusage ru_stime: 0.015907
+Child rusage ru_maxrss: 128756
+Child rusage ru_minflt: 2284
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 280
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1614444620.87 

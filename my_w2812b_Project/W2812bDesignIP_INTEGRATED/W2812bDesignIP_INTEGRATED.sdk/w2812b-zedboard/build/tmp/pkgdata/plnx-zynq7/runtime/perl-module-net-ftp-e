@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-net-ftp-e: perl module net-ftp-e
+SUMMARY_perl-module-net-ftp-e: perl module net-ftp-e
+RDEPENDS_perl-module-net-ftp-e: perl perl-module-net-ftp-i perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-net-ftp-e: perl-module-net-ftp-e
+FILES_perl-module-net-ftp-e: /usr/lib/perl/5.24.4/Net/FTP/E.pm
+FILERPROVIDESFLIST_perl-module-net-ftp-e: /usr/lib/perl/5.24.4/Net/FTP/E.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Net/FTP/E.pm": 140}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Net/FTP/E.pm_perl-module-net-ftp-e:  perl(Net::FTP::E)
+PKGSIZE_perl-module-net-ftp-e: 140

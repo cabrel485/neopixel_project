@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444646.49 
+alsa-lib-native-1.1.6-r0: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 25
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 286134
+IO syscr: 201
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+IO read_bytes: 28672
+IO rchar: 361783
+IO syscw: 151
+rusage ru_utime: 0.25518399999999997
+rusage ru_stime: 0.032927
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13386
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 168
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 87
+Child rusage ru_utime: 0.018748
+Child rusage ru_stime: 0.012142
+Child rusage ru_maxrss: 128724
+Child rusage ru_minflt: 2276
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1614444646.60 

@@ -1,0 +1,15 @@
+PN: btrfs-tools
+PV: 4.17.1
+PR: r0
+PKGV: 4.17.1
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_btrfs-tools-staticdev: Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.  This package contains static libraries for software development.
+SUMMARY_btrfs-tools-staticdev: Checksumming Copy on Write Filesystem utilities - Development files (Static Libraries)
+RDEPENDS_btrfs-tools-staticdev: btrfs-tools-dev (= 4.17.1-r0)
+RRECOMMENDS_btrfs-tools-staticdev: btrfs-tools-lic
+SECTION_btrfs-tools-staticdev: devel
+PKG_btrfs-tools-staticdev: btrfs-tools-staticdev
+FILES_btrfs-tools-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/btrfs-tools/*.a   /usr/lib/python3.5/site-packages/*.a 
+FILES_INFO: {}
+PKGSIZE_btrfs-tools-staticdev: 0

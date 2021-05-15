@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444662.89 
+diffutils-3.6-r0: do_populate_sysroot_setscene
+Elapsed time: 0.19 seconds
+utime: 24
+stime: 3
+cutime: 2
+cstime: 0
+IO wchar: 304777
+IO syscr: 221
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+IO read_bytes: 24576
+IO rchar: 384175
+IO syscw: 162
+rusage ru_utime: 0.247629
+rusage ru_stime: 0.038692
+rusage ru_maxrss: 131464
+rusage ru_minflt: 13448
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 0.023707
+Child rusage ru_stime: 0.007474
+Child rusage ru_maxrss: 128744
+Child rusage ru_minflt: 2269
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444663.08 

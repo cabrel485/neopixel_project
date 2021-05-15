@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ca-es: locale definition for ca-es
+SUMMARY_glibc-localedata-ca-es: locale definition for ca-es
+RDEPENDS_glibc-localedata-ca-es: glibc-localedata-es-es glibc-localedata-i18n glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-ca-es: glibc-localedata-ca-es
+FILES_glibc-localedata-ca-es: /usr/share/i18n/locales/ca_ES
+FILES_INFO: {"/usr/share/i18n/locales/ca_ES": 4045}
+PKGSIZE_glibc-localedata-ca-es: 4045

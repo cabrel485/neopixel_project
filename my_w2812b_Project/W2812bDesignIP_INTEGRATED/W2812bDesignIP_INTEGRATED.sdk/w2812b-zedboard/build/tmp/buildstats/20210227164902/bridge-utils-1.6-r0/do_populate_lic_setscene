@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444587.41 
+bridge-utils-1.6-r0: do_populate_lic_setscene
+Elapsed time: 0.21 seconds
+utime: 21
+stime: 7
+cutime: 0
+cstime: 2
+IO wchar: 204232
+IO syscr: 185
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 270872
+IO syscw: 137
+rusage ru_utime: 0.21620599999999998
+rusage ru_stime: 0.076072
+rusage ru_maxrss: 131428
+rusage ru_minflt: 13296
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 227
+Child rusage ru_utime: 0.007431999999999999
+Child rusage ru_stime: 0.021099
+Child rusage ru_maxrss: 128656
+Child rusage ru_minflt: 2252
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1614444587.62 

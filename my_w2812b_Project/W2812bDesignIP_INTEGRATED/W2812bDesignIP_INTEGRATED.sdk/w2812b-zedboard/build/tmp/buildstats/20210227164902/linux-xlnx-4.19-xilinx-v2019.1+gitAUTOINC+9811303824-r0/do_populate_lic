@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444739.78 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_populate_lic
+Elapsed time: 0.23 seconds
+utime: 32
+stime: 4
+cutime: 2
+cstime: 3
+IO wchar: 211710
+IO syscr: 1562
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+IO read_bytes: 1339392
+IO rchar: 464800
+IO syscw: 104
+rusage ru_utime: 0.323197
+rusage ru_stime: 0.047881
+rusage ru_maxrss: 132140
+rusage ru_minflt: 15240
+rusage ru_majflt: 1
+rusage ru_inblock: 160
+rusage ru_oublock: 272
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 180
+Child rusage ru_utime: 0.021505
+Child rusage ru_stime: 0.03553
+Child rusage ru_maxrss: 129452
+Child rusage ru_minflt: 4394
+Child rusage ru_majflt: 15
+Child rusage ru_inblock: 2456
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 74
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1614444740.01 

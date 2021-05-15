@@ -1,0 +1,16 @@
+PN: btrfs-tools
+PV: 4.17.1
+PR: r0
+PKGV: 4.17.1
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_btrfs-tools-dev: Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_btrfs-tools-dev: Checksumming Copy on Write Filesystem utilities - Development files
+RDEPENDS_btrfs-tools-dev: btrfs-tools (= 4.17.1-r0)
+RRECOMMENDS_btrfs-tools-dev: acl-dev attr-dev btrfs-tools-lic e2fsprogs-dev lzo-dev python3-dev udev-dev util-linux-dev libgcc-dev python3-core-dev util-linux-libuuid-dev util-linux-libblkid-dev libcomerr-dev glibc-dev zlib-dev libext2fs-dev
+SECTION_btrfs-tools-dev: devel
+PKG_btrfs-tools-dev: btrfs-tools-dev
+ALLOW_EMPTY_btrfs-tools-dev: 1
+FILES_btrfs-tools-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/btrfs-tools/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake   /usr/share/pkgconfig   /usr/lib/pkgconfig   /usr/lib/python3.5/site-packages/*.la 
+FILES_INFO: {"/usr/lib/libbtrfs.so": 15, "/usr/include/btrfs/btrfs-list.h": 4658, "/usr/include/btrfs/crc32c.h": 1095, "/usr/include/btrfs/send-utils.h": 3377, "/usr/include/btrfs/btrfsck.h": 5035, "/usr/include/btrfs/version.h": 364, "/usr/include/btrfs/radix-tree.h": 3343, "/usr/lib/libbtrfsutil.so": 21, "/usr/include/btrfs/list.h": 14636, "/usr/include/btrfs/send.h": 3090, "/usr/include/btrfs/extent-cache.h": 3513, "/usr/include/btrfs/kerncompat.h": 10419, "/usr/include/btrfs/raid56.h": 2024, "/usr/include/btrfs/rbtree.h": 3903, "/usr/include/btrfs/send-stream.h": 2803, "/usr/include/btrfsutil.h": 22243, "/usr/include/btrfs/ioctl.h": 26509, "/usr/include/btrfs/ctree.h": 91178, "/usr/include/btrfs/sizes.h": 1223, "/usr/include/btrfs/extent_io.h": 6074}
+PKGSIZE_btrfs-tools-dev: 205523

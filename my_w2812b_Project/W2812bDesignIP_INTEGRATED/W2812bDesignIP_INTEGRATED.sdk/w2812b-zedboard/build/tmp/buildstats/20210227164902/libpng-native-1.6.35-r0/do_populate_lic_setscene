@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444638.84 
+libpng-native-1.6.35-r0: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 26
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 168981
+IO syscr: 195
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 283491
+IO syscw: 142
+rusage ru_utime: 0.26777799999999996
+rusage ru_stime: 0.043962999999999995
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13377
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 77
+Child rusage ru_utime: 0.01146
+Child rusage ru_stime: 0.016194
+Child rusage ru_maxrss: 128712
+Child rusage ru_minflt: 2241
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 21
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1614444638.95 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445893.40 
+u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: do_package_write_rpm_setscene
+Elapsed time: 0.18 seconds
+utime: 21
+stime: 5
+cutime: 1
+cstime: 0
+IO syscw: 107
+IO read_bytes: 266240
+IO syscr: 235
+IO cancelled_write_bytes: 0
+IO write_bytes: 319488
+IO rchar: 780251
+IO wchar: 609476
+rusage ru_utime: 0.217046
+rusage ru_stime: 0.054261
+rusage ru_maxrss: 124744
+rusage ru_minflt: 13275
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 120
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 72
+Child rusage ru_utime: 0.018313
+Child rusage ru_stime: 0.007593
+Child rusage ru_maxrss: 121884
+Child rusage ru_minflt: 2071
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 448
+Child rusage ru_oublock: 504
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1614445893.58 

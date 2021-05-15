@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444745.43 
+shadow-securetty-4.6-r3: do_populate_lic
+Elapsed time: 0.15 seconds
+utime: 16
+stime: 3
+cutime: 2
+cstime: 3
+IO wchar: 138173
+IO syscr: 315
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 314258
+IO syscw: 77
+rusage ru_utime: 0.161211
+rusage ru_stime: 0.037202
+rusage ru_maxrss: 131504
+rusage ru_minflt: 12597
+rusage ru_majflt: 1
+rusage ru_inblock: 8
+rusage ru_oublock: 248
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.022949999999999998
+Child rusage ru_stime: 0.031727
+Child rusage ru_maxrss: 128816
+Child rusage ru_minflt: 4326
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 56
+Status: PASSED 
+Ended: 1614444745.59 

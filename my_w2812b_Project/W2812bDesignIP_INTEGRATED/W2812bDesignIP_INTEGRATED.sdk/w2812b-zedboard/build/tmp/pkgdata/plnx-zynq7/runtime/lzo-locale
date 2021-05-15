@@ -1,0 +1,15 @@
+PN: lzo
+PV: 2.10
+PR: r0
+PKGV: 2.10
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Lossless data compression library.
+SUMMARY: Lossless data compression library
+RPROVIDES_lzo-locale:  lzo-locale (=2.10)
+RRECOMMENDS_lzo-locale: lzo-lic
+SECTION: libs
+PKG_lzo-locale: liblzo2-locale
+FILES_lzo-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lzo-locale: 0

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444714.50 
+external-hdf-1.0-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.21 seconds
+utime: 15
+stime: 5
+cutime: 3
+cstime: 6
+IO wchar: 1467140
+IO syscr: 580
+IO write_bytes: 1511424
+IO cancelled_write_bytes: 0
+IO read_bytes: 778240
+IO rchar: 2242669
+IO syscw: 46455
+rusage ru_utime: 0.156917
+rusage ru_stime: 0.056329
+rusage ru_maxrss: 133032
+rusage ru_minflt: 5545
+rusage ru_majflt: 0
+rusage ru_inblock: 1312
+rusage ru_oublock: 120
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.031289
+Child rusage ru_stime: 0.061628999999999996
+Child rusage ru_maxrss: 129308
+Child rusage ru_minflt: 788
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 208
+Child rusage ru_oublock: 2832
+Child rusage ru_nvcsw: 17
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1614444714.70 

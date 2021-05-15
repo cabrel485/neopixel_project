@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444695.52 
+libsm-1_1.2.2-r0: do_rm_work
+Elapsed time: 0.09 seconds
+utime: 14
+stime: 2
+cutime: 3
+cstime: 1
+IO wchar: 35557
+IO syscr: 278
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 194365
+IO syscw: 39
+rusage ru_utime: 0.14937599999999998
+rusage ru_stime: 0.023585
+rusage ru_maxrss: 131692
+rusage ru_minflt: 4634
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.034963
+Child rusage ru_stime: 0.011049
+Child rusage ru_maxrss: 129020
+Child rusage ru_minflt: 5888
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 86
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1614444695.61 

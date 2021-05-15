@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444610.44 
+cwautomacros-native-20110201-r0: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 24
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 203321
+IO syscr: 180
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 266244
+IO syscw: 133
+rusage ru_utime: 0.24087499999999998
+rusage ru_stime: 0.053527
+rusage ru_maxrss: 131372
+rusage ru_minflt: 13209
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 224
+Child rusage ru_utime: 0.010281
+Child rusage ru_stime: 0.017551
+Child rusage ru_maxrss: 128588
+Child rusage ru_minflt: 2240
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1614444610.56 

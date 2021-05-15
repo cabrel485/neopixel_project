@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-bi-vu: locale definition for bi-vu
+SUMMARY_glibc-localedata-bi-vu: locale definition for bi-vu
+RDEPENDS_glibc-localedata-bi-vu: glibc-localedata-en-us glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-bi-vu: glibc-localedata-bi-vu
+FILES_glibc-localedata-bi-vu: /usr/share/i18n/locales/bi_VU
+FILES_INFO: {"/usr/share/i18n/locales/bi_VU": 3278}
+PKGSIZE_glibc-localedata-bi-vu: 3278

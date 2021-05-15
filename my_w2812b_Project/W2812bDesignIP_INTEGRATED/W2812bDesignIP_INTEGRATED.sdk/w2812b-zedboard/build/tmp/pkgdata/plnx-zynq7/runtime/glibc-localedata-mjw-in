@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mjw-in: locale definition for mjw-in
+SUMMARY_glibc-localedata-mjw-in: locale definition for mjw-in
+RDEPENDS_glibc-localedata-mjw-in: glibc-localedata-en-gb glibc-localedata-hi-in glibc-localedata-i18n glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-mjw-in: glibc-localedata-mjw-in
+FILES_glibc-localedata-mjw-in: /usr/share/i18n/locales/mjw_IN
+FILES_INFO: {"/usr/share/i18n/locales/mjw_IN": 3767}
+PKGSIZE_glibc-localedata-mjw-in: 3767

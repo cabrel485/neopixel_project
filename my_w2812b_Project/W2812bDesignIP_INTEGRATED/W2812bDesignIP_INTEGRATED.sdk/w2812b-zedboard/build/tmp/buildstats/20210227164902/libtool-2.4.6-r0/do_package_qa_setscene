@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444588.75 
+libtool-2.4.6-r0: do_package_qa_setscene
+Elapsed time: 0.17 seconds
+utime: 24
+stime: 4
+cutime: 0
+cstime: 0
+IO wchar: 136506
+IO syscr: 93
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 168790
+IO syscw: 122
+rusage ru_utime: 0.24090299999999998
+rusage ru_stime: 0.043441
+rusage ru_maxrss: 131400
+rusage ru_minflt: 12189
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 168
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 60
+Child rusage ru_utime: 0.004055
+Child rusage ru_stime: 0.008898
+Child rusage ru_maxrss: 128692
+Child rusage ru_minflt: 1150
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 5
+Status: PASSED 
+Ended: 1614444588.92 

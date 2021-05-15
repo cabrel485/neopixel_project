@@ -1,0 +1,18 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-venv: Provides support for creating lightweight virtual environments with their own site directories, optionally isolated from system site directories.
+RDEPENDS_python3-venv: python3-compression python3-core python3-logging python3-shell python3-stringold python3-unixadmin
+RPROVIDES_python3-venv:  python3-pyvenv
+RRECOMMENDS_python3-venv: python3-lic
+SECTION: devel/python
+PKG_python3-venv: python3-venv
+FILES_python3-venv:  /usr/lib/python3.5/venv /usr/bin/pyvenv*
+FILES_INFO: {"/usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.opt-2.pyc": 339, "/usr/bin/pyvenv-3.5": 230, "/usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.opt-1.pyc": 339, "/usr/lib/python3.5/venv/scripts/common/activate": 2158, "/usr/lib/python3.5/venv/__pycache__/__main__.cpython-35.pyc": 339, "/usr/lib/python3.5/venv/__main__.py": 145, "/usr/bin/pyvenv": 10, "/usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.pyc": 16312, "/usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.opt-2.pyc": 10355, "/usr/lib/python3.5/venv/__pycache__/__init__.cpython-35.opt-1.pyc": 16247, "/usr/lib/python3.5/venv/scripts/posix/activate.csh": 1276, "/usr/lib/python3.5/venv/scripts/posix/activate.fish": 2438, "/usr/lib/python3.5/venv/__init__.py": 20018}
+FILERDEPENDSFLIST_python3-venv: /usr/bin/pyvenv-3.5
+FILERDEPENDS_/usr/bin/pyvenv-3.5_python3-venv:  /usr/bin/python3.5
+PKGSIZE_python3-venv: 70206

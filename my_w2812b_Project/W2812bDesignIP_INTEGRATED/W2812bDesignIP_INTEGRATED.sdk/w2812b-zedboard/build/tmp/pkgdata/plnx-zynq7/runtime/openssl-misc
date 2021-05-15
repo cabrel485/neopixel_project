@@ -1,0 +1,18 @@
+PN: openssl
+PV: 1.1.1a
+PR: r0
+PKGV: 1.1.1a
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RDEPENDS_openssl-misc: perl
+RRECOMMENDS_openssl-misc: openssl-lic
+SECTION: libs/network
+PKG_openssl-misc: openssl-misc
+FILES_openssl-misc: /usr/lib/ssl-1.1/misc
+FILES_INFO: {"/usr/lib/ssl-1.1/misc/CA.pl": 7616, "/usr/lib/ssl-1.1/misc/tsget.pl": 6579, "/usr/lib/ssl-1.1/misc/tsget": 8}
+FILERDEPENDSFLIST_openssl-misc: /usr/lib/ssl-1.1/misc/CA.pl /usr/lib/ssl-1.1/misc/tsget.pl
+FILERDEPENDS_/usr/lib/ssl-1.1/misc/CA.pl_openssl-misc:  /usr/bin/env
+FILERDEPENDS_/usr/lib/ssl-1.1/misc/tsget.pl_openssl-misc:  /usr/bin/env
+PKGSIZE_openssl-misc: 14203

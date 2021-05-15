@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-icmp: iptables module ipt-icmp
+SUMMARY_iptables-module-ipt-icmp: iptables module ipt-icmp
+RDEPENDS_iptables-module-ipt-icmp: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-icmp: iptables-module-ipt-icmp
+FILES_iptables-module-ipt-icmp: /usr/lib/xtables/libipt_icmp.so
+FILERPROVIDESFLIST_iptables-module-ipt-icmp: /usr/lib/xtables/libipt@underscore@icmp.so
+FILES_INFO: {"/usr/lib/xtables/libipt_icmp.so": 9604}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@icmp.so_iptables-module-ipt-icmp:  libipt_icmp.so
+FILERDEPENDSFLIST_iptables-module-ipt-icmp: /usr/lib/xtables/libipt@underscore@icmp.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@icmp.so_iptables-module-ipt-icmp:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-icmp: 9604

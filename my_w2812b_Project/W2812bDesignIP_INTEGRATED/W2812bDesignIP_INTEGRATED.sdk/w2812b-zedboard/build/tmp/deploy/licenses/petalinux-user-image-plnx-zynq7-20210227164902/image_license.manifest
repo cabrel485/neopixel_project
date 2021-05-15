@@ -1,0 +1,25 @@
+RECIPE NAME: device-tree
+VERSION: xilinx+gitAUTOINC+73e546e312
+LICENSE: GPLv2
+FILES: plnx-zynq7-system-20210227164902.dtb
+
+RECIPE NAME: external-hdf
+VERSION: 1.0
+LICENSE: CLOSED
+FILES: Xilinx-plnx-zynq7.hdf
+
+RECIPE NAME: fsbl
+VERSION: 2019.1+gitAUTOINC+26c14d9861
+LICENSE: BSD
+FILES: fsbl-2019.1+gitAUTOINC+26c14d9861-r0-plnx-zynq7-20210227164902.elf
+
+RECIPE NAME: linux-xlnx
+VERSION: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+LICENSE: GPLv2
+FILES: uImage--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin zImage-initramfs--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin System.map.linux fitImage-linux.bin--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin modules--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.tgz vmlinux--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin vmlinux-initramfs--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin fitImage-its-petalinux-user-image-plnx-zynq7--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.its uImage-initramfs--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin fitImage-its--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.its zImage--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin fitImage-petalinux-user-image-plnx-zynq7--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin fitImage--4.19-xilinx-v2019.1+git0+9811303824-r0-plnx-zynq7-20210227164902.bin
+
+RECIPE NAME: u-boot-xlnx
+VERSION: v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94
+LICENSE: GPLv2+
+FILES: u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf
+

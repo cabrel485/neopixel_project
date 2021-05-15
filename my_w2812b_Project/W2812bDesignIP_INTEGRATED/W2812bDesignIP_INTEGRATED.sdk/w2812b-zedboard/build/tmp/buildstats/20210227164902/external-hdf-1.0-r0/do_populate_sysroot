@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444719.22 
+external-hdf-1.0-r0: do_populate_sysroot
+Elapsed time: 0.27 seconds
+utime: 19
+stime: 8
+cutime: 2
+cstime: 4
+IO wchar: 176957
+IO syscr: 419
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+IO read_bytes: 167936
+IO rchar: 368290
+IO syscw: 106
+rusage ru_utime: 0.194803
+rusage ru_stime: 0.084032
+rusage ru_maxrss: 131856
+rusage ru_minflt: 14560
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 344
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 557
+Child rusage ru_utime: 0.025921
+Child rusage ru_stime: 0.048388999999999995
+Child rusage ru_maxrss: 129020
+Child rusage ru_minflt: 6445
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 320
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 72
+Child rusage ru_nivcsw: 143
+Status: PASSED 
+Ended: 1614444719.49 

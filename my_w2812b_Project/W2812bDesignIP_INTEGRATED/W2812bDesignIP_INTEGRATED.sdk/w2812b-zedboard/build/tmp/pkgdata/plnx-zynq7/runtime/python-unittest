@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-unittest: Python unit testing framework
+RDEPENDS_python-unittest: python-core python-difflib python-io python-lang python-pprint python-shell
+RRECOMMENDS_python-unittest: python-lic
+SECTION: devel/python
+PKG_python-unittest: python-unittest
+FILES_python-unittest:  /usr/lib/python2.7/unittest
+FILES_INFO: {"/usr/lib/python2.7/unittest/signals.py": 2411, "/usr/lib/python2.7/unittest/loader.py": 13497, "/usr/lib/python2.7/unittest/util.py": 4606, "/usr/lib/python2.7/unittest/__init__.py": 2718, "/usr/lib/python2.7/unittest/signals.pyc": 2761, "/usr/lib/python2.7/unittest/suite.pyc": 10468, "/usr/lib/python2.7/unittest/suite.py": 9809, "/usr/lib/python2.7/unittest/__init__.pyc": 2962, "/usr/lib/python2.7/unittest/case.pyc": 40215, "/usr/lib/python2.7/unittest/util.pyc": 4502, "/usr/lib/python2.7/unittest/runner.py": 6533, "/usr/lib/python2.7/unittest/main.py": 9083, "/usr/lib/python2.7/unittest/loader.pyc": 11332, "/usr/lib/python2.7/unittest/main.pyc": 7978, "/usr/lib/python2.7/unittest/__main__.pyc": 486, "/usr/lib/python2.7/unittest/case.py": 42765, "/usr/lib/python2.7/unittest/result.py": 6308, "/usr/lib/python2.7/unittest/runner.pyc": 7589, "/usr/lib/python2.7/unittest/result.pyc": 7877, "/usr/lib/python2.7/unittest/__main__.py": 238}
+PKGSIZE_python-unittest: 194138

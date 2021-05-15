@@ -1,0 +1,13 @@
+PN: xz
+PV: 5.2.4
+PR: r0
+PKGV: 5.2.4
+PKGR: r0
+LICENSE: GPLv2+ & GPL-3.0-with-autoconf-exception & LGPLv2.1+ & PD
+DESCRIPTION: Utilities for managing LZMA compressed files.
+SUMMARY: Utilities for managing LZMA compressed files
+SECTION: base
+PKG_xz-lic: xz-lic
+FILES_xz-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/xz/generic_LGPLv2.1": 25878, "/usr/share/licenses/xz/generic_GPLv2": 17611, "/usr/share/licenses/xz/COPYING.LGPLv2.1": 26530, "/usr/share/licenses/xz/generic_GPL-3.0-with-autoconf-exception": 1847, "/usr/share/licenses/xz/getopt.c": 1085, "/usr/share/licenses/xz/COPYING.GPLv3": 35147, "/usr/share/licenses/xz/COPYING.GPLv2": 18092, "/usr/share/licenses/xz/generic_PD": 52, "/usr/share/licenses/xz/COPYING": 2775}
+PKGSIZE_xz-lic: 129017

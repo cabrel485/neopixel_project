@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444611.70 
+util-linux-2.32.1-r0: do_package_write_rpm_setscene
+Elapsed time: 0.25 seconds
+utime: 26
+stime: 7
+cutime: 6
+cstime: 4
+IO wchar: 17848664
+IO syscr: 1631
+IO write_bytes: 9056256
+IO cancelled_write_bytes: 0
+IO read_bytes: 8138752
+IO rchar: 17292486
+IO syscw: 1457
+rusage ru_utime: 0.26278
+rusage ru_stime: 0.074519
+rusage ru_maxrss: 132424
+rusage ru_minflt: 13899
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 61
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 0.066181
+Child rusage ru_stime: 0.047091
+Child rusage ru_maxrss: 129664
+Child rusage ru_minflt: 2267
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 15896
+Child rusage ru_oublock: 17472
+Child rusage ru_nvcsw: 290
+Child rusage ru_nivcsw: 321
+Status: PASSED 
+Ended: 1614444611.95 

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ja-jp.euc-jp: binary locale definition for ja-jp.euc-jp
+SUMMARY_glibc-binary-localedata-ja-jp.euc-jp: binary locale definition for ja-jp.euc-jp
+SECTION: base
+PKG_glibc-binary-localedata-ja-jp.euc-jp: glibc-binary-localedata-ja-jp.euc-jp
+FILES_glibc-binary-localedata-ja-jp.euc-jp: /usr/lib/locale/ja_JP.EUC-JP
+FILES_INFO: {"/usr/lib/locale/ja_JP.EUC-JP/LC_NUMERIC": 55, "/usr/lib/locale/ja_JP.EUC-JP/LC_ADDRESS": 122, "/usr/lib/locale/ja_JP.EUC-JP/LC_PAPER": 35, "/usr/lib/locale/ja_JP.EUC-JP/LC_CTYPE": 591092, "/usr/lib/locale/ja_JP.EUC-JP/LC_IDENTIFICATION": 340, "/usr/lib/locale/ja_JP.EUC-JP/LC_TIME": 5656, "/usr/lib/locale/ja_JP.EUC-JP/LC_TELEPHONE": 55, "/usr/lib/locale/ja_JP.EUC-JP/LC_MESSAGES/SYS_LC_MESSAGES": 99, "/usr/lib/locale/ja_JP.EUC-JP/LC_MONETARY": 291, "/usr/lib/locale/ja_JP.EUC-JP/LC_MEASUREMENT": 24, "/usr/lib/locale/ja_JP.EUC-JP/LC_COLLATE": 402087, "/usr/lib/locale/ja_JP.EUC-JP/LC_NAME": 76}
+PKGSIZE_glibc-binary-localedata-ja-jp.euc-jp: 999932

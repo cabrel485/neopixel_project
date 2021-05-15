@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-arybase: perl module arybase
+SUMMARY_perl-module-arybase: perl module arybase
+RDEPENDS_perl-module-arybase: perl perl-module-xsloader glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-arybase: perl-module-arybase
+FILES_perl-module-arybase: /usr/lib/perl/5.24.4/auto/arybase/arybase.so /usr/lib/perl/5.24.4/arybase.pm
+FILERPROVIDESFLIST_perl-module-arybase: /usr/lib/perl/5.24.4/arybase.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/auto/arybase/arybase.so": 13544, "/usr/lib/perl/5.24.4/arybase.pm": 2816}
+FILERPROVIDES_/usr/lib/perl/5.24.4/arybase.pm_perl-module-arybase:  perl(arybase)
+FILERDEPENDSFLIST_perl-module-arybase: /usr/lib/perl/5.24.4/auto/arybase/arybase.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/arybase/arybase.so_perl-module-arybase:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-arybase: 16360

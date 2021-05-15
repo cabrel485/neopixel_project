@@ -1,0 +1,14 @@
+PN: myapp
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Simple myapp application.
+SUMMARY: Simple myapp application
+RRECOMMENDS_myapp-locale: myapp-lic
+SECTION: PETALINUX/apps
+PKG_myapp-locale: myapp-locale
+FILES_myapp-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_myapp-locale: 0

@@ -1,0 +1,13 @@
+PN: grep
+PV: 3.1
+PR: r0
+PKGV: 3.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION: GNU grep utility.
+SUMMARY: GNU grep utility
+SECTION: console/utils
+PKG_grep-lic: grep-lic
+FILES_grep-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/grep/COPYING": 35148, "/usr/share/licenses/grep/generic_GPLv3": 34694}
+PKGSIZE_grep-lic: 69842

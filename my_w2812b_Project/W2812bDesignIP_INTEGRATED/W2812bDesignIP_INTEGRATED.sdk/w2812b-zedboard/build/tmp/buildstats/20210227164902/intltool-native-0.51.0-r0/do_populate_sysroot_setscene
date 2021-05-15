@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444645.14 
+intltool-native-0.51.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.12 seconds
+utime: 26
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 464562
+IO syscr: 217
+IO write_bytes: 258048
+IO cancelled_write_bytes: 0
+IO read_bytes: 40960
+IO rchar: 465664
+IO syscw: 193
+rusage ru_utime: 0.26313
+rusage ru_stime: 0.059296999999999996
+rusage ru_maxrss: 131476
+rusage ru_minflt: 13458
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 112
+Child rusage ru_utime: 0.019742
+Child rusage ru_stime: 0.010354
+Child rusage ru_maxrss: 128716
+Child rusage ru_minflt: 2296
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 312
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1614444645.26 

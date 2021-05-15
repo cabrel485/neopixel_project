@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-il: locale definition for en-il
+SUMMARY_glibc-localedata-en-il: locale definition for en-il
+RDEPENDS_glibc-localedata-en-il: glibc-localedata-en-gb glibc-localedata-en-us glibc-localedata-he-il
+SECTION: base
+PKG_glibc-localedata-en-il: glibc-localedata-en-il
+FILES_glibc-localedata-en-il: /usr/share/i18n/locales/en_IL
+FILES_INFO: {"/usr/share/i18n/locales/en_IL": 2593}
+PKGSIZE_glibc-localedata-en-il: 2593

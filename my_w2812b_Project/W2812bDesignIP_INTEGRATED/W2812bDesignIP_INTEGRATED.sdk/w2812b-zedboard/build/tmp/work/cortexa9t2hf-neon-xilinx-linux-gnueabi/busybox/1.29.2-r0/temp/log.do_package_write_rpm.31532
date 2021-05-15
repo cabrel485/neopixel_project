@@ -1,0 +1,329 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/opkg-utils/opkg-utils_0.3.6.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/rpm/rpm_4.14.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/update-rc.d/update-rc.d_0.8.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['opkg-utils-native', 'update-rc.d-native']
+NOTE: Skipping as already exists in sysroot: ['rpm-native', 'pseudo-native', 'quilt-native', 'xz-native', 'pkgconfig-native', 'automake-native', 'python3-native', 'dbus-native', 'nss-native', 'bzip2-native', 'gnu-config-native', 'gettext-minimal-native', 'libarchive-native', 'db-native', 'autoconf-native', 'libtool-native', 'elfutils-native', 'popt-native', 'file-native', 'texinfo-dummy-native', 'readline-native', 'sqlite3-native', 'zlib-native', 'gdbm-native', 'openssl-native', 'expat-native', 'nspr-native', 'e2fsprogs-native', 'lzo-native', 'm4-native', 'ncurses-native', 'attr-native', 'util-linux-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating RPM package for busybox-lic
+NOTE: Creating RPM package for busybox-inetd
+NOTE: Creating RPM package for busybox-ptest
+NOTE: Creating RPM package for busybox-httpd
+NOTE: Creating RPM package for busybox-udhcpd
+NOTE: Creating RPM package for busybox-udhcpc
+NOTE: Creating RPM package for busybox-syslog
+NOTE: Not creating empty RPM package for busybox-mdev
+NOTE: Creating RPM package for busybox-hwclock
+NOTE: Creating RPM package for busybox-dbg
+NOTE: Not creating empty RPM package for busybox-staticdev
+NOTE: Creating EMPTY RPM Package for busybox-dev
+NOTE: Not creating empty RPM package for busybox-doc
+NOTE: Not creating empty RPM package for busybox-locale
+NOTE: Creating RPM package for busybox
+NOTE: Creating RPM package for busybox
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon
+DEBUG: Executing shell function BUILDSPEC
+Building target platforms: cortexa9t2hf_neon-xilinx-linux
+Building for target cortexa9t2hf_neon-xilinx-linux
+Processing files: busybox-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: /bin/ash /bin/cat /bin/chattr /bin/chgrp /bin/chmod /bin/chown /bin/cp /bin/cpio /bin/date /bin/dd /bin/df /bin/dmesg /bin/dnsdomainname /bin/dumpkmap /bin/echo /bin/egrep /bin/false /bin/fgrep /bin/getopt /bin/grep /bin/gunzip /bin/gzip /bin/hostname /bin/kill /bin/ln /bin/login /bin/ls /bin/mkdir /bin/mknod /bin/mktemp /bin/more /bin/mount /bin/mv /bin/netstat /bin/pidof /bin/ping /bin/ping6 /bin/ps /bin/pwd /bin/rm /bin/rmdir /bin/run-parts /bin/sed /bin/sh /bin/sleep /bin/stat /bin/stty /bin/su /bin/sync /bin/tar /bin/touch /bin/true /bin/umount /bin/uname /bin/usleep /bin/vi /bin/watch /bin/zcat /sbin/blkid /sbin/depmod /sbin/devmem /sbin/fdisk /sbin/fsck /sbin/fstrim /sbin/getty /sbin/hwclock /sbin/ifconfig /sbin/ifdown /sbin/ifup /sbin/insmod /sbin/ip /sbin/loadkmap /sbin/logread /sbin/losetup /sbin/lsmod /sbin/mkfs.vfat /sbin/mkswap /sbin/modprobe /sbin/pivot_root /sbin/reboot /sbin/rmmod /sbin/route /sbin/setconsole /sbin/start-stop-daemon /sbin/sulogin /sbin/swapoff /sbin/swapon /sbin/switch_root /sbin/sysctl /sbin/udhcpc /sbin/watchdog /usr/bin/[ /usr/bin/[[ /usr/bin/awk /usr/bin/basename /usr/bin/bunzip2 /usr/bin/bzcat /usr/bin/chvt /usr/bin/clear /usr/bin/cmp /usr/bin/cut /usr/bin/dc /usr/bin/deallocvt /usr/bin/diff /usr/bin/dirname /usr/bin/du /usr/bin/dumpleases /usr/bin/env /usr/bin/expr /usr/bin/find /usr/bin/flock /usr/bin/free /usr/bin/ftpget /usr/bin/ftpput /usr/bin/fuser /usr/bin/groups /usr/bin/hd /usr/bin/head /usr/bin/hexdump /usr/bin/id /usr/bin/killall /usr/bin/less /usr/bin/logger /usr/bin/logname /usr/bin/lspci /usr/bin/lzcat /usr/bin/md5sum /usr/bin/mesg /usr/bin/microcom /usr/bin/mkfifo /usr/bin/nc /usr/bin/nohup /usr/bin/nproc /usr/bin/nslookup /usr/bin/od /usr/bin/openvt /usr/bin/passwd /usr/bin/patch /usr/bin/printf /usr/bin/readlink /usr/bin/realpath /usr/bin/renice /usr/bin/reset /usr/bin/resize /usr/bin/seq /usr/bin/sha1sum /usr/bin/sha256sum /usr/bin/sha512sum /usr/bin/shuf /usr/bin/sort /usr/bin/strings /usr/bin/tail /usr/bin/tee /usr/bin/telnet /usr/bin/test /usr/bin/tftp /usr/bin/time /usr/bin/top /usr/bin/tr /usr/bin/traceroute /usr/bin/tty /usr/bin/uniq /usr/bin/unlink /usr/bin/unzip /usr/bin/uptime /usr/bin/users /usr/bin/vlock /usr/bin/wc /usr/bin/wget /usr/bin/which /usr/bin/who /usr/bin/whoami /usr/bin/xargs /usr/bin/xzcat /usr/bin/yes /usr/sbin/addgroup /usr/sbin/adduser /usr/sbin/chroot /usr/sbin/delgroup /usr/sbin/deluser /usr/sbin/fbset /usr/sbin/ftpd /usr/sbin/httpd /usr/sbin/inetd /usr/sbin/loadfont /usr/sbin/rdate /usr/sbin/rfkill /usr/sbin/telnetd /usr/sbin/tftpd /usr/sbin/udhcpd busybox = 1.29.2-r0
+Requires(interp): /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.16) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc6 >= 2.28 libm.so.6 libm.so.6(GLIBC_2.4) libresolv.so.2 libresolv.so.2(GLIBC_2.4) libresolv.so.2(GLIBC_2.9) rtld(GNU_HASH) update-alternatives-opkg
+Requires(preun): /bin/sh ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.16) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc6 >= 2.28 libm.so.6 libm.so.6(GLIBC_2.4) libresolv.so.2 libresolv.so.2(GLIBC_2.4) libresolv.so.2(GLIBC_2.9) rtld(GNU_HASH) update-alternatives-opkg
+Requires(postun): /bin/sh ld-linux-armhf.so.3 ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.16) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc6 >= 2.28 libm.so.6 libm.so.6(GLIBC_2.4) libresolv.so.2 libresolv.so.2(GLIBC_2.4) libresolv.so.2(GLIBC_2.9) rtld(GNU_HASH) update-alternatives-opkg
+Recommends: busybox-inetd busybox-lic busybox-udhcpc
+Processing files: busybox-lic-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-lic = 1.29.2-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Processing files: busybox-inetd-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-inetd = 1.29.2-r0
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh /bin/sh
+Requires(post): /bin/sh /bin/sh
+Requires(preun): /bin/sh /bin/sh
+Requires(postun): /bin/sh /bin/sh
+Recommends: busybox-lic update-rc.d
+Processing files: busybox-ptest-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-ptest = 1.29.2-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: busybox-lic ptest-runner
+Processing files: busybox-httpd-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-httpd = 1.29.2-r0
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh /bin/sh
+Requires(post): /bin/sh /bin/sh
+Requires(preun): /bin/sh /bin/sh
+Requires(postun): /bin/sh /bin/sh
+Recommends: busybox-lic update-rc.d
+Processing files: busybox-udhcpd-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-udhcpd = 1.29.2-r0
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh /bin/sh
+Requires(post): /bin/sh /bin/sh
+Requires(preun): /bin/sh /bin/sh
+Requires(postun): /bin/sh /bin/sh
+Recommends: busybox-lic update-rc.d
+Processing files: busybox-udhcpc-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-udhcpc = 1.29.2-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: busybox-lic
+Processing files: busybox-syslog-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-syslog = 1.29.2-r0 config(busybox-syslog) = 1.29.2-r0
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh /bin/sh busybox update-alternatives-opkg
+Requires(post): /bin/sh /bin/sh busybox update-alternatives-opkg
+Requires(preun): /bin/sh /bin/sh busybox update-alternatives-opkg
+Requires(postun): /bin/sh /bin/sh busybox update-alternatives-opkg
+Conflicts: rsyslog sysklogd syslog-ng
+Recommends: busybox-lic update-rc.d
+Processing files: busybox-hwclock-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-hwclock = 1.29.2-r0
+Requires(interp): /bin/sh /bin/sh /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(pre): /bin/sh /bin/sh
+Requires(post): /bin/sh /bin/sh
+Requires(preun): /bin/sh /bin/sh
+Requires(postun): /bin/sh /bin/sh
+Recommends: busybox-lic update-rc.d
+Processing files: busybox-dbg-1.29.2-r0.cortexa9t2hf_neon
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: busybox-dbg = 1.29.2-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: busybox-lic libc6-dbg
+Processing files: busybox-dev-1.29.2-r0.cortexa9t2hf_neon
+Checking for unpackaged file(s): /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/recipe-sysroot-native/usr/bin/../../usr/lib/rpm/check-files /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/package
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-1.29.2-r0.cortexa9t2hf_neon.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-inetd-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-inetd-1.29.2-r0.cortexa9t2hf_neon.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-lic-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-lic-1.29.2-r0.cortexa9t2hf_neon.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-httpd-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-httpd-1.29.2-r0.cortexa9t2hf_neon.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-udhcpd-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-udhcpd-1.29.2-r0.cortexa9t2hf_neon.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-udhcpc-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-udhcpc-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename (null)
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-syslog-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-syslog-1.29.2-r0.cortexa9t2hf_neon.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-hwclock-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-hwclock-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename (null)
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-dev-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-dev-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename (null)
+Finished binary package job, result 0, filename (null)
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-ptest-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-ptest-1.29.2-r0.cortexa9t2hf_neon.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-dbg-1.29.2-r0.cortexa9t2hf_neon.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms/cortexa9t2hf_neon/busybox-dbg-1.29.2-r0.cortexa9t2hf_neon.rpm
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 0o002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms for packaging at /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/recipe-sysroot' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/recipe-sysroot-native' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools' | tee /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/busybox/1.29.2-r0/deploy-rpms to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm
+DEBUG: Python function sstate_task_postfunc finished

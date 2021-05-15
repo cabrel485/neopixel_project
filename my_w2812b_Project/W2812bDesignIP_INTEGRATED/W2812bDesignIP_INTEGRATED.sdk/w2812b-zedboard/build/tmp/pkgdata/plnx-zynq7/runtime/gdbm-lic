@@ -1,0 +1,14 @@
+PN: gdbm
+PV: 1.18
+PR: r0
+PKGV: 1.18
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION: Key/value database library with extensible hashing.
+SUMMARY: Key/value database library with extensible hashing
+RPROVIDES_gdbm-lic:  gdbm-lic (=1.18)
+SECTION: libs
+PKG_gdbm-lic: libgdbm-lic
+FILES_gdbm-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/gdbm/generic_GPLv3": 34694, "/usr/share/licenses/gdbm/COPYING": 35072}
+PKGSIZE_gdbm-lic: 69766

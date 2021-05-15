@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444597.48 
+gnome-desktop-testing-2014.1-r1: do_populate_lic_setscene
+Elapsed time: 0.21 seconds
+utime: 22
+stime: 4
+cutime: 2
+cstime: 0
+IO wchar: 242278
+IO syscr: 187
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 301789
+IO syscw: 140
+rusage ru_utime: 0.226847
+rusage ru_stime: 0.045369
+rusage ru_maxrss: 131388
+rusage ru_minflt: 13259
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 166
+Child rusage ru_utime: 0.020325
+Child rusage ru_stime: 0.009216
+Child rusage ru_maxrss: 128600
+Child rusage ru_minflt: 2266
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 21
+Status: PASSED 
+Ended: 1614444597.69 

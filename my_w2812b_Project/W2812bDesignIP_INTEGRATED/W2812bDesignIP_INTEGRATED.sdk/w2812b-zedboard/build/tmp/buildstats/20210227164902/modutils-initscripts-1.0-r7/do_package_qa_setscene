@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444596.83 
+modutils-initscripts-1.0-r7: do_package_qa_setscene
+Elapsed time: 0.20 seconds
+utime: 22
+stime: 4
+cutime: 1
+cstime: 0
+IO wchar: 127019
+IO syscr: 80
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 152289
+IO syscw: 110
+rusage ru_utime: 0.22600099999999998
+rusage ru_stime: 0.041433
+rusage ru_maxrss: 131232
+rusage ru_minflt: 11985
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 192
+Child rusage ru_utime: 0.010161
+Child rusage ru_stime: 0.006247
+Child rusage ru_maxrss: 128528
+Child rusage ru_minflt: 1125
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1614444597.03 

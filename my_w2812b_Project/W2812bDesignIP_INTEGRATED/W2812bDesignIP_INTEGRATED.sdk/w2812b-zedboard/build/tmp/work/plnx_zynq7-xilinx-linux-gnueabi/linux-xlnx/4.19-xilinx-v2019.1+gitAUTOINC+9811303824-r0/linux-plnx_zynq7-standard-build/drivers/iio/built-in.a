@@ -1,0 +1,20 @@
+!<thin>
+//                                              210       `
+industrialio-core.o/
+industrialio-event.o/
+inkern.o/
+industrialio-buffer.o/
+industrialio-trigger.o/
+adc/xilinx-xadc-core.o/
+adc/xilinx-xadc-events.o/
+buffer/industrialio-triggered-buffer.o/
+buffer/kfifo_buf.o/
+/0              0           0     0     644     32460     `
+/21             0           0     0     644     7972      `
+/43             0           0     0     644     22728     `
+/53             0           0     0     644     17220     `
+/76             0           0     0     644     20004     `
+/100            0           0     0     644     18424     `
+/124            0           0     0     644     2812      `
+/150            0           0     0     644     4864      `
+/190            0           0     0     644     5816      `

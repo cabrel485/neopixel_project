@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-dbm-filter: perl module dbm-filter
+SUMMARY_perl-module-dbm-filter: perl module dbm-filter
+RDEPENDS_perl-module-dbm-filter: perl perl-module-carp perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-dbm-filter: perl-module-dbm-filter
+FILES_perl-module-dbm-filter: /usr/lib/perl/5.24.4/DBM_Filter.pm
+FILERPROVIDESFLIST_perl-module-dbm-filter: /usr/lib/perl/5.24.4/DBM@underscore@Filter.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/DBM_Filter.pm": 14385}
+FILERPROVIDES_/usr/lib/perl/5.24.4/DBM@underscore@Filter.pm_perl-module-dbm-filter:  perl(DBM_Filter) perl(Tie::Hash)
+PKGSIZE_perl-module-dbm-filter: 14385

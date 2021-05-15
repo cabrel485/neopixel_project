@@ -1,0 +1,13 @@
+PN: elfutils
+PV: 0.175
+PR: r0
+PKGV: 0.175
+PKGR: r0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION: Utilities and libraries for handling compiled object files.
+SUMMARY: Utilities and libraries for handling compiled object files
+SECTION: base
+PKG_elfutils-lic: elfutils-lic
+FILES_elfutils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/elfutils/generic_Elfutils-Exception": 445, "/usr/share/licenses/elfutils/generic_GPLv3": 34694, "/usr/share/licenses/elfutils/COPYING": 35147}
+PKGSIZE_elfutils-lic: 70286

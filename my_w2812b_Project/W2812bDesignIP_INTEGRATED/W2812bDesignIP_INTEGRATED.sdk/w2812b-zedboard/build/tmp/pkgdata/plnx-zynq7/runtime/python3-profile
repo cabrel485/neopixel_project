@@ -1,0 +1,19 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-profile: Python basic performance profiling support
+RDEPENDS_python3-profile: python3-core libpython3 (>= 3.5.6) glibc (>= 2.28)
+RRECOMMENDS_python3-profile: python3-lic
+SECTION: devel/python
+PKG_python3-profile: python3-profile
+FILES_python3-profile:  /usr/lib/python3.5/cProfile.py /usr/lib/python3.5/lib-dynload/_lsprof.*.so /usr/lib/python3.5/profile.py /usr/lib/python3.5/pstats.py /usr/lib/python3.5/__pycache__/cProfile.*.pyc /usr/lib/python3.5/__pycache__/profile.*.pyc /usr/lib/python3.5/__pycache__/pstats.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/pstats.cpython-35.opt-2.pyc": 21311, "/usr/lib/python3.5/__pycache__/pstats.cpython-35.pyc": 23771, "/usr/lib/python3.5/cProfile.py": 5313, "/usr/lib/python3.5/lib-dynload/_lsprof.cpython-35m-arm-linux-gnueabihf.so": 15628, "/usr/lib/python3.5/__pycache__/cProfile.cpython-35.opt-2.pyc": 4117, "/usr/lib/python3.5/__pycache__/pstats.cpython-35.opt-1.pyc": 23771, "/usr/lib/python3.5/__pycache__/cProfile.cpython-35.opt-1.pyc": 4591, "/usr/lib/python3.5/profile.py": 22021, "/usr/lib/python3.5/pstats.py": 26564, "/usr/lib/python3.5/__pycache__/cProfile.cpython-35.pyc": 4591, "/usr/lib/python3.5/__pycache__/profile.cpython-35.pyc": 15071, "/usr/lib/python3.5/__pycache__/profile.cpython-35.opt-2.pyc": 11828, "/usr/lib/python3.5/__pycache__/profile.cpython-35.opt-1.pyc": 14816}
+FILERDEPENDSFLIST_python3-profile: /usr/lib/python3.5/cProfile.py /usr/lib/python3.5/profile.py /usr/lib/python3.5/lib-dynload/@underscore@lsprof.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/cProfile.py_python3-profile:  /usr/bin/env
+FILERDEPENDS_/usr/lib/python3.5/profile.py_python3-profile:  /usr/bin/env
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@lsprof.cpython-35m-arm-linux-gnueabihf.so_python3-profile:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-profile: 193393

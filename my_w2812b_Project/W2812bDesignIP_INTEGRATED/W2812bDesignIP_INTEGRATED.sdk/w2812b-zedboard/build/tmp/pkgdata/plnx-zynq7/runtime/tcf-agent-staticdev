@@ -1,0 +1,15 @@
+PN: tcf-agent
+PV: 1.7.0+gitAUTOINC+dad3a6f568
+PR: r0
+PKGV: 1.7.0+git0+dad3a6f568
+PKGR: r0
+LICENSE: EPL-1.0 | EDL-1.0
+DESCRIPTION_tcf-agent-staticdev: Target Communication Framework for the Eclipse IDE.  This package contains static libraries for software development.
+SUMMARY_tcf-agent-staticdev: Target Communication Framework for the Eclipse IDE - Development files (Static Libraries)
+RDEPENDS_tcf-agent-staticdev: tcf-agent-dev (= 1.7.0+git0+dad3a6f568-r0)
+RRECOMMENDS_tcf-agent-staticdev: tcf-agent-lic
+SECTION_tcf-agent-staticdev: devel
+PKG_tcf-agent-staticdev: tcf-agent-staticdev
+FILES_tcf-agent-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/tcf-agent/*.a
+FILES_INFO: {}
+PKGSIZE_tcf-agent-staticdev: 0

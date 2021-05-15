@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-to-to: locale definition for to-to
+SUMMARY_glibc-localedata-to-to: locale definition for to-to
+RDEPENDS_glibc-localedata-to-to: glibc-localedata-en-us glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-to-to: glibc-localedata-to-to
+FILES_glibc-localedata-to-to: /usr/share/i18n/locales/to_TO
+FILES_INFO: {"/usr/share/i18n/locales/to_TO": 4039}
+PKGSIZE_glibc-localedata-to-to: 4039

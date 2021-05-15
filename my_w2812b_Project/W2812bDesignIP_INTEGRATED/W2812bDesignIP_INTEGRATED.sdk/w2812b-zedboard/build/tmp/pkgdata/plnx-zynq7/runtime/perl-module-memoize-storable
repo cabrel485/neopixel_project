@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-memoize-storable: perl module memoize-storable
+SUMMARY_perl-module-memoize-storable: perl module memoize-storable
+RDEPENDS_perl-module-memoize-storable: perl perl-module-carp perl-module-storable
+SECTION: devel
+PKG_perl-module-memoize-storable: perl-module-memoize-storable
+FILES_perl-module-memoize-storable: /usr/lib/perl/5.24.4/Memoize/Storable.pm
+FILERPROVIDESFLIST_perl-module-memoize-storable: /usr/lib/perl/5.24.4/Memoize/Storable.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Memoize/Storable.pm": 1420}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Memoize/Storable.pm_perl-module-memoize-storable:  perl(Memoize::Storable)
+PKGSIZE_perl-module-memoize-storable: 1420

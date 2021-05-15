@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444686.51 
+ncurses-native-6.1+20180630-r0: do_rm_work
+Elapsed time: 0.08 seconds
+utime: 25
+stime: 3
+cutime: 1
+cstime: 3
+IO wchar: 43161
+IO syscr: 194
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 190785
+IO syscw: 41
+rusage ru_utime: 0.252407
+rusage ru_stime: 0.038831
+rusage ru_maxrss: 131496
+rusage ru_minflt: 11169
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 148
+Child rusage ru_utime: 0.010582999999999999
+Child rusage ru_stime: 0.031952
+Child rusage ru_maxrss: 128796
+Child rusage ru_minflt: 3561
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 51
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1614444686.60 

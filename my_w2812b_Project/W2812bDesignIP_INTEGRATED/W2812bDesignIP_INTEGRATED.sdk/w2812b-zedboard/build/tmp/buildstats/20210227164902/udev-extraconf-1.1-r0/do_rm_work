@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444783.09 
+udev-extraconf-1.1-r0: do_rm_work
+Elapsed time: 0.29 seconds
+utime: 12
+stime: 0
+cutime: 8
+cstime: 10
+IO wchar: 24659
+IO syscr: 669
+IO write_bytes: 28672
+IO cancelled_write_bytes: 405504
+IO read_bytes: 0
+IO rchar: 329641
+IO syscw: 45
+rusage ru_utime: 0.127586
+rusage ru_stime: 0.007974
+rusage ru_maxrss: 131984
+rusage ru_minflt: 4615
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.08527799999999999
+Child rusage ru_stime: 0.10406699999999999
+Child rusage ru_maxrss: 129312
+Child rusage ru_minflt: 15079
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 215
+Child rusage ru_nivcsw: 102
+Status: PASSED 
+Ended: 1614444783.38 

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-pt-br: binary locale definition for pt-br
+SUMMARY_glibc-binary-localedata-pt-br: binary locale definition for pt-br
+SECTION: base
+PKG_glibc-binary-localedata-pt-br: glibc-binary-localedata-pt-br
+FILES_glibc-binary-localedata-pt-br: /usr/lib/locale/pt_BR
+FILES_INFO: {"/usr/lib/locale/pt_BR/LC_TELEPHONE": 51, "/usr/lib/locale/pt_BR/LC_NUMERIC": 54, "/usr/lib/locale/pt_BR/LC_MESSAGES/SYS_LC_MESSAGES": 61, "/usr/lib/locale/pt_BR/LC_NAME": 62, "/usr/lib/locale/pt_BR/LC_COLLATE": 2586242, "/usr/lib/locale/pt_BR/LC_MEASUREMENT": 23, "/usr/lib/locale/pt_BR/LC_MONETARY": 290, "/usr/lib/locale/pt_BR/LC_IDENTIFICATION": 359, "/usr/lib/locale/pt_BR/LC_TIME": 3236, "/usr/lib/locale/pt_BR/LC_PAPER": 34, "/usr/lib/locale/pt_BR/LC_CTYPE": 337024, "/usr/lib/locale/pt_BR/LC_ADDRESS": 153}
+PKGSIZE_glibc-binary-localedata-pt-br: 2927589

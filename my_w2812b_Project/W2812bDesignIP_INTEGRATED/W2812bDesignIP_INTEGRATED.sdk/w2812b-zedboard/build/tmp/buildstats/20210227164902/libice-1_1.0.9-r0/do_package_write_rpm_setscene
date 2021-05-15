@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444667.19 
+libice-1_1.0.9-r0: do_package_write_rpm_setscene
+Elapsed time: 0.23 seconds
+utime: 25
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 600891
+IO syscr: 223
+IO write_bytes: 315392
+IO cancelled_write_bytes: 0
+IO read_bytes: 196608
+IO rchar: 682394
+IO syscw: 169
+rusage ru_utime: 0.25837
+rusage ru_stime: 0.043724
+rusage ru_maxrss: 131420
+rusage ru_minflt: 13336
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 140
+Child rusage ru_utime: 0.016967
+Child rusage ru_stime: 0.012062999999999999
+Child rusage ru_maxrss: 128632
+Child rusage ru_minflt: 2241
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 384
+Child rusage ru_oublock: 456
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444667.42 

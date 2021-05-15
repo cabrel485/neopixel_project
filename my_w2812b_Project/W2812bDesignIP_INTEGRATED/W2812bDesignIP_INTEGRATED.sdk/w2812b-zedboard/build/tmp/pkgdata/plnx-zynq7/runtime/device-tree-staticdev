@@ -1,0 +1,15 @@
+PN: device-tree
+PV: xilinx+gitAUTOINC+73e546e312
+PR: r0
+PKGV: xilinx+git0+73e546e312
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_device-tree-staticdev: Device Tree generation and packaging for BSP Device Trees using DTG from Xilinx  This package contains static libraries for software development.
+SUMMARY_device-tree-staticdev: Xilinx BSP device trees - Development files (Static Libraries)
+RDEPENDS_device-tree-staticdev: device-tree-dev (= xilinx+git0+73e546e312-r0)
+RRECOMMENDS_device-tree-staticdev: device-tree-lic
+SECTION_device-tree-staticdev: devel
+PKG_device-tree-staticdev: device-tree-staticdev
+FILES_device-tree-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/device-tree/*.a
+FILES_INFO: {}
+PKGSIZE_device-tree-staticdev: 0

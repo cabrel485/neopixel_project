@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444760.64 
+util-linux-2.32.1-r0: do_rm_work
+Elapsed time: 0.13 seconds
+utime: 18
+stime: 1
+cutime: 2
+cstime: 1
+IO wchar: 40463
+IO syscr: 291
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 86016
+IO rchar: 232809
+IO syscw: 44
+rusage ru_utime: 0.18625999999999998
+rusage ru_stime: 0.019814
+rusage ru_maxrss: 133652
+rusage ru_minflt: 5602
+rusage ru_majflt: 0
+rusage ru_inblock: 120
+rusage ru_oublock: 72
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 0.029629
+Child rusage ru_stime: 0.015679
+Child rusage ru_maxrss: 130980
+Child rusage ru_minflt: 6000
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 84
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1614444760.76 

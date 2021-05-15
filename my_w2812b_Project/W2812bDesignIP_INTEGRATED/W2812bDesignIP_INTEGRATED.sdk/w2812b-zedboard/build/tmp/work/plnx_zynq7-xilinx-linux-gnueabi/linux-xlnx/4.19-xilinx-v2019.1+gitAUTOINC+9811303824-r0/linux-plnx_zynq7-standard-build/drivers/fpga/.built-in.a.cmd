@@ -1,0 +1,1 @@
+cmd_drivers/fpga/built-in.a := rm -f drivers/fpga/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD drivers/fpga/built-in.a drivers/fpga/fpga-mgr.o drivers/fpga/zynq-fpga.o drivers/fpga/zynq-afi.o drivers/fpga/fpga-bridge.o drivers/fpga/xilinx-pr-decoupler.o drivers/fpga/fpga-region.o drivers/fpga/of-fpga-region.o

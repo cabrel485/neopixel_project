@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444621.37 
+bash-4.4.18-r0: do_package_write_rpm_setscene
+Elapsed time: 0.14 seconds
+utime: 20
+stime: 8
+cutime: 3
+cstime: 1
+IO wchar: 5990375
+IO syscr: 645
+IO write_bytes: 3018752
+IO cancelled_write_bytes: 0
+IO read_bytes: 2805760
+IO rchar: 6001505
+IO syscw: 525
+rusage ru_utime: 0.20343499999999998
+rusage ru_stime: 0.08544199999999999
+rusage ru_maxrss: 131536
+rusage ru_minflt: 13501
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 120
+Child rusage ru_utime: 0.031698
+Child rusage ru_stime: 0.018928
+Child rusage ru_maxrss: 128788
+Child rusage ru_minflt: 2246
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 5480
+Child rusage ru_oublock: 5728
+Child rusage ru_nvcsw: 113
+Child rusage ru_nivcsw: 105
+Status: PASSED 
+Ended: 1614444621.51 

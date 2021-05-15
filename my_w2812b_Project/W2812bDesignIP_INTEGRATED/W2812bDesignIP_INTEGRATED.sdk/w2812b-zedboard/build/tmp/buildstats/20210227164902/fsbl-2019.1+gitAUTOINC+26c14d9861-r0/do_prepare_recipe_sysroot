@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444846.37 
+fsbl-2019.1+gitAUTOINC+26c14d9861-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.63 seconds
+utime: 29
+stime: 14
+cutime: 5
+cstime: 4
+IO wchar: 1627345
+IO syscr: 970
+IO write_bytes: 1712128
+IO cancelled_write_bytes: 0
+IO read_bytes: 704512
+IO rchar: 4787446
+IO syscw: 49385
+rusage ru_utime: 0.300043
+rusage ru_stime: 0.14802099999999999
+rusage ru_maxrss: 139932
+rusage ru_minflt: 9382
+rusage ru_majflt: 0
+rusage ru_inblock: 1184
+rusage ru_oublock: 136
+rusage ru_nvcsw: 99
+rusage ru_nivcsw: 173
+Child rusage ru_utime: 0.05516
+Child rusage ru_stime: 0.048974
+Child rusage ru_maxrss: 136208
+Child rusage ru_minflt: 798
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 192
+Child rusage ru_oublock: 3208
+Child rusage ru_nvcsw: 12
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614444847.00 

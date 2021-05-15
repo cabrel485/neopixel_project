@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION_python-staticdev: The Python Programming Language.  This package contains static libraries for software development.
+SUMMARY_python-staticdev: The Python Programming Language - Development files (Static Libraries)
+RDEPENDS_python-staticdev: python-dev (= 2.7.15-r1)
+RRECOMMENDS_python-staticdev: python-lic
+SECTION_python-staticdev: devel
+PKG_python-staticdev: python-staticdev
+FILES_python-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/python/*.a
+FILES_INFO: {}
+PKGSIZE_python-staticdev: 0

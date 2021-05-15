@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445405.13 
+bridge-utils-1.6-r0: do_rm_work
+Elapsed time: 0.10 seconds
+utime: 13
+stime: 2
+cutime: 3
+cstime: 0
+IO wchar: 35154
+IO syscr: 277
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 114688
+IO rchar: 204830
+IO syscw: 38
+rusage ru_utime: 0.13874899999999998
+rusage ru_stime: 0.023124
+rusage ru_maxrss: 131792
+rusage ru_minflt: 4676
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 72
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.038423
+Child rusage ru_stime: 0.0028829999999999997
+Child rusage ru_maxrss: 129120
+Child rusage ru_minflt: 5934
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 152
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 97
+Child rusage ru_nivcsw: 56
+Status: PASSED 
+Ended: 1614445405.22 

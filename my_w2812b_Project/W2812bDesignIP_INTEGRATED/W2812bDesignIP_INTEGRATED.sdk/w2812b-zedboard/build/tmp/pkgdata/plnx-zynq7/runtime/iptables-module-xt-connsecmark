@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-connsecmark: iptables module xt-connsecmark
+SUMMARY_iptables-module-xt-connsecmark: iptables module xt-connsecmark
+RDEPENDS_iptables-module-xt-connsecmark: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-connsecmark: iptables-module-xt-connsecmark
+FILES_iptables-module-xt-connsecmark: /usr/lib/xtables/libxt_CONNSECMARK.so
+FILERPROVIDESFLIST_iptables-module-xt-connsecmark: /usr/lib/xtables/libxt@underscore@CONNSECMARK.so
+FILES_INFO: {"/usr/lib/xtables/libxt_CONNSECMARK.so": 5520}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CONNSECMARK.so_iptables-module-xt-connsecmark:  libxt_CONNSECMARK.so
+FILERDEPENDSFLIST_iptables-module-xt-connsecmark: /usr/lib/xtables/libxt@underscore@CONNSECMARK.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CONNSECMARK.so_iptables-module-xt-connsecmark:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-connsecmark: 5520

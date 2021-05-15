@@ -1,0 +1,5 @@
+#!/bin/bash
+realpath=`readlink -fn $0`
+realdir=`dirname $realpath`
+export GETTEXTDATADIR=$realdir/../../usr/share/gettext-0.19.8/
+exec -a `dirname $realpath`/msgfmt `dirname $realpath`/msgfmt.real "$@"

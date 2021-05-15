@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444596.58 
+kern-tools-native-0.2+gitAUTOINC+d6529f86fc-r12: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 10
+stime: 3
+cutime: 1
+cstime: 0
+IO wchar: 178419
+IO syscr: 177
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 237619
+IO syscw: 128
+rusage ru_utime: 0.108429
+rusage ru_stime: 0.038724
+rusage ru_maxrss: 131200
+rusage ru_minflt: 6557
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 176
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.018650999999999997
+Child rusage ru_stime: 0.008362999999999999
+Child rusage ru_maxrss: 128500
+Child rusage ru_minflt: 2263
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1614444596.68 

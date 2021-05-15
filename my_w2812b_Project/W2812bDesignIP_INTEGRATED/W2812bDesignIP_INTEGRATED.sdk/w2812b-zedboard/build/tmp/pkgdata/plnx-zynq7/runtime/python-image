@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-image: Python graphical image handling
+RDEPENDS_python-image: python-core
+RRECOMMENDS_python-image: python-lic
+SECTION: devel/python
+PKG_python-image: python-image
+FILES_python-image:  /usr/lib/python2.7/colorsys.py /usr/lib/python2.7/colorsys.pyc /usr/lib/python2.7/imghdr.py /usr/lib/python2.7/imghdr.pyc
+FILES_INFO: {"/usr/lib/python2.7/colorsys.py": 3691, "/usr/lib/python2.7/imghdr.pyc": 4806, "/usr/lib/python2.7/colorsys.pyc": 3975, "/usr/lib/python2.7/imghdr.py": 3541}
+PKGSIZE_python-image: 16013

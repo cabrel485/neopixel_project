@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-euc-jisx0213: gconv module for character set euc-jisx0213
+SUMMARY_glibc-gconv-euc-jisx0213: gconv module for character set euc-jisx0213
+RDEPENDS_glibc-gconv-euc-jisx0213: glibc-gconv glibc-gconv-libjisx0213 (>= 2.28) glibc (>= 2.28)
+SECTION: base
+PKG_glibc-gconv-euc-jisx0213: glibc-gconv-euc-jisx0213
+FILES_glibc-gconv-euc-jisx0213: /usr/lib/gconv/EUC-JISX0213.so
+FILES_INFO: {"/usr/lib/gconv/EUC-JISX0213.so": 9624}
+PKGSIZE_glibc-gconv-euc-jisx0213: 9624

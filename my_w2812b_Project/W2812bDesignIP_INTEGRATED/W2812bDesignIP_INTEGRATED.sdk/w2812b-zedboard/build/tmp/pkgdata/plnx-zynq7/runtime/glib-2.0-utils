@@ -1,0 +1,29 @@
+PN: glib-2.0
+PE: 1
+PV: 2.58.0
+PR: r0
+PKGE: 1
+PKGV: 2.58.0
+PKGR: r0
+LICENSE: LGPLv2.1+ & BSD & PD
+DESCRIPTION: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.
+SUMMARY: A general-purpose utility library
+RDEPENDS_glib-2.0-utils: glib-2.0 (>= 2.58.0) glibc (>= 2.28)
+RPROVIDES_glib-2.0-utils:  glib-2.0-utils (=2.58.0)
+RRECOMMENDS_glib-2.0-utils: glib-2.0-lic
+SECTION: libs
+PKG_glib-2.0-utils: libglib-2.0-utils
+FILES_glib-2.0-utils: /usr/bin/*
+FILES_INFO: {"/usr/bin/gtester": 17812, "/usr/bin/gio-launch-desktop": 5520, "/usr/bin/gsettings": 17800, "/usr/bin/gapplication": 13760, "/usr/bin/gresource": 9608, "/usr/bin/gtester-report": 18835, "/usr/bin/glib-compile-schemas": 34292, "/usr/bin/gio": 54732, "/usr/bin/gdbus": 30140, "/usr/bin/gobject-query": 5524}
+FILERDEPENDSFLIST_glib-2.0-utils: /usr/bin/gio-launch-desktop /usr/bin/gsettings /usr/bin/gapplication /usr/bin/gresource /usr/bin/gtester-report /usr/bin/gtester /usr/bin/gio /usr/bin/glib-compile-schemas /usr/bin/gobject-query /usr/bin/gdbus
+FILERDEPENDS_/usr/bin/gio-launch-desktop_glib-2.0-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gsettings_glib-2.0-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gapplication_glib-2.0-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gresource_glib-2.0-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gtester-report_glib-2.0-utils:  /usr/bin/env
+FILERDEPENDS_/usr/bin/gtester_glib-2.0-utils:  libpthread.so.0(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gio_glib-2.0-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/glib-compile-schemas_glib-2.0-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gobject-query_glib-2.0-utils:  libc.so.6(GLIBC_2.4) libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gdbus_glib-2.0-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_glib-2.0-utils: 208023

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444806.46 
+u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: do_fetch
+Elapsed time: 2.13 seconds
+utime: 15
+stime: 3
+cutime: 130
+cstime: 48
+IO wchar: 343658910
+IO syscr: 26302
+IO write_bytes: 171855872
+IO cancelled_write_bytes: 0
+IO read_bytes: 164868096
+IO rchar: 336793785
+IO syscw: 22260
+rusage ru_utime: 0.153853
+rusage ru_stime: 0.031559
+rusage ru_maxrss: 131948
+rusage ru_minflt: 8664
+rusage ru_majflt: 0
+rusage ru_inblock: 192
+rusage ru_oublock: 168
+rusage ru_nvcsw: 31
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 1.305654
+Child rusage ru_stime: 0.48783
+Child rusage ru_maxrss: 129272
+Child rusage ru_minflt: 4557
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 321816
+Child rusage ru_oublock: 335488
+Child rusage ru_nvcsw: 5292
+Child rusage ru_nivcsw: 4173
+Status: PASSED 
+Ended: 1614444808.59 

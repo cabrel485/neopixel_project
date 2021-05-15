@@ -1,0 +1,16 @@
+PN: device-tree
+PV: xilinx+gitAUTOINC+73e546e312
+PR: r0
+PKGV: xilinx+git0+73e546e312
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_device-tree-dev: Device Tree generation and packaging for BSP Device Trees using DTG from Xilinx  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_device-tree-dev: Xilinx BSP device trees - Development files
+RDEPENDS_device-tree-dev: device-tree (= xilinx+git0+73e546e312-r0)
+RRECOMMENDS_device-tree-dev: device-tree-lic
+SECTION_device-tree-dev: devel
+PKG_device-tree-dev: device-tree-dev
+ALLOW_EMPTY_device-tree-dev: 1
+FILES_device-tree-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/device-tree/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {}
+PKGSIZE_device-tree-dev: 0

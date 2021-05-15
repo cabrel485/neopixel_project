@@ -1,0 +1,16 @@
+PN: libsocketcan
+PV: 0.0.10
+PR: r0
+PKGV: 0.0.10
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libsocketcan-dev: Control basic functions in socketcan from userspace.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libsocketcan-dev: Control basic functions in socketcan from userspace - Development files
+RDEPENDS_libsocketcan-dev: libsocketcan (= 0.0.10-r0)
+RRECOMMENDS_libsocketcan-dev: libsocketcan-lic glibc-dev
+SECTION_libsocketcan-dev: devel
+PKG_libsocketcan-dev: libsocketcan-dev
+ALLOW_EMPTY_libsocketcan-dev: 1
+FILES_libsocketcan-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libsocketcan/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/include/can_netlink.h": 3079, "/usr/include/libsocketcan.h": 1986, "/usr/lib/pkgconfig/libsocketcan.pc": 275, "/usr/lib/libsocketcan.so": 21}
+PKGSIZE_libsocketcan-dev: 5361

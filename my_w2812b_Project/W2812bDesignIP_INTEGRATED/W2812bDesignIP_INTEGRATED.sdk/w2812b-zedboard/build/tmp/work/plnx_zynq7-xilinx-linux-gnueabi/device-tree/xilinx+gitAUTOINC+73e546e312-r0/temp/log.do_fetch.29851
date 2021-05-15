@@ -1,0 +1,378 @@
+DEBUG: Executing python function clean_recipe_sysroot
+DEBUG: Python function clean_recipe_sysroot finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are []
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['cvs', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['svn', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url git://github.com/xilinx/device-tree-xlnx.git;protocol=https;branch=master returning file:///home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['cvs', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['svn', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['gitsm', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['hg', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['bzr', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['p4', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['osc', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https?$', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['npm', '.*', '/?.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['gitsm', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['hg', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['bzr', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['p4', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['osc', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['https?$', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['npm', '.*', '/?.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url git://github.com/xilinx/device-tree-xlnx.git;protocol=https;branch=master returning file:///proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['cvs', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['svn', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['gitsm', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['hg', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['bzr', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['p4', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['osc', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https?$', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['npm', '.*', '/?.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url git://github.com/xilinx/device-tree-xlnx.git;protocol=https;branch=master returning http://petalinux.xilinx.com/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['cvs', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['svn', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['gitsm', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['hg', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['bzr', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['p4', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['osc', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https?$', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url http://petalinux.xilinx.com/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['npm', '.*', '/?.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/downloads/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['git', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url http://petalinux.xilinx.com/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz returning file:///proj/yocto/daily-downloads_2019.1/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-downloads_2019.1/', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz', '', '', OrderedDict()] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['ftp', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['http', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: For url ['git', 'github.com', '/xilinx/device-tree-xlnx.git', '', '', OrderedDict([('protocol', 'https'), ('branch', 'master')])] comparing ['https', '.*', '/.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/downloads', '', '', OrderedDict()]
+DEBUG: Running export PSEUDO_DISABLED=1; export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"; export SSH_AGENT_PID="1290"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export GIT_SSL_CAINFO="/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/buildtools/sysroots/x86_64-petalinux-linux/etc/ssl/certs/ca-certificates.crt"; export PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin/python3-native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin/arm-xilinx-linux-gnueabi:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/microblaze/lin/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/armr5/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch64/lin/aarch64-none/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/bitbake/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools"; export HOME="/home/wilson"; tar -xzf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/downloads/git2_github.com.xilinx.device-tree-xlnx.git.tar.gz
+DEBUG: Running export PSEUDO_DISABLED=1; export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"; export SSH_AGENT_PID="1290"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export GIT_SSL_CAINFO="/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/buildtools/sysroots/x86_64-petalinux-linux/etc/ssl/certs/ca-certificates.crt"; export PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin/python3-native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin/arm-xilinx-linux-gnueabi:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/microblaze/lin/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/armr5/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch64/lin/aarch64-none/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/bitbake/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools"; export HOME="/home/wilson"; git -c core.fsyncobjectfiles=0 branch --contains 73e546e312a22d7fb410c28d5c79174d2eb29938 --list master 2> /dev/null | wc -l
+DEBUG: Running export PSEUDO_DISABLED=1; export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus"; export SSH_AGENT_PID="1290"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export GIT_SSL_CAINFO="/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/buildtools/sysroots/x86_64-petalinux-linux/etc/ssl/certs/ca-certificates.crt"; export PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin/python3-native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin/arm-xilinx-linux-gnueabi:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/recipe-sysroot-native/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/microblaze/lin/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/armr5/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch64/lin/aarch64-none/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/bitbake/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools"; export HOME="/home/wilson"; git -c core.fsyncobjectfiles=0 branch --contains 73e546e312a22d7fb410c28d5c79174d2eb29938 --list master 2> /dev/null | wc -l
+DEBUG: Searching for system-user.dtsi in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+DEBUG: Searching for zynq-7000-qspi-dummy.dtsi in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+DEBUG: Searching for dtgen.tcl in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+DEBUG: Searching for base-hsi.tcl in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+DEBUG: Searching for config in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/petalinux
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/plnx-zynq7
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq7z
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/project-spec/meta-user/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-contrib/recipes-bsp/device-tree/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../project-spec/configs/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-xilinx+gitAUTOINC+73e546e312/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

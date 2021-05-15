@@ -1,0 +1,1 @@
+cmd_scripts/genksyms/lex.lex.c := flex -oscripts/genksyms/lex.lex.c -L /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source/scripts/genksyms/lex.l

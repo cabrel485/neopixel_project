@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tie-stdhandle: perl module tie-stdhandle
+SUMMARY_perl-module-tie-stdhandle: perl module tie-stdhandle
+RDEPENDS_perl-module-tie-stdhandle: perl perl-module-strict perl-module-tie-handle perl-module-vars
+SECTION: devel
+PKG_perl-module-tie-stdhandle: perl-module-tie-stdhandle
+FILES_perl-module-tie-stdhandle: /usr/lib/perl/5.24.4/Tie/StdHandle.pm
+FILERPROVIDESFLIST_perl-module-tie-stdhandle: /usr/lib/perl/5.24.4/Tie/StdHandle.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Tie/StdHandle.pm": 1398}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Tie/StdHandle.pm_perl-module-tie-stdhandle:  perl(Tie::StdHandle)
+PKGSIZE_perl-module-tie-stdhandle: 1398

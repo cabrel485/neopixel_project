@@ -1,0 +1,15 @@
+PN: device-tree
+PV: xilinx+gitAUTOINC+73e546e312
+PR: r0
+PKGV: xilinx+git0+73e546e312
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_device-tree-dbg: Device Tree generation and packaging for BSP Device Trees using DTG from Xilinx  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_device-tree-dbg: Xilinx BSP device trees - Debugging files
+RRECOMMENDS_device-tree-dbg: device-tree-lic
+SECTION_device-tree-dbg: devel
+PKG_device-tree-dbg: device-tree-dbg
+ALLOW_EMPTY_device-tree-dbg: 1
+FILES_device-tree-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_device-tree-dbg: 0

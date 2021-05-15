@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444635.50 
+gobject-introspection-native-1.58.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.20 seconds
+utime: 29
+stime: 4
+cutime: 6
+cstime: 4
+IO wchar: 22184962
+IO syscr: 1765
+IO write_bytes: 11730944
+IO cancelled_write_bytes: 217088
+IO read_bytes: 1757184
+IO rchar: 13288484
+IO syscw: 2102
+rusage ru_utime: 0.29389
+rusage ru_stime: 0.043685999999999996
+rusage ru_maxrss: 131668
+rusage ru_minflt: 15343
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 360
+rusage ru_nvcsw: 80
+rusage ru_nivcsw: 122
+Child rusage ru_utime: 0.066117
+Child rusage ru_stime: 0.044661
+Child rusage ru_maxrss: 128840
+Child rusage ru_minflt: 2790
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3432
+Child rusage ru_oublock: 22552
+Child rusage ru_nvcsw: 363
+Child rusage ru_nivcsw: 361
+Status: PASSED 
+Ended: 1614444635.70 

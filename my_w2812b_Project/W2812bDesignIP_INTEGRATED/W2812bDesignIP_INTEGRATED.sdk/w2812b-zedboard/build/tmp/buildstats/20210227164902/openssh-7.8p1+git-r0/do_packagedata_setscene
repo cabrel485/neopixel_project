@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444639.21 
+openssh-7.8p1+git-r0: do_packagedata_setscene
+Elapsed time: 0.13 seconds
+utime: 26
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 330434
+IO syscr: 211
+IO write_bytes: 212992
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 382915
+IO syscw: 216
+rusage ru_utime: 0.262971
+rusage ru_stime: 0.054140999999999995
+rusage ru_maxrss: 131680
+rusage ru_minflt: 13589
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 56
+Child rusage ru_utime: 0.015567999999999999
+Child rusage ru_stime: 0.013479999999999999
+Child rusage ru_maxrss: 128936
+Child rusage ru_minflt: 2275
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 216
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444639.34 

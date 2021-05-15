@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444645.56 
+libxml-parser-perl-native-2.44-r0: do_populate_sysroot_setscene
+Elapsed time: 0.12 seconds
+utime: 27
+stime: 4
+cutime: 2
+cstime: 0
+IO wchar: 1083497
+IO syscr: 274
+IO write_bytes: 602112
+IO cancelled_write_bytes: 0
+IO read_bytes: 180224
+IO rchar: 926754
+IO syscw: 292
+rusage ru_utime: 0.274661
+rusage ru_stime: 0.046421
+rusage ru_maxrss: 131464
+rusage ru_minflt: 13445
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 99
+Child rusage ru_utime: 0.027770999999999997
+Child rusage ru_stime: 0.007607
+Child rusage ru_maxrss: 128736
+Child rusage ru_minflt: 2278
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 352
+Child rusage ru_oublock: 976
+Child rusage ru_nvcsw: 39
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1614444645.68 

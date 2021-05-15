@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444652.39 
+libxslt-native-1.1.32-r0: do_populate_sysroot_setscene
+Elapsed time: 0.15 seconds
+utime: 24
+stime: 9
+cutime: 0
+cstime: 3
+IO wchar: 1220558
+IO syscr: 294
+IO write_bytes: 704512
+IO cancelled_write_bytes: 24576
+IO read_bytes: 598016
+IO rchar: 1019815
+IO syscw: 311
+rusage ru_utime: 0.241719
+rusage ru_stime: 0.093568
+rusage ru_maxrss: 131496
+rusage ru_minflt: 14523
+rusage ru_majflt: 0
+rusage ru_inblock: 544
+rusage ru_oublock: 216
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 212
+Child rusage ru_utime: 0.005937
+Child rusage ru_stime: 0.034059
+Child rusage ru_maxrss: 128712
+Child rusage ru_minflt: 2414
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 624
+Child rusage ru_oublock: 1160
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 61
+Status: PASSED 
+Ended: 1614444652.54 

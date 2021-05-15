@@ -1,0 +1,13 @@
+PN: libxcb
+PV: 1.13
+PR: r0
+PKGV: 1.13
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: The X protocol C-language Binding (XCB) is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.
+SUMMARY: XCB: The X protocol C binding library
+SECTION: x11/libs
+PKG_libxcb-lic: libxcb-lic
+FILES_libxcb-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/libxcb/COPYING": 1337, "/usr/share/licenses/libxcb/generic_MIT": 1080}
+PKGSIZE_libxcb-lic: 2417

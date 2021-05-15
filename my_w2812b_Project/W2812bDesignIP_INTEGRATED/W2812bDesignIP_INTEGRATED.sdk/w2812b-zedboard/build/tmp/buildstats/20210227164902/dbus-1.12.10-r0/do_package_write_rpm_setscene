@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444628.17 
+dbus-1.12.10-r0: do_package_write_rpm_setscene
+Elapsed time: 0.33 seconds
+utime: 27
+stime: 5
+cutime: 2
+cstime: 10
+IO wchar: 3140541
+IO syscr: 430
+IO write_bytes: 1593344
+IO cancelled_write_bytes: 0
+IO read_bytes: 1425408
+IO rchar: 3203289
+IO syscw: 345
+rusage ru_utime: 0.271546
+rusage ru_stime: 0.055096
+rusage ru_maxrss: 131540
+rusage ru_minflt: 13502
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 129
+Child rusage ru_utime: 0.023018
+Child rusage ru_stime: 0.10301199999999999
+Child rusage ru_maxrss: 128784
+Child rusage ru_minflt: 2229
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2784
+Child rusage ru_oublock: 2936
+Child rusage ru_nvcsw: 69
+Child rusage ru_nivcsw: 63
+Status: PASSED 
+Ended: 1614444628.50 

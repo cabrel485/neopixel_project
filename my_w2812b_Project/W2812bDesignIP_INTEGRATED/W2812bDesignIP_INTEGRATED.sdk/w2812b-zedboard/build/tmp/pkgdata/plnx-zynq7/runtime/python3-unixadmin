@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-unixadmin: Python Unix administration support
+RDEPENDS_python3-unixadmin: python3-core python3-io libpython3 (>= 3.5.6) glibc (>= 2.28)
+RRECOMMENDS_python3-unixadmin: python3-lic
+SECTION: devel/python
+PKG_python3-unixadmin: python3-unixadmin
+FILES_python3-unixadmin:  /usr/lib/python3.5/getpass.py /usr/lib/python3.5/lib-dynload/grp.*.so /usr/lib/python3.5/lib-dynload/nis.*.so /usr/lib/python3.5/__pycache__/getpass.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/getpass.py": 5994, "/usr/lib/python3.5/lib-dynload/grp.cpython-35m-arm-linux-gnueabihf.so": 6808, "/usr/lib/python3.5/__pycache__/getpass.cpython-35.opt-2.pyc": 3299, "/usr/lib/python3.5/__pycache__/getpass.cpython-35.opt-1.pyc": 4486, "/usr/lib/python3.5/__pycache__/getpass.cpython-35.pyc": 4486}
+FILERDEPENDSFLIST_python3-unixadmin: /usr/lib/python3.5/lib-dynload/grp.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/grp.cpython-35m-arm-linux-gnueabihf.so_python3-unixadmin:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-unixadmin: 25073

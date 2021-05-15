@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444594.25 
+elfutils-native-0.175-r0: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 25
+stime: 6
+cutime: 0
+cstime: 1
+IO wchar: 285326
+IO syscr: 196
+IO write_bytes: 163840
+IO cancelled_write_bytes: 0
+IO read_bytes: 28672
+IO rchar: 325634
+IO syscw: 150
+rusage ru_utime: 0.25954299999999997
+rusage ru_stime: 0.065854
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13378
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 170
+Child rusage ru_utime: 0.008798
+Child rusage ru_stime: 0.019611
+Child rusage ru_maxrss: 128724
+Child rusage ru_minflt: 2266
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444594.36 

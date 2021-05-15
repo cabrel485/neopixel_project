@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-netserver: Python Internet Protocol servers
+RDEPENDS_python-netserver: python-compression python-contextlib python-core python-crypt python-fcntl python-io python-lang python-math python-mime python-netclient python-shell python-textutils python-threading python-unixadmin python-zlib
+RRECOMMENDS_python-netserver: python-lic
+SECTION: devel/python
+PKG_python-netserver: python-netserver
+FILES_python-netserver:  /usr/lib/python2.7/BaseHTTPServer.py /usr/lib/python2.7/BaseHTTPServer.pyc /usr/lib/python2.7/CGIHTTPServer.py /usr/lib/python2.7/CGIHTTPServer.pyc /usr/lib/python2.7/SimpleHTTPServer.py /usr/lib/python2.7/SimpleHTTPServer.pyc /usr/lib/python2.7/SocketServer.py /usr/lib/python2.7/SocketServer.pyc /usr/lib/python2.7/cgi.py /usr/lib/python2.7/cgi.pyc
+FILES_INFO: {"/usr/lib/python2.7/SimpleHTTPServer.py": 7997, "/usr/lib/python2.7/CGIHTTPServer.py": 13089, "/usr/lib/python2.7/SocketServer.pyc": 23956, "/usr/lib/python2.7/cgi.pyc": 32425, "/usr/lib/python2.7/cgi.py": 34337, "/usr/lib/python2.7/BaseHTTPServer.py": 22747, "/usr/lib/python2.7/BaseHTTPServer.pyc": 21682, "/usr/lib/python2.7/CGIHTTPServer.pyc": 10992, "/usr/lib/python2.7/SocketServer.py": 23796, "/usr/lib/python2.7/SimpleHTTPServer.pyc": 7988}
+FILERDEPENDSFLIST_python-netserver: /usr/lib/python2.7/cgi.py
+FILERDEPENDS_/usr/lib/python2.7/cgi.py_python-netserver:  /usr/bin/env
+PKGSIZE_python-netserver: 199009

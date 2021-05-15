@@ -1,0 +1,15 @@
+PN: xorgproto
+PV: 2018.4
+PR: r0
+PKGV: 2018.4
+PKGR: r0
+LICENSE: MIT-style
+DESCRIPTION_xorgproto-staticdev: This package provides the headers and specification documents defining the core protocol and (many) extensions for the X Window System  This package contains static libraries for software development.
+SUMMARY_xorgproto-staticdev: XCalibrate: Touchscreen calibration headers - Development files (Static Libraries)
+RDEPENDS_xorgproto-staticdev: xorgproto-dev (= 2018.4-r0)
+RRECOMMENDS_xorgproto-staticdev: xorgproto-lic
+SECTION_xorgproto-staticdev: devel
+PKG_xorgproto-staticdev: xorgproto-staticdev
+FILES_xorgproto-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/xorgproto/*.a
+FILES_INFO: {}
+PKGSIZE_xorgproto-staticdev: 0

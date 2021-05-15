@@ -1,0 +1,191 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz for ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz
+DEBUG: Searching for ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo for ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/ac/sstate%3Aopenssl%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.1.1a%3Ar0%3Acortexa9t2hf-neon%3A3%3Aaccdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo;downloadfilename=ac/sstate:openssl:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.1.1a:r0:cortexa9t2hf-neon:3:accdc7a76ca106ada2e8b437262ed7fe_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/usr/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/licenses/
+sysroot-destdir/usr/share/licenses/openssl/
+sysroot-destdir/usr/share/licenses/openssl/LICENSE
+sysroot-destdir/usr/share/licenses/openssl/generic_openssl
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libssl.a
+sysroot-destdir/usr/lib/openssl/
+sysroot-destdir/usr/lib/libssl.so.1.1
+sysroot-destdir/usr/lib/libssl.so
+sysroot-destdir/usr/lib/libcrypto.a
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/libssl.pc
+sysroot-destdir/usr/lib/pkgconfig/libcrypto.pc
+sysroot-destdir/usr/lib/pkgconfig/openssl.pc
+sysroot-destdir/usr/lib/ssl-1.1/
+sysroot-destdir/usr/lib/ssl-1.1/ct_log_list.cnf
+sysroot-destdir/usr/lib/ssl-1.1/misc/
+sysroot-destdir/usr/lib/ssl-1.1/misc/tsget
+sysroot-destdir/usr/lib/ssl-1.1/misc/tsget.pl
+sysroot-destdir/usr/lib/ssl-1.1/misc/CA.pl
+sysroot-destdir/usr/lib/ssl-1.1/ct_log_list.cnf.dist
+sysroot-destdir/usr/lib/ssl-1.1/private
+sysroot-destdir/usr/lib/ssl-1.1/openssl.cnf.dist
+sysroot-destdir/usr/lib/ssl-1.1/certs
+sysroot-destdir/usr/lib/ssl-1.1/openssl.cnf
+sysroot-destdir/usr/lib/libcrypto.so
+sysroot-destdir/usr/lib/libcrypto.so.1.1
+sysroot-destdir/usr/lib/engines-1.1/
+sysroot-destdir/usr/lib/engines-1.1/padlock.so
+sysroot-destdir/usr/lib/engines-1.1/capi.so
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/openssl/
+sysroot-destdir/usr/include/openssl/x509.h
+sysroot-destdir/usr/include/openssl/rc4.h
+sysroot-destdir/usr/include/openssl/opensslconf.h
+sysroot-destdir/usr/include/openssl/mdc2.h
+sysroot-destdir/usr/include/openssl/pkcs7.h
+sysroot-destdir/usr/include/openssl/comperr.h
+sysroot-destdir/usr/include/openssl/dherr.h
+sysroot-destdir/usr/include/openssl/conf_api.h
+sysroot-destdir/usr/include/openssl/engine.h
+sysroot-destdir/usr/include/openssl/sslerr.h
+sysroot-destdir/usr/include/openssl/rc2.h
+sysroot-destdir/usr/include/openssl/store.h
+sysroot-destdir/usr/include/openssl/objectserr.h
+sysroot-destdir/usr/include/openssl/tls1.h
+sysroot-destdir/usr/include/openssl/async.h
+sysroot-destdir/usr/include/openssl/ebcdic.h
+sysroot-destdir/usr/include/openssl/engineerr.h
+sysroot-destdir/usr/include/openssl/stack.h
+sysroot-destdir/usr/include/openssl/rand.h
+sysroot-destdir/usr/include/openssl/conferr.h
+sysroot-destdir/usr/include/openssl/pkcs7err.h
+sysroot-destdir/usr/include/openssl/camellia.h
+sysroot-destdir/usr/include/openssl/comp.h
+sysroot-destdir/usr/include/openssl/blowfish.h
+sysroot-destdir/usr/include/openssl/uierr.h
+sysroot-destdir/usr/include/openssl/pkcs12err.h
+sysroot-destdir/usr/include/openssl/srp.h
+sysroot-destdir/usr/include/openssl/dsaerr.h
+sysroot-destdir/usr/include/openssl/cmac.h
+sysroot-destdir/usr/include/openssl/md2.h
+sysroot-destdir/usr/include/openssl/ocsp.h
+sysroot-destdir/usr/include/openssl/ssl2.h
+sysroot-destdir/usr/include/openssl/opensslconf-32.h
+sysroot-destdir/usr/include/openssl/x509v3.h
+sysroot-destdir/usr/include/openssl/ssl3.h
+sysroot-destdir/usr/include/openssl/md4.h
+sysroot-destdir/usr/include/openssl/ui.h
+sysroot-destdir/usr/include/openssl/dtls1.h
+sysroot-destdir/usr/include/openssl/symhacks.h
+sysroot-destdir/usr/include/openssl/cast.h
+sysroot-destdir/usr/include/openssl/storeerr.h
+sysroot-destdir/usr/include/openssl/asn1t.h
+sysroot-destdir/usr/include/openssl/bnerr.h
+sysroot-destdir/usr/include/openssl/ec.h
+sysroot-destdir/usr/include/openssl/obj_mac.h
+sysroot-destdir/usr/include/openssl/hmac.h
+sysroot-destdir/usr/include/openssl/des.h
+sysroot-destdir/usr/include/openssl/asn1err.h
+sysroot-destdir/usr/include/openssl/objects.h
+sysroot-destdir/usr/include/openssl/bioerr.h
+sysroot-destdir/usr/include/openssl/pemerr.h
+sysroot-destdir/usr/include/openssl/kdf.h
+sysroot-destdir/usr/include/openssl/whrlpool.h
+sysroot-destdir/usr/include/openssl/rc5.h
+sysroot-destdir/usr/include/openssl/idea.h
+sysroot-destdir/usr/include/openssl/rsa.h
+sysroot-destdir/usr/include/openssl/crypto.h
+sysroot-destdir/usr/include/openssl/ssl.h
+sysroot-destdir/usr/include/openssl/ct.h
+sysroot-destdir/usr/include/openssl/x509err.h
+sysroot-destdir/usr/include/openssl/ocsperr.h
+sysroot-destdir/usr/include/openssl/seed.h
+sysroot-destdir/usr/include/openssl/kdferr.h
+sysroot-destdir/usr/include/openssl/ts.h
+sysroot-destdir/usr/include/openssl/pem.h
+sysroot-destdir/usr/include/openssl/evperr.h
+sysroot-destdir/usr/include/openssl/safestack.h
+sysroot-destdir/usr/include/openssl/lhash.h
+sysroot-destdir/usr/include/openssl/rand_drbg.h
+sysroot-destdir/usr/include/openssl/dh.h
+sysroot-destdir/usr/include/openssl/cryptoerr.h
+sysroot-destdir/usr/include/openssl/x509_vfy.h
+sysroot-destdir/usr/include/openssl/ecdsa.h
+sysroot-destdir/usr/include/openssl/pem2.h
+sysroot-destdir/usr/include/openssl/cmserr.h
+sysroot-destdir/usr/include/openssl/sha.h
+sysroot-destdir/usr/include/openssl/ripemd.h
+sysroot-destdir/usr/include/openssl/err.h
+sysroot-destdir/usr/include/openssl/randerr.h
+sysroot-destdir/usr/include/openssl/conf.h
+sysroot-destdir/usr/include/openssl/asn1_mac.h
+sysroot-destdir/usr/include/openssl/srtp.h
+sysroot-destdir/usr/include/openssl/rsaerr.h
+sysroot-destdir/usr/include/openssl/asn1.h
+sysroot-destdir/usr/include/openssl/opensslv.h
+sysroot-destdir/usr/include/openssl/md5.h
+sysroot-destdir/usr/include/openssl/modes.h
+sysroot-destdir/usr/include/openssl/evp.h
+sysroot-destdir/usr/include/openssl/ossl_typ.h
+sysroot-destdir/usr/include/openssl/bio.h
+sysroot-destdir/usr/include/openssl/asyncerr.h
+sysroot-destdir/usr/include/openssl/buffererr.h
+sysroot-destdir/usr/include/openssl/pkcs12.h
+sysroot-destdir/usr/include/openssl/ecerr.h
+sysroot-destdir/usr/include/openssl/cterr.h
+sysroot-destdir/usr/include/openssl/aes.h
+sysroot-destdir/usr/include/openssl/bn.h
+sysroot-destdir/usr/include/openssl/txt_db.h
+sysroot-destdir/usr/include/openssl/dsa.h
+sysroot-destdir/usr/include/openssl/buffer.h
+sysroot-destdir/usr/include/openssl/cms.h
+sysroot-destdir/usr/include/openssl/x509v3err.h
+sysroot-destdir/usr/include/openssl/e_os2.h
+sysroot-destdir/usr/include/openssl/tserr.h
+sysroot-destdir/usr/include/openssl/ecdh.h
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/openssl
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/openssl/1.1.1a-r0/sysroot-destdir to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/cortexa9t2hf-neon/openssl
+DEBUG: Python function do_populate_sysroot_setscene finished

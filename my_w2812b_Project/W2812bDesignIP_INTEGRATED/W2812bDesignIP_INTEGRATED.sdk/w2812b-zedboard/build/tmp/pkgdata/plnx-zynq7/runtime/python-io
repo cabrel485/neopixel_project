@@ -1,0 +1,22 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-io: Python low-level I/O
+RDEPENDS_python-io: python-contextlib python-core python-crypt python-fcntl python-lang python-math python-netclient python-textutils libpython2 (>= 2.7.15) libssl (>= 1.1.1a) libcrypto (>= 1.1.1a) glibc (>= 2.28)
+RRECOMMENDS_python-io: python-lic
+SECTION: devel/python
+PKG_python-io: python-io
+FILES_python-io:  /usr/lib/python2.7/StringIO.py /usr/lib/python2.7/StringIO.pyc /usr/lib/python2.7/_pyio.py /usr/lib/python2.7/_pyio.pyc /usr/lib/python2.7/io.py /usr/lib/python2.7/io.pyc /usr/lib/python2.7/lib-dynload/_io.so /usr/lib/python2.7/lib-dynload/_socket.so /usr/lib/python2.7/lib-dynload/_ssl.so /usr/lib/python2.7/lib-dynload/cStringIO.so /usr/lib/python2.7/lib-dynload/select.so /usr/lib/python2.7/lib-dynload/termios.so /usr/lib/python2.7/pipes.py /usr/lib/python2.7/pipes.pyc /usr/lib/python2.7/socket.py /usr/lib/python2.7/socket.pyc /usr/lib/python2.7/ssl.py /usr/lib/python2.7/ssl.pyc /usr/lib/python2.7/tempfile.py /usr/lib/python2.7/tempfile.pyc
+FILES_INFO: {"/usr/lib/python2.7/lib-dynload/cStringIO.so": 12376, "/usr/lib/python2.7/lib-dynload/_ssl.so": 68180, "/usr/lib/python2.7/tempfile.py": 19547, "/usr/lib/python2.7/StringIO.py": 10662, "/usr/lib/python2.7/tempfile.pyc": 20236, "/usr/lib/python2.7/lib-dynload/_io.so": 103424, "/usr/lib/python2.7/io.pyc": 3579, "/usr/lib/python2.7/pipes.pyc": 9276, "/usr/lib/python2.7/ssl.py": 38106, "/usr/lib/python2.7/StringIO.pyc": 11442, "/usr/lib/python2.7/lib-dynload/select.so": 17680, "/usr/lib/python2.7/socket.pyc": 16092, "/usr/lib/python2.7/ssl.pyc": 32410, "/usr/lib/python2.7/socket.py": 20615, "/usr/lib/python2.7/_pyio.py": 69594, "/usr/lib/python2.7/_pyio.pyc": 64326, "/usr/lib/python2.7/io.py": 3322, "/usr/lib/python2.7/pipes.py": 9582, "/usr/lib/python2.7/lib-dynload/termios.so": 17584, "/usr/lib/python2.7/lib-dynload/_socket.so": 57116}
+FILERDEPENDSFLIST_python-io: /usr/lib/python2.7/lib-dynload/select.so /usr/lib/python2.7/lib-dynload/@underscore@ssl.so /usr/lib/python2.7/lib-dynload/@underscore@io.so /usr/lib/python2.7/lib-dynload/cStringIO.so /usr/lib/python2.7/lib-dynload/@underscore@socket.so /usr/lib/python2.7/lib-dynload/termios.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/select.so_python-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@ssl.so_python-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libssl.so.1.1(OPENSSL_1_1_0) libssl.so.1.1 libcrypto.so.1.1 libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@io.so_python-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/cStringIO.so_python-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@socket.so_python-io:  libm.so.6(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libm.so.6 libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/termios.so_python-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python-io: 605149

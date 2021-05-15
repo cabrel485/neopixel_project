@@ -1,0 +1,14 @@
+PN: xcb-proto
+PV: 1.13
+PR: r0
+PKGV: 1.13
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Function prototypes for the X protocol C-language Binding (XCB).  XCB is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.
+SUMMARY: XCB: The X protocol C binding headers
+RRECOMMENDS_python-xcbgen: xcb-proto-lic
+SECTION: x11/libs
+PKG_python-xcbgen: python-xcbgen
+FILES_python-xcbgen: /usr/lib/xcb-proto
+FILES_INFO: {"/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-34.pyo": 5213, "/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-34.pyc": 39467, "/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-34.pyo": 4527, "/usr/lib/xcb-proto/xcbgen/__init__.py": 1, "/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-34.pyo": 120, "/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-34.pyo": 7251, "/usr/lib/xcb-proto/xcbgen/state.py": 6794, "/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-34.pyo": 374, "/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-34.pyc": 374, "/usr/lib/xcb-proto/xcbgen/xtypes.py": 52125, "/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-34.pyc": 7251, "/usr/lib/xcb-proto/xcbgen/align.py": 6377, "/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-34.pyo": 39352, "/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-34.pyc": 5249, "/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-34.pyc": 4527, "/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-34.pyo": 4996, "/usr/lib/xcb-proto/xcbgen/matcher.py": 3922, "/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-34.pyc": 4996, "/usr/lib/xcb-proto/xcbgen/expr.py": 6498, "/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-34.pyc": 120, "/usr/lib/xcb-proto/xcbgen/error.py": 116}
+PKGSIZE_python-xcbgen: 199650

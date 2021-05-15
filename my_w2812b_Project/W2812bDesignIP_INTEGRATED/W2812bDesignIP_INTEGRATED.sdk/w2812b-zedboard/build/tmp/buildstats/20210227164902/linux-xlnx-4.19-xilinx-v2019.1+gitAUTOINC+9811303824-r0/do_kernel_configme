@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444739.99 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_kernel_configme
+Elapsed time: 4.58 seconds
+utime: 29
+stime: 2
+cutime: 285
+cstime: 68
+IO wchar: 2201499
+IO syscr: 17544
+IO write_bytes: 1634304
+IO cancelled_write_bytes: 77824
+IO read_bytes: 42655744
+IO rchar: 53901388
+IO syscw: 6257
+rusage ru_utime: 0.291725
+rusage ru_stime: 0.020257999999999998
+rusage ru_maxrss: 132452
+rusage ru_minflt: 6261
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 100
+Child rusage ru_utime: 2.857151
+Child rusage ru_stime: 0.689228
+Child rusage ru_maxrss: 129564
+Child rusage ru_minflt: 251320
+Child rusage ru_majflt: 312
+Child rusage ru_inblock: 83312
+Child rusage ru_oublock: 3072
+Child rusage ru_nvcsw: 3793
+Child rusage ru_nivcsw: 2273
+Status: PASSED 
+Ended: 1614444744.57 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444640.99 
+libyaml-native-0.2.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.10 seconds
+utime: 27
+stime: 3
+cutime: 0
+cstime: 1
+IO wchar: 534495
+IO syscr: 215
+IO write_bytes: 286720
+IO cancelled_write_bytes: 0
+IO read_bytes: 65536
+IO rchar: 517288
+IO syscw: 185
+rusage ru_utime: 0.278199
+rusage ru_stime: 0.030910999999999998
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13383
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 83
+Child rusage ru_utime: 0.009696999999999999
+Child rusage ru_stime: 0.019256
+Child rusage ru_maxrss: 128696
+Child rusage ru_minflt: 2288
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 128
+Child rusage ru_oublock: 384
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1614444641.09 

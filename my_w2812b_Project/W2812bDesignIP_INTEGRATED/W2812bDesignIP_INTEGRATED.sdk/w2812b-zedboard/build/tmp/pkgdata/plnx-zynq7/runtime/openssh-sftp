@@ -1,0 +1,17 @@
+PN: openssh
+PV: 7.8p1+git
+PR: r0
+PKGV: 7.8p1+git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine.
+SUMMARY: A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server
+RDEPENDS_openssh-sftp: glibc (>= 2.28)
+RRECOMMENDS_openssh-sftp: openssh-lic
+SECTION: console/network
+PKG_openssh-sftp: openssh-sftp
+FILES_openssh-sftp: /usr/bin/sftp
+FILES_INFO: {"/usr/bin/sftp": 91784}
+FILERDEPENDSFLIST_openssh-sftp: /usr/bin/sftp
+FILERDEPENDS_/usr/bin/sftp_openssh-sftp:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.25) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.26) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_openssh-sftp: 91784

@@ -1,0 +1,21 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-lang: Python low-level language support
+RDEPENDS_python-lang: python-core libpython2 (>= 2.7.15) glibc (>= 2.28)
+RRECOMMENDS_python-lang: python-lic
+SECTION: devel/python
+PKG_python-lang: python-lang
+FILES_python-lang:  /usr/lib/python2.7/bisect.py /usr/lib/python2.7/bisect.pyc /usr/lib/python2.7/code.py /usr/lib/python2.7/code.pyc /usr/lib/python2.7/codeop.py /usr/lib/python2.7/codeop.pyc /usr/lib/python2.7/dis.py /usr/lib/python2.7/dis.pyc /usr/lib/python2.7/functools.py /usr/lib/python2.7/functools.pyc /usr/lib/python2.7/inspect.py /usr/lib/python2.7/inspect.pyc /usr/lib/python2.7/lib-dynload/_bisect.so /usr/lib/python2.7/lib-dynload/_functools.so /usr/lib/python2.7/lib-dynload/array.so /usr/lib/python2.7/lib-dynload/parser.so /usr/lib/python2.7/opcode.py /usr/lib/python2.7/opcode.pyc /usr/lib/python2.7/repr.py /usr/lib/python2.7/repr.pyc /usr/lib/python2.7/symbol.py /usr/lib/python2.7/symbol.pyc /usr/lib/python2.7/token.py /usr/lib/python2.7/token.pyc /usr/lib/python2.7/tokenize.py /usr/lib/python2.7/tokenize.pyc
+FILES_INFO: {"/usr/lib/python2.7/bisect.pyc": 3061, "/usr/lib/python2.7/functools.py": 4806, "/usr/lib/python2.7/inspect.pyc": 39993, "/usr/lib/python2.7/lib-dynload/_functools.so": 10432, "/usr/lib/python2.7/functools.pyc": 6569, "/usr/lib/python2.7/token.py": 2922, "/usr/lib/python2.7/symbol.pyc": 3022, "/usr/lib/python2.7/opcode.py": 5474, "/usr/lib/python2.7/bisect.py": 2595, "/usr/lib/python2.7/repr.py": 4296, "/usr/lib/python2.7/token.pyc": 3806, "/usr/lib/python2.7/lib-dynload/array.so": 31600, "/usr/lib/python2.7/codeop.py": 5999, "/usr/lib/python2.7/code.pyc": 10302, "/usr/lib/python2.7/codeop.pyc": 6577, "/usr/lib/python2.7/code.py": 10189, "/usr/lib/python2.7/dis.pyc": 6212, "/usr/lib/python2.7/dis.py": 6499, "/usr/lib/python2.7/tokenize.py": 17483, "/usr/lib/python2.7/lib-dynload/_bisect.so": 7192, "/usr/lib/python2.7/lib-dynload/parser.so": 47264, "/usr/lib/python2.7/symbol.py": 2058, "/usr/lib/python2.7/inspect.py": 42781, "/usr/lib/python2.7/opcode.pyc": 6135, "/usr/lib/python2.7/tokenize.pyc": 14473, "/usr/lib/python2.7/repr.pyc": 5351}
+FILERDEPENDSFLIST_python-lang: /usr/lib/python2.7/lib-dynload/@underscore@bisect.so /usr/lib/python2.7/lib-dynload/array.so /usr/lib/python2.7/lib-dynload/@underscore@functools.so /usr/lib/python2.7/lib-dynload/parser.so /usr/lib/python2.7/symbol.py
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@bisect.so_python-lang:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/array.so_python-lang:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@functools.so_python-lang:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/parser.so_python-lang:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/symbol.py_python-lang:  /usr/bin/env
+PKGSIZE_python-lang: 307091

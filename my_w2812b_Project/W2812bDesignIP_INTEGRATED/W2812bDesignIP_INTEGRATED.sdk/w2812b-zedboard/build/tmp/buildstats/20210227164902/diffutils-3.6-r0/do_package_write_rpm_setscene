@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444626.67 
+diffutils-3.6-r0: do_package_write_rpm_setscene
+Elapsed time: 0.25 seconds
+utime: 28
+stime: 5
+cutime: 1
+cstime: 2
+IO wchar: 2986527
+IO syscr: 440
+IO write_bytes: 1576960
+IO cancelled_write_bytes: 0
+IO read_bytes: 1155072
+IO rchar: 2852911
+IO syscw: 403
+rusage ru_utime: 0.287126
+rusage ru_stime: 0.054096
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13479
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 28
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.01772
+Child rusage ru_stime: 0.023471
+Child rusage ru_maxrss: 128740
+Child rusage ru_minflt: 2253
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2256
+Child rusage ru_oublock: 2904
+Child rusage ru_nvcsw: 67
+Child rusage ru_nivcsw: 61
+Status: PASSED 
+Ended: 1614444626.92 

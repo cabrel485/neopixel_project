@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444596.37 
+libsolv-native-0.6.35-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 24
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 138713
+IO syscr: 177
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 216662
+IO syscw: 131
+rusage ru_utime: 0.24848599999999998
+rusage ru_stime: 0.050473
+rusage ru_maxrss: 131436
+rusage ru_minflt: 13317
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 160
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 85
+Child rusage ru_utime: 0.012223999999999999
+Child rusage ru_stime: 0.016482
+Child rusage ru_maxrss: 128656
+Child rusage ru_minflt: 2245
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1614444596.48 

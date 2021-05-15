@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444597.25 
+bash-4.4.18-r0: do_package_qa_setscene
+Elapsed time: 0.10 seconds
+utime: 23
+stime: 5
+cutime: 0
+cstime: 1
+IO wchar: 136527
+IO syscr: 97
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 190459
+IO syscw: 122
+rusage ru_utime: 0.238303
+rusage ru_stime: 0.055604
+rusage ru_maxrss: 131468
+rusage ru_minflt: 12293
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.003953
+Child rusage ru_stime: 0.010221
+Child rusage ru_maxrss: 128788
+Child rusage ru_minflt: 1139
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1614444597.35 

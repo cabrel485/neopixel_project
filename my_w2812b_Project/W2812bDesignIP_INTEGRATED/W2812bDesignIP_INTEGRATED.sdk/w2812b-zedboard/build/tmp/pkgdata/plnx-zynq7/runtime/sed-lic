@@ -1,0 +1,13 @@
+PN: sed
+PV: 4.2.2
+PR: r0
+PKGV: 4.2.2
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION: Stream EDitor (text filtering utility).
+SUMMARY: Stream EDitor (text filtering utility)
+SECTION: console/utils
+PKG_sed-lic: sed-lic
+FILES_sed-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/sed/COPYING": 35068, "/usr/share/licenses/sed/generic_GPLv3": 34694, "/usr/share/licenses/sed/sed.h": 836}
+PKGSIZE_sed-lic: 70598

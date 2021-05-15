@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444625.07 
+xcb-proto-1.13-r0: do_populate_lic_setscene
+Elapsed time: 0.25 seconds
+utime: 24
+stime: 6
+cutime: 1
+cstime: 2
+IO wchar: 160118
+IO syscr: 1441
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 287119
+IO syscw: 144
+rusage ru_utime: 0.242605
+rusage ru_stime: 0.06718299999999999
+rusage ru_maxrss: 131404
+rusage ru_minflt: 15212
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 185
+Child rusage ru_utime: 0.011777
+Child rusage ru_stime: 0.022369999999999998
+Child rusage ru_maxrss: 128708
+Child rusage ru_minflt: 2660
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614444625.32 

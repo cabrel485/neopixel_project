@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444761.23 
+sysvinit-inittab-2.88dsf-r10: do_fetch
+Elapsed time: 0.04 seconds
+utime: 10
+stime: 2
+cutime: 0
+cstime: 0
+IO wchar: 26874
+IO syscr: 29
+IO write_bytes: 28672
+IO cancelled_write_bytes: 0
+IO read_bytes: 36864
+IO rchar: 61608
+IO syscw: 31
+rusage ru_utime: 0.108219
+rusage ru_stime: 0.020811
+rusage ru_maxrss: 131664
+rusage ru_minflt: 5322
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 56
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 36
+Child rusage ru_utime: 0.0
+Child rusage ru_stime: 0.00617
+Child rusage ru_maxrss: 127888
+Child rusage ru_minflt: 175
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 2
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1614444761.27 

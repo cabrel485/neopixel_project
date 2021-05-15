@@ -1,0 +1,15 @@
+PN: db
+PE: 1
+PV: 5.3.28
+PR: r1
+PKGE: 1
+PKGV: 5.3.28
+PKGR: r1
+LICENSE: Sleepycat
+DESCRIPTION: Berkeley Database v5.
+SUMMARY: Berkeley Database v5
+SECTION: libs
+PKG_db-lic: db-lic
+FILES_db-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/db/LICENSE": 7310, "/usr/share/licenses/db/generic_Sleepycat": 4923}
+PKGSIZE_db-lic: 12233

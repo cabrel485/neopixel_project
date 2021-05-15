@@ -1,0 +1,135 @@
+DEBUG: Executing shell function do_compile_kernelmodules
+NOTE: make HOSTCC=gcc  -isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/usr/include -O2 -pipe -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2 HOSTCPP=gcc  -E -C /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/linux-plnx_zynq7-standard-build -j 3 modules CC=arm-xilinx-linux-gnueabi-gcc  -mno-thumb-interwork -marm -fuse-ld=bfd -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0=/usr/src/debug/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native=  -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source=/usr/src/kernel   LD=arm-xilinx-linux-gnueabi-ld.bfd   UIMAGE_LOADADDR=0x8000
+make: Entering directory '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/linux-plnx_zynq7-standard-build'
+  GEN     ./Makefile
+  Using /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source as source for kernel
+  CALL    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source/scripts/checksyscalls.sh
+  CC [M]  crypto/crypto_engine.o
+  CC [M]  drivers/crypto/virtio/virtio_crypto_algs.o
+  CC [M]  crypto/echainiv.o
+  CC [M]  drivers/crypto/virtio/virtio_crypto_mgr.o
+  CC [M]  crypto/hmac.o
+  CC [M]  drivers/crypto/virtio/virtio_crypto_core.o
+  CC [M]  crypto/sha256_generic.o
+  LD [M]  drivers/crypto/virtio/virtio_crypto.o
+  CC [M]  crypto/drbg.o
+  CC [M]  crypto/jitterentropy.o
+  CC [M]  crypto/jitterentropy-kcapi.o
+  LD [M]  crypto/jitterentropy_rng.o
+  CC [M]  net/802/p8022.o
+  CC [M]  net/802/psnap.o
+  CC [M]  net/802/stp.o
+  CC [M]  drivers/remoteproc/remoteproc_core.o
+  CC [M]  net/8021q/vlan.o
+  CC [M]  drivers/remoteproc/remoteproc_debugfs.o
+  CC [M]  net/8021q/vlan_dev.o
+  CC [M]  drivers/remoteproc/remoteproc_sysfs.o
+  CC [M]  drivers/remoteproc/remoteproc_virtio.o
+  CC [M]  net/8021q/vlan_netlink.o
+  CC [M]  drivers/remoteproc/remoteproc_elf_loader.o
+  CC [M]  net/8021q/vlanproc.o
+  CC [M]  drivers/remoteproc/zynq_remoteproc.o
+  LD [M]  net/8021q/8021q.o
+  CC [M]  net/bridge/br.o
+  LD [M]  drivers/remoteproc/remoteproc.o
+  CC [M]  drivers/rpmsg/rpmsg_core.o
+  CC [M]  net/bridge/br_device.o
+  CC [M]  drivers/rpmsg/rpmsg_char.o
+  CC [M]  drivers/rpmsg/virtio_rpmsg_bus.o
+  CC [M]  net/bridge/br_fdb.o
+  CC [M]  drivers/uio/uio_pdrv_genirq.o
+  CC [M]  drivers/usb/gadget/function/f_loopback.o
+  CC [M]  net/bridge/br_forward.o
+  CC [M]  drivers/usb/gadget/function/f_sourcesink.o
+  CC [M]  drivers/usb/gadget/function/f_mass_storage.o
+  CC [M]  net/bridge/br_if.o
+  CC [M]  net/bridge/br_input.o
+  CC [M]  drivers/usb/gadget/function/storage_common.o
+  CC [M]  net/bridge/br_ioctl.o
+  LD [M]  drivers/usb/gadget/function/usb_f_ss_lb.o
+  LD [M]  drivers/usb/gadget/function/usb_f_mass_storage.o
+  CC [M]  drivers/usb/gadget/legacy/zero.o
+  CC [M]  net/bridge/br_stp.o
+  LD [M]  drivers/usb/gadget/legacy/g_zero.o
+  CC [M]  drivers/usb/gadget/usbstring.o
+  CC [M]  drivers/usb/gadget/config.o
+  CC [M]  net/bridge/br_stp_bpdu.o
+  CC [M]  drivers/usb/gadget/epautoconf.o
+  CC [M]  net/bridge/br_stp_if.o
+  CC [M]  drivers/usb/gadget/composite.o
+  CC [M]  net/bridge/br_stp_timer.o
+  CC [M]  net/bridge/br_netlink.o
+  CC [M]  drivers/usb/gadget/functions.o
+  CC [M]  net/bridge/br_netlink_tunnel.o
+  CC [M]  drivers/usb/gadget/configfs.o
+  CC [M]  net/bridge/br_arp_nd_proxy.o
+  CC [M]  drivers/usb/gadget/u_f.o
+  CC [M]  net/bridge/br_sysfs_if.o
+  LD [M]  drivers/usb/gadget/libcomposite.o
+  CC [M]  drivers/virtio/virtio.o
+  CC [M]  net/bridge/br_sysfs_br.o
+  CC [M]  drivers/virtio/virtio_ring.o
+  CC [M]  net/bridge/br_multicast.o
+  CC [M]  net/bridge/br_mdb.o
+  LD [M]  net/bridge/bridge.o
+  CC [M]  net/ipv4/ipip.o
+  CC [M]  net/llc/llc_core.o
+  CC [M]  net/llc/llc_input.o
+  CC [M]  net/llc/llc_output.o
+  LD [M]  net/llc/llc.o
+  Building modules, stage 2.
+  MODPOST 26 modules
+  CC      crypto/crypto_engine.mod.o
+  CC      crypto/echainiv.mod.o
+  CC      crypto/drbg.mod.o
+  CC      crypto/hmac.mod.o
+  CC      crypto/sha256_generic.mod.o
+  CC      crypto/jitterentropy_rng.mod.o
+  CC      drivers/crypto/virtio/virtio_crypto.mod.o
+  CC      drivers/remoteproc/remoteproc.mod.o
+  CC      drivers/remoteproc/zynq_remoteproc.mod.o
+  CC      drivers/rpmsg/rpmsg_char.mod.o
+  CC      drivers/rpmsg/rpmsg_core.mod.o
+  CC      drivers/rpmsg/virtio_rpmsg_bus.mod.o
+  CC      drivers/uio/uio_pdrv_genirq.mod.o
+  CC      drivers/usb/gadget/function/usb_f_mass_storage.mod.o
+  CC      drivers/usb/gadget/function/usb_f_ss_lb.mod.o
+  CC      drivers/usb/gadget/legacy/g_zero.mod.o
+  CC      drivers/virtio/virtio.mod.o
+  CC      drivers/usb/gadget/libcomposite.mod.o
+  CC      drivers/virtio/virtio_ring.mod.o
+  CC      net/802/p8022.mod.o
+  CC      net/802/psnap.mod.o
+  CC      net/802/stp.mod.o
+  CC      net/8021q/8021q.mod.o
+  CC      net/bridge/bridge.mod.o
+  CC      net/ipv4/ipip.mod.o
+  CC      net/llc/llc.mod.o
+  LD [M]  crypto/crypto_engine.ko
+  LD [M]  crypto/drbg.ko
+  LD [M]  crypto/echainiv.ko
+  LD [M]  crypto/hmac.ko
+  LD [M]  crypto/jitterentropy_rng.ko
+  LD [M]  crypto/sha256_generic.ko
+  LD [M]  drivers/crypto/virtio/virtio_crypto.ko
+  LD [M]  drivers/remoteproc/remoteproc.ko
+  LD [M]  drivers/remoteproc/zynq_remoteproc.ko
+  LD [M]  drivers/rpmsg/rpmsg_char.ko
+  LD [M]  drivers/rpmsg/rpmsg_core.ko
+  LD [M]  drivers/rpmsg/virtio_rpmsg_bus.ko
+  LD [M]  drivers/uio/uio_pdrv_genirq.ko
+  LD [M]  drivers/usb/gadget/function/usb_f_mass_storage.ko
+  LD [M]  drivers/usb/gadget/function/usb_f_ss_lb.ko
+  LD [M]  drivers/usb/gadget/legacy/g_zero.ko
+  LD [M]  drivers/usb/gadget/libcomposite.ko
+  LD [M]  drivers/virtio/virtio.ko
+  LD [M]  drivers/virtio/virtio_ring.ko
+  LD [M]  net/802/p8022.ko
+  LD [M]  net/802/psnap.ko
+  LD [M]  net/802/stp.ko
+  LD [M]  net/8021q/8021q.ko
+  LD [M]  net/bridge/bridge.ko
+  LD [M]  net/ipv4/ipip.ko
+  LD [M]  net/llc/llc.ko
+make: Leaving directory '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/linux-plnx_zynq7-standard-build'
+DEBUG: Shell function do_compile_kernelmodules finished

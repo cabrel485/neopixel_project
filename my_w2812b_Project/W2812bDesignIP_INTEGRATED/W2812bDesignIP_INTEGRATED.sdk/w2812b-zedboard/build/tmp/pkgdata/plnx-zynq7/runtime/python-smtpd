@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-smtpd: Python Simple Mail Transport Daemon
+RDEPENDS_python-smtpd: python-core python-fcntl python-io python-lang
+RRECOMMENDS_python-smtpd: python-lic
+SECTION: devel/python
+PKG_python-smtpd: python-smtpd
+FILES_python-smtpd:  /usr/bin/smtpd.py /usr/bin/smtpd.pyc /usr/lib/python2.7/asynchat.py /usr/lib/python2.7/asynchat.pyc /usr/lib/python2.7/asyncore.py /usr/lib/python2.7/asyncore.pyc /usr/lib/python2.7/smtpd.py /usr/lib/python2.7/smtpd.pyc
+FILES_INFO: {"/usr/lib/python2.7/smtpd.py": 18543, "/usr/lib/python2.7/asynchat.py": 11581, "/usr/bin/smtpd.py": 18541, "/usr/lib/python2.7/asyncore.py": 20943, "/usr/lib/python2.7/smtpd.pyc": 15821, "/usr/lib/python2.7/asyncore.pyc": 18775, "/usr/lib/python2.7/asynchat.pyc": 8750}
+FILERDEPENDSFLIST_python-smtpd: /usr/lib/python2.7/smtpd.py /usr/bin/smtpd.py
+FILERDEPENDS_/usr/lib/python2.7/smtpd.py_python-smtpd:  /usr/bin/env
+FILERDEPENDS_/usr/bin/smtpd.py_python-smtpd:  /usr/bin/python2.7
+PKGSIZE_python-smtpd: 112954

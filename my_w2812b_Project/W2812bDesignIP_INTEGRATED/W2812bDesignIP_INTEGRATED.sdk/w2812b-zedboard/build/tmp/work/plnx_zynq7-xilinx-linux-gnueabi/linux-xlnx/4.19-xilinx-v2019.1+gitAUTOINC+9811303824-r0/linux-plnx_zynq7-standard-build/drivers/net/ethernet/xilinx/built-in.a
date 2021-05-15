@@ -1,0 +1,11 @@
+!<thin>
+//                                              88        `
+xilinx_emaclite.o/
+xilinx_axienet_main.o/
+xilinx_axienet_mdio.o/
+xilinx_axienet_dma.o/
+
+/0              0           0     0     644     12736     `
+/19             0           0     0     644     25748     `
+/42             0           0     0     644     3172      `
+/65             0           0     0     644     5604      `

@@ -1,0 +1,32 @@
+PN: eudev
+PV: 3.2.5
+PR: r0
+PKGV: 3.2.5
+PKGR: r0
+LICENSE: GPLv2.0+ & LGPL-2.1+
+DESCRIPTION: eudev is a fork of systemd's udev.
+SUMMARY: eudev is a fork of systemd's udev
+RDEPENDS_eudev: libkmod (>= 25+git0+aca4eca103) util-linux-libblkid (>= 2.32.1) glibc (>= 2.28)
+RPROVIDES_eudev: hotplug udev
+RRECOMMENDS_eudev: eudev-lic update-rc.d
+SECTION: base
+PKG_eudev: eudev
+FILES_eudev: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/eudev /usr/lib/eudev/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/libexec /lib/udev /usr/bin/udevadm
+pkg_postinst_eudev: #!/bin/sh\nset -e\nif true && type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f -s"\n\tfi\n\tupdate-rc.d $OPT udev start 04 S .\nfi\n
+pkg_postrm_eudev: #!/bin/sh\nset -e\nif true && type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT udev remove\nfi\n
+pkg_preinst_eudev: #!/bin/sh\nset -e\nif true && [ -z "$D" -a -f "/etc/init.d/udev" ]; then\n\t/etc/init.d/udev stop || :\nfi\nif true && type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT udev remove\nfi\n
+pkg_prerm_eudev: #!/bin/sh\nset -e\nif true && [ -z "$D" -a -x "/etc/init.d/udev" ]; then\n\t/etc/init.d/udev stop || :\nfi\n
+FILES_INFO: {"/lib/udev/rules.d/60-persistent-storage.rules": 6188, "/lib/udev/rules.d/70-mouse.rules": 734, "/sbin/udevd": 210564, "/etc/udev/rules.d/local.rules": 90, "/lib/udev/collect": 58928, "/lib/udev/scsi_id": 67636, "/lib/udev/ata_id": 58924, "/lib/udev/v4l_id": 38444, "/lib/udev/rules.d/64-btrfs.rules": 418, "/lib/udev/rules.d/75-net-description.rules": 452, "/usr/bin/monitor-hotplug.sh": 751, "/lib/udev/rules.d/60-persistent-v4l.rules": 769, "/lib/udev/rules.d/60-sensor.rules": 727, "/lib/udev/mtd_probe": 5512, "/etc/udev/rules.d/80-net-name-slot.rules": 0, "/usr/bin/udevadm": 218708, "/lib/udev/rules.d/78-sound-card.rules": 4816, "/usr/libexec/udevadm": 218708, "/etc/udev/udev.conf": 49, "/lib/udev/rules.d/60-cdrom_id.rules": 1071, "/sbin/udevadm": 16, "/lib/udev/rules.d/80-net-name-slot.rules": 491, "/lib/udev/rules.d/50-udev-default.rules": 3376, "/lib/udev/rules.d/50-firmware.rules": 121, "/lib/udev/rules.d/60-persistent-storage-tape.rules": 1509, "/lib/udev/rules.d/60-drm.rules": 413, "/lib/udev/rules.d/80-drivers.rules": 618, "/lib/udev/rules.d/60-serial.rules": 1190, "/lib/udev/rules.d/60-persistent-input.rules": 2768, "/lib/udev/cdrom_id": 71220, "/lib/udev/rules.d/75-probe_mtd.rules": 174, "/lib/udev/rules.d/60-block.rules": 620, "/lib/udev/rules.d/70-touchpad.rules": 473, "/lib/udev/rules.d/60-persistent-alsa.rules": 616, "/lib/udev/rules.d/60-evdev.rules": 974, "/etc/init.d/udev": 2779}
+FILERDEPENDSFLIST_eudev: /etc/init.d/udev /usr/libexec/udevadm /sbin/udevd /lib/udev/cdrom@underscore@id /usr/bin/monitor-hotplug.sh /lib/udev/collect /lib/udev/mtd@underscore@probe /lib/udev/scsi@underscore@id /lib/udev/ata@underscore@id /lib/udev/v4l@underscore@id /usr/bin/udevadm
+FILERDEPENDS_/etc/init.d/udev_eudev:  /bin/sh
+FILERDEPENDS_/usr/libexec/udevadm_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_2.18) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libkmod.so.2(LIBKMOD_5) libc.so.6(GLIBC_2.9) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.10) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libblkid.so.1 libkmod.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/udevd_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_2.18) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libkmod.so.2(LIBKMOD_5) libc.so.6(GLIBC_2.9) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.10) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libblkid.so.1 libkmod.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/lib/udev/cdrom@underscore@id_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/monitor-hotplug.sh_eudev:  /bin/sh
+FILERDEPENDS_/lib/udev/collect_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/lib/udev/mtd@underscore@probe_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/lib/udev/scsi@underscore@id_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/lib/udev/ata@underscore@id_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/lib/udev/v4l@underscore@id_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/udevadm_eudev:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_2.18) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libkmod.so.2(LIBKMOD_5) libc.so.6(GLIBC_2.9) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.10) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libblkid.so.1 libkmod.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_eudev: 762139

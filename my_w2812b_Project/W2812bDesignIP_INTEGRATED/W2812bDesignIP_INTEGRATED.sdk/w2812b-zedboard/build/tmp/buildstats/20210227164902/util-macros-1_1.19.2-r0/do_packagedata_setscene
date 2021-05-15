@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444668.56 
+util-macros-1_1.19.2-r0: do_packagedata_setscene
+Elapsed time: 0.20 seconds
+utime: 24
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 167956
+IO syscr: 193
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 271659
+IO syscw: 161
+rusage ru_utime: 0.240696
+rusage ru_stime: 0.040795
+rusage ru_maxrss: 131400
+rusage ru_minflt: 13355
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 168
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.013542
+Child rusage ru_stime: 0.016207
+Child rusage ru_maxrss: 128600
+Child rusage ru_minflt: 2267
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1614444668.75 

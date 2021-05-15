@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ebt-mark-m: iptables module ebt-mark-m
+SUMMARY_iptables-module-ebt-mark-m: iptables module ebt-mark-m
+RDEPENDS_iptables-module-ebt-mark-m: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ebt-mark-m: iptables-module-ebt-mark-m
+FILES_iptables-module-ebt-mark-m: /usr/lib/xtables/libebt_mark_m.so
+FILERPROVIDESFLIST_iptables-module-ebt-mark-m: /usr/lib/xtables/libebt@underscore@mark@underscore@m.so
+FILES_INFO: {"/usr/lib/xtables/libebt_mark_m.so": 5512}
+FILERPROVIDES_/usr/lib/xtables/libebt@underscore@mark@underscore@m.so_iptables-module-ebt-mark-m:  libebt_mark_m.so
+FILERDEPENDSFLIST_iptables-module-ebt-mark-m: /usr/lib/xtables/libebt@underscore@mark@underscore@m.so
+FILERDEPENDS_/usr/lib/xtables/libebt@underscore@mark@underscore@m.so_iptables-module-ebt-mark-m:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ebt-mark-m: 5512

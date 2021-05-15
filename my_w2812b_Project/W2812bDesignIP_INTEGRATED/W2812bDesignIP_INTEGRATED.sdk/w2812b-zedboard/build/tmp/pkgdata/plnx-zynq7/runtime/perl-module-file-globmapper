@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-file-globmapper: perl module file-globmapper
+SUMMARY_perl-module-file-globmapper: perl module file-globmapper
+RDEPENDS_perl-module-file-globmapper: perl perl-module-carp perl-module-file-glob perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-file-globmapper: perl-module-file-globmapper
+FILES_perl-module-file-globmapper: /usr/lib/perl/5.24.4/File/GlobMapper.pm
+FILERPROVIDESFLIST_perl-module-file-globmapper: /usr/lib/perl/5.24.4/File/GlobMapper.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/File/GlobMapper.pm": 15732}
+FILERPROVIDES_/usr/lib/perl/5.24.4/File/GlobMapper.pm_perl-module-file-globmapper:  perl(File::GlobMapper)
+PKGSIZE_perl-module-file-globmapper: 15732

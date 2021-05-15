@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-text: perl module pod-text
+SUMMARY_perl-module-pod-text: perl module pod-text
+RDEPENDS_perl-module-pod-text: perl perl-module-carp perl-module-encode perl-module-exporter perl-module-pod-simple perl-module-strict perl-module-vars perl-module-warnings
+SECTION: devel
+PKG_perl-module-pod-text: perl-module-pod-text
+FILES_perl-module-pod-text: /usr/lib/perl/5.24.4/Pod/Text.pm
+FILERPROVIDESFLIST_perl-module-pod-text: /usr/lib/perl/5.24.4/Pod/Text.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Pod/Text.pm": 36196}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Pod/Text.pm_perl-module-pod-text:  perl(Pod::Text)
+PKGSIZE_perl-module-pod-text: 36196

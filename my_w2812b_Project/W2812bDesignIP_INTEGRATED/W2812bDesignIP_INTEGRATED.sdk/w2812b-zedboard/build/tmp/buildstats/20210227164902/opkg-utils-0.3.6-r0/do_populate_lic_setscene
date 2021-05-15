@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444614.24 
+opkg-utils-0.3.6-r0: do_populate_lic_setscene
+Elapsed time: 0.22 seconds
+utime: 21
+stime: 5
+cutime: 1
+cstime: 2
+IO wchar: 204264
+IO syscr: 177
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 285323
+IO syscw: 128
+rusage ru_utime: 0.217614
+rusage ru_stime: 0.050517
+rusage ru_maxrss: 131204
+rusage ru_minflt: 14032
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 119
+Child rusage ru_utime: 0.012095999999999999
+Child rusage ru_stime: 0.020267999999999998
+Child rusage ru_maxrss: 128496
+Child rusage ru_minflt: 2216
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1614444614.46 

@@ -1,0 +1,18 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-curses: Python curses support
+RDEPENDS_python3-curses: python3-core ncurses-libncurses (>= 6.1+20180630) ncurses-libpanel (>= 6.1+20180630) libpython3 (>= 3.5.6) ncurses-libtinfo (>= 6.1+20180630) glibc (>= 2.28)
+RRECOMMENDS_python3-curses: python3-lic
+SECTION: devel/python
+PKG_python3-curses: python3-curses
+FILES_python3-curses:  /usr/lib/python3.5/curses /usr/lib/python3.5/lib-dynload/_curses.*.so /usr/lib/python3.5/lib-dynload/_curses_panel.*.so
+FILES_INFO: {"/usr/lib/python3.5/curses/__pycache__/__init__.cpython-35.opt-2.pyc": 1377, "/usr/lib/python3.5/curses/__pycache__/panel.cpython-35.opt-1.pyc": 212, "/usr/lib/python3.5/curses/__pycache__/__init__.cpython-35.opt-1.pyc": 1901, "/usr/lib/python3.5/curses/__pycache__/has_key.cpython-35.opt-2.pyc": 4752, "/usr/lib/python3.5/curses/textpad.py": 7657, "/usr/lib/python3.5/curses/__pycache__/panel.cpython-35.pyc": 212, "/usr/lib/python3.5/curses/has_key.py": 5634, "/usr/lib/python3.5/curses/__pycache__/ascii.cpython-35.pyc": 4246, "/usr/lib/python3.5/lib-dynload/_curses.cpython-35m-arm-linux-gnueabihf.so": 57668, "/usr/lib/python3.5/curses/__pycache__/has_key.cpython-35.opt-1.pyc": 4752, "/usr/lib/python3.5/curses/panel.py": 87, "/usr/lib/python3.5/curses/__pycache__/has_key.cpython-35.pyc": 4752, "/usr/lib/python3.5/curses/ascii.py": 2547, "/usr/lib/python3.5/curses/__pycache__/ascii.cpython-35.opt-2.pyc": 4176, "/usr/lib/python3.5/lib-dynload/_curses_panel.cpython-35m-arm-linux-gnueabihf.so": 9872, "/usr/lib/python3.5/curses/__pycache__/panel.cpython-35.opt-2.pyc": 142, "/usr/lib/python3.5/curses/__pycache__/textpad.cpython-35.opt-2.pyc": 4954, "/usr/lib/python3.5/curses/__pycache__/textpad.cpython-35.pyc": 6519, "/usr/lib/python3.5/curses/__pycache__/textpad.cpython-35.opt-1.pyc": 6519, "/usr/lib/python3.5/curses/__pycache__/ascii.cpython-35.opt-1.pyc": 4246, "/usr/lib/python3.5/curses/__pycache__/__init__.cpython-35.pyc": 1901, "/usr/lib/python3.5/curses/__init__.py": 3366}
+FILERDEPENDSFLIST_python3-curses: /usr/lib/python3.5/lib-dynload/@underscore@curses.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/@underscore@curses@underscore@panel.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@curses.cpython-35m-arm-linux-gnueabihf.so_python3-curses:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libncurses.so.5 libtinfo.so.5 libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@curses@underscore@panel.cpython-35m-arm-linux-gnueabihf.so_python3-curses:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpanel.so.5 libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-curses: 137492

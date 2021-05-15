@@ -1,0 +1,217 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export AR="ar"
+export AS="as "
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export BUILD_CC="gcc "
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_CPP="gcc  -E"
+export BUILD_CPPFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include"
+export BUILD_CXX="g++ "
+export BUILD_CXXFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_FC="gfortran "
+export BUILD_LD="ld "
+export BUILD_LDFLAGS="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export BUILD_STRIP="strip"
+export CC="gcc "
+export CCACHE_DIR="/home/wilson/.ccache"
+export CCLD="gcc "
+export CC_FOR_BUILD="gcc "
+export CFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export CFLAGS_FOR_BUILD="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export CONFIG_SITE="/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/site/native"
+export CPP="gcc  -E"
+export CPPFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include"
+export CPPFLAGS_FOR_BUILD="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include"
+export CPP_FOR_BUILD="gcc  -E"
+export CXX="g++ "
+export CXXFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export CXXFLAGS_FOR_BUILD="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export CXX_FOR_BUILD="g++ "
+unset DISTRO
+export FC="gfortran "
+export HOME="/home/wilson"
+export LC_ALL="en_US.UTF-8"
+export LD="ld "
+export LDFLAGS="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export LDFLAGS_FOR_BUILD="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export LD_FOR_BUILD="ld "
+export LOGNAME="wilson"
+unset MACHINE
+export MAKE="make"
+export NM="nm"
+export OBJCOPY="objcopy"
+export OBJDUMP="objdump"
+export PATH="/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts/native-intercept:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/bin/texinfo-dummy-native:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/bin/x86_64-linux:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/microblaze/lin/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/armr5/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch64/lin/aarch64-none/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/bitbake/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools"
+export PKG_CONFIG_DIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib/pkgconfig"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export PKG_CONFIG_LIBDIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib/pkgconfig:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR=""
+unset PKG_CONFIG_SYSTEM_INCLUDE_PATH
+unset PKG_CONFIG_SYSTEM_LIBRARY_PATH
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export RANLIB="ranlib"
+export READELF="readelf"
+unset SHELL
+export STRINGS="strings"
+export STRIP="strip"
+unset TARGET_ARCH
+export TARGET_CFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export TARGET_CPPFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include"
+export TARGET_CXXFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export TARGET_LDFLAGS="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export TERM="xterm-256color"
+export TZ="UTC"
+export USER="wilson"
+export base_bindir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/bin"
+export base_libdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib"
+export base_prefix="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native"
+export base_sbindir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/sbin"
+export bindir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/bin"
+export datadir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/share"
+export docdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/share/doc"
+export exec_prefix="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr"
+export includedir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include"
+export infodir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/share/info"
+export libdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib"
+export libexecdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/libexec"
+export localstatedir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/var"
+export lt_cv_sys_lib_dlsearch_path_spec="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib /lib /lib64 /usr/lib /usr/lib64"
+export mandir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/share/man"
+export nonarch_base_libdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib"
+export nonarch_libdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib"
+export oldincludedir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/include"
+export prefix="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr"
+export sbindir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/sbin"
+export servicedir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/srv"
+export sharedstatedir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/com"
+export sysconfdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/etc"
+export systemd_system_unitdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib/systemd/system"
+export systemd_unitdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/lib/systemd"
+export systemd_user_unitdir="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/recipe-sysroot-native/usr/lib/systemd/user"
+
+do_rm_work() {
+    # If the recipe name is in the RM_WORK_EXCLUDE, skip the recipe.
+    for p in  myapp; do
+        if [ "$p" = "mpfr-native" ]; then
+            bbnote "rm_work: Skipping mpfr-native since it is in RM_WORK_EXCLUDE"
+            exit 0
+        fi
+    done
+
+    # Need to add pseudo back or subsqeuent work in this workdir
+    # might fail since setscene may not rerun to recreate it
+    mkdir -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/pseudo/
+
+    excludes='temp'
+
+    # Change normal stamps into setscene stamps as they better reflect the
+    # fact WORKDIR is now empty
+    # Also leave noexec stamps since setscene stamps don't cover them
+    cd `dirname /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/stamps/x86_64-linux/mpfr-native/4.0.1-r0`
+    for i in `basename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/stamps/x86_64-linux/mpfr-native/4.0.1-r0`*
+    do
+        # By default we'll delete the stamp, unless $i is changed by the inner loop
+        # (i=dummy does this)
+
+        case $i in
+        *sigdata*|*sigbasedata*)
+            # Save/skip anything that looks like a signature data file.
+            i=dummy
+            ;;
+        *do_image_complete_setscene*)
+            # Ensure we don't 'stack' setscene extensions to this stamp with the section below
+            i=dummy
+            ;;
+        *do_image_complete*)
+            # Promote do_image_complete stamps to setscene versions (ahead of *do_image* below)
+            mv $i `echo $i | sed -e "s#do_image_complete#do_image_complete_setscene#"`
+            i=dummy
+            ;;
+        *do_package_write*|*do_rootfs*|*do_image*|*do_bootimg*|*do_write_qemuboot_conf*|*do_build*)
+            i=dummy
+            ;;
+        *do_addto_recipe_sysroot*)
+            # Preserve recipe-sysroot-native if do_addto_recipe_sysroot has been used
+            excludes="$excludes recipe-sysroot-native"
+            i=dummy
+            ;;
+        *do_package|*do_package.*|*do_package_setscene.*)
+            # We remove do_package entirely, including any
+            # sstate version since otherwise we'd need to leave 'plaindirs' around
+            # such as 'packages' and 'packages-split' and these can be large. No end
+            # of chain tasks depend directly on do_package anymore.
+            rm -f $i;
+            i=dummy
+            ;;
+        *_setscene*)
+            # Skip stamps which are already setscene versions
+            i=dummy
+            ;;
+        esac
+
+        for j in do_package do_package_qa do_package_write_rpm do_packagedata do_populate_lic do_populate_sysroot do_shared_workdir
+        do
+            case $i in
+            dummy)
+                break
+                ;;
+            *$j|*$j.*)
+                # Promote the stamp to a setscene version
+                mv $i `echo $i | sed -e "s#${j}#${j}_setscene#"`
+                i=dummy
+                break
+                ;;
+            esac
+        done
+
+        rm -f $i
+    done
+
+    cd /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0
+    for dir in *
+    do
+        # Retain only logs and other files in temp, safely ignore
+        # failures of removing pseudo folers on NFS2/3 server.
+        if [ $dir = 'pseudo' ]; then
+            rm -rf $dir 2> /dev/null || true
+        elif ! echo "$excludes" | grep -q -w "$dir"; then
+            rm -rf $dir
+        fi
+    done
+}
+
+bbnote() {
+	if [ -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/temp/fifo.23896 ] ; then
+		printf "%b\0" "bbnote $*" > /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/mpfr-native/4.0.1-r0/temp/fifo.23896
+	else
+		echo "NOTE: $*"
+	fi
+}
+
+do_rm_work
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

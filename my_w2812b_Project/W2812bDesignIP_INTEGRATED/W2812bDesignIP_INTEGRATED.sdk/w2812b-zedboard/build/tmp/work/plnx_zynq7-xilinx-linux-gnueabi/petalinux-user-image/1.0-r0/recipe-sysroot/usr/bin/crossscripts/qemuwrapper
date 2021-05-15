@@ -1,0 +1,9 @@
+#!/bin/sh
+set -x
+
+if [ True = False ]; then
+        echo "qemuwrapper: qemu usermode is not supported"
+fi
+
+
+qemu-arm -r 3.2.0  -E LD_LIBRARY_PATH=$D/usr/lib:$D/lib "$@"

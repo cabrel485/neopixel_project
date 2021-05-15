@@ -1,0 +1,16 @@
+PN: libxcrypt
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libxcrypt-dbg: Forked code from glibc libary to extract only crypto part.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libxcrypt-dbg: Extended cryptographic library (from glibc) - Debugging files
+RPROVIDES_libxcrypt-dbg:  libxcrypt-dbg (=4.1.1)
+RRECOMMENDS_libxcrypt-dbg: libxcrypt-lic glibc-dbg
+SECTION_libxcrypt-dbg: devel
+PKG_libxcrypt-dbg: libcrypt-dbg
+ALLOW_EMPTY_libxcrypt-dbg: 1
+FILES_libxcrypt-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-des.c": 13720, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt.c": 9787, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-private.h": 1464, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-sunmd5.c": 11240, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-hmac-sha1.c": 3737, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-static.c": 1266, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha1.h": 1164, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-gensalt-static.c": 1298, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-pbkdf1-sha1.c": 8108, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-des.c": 8974, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-bcrypt.c": 37542, "/usr/lib/.debug/libcrypt.so.1.1.0": 320692, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md5.c": 10888, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md4.h": 1226, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha512.c": 9945, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-des-obsolete.c": 5434, "/usr/src/debug/libxcrypt/4.1.1-r0/git/randombytes.c": 4259, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-md5.c": 7496, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-hmac-sha1.h": 1750, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha256.h": 1773, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha512.h": 1777, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha256.c": 7632, "/usr/src/debug/libxcrypt/4.1.1-r0/git/byteorder.h": 3386, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-base.h": 9091, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-sha1.c": 7600, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md4.c": 6874, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-des.h": 3093, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-sha512.c": 10839, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-gensalt.c": 2709, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-des-tables.c": 275945, "/usr/src/debug/libxcrypt/4.1.1-r0/git/alg-md5.h": 1885, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-nthash.c": 4537, "/usr/src/debug/libxcrypt/4.1.1-r0/git/crypt-sha256.c": 10103}
+PKGSIZE_libxcrypt-dbg: 807234

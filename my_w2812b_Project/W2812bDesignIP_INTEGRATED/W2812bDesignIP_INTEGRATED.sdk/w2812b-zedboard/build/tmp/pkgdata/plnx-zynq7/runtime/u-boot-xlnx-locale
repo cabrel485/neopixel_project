@@ -1,0 +1,14 @@
+PN: u-boot-xlnx
+PV: v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94
+PR: r0
+PKGV: v2019.01-xilinx-v2019.1+git0+d895ac5e94
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Universal Boot Loader for embedded devices.
+SUMMARY: Universal Boot Loader for embedded devices
+RRECOMMENDS_u-boot-xlnx-locale: u-boot-xlnx-lic
+SECTION: base
+PKG_u-boot-xlnx-locale: u-boot-xlnx-locale
+FILES_u-boot-xlnx-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_u-boot-xlnx-locale: 0

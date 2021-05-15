@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444660.08 
+libpthread-stubs-0.4-r0: do_populate_sysroot_setscene
+Elapsed time: 0.23 seconds
+utime: 27
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 173782
+IO syscr: 186
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 283395
+IO syscw: 141
+rusage ru_utime: 0.271496
+rusage ru_stime: 0.036469
+rusage ru_maxrss: 131400
+rusage ru_minflt: 13326
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 168
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 139
+Child rusage ru_utime: 0.013408999999999999
+Child rusage ru_stime: 0.012664
+Child rusage ru_maxrss: 128604
+Child rusage ru_minflt: 2273
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1614444660.31 

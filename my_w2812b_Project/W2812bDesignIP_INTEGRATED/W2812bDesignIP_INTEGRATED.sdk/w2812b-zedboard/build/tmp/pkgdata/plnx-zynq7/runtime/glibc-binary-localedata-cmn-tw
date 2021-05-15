@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-cmn-tw: binary locale definition for cmn-tw
+SUMMARY_glibc-binary-localedata-cmn-tw: binary locale definition for cmn-tw
+SECTION: base
+PKG_glibc-binary-localedata-cmn-tw: glibc-binary-localedata-cmn-tw
+FILES_glibc-binary-localedata-cmn-tw: /usr/lib/locale/cmn_TW
+FILES_INFO: {"/usr/lib/locale/cmn_TW/LC_MEASUREMENT": 23, "/usr/lib/locale/cmn_TW/LC_NUMERIC": 54, "/usr/lib/locale/cmn_TW/LC_MONETARY": 290, "/usr/lib/locale/cmn_TW/LC_TIME": 2964, "/usr/lib/locale/cmn_TW/LC_COLLATE": 4805742, "/usr/lib/locale/cmn_TW/LC_ADDRESS": 160, "/usr/lib/locale/cmn_TW/LC_PAPER": 34, "/usr/lib/locale/cmn_TW/LC_CTYPE": 338568, "/usr/lib/locale/cmn_TW/LC_IDENTIFICATION": 321, "/usr/lib/locale/cmn_TW/LC_NAME": 85, "/usr/lib/locale/cmn_TW/LC_TELEPHONE": 57, "/usr/lib/locale/cmn_TW/LC_MESSAGES/SYS_LC_MESSAGES": 82}
+PKGSIZE_glibc-binary-localedata-cmn-tw: 5148380

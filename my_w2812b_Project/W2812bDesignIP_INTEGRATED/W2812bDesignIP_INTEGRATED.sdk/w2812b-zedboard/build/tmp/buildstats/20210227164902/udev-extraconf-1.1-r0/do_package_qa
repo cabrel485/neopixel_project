@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444780.87 
+udev-extraconf-1.1-r0: do_package_qa
+Elapsed time: 0.48 seconds
+utime: 26
+stime: 6
+cutime: 3
+cstime: 4
+IO syscw: 1261
+IO rchar: 354107
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO wchar: 307887
+IO syscr: 905
+IO write_bytes: 163840
+rusage ru_utime: 0.264042
+rusage ru_stime: 0.060599
+rusage ru_maxrss: 132888
+rusage ru_minflt: 13701
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 312
+rusage ru_nvcsw: 393
+rusage ru_nivcsw: 161
+Child rusage ru_utime: 0.034859999999999995
+Child rusage ru_stime: 0.040908
+Child rusage ru_maxrss: 130696
+Child rusage ru_minflt: 6122
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 197
+Child rusage ru_nivcsw: 122
+Status: PASSED 
+Ended: 1614444781.35 

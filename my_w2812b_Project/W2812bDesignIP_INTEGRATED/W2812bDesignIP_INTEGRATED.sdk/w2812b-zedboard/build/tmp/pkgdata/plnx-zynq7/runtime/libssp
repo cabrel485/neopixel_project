@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY_libssp: GNU stack smashing protection library
+RRECOMMENDS_libssp: gcc-runtime-lic
+SECTION: devel
+PKG_libssp: libssp
+FILES_libssp: /usr/lib/libssp.so.*
+FILES_INFO: {}
+PKGSIZE_libssp: 0

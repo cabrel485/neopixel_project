@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444654.72 
+cross-localedef-native-2.28-r0: do_populate_sysroot_setscene
+Elapsed time: 0.13 seconds
+utime: 13
+stime: 3
+cutime: 2
+cstime: 1
+IO wchar: 1121027
+IO syscr: 249
+IO write_bytes: 724992
+IO cancelled_write_bytes: 294912
+IO read_bytes: 221184
+IO rchar: 1042428
+IO syscw: 199
+rusage ru_utime: 0.13863499999999998
+rusage ru_stime: 0.038509
+rusage ru_maxrss: 131400
+rusage ru_minflt: 7729
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 184
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 38
+Child rusage ru_utime: 0.024194
+Child rusage ru_stime: 0.015806
+Child rusage ru_maxrss: 128616
+Child rusage ru_minflt: 2519
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 416
+Child rusage ru_oublock: 1232
+Child rusage ru_nvcsw: 33
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1614444654.85 

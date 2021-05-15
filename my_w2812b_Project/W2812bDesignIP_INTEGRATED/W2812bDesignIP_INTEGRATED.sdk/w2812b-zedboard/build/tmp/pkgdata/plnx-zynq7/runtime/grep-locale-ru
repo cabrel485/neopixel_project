@@ -1,0 +1,15 @@
+PN: grep
+PV: 3.1
+PR: r0
+PKGV: 3.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_grep-locale-ru: GNU grep utility.  This package contains language translation files for the ru locale.
+SUMMARY_grep-locale-ru: GNU grep utility - ru translations
+RPROVIDES_grep-locale-ru: grep-locale ru-translation
+RRECOMMENDS_grep-locale-ru: virtual-locale-ru
+SECTION: console/utils
+PKG_grep-locale-ru: grep-locale-ru
+FILES_grep-locale-ru: /usr/share/locale/ru
+FILES_INFO: {"/usr/share/locale/ru/LC_MESSAGES/grep.mo": 22207}
+PKGSIZE_grep-locale-ru: 22207

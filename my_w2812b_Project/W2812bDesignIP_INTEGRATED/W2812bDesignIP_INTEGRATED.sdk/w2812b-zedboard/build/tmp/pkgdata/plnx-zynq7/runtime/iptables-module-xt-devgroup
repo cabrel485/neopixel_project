@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-devgroup: iptables module xt-devgroup
+SUMMARY_iptables-module-xt-devgroup: iptables module xt-devgroup
+RDEPENDS_iptables-module-xt-devgroup: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-devgroup: iptables-module-xt-devgroup
+FILES_iptables-module-xt-devgroup: /usr/lib/xtables/libxt_devgroup.so
+FILERPROVIDESFLIST_iptables-module-xt-devgroup: /usr/lib/xtables/libxt@underscore@devgroup.so
+FILES_INFO: {"/usr/lib/xtables/libxt_devgroup.so": 5512}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@devgroup.so_iptables-module-xt-devgroup:  libxt_devgroup.so
+FILERDEPENDSFLIST_iptables-module-xt-devgroup: /usr/lib/xtables/libxt@underscore@devgroup.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@devgroup.so_iptables-module-xt-devgroup:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-devgroup: 5512

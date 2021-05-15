@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445760.08 
+petalinux-user-image-1.0-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.43 seconds
+utime: 47
+stime: 16
+cutime: 5
+cstime: 6
+IO cancelled_write_bytes: 0
+IO wchar: 1717298
+IO syscr: 1079
+IO syscw: 51340
+IO rchar: 4574732
+IO write_bytes: 1830912
+IO read_bytes: 1908736
+rusage ru_utime: 0.477182
+rusage ru_stime: 0.160468
+rusage ru_maxrss: 133104
+rusage ru_minflt: 19776
+rusage ru_majflt: 0
+rusage ru_inblock: 560
+rusage ru_oublock: 136
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 64
+Child rusage ru_utime: 0.053432999999999994
+Child rusage ru_stime: 0.067317
+Child rusage ru_maxrss: 129328
+Child rusage ru_minflt: 1777
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3168
+Child rusage ru_oublock: 3440
+Child rusage ru_nvcsw: 84
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1614445760.51 

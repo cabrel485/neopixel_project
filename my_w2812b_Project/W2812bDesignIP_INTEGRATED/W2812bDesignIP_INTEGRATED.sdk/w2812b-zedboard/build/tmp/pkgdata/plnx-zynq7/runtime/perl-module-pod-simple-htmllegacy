@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple-htmllegacy: perl module pod-simple-htmllegacy
+SUMMARY_perl-module-pod-simple-htmllegacy: perl module pod-simple-htmllegacy
+RDEPENDS_perl-module-pod-simple-htmllegacy: perl
+SECTION: devel
+PKG_perl-module-pod-simple-htmllegacy: perl-module-pod-simple-htmllegacy
+FILES_perl-module-pod-simple-htmllegacy: /usr/lib/perl/5.24.4/Pod/Simple/HTMLLegacy.pm
+FILERPROVIDESFLIST_perl-module-pod-simple-htmllegacy: /usr/lib/perl/5.24.4/Pod/Simple/HTMLLegacy.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Pod/Simple/HTMLLegacy.pm": 2758}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Pod/Simple/HTMLLegacy.pm_perl-module-pod-simple-htmllegacy:  perl(Pod::Simple::HTMLLegacy)
+PKGSIZE_perl-module-pod-simple-htmllegacy: 2758

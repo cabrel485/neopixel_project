@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444624.64 
+sed-4.2.2-r0: do_package_write_rpm_setscene
+Elapsed time: 0.21 seconds
+utime: 25
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 2938933
+IO syscr: 425
+IO write_bytes: 1536000
+IO cancelled_write_bytes: 0
+IO read_bytes: 1077248
+IO rchar: 2754300
+IO syscw: 410
+rusage ru_utime: 0.256196
+rusage ru_stime: 0.048035999999999995
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13430
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 115
+Child rusage ru_utime: 0.018349999999999998
+Child rusage ru_stime: 0.018316
+Child rusage ru_maxrss: 128740
+Child rusage ru_minflt: 2257
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2104
+Child rusage ru_oublock: 2816
+Child rusage ru_nvcsw: 66
+Child rusage ru_nivcsw: 57
+Status: PASSED 
+Ended: 1614444624.85 

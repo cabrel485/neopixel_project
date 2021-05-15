@@ -1,0 +1,14 @@
+PN: diffutils
+PV: 3.6
+PR: r0
+PKGV: 3.6
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION_diffutils-doc: Diffutils contains the GNU diff, diff3, sdiff, and cmp utilities. These programs are usually used for creating patch files.  This package contains documentation.
+SUMMARY_diffutils-doc: Diffutils contains tools used for finding differences between files - Documentation files
+RRECOMMENDS_diffutils-doc: diffutils-lic
+SECTION_diffutils-doc: doc
+PKG_diffutils-doc: diffutils-doc
+FILES_diffutils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/diff3.1": 2832, "/usr/share/info/diffutils.info": 220639, "/usr/share/man/man1/sdiff.1": 2843, "/usr/share/man/man1/cmp.1": 2219, "/usr/share/man/man1/diff.1": 6406}
+PKGSIZE_diffutils-doc: 234939

@@ -1,0 +1,16 @@
+PN: libmnl
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libmnl-dev: Minimalistic user-space library oriented to Netlink developers, providing     functions for common tasks in parsing, validating, and constructing both the Netlink header and TLVs.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libmnl-dev: Minimalistic user-space Netlink utility library - Development files
+RDEPENDS_libmnl-dev: libmnl (= 1.0.4-r0)
+RRECOMMENDS_libmnl-dev: libmnl-lic glibc-dev
+SECTION_libmnl-dev: devel
+PKG_libmnl-dev: libmnl-dev
+ALLOW_EMPTY_libmnl-dev: 1
+FILES_libmnl-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libmnl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/lib/pkgconfig/libmnl.pc": 292, "/usr/include/libmnl/libmnl.h": 8002, "/usr/lib/libmnl.so": 15}
+PKGSIZE_libmnl-dev: 8309

@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-connbytes: iptables module xt-connbytes
+SUMMARY_iptables-module-xt-connbytes: iptables module xt-connbytes
+RDEPENDS_iptables-module-xt-connbytes: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-connbytes: iptables-module-xt-connbytes
+FILES_iptables-module-xt-connbytes: /usr/lib/xtables/libxt_connbytes.so
+FILERPROVIDESFLIST_iptables-module-xt-connbytes: /usr/lib/xtables/libxt@underscore@connbytes.so
+FILES_INFO: {"/usr/lib/xtables/libxt_connbytes.so": 5512}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@connbytes.so_iptables-module-xt-connbytes:  libxt_connbytes.so
+FILERDEPENDSFLIST_iptables-module-xt-connbytes: /usr/lib/xtables/libxt@underscore@connbytes.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@connbytes.so_iptables-module-xt-connbytes:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-connbytes: 5512

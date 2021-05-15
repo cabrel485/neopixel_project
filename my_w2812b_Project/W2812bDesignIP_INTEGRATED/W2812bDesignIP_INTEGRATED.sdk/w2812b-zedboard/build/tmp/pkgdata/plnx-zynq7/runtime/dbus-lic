@@ -1,0 +1,13 @@
+PN: dbus
+PV: 1.12.10
+PR: r0
+PKGV: 1.12.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION: D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\"single instance\\" application or daemon, and to launch applications and daemons on demand when their services are needed.
+SUMMARY: D-Bus message bus
+SECTION: base
+PKG_dbus-lic: dbus-lic
+FILES_dbus-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/dbus/dbus.h": 779, "/usr/share/licenses/dbus/generic_GPLv2": 17611, "/usr/share/licenses/dbus/COPYING": 29176, "/usr/share/licenses/dbus/generic_AFL-2": 9014}
+PKGSIZE_dbus-lic: 56580

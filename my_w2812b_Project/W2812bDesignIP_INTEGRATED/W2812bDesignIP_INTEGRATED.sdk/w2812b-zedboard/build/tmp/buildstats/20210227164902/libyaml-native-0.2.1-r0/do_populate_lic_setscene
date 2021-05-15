@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444595.62 
+libyaml-native-0.2.1-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 26
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 143985
+IO syscr: 185
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 229566
+IO syscw: 137
+rusage ru_utime: 0.262351
+rusage ru_stime: 0.037105
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13349
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.015063
+Child rusage ru_stime: 0.013562
+Child rusage ru_maxrss: 128700
+Child rusage ru_minflt: 2255
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444595.72 

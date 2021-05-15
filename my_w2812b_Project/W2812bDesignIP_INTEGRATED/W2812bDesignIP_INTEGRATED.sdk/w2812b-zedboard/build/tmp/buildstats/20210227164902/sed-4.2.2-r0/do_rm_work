@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444711.13 
+sed-4.2.2-r0: do_rm_work
+Elapsed time: 0.10 seconds
+utime: 16
+stime: 2
+cutime: 3
+cstime: 2
+IO wchar: 36471
+IO syscr: 281
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 209160
+IO syscw: 40
+rusage ru_utime: 0.16215
+rusage ru_stime: 0.024322
+rusage ru_maxrss: 131820
+rusage ru_minflt: 4744
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 72
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 43
+Child rusage ru_utime: 0.032212
+Child rusage ru_stime: 0.021897
+Child rusage ru_maxrss: 129148
+Child rusage ru_minflt: 5905
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 91
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444711.24 

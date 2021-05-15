@@ -1,0 +1,15 @@
+PN: bridge-utils
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_bridge-utils-dbg: Tools for ethernet bridging.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_bridge-utils-dbg: Tools for ethernet bridging - Debugging files
+RRECOMMENDS_bridge-utils-dbg: bridge-utils-lic glibc-dbg
+SECTION_bridge-utils-dbg: devel
+PKG_bridge-utils-dbg: bridge-utils-dbg
+ALLOW_EMPTY_bridge-utils-dbg: 1
+FILES_bridge-utils-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl.h": 1240, "/usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_misc.c": 1373, "/usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge.h": 3970, "/usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_init.c": 4985, "/usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl.c": 2018, "/usr/sbin/.debug/brctl.bridge-utils": 128836, "/usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl_disp.c": 4251, "/usr/src/debug/bridge-utils/1.6-r0/git/brctl/brctl_cmd.c": 11248, "/usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_devif.c": 12325, "/usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_private.h": 1493, "/usr/src/debug/bridge-utils/1.6-r0/git/libbridge/libbridge_if.c": 2657}
+PKGSIZE_bridge-utils-dbg: 174396

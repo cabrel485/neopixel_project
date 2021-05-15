@@ -1,0 +1,14 @@
+PN: btrfs-tools
+PV: 4.17.1
+PR: r0
+PKGV: 4.17.1
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.
+SUMMARY: Checksumming Copy on Write Filesystem utilities
+RRECOMMENDS_btrfs-tools-locale: btrfs-tools-lic
+SECTION: base
+PKG_btrfs-tools-locale: btrfs-tools-locale
+FILES_btrfs-tools-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_btrfs-tools-locale: 0

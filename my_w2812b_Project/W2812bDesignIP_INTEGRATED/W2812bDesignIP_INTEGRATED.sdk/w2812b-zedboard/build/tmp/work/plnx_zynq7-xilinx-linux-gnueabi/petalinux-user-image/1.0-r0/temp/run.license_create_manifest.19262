@@ -1,0 +1,170 @@
+def license_create_manifest(d):
+    import oe.packagedata
+    from oe.rootfs import image_list_installed_packages
+
+    build_images_from_feeds = d.getVar('BUILD_IMAGES_FROM_FEEDS')
+    if build_images_from_feeds == "1":
+        return 0
+
+    pkg_dic = {}
+    for pkg in sorted(image_list_installed_packages(d)):
+        pkg_info = os.path.join(d.getVar('PKGDATA_DIR'),
+                                'runtime-reverse', pkg)
+        pkg_name = os.path.basename(os.readlink(pkg_info))
+
+        pkg_dic[pkg_name] = oe.packagedata.read_pkgdatafile(pkg_info)
+        if not "LICENSE" in pkg_dic[pkg_name].keys():
+            pkg_lic_name = "LICENSE_" + pkg_name
+            pkg_dic[pkg_name]["LICENSE"] = pkg_dic[pkg_name][pkg_lic_name]
+
+    rootfs_license_manifest = os.path.join(d.getVar('LICENSE_DIRECTORY'),
+                        d.getVar('IMAGE_NAME'), 'license.manifest')
+    write_license_files(d, rootfs_license_manifest, pkg_dic)
+
+license_create_manifest(d)
+
+def write_license_files(d, license_manifest, pkg_dic):
+    import re
+
+    bad_licenses = (d.getVar("INCOMPATIBLE_LICENSE") or "").split()
+    bad_licenses = map(lambda l: canonical_license(d, l), bad_licenses)
+    bad_licenses = expand_wildcard_licenses(d, bad_licenses)
+
+    with open(license_manifest, "w") as license_file:
+        for pkg in sorted(pkg_dic):
+            if bad_licenses:
+                try:
+                    (pkg_dic[pkg]["LICENSE"], pkg_dic[pkg]["LICENSES"]) = \
+                        oe.license.manifest_licenses(pkg_dic[pkg]["LICENSE"],
+                        bad_licenses, canonical_license, d)
+                except oe.license.LicenseError as exc:
+                    bb.fatal('%s: %s' % (d.getVar('P'), exc))
+            else:
+                pkg_dic[pkg]["LICENSES"] = re.sub('[|&()*]', ' ', pkg_dic[pkg]["LICENSE"])
+                pkg_dic[pkg]["LICENSES"] = re.sub('  *', ' ', pkg_dic[pkg]["LICENSES"])
+                pkg_dic[pkg]["LICENSES"] = pkg_dic[pkg]["LICENSES"].split()
+
+            if not "IMAGE_MANIFEST" in pkg_dic[pkg]:
+                # Rootfs manifest
+                license_file.write("PACKAGE NAME: %s\n" % pkg)
+                license_file.write("PACKAGE VERSION: %s\n" % pkg_dic[pkg]["PV"])
+                license_file.write("RECIPE NAME: %s\n" % pkg_dic[pkg]["PN"])
+                license_file.write("LICENSE: %s\n\n" % pkg_dic[pkg]["LICENSE"])
+
+                # If the package doesn't contain any file, that is, its size is 0, the license
+                # isn't relevant as far as the final image is concerned. So doing license check
+                # doesn't make much sense, skip it.
+                if pkg_dic[pkg]["PKGSIZE_%s" % pkg] == "0":
+                    continue
+            else:
+                # Image manifest
+                license_file.write("RECIPE NAME: %s\n" % pkg_dic[pkg]["PN"])
+                license_file.write("VERSION: %s\n" % pkg_dic[pkg]["PV"])
+                license_file.write("LICENSE: %s\n" % pkg_dic[pkg]["LICENSE"])
+                license_file.write("FILES: %s\n\n" % pkg_dic[pkg]["FILES"])
+
+            for lic in pkg_dic[pkg]["LICENSES"]:
+                lic_file = os.path.join(d.getVar('LICENSE_DIRECTORY'),
+                                        pkg_dic[pkg]["PN"], "generic_%s" %
+                                        re.sub('\+', '', lic))
+                # add explicity avoid of CLOSED license because isn't generic
+                if lic == "CLOSED":
+                   continue
+
+                if not os.path.exists(lic_file):
+                   bb.warn("The license listed %s was not in the "\
+                            "licenses collected for recipe %s"
+                            % (lic, pkg_dic[pkg]["PN"]))
+
+    # Two options here:
+    # - Just copy the manifest
+    # - Copy the manifest and the license directories
+    # With both options set we see a .5 M increase in core-image-minimal
+    copy_lic_manifest = d.getVar('COPY_LIC_MANIFEST')
+    copy_lic_dirs = d.getVar('COPY_LIC_DIRS')
+    if copy_lic_manifest == "1":
+        rootfs_license_dir = os.path.join(d.getVar('IMAGE_ROOTFS'),
+                                'usr', 'share', 'common-licenses')
+        bb.utils.mkdirhier(rootfs_license_dir)
+        rootfs_license_manifest = os.path.join(rootfs_license_dir,
+                os.path.split(license_manifest)[1])
+        if not os.path.exists(rootfs_license_manifest):
+            os.link(license_manifest, rootfs_license_manifest)
+
+        if copy_lic_dirs == "1":
+            for pkg in sorted(pkg_dic):
+                pkg_rootfs_license_dir = os.path.join(rootfs_license_dir, pkg)
+                bb.utils.mkdirhier(pkg_rootfs_license_dir)
+                pkg_license_dir = os.path.join(d.getVar('LICENSE_DIRECTORY'),
+                                            pkg_dic[pkg]["PN"])
+
+                pkg_manifest_licenses = [canonical_license(d, lic) \
+                        for lic in pkg_dic[pkg]["LICENSES"]]
+
+                licenses = os.listdir(pkg_license_dir)
+                for lic in licenses:
+                    rootfs_license = os.path.join(rootfs_license_dir, lic)
+                    pkg_license = os.path.join(pkg_license_dir, lic)
+                    pkg_rootfs_license = os.path.join(pkg_rootfs_license_dir, lic)
+
+                    if re.match("^generic_.*$", lic):
+                        generic_lic = canonical_license(d,
+                                re.search("^generic_(.*)$", lic).group(1))
+
+                        # Do not copy generic license into package if isn't
+                        # declared into LICENSES of the package.
+                        if not re.sub('\+$', '', generic_lic) in \
+                                [re.sub('\+', '', lic) for lic in \
+                                 pkg_manifest_licenses]:
+                            continue
+
+                        if oe.license.license_ok(generic_lic,
+                                bad_licenses) == False:
+                            continue
+
+                        if not os.path.exists(rootfs_license):
+                            os.link(pkg_license, rootfs_license)
+
+                        if not os.path.exists(pkg_rootfs_license):
+                            os.symlink(os.path.join('..', lic), pkg_rootfs_license)
+                    else:
+                        if (oe.license.license_ok(canonical_license(d,
+                                lic), bad_licenses) == False or
+                                os.path.exists(pkg_rootfs_license)):
+                            continue
+
+                        os.link(pkg_license, pkg_rootfs_license)
+
+def expand_wildcard_licenses(d, wildcard_licenses):
+    """
+    Return actual spdx format license names if wildcard used. We expand
+    wildcards from SPDXLICENSEMAP flags and SRC_DISTRIBUTE_LICENSES values.
+    """
+    import fnmatch
+    licenses = []
+    spdxmapkeys = d.getVarFlags('SPDXLICENSEMAP').keys()
+    for wld_lic in wildcard_licenses:
+        spdxflags = fnmatch.filter(spdxmapkeys, wld_lic)
+        licenses += [d.getVarFlag('SPDXLICENSEMAP', flag) for flag in spdxflags]
+
+    spdx_lics = (d.getVar('SRC_DISTRIBUTE_LICENSES', False) or '').split()
+    for wld_lic in wildcard_licenses:
+        licenses += fnmatch.filter(spdx_lics, wld_lic)
+
+    licenses = list(set(licenses))
+    return licenses
+
+def canonical_license(d, license):
+    """
+    Return the canonical (SPDX) form of the license if available (so GPLv3
+    becomes GPL-3.0), for the license named 'X+', return canonical form of
+    'X' if availabel and the tailing '+' (so GPLv3+ becomes GPL-3.0+),
+    or the passed license if there is no canonical form.
+    """
+    lic = d.getVarFlag('SPDXLICENSEMAP', license) or ""
+    if not lic and license.endswith('+'):
+        lic = d.getVarFlag('SPDXLICENSEMAP', license.rstrip('+'))
+        if lic:
+            lic += '+'
+    return lic or license
+

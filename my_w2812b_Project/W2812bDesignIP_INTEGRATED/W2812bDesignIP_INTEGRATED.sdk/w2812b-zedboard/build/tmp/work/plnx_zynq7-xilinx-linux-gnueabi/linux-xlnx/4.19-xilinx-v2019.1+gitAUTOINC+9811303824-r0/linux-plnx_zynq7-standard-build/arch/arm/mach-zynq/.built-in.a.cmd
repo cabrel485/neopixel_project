@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-zynq/built-in.a := rm -f arch/arm/mach-zynq/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD arch/arm/mach-zynq/built-in.a arch/arm/mach-zynq/common.o arch/arm/mach-zynq/efuse.o arch/arm/mach-zynq/slcr.o arch/arm/mach-zynq/zynq_ocm.o arch/arm/mach-zynq/pm.o arch/arm/mach-zynq/headsmp.o arch/arm/mach-zynq/platsmp.o arch/arm/mach-zynq/suspend.o

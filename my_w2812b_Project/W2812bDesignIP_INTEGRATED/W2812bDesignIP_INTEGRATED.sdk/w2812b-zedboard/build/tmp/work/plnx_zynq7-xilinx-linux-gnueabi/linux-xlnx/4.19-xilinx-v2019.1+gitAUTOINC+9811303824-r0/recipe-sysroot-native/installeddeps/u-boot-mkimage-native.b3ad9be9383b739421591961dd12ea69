@@ -1,0 +1,6 @@
+recipe-sysroot-native/sysroot-providers/u-boot-mkimage-native
+recipe-sysroot-native/usr/bin/mkimage
+recipe-sysroot-native/usr/bin/uboot-mkimage
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/

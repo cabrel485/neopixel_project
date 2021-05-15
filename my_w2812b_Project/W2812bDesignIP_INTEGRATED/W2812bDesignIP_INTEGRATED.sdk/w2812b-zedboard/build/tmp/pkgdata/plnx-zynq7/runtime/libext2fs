@@ -1,0 +1,22 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_libext2fs: util-linux-libblkid (>= 2.32.1) libcomerr (>= 1.44.3) glibc (>= 2.28)
+RPROVIDES_libext2fs:  libext2fs (=1.44.3)
+RRECOMMENDS_libext2fs: e2fsprogs-lic
+SECTION: base
+PKG_libext2fs: libext2fs2
+FILES_libext2fs: /usr/lib/e2initrd_helper /lib/libext2fs.so.*
+pkg_postinst_libext2fs: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libext2fs: /lib/libext2fs.so.2.4
+FILES_INFO: {"/lib/libext2fs.so.2.4": 227732, "/lib/libext2fs.so.2": 16, "/usr/lib/e2initrd_helper": 9612}
+FILERPROVIDES_/lib/libext2fs.so.2.4_libext2fs:  libext2fs.so.2
+FILERDEPENDSFLIST_libext2fs: /lib/libext2fs.so.2.4 /usr/lib/e2initrd@underscore@helper
+FILERDEPENDS_/lib/libext2fs.so.2.4_libext2fs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcom_err.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/e2initrd@underscore@helper_libext2fs:  libblkid.so.1(BLKID_1.0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libext2fs.so.2 libcom_err.so.2 libblkid.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_libext2fs: 237360

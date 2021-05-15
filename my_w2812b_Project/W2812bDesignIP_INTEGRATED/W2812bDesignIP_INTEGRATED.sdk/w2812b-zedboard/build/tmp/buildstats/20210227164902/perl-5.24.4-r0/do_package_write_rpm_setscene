@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444603.13 
+perl-5.24.4-r0: do_package_write_rpm_setscene
+Elapsed time: 0.49 seconds
+utime: 34
+stime: 7
+cutime: 22
+cstime: 13
+IO wchar: 85393619
+IO syscr: 7111
+IO write_bytes: 43737088
+IO cancelled_write_bytes: 0
+IO read_bytes: 37380096
+IO rchar: 80631172
+IO syscw: 7122
+rusage ru_utime: 0.340918
+rusage ru_stime: 0.073934
+rusage ru_maxrss: 133132
+rusage ru_minflt: 14638
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 544
+rusage ru_nvcsw: 280
+rusage ru_nivcsw: 260
+Child rusage ru_utime: 0.22466699999999998
+Child rusage ru_stime: 0.13444799999999998
+Child rusage ru_maxrss: 130064
+Child rusage ru_minflt: 2322
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 73008
+Child rusage ru_oublock: 84880
+Child rusage ru_nvcsw: 1326
+Child rusage ru_nivcsw: 1486
+Status: PASSED 
+Ended: 1614444603.62 

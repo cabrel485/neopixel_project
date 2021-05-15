@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-makemaker-locale: perl module extutils-makemaker-locale
+SUMMARY_perl-module-extutils-makemaker-locale: perl module extutils-makemaker-locale
+RDEPENDS_perl-module-extutils-makemaker-locale: perl perl-module-base perl-module-encode perl-module-encode-alias perl-module-i18n-langinfo perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-makemaker-locale: perl-module-extutils-makemaker-locale
+FILES_perl-module-extutils-makemaker-locale: /usr/lib/perl/5.24.4/ExtUtils/MakeMaker/Locale.pm
+FILERPROVIDESFLIST_perl-module-extutils-makemaker-locale: /usr/lib/perl/5.24.4/ExtUtils/MakeMaker/Locale.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/MakeMaker/Locale.pm": 12615}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/MakeMaker/Locale.pm_perl-module-extutils-makemaker-locale:  perl(ExtUtils::MakeMaker::Locale)
+PKGSIZE_perl-module-extutils-makemaker-locale: 12615

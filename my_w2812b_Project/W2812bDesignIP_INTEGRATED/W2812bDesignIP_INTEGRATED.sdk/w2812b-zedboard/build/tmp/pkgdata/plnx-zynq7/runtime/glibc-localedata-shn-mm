@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-shn-mm: locale definition for shn-mm
+SUMMARY_glibc-localedata-shn-mm: locale definition for shn-mm
+RDEPENDS_glibc-localedata-shn-mm: glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-my-mm glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-shn-mm: glibc-localedata-shn-mm
+FILES_glibc-localedata-shn-mm: /usr/share/i18n/locales/shn_MM
+FILES_INFO: {"/usr/share/i18n/locales/shn_MM": 9039}
+PKGSIZE_glibc-localedata-shn-mm: 9039

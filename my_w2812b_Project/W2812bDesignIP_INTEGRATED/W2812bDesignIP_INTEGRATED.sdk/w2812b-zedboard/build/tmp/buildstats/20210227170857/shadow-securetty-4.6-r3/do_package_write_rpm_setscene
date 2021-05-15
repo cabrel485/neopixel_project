@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445758.48 
+shadow-securetty-4.6-r3: do_package_write_rpm_setscene
+Elapsed time: 0.11 seconds
+utime: 14
+stime: 2
+cutime: 1
+cstime: 1
+IO cancelled_write_bytes: 0
+IO wchar: 131855
+IO syscr: 173
+IO syscw: 61
+IO rchar: 281541
+IO write_bytes: 94208
+IO read_bytes: 16384
+rusage ru_utime: 0.14851699999999998
+rusage ru_stime: 0.027358
+rusage ru_maxrss: 124344
+rusage ru_minflt: 6728
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 120
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.013045
+Child rusage ru_stime: 0.012607
+Child rusage ru_maxrss: 121536
+Child rusage ru_minflt: 2051
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 21
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614445758.60 

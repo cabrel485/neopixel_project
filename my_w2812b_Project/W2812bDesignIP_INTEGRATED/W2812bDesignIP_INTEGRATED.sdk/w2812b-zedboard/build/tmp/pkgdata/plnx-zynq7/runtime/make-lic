@@ -1,0 +1,13 @@
+PN: make
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: GPLv3 & LGPLv2
+DESCRIPTION: Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.  Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files.
+SUMMARY: GNU tool that controls the build process
+SECTION: devel
+PKG_make-lic: make-lic
+FILES_make-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/make/generic_LGPLv2": 24925, "/usr/share/licenses/make/COPYING": 35147, "/usr/share/licenses/make/COPYING.LIB": 25263, "/usr/share/licenses/make/generic_GPLv3": 34694}
+PKGSIZE_make-lic: 120029

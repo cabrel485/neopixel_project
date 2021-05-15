@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-mmap: Python memory-mapped file support
+RDEPENDS_python3-mmap: python3-core libpython3 (>= 3.5.6) glibc (>= 2.28)
+RRECOMMENDS_python3-mmap: python3-lic
+SECTION: devel/python
+PKG_python3-mmap: python3-mmap
+FILES_python3-mmap:  /usr/lib/python3.5/lib-dynload/mmap.*.so
+FILES_INFO: {"/usr/lib/python3.5/lib-dynload/mmap.cpython-35m-arm-linux-gnueabihf.so": 19440}
+FILERDEPENDSFLIST_python3-mmap: /usr/lib/python3.5/lib-dynload/mmap.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/mmap.cpython-35m-arm-linux-gnueabihf.so_python3-mmap:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-mmap: 19440

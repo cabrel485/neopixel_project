@@ -1,0 +1,189 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz for 3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz
+DEBUG: Searching for 3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo for 3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/3c/sstate%3Aca-certificates%3Aall-xilinx-linux%3A20180409%3Ar0%3Aallarch%3A3%3A3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo;downloadfilename=3c/sstate:ca-certificates:all-xilinx-linux:20180409:r0:allarch:3:3ceba936a617ba83540528c9f5ea9f93_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/usr/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/ca-certificates/
+sysroot-destdir/usr/share/ca-certificates/mozilla/
+sysroot-destdir/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_ECC.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Izenpe.com.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Amazon_Root_CA_4.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Certigna.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TrustCor_ECA-1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SZAFIR_ROOT_CA2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Visa_eCommerce_Root.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Amazon_Root_CA_1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GDCA_TrustAUTH_R5_ROOT.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Certplus_Root_CA_G1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Amazon_Root_CA_3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_RSA_R2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_RSA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_ECC.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/SecureTrust_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/EC-ACC.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/AddTrust_External_Root.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Network_Solutions_Certificate_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Global_Chambersign_Root_-_2008.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/LuxTrust_Global_Root_2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/ISRG_Root_X1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Amazon_Root_CA_2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Cybertrust_Global_Root.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/Certplus_Root_CA_G2.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt
+sysroot-destdir/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/ca-certificates
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/all-xilinx-linux/ca-certificates/20180409-r0/sysroot-destdir to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/all/ca-certificates
+DEBUG: Python function do_populate_sysroot_setscene finished

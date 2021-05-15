@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-xmlrpc: Python XML-RPC support
+RDEPENDS_python-xmlrpc: python-codecs python-compression python-contextlib python-core python-crypt python-datetime python-fcntl python-io python-lang python-math python-mime python-netclient python-netserver python-pkgutil python-pydoc python-textutils python-threading python-xml python-zlib
+RRECOMMENDS_python-xmlrpc: python-lic
+SECTION: devel/python
+PKG_python-xmlrpc: python-xmlrpc
+FILES_python-xmlrpc:  /usr/lib/python2.7/DocXMLRPCServer.py /usr/lib/python2.7/DocXMLRPCServer.pyc /usr/lib/python2.7/SimpleXMLRPCServer.py /usr/lib/python2.7/SimpleXMLRPCServer.pyc
+FILES_INFO: {"/usr/lib/python2.7/SimpleXMLRPCServer.pyc": 22791, "/usr/lib/python2.7/DocXMLRPCServer.pyc": 9799, "/usr/lib/python2.7/DocXMLRPCServer.py": 10500, "/usr/lib/python2.7/SimpleXMLRPCServer.py": 25812}
+PKGSIZE_python-xmlrpc: 68902

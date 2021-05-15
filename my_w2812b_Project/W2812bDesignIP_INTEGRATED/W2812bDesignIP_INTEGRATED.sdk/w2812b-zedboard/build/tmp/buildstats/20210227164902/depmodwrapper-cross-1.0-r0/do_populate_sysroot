@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444796.78 
+depmodwrapper-cross-1.0-r0: do_populate_sysroot
+Elapsed time: 0.31 seconds
+utime: 17
+stime: 5
+cutime: 5
+cstime: 3
+IO wchar: 152884
+IO syscr: 1595
+IO write_bytes: 163840
+IO cancelled_write_bytes: 4096
+IO read_bytes: 4096
+IO rchar: 440472
+IO syscw: 120
+rusage ru_utime: 0.178913
+rusage ru_stime: 0.055909999999999994
+rusage ru_maxrss: 131876
+rusage ru_minflt: 15418
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 288
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 83
+Child rusage ru_utime: 0.053174
+Child rusage ru_stime: 0.037437
+Child rusage ru_maxrss: 130396
+Child rusage ru_minflt: 8757
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 82
+Child rusage ru_nivcsw: 61
+Status: PASSED 
+Ended: 1614444797.10 

@@ -1,0 +1,39 @@
+PN: mtd-utils
+PV: 2.0.2+AUTOINC+bc63d36e39
+PR: r0
+PKGV: 2.0.2+0+bc63d36e39
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: Tools for managing memory technology devices
+RDEPENDS_mtd-utils-ubifs: update-alternatives-opkg util-linux-libuuid (>= 2.32.1) zlib (>= 1.2.11) lzo (>= 2.10) glibc (>= 2.28)
+RRECOMMENDS_mtd-utils-ubifs: mtd-utils-lic
+SECTION: base
+PKG_mtd-utils-ubifs: mtd-utils-ubifs
+FILES_mtd-utils-ubifs: /usr/sbin/mkfs.ubifs /usr/sbin/ubi*
+pkg_postinst_mtd-utils-ubifs: #!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/sbin/ubiattach ubiattach /usr/sbin/ubiattach.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/ubidetach ubidetach /usr/sbin/ubidetach.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/ubimkvol ubimkvol /usr/sbin/ubimkvol.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/ubirename ubirename /usr/sbin/ubirename.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/ubirmvol ubirmvol /usr/sbin/ubirmvol.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/ubirsvol ubirsvol /usr/sbin/ubirsvol.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/ubiupdatevol ubiupdatevol /usr/sbin/ubiupdatevol.mtd-utils 100\n
+pkg_prerm_mtd-utils-ubifs: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  ubiattach /usr/sbin/ubiattach.mtd-utils\n\tupdate-alternatives --remove  ubidetach /usr/sbin/ubidetach.mtd-utils\n\tupdate-alternatives --remove  ubimkvol /usr/sbin/ubimkvol.mtd-utils\n\tupdate-alternatives --remove  ubirename /usr/sbin/ubirename.mtd-utils\n\tupdate-alternatives --remove  ubirmvol /usr/sbin/ubirmvol.mtd-utils\n\tupdate-alternatives --remove  ubirsvol /usr/sbin/ubirsvol.mtd-utils\n\tupdate-alternatives --remove  ubiupdatevol /usr/sbin/ubiupdatevol.mtd-utils\n
+FILERPROVIDESFLIST_mtd-utils-ubifs:  /usr/sbin/ubiattach.mtd-utils /usr/sbin/ubidetach.mtd-utils /usr/sbin/ubimkvol.mtd-utils /usr/sbin/ubirename.mtd-utils /usr/sbin/ubirmvol.mtd-utils /usr/sbin/ubirsvol.mtd-utils /usr/sbin/ubiupdatevol.mtd-utils
+FILES_INFO: {"/usr/sbin/mkfs.ubifs": 58812, "/usr/sbin/ubiattach.mtd-utils": 21980, "/usr/sbin/ubiblock": 17852, "/usr/sbin/ubirsvol.mtd-utils": 21988, "/usr/sbin/ubiformat": 54780, "/usr/sbin/ubirmvol.mtd-utils": 17872, "/usr/sbin/ubidetach.mtd-utils": 21972, "/usr/sbin/ubicrc32": 9660, "/usr/sbin/ubinfo": 26060, "/usr/sbin/ubimkvol.mtd-utils": 26092, "/usr/sbin/ubiupdatevol.mtd-utils": 21960, "/usr/sbin/ubinize": 30184, "/usr/sbin/ubirename.mtd-utils": 17808}
+FILERPROVIDES_/usr/sbin/ubiattach.mtd-utils_mtd-utils-ubifs:  /usr/sbin/ubiattach
+FILERPROVIDES_/usr/sbin/ubidetach.mtd-utils_mtd-utils-ubifs:  /usr/sbin/ubidetach
+FILERPROVIDES_/usr/sbin/ubimkvol.mtd-utils_mtd-utils-ubifs:  /usr/sbin/ubimkvol
+FILERPROVIDES_/usr/sbin/ubirename.mtd-utils_mtd-utils-ubifs:  /usr/sbin/ubirename
+FILERPROVIDES_/usr/sbin/ubirmvol.mtd-utils_mtd-utils-ubifs:  /usr/sbin/ubirmvol
+FILERPROVIDES_/usr/sbin/ubirsvol.mtd-utils_mtd-utils-ubifs:  /usr/sbin/ubirsvol
+FILERPROVIDES_/usr/sbin/ubiupdatevol.mtd-utils_mtd-utils-ubifs:  /usr/sbin/ubiupdatevol
+FILERDEPENDSFLIST_mtd-utils-ubifs: /usr/sbin/mkfs.ubifs /usr/sbin/ubidetach.mtd-utils /usr/sbin/ubiblock /usr/sbin/ubirsvol.mtd-utils /usr/sbin/ubirename.mtd-utils /usr/sbin/ubiformat /usr/sbin/ubirmvol.mtd-utils /usr/sbin/ubinfo /usr/sbin/ubicrc32 /usr/sbin/ubimkvol.mtd-utils /usr/sbin/ubiupdatevol.mtd-utils /usr/sbin/ubinize /usr/sbin/ubiattach.mtd-utils
+FILERDEPENDS_/usr/sbin/mkfs.ubifs_mtd-utils-ubifs:  libm.so.6(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libz.so.1 liblzo2.so.2 libuuid.so.1 libm.so.6 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubidetach.mtd-utils_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiblock_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubirsvol.mtd-utils_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubirename.mtd-utils_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiformat_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubirmvol.mtd-utils_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubinfo_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubicrc32_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubimkvol.mtd-utils_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiupdatevol.mtd-utils_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubinize_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ubiattach.mtd-utils_mtd-utils-ubifs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_mtd-utils-ubifs: 347020

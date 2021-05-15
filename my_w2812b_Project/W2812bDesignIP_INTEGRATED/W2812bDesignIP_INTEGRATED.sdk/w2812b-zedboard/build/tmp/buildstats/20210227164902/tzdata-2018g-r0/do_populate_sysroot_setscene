@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444628.24 
+tzdata-2018g-r0: do_populate_sysroot_setscene
+Elapsed time: 0.45 seconds
+utime: 30
+stime: 8
+cutime: 4
+cstime: 6
+IO wchar: 7082897
+IO syscr: 1553
+IO write_bytes: 7917568
+IO cancelled_write_bytes: 0
+IO read_bytes: 786432
+IO rchar: 4875226
+IO syscw: 4581
+rusage ru_utime: 0.309787
+rusage ru_stime: 0.086558
+rusage ru_maxrss: 131680
+rusage ru_minflt: 13276
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1064
+rusage ru_nvcsw: 479
+rusage ru_nivcsw: 275
+Child rusage ru_utime: 0.048923
+Child rusage ru_stime: 0.065053
+Child rusage ru_maxrss: 128556
+Child rusage ru_minflt: 2198
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1536
+Child rusage ru_oublock: 14400
+Child rusage ru_nvcsw: 315
+Child rusage ru_nivcsw: 842
+Status: PASSED 
+Ended: 1614444628.69 

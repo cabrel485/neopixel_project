@@ -1,0 +1,13 @@
+PN: packagegroup-core-boot
+PV: 1.0
+PR: r17
+PKGV: 1.0
+PKGR: r17
+LICENSE: MIT
+DESCRIPTION: The minimal set of packages required to boot the system
+SUMMARY: Minimal boot requirements
+SECTION: base
+PKG_packagegroup-core-boot-lic: packagegroup-core-boot-lic
+FILES_packagegroup-core-boot-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/packagegroup-core-boot/generic_MIT": 1080}
+PKGSIZE_packagegroup-core-boot-lic: 1080

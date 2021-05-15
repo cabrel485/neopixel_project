@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444694.80 
+libxdmcp-1_1.1.2-r0: do_rm_work
+Elapsed time: 0.12 seconds
+utime: 14
+stime: 2
+cutime: 3
+cstime: 1
+IO wchar: 36884
+IO syscr: 280
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 195453
+IO syscw: 40
+rusage ru_utime: 0.148245
+rusage ru_stime: 0.020033
+rusage ru_maxrss: 131692
+rusage ru_minflt: 4593
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.033646999999999996
+Child rusage ru_stime: 0.01607
+Child rusage ru_maxrss: 129020
+Child rusage ru_minflt: 5856
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 85
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1614444694.92 

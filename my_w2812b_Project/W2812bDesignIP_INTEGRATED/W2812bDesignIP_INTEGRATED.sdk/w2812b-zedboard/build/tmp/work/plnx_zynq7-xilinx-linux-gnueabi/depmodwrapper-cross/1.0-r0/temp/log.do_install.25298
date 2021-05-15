@@ -1,0 +1,9 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/kmod-native_git.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['pseudo-native']
+NOTE: Skipping as already exists in sysroot: ['quilt-native', 'kmod-native', 'pkgconfig-native', 'gtk-doc-native', 'automake-native', 'python3-native', 'autoconf-native', 'zlib-native', 'libtool-native', 'gnu-config-native', 'xz-native', 'texinfo-dummy-native', 'readline-native', 'sqlite3-native', 'gdbm-native', 'bzip2-native', 'openssl-native', 'm4-native', 'gettext-minimal-native', 'ncurses-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_install
+DEBUG: Shell function do_install finished
+DEBUG: Executing shell function remove_libtool_la
+DEBUG: Shell function remove_libtool_la finished

@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-compress-raw-zlib: perl module compress-raw-zlib
+SUMMARY_perl-module-compress-raw-zlib: perl module compress-raw-zlib
+RDEPENDS_perl-module-compress-raw-zlib: perl perl-module-bytes perl-module-carp perl-module-constant perl-module-dynaloader perl-module-exporter perl-module-strict perl-module-warnings perl-module-xsloader glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-compress-raw-zlib: perl-module-compress-raw-zlib
+FILES_perl-module-compress-raw-zlib: /usr/lib/perl/5.24.4/auto/Compress/Raw/Zlib/Zlib.so /usr/lib/perl/5.24.4/Compress/Raw/Zlib.pm
+FILERPROVIDESFLIST_perl-module-compress-raw-zlib: /usr/lib/perl/5.24.4/Compress/Raw/Zlib.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Compress/Raw/Zlib.pm": 47378, "/usr/lib/perl/5.24.4/auto/Compress/Raw/Zlib/Zlib.so": 79128}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Compress/Raw/Zlib.pm_perl-module-compress-raw-zlib:  perl(Compress::Raw::Zlib)
+FILERDEPENDSFLIST_perl-module-compress-raw-zlib: /usr/lib/perl/5.24.4/auto/Compress/Raw/Zlib/Zlib.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/Compress/Raw/Zlib/Zlib.so_perl-module-compress-raw-zlib:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-compress-raw-zlib: 126506

@@ -1,0 +1,15 @@
+PN: gawk
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_gawk-locale-id: The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.  This package contains language translation files for the id locale.
+SUMMARY_gawk-locale-id: GNU awk text processing utility - id translations
+RPROVIDES_gawk-locale-id: gawk-locale id-translation
+RRECOMMENDS_gawk-locale-id: virtual-locale-id
+SECTION: console/utils
+PKG_gawk-locale-id: gawk-locale-id
+FILES_gawk-locale-id: /usr/share/locale/id
+FILES_INFO: {"/usr/share/locale/id/LC_MESSAGES/gawk.mo": 71064}
+PKGSIZE_gawk-locale-id: 71064

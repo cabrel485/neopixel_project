@@ -1,0 +1,15 @@
+PN: tzdata
+PV: 2018g
+PR: r0
+PKGV: 2018g
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-pacific: tzdata-pacific
+RRECOMMENDS_tzdata-pacific: tzdata-lic
+SECTION: base
+PKG_tzdata-pacific: tzdata-pacific
+FILES_tzdata-pacific:  /usr/share/zoneinfo/Pacific/*
+FILES_INFO: {"/usr/share/zoneinfo/Pacific/Nauru": 268, "/usr/share/zoneinfo/Pacific/Apia": 1125, "/usr/share/zoneinfo/Pacific/Rarotonga": 593, "/usr/share/zoneinfo/Pacific/Efate": 478, "/usr/share/zoneinfo/Pacific/Majuro": 212, "/usr/share/zoneinfo/Pacific/Truk": 174, "/usr/share/zoneinfo/Pacific/Wake": 174, "/usr/share/zoneinfo/Pacific/Kosrae": 242, "/usr/share/zoneinfo/Pacific/Johnston": 329, "/usr/share/zoneinfo/Pacific/Enderbury": 250, "/usr/share/zoneinfo/Pacific/Kiritimati": 254, "/usr/share/zoneinfo/Pacific/Yap": 174, "/usr/share/zoneinfo/Pacific/Easter": 2233, "/usr/share/zoneinfo/Pacific/Kwajalein": 250, "/usr/share/zoneinfo/Pacific/Marquesas": 181, "/usr/share/zoneinfo/Pacific/Ponape": 174, "/usr/share/zoneinfo/Pacific/Fiji": 1090, "/usr/share/zoneinfo/Pacific/Norfolk": 314, "/usr/share/zoneinfo/Pacific/Fakaofo": 212, "/usr/share/zoneinfo/Pacific/Chatham": 2078, "/usr/share/zoneinfo/Pacific/Niue": 257, "/usr/share/zoneinfo/Pacific/Palau": 173, "/usr/share/zoneinfo/Pacific/Port_Moresby": 196, "/usr/share/zoneinfo/Pacific/Tongatapu": 384, "/usr/share/zoneinfo/Pacific/Tahiti": 173, "/usr/share/zoneinfo/Pacific/Funafuti": 174, "/usr/share/zoneinfo/Pacific/Guadalcanal": 174, "/usr/share/zoneinfo/Pacific/Tarawa": 174, "/usr/share/zoneinfo/Pacific/Saipan": 216, "/usr/share/zoneinfo/Pacific/Pago_Pago": 187, "/usr/share/zoneinfo/Pacific/Pohnpei": 174, "/usr/share/zoneinfo/Pacific/Chuuk": 174, "/usr/share/zoneinfo/Pacific/Pitcairn": 214, "/usr/share/zoneinfo/Pacific/Wallis": 174, "/usr/share/zoneinfo/Pacific/Gambier": 172, "/usr/share/zoneinfo/Pacific/Galapagos": 254, "/usr/share/zoneinfo/Pacific/Auckland": 2451, "/usr/share/zoneinfo/Pacific/Midway": 187, "/usr/share/zoneinfo/Pacific/Bougainville": 286, "/usr/share/zoneinfo/Pacific/Samoa": 187, "/usr/share/zoneinfo/Pacific/Guam": 216}
+PKGSIZE_tzdata-pacific: 17402

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444591.72 
+update-rc.d-0.8-r0: do_package_qa_setscene
+Elapsed time: 0.07 seconds
+utime: 10
+stime: 3
+cutime: 0
+cstime: 0
+IO wchar: 113861
+IO syscr: 76
+IO write_bytes: 69632
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 116585
+IO syscw: 110
+rusage ru_utime: 0.108302
+rusage ru_stime: 0.0361
+rusage ru_maxrss: 131216
+rusage ru_minflt: 5491
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 136
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.006924
+Child rusage ru_stime: 0.004515
+Child rusage ru_maxrss: 128520
+Child rusage ru_minflt: 1084
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 8
+Status: PASSED 
+Ended: 1614444591.80 

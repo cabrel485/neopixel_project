@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY_libquadmath: GNU quad-precision math library
+RRECOMMENDS_libquadmath: gcc-runtime-lic
+SECTION: devel
+PKG_libquadmath: libquadmath
+FILES_libquadmath: /usr/lib/libquadmath*.so.*
+FILES_INFO: {}
+PKGSIZE_libquadmath: 0

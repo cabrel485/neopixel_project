@@ -1,0 +1,16 @@
+PN: gnome-desktop-testing
+PV: 2014.1
+PR: r1
+PKGV: 2014.1
+PKGR: r1
+LICENSE: LGPLv2+
+DESCRIPTION_gnome-desktop-testing-dev: Test runner for GNOME-style installed tests.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gnome-desktop-testing-dev: Test runner for GNOME-style installed tests - Development files
+RDEPENDS_gnome-desktop-testing-dev: gnome-desktop-testing (= 2014.1-r1)
+RRECOMMENDS_gnome-desktop-testing-dev: glib-2.0-dev gnome-desktop-testing-lic glibc-dev
+SECTION_gnome-desktop-testing-dev: devel
+PKG_gnome-desktop-testing-dev: gnome-desktop-testing-dev
+ALLOW_EMPTY_gnome-desktop-testing-dev: 1
+FILES_gnome-desktop-testing-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gnome-desktop-testing/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {}
+PKGSIZE_gnome-desktop-testing-dev: 0

@@ -1,0 +1,19 @@
+PN: acl
+PV: 2.2.52
+PR: r0
+PKGV: 2.2.52
+PKGR: r0
+LICENSE_libacl: LGPLv2.1+
+DESCRIPTION: Utilities for managing POSIX Access Control Lists.
+SUMMARY: Utilities for managing POSIX Access Control Lists
+RDEPENDS_libacl: libattr (>= 2.4.47) glibc (>= 2.28)
+RPROVIDES_libacl:  libacl (=2.2.52)
+RRECOMMENDS_libacl: acl-lic
+SECTION: libs
+PKG_libacl: libacl1
+FILES_libacl: /lib/lib*.so.*
+pkg_postinst_libacl: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libacl: /lib/libacl.so.1.1.0
+FILES_INFO: {"/lib/libacl.so.1.1.0": 21848, "/lib/libacl.so.1": 15}
+FILERPROVIDES_/lib/libacl.so.1.1.0_libacl:  libacl.so.1(ACL_1.0) libacl.so.1(ACL_1.1) libacl.so.1(ACL_1.1) libacl.so.1(ACL_1.2) libacl.so.1(ACL_1.2) libacl.so.1
+PKGSIZE_libacl: 21863

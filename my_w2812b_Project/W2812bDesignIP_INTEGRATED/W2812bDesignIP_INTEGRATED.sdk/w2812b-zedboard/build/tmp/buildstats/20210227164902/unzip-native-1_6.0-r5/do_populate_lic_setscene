@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444641.38 
+unzip-native-1_6.0-r5: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 23
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 139558
+IO syscr: 289
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 265875
+IO syscw: 131
+rusage ru_utime: 0.238285
+rusage ru_stime: 0.054688
+rusage ru_maxrss: 131428
+rusage ru_minflt: 13310
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 197
+Child rusage ru_utime: 0.012875999999999999
+Child rusage ru_stime: 0.014131
+Child rusage ru_maxrss: 128636
+Child rusage ru_minflt: 2234
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1614444641.50 

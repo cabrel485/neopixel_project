@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444647.45 
+kern-tools-native-0.2+gitAUTOINC+d6529f86fc-r12: do_populate_sysroot_setscene
+Elapsed time: 0.12 seconds
+utime: 12
+stime: 3
+cutime: 0
+cstime: 2
+IO wchar: 851024
+IO syscr: 232
+IO write_bytes: 479232
+IO cancelled_write_bytes: 0
+IO read_bytes: 90112
+IO rchar: 691815
+IO syscw: 219
+rusage ru_utime: 0.120767
+rusage ru_stime: 0.031164999999999998
+rusage ru_maxrss: 131224
+rusage ru_minflt: 6647
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 149
+Child rusage ru_utime: 0.009158999999999999
+Child rusage ru_stime: 0.024654
+Child rusage ru_maxrss: 128504
+Child rusage ru_minflt: 2263
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 176
+Child rusage ru_oublock: 744
+Child rusage ru_nvcsw: 33
+Child rusage ru_nivcsw: 75
+Status: PASSED 
+Ended: 1614444647.58 

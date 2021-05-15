@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: sha256-generic kernel module; SHA-224 and SHA-256 Secure Hash Algorithm
+SUMMARY_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: sha256-generic kernel module
+RDEPENDS_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: kernel-4.19.0-xilinx-v2019.1
+RPROVIDES_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: kernel-module-sha256-generic
+SECTION: kernel
+PKG_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: kernel-module-sha256-generic-4.19.0-xilinx-v2019.1
+FILES_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: /lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/sha256_generic.ko /etc/modules-load.d/sha256_generic.conf /etc/modprobe.d/sha256_generic.conf
+pkg_postinst_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\tdepmodwrapper -a -b $D 4.19.0-xilinx-v2019.1\nfi\n\n
+FILES_INFO: {"/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/sha256_generic.ko": 15360}
+PKGSIZE_kernel-module-sha256-generic-4.19.0-xilinx-v2019.1: 15360

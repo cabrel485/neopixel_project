@@ -1,0 +1,2 @@
+libbtrfsutil.so.1:/usr/lib:4.17.1
+libbtrfs.so.0:/usr/lib:4.17.1

@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-threads-shared: perl module threads-shared
+SUMMARY_perl-module-threads-shared: perl module threads-shared
+RDEPENDS_perl-module-threads-shared: perl perl-module-carp perl-module-scalar-util perl-module-strict perl-module-warnings perl-module-xsloader glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-threads-shared: perl-module-threads-shared
+FILES_perl-module-threads-shared: /usr/lib/perl/5.24.4/auto/threads/shared/shared.so /usr/lib/perl/5.24.4/threads/shared.pm
+FILERPROVIDESFLIST_perl-module-threads-shared: /usr/lib/perl/5.24.4/threads/shared.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/threads/shared.pm": 20283, "/usr/lib/perl/5.24.4/auto/threads/shared/shared.so": 25884}
+FILERPROVIDES_/usr/lib/perl/5.24.4/threads/shared.pm_perl-module-threads-shared:  perl(threads::shared)
+FILERDEPENDSFLIST_perl-module-threads-shared: /usr/lib/perl/5.24.4/auto/threads/shared/shared.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/threads/shared/shared.so_perl-module-threads-shared:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-threads-shared: 46167

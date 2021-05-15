@@ -1,0 +1,18 @@
+PN: dbus
+PV: 1.12.10
+PR: r0
+PKGV: 1.12.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-dev: D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\"single instance\\" application or daemon, and to launch applications and daemons on demand when their services are needed.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dbus-dev: D-Bus message bus - Development files
+RDEPENDS_dbus-dev: dbus (= 1.12.10-r0) dbus-lib (>= 1.12.10) glibc (>= 2.28)
+RRECOMMENDS_dbus-dev: autoconf-archive-dev base-files-dev base-passwd-dev dbus-lic expat-dev initscripts-dev libsm-dev shadow-dev shadow-sysroot-dev update-rc.d-dev glibc-dev dbus-lib-dev initd-functions-dev libx11-dev dbus-test-ptest-dev
+SECTION_dbus-dev: devel
+PKG_dbus-dev: dbus-dev
+ALLOW_EMPTY_dbus-dev: 1
+FILES_dbus-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dbus/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/lib/dbus-1.0/include /usr/lib/cmake/DBus1 /usr/bin/dbus-test-tool
+FILES_INFO: {"/usr/include/dbus-1.0/dbus/dbus-threads.h": 8507, "/usr/include/dbus-1.0/dbus/dbus-bus.h": 3472, "/usr/include/dbus-1.0/dbus/dbus-types.h": 4145, "/usr/include/dbus-1.0/dbus/dbus-misc.h": 1813, "/usr/include/dbus-1.0/dbus/dbus-macros.h": 6757, "/usr/lib/pkgconfig/dbus-1.pc": 611, "/usr/bin/dbus-test-tool": 13764, "/usr/lib/cmake/DBus1/DBus1Config.cmake": 2098, "/usr/lib/cmake/DBus1/DBus1ConfigVersion.cmake": 367, "/usr/include/dbus-1.0/dbus/dbus-memory.h": 1975, "/usr/include/dbus-1.0/dbus/dbus-message.h": 15005, "/usr/include/dbus-1.0/dbus/dbus-shared.h": 5394, "/usr/include/dbus-1.0/dbus/dbus-syntax.h": 2359, "/usr/include/dbus-1.0/dbus/dbus.h": 3955, "/usr/include/dbus-1.0/dbus/dbus-pending-call.h": 3811, "/usr/lib/libdbus-1.so": 19, "/usr/include/dbus-1.0/dbus/dbus-connection.h": 27020, "/usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h": 2064, "/usr/include/dbus-1.0/dbus/dbus-address.h": 2812, "/usr/include/dbus-1.0/dbus/dbus-server.h": 5414, "/usr/include/dbus-1.0/dbus/dbus-protocol.h": 23642, "/usr/include/dbus-1.0/dbus/dbus-errors.h": 2911, "/usr/include/dbus-1.0/dbus/dbus-signature.h": 3049}
+FILERDEPENDSFLIST_dbus-dev: /usr/bin/dbus-test-tool
+FILERDEPENDS_/usr/bin/dbus-test-tool_dbus-dev:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libdbus-1.so.3(LIBDBUS_PRIVATE_1.12.10) libdbus-1.so.3(LIBDBUS_1_3) libpthread.so.0(GLIBC_2.4) libdbus-1.so.3 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_dbus-dev: 140964

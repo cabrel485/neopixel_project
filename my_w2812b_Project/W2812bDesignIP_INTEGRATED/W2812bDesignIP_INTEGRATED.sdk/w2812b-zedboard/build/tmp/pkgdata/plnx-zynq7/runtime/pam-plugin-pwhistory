@@ -1,0 +1,17 @@
+PN: libpam
+PV: 1.3.0
+PR: r5
+PKGV: 1.3.0
+PKGR: r5
+LICENSE: GPLv2+ | BSD
+DESCRIPTION_pam-plugin-pwhistory: PAM plugin for -pwhistory
+SUMMARY_pam-plugin-pwhistory: PAM plugin for -pwhistory
+RDEPENDS_pam-plugin-pwhistory: libpam-suffix libpam (>= 1.3.0) libxcrypt (>= 4.1.1) glibc (>= 2.28)
+RPROVIDES_pam-plugin-pwhistory: pam-plugin-pwhistory-suffix
+SECTION: base
+PKG_pam-plugin-pwhistory: pam-plugin-pwhistory
+FILES_pam-plugin-pwhistory: /lib/security/pam_pwhistory.so
+FILES_INFO: {"/lib/security/pam_pwhistory.so": 9456}
+FILERDEPENDSFLIST_pam-plugin-pwhistory: /lib/security/pam@underscore@pwhistory.so
+FILERDEPENDS_/lib/security/pam@underscore@pwhistory.so_pam-plugin-pwhistory:  libcrypt.so.1(XCRYPT_2.0) ld-linux-armhf.so.3(GLIBC_2.4) libpam.so.0(LIBPAM_EXTENSION_1.1) libpam.so.0(LIBPAM_EXTENSION_1.0) libpam.so.0(LIBPAM_1.0) libpam.so.0(LIBPAM_MODUTIL_1.0) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libpam.so.0 libdl.so.2 libcrypt.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_pam-plugin-pwhistory: 9456

@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-smtpd: Python Simple Mail Transport Daemon
+RDEPENDS_python3-smtpd: python3-core python3-crypt python3-datetime python3-email python3-io python3-math python3-mime python3-netclient python3-stringold
+RRECOMMENDS_python3-smtpd: python3-lic
+SECTION: devel/python
+PKG_python3-smtpd: python3-smtpd
+FILES_python3-smtpd:  /usr/bin/smtpd.py /usr/lib/python3.5/asynchat.py /usr/lib/python3.5/asyncore.py /usr/lib/python3.5/smtpd.py /usr/lib/python3.5/__pycache__/asynchat.*.pyc /usr/lib/python3.5/__pycache__/asyncore.*.pyc /usr/lib/python3.5/__pycache__/smtpd.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/smtpd.cpython-35.pyc": 29286, "/usr/lib/python3.5/__pycache__/asynchat.cpython-35.opt-1.pyc": 8465, "/usr/lib/python3.5/__pycache__/asynchat.cpython-35.pyc": 8465, "/usr/lib/python3.5/smtpd.py": 35362, "/usr/lib/python3.5/__pycache__/asyncore.cpython-35.opt-1.pyc": 17159, "/usr/lib/python3.5/asynchat.py": 11971, "/usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-1.pyc": 29286, "/usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-2.pyc": 26633, "/usr/lib/python3.5/__pycache__/asyncore.cpython-35.pyc": 17159, "/usr/lib/python3.5/asyncore.py": 20104, "/usr/lib/python3.5/__pycache__/asyncore.cpython-35.opt-2.pyc": 15953, "/usr/lib/python3.5/__pycache__/asynchat.cpython-35.opt-2.pyc": 7085}
+FILERDEPENDSFLIST_python3-smtpd: /usr/lib/python3.5/smtpd.py
+FILERDEPENDS_/usr/lib/python3.5/smtpd.py_python3-smtpd:  /usr/bin/env
+PKGSIZE_python3-smtpd: 226928

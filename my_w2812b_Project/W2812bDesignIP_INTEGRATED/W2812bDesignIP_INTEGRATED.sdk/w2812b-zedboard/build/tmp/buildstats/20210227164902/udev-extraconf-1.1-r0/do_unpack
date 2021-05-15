@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444773.55 
+udev-extraconf-1.1-r0: do_unpack
+Elapsed time: 0.10 seconds
+utime: 10
+stime: 3
+cutime: 0
+cstime: 3
+IO wchar: 58813
+IO syscr: 204
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+IO read_bytes: 28672
+IO rchar: 157448
+IO syscw: 54
+rusage ru_utime: 0.107086
+rusage ru_stime: 0.035695
+rusage ru_maxrss: 131720
+rusage ru_minflt: 7818
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.0058319999999999995
+Child rusage ru_stime: 0.033295
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 3132
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 56
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444773.65 

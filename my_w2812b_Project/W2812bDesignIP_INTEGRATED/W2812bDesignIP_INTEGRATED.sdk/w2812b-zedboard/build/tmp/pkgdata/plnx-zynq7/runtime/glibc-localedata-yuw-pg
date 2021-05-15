@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-yuw-pg: locale definition for yuw-pg
+SUMMARY_glibc-localedata-yuw-pg: locale definition for yuw-pg
+RDEPENDS_glibc-localedata-yuw-pg: glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-yuw-pg: glibc-localedata-yuw-pg
+FILES_glibc-localedata-yuw-pg: /usr/share/i18n/locales/yuw_PG
+FILES_INFO: {"/usr/share/i18n/locales/yuw_PG": 3428}
+PKGSIZE_glibc-localedata-yuw-pg: 3428

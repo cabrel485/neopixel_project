@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444665.46 
+libxcrypt-4.1.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.23 seconds
+utime: 21
+stime: 7
+cutime: 1
+cstime: 1
+IO wchar: 540037
+IO syscr: 215
+IO write_bytes: 294912
+IO cancelled_write_bytes: 0
+IO read_bytes: 65536
+IO rchar: 528839
+IO syscw: 183
+rusage ru_utime: 0.216506
+rusage ru_stime: 0.072168
+rusage ru_maxrss: 131400
+rusage ru_minflt: 13263
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 176
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 248
+Child rusage ru_utime: 0.015137999999999999
+Child rusage ru_stime: 0.016811
+Child rusage ru_maxrss: 128604
+Child rusage ru_minflt: 2278
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 120
+Child rusage ru_oublock: 400
+Child rusage ru_nvcsw: 29
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1614444665.69 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444784.85 
+myapp-1.0-r0: do_patch
+Elapsed time: 0.02 seconds
+utime: 11
+stime: 0
+cutime: 0
+cstime: 0
+IO wchar: 71937
+IO syscr: 20
+IO write_bytes: 61440
+IO cancelled_write_bytes: 4096
+IO read_bytes: 0
+IO rchar: 84928
+IO syscw: 42
+rusage ru_utime: 0.110385
+rusage ru_stime: 0.007884
+rusage ru_maxrss: 131744
+rusage ru_minflt: 4604
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.002936
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 127896
+Child rusage ru_minflt: 92
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 1
+Child rusage ru_nivcsw: 1
+Status: PASSED 
+Ended: 1614444784.87 

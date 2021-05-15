@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444659.22 
+libx11-1_1.6.6-r0: do_packagedata_setscene
+Elapsed time: 0.19 seconds
+utime: 23
+stime: 4
+cutime: 0
+cstime: 2
+IO wchar: 372651
+IO syscr: 207
+IO write_bytes: 212992
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 388785
+IO syscw: 194
+rusage ru_utime: 0.237113
+rusage ru_stime: 0.044206999999999996
+rusage ru_maxrss: 131420
+rusage ru_minflt: 13356
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.008995
+Child rusage ru_stime: 0.020222
+Child rusage ru_maxrss: 128640
+Child rusage ru_minflt: 2277
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 248
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444659.41 

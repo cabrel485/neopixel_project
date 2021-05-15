@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-numbers: Python number APIs
+RDEPENDS_python-numbers: python-codecs python-core python-lang python-math python-threading
+RRECOMMENDS_python-numbers: python-lic
+SECTION: devel/python
+PKG_python-numbers: python-numbers
+FILES_python-numbers:  /usr/lib/python2.7/decimal.py /usr/lib/python2.7/decimal.pyc /usr/lib/python2.7/fractions.py /usr/lib/python2.7/fractions.pyc /usr/lib/python2.7/numbers.py /usr/lib/python2.7/numbers.pyc
+FILES_INFO: {"/usr/lib/python2.7/fractions.pyc": 19633, "/usr/lib/python2.7/decimal.pyc": 171645, "/usr/lib/python2.7/fractions.py": 22390, "/usr/lib/python2.7/numbers.py": 10319, "/usr/lib/python2.7/decimal.py": 221933, "/usr/lib/python2.7/numbers.pyc": 13888}
+PKGSIZE_python-numbers: 459808

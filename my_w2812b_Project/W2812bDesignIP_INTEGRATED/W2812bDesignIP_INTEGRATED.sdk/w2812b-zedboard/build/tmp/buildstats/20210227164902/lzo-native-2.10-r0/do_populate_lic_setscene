@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444603.79 
+lzo-native-2.10-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 26
+stime: 4
+cutime: 2
+cstime: 0
+IO wchar: 219043
+IO syscr: 192
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 292141
+IO syscw: 144
+rusage ru_utime: 0.269485
+rusage ru_stime: 0.040831
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13441
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 95
+Child rusage ru_utime: 0.020642
+Child rusage ru_stime: 0.0068509999999999995
+Child rusage ru_maxrss: 128748
+Child rusage ru_minflt: 2259
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1614444603.89 

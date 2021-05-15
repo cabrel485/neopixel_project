@@ -1,0 +1,15 @@
+PN: iproute2
+PV: 4.19.0
+PR: r0
+PKGV: 4.19.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.
+SUMMARY: TCP / IP networking and traffic control utilities
+RDEPENDS_iproute2-bash-completion: bash-completion
+RRECOMMENDS_iproute2-bash-completion: iproute2-lic
+SECTION: base
+PKG_iproute2-bash-completion: iproute2-bash-completion
+FILES_iproute2-bash-completion: /usr/share/bash-completion /etc/bash_completion.d
+FILES_INFO: {"/usr/share/bash-completion/completions/tc": 27047}
+PKGSIZE_iproute2-bash-completion: 27047

@@ -1,0 +1,20 @@
+PN: busybox
+PV: 1.29.2
+PR: r0
+PKGV: 1.29.2
+PKGR: r0
+LICENSE: GPLv2 & bzip2
+DESCRIPTION: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+SUMMARY: Tiny versions of many common UNIX utilities in a single small executable
+RRECOMMENDS_busybox-inetd: busybox-lic update-rc.d
+SECTION: base
+PKG_busybox-inetd: busybox-inetd
+FILES_busybox-inetd: /etc/init.d/inetd.busybox /etc/inetd.conf
+pkg_postinst_busybox-inetd: #!/bin/sh\nset -e\nif true && type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f -s"\n\tfi\n\tupdate-rc.d $OPT inetd.busybox defaults\nfi\n
+pkg_postrm_busybox-inetd: #!/bin/sh\nset -e\nif true && type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT inetd.busybox remove\nfi\n
+pkg_preinst_busybox-inetd: #!/bin/sh\nset -e\nif true && [ -z "$D" -a -f "/etc/init.d/inetd.busybox" ]; then\n\t/etc/init.d/inetd.busybox stop || :\nfi\nif true && type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT inetd.busybox remove\nfi\n
+pkg_prerm_busybox-inetd: #!/bin/sh\nset -e\nif true && [ -z "$D" -a -x "/etc/init.d/inetd.busybox" ]; then\n\t/etc/init.d/inetd.busybox stop || :\nfi\n
+FILES_INFO: {"/etc/inetd.conf": 1012, "/etc/init.d/inetd.busybox": 579}
+FILERDEPENDSFLIST_busybox-inetd: /etc/init.d/inetd.busybox
+FILERDEPENDS_/etc/init.d/inetd.busybox_busybox-inetd:  /bin/sh
+PKGSIZE_busybox-inetd: 1591

@@ -1,0 +1,17 @@
+PN: libpam
+PV: 1.3.0
+PR: r5
+PKGV: 1.3.0
+PKGR: r5
+LICENSE: GPLv2+ | BSD
+DESCRIPTION_pam-plugin-group: PAM plugin for -group
+SUMMARY_pam-plugin-group: PAM plugin for -group
+RDEPENDS_pam-plugin-group: libpam-suffix libpam (>= 1.3.0) glibc (>= 2.28)
+RPROVIDES_pam-plugin-group: pam-plugin-group-suffix
+SECTION: base
+PKG_pam-plugin-group: pam-plugin-group
+FILES_pam-plugin-group: /lib/security/pam_group.so
+FILES_INFO: {"/lib/security/pam_group.so": 9504}
+FILERDEPENDSFLIST_pam-plugin-group: /lib/security/pam@underscore@group.so
+FILERDEPENDS_/lib/security/pam@underscore@group.so_pam-plugin-group:  ld-linux-armhf.so.3(GLIBC_2.4) libpam.so.0(LIBPAM_EXTENSION_1.0) libpam.so.0(LIBPAM_MODUTIL_1.0) libpam.so.0(LIBPAM_1.0) libc.so.6(GLIBC_2.4) libpam.so.0 libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_pam-plugin-group: 9504

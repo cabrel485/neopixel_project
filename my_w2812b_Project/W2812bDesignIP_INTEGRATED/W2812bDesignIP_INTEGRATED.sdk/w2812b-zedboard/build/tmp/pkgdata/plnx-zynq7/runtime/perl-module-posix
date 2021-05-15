@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-posix: perl module posix
+SUMMARY_perl-module-posix: perl module posix
+RDEPENDS_perl-module-posix: perl perl-module-exporter perl-module-fcntl perl-module-strict perl-module-tie-hash perl-module-warnings perl-module-xsloader glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-posix: perl-module-posix
+FILES_perl-module-posix: /usr/lib/perl/5.24.4/auto/POSIX/POSIX.so /usr/lib/perl/5.24.4/POSIX.pm
+FILERPROVIDESFLIST_perl-module-posix: /usr/lib/perl/5.24.4/POSIX.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/auto/POSIX/POSIX.so": 66844, "/usr/lib/perl/5.24.4/POSIX.pm": 19882}
+FILERPROVIDES_/usr/lib/perl/5.24.4/POSIX.pm_perl-module-posix:  perl(POSIX) perl(POSIX::SigAction) perl(POSIX::SigRt) perl(POSIX::SigSet)
+FILERDEPENDSFLIST_perl-module-posix: /usr/lib/perl/5.24.4/auto/POSIX/POSIX.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/POSIX/POSIX.so_perl-module-posix:  ld-linux-armhf.so.3(GLIBC_2.4) libm.so.6(GLIBC_2.23) libm.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.4) libm.so.6 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-posix: 86726

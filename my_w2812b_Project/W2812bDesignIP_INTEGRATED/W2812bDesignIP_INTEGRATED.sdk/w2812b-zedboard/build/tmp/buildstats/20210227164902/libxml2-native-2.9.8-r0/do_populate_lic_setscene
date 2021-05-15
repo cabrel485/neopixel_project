@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444607.89 
+libxml2-native-2.9.8-r0: do_populate_lic_setscene
+Elapsed time: 0.13 seconds
+utime: 25
+stime: 7
+cutime: 1
+cstime: 1
+IO wchar: 162412
+IO syscr: 198
+IO write_bytes: 106496
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 265576
+IO syscw: 149
+rusage ru_utime: 0.257689
+rusage ru_stime: 0.07095699999999999
+rusage ru_maxrss: 131564
+rusage ru_minflt: 13437
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 233
+Child rusage ru_utime: 0.013082
+Child rusage ru_stime: 0.019037
+Child rusage ru_maxrss: 128784
+Child rusage ru_minflt: 2280
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1614444608.02 

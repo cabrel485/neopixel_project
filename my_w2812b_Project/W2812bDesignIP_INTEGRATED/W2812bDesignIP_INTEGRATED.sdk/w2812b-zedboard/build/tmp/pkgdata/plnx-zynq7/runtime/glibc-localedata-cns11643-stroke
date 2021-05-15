@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-cns11643-stroke: locale definition for cns11643-stroke
+SUMMARY_glibc-localedata-cns11643-stroke: locale definition for cns11643-stroke
+RDEPENDS_glibc-localedata-cns11643-stroke: glibc-localedata-iso14651-t1-common
+SECTION: base
+PKG_glibc-localedata-cns11643-stroke: glibc-localedata-cns11643-stroke
+FILES_glibc-localedata-cns11643-stroke: /usr/share/i18n/locales/cns11643_stroke
+FILES_INFO: {"/usr/share/i18n/locales/cns11643_stroke": 4523368}
+PKGSIZE_glibc-localedata-cns11643-stroke: 4523368

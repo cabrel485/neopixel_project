@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444640.84 
+python3-cython-native-0.28.5-r0: do_populate_sysroot_setscene
+Elapsed time: 0.28 seconds
+utime: 23
+stime: 8
+cutime: 9
+cstime: 5
+IO wchar: 24788220
+IO syscr: 2107
+IO write_bytes: 13271040
+IO cancelled_write_bytes: 0
+IO read_bytes: 3932160
+IO rchar: 16704090
+IO syscw: 2727
+rusage ru_utime: 0.235786
+rusage ru_stime: 0.081172
+rusage ru_maxrss: 131480
+rusage ru_minflt: 13416
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 480
+rusage ru_nvcsw: 144
+rusage ru_nivcsw: 179
+Child rusage ru_utime: 0.098135
+Child rusage ru_stime: 0.055569999999999994
+Child rusage ru_maxrss: 128660
+Child rusage ru_minflt: 2291
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 7680
+Child rusage ru_oublock: 25440
+Child rusage ru_nvcsw: 405
+Child rusage ru_nivcsw: 470
+Status: PASSED 
+Ended: 1614444641.12 

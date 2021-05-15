@@ -1,0 +1,71 @@
+def do_compile(d):
+    listpath = d.getVar("DT_FILES_PATH")
+    try:
+        os.remove(os.path.join(listpath, "system.dts"))
+    except OSError:
+        pass
+    bb.build.exec_func('devicetree_do_compile', d)
+
+do_compile(d)
+
+def devicetree_do_compile(d):
+    includes = expand_includes("DT_INCLUDE", d)
+    listpath = d.getVar("DT_FILES_PATH")
+    for dts in os.listdir(listpath):
+        dtspath = os.path.join(listpath, dts)
+        try:
+            if not(os.path.isfile(dtspath)) or not(dts.endswith(".dts") or devicetree_source_is_overlay(dtspath)):
+                continue # skip non-.dts files and non-overlay files
+        except:
+            continue # skip if can't determine if overlay
+        devicetree_compile(dtspath, includes, d)
+
+def devicetree_source_is_overlay(path):
+    # determine if a dts file is an overlay by checking if it uses "/plugin/;"
+    with open(path, "r") as f:
+        for i in f:
+            if i.startswith("/plugin/;"):
+                return True
+    return False
+
+def expand_includes(varname, d):
+    import glob
+    includes = set()
+    # expand all includes with glob
+    for i in (d.getVar(varname) or "").split():
+        for g in glob.glob(i):
+            if os.path.isdir(g): # only add directories to include path
+                includes.add(g)
+    return includes
+
+def devicetree_compile(dtspath, includes, d):
+    import subprocess
+    dts = os.path.basename(dtspath)
+    dtname = os.path.splitext(dts)[0]
+    bb.note("Processing {0} [{1}]".format(dtname, dts))
+
+    # preprocess
+    ppargs = d.getVar("BUILD_CPP").split()
+    ppargs += (d.getVar("DTC_PPFLAGS") or "").split()
+    for i in includes:
+        ppargs.append("-I{0}".format(i))
+    ppargs += ["-o", "{0}.pp".format(dts), dtspath]
+    bb.note("Running {0}".format(" ".join(ppargs)))
+    subprocess.run(ppargs, check = True)
+
+    # determine if the file is an overlay or not (using the preprocessed file)
+    isoverlay = devicetree_source_is_overlay("{0}.pp".format(dts))
+
+    # compile
+    dtcargs = ["dtc"] + (d.getVar("DTC_FLAGS") or "").split()
+    if isoverlay:
+        dtcargs += (d.getVar("DTC_OFLAGS") or "").split()
+    else:
+        dtcargs += (d.getVar("DTC_BFLAGS") or "").split()
+    for i in includes:
+        dtcargs += ["-i", i]
+    dtcargs += ["-o", "{0}.{1}".format(dtname, "dtbo" if isoverlay else "dtb")]
+    dtcargs += ["-I", "dts", "-O", "dtb", "{0}.pp".format(dts)]
+    bb.note("Running {0}".format(" ".join(dtcargs)))
+    subprocess.run(dtcargs, check = True)
+

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm9448: gconv module for character set ibm9448
+SUMMARY_glibc-gconv-ibm9448: gconv module for character set ibm9448
+RDEPENDS_glibc-gconv-ibm9448: glibc-gconv glibc (>= 2.28)
+SECTION: base
+PKG_glibc-gconv-ibm9448: glibc-gconv-ibm9448
+FILES_glibc-gconv-ibm9448: /usr/lib/gconv/IBM9448.so
+FILES_INFO: {"/usr/lib/gconv/IBM9448.so": 9600}
+PKGSIZE_glibc-gconv-ibm9448: 9600

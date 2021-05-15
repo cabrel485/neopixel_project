@@ -1,0 +1,16 @@
+prefix=${pcfiledir}/../../../usr
+exec_prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+
+glib_genmarshal=glib-genmarshal
+gobject_query=gobject-query
+glib_mkenums=glib-mkenums
+
+Name: GLib
+Description: C Utility Library
+Version: 2.58.0
+Requires.private: libpcre
+Libs: -L${libdir} -lglib-2.0 
+Libs.private: -pthread  -L${pcfiledir}/../../../usr/lib/pkgconfig/../../../usr/lib -lpcre    
+Cflags: -I${includedir}/glib-2.0 -I${libdir}/glib-2.0/include 

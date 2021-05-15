@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444635.38 
+mtd-utils-2.0.2+AUTOINC+bc63d36e39-r0: do_populate_lic_setscene
+Elapsed time: 0.13 seconds
+utime: 22
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 219404
+IO syscr: 191
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 326245
+IO syscw: 138
+rusage ru_utime: 0.22969599999999998
+rusage ru_stime: 0.053321999999999994
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13378
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 78
+Child rusage ru_utime: 0.016583
+Child rusage ru_stime: 0.016371
+Child rusage ru_maxrss: 128736
+Child rusage ru_minflt: 2276
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 21
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1614444635.50 

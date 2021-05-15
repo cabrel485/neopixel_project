@@ -1,0 +1,6 @@
+def sort_passwd(d):
+    import rootfspostcommands
+    rootfspostcommands.sort_passwd(d.expand('${IMAGE_ROOTFS}${sysconfdir}'))
+
+sort_passwd(d)
+

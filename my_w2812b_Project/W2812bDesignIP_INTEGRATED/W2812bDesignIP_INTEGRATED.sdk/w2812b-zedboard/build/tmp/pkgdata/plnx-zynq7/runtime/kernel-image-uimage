@@ -1,0 +1,16 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RPROVIDES_kernel-image-uimage:  kernel-image-uimage (=4.19-xilinx-v2019.1+git0+9811303824)
+RRECOMMENDS_kernel-image-uimage: linux-xlnx-lic
+SECTION: kernel
+PKG_kernel-image-uimage: kernel-image-uimage-4.19.0-xilinx-v2019.1
+ALLOW_EMPTY_kernel-image-uimage: 1
+FILES_kernel-image-uimage: /boot/uImage-4.19.0-xilinx-v2019.1 /boot/uImage
+FILES_INFO: {"/boot/uImage-4.19.0-xilinx-v2019.1": 4140840, "/boot/uImage": 28}
+PKGSIZE_kernel-image-uimage: 4140868

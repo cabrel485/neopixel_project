@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/sh /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source/scripts/mkuboot.sh -A arm -O linux -C none  -T kernel -a 0x8000 -e 0x8000 -n 'Linux-4.19.0-xilinx-v2019.1' -d arch/arm/boot/zImage arch/arm/boot/uImage

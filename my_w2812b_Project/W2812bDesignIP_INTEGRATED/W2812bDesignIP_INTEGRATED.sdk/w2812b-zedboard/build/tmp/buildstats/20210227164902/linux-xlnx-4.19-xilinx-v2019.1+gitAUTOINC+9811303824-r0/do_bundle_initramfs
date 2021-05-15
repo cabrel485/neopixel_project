@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445455.98 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_bundle_initramfs
+Elapsed time: 49.76 seconds
+utime: 34
+stime: 4
+cutime: 3769
+cstime: 1195
+IO wchar: 330415106
+IO syscr: 638070
+IO write_bytes: 257634304
+IO cancelled_write_bytes: 21307392
+IO read_bytes: 212992
+IO rchar: 2136484628
+IO syscw: 108609
+rusage ru_utime: 0.342443
+rusage ru_stime: 0.041257999999999996
+rusage ru_maxrss: 134660
+rusage ru_minflt: 12317
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 90
+rusage ru_nivcsw: 7
+Child rusage ru_utime: 37.693744
+Child rusage ru_stime: 11.954955
+Child rusage ru_maxrss: 136668
+Child rusage ru_minflt: 2332059
+Child rusage ru_majflt: 12
+Child rusage ru_inblock: 416
+Child rusage ru_oublock: 503056
+Child rusage ru_nvcsw: 24602
+Child rusage ru_nivcsw: 5891
+Status: PASSED 
+Ended: 1614445505.74 

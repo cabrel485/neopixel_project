@@ -1,0 +1,18 @@
+def write_image_test_data(d):
+    from oe.data import export2json
+
+    deploy_dir = d.getVar('IMGDEPLOYDIR')
+    link_name = d.getVar('IMAGE_LINK_NAME')
+    testdata_name = os.path.join(deploy_dir, "%s.testdata.json" % d.getVar('IMAGE_NAME'))
+
+    searchString = "%s/"%(d.getVar("TOPDIR")).replace("//","/")
+    export2json(d, testdata_name, searchString=searchString, replaceString="")
+
+    if os.path.exists(testdata_name):
+        testdata_link = os.path.join(deploy_dir, "%s.testdata.json" % link_name)
+        if os.path.lexists(testdata_link):
+            os.remove(testdata_link)
+        os.symlink(os.path.basename(testdata_name), testdata_link)
+
+write_image_test_data(d)
+

@@ -1,0 +1,17 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_e2fsprogs-resize2fs: libe2p (>= 1.44.3) libext2fs (>= 1.44.3) libcomerr (>= 1.44.3) glibc (>= 2.28)
+RRECOMMENDS_e2fsprogs-resize2fs: e2fsprogs-lic
+SECTION: base
+PKG_e2fsprogs-resize2fs: e2fsprogs-resize2fs
+FILES_e2fsprogs-resize2fs: /sbin/resize2fs*
+FILES_INFO: {"/sbin/resize2fs": 46472}
+FILERDEPENDSFLIST_e2fsprogs-resize2fs: /sbin/resize2fs
+FILERDEPENDS_/sbin/resize2fs_e2fsprogs-resize2fs:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libe2p.so.2 libext2fs.so.2 libcom_err.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_e2fsprogs-resize2fs: 46472

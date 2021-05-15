@@ -1,0 +1,14 @@
+PN: tcf-agent
+PV: 1.7.0+gitAUTOINC+dad3a6f568
+PR: r0
+PKGV: 1.7.0+git0+dad3a6f568
+PKGR: r0
+LICENSE: EPL-1.0 | EDL-1.0
+DESCRIPTION: Target Communication Framework for the Eclipse IDE.
+SUMMARY: Target Communication Framework for the Eclipse IDE
+RRECOMMENDS_tcf-agent-locale: tcf-agent-lic
+SECTION: base
+PKG_tcf-agent-locale: tcf-agent-locale
+FILES_tcf-agent-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_tcf-agent-locale: 0

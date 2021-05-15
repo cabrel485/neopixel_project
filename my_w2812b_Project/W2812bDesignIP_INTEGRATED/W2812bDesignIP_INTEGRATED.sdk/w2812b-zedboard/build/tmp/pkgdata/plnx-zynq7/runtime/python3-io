@@ -1,0 +1,19 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-io: Python low-level I/O
+RDEPENDS_python3-io: python3-compression python3-core python3-crypt python3-math python3-netclient python3-shell python3-unixadmin libpython3 (>= 3.5.6) libssl (>= 1.1.1a) libcrypto (>= 1.1.1a) glibc (>= 2.28)
+RRECOMMENDS_python3-io: python3-lic
+SECTION: devel/python
+PKG_python3-io: python3-io
+FILES_python3-io:  /usr/lib/python3.5/_pyio.py /usr/lib/python3.5/ipaddress.py /usr/lib/python3.5/lib-dynload/_socket.*.so /usr/lib/python3.5/lib-dynload/_ssl.*.so /usr/lib/python3.5/lib-dynload/termios.*.so /usr/lib/python3.5/pipes.py /usr/lib/python3.5/socket.py /usr/lib/python3.5/ssl.py /usr/lib/python3.5/tempfile.py /usr/lib/python3.5/__pycache__/_pyio.*.pyc /usr/lib/python3.5/__pycache__/ipaddress.*.pyc /usr/lib/python3.5/__pycache__/pipes.*.pyc /usr/lib/python3.5/__pycache__/socket.*.pyc /usr/lib/python3.5/__pycache__/ssl.*.pyc /usr/lib/python3.5/__pycache__/tempfile.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/_pyio.cpython-35.opt-1.pyc": 75968, "/usr/lib/python3.5/__pycache__/ssl.cpython-35.opt-1.pyc": 35730, "/usr/lib/python3.5/__pycache__/socket.cpython-35.opt-1.pyc": 23008, "/usr/lib/python3.5/__pycache__/pipes.cpython-35.opt-1.pyc": 8341, "/usr/lib/python3.5/__pycache__/tempfile.cpython-35.pyc": 23619, "/usr/lib/python3.5/__pycache__/ssl.cpython-35.pyc": 35730, "/usr/lib/python3.5/__pycache__/socket.cpython-35.opt-2.pyc": 15568, "/usr/lib/python3.5/_pyio.py": 87968, "/usr/lib/python3.5/__pycache__/socket.cpython-35.pyc": 23058, "/usr/lib/python3.5/__pycache__/ipaddress.cpython-35.opt-1.pyc": 66556, "/usr/lib/python3.5/tempfile.py": 26636, "/usr/lib/python3.5/socket.py": 27135, "/usr/lib/python3.5/__pycache__/tempfile.cpython-35.opt-2.pyc": 17137, "/usr/lib/python3.5/__pycache__/tempfile.cpython-35.opt-1.pyc": 23619, "/usr/lib/python3.5/pipes.py": 8916, "/usr/lib/python3.5/__pycache__/ipaddress.cpython-35.opt-2.pyc": 40946, "/usr/lib/python3.5/__pycache__/pipes.cpython-35.opt-2.pyc": 5464, "/usr/lib/python3.5/ssl.py": 42046, "/usr/lib/python3.5/__pycache__/_pyio.cpython-35.opt-2.pyc": 53541, "/usr/lib/python3.5/__pycache__/ssl.cpython-35.opt-2.pyc": 26399, "/usr/lib/python3.5/lib-dynload/termios.cpython-35m-arm-linux-gnueabihf.so": 17768, "/usr/lib/python3.5/__pycache__/_pyio.cpython-35.pyc": 75994, "/usr/lib/python3.5/ipaddress.py": 75733, "/usr/lib/python3.5/__pycache__/pipes.cpython-35.pyc": 8341, "/usr/lib/python3.5/__pycache__/ipaddress.cpython-35.pyc": 66556, "/usr/lib/python3.5/lib-dynload/_ssl.cpython-35m-arm-linux-gnueabihf.so": 70724, "/usr/lib/python3.5/lib-dynload/_socket.cpython-35m-arm-linux-gnueabihf.so": 58940}
+FILERDEPENDSFLIST_python3-io: /usr/lib/python3.5/lib-dynload/@underscore@socket.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/termios.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/@underscore@ssl.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@socket.cpython-35m-arm-linux-gnueabihf.so_python3-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.10) libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/termios.cpython-35m-arm-linux-gnueabihf.so_python3-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@ssl.cpython-35m-arm-linux-gnueabihf.so_python3-io:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libssl.so.1.1(OPENSSL_1_1_0) libssl.so.1.1 libcrypto.so.1.1 libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-io: 1041441

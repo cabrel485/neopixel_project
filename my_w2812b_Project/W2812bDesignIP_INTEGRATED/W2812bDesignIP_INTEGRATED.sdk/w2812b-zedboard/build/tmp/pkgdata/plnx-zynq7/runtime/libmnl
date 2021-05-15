@@ -1,0 +1,21 @@
+PN: libmnl
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Minimalistic user-space library oriented to Netlink developers, providing     functions for common tasks in parsing, validating, and constructing both the Netlink header and TLVs.
+SUMMARY: Minimalistic user-space Netlink utility library
+RDEPENDS_libmnl: glibc (>= 2.28)
+RPROVIDES_libmnl:  libmnl (=1.0.4)
+RRECOMMENDS_libmnl: libmnl-lic
+SECTION: libs
+PKG_libmnl: libmnl0
+FILES_libmnl: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/libmnl /usr/lib/libmnl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_libmnl: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libmnl: /usr/lib/libmnl.so.0.2.0
+FILES_INFO: {"/usr/lib/libmnl.so.0.2.0": 13656, "/usr/lib/libmnl.so.0": 15}
+FILERPROVIDES_/usr/lib/libmnl.so.0.2.0_libmnl:  libmnl.so.0(LIBMNL_1.0) libmnl.so.0(LIBMNL_1.1) libmnl.so.0(LIBMNL_1.1) libmnl.so.0(LIBMNL_1.2) libmnl.so.0(LIBMNL_1.2) libmnl.so.0
+FILERDEPENDSFLIST_libmnl: /usr/lib/libmnl.so.0.2.0
+FILERDEPENDS_/usr/lib/libmnl.so.0.2.0_libmnl:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_libmnl: 13671

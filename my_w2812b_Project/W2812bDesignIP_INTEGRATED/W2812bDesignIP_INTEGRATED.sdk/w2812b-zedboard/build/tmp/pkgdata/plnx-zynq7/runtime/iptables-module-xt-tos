@@ -1,0 +1,20 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-tos: iptables module xt-tos
+SUMMARY_iptables-module-xt-tos: iptables module xt-tos
+RDEPENDS_iptables-module-xt-tos: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-tos: iptables-module-xt-tos
+FILES_iptables-module-xt-tos: /usr/lib/xtables/libxt_TOS.so /usr/lib/xtables/libxt_tos.so
+FILERPROVIDESFLIST_iptables-module-xt-tos: /usr/lib/xtables/libxt@underscore@TOS.so /usr/lib/xtables/libxt@underscore@tos.so
+FILES_INFO: {"/usr/lib/xtables/libxt_TOS.so": 9712, "/usr/lib/xtables/libxt_tos.so": 5608}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TOS.so_iptables-module-xt-tos:  libxt_TOS.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@tos.so_iptables-module-xt-tos:  libxt_tos.so
+FILERDEPENDSFLIST_iptables-module-xt-tos: /usr/lib/xtables/libxt@underscore@TOS.so /usr/lib/xtables/libxt@underscore@tos.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TOS.so_iptables-module-xt-tos:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@tos.so_iptables-module-xt-tos:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-tos: 15320

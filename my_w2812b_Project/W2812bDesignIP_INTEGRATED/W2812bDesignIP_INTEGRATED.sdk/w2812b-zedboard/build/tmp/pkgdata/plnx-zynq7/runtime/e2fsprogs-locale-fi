@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-fi: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the fi locale.
+SUMMARY_e2fsprogs-locale-fi: Ext2 Filesystem Utilities - fi translations
+RPROVIDES_e2fsprogs-locale-fi: e2fsprogs-locale fi-translation
+RRECOMMENDS_e2fsprogs-locale-fi: virtual-locale-fi
+SECTION: base
+PKG_e2fsprogs-locale-fi: e2fsprogs-locale-fi
+FILES_e2fsprogs-locale-fi: /usr/share/locale/fi
+FILES_INFO: {"/usr/share/locale/fi/LC_MESSAGES/e2fsprogs.mo": 21546}
+PKGSIZE_e2fsprogs-locale-fi: 21546

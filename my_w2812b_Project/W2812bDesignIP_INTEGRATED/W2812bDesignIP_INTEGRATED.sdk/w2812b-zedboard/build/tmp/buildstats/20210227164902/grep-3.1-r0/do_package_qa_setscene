@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444607.87 
+grep-3.1-r0: do_package_qa_setscene
+Elapsed time: 0.20 seconds
+utime: 25
+stime: 2
+cutime: 0
+cstime: 0
+IO wchar: 134890
+IO syscr: 97
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 196069
+IO syscw: 121
+rusage ru_utime: 0.25654699999999997
+rusage ru_stime: 0.028505
+rusage ru_maxrss: 131380
+rusage ru_minflt: 12178
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.008088999999999999
+Child rusage ru_stime: 0.006356
+Child rusage ru_maxrss: 128676
+Child rusage ru_minflt: 1151
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 12
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1614444608.07 

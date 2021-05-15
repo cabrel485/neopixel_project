@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444657.05 
+shadow-4.6-r0: do_populate_sysroot_setscene
+Elapsed time: 0.19 seconds
+utime: 24
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 148571
+IO syscr: 189
+IO write_bytes: 90112
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 281536
+IO syscw: 132
+rusage ru_utime: 0.248719
+rusage ru_stime: 0.037683999999999995
+rusage ru_maxrss: 131464
+rusage ru_minflt: 13399
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 168
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 83
+Child rusage ru_utime: 0.010778999999999999
+Child rusage ru_stime: 0.015295999999999999
+Child rusage ru_maxrss: 128728
+Child rusage ru_minflt: 2273
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1614444657.24 

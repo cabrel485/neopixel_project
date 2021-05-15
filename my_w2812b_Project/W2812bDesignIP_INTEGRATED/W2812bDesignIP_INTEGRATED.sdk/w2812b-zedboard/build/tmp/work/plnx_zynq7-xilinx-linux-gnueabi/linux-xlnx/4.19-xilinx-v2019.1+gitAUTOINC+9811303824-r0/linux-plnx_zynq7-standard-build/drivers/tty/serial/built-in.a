@@ -1,0 +1,8 @@
+!<thin>
+//                                              44        `
+serial_core.o/
+earlycon.o/
+xilinx_uartps.o/
+/0              0           0     0     644     43340     `
+/15             0           0     0     644     5092      `
+/27            /0           0     0     644     20064     `

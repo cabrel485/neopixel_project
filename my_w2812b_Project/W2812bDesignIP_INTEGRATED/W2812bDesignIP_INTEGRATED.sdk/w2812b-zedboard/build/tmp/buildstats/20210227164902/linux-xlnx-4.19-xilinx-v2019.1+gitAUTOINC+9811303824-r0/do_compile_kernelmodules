@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445376.44 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_compile_kernelmodules
+Elapsed time: 21.38 seconds
+utime: 27
+stime: 4
+cutime: 3595
+cstime: 649
+IO wchar: 79319861
+IO syscr: 275835
+IO write_bytes: 25800704
+IO cancelled_write_bytes: 8282112
+IO read_bytes: 1486848
+IO rchar: 993920764
+IO syscw: 24180
+rusage ru_utime: 0.27508499999999997
+rusage ru_stime: 0.040452999999999996
+rusage ru_maxrss: 132252
+rusage ru_minflt: 6122
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 88
+rusage ru_nvcsw: 136
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 35.957352
+Child rusage ru_stime: 6.492076
+Child rusage ru_maxrss: 129580
+Child rusage ru_minflt: 2513616
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2904
+Child rusage ru_oublock: 50304
+Child rusage ru_nvcsw: 26114
+Child rusage ru_nivcsw: 17310
+Status: PASSED 
+Ended: 1614445397.83 

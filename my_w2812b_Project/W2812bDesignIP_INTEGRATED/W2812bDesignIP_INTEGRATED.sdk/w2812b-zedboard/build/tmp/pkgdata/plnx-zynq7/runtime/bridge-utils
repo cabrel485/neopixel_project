@@ -1,0 +1,21 @@
+PN: bridge-utils
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Tools for ethernet bridging.
+SUMMARY: Tools for ethernet bridging
+RDEPENDS_bridge-utils: update-alternatives-opkg glibc (>= 2.28)
+RRECOMMENDS_bridge-utils: bridge-utils-lic kernel-module-bridge
+SECTION: net
+PKG_bridge-utils: bridge-utils
+FILES_bridge-utils: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/bridge-utils /usr/lib/bridge-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_bridge-utils: #!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/sbin/brctl brctl /usr/sbin/brctl.bridge-utils 100\n
+pkg_prerm_bridge-utils: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  brctl /usr/sbin/brctl.bridge-utils\n
+FILERPROVIDESFLIST_bridge-utils:  /usr/sbin/brctl.bridge-utils
+FILES_INFO: {"/usr/sbin/brctl.bridge-utils": 21964}
+FILERPROVIDES_/usr/sbin/brctl.bridge-utils_bridge-utils:  /usr/sbin/brctl
+FILERDEPENDSFLIST_bridge-utils: /usr/sbin/brctl.bridge-utils
+FILERDEPENDS_/usr/sbin/brctl.bridge-utils_bridge-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_bridge-utils: 21964

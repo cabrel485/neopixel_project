@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-perldoc-tortf: perl module pod-perldoc-tortf
+SUMMARY_perl-module-pod-perldoc-tortf: perl module pod-perldoc-tortf
+RDEPENDS_perl-module-pod-perldoc-tortf: perl perl-module-parent perl-module-strict perl-module-vars perl-module-warnings
+SECTION: devel
+PKG_perl-module-pod-perldoc-tortf: perl-module-pod-perldoc-tortf
+FILES_perl-module-pod-perldoc-tortf: /usr/lib/perl/5.24.4/Pod/Perldoc/ToRtf.pm
+FILERPROVIDESFLIST_perl-module-pod-perldoc-tortf: /usr/lib/perl/5.24.4/Pod/Perldoc/ToRtf.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Pod/Perldoc/ToRtf.pm": 2149}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Pod/Perldoc/ToRtf.pm_perl-module-pod-perldoc-tortf:  perl(Pod::Perldoc::ToRtf)
+PKGSIZE_perl-module-pod-perldoc-tortf: 2149

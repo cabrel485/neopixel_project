@@ -1,0 +1,26 @@
+PN: opkg-utils
+PV: 0.3.6
+PR: r0
+PKGV: 0.3.6
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Additional utilities for the opkg package manager.
+SUMMARY: Additional utilities for the opkg package manager
+RDEPENDS_opkg-utils: python3 python3-compression python3-crypt python3-fcntl python3-io python3-logging python3-math python3-pickle python3-shell python3-stringold
+RRECOMMENDS_opkg-utils: opkg-utils-lic
+SECTION: base
+PKG_opkg-utils: opkg-utils
+FILES_opkg-utils: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/opkg-utils /usr/lib/opkg-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/arfile.py": 4326, "/usr/bin/opkg-list-fields": 274, "/usr/bin/opkg-extract-file": 1013, "/usr/bin/opkg-make-index": 8264, "/usr/bin/opkg-unbuild": 799, "/usr/bin/opkg-show-deps": 2856, "/usr/bin/opkg.py": 20674, "/usr/bin/opkg-diff": 221, "/usr/bin/opkg-buildpackage": 5370, "/usr/bin/opkg-build": 9462, "/usr/bin/opkg-compare-indexes": 1516}
+FILERDEPENDSFLIST_opkg-utils: /usr/bin/opkg-list-fields /usr/bin/opkg-extract-file /usr/bin/opkg-make-index /usr/bin/opkg-diff /usr/bin/opkg-buildpackage /usr/bin/opkg.py /usr/bin/opkg-unbuild /usr/bin/opkg-show-deps /usr/bin/opkg-build /usr/bin/opkg-compare-indexes
+FILERDEPENDS_/usr/bin/opkg-list-fields_opkg-utils:  /usr/bin/env
+FILERDEPENDS_/usr/bin/opkg-extract-file_opkg-utils:  /bin/sh
+FILERDEPENDS_/usr/bin/opkg-make-index_opkg-utils:  /usr/bin/env
+FILERDEPENDS_/usr/bin/opkg-diff_opkg-utils:  /bin/sh
+FILERDEPENDS_/usr/bin/opkg-buildpackage_opkg-utils:  /bin/sh
+FILERDEPENDS_/usr/bin/opkg.py_opkg-utils:  /usr/bin/env
+FILERDEPENDS_/usr/bin/opkg-unbuild_opkg-utils:  /usr/bin/env
+FILERDEPENDS_/usr/bin/opkg-show-deps_opkg-utils:  /usr/bin/env
+FILERDEPENDS_/usr/bin/opkg-build_opkg-utils:  /bin/sh
+FILERDEPENDS_/usr/bin/opkg-compare-indexes_opkg-utils:  /usr/bin/env
+PKGSIZE_opkg-utils: 54775

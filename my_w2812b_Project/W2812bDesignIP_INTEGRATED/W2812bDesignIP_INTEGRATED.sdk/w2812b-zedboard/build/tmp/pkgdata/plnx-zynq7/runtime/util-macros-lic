@@ -1,0 +1,15 @@
+PN: util-macros
+PE: 1
+PV: 1.19.2
+PR: r0
+PKGE: 1
+PKGV: 1.19.2
+PKGR: r0
+LICENSE: MIT & MIT-style
+DESCRIPTION: M4 autotools macros used by various X.org programs.
+SUMMARY: X autotools macros
+SECTION: x11/utils
+PKG_util-macros-lic: util-macros-lic
+FILES_util-macros-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/util-macros/COPYING": 2283, "/usr/share/licenses/util-macros/generic_MIT": 1080, "/usr/share/licenses/util-macros/generic_MIT-style": 1080}
+PKGSIZE_util-macros-lic: 3363

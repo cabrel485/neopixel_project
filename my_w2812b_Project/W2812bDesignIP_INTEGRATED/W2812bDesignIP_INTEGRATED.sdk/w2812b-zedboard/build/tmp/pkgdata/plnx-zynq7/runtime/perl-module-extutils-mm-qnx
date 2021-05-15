@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-qnx: perl module extutils-mm-qnx
+SUMMARY_perl-module-extutils-mm-qnx: perl module extutils-mm-qnx
+RDEPENDS_perl-module-extutils-mm-qnx: perl perl-module-extutils-mm-unix perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-mm-qnx: perl-module-extutils-mm-qnx
+FILES_perl-module-extutils-mm-qnx: /usr/lib/perl/5.24.4/ExtUtils/MM_QNX.pm
+FILERPROVIDESFLIST_perl-module-extutils-mm-qnx: /usr/lib/perl/5.24.4/ExtUtils/MM@underscore@QNX.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/MM_QNX.pm": 871}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/MM@underscore@QNX.pm_perl-module-extutils-mm-qnx:  perl(ExtUtils::MM_QNX)
+PKGSIZE_perl-module-extutils-mm-qnx: 871

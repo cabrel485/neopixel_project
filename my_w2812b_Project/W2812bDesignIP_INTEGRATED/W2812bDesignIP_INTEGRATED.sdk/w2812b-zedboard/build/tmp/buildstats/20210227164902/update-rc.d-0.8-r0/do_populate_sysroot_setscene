@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444656.89 
+update-rc.d-0.8-r0: do_populate_sysroot_setscene
+Elapsed time: 0.10 seconds
+utime: 13
+stime: 2
+cutime: 0
+cstime: 1
+IO wchar: 126857
+IO syscr: 171
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 187219
+IO syscw: 120
+rusage ru_utime: 0.13841699999999998
+rusage ru_stime: 0.023069
+rusage ru_maxrss: 131272
+rusage ru_minflt: 6648
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 144
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 72
+Child rusage ru_utime: 0.009797
+Child rusage ru_stime: 0.014110999999999999
+Child rusage ru_maxrss: 128512
+Child rusage ru_minflt: 2155
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1614444656.99 

@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ip6t-dnpt: iptables module ip6t-dnpt
+SUMMARY_iptables-module-ip6t-dnpt: iptables module ip6t-dnpt
+RDEPENDS_iptables-module-ip6t-dnpt: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ip6t-dnpt: iptables-module-ip6t-dnpt
+FILES_iptables-module-ip6t-dnpt: /usr/lib/xtables/libip6t_DNPT.so
+FILERPROVIDESFLIST_iptables-module-ip6t-dnpt: /usr/lib/xtables/libip6t@underscore@DNPT.so
+FILES_INFO: {"/usr/lib/xtables/libip6t_DNPT.so": 5512}
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@DNPT.so_iptables-module-ip6t-dnpt:  libip6t_DNPT.so
+FILERDEPENDSFLIST_iptables-module-ip6t-dnpt: /usr/lib/xtables/libip6t@underscore@DNPT.so
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@DNPT.so_iptables-module-ip6t-dnpt:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ip6t-dnpt: 5512

@@ -1,0 +1,21 @@
+DEBUG: Executing shell function do_configure
+MISC_ARG is  -yamlconf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/fsbl/2019.1+gitAUTOINC+26c14d9861-r0/fsbl.yaml
+APP_ARG is  -app "Zynq FSBL"
+Using xsct from: /home/wilson/Xilinx/Petalinux/tools/xsct/bin/xsct
+cmd is: xsct -sdx -nodisp /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/fsbl/2019.1+gitAUTOINC+26c14d9861-r0/app.tcl -ws /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/fsbl/2019.1+gitAUTOINC+26c14d9861-r0/build -pname fsbl -rp /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/fsbl/2019.1+gitAUTOINC+26c14d9861-r0/git -processor ps7_cortexa9_0 -hdf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/images/plnx-zynq7/Xilinx-plnx-zynq7.hdf -arch 32  -app "Zynq FSBL"  -yamlconf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/fsbl/2019.1+gitAUTOINC+26c14d9861-r0/fsbl.yaml
+INFO: [Hsi 55-1698] elapsed time for repository loading 0 seconds
+Opening the hardware design, this may take few seconds.
+App name
+Description
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 816.344 ; gain = 14.285 ; free physical = 265 ; free virtual = 1677
+INFO: create bsp using fsbl_domain
+App name
+Description
+Creating app at: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/fsbl/2019.1+gitAUTOINC+26c14d9861-r0/build
+App name
+Description
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 827.941 ; gain = 11.598 ; free physical = 188 ; free virtual = 1607
+hsi::generate_app: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 827.941 ; gain = 11.598 ; free physical = 187 ; free virtual = 1603
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+DEBUG: Python function do_qa_configure finished

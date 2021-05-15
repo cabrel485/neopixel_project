@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444874.37 
+u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: do_create_extlinux_config
+Elapsed time: 0.01 seconds
+utime: 11
+stime: 2
+cutime: 0
+cstime: 0
+IO wchar: 46815
+IO syscr: 38
+IO write_bytes: 16384
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 115926
+IO syscw: 29
+rusage ru_utime: 0.116573
+rusage ru_stime: 0.020097999999999998
+rusage ru_maxrss: 131712
+rusage ru_minflt: 3920
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 32
+rusage ru_nvcsw: 1
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.0
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 0
+Child rusage ru_minflt: 0
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 0
+Child rusage ru_nivcsw: 0
+Status: PASSED 
+Ended: 1614444874.38 

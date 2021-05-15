@@ -1,0 +1,21 @@
+PN: openssl
+PV: 1.1.1a
+PR: r0
+PKGV: 1.1.1a
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RDEPENDS_libssl: libcrypto (>= 1.1.1a) glibc (>= 2.28)
+RPROVIDES_libssl:  libssl (=1.1.1a)
+RRECOMMENDS_libssl: openssl-lic
+SECTION: libs/network
+PKG_libssl: libssl1.1
+FILES_libssl: /usr/lib/libssl.so.*
+pkg_postinst_libssl: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libssl: /usr/lib/libssl.so.1.1
+FILES_INFO: {"/usr/lib/libssl.so.1.1": 340276}
+FILERPROVIDES_/usr/lib/libssl.so.1.1_libssl:  libssl.so.1.1(OPENSSL_1_1_0) libssl.so.1.1(OPENSSL_1_1_0d) libssl.so.1.1(OPENSSL_1_1_0d) libssl.so.1.1(OPENSSL_1_1_1) libssl.so.1.1(OPENSSL_1_1_1) libssl.so.1.1(OPENSSL_1_1_1a) libssl.so.1.1(OPENSSL_1_1_1a) libssl.so.1.1
+FILERDEPENDSFLIST_libssl: /usr/lib/libssl.so.1.1
+FILERDEPENDS_/usr/lib/libssl.so.1.1_libssl:  libpthread.so.0(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0d) libcrypto.so.1.1(OPENSSL_1_1_0i) libcrypto.so.1.1(OPENSSL_1_1_0f) libcrypto.so.1.1(OPENSSL_1_1_1) libcrypto.so.1.1(OPENSSL_1_1_0) libcrypto.so.1.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_libssl: 340276

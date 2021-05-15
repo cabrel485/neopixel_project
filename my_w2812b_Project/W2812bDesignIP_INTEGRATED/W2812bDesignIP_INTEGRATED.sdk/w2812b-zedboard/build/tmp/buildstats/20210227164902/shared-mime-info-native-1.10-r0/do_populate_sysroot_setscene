@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444644.73 
+shared-mime-info-native-1.10-r0: do_populate_sysroot_setscene
+Elapsed time: 0.12 seconds
+utime: 26
+stime: 8
+cutime: 2
+cstime: 1
+IO wchar: 4906455
+IO syscr: 504
+IO write_bytes: 2490368
+IO cancelled_write_bytes: 53248
+IO read_bytes: 352256
+IO rchar: 3029816
+IO syscw: 464
+rusage ru_utime: 0.263275
+rusage ru_stime: 0.087758
+rusage ru_maxrss: 131492
+rusage ru_minflt: 14465
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 460
+Child rusage ru_utime: 0.029387
+Child rusage ru_stime: 0.015385
+Child rusage ru_maxrss: 128724
+Child rusage ru_minflt: 2454
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 688
+Child rusage ru_oublock: 4688
+Child rusage ru_nvcsw: 97
+Child rusage ru_nivcsw: 95
+Status: PASSED 
+Ended: 1614444644.86 

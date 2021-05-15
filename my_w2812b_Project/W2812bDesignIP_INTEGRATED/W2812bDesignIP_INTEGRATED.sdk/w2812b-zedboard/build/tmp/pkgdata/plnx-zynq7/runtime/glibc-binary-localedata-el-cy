@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-el-cy: binary locale definition for el-cy
+SUMMARY_glibc-binary-localedata-el-cy: binary locale definition for el-cy
+SECTION: base
+PKG_glibc-binary-localedata-el-cy: glibc-binary-localedata-el-cy
+FILES_glibc-binary-localedata-el-cy: /usr/lib/locale/el_CY
+FILES_INFO: {"/usr/lib/locale/el_CY/LC_COLLATE": 2586242, "/usr/lib/locale/el_CY/LC_PAPER": 34, "/usr/lib/locale/el_CY/LC_MEASUREMENT": 23, "/usr/lib/locale/el_CY/LC_NAME": 62, "/usr/lib/locale/el_CY/LC_TELEPHONE": 52, "/usr/lib/locale/el_CY/LC_CTYPE": 337024, "/usr/lib/locale/el_CY/LC_MESSAGES/SYS_LC_MESSAGES": 76, "/usr/lib/locale/el_CY/LC_IDENTIFICATION": 365, "/usr/lib/locale/el_CY/LC_MONETARY": 290, "/usr/lib/locale/el_CY/LC_ADDRESS": 167, "/usr/lib/locale/el_CY/LC_NUMERIC": 54, "/usr/lib/locale/el_CY/LC_TIME": 3940}
+PKGSIZE_glibc-binary-localedata-el-cy: 2928329

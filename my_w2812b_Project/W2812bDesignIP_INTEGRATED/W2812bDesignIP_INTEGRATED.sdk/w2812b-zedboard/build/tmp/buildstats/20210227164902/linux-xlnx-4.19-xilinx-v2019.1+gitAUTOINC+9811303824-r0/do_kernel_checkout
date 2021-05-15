@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444734.79 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_kernel_checkout
+Elapsed time: 1.24 seconds
+utime: 26
+stime: 2
+cutime: 65
+cstime: 26
+IO wchar: 6568718
+IO syscr: 6404
+IO write_bytes: 6782976
+IO cancelled_write_bytes: 6414336
+IO read_bytes: 2621440
+IO rchar: 7825518
+IO syscw: 1342
+rusage ru_utime: 0.268684
+rusage ru_stime: 0.026868
+rusage ru_maxrss: 131948
+rusage ru_minflt: 6125
+rusage ru_majflt: 0
+rusage ru_inblock: 984
+rusage ru_oublock: 72
+rusage ru_nvcsw: 36
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.652304
+Child rusage ru_stime: 0.26567199999999996
+Child rusage ru_maxrss: 279860
+Child rusage ru_minflt: 78154
+Child rusage ru_majflt: 18
+Child rusage ru_inblock: 4136
+Child rusage ru_oublock: 13176
+Child rusage ru_nvcsw: 975
+Child rusage ru_nivcsw: 529
+Status: PASSED 
+Ended: 1614444736.02 

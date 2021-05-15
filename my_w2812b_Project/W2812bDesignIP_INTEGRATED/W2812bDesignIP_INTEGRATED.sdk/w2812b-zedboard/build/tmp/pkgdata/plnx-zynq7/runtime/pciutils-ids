@@ -1,0 +1,14 @@
+PN: pciutils
+PV: 3.6.2
+PR: r0
+PKGV: 3.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_pciutils-ids: Package providing the PCI device ID database for pciutils.
+SUMMARY_pciutils-ids: PCI utilities - device ID database
+RRECOMMENDS_pciutils-ids: pciutils-lic
+SECTION: console/utils
+PKG_pciutils-ids: pciutils-ids
+FILES_pciutils-ids: /usr/share/pci.ids*
+FILES_INFO: {"/usr/share/pci.ids.gz": 262848}
+PKGSIZE_pciutils-ids: 262848

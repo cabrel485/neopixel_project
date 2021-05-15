@@ -1,0 +1,13 @@
+PN: bash
+PV: 4.4.18
+PR: r0
+PKGV: 4.4.18
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION: An sh-compatible command language interpreter.
+SUMMARY: An sh-compatible command language interpreter
+SECTION: base/shell
+PKG_bash-lic: bash-lic
+FILES_bash-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/bash/generic_GPLv3": 34694, "/usr/share/licenses/bash/COPYING": 35147}
+PKGSIZE_bash-lic: 69841

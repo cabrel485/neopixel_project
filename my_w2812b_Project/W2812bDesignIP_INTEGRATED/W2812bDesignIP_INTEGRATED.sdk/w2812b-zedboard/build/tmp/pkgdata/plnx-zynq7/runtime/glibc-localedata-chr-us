@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-chr-us: locale definition for chr-us
+SUMMARY_glibc-localedata-chr-us: locale definition for chr-us
+RDEPENDS_glibc-localedata-chr-us: glibc-localedata-en-us
+SECTION: base
+PKG_glibc-localedata-chr-us: glibc-localedata-chr-us
+FILES_glibc-localedata-chr-us: /usr/share/i18n/locales/chr_US
+FILES_INFO: {"/usr/share/i18n/locales/chr_US": 3416}
+PKGSIZE_glibc-localedata-chr-us: 3416

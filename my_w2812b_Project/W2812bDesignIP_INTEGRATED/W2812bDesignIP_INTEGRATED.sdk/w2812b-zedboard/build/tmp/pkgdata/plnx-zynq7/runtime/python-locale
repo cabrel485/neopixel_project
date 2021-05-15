@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY: The Python Programming Language
+RRECOMMENDS_python-locale: python-lic
+SECTION: devel/python
+PKG_python-locale: python-locale
+FILES_python-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_python-locale: 0

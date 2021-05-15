@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444642.58 
+glib-2.0-1_2.58.0-r0: do_package_write_rpm_setscene
+Elapsed time: 0.23 seconds
+utime: 27
+stime: 4
+cutime: 8
+cstime: 4
+IO wchar: 27508401
+IO syscr: 2418
+IO write_bytes: 13938688
+IO cancelled_write_bytes: 0
+IO read_bytes: 12722176
+IO rchar: 26701325
+IO syscw: 2175
+rusage ru_utime: 0.278811
+rusage ru_stime: 0.044416
+rusage ru_maxrss: 131540
+rusage ru_minflt: 13523
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 84
+rusage ru_nivcsw: 166
+Child rusage ru_utime: 0.08311299999999999
+Child rusage ru_stime: 0.048434
+Child rusage ru_maxrss: 128788
+Child rusage ru_minflt: 2267
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24848
+Child rusage ru_oublock: 27000
+Child rusage ru_nvcsw: 442
+Child rusage ru_nivcsw: 473
+Status: PASSED 
+Ended: 1614444642.80 

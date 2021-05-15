@@ -1,0 +1,2 @@
+#!/bin/sh
+rm -rf /usr/lib/xcb-proto/xcbgen/__pycache__

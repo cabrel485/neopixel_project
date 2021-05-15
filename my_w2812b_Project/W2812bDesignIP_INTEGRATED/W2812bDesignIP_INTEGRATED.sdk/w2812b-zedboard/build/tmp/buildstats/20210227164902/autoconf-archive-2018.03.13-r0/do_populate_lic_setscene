@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444629.24 
+autoconf-archive-2018.03.13-r0: do_populate_lic_setscene
+Elapsed time: 0.13 seconds
+utime: 14
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 213668
+IO syscr: 181
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 263834
+IO syscw: 138
+rusage ru_utime: 0.14627199999999999
+rusage ru_stime: 0.032108
+rusage ru_maxrss: 131336
+rusage ru_minflt: 6788
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 118
+Child rusage ru_utime: 0.010681
+Child rusage ru_stime: 0.014185999999999999
+Child rusage ru_maxrss: 128588
+Child rusage ru_minflt: 2227
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444629.37 

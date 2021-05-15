@@ -1,0 +1,13 @@
+PN: shadow
+PV: 4.6
+PR: r0
+PKGV: 4.6
+PKGR: r0
+LICENSE: BSD | Artistic-1.0
+DESCRIPTION: Tools to change and administer password and group data.
+SUMMARY: Tools to change and administer password and group data
+SECTION: base/utils
+PKG_shadow-lic: shadow-lic
+FILES_shadow-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/shadow/generic_Artistic-1.0": 4785, "/usr/share/licenses/shadow/passwd.c": 1491, "/usr/share/licenses/shadow/generic_BSD": 1499, "/usr/share/licenses/shadow/COPYING": 4993}
+PKGSIZE_shadow-lic: 12768

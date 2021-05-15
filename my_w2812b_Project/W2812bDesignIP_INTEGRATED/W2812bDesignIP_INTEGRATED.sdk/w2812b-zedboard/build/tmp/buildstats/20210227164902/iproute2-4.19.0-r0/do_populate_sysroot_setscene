@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444584.09 
+iproute2-4.19.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.14 seconds
+utime: 25
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 233876
+IO syscr: 193
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+IO read_bytes: 1122304
+IO rchar: 263899
+IO syscw: 149
+rusage ru_utime: 0.259613
+rusage ru_stime: 0.036508
+rusage ru_maxrss: 131376
+rusage ru_minflt: 13244
+rusage ru_majflt: 1
+rusage ru_inblock: 160
+rusage ru_oublock: 168
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.014587999999999999
+Child rusage ru_stime: 0.019358999999999998
+Child rusage ru_maxrss: 128620
+Child rusage ru_minflt: 2239
+Child rusage ru_majflt: 9
+Child rusage ru_inblock: 2032
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 53
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1614444584.23 

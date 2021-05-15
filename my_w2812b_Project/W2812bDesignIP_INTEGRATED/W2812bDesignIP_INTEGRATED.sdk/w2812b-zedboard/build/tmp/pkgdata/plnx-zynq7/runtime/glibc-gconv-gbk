@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-gbk: gconv module for character set gbk
+SUMMARY_glibc-gconv-gbk: gconv module for character set gbk
+RDEPENDS_glibc-gconv-gbk: glibc-gconv glibc (>= 2.28)
+SECTION: base
+PKG_glibc-gconv-gbk: glibc-gconv-gbk
+FILES_glibc-gconv-gbk: /usr/lib/gconv/GBK.so
+FILES_INFO: {"/usr/lib/gconv/GBK.so": 111996}
+PKGSIZE_glibc-gconv-gbk: 111996

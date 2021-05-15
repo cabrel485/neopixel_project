@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-nfqueue: iptables module xt-nfqueue
+SUMMARY_iptables-module-xt-nfqueue: iptables module xt-nfqueue
+RDEPENDS_iptables-module-xt-nfqueue: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-nfqueue: iptables-module-xt-nfqueue
+FILES_iptables-module-xt-nfqueue: /usr/lib/xtables/libxt_NFQUEUE.so
+FILERPROVIDESFLIST_iptables-module-xt-nfqueue: /usr/lib/xtables/libxt@underscore@NFQUEUE.so
+FILES_INFO: {"/usr/lib/xtables/libxt_NFQUEUE.so": 9924}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@NFQUEUE.so_iptables-module-xt-nfqueue:  libxt_NFQUEUE.so
+FILERDEPENDSFLIST_iptables-module-xt-nfqueue: /usr/lib/xtables/libxt@underscore@NFQUEUE.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@NFQUEUE.so_iptables-module-xt-nfqueue:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-nfqueue: 9924

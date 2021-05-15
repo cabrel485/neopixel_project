@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444662.41 
+opkg-utils-native-0.3.6-r0: do_populate_sysroot_setscene
+Elapsed time: 0.11 seconds
+utime: 24
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 293442
+IO syscr: 193
+IO write_bytes: 192512
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 345437
+IO syscw: 177
+rusage ru_utime: 0.247356
+rusage ru_stime: 0.051864999999999994
+rusage ru_maxrss: 131388
+rusage ru_minflt: 13262
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 113
+Child rusage ru_utime: 0.016932
+Child rusage ru_stime: 0.016835
+Child rusage ru_maxrss: 128588
+Child rusage ru_minflt: 2250
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 200
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1614444662.52 

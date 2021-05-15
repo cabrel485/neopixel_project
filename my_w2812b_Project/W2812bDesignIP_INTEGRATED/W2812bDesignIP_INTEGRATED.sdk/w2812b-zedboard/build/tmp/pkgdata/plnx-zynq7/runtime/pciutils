@@ -1,0 +1,19 @@
+PN: pciutils
+PV: 3.6.2
+PR: r0
+PKGV: 3.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.
+SUMMARY: PCI utilities
+RDEPENDS_pciutils: pciutils-ids zlib (>= 1.2.11) libkmod (>= 25+git0+aca4eca103) glibc (>= 2.28) libpci (>= 3.6.2)
+RRECOMMENDS_pciutils: pciutils-lic
+SECTION: console/utils
+PKG_pciutils: pciutils
+FILES_pciutils: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/pciutils /usr/lib/pciutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/sbin/setpci": 17892, "/usr/sbin/update-pciids": 1749, "/usr/bin/lspci": 13, "/usr/sbin/lspci": 60440}
+FILERDEPENDSFLIST_pciutils: /usr/sbin/setpci /usr/sbin/update-pciids /usr/sbin/lspci
+FILERDEPENDS_/usr/sbin/setpci_pciutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpci.so.3(LIBPCI_3.1) libpci.so.3(LIBPCI_3.5) libpci.so.3(LIBPCI_3.3) libpci.so.3(LIBPCI_3.0) libpci.so.3 libz.so.1 libresolv.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/update-pciids_pciutils:  /bin/sh
+FILERDEPENDS_/usr/sbin/lspci_pciutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpci.so.3(LIBPCI_3.6) libpci.so.3(LIBPCI_3.5) libpci.so.3(LIBPCI_3.1) libpci.so.3(LIBPCI_3.3) libpci.so.3(LIBPCI_3.0) libkmod.so.2(LIBKMOD_5) libpci.so.3 libz.so.1 libresolv.so.2 libkmod.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_pciutils: 80094

@@ -1,0 +1,64 @@
+DEBUG: Executing python function clean_recipe_sysroot
+DEBUG: Python function clean_recipe_sysroot finished
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Searching for inittab in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/
+DEBUG: Searching for start_getty in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-core/sysvinit/files/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab-2.88dsf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/sysvinit-inittab/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/sysvinit/files/
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444590.72 
+gnome-desktop-testing-2014.1-r1: do_package_write_rpm_setscene
+Elapsed time: 0.22 seconds
+utime: 23
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 478199
+IO syscr: 201
+IO write_bytes: 258048
+IO cancelled_write_bytes: 0
+IO read_bytes: 139264
+IO rchar: 529677
+IO syscw: 155
+rusage ru_utime: 0.23785699999999999
+rusage ru_stime: 0.041009
+rusage ru_maxrss: 131392
+rusage ru_minflt: 13277
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 68
+Child rusage ru_utime: 0.018586
+Child rusage ru_stime: 0.013226
+Child rusage ru_maxrss: 128608
+Child rusage ru_minflt: 2269
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 272
+Child rusage ru_oublock: 336
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1614444590.94 

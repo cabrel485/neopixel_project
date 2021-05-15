@@ -1,0 +1,15 @@
+PN: unzip
+PE: 1
+PV: 6.0
+PR: r5
+PKGE: 1
+PKGV: 6.0
+PKGR: r5
+LICENSE: BSD-3-Clause
+DESCRIPTION: Utilities for extracting and viewing files in .zip archives.
+SUMMARY: Utilities for extracting and viewing files in .zip archives
+SECTION: console/utils
+PKG_unzip-lic: unzip-lic
+FILES_unzip-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/unzip/generic_BSD-3-Clause": 1468, "/usr/share/licenses/unzip/LICENSE": 3606}
+PKGSIZE_unzip-lic: 5074

@@ -1,0 +1,14 @@
+PN: libmnl
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libmnl-doc: Minimalistic user-space library oriented to Netlink developers, providing     functions for common tasks in parsing, validating, and constructing both the Netlink header and TLVs.  This package contains documentation.
+SUMMARY_libmnl-doc: Minimalistic user-space Netlink utility library - Documentation files
+RRECOMMENDS_libmnl-doc: libmnl-lic
+SECTION_libmnl-doc: doc
+PKG_libmnl-doc: libmnl-doc
+FILES_libmnl-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libmnl-doc: 0

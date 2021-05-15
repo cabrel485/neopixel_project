@@ -1,0 +1,15 @@
+PN: dbus-test
+PV: 1.12.10
+PR: r0
+PKGV: 1.12.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-test-staticdev: D-Bus test package (for D-bus functionality testing only).  This package contains static libraries for software development.
+SUMMARY_dbus-test-staticdev: D-Bus test package (for D-bus functionality testing only) - Development files (Static Libraries)
+RDEPENDS_dbus-test-staticdev: dbus-test-dev (= 1.12.10-r0)
+RRECOMMENDS_dbus-test-staticdev: dbus-test-lic
+SECTION_dbus-test-staticdev: devel
+PKG_dbus-test-staticdev: dbus-test-staticdev
+FILES_dbus-test-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dbus-test/*.a
+FILES_INFO: {}
+PKGSIZE_dbus-test-staticdev: 0

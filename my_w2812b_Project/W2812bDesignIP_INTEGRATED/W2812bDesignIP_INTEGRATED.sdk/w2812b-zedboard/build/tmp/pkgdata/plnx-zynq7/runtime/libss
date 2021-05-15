@@ -1,0 +1,21 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_libss: libcomerr (>= 1.44.3) glibc (>= 2.28)
+RPROVIDES_libss:  libss (=1.44.3)
+RRECOMMENDS_libss: e2fsprogs-lic
+SECTION: base
+PKG_libss: libss2
+FILES_libss: /lib/libss.so.*
+pkg_postinst_libss: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libss: /lib/libss.so.2.0
+FILES_INFO: {"/lib/libss.so.2.0": 17700, "/lib/libss.so.2": 12}
+FILERPROVIDES_/lib/libss.so.2.0_libss:  libss.so.2
+FILERDEPENDSFLIST_libss: /lib/libss.so.2.0
+FILERDEPENDS_/lib/libss.so.2.0_libss:  libdl.so.2(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcom_err.so.2 libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_libss: 17712

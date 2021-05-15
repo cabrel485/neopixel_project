@@ -1,0 +1,8 @@
+recipe-sysroot-native/sysroot-providers/cross-localedef-native
+recipe-sysroot-native/usr/share/x86_64-linux_config_site.d/cross-localedef_config
+recipe-sysroot-native/usr/bin/cross-localedef
+recipe-sysroot-native/usr/share/x86_64-linux_config_site.d/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/

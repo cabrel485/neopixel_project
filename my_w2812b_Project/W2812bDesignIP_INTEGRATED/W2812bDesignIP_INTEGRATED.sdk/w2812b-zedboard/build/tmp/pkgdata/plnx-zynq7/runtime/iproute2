@@ -1,0 +1,27 @@
+PN: iproute2
+PV: 4.19.0
+PR: r0
+PKGV: 4.19.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.
+SUMMARY: TCP / IP networking and traffic control utilities
+RDEPENDS_iproute2: update-alternatives-opkg libcap (>= 2.25) libmnl (>= 1.0.4) libelf (>= 0.175) glibc (>= 2.28)
+RRECOMMENDS_iproute2: iproute2-lic
+SECTION: base
+PKG_iproute2: iproute2
+FILES_iproute2: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/iproute2 /usr/lib/iproute2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_iproute2: #!/bin/sh\nset -e\n\tupdate-alternatives --install /sbin/ip ip /sbin/ip.iproute2 100\n
+pkg_prerm_iproute2: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  ip /sbin/ip.iproute2\n
+FILERPROVIDESFLIST_iproute2:  /sbin/ip.iproute2
+FILES_INFO: {"/sbin/routef": 208, "/sbin/rtpr": 70, "/sbin/ip.iproute2": 412308, "/sbin/ifcfg": 3109, "/etc/iproute2/ematch_map": 81, "/etc/iproute2/rt_tables": 87, "/etc/iproute2/nl_protos": 262, "/etc/iproute2/rt_protos": 201, "/etc/iproute2/rt_realms": 112, "/etc/iproute2/bpf_pinning": 85, "/sbin/bridge": 58864, "/etc/iproute2/rt_dsfield": 331, "/sbin/rtmon": 46532, "/etc/iproute2/rt_scopes": 92, "/etc/iproute2/group": 31, "/sbin/routel": 1656}
+FILERPROVIDES_/sbin/ip.iproute2_iproute2:  /sbin/ip
+FILERDEPENDSFLIST_iproute2: /sbin/routef /sbin/rtpr /sbin/ip.iproute2 /sbin/ifcfg /sbin/bridge /sbin/rtmon /sbin/routel
+FILERDEPENDS_/sbin/routef_iproute2:  /bin/sh
+FILERDEPENDS_/sbin/rtpr_iproute2:  /bin/sh
+FILERDEPENDS_/sbin/ip.iproute2_iproute2:  libdl.so.2(GLIBC_2.4) libmnl.so.0(LIBMNL_1.0) ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.27) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libelf.so.1 libmnl.so.0 libcap.so.2 libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/ifcfg_iproute2:  /bin/sh
+FILERDEPENDS_/sbin/bridge_iproute2:  libmnl.so.0(LIBMNL_1.0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libmnl.so.0 libcap.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/rtmon_iproute2:  libmnl.so.0(LIBMNL_1.0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libmnl.so.0 libcap.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/routel_iproute2:  /bin/sh
+PKGSIZE_iproute2: 524029

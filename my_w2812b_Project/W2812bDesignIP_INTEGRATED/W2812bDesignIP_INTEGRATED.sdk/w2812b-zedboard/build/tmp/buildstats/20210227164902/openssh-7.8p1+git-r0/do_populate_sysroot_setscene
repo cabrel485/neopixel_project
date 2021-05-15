@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444622.86 
+openssh-7.8p1+git-r0: do_populate_sysroot_setscene
+Elapsed time: 0.17 seconds
+utime: 26
+stime: 6
+cutime: 3
+cstime: 1
+IO wchar: 244394
+IO syscr: 349
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+IO read_bytes: 364544
+IO rchar: 426890
+IO syscw: 190
+rusage ru_utime: 0.26392899999999997
+rusage ru_stime: 0.062099999999999995
+rusage ru_maxrss: 131884
+rusage ru_minflt: 16325
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 288
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 91
+Child rusage ru_utime: 0.037964
+Child rusage ru_stime: 0.011439999999999999
+Child rusage ru_maxrss: 129180
+Child rusage ru_minflt: 3889
+Child rusage ru_majflt: 3
+Child rusage ru_inblock: 712
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 47
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1614444623.03 

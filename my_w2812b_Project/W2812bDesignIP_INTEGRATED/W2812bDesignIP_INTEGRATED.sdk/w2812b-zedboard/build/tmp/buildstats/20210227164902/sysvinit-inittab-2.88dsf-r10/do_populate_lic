@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444761.97 
+sysvinit-inittab-2.88dsf-r10: do_populate_lic
+Elapsed time: 0.21 seconds
+utime: 16
+stime: 5
+cutime: 2
+cstime: 2
+IO wchar: 168369
+IO syscr: 1350
+IO write_bytes: 139264
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 368790
+IO syscw: 84
+rusage ru_utime: 0.160603
+rusage ru_stime: 0.050922999999999996
+rusage ru_maxrss: 131760
+rusage ru_minflt: 12878
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 256
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.028147
+Child rusage ru_stime: 0.025342999999999997
+Child rusage ru_maxrss: 129072
+Child rusage ru_minflt: 4340
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 41
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1614444762.18 

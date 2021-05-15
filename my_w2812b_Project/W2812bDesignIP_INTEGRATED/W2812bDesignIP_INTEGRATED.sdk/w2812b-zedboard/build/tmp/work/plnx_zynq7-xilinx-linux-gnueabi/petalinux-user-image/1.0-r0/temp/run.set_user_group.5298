@@ -1,0 +1,301 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export AR="arm-xilinx-linux-gnueabi-ar"
+export ARCH="arm"
+export AS="arm-xilinx-linux-gnueabi-as "
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export BUILD_CC="gcc "
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_CPP="gcc  -E"
+export BUILD_CPPFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/include"
+export BUILD_CXX="g++ "
+export BUILD_CXXFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_FC="gfortran "
+export BUILD_LD="ld "
+export BUILD_LDFLAGS="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export BUILD_STRIP="strip"
+export CC="arm-xilinx-linux-gnueabi-gcc  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot"
+export CCACHE_DIR="/home/wilson/.ccache"
+export CCLD="arm-xilinx-linux-gnueabi-gcc  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot"
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0=/usr/src/debug/petalinux-user-image/1.0-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native= "
+export CPP="arm-xilinx-linux-gnueabi-gcc -E --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security"
+export CPPFLAGS=""
+export CXX="arm-xilinx-linux-gnueabi-g++  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot"
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0=/usr/src/debug/petalinux-user-image/1.0-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden"
+unset DISTRO
+export FC="arm-xilinx-linux-gnueabi-gfortran  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot"
+export HOME="/home/wilson"
+export LC_ALL="en_US.UTF-8"
+export LD="arm-xilinx-linux-gnueabi-ld --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot "
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now"
+export LOGNAME="wilson"
+unset MACHINE
+export MAKE="make"
+export NM="arm-xilinx-linux-gnueabi-nm"
+export OBJCOPY="arm-xilinx-linux-gnueabi-objcopy"
+export OBJDUMP="arm-xilinx-linux-gnueabi-objdump"
+export PACKAGE_INSTALL="udev-extraconf kernel-modules pciutils myapp openssh-sftp-server run-postinsts packagegroup-core-boot tcf-agent shadow canutils mtd-utils base-passwd bridge-utils packagegroup-core-ssh-dropbear"
+export PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/opt/petalinux/2019.1/sysroots/x86_64-petalinux-linux/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/bin/python3-native:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/bin/python3-native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/bin/arm-xilinx-linux-gnueabi:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/microblaze/lin/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/armr5/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch64/lin/aarch64-none/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/bitbake/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools"
+export PKG_CONFIG_DIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export PKG_CONFIG_LIBDIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/lib/pkgconfig:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot"
+export PKG_CONFIG_SYSTEM_INCLUDE_PATH="/usr/include"
+export PKG_CONFIG_SYSTEM_LIBRARY_PATH="/lib:/usr/lib"
+export PSEUDO_DISABLED="0"
+export PSEUDO_LOCALSTATEDIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/pseudo/"
+export PSEUDO_NOSYMLINKEXP="1"
+export PSEUDO_PASSWD="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native"
+export PSEUDO_PREFIX="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/pseudo-native/usr"
+export RANLIB="arm-xilinx-linux-gnueabi-ranlib"
+export READELF="arm-xilinx-linux-gnueabi-readelf"
+unset SHELL
+export STAGING_INCDIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/include"
+export STAGING_LIBDIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot/usr/lib"
+export STRINGS="arm-xilinx-linux-gnueabi-strings"
+export STRIP="arm-xilinx-linux-gnueabi-strip"
+unset TARGET_ARCH
+export TARGET_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0=/usr/src/debug/petalinux-user-image/1.0-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native= "
+export TARGET_CPPFLAGS=""
+export TARGET_CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0=/usr/src/debug/petalinux-user-image/1.0-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native= "
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now"
+export TERM="xterm-256color"
+export TZ="UTC"
+export UBOOT_ARCH="arm"
+export USER="wilson"
+export base_bindir="/bin"
+export base_libdir="/lib"
+export base_prefix=""
+export base_sbindir="/sbin"
+export bindir="/usr/bin"
+export datadir="/usr/share"
+export docdir="/usr/share/doc"
+export exec_prefix="/usr"
+export includedir="/usr/include"
+export infodir="/usr/share/info"
+export libdir="/usr/lib"
+export libexecdir="/usr/libexec"
+export localstatedir="/var"
+export mandir="/usr/share/man"
+export nonarch_base_libdir="/lib"
+export nonarch_libdir="/usr/lib"
+export oldincludedir="/usr/include"
+export prefix="/usr"
+export sbindir="/usr/sbin"
+export servicedir="/srv"
+export sharedstatedir="/com"
+export sysconfdir="/etc"
+export systemd_system_unitdir="/lib/systemd/system"
+export systemd_unitdir="/lib/systemd"
+export systemd_user_unitdir="/usr/lib/systemd/user"
+
+set_user_group() {
+	user_group_settings="usermod -P root root;"
+	export PSEUDO="PSEUDO_PREFIX=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/pseudo-native/usr PSEUDO_LOCALSTATEDIR=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/pseudo/ PSEUDO_PASSWD=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native PSEUDO_NOSYMLINKEXP=1 PSEUDO_DISABLED=0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/bin/pseudo"
+	setting=`echo $user_group_settings | cut -d ';' -f1`
+	remaining=`echo $user_group_settings | cut -d ';' -f2-`
+	while test "x$setting" != "x"; do
+		cmd=`echo $setting | cut -d ' ' -f1`
+		opts=`echo $setting | cut -d ' ' -f2-`
+		# Different from useradd.bbclass, there's no file locking issue here, as
+		# this setting is actually a serial process. So we only retry once.
+		case $cmd in
+			useradd)
+				perform_useradd "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs" "-R /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs $opts"
+				;;
+			groupadd)
+				perform_groupadd "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs" "-R /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs $opts"
+				;;
+			userdel)
+				perform_userdel "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs" "-R /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs $opts"
+				;;
+			groupdel)
+				perform_groupdel "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs" "-R /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs $opts"
+				;;
+			usermod)
+				perform_usermod "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs" "-R /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs $opts"
+				;;
+			groupmod)
+				perform_groupmod "/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs" "-R /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs $opts"
+				;;
+			*)
+				bbfatal "Invalid command in EXTRA_USERS_PARAMS: $cmd"
+				;;
+		esac
+		# Avoid infinite loop if the last parameter doesn't end with ';'
+		if [ "$setting" = "$remaining" ]; then
+			break
+		fi
+		# iterate to the next setting
+		setting=`echo $remaining | cut -d ';' -f1`
+		remaining=`echo $remaining | cut -d ';' -f2-`
+	done
+}
+
+perform_groupdel() {
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "petalinux-user-image: Performing groupdel with [$opts]"
+	local groupname=`echo "$opts" | awk '{ print $NF }'`
+	local group_exists="`grep "^$groupname:" $rootdir/etc/group || true`"
+
+	if test "x$group_exists" != "x"; then
+		local awk_input='BEGIN {FS=":"}; $1=="'$groupname'" { print $3 }'
+		local groupid=`echo "$awk_input" | awk -f- $rootdir/etc/group`
+		local awk_check_users='BEGIN {FS=":"}; $4=="'$groupid'" {print $1}'
+		local other_users=`echo "$awk_check_users" | awk -f- $rootdir/etc/passwd`
+
+		if test "x$other_users" = "x"; then
+			eval flock -x $rootdir/etc -c \"$PSEUDO groupdel \$opts\" || true
+			group_exists="`grep "^$groupname:" $rootdir/etc/group || true`"
+			if test "x$group_exists" != "x"; then
+				bbfatal "petalinux-user-image: groupdel command did not succeed."
+			fi
+		else
+			bbnote "petalinux-user-image: '$groupname' is primary group for users '$other_users', not removing it"
+		fi
+	else
+		bbnote "petalinux-user-image: group $groupname doesn't exist, not removing it"
+	fi
+}
+
+perform_useradd() {
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "petalinux-user-image: Performing useradd with [$opts]"
+	local username=`echo "$opts" | awk '{ print $NF }'`
+	local user_exists="`grep "^$username:" $rootdir/etc/passwd || true`"
+	if test "x$user_exists" = "x"; then
+		eval flock -x $rootdir/etc -c  \"$PSEUDO useradd \$opts\" || true
+		user_exists="`grep "^$username:" $rootdir/etc/passwd || true`"
+		if test "x$user_exists" = "x"; then
+			bbfatal "petalinux-user-image: useradd command did not succeed."
+		fi
+	else
+		bbnote "petalinux-user-image: user $username already exists, not re-creating it"
+	fi
+}
+
+perform_usermod() {
+	# Same reason with groupmod, temporarily disable -e option
+	set +e
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "petalinux-user-image: Performing usermod with [$opts]"
+	local username=`echo "$opts" | awk '{ print $NF }'`
+	local user_exists="`grep "^$username:" $rootdir/etc/passwd || true`"
+	if test "x$user_exists" != "x"; then
+		eval flock -x $rootdir/etc -c \"$PSEUDO usermod \$opts\"
+		if test $? != 0; then
+			bbfatal "petalinux-user-image: usermod command did not succeed."
+		fi
+	else
+		bbwarn "petalinux-user-image: user $username doesn't exist, unable to modify it"
+	fi
+	set -e
+}
+
+bbfatal() {
+	if [ -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/temp/fifo.5298 ] ; then
+		printf "%b\0" "bbfatal $*" > /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/temp/fifo.5298
+	else
+		echo "ERROR: $*"
+	fi
+	exit 1
+}
+
+perform_groupadd() {
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "petalinux-user-image: Performing groupadd with [$opts]"
+	local groupname=`echo "$opts" | awk '{ print $NF }'`
+	local group_exists="`grep "^$groupname:" $rootdir/etc/group || true`"
+	if test "x$group_exists" = "x"; then
+		eval flock -x $rootdir/etc -c \"$PSEUDO groupadd \$opts\" || true
+		group_exists="`grep "^$groupname:" $rootdir/etc/group || true`"
+		if test "x$group_exists" = "x"; then
+			bbfatal "petalinux-user-image: groupadd command did not succeed."
+		fi
+	else
+		bbnote "petalinux-user-image: group $groupname already exists, not re-creating it"
+	fi
+}
+
+perform_userdel() {
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "petalinux-user-image: Performing userdel with [$opts]"
+	local username=`echo "$opts" | awk '{ print $NF }'`
+	local user_exists="`grep "^$username:" $rootdir/etc/passwd || true`"
+	if test "x$user_exists" != "x"; then
+		eval flock -x $rootdir/etc -c \"$PSEUDO userdel \$opts\" || true
+		user_exists="`grep "^$username:" $rootdir/etc/passwd || true`"
+		if test "x$user_exists" != "x"; then
+			bbfatal "petalinux-user-image: userdel command did not succeed."
+		fi
+	else
+		bbnote "petalinux-user-image: user $username doesn't exist, not removing it"
+	fi
+}
+
+perform_groupmod() {
+	# Other than the return value of groupmod, there's no simple way to judge whether the command
+	# succeeds, so we disable -e option temporarily
+	set +e
+	local rootdir="$1"
+	local opts="$2"
+	bbnote "petalinux-user-image: Performing groupmod with [$opts]"
+	local groupname=`echo "$opts" | awk '{ print $NF }'`
+	local group_exists="`grep "^$groupname:" $rootdir/etc/group || true`"
+	if test "x$group_exists" != "x"; then
+		eval flock -x $rootdir/etc -c \"$PSEUDO groupmod \$opts\"
+		if test $? != 0; then
+			bbwarn "petalinux-user-image: groupmod command did not succeed."
+		fi
+	else
+		bbwarn "petalinux-user-image: group $groupname doesn't exist, unable to modify it"
+	fi
+	set -e
+}
+
+bbnote() {
+	if [ -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/temp/fifo.5298 ] ; then
+		printf "%b\0" "bbnote $*" > /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/temp/fifo.5298
+	else
+		echo "NOTE: $*"
+	fi
+}
+
+bbwarn() {
+	if [ -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/temp/fifo.5298 ] ; then
+		printf "%b\0" "bbwarn $*" > /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/temp/fifo.5298
+	else
+		echo "WARNING: $*"
+	fi
+}
+
+set_user_group
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

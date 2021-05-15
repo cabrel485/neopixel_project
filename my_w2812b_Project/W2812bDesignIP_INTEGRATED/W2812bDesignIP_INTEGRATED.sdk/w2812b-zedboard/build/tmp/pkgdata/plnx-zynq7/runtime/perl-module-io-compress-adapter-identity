@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-compress-adapter-identity: perl module io-compress-adapter-identity
+SUMMARY_perl-module-io-compress-adapter-identity: perl module io-compress-adapter-identity
+RDEPENDS_perl-module-io-compress-adapter-identity: perl perl-module-bytes perl-module-io-compress-base-common perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-io-compress-adapter-identity: perl-module-io-compress-adapter-identity
+FILES_perl-module-io-compress-adapter-identity: /usr/lib/perl/5.24.4/IO/Compress/Adapter/Identity.pm
+FILERPROVIDESFLIST_perl-module-io-compress-adapter-identity: /usr/lib/perl/5.24.4/IO/Compress/Adapter/Identity.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/IO/Compress/Adapter/Identity.pm": 1442}
+FILERPROVIDES_/usr/lib/perl/5.24.4/IO/Compress/Adapter/Identity.pm_perl-module-io-compress-adapter-identity:  perl(IO::Compress::Adapter::Identity)
+PKGSIZE_perl-module-io-compress-adapter-identity: 1442

@@ -1,0 +1,15 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-modules: Kernel modules meta package
+SUMMARY: Linux kernel
+RDEPENDS_kernel-modules: kernel-module-8021q-4.19.0-xilinx-v2019.1 kernel-module-bridge-4.19.0-xilinx-v2019.1 kernel-module-crypto-engine-4.19.0-xilinx-v2019.1 kernel-module-drbg-4.19.0-xilinx-v2019.1 kernel-module-echainiv-4.19.0-xilinx-v2019.1 kernel-module-g-zero-4.19.0-xilinx-v2019.1 kernel-module-hmac-4.19.0-xilinx-v2019.1 kernel-module-ipip-4.19.0-xilinx-v2019.1 kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1 kernel-module-libcomposite-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1 kernel-module-p8022-4.19.0-xilinx-v2019.1 kernel-module-psnap-4.19.0-xilinx-v2019.1 kernel-module-remoteproc-4.19.0-xilinx-v2019.1 kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1 kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1 kernel-module-sha256-generic-4.19.0-xilinx-v2019.1 kernel-module-stp-4.19.0-xilinx-v2019.1 kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1 kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1 kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1 kernel-module-virtio-4.19.0-xilinx-v2019.1 kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1 kernel-module-virtio-ring-4.19.0-xilinx-v2019.1 kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1 kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1
+RRECOMMENDS_kernel-modules: linux-xlnx-lic
+SECTION: kernel
+PKG_kernel-modules: kernel-modules
+ALLOW_EMPTY_kernel-modules: 1
+FILES_INFO: {}
+PKGSIZE_kernel-modules: 0

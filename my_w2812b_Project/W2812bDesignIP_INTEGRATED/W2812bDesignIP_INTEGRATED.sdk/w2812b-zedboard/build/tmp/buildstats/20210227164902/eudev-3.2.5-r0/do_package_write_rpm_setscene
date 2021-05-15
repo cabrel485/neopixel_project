@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444593.11 
+eudev-3.2.5-r0: do_package_write_rpm_setscene
+Elapsed time: 0.24 seconds
+utime: 24
+stime: 5
+cutime: 2
+cstime: 1
+IO wchar: 4043480
+IO syscr: 492
+IO write_bytes: 2043904
+IO cancelled_write_bytes: 0
+IO read_bytes: 1904640
+IO rchar: 4083873
+IO syscw: 397
+rusage ru_utime: 0.241449
+rusage ru_stime: 0.051216
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13388
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 168
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 109
+Child rusage ru_utime: 0.029977
+Child rusage ru_stime: 0.01291
+Child rusage ru_maxrss: 128704
+Child rusage ru_minflt: 2217
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3704
+Child rusage ru_oublock: 3824
+Child rusage ru_nvcsw: 80
+Child rusage ru_nivcsw: 88
+Status: PASSED 
+Ended: 1614444593.35 

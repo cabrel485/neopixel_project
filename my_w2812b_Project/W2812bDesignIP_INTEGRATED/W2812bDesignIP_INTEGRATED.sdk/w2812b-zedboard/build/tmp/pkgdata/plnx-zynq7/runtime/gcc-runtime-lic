@@ -1,0 +1,13 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY: Runtime libraries from GCC
+SECTION: devel
+PKG_gcc-runtime-lic: gcc-runtime-lic
+FILES_gcc-runtime-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/gcc-runtime/COPYING": 18002, "/usr/share/licenses/gcc-runtime/COPYING3.LIB": 7639, "/usr/share/licenses/gcc-runtime/COPYING3": 35147, "/usr/share/licenses/gcc-runtime/COPYING.LIB": 26527, "/usr/share/licenses/gcc-runtime/COPYING.RUNTIME": 3324, "/usr/share/licenses/gcc-runtime/generic_GPL-3.0-with-GCC-exception": 3406}
+PKGSIZE_gcc-runtime-lic: 94045

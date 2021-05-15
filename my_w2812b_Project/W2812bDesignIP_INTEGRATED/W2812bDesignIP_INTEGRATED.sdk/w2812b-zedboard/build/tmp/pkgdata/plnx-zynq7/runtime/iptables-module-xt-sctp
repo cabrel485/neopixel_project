@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-sctp: iptables module xt-sctp
+SUMMARY_iptables-module-xt-sctp: iptables module xt-sctp
+RDEPENDS_iptables-module-xt-sctp: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-sctp: iptables-module-xt-sctp
+FILES_iptables-module-xt-sctp: /usr/lib/xtables/libxt_sctp.so
+FILERPROVIDESFLIST_iptables-module-xt-sctp: /usr/lib/xtables/libxt@underscore@sctp.so
+FILES_INFO: {"/usr/lib/xtables/libxt_sctp.so": 9604}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@sctp.so_iptables-module-xt-sctp:  libxt_sctp.so
+FILERDEPENDSFLIST_iptables-module-xt-sctp: /usr/lib/xtables/libxt@underscore@sctp.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@sctp.so_iptables-module-xt-sctp:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-sctp: 9604

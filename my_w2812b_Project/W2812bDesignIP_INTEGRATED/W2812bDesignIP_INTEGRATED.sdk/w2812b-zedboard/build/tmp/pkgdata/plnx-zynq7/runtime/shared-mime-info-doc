@@ -1,0 +1,14 @@
+PN: shared-mime-info
+PV: 1.10
+PR: r0
+PKGV: 1.10
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_shared-mime-info-doc: Shared MIME type database and specification.  This package contains documentation.
+SUMMARY_shared-mime-info-doc: Shared MIME type database and specification - Documentation files
+RRECOMMENDS_shared-mime-info-doc: shared-mime-info-lic
+SECTION_shared-mime-info-doc: doc
+PKG_shared-mime-info-doc: shared-mime-info-doc
+FILES_shared-mime-info-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/update-mime-database.1": 1491}
+PKGSIZE_shared-mime-info-doc: 1491

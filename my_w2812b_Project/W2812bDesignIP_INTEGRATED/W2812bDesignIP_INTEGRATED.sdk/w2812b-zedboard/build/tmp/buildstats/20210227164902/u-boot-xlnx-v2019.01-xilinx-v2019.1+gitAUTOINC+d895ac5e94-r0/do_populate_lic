@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444811.61 
+u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: do_populate_lic
+Elapsed time: 0.22 seconds
+utime: 20
+stime: 3
+cutime: 3
+cstime: 2
+IO wchar: 206849
+IO syscr: 391
+IO write_bytes: 159744
+IO cancelled_write_bytes: 8192
+IO read_bytes: 12288
+IO rchar: 599132
+IO syscw: 100
+rusage ru_utime: 0.20743499999999998
+rusage ru_stime: 0.031913
+rusage ru_maxrss: 131724
+rusage ru_minflt: 13384
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 296
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 104
+Child rusage ru_utime: 0.034832999999999996
+Child rusage ru_stime: 0.020589
+Child rusage ru_maxrss: 129036
+Child rusage ru_minflt: 4392
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 43
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1614444811.83 

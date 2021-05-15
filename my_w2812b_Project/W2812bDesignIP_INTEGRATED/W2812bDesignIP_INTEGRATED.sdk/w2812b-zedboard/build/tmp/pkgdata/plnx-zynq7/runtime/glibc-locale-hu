@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-hu: Locale data from glibc.  This package contains language translation files for the hu locale.
+SUMMARY_glibc-locale-hu: Locale data from glibc - hu translations
+RPROVIDES_glibc-locale-hu: glibc-locale hu-translation
+RRECOMMENDS_glibc-locale-hu: virtual-locale-hu
+SECTION: base
+PKG_glibc-locale-hu: glibc-locale-hu
+FILES_glibc-locale-hu: /usr/share/locale/hu
+FILES_INFO: {}
+PKGSIZE_glibc-locale-hu: 0

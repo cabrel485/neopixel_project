@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444623.52 
+libcap-2.25-r0: do_package_qa_setscene
+Elapsed time: 0.17 seconds
+utime: 22
+stime: 2
+cutime: 0
+cstime: 0
+IO wchar: 123734
+IO syscr: 83
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 168819
+IO syscw: 109
+rusage ru_utime: 0.224075
+rusage ru_stime: 0.029876
+rusage ru_maxrss: 131216
+rusage ru_minflt: 11976
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 96
+Child rusage ru_utime: 0.009285999999999999
+Child rusage ru_stime: 0.002693
+Child rusage ru_maxrss: 128512
+Child rusage ru_minflt: 1089
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 8
+Status: PASSED 
+Ended: 1614444623.70 

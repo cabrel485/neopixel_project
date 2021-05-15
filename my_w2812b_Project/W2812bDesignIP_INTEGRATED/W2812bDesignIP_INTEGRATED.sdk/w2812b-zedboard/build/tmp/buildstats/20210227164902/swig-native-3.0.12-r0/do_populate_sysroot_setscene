@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444636.47 
+swig-native-3.0.12-r0: do_populate_sysroot_setscene
+Elapsed time: 0.22 seconds
+utime: 28
+stime: 6
+cutime: 4
+cstime: 6
+IO wchar: 12359630
+IO syscr: 2402
+IO write_bytes: 8822784
+IO cancelled_write_bytes: 1679360
+IO read_bytes: 1343488
+IO rchar: 8806674
+IO syscw: 3094
+rusage ru_utime: 0.282925
+rusage ru_stime: 0.063757
+rusage ru_maxrss: 131728
+rusage ru_minflt: 14961
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 592
+rusage ru_nvcsw: 785
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.049638999999999996
+Child rusage ru_stime: 0.060547
+Child rusage ru_maxrss: 128728
+Child rusage ru_minflt: 3005
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2624
+Child rusage ru_oublock: 16640
+Child rusage ru_nvcsw: 214
+Child rusage ru_nivcsw: 844
+Status: PASSED 
+Ended: 1614444636.69 

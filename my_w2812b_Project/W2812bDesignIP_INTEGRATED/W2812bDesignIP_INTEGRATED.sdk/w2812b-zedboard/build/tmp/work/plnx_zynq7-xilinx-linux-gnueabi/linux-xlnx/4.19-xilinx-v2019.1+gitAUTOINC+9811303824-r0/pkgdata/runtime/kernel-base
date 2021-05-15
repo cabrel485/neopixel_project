@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RPROVIDES_kernel-base:  kernel-4.19.0-xilinx-v2019.1 kernel-base (=4.19-xilinx-v2019.1+git0+9811303824)
+RRECOMMENDS_kernel-base: linux-xlnx-lic
+SECTION: kernel
+PKG_kernel-base: kernel-4.19.0-xilinx-v2019.1
+ALLOW_EMPTY_kernel-base: 1
+FILES_kernel-base: /lib/modules/4.19.0-xilinx-v2019.1/modules.order /lib/modules/4.19.0-xilinx-v2019.1/modules.builtin
+pkg_postinst_kernel-base: set -e\n\tif [ ! -e "$D/lib/modules/4.19.0-xilinx-v2019.1" ]; then\n\t\tmkdir -p $D/lib/modules/4.19.0-xilinx-v2019.1\n\tfi\n\tif [ -n "$D" ]; then\n\t\tdepmodwrapper -a -b $D 4.19.0-xilinx-v2019.1\n\telse\n\t\tdepmod -a 4.19.0-xilinx-v2019.1\n\tfi\n
+FILES_INFO: {"/lib/modules/4.19.0-xilinx-v2019.1/modules.builtin": 9438, "/lib/modules/4.19.0-xilinx-v2019.1/modules.order": 879}
+PKGSIZE_kernel-base: 10317

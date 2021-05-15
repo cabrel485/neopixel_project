@@ -1,0 +1,13 @@
+PN: canutils
+PV: 4.0.6
+PR: r0
+PKGV: 4.0.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: canutils (PTX flavour).
+SUMMARY: canutils (PTX flavour)
+SECTION: console/network
+PKG_canutils-lic: canutils-lic
+FILES_canutils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/canutils/COPYING": 17992, "/usr/share/licenses/canutils/generic_GPLv2": 17611}
+PKGSIZE_canutils-lic: 35603

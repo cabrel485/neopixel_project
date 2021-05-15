@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444618.40 
+libpcre-8.42-r0: do_package_write_rpm_setscene
+Elapsed time: 0.12 seconds
+utime: 24
+stime: 4
+cutime: 0
+cstime: 2
+IO wchar: 3071265
+IO syscr: 417
+IO write_bytes: 1568768
+IO cancelled_write_bytes: 0
+IO read_bytes: 1363968
+IO rchar: 3089432
+IO syscw: 341
+rusage ru_utime: 0.248143
+rusage ru_stime: 0.047264999999999995
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13366
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 207
+Child rusage ru_utime: 0.009472
+Child rusage ru_stime: 0.028149
+Child rusage ru_maxrss: 128728
+Child rusage ru_minflt: 2264
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2664
+Child rusage ru_oublock: 2904
+Child rusage ru_nvcsw: 68
+Child rusage ru_nivcsw: 77
+Status: PASSED 
+Ended: 1614444618.52 

@@ -1,0 +1,15 @@
+PN: ptest-runner
+PV: 2.2+gitAUTOINC+49956f65bb
+PR: r0
+PKGV: 2.2+git0+49956f65bb
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_ptest-runner-dbg: The ptest-runner2 package installs a ptest-runner program which loops through all installed ptest test suites and runs them in sequence.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ptest-runner-dbg: A C program to run all installed ptests - Debugging files
+RRECOMMENDS_ptest-runner-dbg: ptest-runner-lic glibc-dbg
+SECTION_ptest-runner-dbg: devel
+PKG_ptest-runner-dbg: ptest-runner-dbg
+ALLOW_EMPTY_ptest-runner-dbg: 1
+FILES_ptest-runner-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/main.c": 3985, "/usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/utils.c": 9213, "/usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/ptest_list.c": 3788, "/usr/bin/.debug/ptest-runner": 48332, "/usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/utils.h": 1754, "/usr/src/debug/ptest-runner/2.2+gitAUTOINC+49956f65bb-r0/git/ptest_list.h": 1850}
+PKGSIZE_ptest-runner-dbg: 68922

@@ -1,0 +1,13 @@
+PN: tzdata
+PV: 2018g
+PR: r0
+PKGV: 2018g
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+SECTION: base
+PKG_tzdata-lic: tzdata-lic
+FILES_tzdata-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/tzdata/generic_BSD-3-Clause": 1468, "/usr/share/licenses/tzdata/generic_BSD": 1499, "/usr/share/licenses/tzdata/generic_PD": 52, "/usr/share/licenses/tzdata/LICENSE": 252}
+PKGSIZE_tzdata-lic: 3271

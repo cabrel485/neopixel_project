@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-es-pe: binary locale definition for es-pe
+SUMMARY_glibc-binary-localedata-es-pe: binary locale definition for es-pe
+SECTION: base
+PKG_glibc-binary-localedata-es-pe: glibc-binary-localedata-es-pe
+FILES_glibc-binary-localedata-es-pe: /usr/lib/locale/es_PE
+FILES_INFO: {"/usr/lib/locale/es_PE/LC_COLLATE": 2586242, "/usr/lib/locale/es_PE/LC_NUMERIC": 54, "/usr/lib/locale/es_PE/LC_ADDRESS": 151, "/usr/lib/locale/es_PE/LC_MONETARY": 290, "/usr/lib/locale/es_PE/LC_CTYPE": 337024, "/usr/lib/locale/es_PE/LC_NAME": 62, "/usr/lib/locale/es_PE/LC_TIME": 3324, "/usr/lib/locale/es_PE/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/es_PE/LC_PAPER": 34, "/usr/lib/locale/es_PE/LC_TELEPHONE": 51, "/usr/lib/locale/es_PE/LC_MEASUREMENT": 23, "/usr/lib/locale/es_PE/LC_IDENTIFICATION": 339}
+PKGSIZE_glibc-binary-localedata-es-pe: 2927653

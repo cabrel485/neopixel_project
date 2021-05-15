@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-compress-gzip-constants: perl module io-compress-gzip-constants
+SUMMARY_perl-module-io-compress-gzip-constants: perl module io-compress-gzip-constants
+RDEPENDS_perl-module-io-compress-gzip-constants: perl perl-module-bytes perl-module-constant perl-module-exporter perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-io-compress-gzip-constants: perl-module-io-compress-gzip-constants
+FILES_perl-module-io-compress-gzip-constants: /usr/lib/perl/5.24.4/IO/Compress/Gzip/Constants.pm
+FILERPROVIDESFLIST_perl-module-io-compress-gzip-constants: /usr/lib/perl/5.24.4/IO/Compress/Gzip/Constants.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/IO/Compress/Gzip/Constants.pm": 3907}
+FILERPROVIDES_/usr/lib/perl/5.24.4/IO/Compress/Gzip/Constants.pm_perl-module-io-compress-gzip-constants:  perl(IO::Compress::Gzip::Constants)
+PKGSIZE_perl-module-io-compress-gzip-constants: 3907

@@ -1,0 +1,15 @@
+PN: tzdata
+PV: 2018g
+PR: r0
+PKGV: 2018g
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-misc: tzdata-misc
+RRECOMMENDS_tzdata-misc: tzdata-lic
+SECTION: base
+PKG_tzdata-misc: tzdata-misc
+FILES_tzdata-misc:  /usr/share/zoneinfo/Cuba                           /usr/share/zoneinfo/Egypt                                /usr/share/zoneinfo/Eire                                 /usr/share/zoneinfo/Factory                              /usr/share/zoneinfo/GB-Eire                              /usr/share/zoneinfo/Hongkong                             /usr/share/zoneinfo/Iceland                              /usr/share/zoneinfo/Iran                                 /usr/share/zoneinfo/Israel                               /usr/share/zoneinfo/Jamaica                              /usr/share/zoneinfo/Japan                                /usr/share/zoneinfo/Kwajalein                            /usr/share/zoneinfo/Libya                                /usr/share/zoneinfo/Navajo                               /usr/share/zoneinfo/Poland                               /usr/share/zoneinfo/Portugal                             /usr/share/zoneinfo/Singapore                            /usr/share/zoneinfo/Turkey
+FILES_INFO: {"/usr/share/zoneinfo/Jamaica": 498, "/usr/share/zoneinfo/Japan": 309, "/usr/share/zoneinfo/Factory": 120, "/usr/share/zoneinfo/Eire": 3522, "/usr/share/zoneinfo/Singapore": 415, "/usr/share/zoneinfo/Cuba": 2428, "/usr/share/zoneinfo/Israel": 2256, "/usr/share/zoneinfo/Poland": 2696, "/usr/share/zoneinfo/GB-Eire": 3678, "/usr/share/zoneinfo/Libya": 641, "/usr/share/zoneinfo/Portugal": 3469, "/usr/share/zoneinfo/Turkey": 2157, "/usr/share/zoneinfo/Kwajalein": 250, "/usr/share/zoneinfo/Navajo": 2444, "/usr/share/zoneinfo/Iceland": 1174, "/usr/share/zoneinfo/Iran": 1704, "/usr/share/zoneinfo/Hongkong": 1175, "/usr/share/zoneinfo/Egypt": 1963}
+PKGSIZE_tzdata-misc: 30899

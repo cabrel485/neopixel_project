@@ -1,0 +1,10 @@
+do_fetch (25100): log.do_fetch.25100
+do_prepare_recipe_sysroot (25116): log.do_prepare_recipe_sysroot.25116
+do_unpack (25178): log.do_unpack.25178
+do_patch (25213): log.do_patch.25213
+do_populate_lic (25222): log.do_populate_lic.25222
+do_configure (25263): log.do_configure.25263
+do_compile (25280): log.do_compile.25280
+do_install (25298): log.do_install.25298
+do_populate_sysroot (25349): log.do_populate_sysroot.25349
+do_rm_work (25440): log.do_rm_work.25440

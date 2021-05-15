@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444713.16 
+device-tree-xilinx+gitAUTOINC+73e546e312-r0: do_create_yaml
+Elapsed time: 0.04 seconds
+utime: 19
+stime: 2
+cutime: 0
+cstime: 0
+IO wchar: 17756
+IO syscr: 71
+IO write_bytes: 20480
+IO cancelled_write_bytes: 0
+IO read_bytes: 978944
+IO rchar: 231722
+IO syscw: 27
+rusage ru_utime: 0.19480599999999998
+rusage ru_stime: 0.020291999999999998
+rusage ru_maxrss: 131948
+rusage ru_minflt: 3984
+rusage ru_majflt: 2
+rusage ru_inblock: 1912
+rusage ru_oublock: 40
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 37
+Child rusage ru_utime: 0.0
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 0
+Child rusage ru_minflt: 0
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 0
+Child rusage ru_nivcsw: 0
+Status: PASSED 
+Ended: 1614444713.20 

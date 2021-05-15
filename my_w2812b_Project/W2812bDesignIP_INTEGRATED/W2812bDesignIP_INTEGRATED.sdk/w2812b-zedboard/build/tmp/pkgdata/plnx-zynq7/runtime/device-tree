@@ -1,0 +1,14 @@
+PN: device-tree
+PV: xilinx+gitAUTOINC+73e546e312
+PR: r0
+PKGV: xilinx+git0+73e546e312
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Device Tree generation and packaging for BSP Device Trees using DTG from Xilinx
+SUMMARY: Xilinx BSP device trees
+RRECOMMENDS_device-tree: device-tree-lic
+SECTION: bsp
+PKG_device-tree: device-tree
+FILES_device-tree: /boot/devicetree/*.dtb /boot/devicetree/*.dtbo
+FILES_INFO: {"/boot/devicetree/system-top.dtb": 15336}
+PKGSIZE_device-tree: 15336

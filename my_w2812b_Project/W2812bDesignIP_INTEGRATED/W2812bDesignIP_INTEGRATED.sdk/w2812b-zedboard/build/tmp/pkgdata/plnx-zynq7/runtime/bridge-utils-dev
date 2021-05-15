@@ -1,0 +1,16 @@
+PN: bridge-utils
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_bridge-utils-dev: Tools for ethernet bridging.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_bridge-utils-dev: Tools for ethernet bridging - Development files
+RDEPENDS_bridge-utils-dev: bridge-utils (= 1.6-r0)
+RRECOMMENDS_bridge-utils-dev: bridge-utils-lic sysfsutils-dev update-alternatives-opkg-dev glibc-dev
+SECTION_bridge-utils-dev: devel
+PKG_bridge-utils-dev: bridge-utils-dev
+ALLOW_EMPTY_bridge-utils-dev: 1
+FILES_bridge-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bridge-utils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {}
+PKGSIZE_bridge-utils-dev: 0

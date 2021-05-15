@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444703.47 
+busybox-1.29.2-r0: do_populate_lic
+Elapsed time: 0.18 seconds
+utime: 23
+stime: 5
+cutime: 2
+cstime: 3
+IO wchar: 526917
+IO syscr: 345
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 483169
+IO syscw: 141
+rusage ru_utime: 0.231847
+rusage ru_stime: 0.058943999999999996
+rusage ru_maxrss: 131800
+rusage ru_minflt: 13836
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 56
+Child rusage ru_utime: 0.021641999999999998
+Child rusage ru_stime: 0.034075
+Child rusage ru_maxrss: 129112
+Child rusage ru_minflt: 4399
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 49
+Child rusage ru_nivcsw: 40
+Status: PASSED 
+Ended: 1614444703.64 

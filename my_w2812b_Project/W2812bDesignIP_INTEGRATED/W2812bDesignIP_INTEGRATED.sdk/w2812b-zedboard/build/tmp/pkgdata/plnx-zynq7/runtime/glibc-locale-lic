@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+SECTION: base
+PKG_glibc-locale-lic: glibc-locale-lic
+FILES_glibc-locale-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/glibc-locale/generic_LGPLv2.1": 25878, "/usr/share/licenses/glibc-locale/LGPL-2.1": 25878, "/usr/share/licenses/glibc-locale/GPL-2.0": 17611, "/usr/share/licenses/glibc-locale/generic_GPLv2": 17611}
+PKGSIZE_glibc-locale-lic: 43489

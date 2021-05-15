@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-typing: Python typing support
+RDEPENDS_python3-typing: python3-core
+RRECOMMENDS_python3-typing: python3-lic
+SECTION: devel/python
+PKG_python3-typing: python3-typing
+FILES_python3-typing:  /usr/lib/python3.5/typing.py /usr/lib/python3.5/__pycache__/typing.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/typing.cpython-35.pyc": 79347, "/usr/lib/python3.5/__pycache__/typing.cpython-35.opt-2.pyc": 61526, "/usr/lib/python3.5/typing.py": 80135, "/usr/lib/python3.5/__pycache__/typing.cpython-35.opt-1.pyc": 78753}
+PKGSIZE_python3-typing: 299761

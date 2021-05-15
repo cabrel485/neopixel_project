@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-shell: Python shell-like functionality
+RDEPENDS_python3-shell: python3-compression python3-core python3-stringold python3-unixadmin
+RRECOMMENDS_python3-shell: python3-lic
+SECTION: devel/python
+PKG_python3-shell: python3-shell
+FILES_python3-shell:  /usr/lib/python3.5/cmd.py /usr/lib/python3.5/fnmatch.py /usr/lib/python3.5/glob.py /usr/lib/python3.5/shlex.py /usr/lib/python3.5/shutil.py /usr/lib/python3.5/__pycache__/cmd.*.pyc /usr/lib/python3.5/__pycache__/fnmatch.*.pyc /usr/lib/python3.5/__pycache__/glob.*.pyc /usr/lib/python3.5/__pycache__/shlex.*.pyc /usr/lib/python3.5/__pycache__/shutil.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/shutil.cpython-35.opt-2.pyc": 22149, "/usr/lib/python3.5/__pycache__/cmd.cpython-35.opt-1.pyc": 13393, "/usr/lib/python3.5/__pycache__/glob.cpython-35.opt-1.pyc": 4126, "/usr/lib/python3.5/glob.py": 5072, "/usr/lib/python3.5/__pycache__/cmd.cpython-35.opt-2.pyc": 7950, "/usr/lib/python3.5/shlex.py": 11448, "/usr/lib/python3.5/__pycache__/cmd.cpython-35.pyc": 13393, "/usr/lib/python3.5/__pycache__/shlex.cpython-35.opt-2.pyc": 6822, "/usr/lib/python3.5/__pycache__/fnmatch.cpython-35.opt-1.pyc": 3116, "/usr/lib/python3.5/fnmatch.py": 3163, "/usr/lib/python3.5/__pycache__/fnmatch.cpython-35.pyc": 3116, "/usr/lib/python3.5/__pycache__/shutil.cpython-35.opt-1.pyc": 32624, "/usr/lib/python3.5/__pycache__/shlex.cpython-35.opt-1.pyc": 7338, "/usr/lib/python3.5/__pycache__/glob.cpython-35.pyc": 4187, "/usr/lib/python3.5/shutil.py": 40048, "/usr/lib/python3.5/cmd.py": 14860, "/usr/lib/python3.5/__pycache__/fnmatch.cpython-35.opt-2.pyc": 1925, "/usr/lib/python3.5/__pycache__/glob.cpython-35.opt-2.pyc": 3264, "/usr/lib/python3.5/__pycache__/shutil.cpython-35.pyc": 32624, "/usr/lib/python3.5/__pycache__/shlex.cpython-35.pyc": 7338}
+PKGSIZE_python3-shell: 237956

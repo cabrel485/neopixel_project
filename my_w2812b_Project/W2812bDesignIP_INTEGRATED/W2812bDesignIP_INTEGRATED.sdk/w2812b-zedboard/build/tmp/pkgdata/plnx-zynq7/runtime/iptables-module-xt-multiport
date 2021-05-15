@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-multiport: iptables module xt-multiport
+SUMMARY_iptables-module-xt-multiport: iptables module xt-multiport
+RDEPENDS_iptables-module-xt-multiport: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-multiport: iptables-module-xt-multiport
+FILES_iptables-module-xt-multiport: /usr/lib/xtables/libxt_multiport.so
+FILERPROVIDESFLIST_iptables-module-xt-multiport: /usr/lib/xtables/libxt@underscore@multiport.so
+FILES_INFO: {"/usr/lib/xtables/libxt_multiport.so": 9908}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@multiport.so_iptables-module-xt-multiport:  libxt_multiport.so
+FILERDEPENDSFLIST_iptables-module-xt-multiport: /usr/lib/xtables/libxt@underscore@multiport.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@multiport.so_iptables-module-xt-multiport:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-multiport: 9908

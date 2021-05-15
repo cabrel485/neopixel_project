@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444635.00 
+cpio-native-2.12-r0: do_populate_lic_setscene
+Elapsed time: 0.13 seconds
+utime: 24
+stime: 6
+cutime: 1
+cstime: 2
+IO wchar: 284856
+IO syscr: 201
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+IO read_bytes: 28672
+IO rchar: 375871
+IO syscw: 148
+rusage ru_utime: 0.248055
+rusage ru_stime: 0.06664099999999999
+rusage ru_maxrss: 131540
+rusage ru_minflt: 13402
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 215
+Child rusage ru_utime: 0.010159
+Child rusage ru_stime: 0.020827
+Child rusage ru_maxrss: 128764
+Child rusage ru_minflt: 2279
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 69
+Status: PASSED 
+Ended: 1614444635.12 

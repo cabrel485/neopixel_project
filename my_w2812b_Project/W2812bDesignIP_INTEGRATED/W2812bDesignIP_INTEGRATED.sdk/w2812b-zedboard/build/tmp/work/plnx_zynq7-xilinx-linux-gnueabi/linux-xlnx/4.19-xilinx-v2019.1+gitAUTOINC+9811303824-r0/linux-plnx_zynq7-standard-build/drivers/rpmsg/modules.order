@@ -1,0 +1,3 @@
+kernel/drivers/rpmsg/rpmsg_core.ko
+kernel/drivers/rpmsg/rpmsg_char.ko
+kernel/drivers/rpmsg/virtio_rpmsg_bus.ko

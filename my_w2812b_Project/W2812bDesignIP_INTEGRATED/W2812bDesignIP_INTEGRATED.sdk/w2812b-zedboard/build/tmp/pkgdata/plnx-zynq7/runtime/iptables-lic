@@ -1,0 +1,13 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: iptables is the userspace command line program used to configure and control network packet filtering code in Linux.
+SUMMARY: Tools for managing kernel packet filtering capabilities
+SECTION: base
+PKG_iptables-lic: iptables-lic
+FILES_iptables-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/iptables/COPYING": 18092, "/usr/share/licenses/iptables/generic_GPLv2": 17611, "/usr/share/licenses/iptables/iptables.c": 697}
+PKGSIZE_iptables-lic: 36400

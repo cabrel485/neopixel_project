@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444656.27 
+glib-2.0-native-1_2.58.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.30 seconds
+utime: 31
+stime: 8
+cutime: 5
+cstime: 8
+IO wchar: 12976014
+IO syscr: 1360
+IO write_bytes: 7176192
+IO cancelled_write_bytes: 323584
+IO read_bytes: 1888256
+IO rchar: 8774682
+IO syscw: 1747
+rusage ru_utime: 0.313627
+rusage ru_stime: 0.08624699999999999
+rusage ru_maxrss: 131752
+rusage ru_minflt: 18155
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 400
+rusage ru_nvcsw: 133
+rusage ru_nivcsw: 236
+Child rusage ru_utime: 0.056617999999999995
+Child rusage ru_stime: 0.08448599999999999
+Child rusage ru_maxrss: 128876
+Child rusage ru_minflt: 3900
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3688
+Child rusage ru_oublock: 13616
+Child rusage ru_nvcsw: 230
+Child rusage ru_nivcsw: 308
+Status: PASSED 
+Ended: 1614444656.57 

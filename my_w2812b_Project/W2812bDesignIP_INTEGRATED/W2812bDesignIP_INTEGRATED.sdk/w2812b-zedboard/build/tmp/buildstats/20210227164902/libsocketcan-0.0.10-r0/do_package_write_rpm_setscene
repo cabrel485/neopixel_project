@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444616.09 
+libsocketcan-0.0.10-r0: do_package_write_rpm_setscene
+Elapsed time: 0.21 seconds
+utime: 22
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 297576
+IO syscr: 193
+IO write_bytes: 167936
+IO cancelled_write_bytes: 0
+IO read_bytes: 49152
+IO rchar: 372828
+IO syscw: 145
+rusage ru_utime: 0.22142499999999998
+rusage ru_stime: 0.058268999999999994
+rusage ru_maxrss: 131392
+rusage ru_minflt: 13281
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 239
+Child rusage ru_utime: 0.017289
+Child rusage ru_stime: 0.011184999999999999
+Child rusage ru_maxrss: 128604
+Child rusage ru_minflt: 2257
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 96
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1614444616.30 

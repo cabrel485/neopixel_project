@@ -1,0 +1,25 @@
+!<thin>
+//                                              254       `
+xilinx/xilinx-dma.o/
+xilinx/xilinx-vip.o/
+xilinx/xilinx-vipp.o/
+xilinx/xilinx-cfa.o/
+xilinx/xilinx-cresample.o/
+xilinx/xilinx-remapper.o/
+xilinx/xilinx-rgb2yuv.o/
+xilinx/xilinx-scaler.o/
+xilinx/xilinx-switch.o/
+xilinx/xilinx-tpg.o/
+xilinx/xilinx-vtc.o/
+
+/0              0           0     0     644     14348     `
+/21             0           0     0     644     13468     `
+/42             0           0     0     644     9328      `
+/64             0           0     0     644     7232      `
+/85             0           0     0     644     8244      `
+/112            0           0     0     644     7268      `
+/138            0           0     0     644     10144     `
+/163           /0           0     0     644     9216      `
+/187           /0           0     0     644     7088      `
+/211            0           0     0     644     16852     `
+/232            0           0     0     644     7584      `

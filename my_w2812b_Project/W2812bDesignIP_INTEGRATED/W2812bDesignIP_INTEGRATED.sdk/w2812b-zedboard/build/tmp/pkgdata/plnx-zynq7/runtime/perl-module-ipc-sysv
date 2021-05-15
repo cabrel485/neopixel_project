@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-ipc-sysv: perl module ipc-sysv
+SUMMARY_perl-module-ipc-sysv: perl module ipc-sysv
+RDEPENDS_perl-module-ipc-sysv: perl perl-module-carp perl-module-config perl-module-dynaloader perl-module-exporter perl-module-strict perl-module-vars glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-ipc-sysv: perl-module-ipc-sysv
+FILES_perl-module-ipc-sysv: /usr/lib/perl/5.24.4/auto/IPC/SysV/SysV.so /usr/lib/perl/5.24.4/IPC/SysV.pm
+FILERPROVIDESFLIST_perl-module-ipc-sysv: /usr/lib/perl/5.24.4/IPC/SysV.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/auto/IPC/SysV/SysV.so": 17636, "/usr/lib/perl/5.24.4/IPC/SysV.pm": 4734}
+FILERPROVIDES_/usr/lib/perl/5.24.4/IPC/SysV.pm_perl-module-ipc-sysv:  perl(IPC::SysV)
+FILERDEPENDSFLIST_perl-module-ipc-sysv: /usr/lib/perl/5.24.4/auto/IPC/SysV/SysV.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/IPC/SysV/SysV.so_perl-module-ipc-sysv:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-ipc-sysv: 22370

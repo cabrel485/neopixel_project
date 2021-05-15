@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444612.82 
+run-postinsts-1.0-r10: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 14
+stime: 3
+cutime: 2
+cstime: 0
+IO wchar: 127377
+IO syscr: 176
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 201949
+IO syscw: 126
+rusage ru_utime: 0.144099
+rusage ru_stime: 0.030336
+rusage ru_maxrss: 131308
+rusage ru_minflt: 6736
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 166
+Child rusage ru_utime: 0.020614999999999998
+Child rusage ru_stime: 0.007117
+Child rusage ru_maxrss: 128588
+Child rusage ru_minflt: 2170
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444612.95 

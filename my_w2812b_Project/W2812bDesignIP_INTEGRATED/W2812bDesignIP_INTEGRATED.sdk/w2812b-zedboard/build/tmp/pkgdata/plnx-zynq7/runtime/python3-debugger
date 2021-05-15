@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-debugger: Python debugger
+RDEPENDS_python3-debugger: python3-core python3-pprint python3-shell python3-stringold
+RRECOMMENDS_python3-debugger: python3-lic
+SECTION: devel/python
+PKG_python3-debugger: python3-debugger
+FILES_python3-debugger:  /usr/lib/python3.5/bdb.py /usr/lib/python3.5/pdb.py /usr/lib/python3.5/__pycache__/bdb.*.pyc /usr/lib/python3.5/__pycache__/pdb.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/bdb.cpython-35.opt-1.pyc": 18544, "/usr/lib/python3.5/__pycache__/bdb.cpython-35.pyc": 18544, "/usr/lib/python3.5/__pycache__/pdb.cpython-35.opt-2.pyc": 35324, "/usr/lib/python3.5/bdb.py": 23354, "/usr/lib/python3.5/__pycache__/pdb.cpython-35.pyc": 49369, "/usr/lib/python3.5/__pycache__/bdb.cpython-35.opt-2.pyc": 16810, "/usr/lib/python3.5/__pycache__/pdb.cpython-35.opt-1.pyc": 49303, "/usr/lib/python3.5/pdb.py": 61138}
+FILERDEPENDSFLIST_python3-debugger: /usr/lib/python3.5/pdb.py
+FILERDEPENDS_/usr/lib/python3.5/pdb.py_python3-debugger:  /usr/bin/env
+PKGSIZE_python3-debugger: 272386

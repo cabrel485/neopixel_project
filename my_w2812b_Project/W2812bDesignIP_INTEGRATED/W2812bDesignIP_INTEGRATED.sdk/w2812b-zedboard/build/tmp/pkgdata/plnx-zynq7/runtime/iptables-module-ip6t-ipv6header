@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ip6t-ipv6header: iptables module ip6t-ipv6header
+SUMMARY_iptables-module-ip6t-ipv6header: iptables module ip6t-ipv6header
+RDEPENDS_iptables-module-ip6t-ipv6header: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ip6t-ipv6header: iptables-module-ip6t-ipv6header
+FILES_iptables-module-ip6t-ipv6header: /usr/lib/xtables/libip6t_ipv6header.so
+FILERPROVIDESFLIST_iptables-module-ip6t-ipv6header: /usr/lib/xtables/libip6t@underscore@ipv6header.so
+FILES_INFO: {"/usr/lib/xtables/libip6t_ipv6header.so": 5516}
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@ipv6header.so_iptables-module-ip6t-ipv6header:  libip6t_ipv6header.so
+FILERDEPENDSFLIST_iptables-module-ip6t-ipv6header: /usr/lib/xtables/libip6t@underscore@ipv6header.so
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@ipv6header.so_iptables-module-ip6t-ipv6header:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ip6t-ipv6header: 5516

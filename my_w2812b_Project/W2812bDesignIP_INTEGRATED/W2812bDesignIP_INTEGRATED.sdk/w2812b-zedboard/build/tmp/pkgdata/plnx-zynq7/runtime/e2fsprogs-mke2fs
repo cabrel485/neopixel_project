@@ -1,0 +1,25 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE_e2fsprogs-mke2fs: GPLv2
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_e2fsprogs-mke2fs: update-alternatives-opkg util-linux-libuuid (>= 2.32.1) util-linux-libblkid (>= 2.32.1) libcomerr (>= 1.44.3) glibc (>= 2.28) libe2p (>= 1.44.3) libext2fs (>= 1.44.3)
+RRECOMMENDS_e2fsprogs-mke2fs: e2fsprogs-lic
+SECTION: base
+PKG_e2fsprogs-mke2fs: e2fsprogs-mke2fs
+FILES_e2fsprogs-mke2fs: /sbin/mke2fs.e2fsprogs /sbin/mkfs.ext* /etc/mke2fs.conf
+pkg_postinst_e2fsprogs-mke2fs: #!/bin/sh\nset -e\n\tupdate-alternatives --install /sbin/mke2fs mke2fs /sbin/mke2fs.e2fsprogs 100\n\tupdate-alternatives --install /sbin/mkfs.ext2 mkfs.ext2 /sbin/mkfs.ext2.e2fsprogs 100\n
+pkg_prerm_e2fsprogs-mke2fs: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  mke2fs /sbin/mke2fs.e2fsprogs\n\tupdate-alternatives --remove  mkfs.ext2 /sbin/mkfs.ext2.e2fsprogs\n
+FILERPROVIDESFLIST_e2fsprogs-mke2fs:  /sbin/mke2fs.e2fsprogs /sbin/mkfs.ext2.e2fsprogs
+FILES_INFO: {"/sbin/mkfs.ext3": 95808, "/etc/mke2fs.conf": 832, "/sbin/mkfs.ext4": 95808, "/sbin/mkfs.ext2.e2fsprogs": 95808, "/sbin/mke2fs.e2fsprogs": 95808}
+FILERPROVIDES_/sbin/mke2fs.e2fsprogs_e2fsprogs-mke2fs:  /sbin/mke2fs
+FILERPROVIDES_/sbin/mkfs.ext2.e2fsprogs_e2fsprogs-mke2fs:  /sbin/mkfs.ext2
+FILERDEPENDSFLIST_e2fsprogs-mke2fs: /sbin/mkfs.ext3 /sbin/mke2fs.e2fsprogs /sbin/mkfs.ext2.e2fsprogs /sbin/mkfs.ext4
+FILERDEPENDS_/sbin/mkfs.ext3_e2fsprogs-mke2fs:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libext2fs.so.2 libcom_err.so.2 libblkid.so.1 libuuid.so.1 libe2p.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/mke2fs.e2fsprogs_e2fsprogs-mke2fs:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libext2fs.so.2 libcom_err.so.2 libblkid.so.1 libuuid.so.1 libe2p.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/mkfs.ext2.e2fsprogs_e2fsprogs-mke2fs:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libext2fs.so.2 libcom_err.so.2 libblkid.so.1 libuuid.so.1 libe2p.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/mkfs.ext4_e2fsprogs-mke2fs:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libext2fs.so.2 libcom_err.so.2 libblkid.so.1 libuuid.so.1 libe2p.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_e2fsprogs-mke2fs: 96640

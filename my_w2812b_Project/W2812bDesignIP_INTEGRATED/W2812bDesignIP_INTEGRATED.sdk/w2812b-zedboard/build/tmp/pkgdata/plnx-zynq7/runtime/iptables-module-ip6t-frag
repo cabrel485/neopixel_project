@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ip6t-frag: iptables module ip6t-frag
+SUMMARY_iptables-module-ip6t-frag: iptables module ip6t-frag
+RDEPENDS_iptables-module-ip6t-frag: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ip6t-frag: iptables-module-ip6t-frag
+FILES_iptables-module-ip6t-frag: /usr/lib/xtables/libip6t_frag.so
+FILERPROVIDESFLIST_iptables-module-ip6t-frag: /usr/lib/xtables/libip6t@underscore@frag.so
+FILES_INFO: {"/usr/lib/xtables/libip6t_frag.so": 5508}
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@frag.so_iptables-module-ip6t-frag:  libip6t_frag.so
+FILERDEPENDSFLIST_iptables-module-ip6t-frag: /usr/lib/xtables/libip6t@underscore@frag.so
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@frag.so_iptables-module-ip6t-frag:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ip6t-frag: 5508

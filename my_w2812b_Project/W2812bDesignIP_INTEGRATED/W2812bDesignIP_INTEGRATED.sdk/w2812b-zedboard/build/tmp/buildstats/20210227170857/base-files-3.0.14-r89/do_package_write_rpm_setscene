@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445758.73 
+base-files-3.0.14-r89: do_package_write_rpm_setscene
+Elapsed time: 0.11 seconds
+utime: 17
+stime: 2
+cutime: 0
+cstime: 1
+IO cancelled_write_bytes: 0
+IO wchar: 174408
+IO syscr: 1337
+IO syscw: 74
+IO rchar: 318690
+IO write_bytes: 118784
+IO read_bytes: 53248
+rusage ru_utime: 0.171241
+rusage ru_stime: 0.020883
+rusage ru_maxrss: 124344
+rusage ru_minflt: 6733
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 120
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.007767
+Child rusage ru_stime: 0.018099999999999998
+Child rusage ru_maxrss: 121532
+Child rusage ru_minflt: 2066
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 18
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1614445758.84 

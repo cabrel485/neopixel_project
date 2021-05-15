@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-stringold: Python string APIs [deprecated]
+RDEPENDS_python3-stringold: python3-core
+RRECOMMENDS_python3-stringold: python3-lic
+SECTION: devel/python
+PKG_python3-stringold: python3-stringold
+FILES_python3-stringold:  /usr/lib/python3.5/string.py /usr/lib/python3.5/__pycache__/string.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/string.cpython-35.opt-2.pyc": 7485, "/usr/lib/python3.5/__pycache__/string.cpython-35.opt-1.pyc": 8595, "/usr/lib/python3.5/string.py": 11854, "/usr/lib/python3.5/__pycache__/string.cpython-35.pyc": 8595}
+PKGSIZE_python3-stringold: 36529

@@ -1,0 +1,5 @@
+recipe-sysroot/sysroot-providers/virtual_fsbl
+recipe-sysroot/sysroot-providers/fsbl
+recipe-sysroot/boot/fsbl.elf
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/boot/

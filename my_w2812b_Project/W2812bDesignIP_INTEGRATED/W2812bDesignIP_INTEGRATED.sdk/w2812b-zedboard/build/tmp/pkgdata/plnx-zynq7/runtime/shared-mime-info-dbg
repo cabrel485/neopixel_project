@@ -1,0 +1,15 @@
+PN: shared-mime-info
+PV: 1.10
+PR: r0
+PKGV: 1.10
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_shared-mime-info-dbg: Shared MIME type database and specification.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_shared-mime-info-dbg: Shared MIME type database and specification - Debugging files
+RRECOMMENDS_shared-mime-info-dbg: shared-mime-info-lic libxml2-dbg glib-2.0-dbg glibc-dbg
+SECTION_shared-mime-info-dbg: devel
+PKG_shared-mime-info-dbg: shared-mime-info-dbg
+ALLOW_EMPTY_shared-mime-info-dbg: 1
+FILES_shared-mime-info-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/shared-mime-info/1.10-r0/shared-mime-info-1.10/update-mime-database.c": 86536, "/usr/bin/.debug/update-mime-database": 149876}
+PKGSIZE_shared-mime-info-dbg: 236412

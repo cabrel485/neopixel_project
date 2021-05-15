@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ca-es+valencia: locale definition for ca-es+valencia
+SUMMARY_glibc-localedata-ca-es+valencia: locale definition for ca-es+valencia
+RDEPENDS_glibc-localedata-ca-es+valencia: glibc-localedata-ca-es
+SECTION: base
+PKG_glibc-localedata-ca-es+valencia: glibc-localedata-ca-es+valencia
+FILES_glibc-localedata-ca-es+valencia: /usr/share/i18n/locales/ca_ES@valencia
+FILES_INFO: {"/usr/share/i18n/locales/ca_ES@valencia": 1839}
+PKGSIZE_glibc-localedata-ca-es+valencia: 1839

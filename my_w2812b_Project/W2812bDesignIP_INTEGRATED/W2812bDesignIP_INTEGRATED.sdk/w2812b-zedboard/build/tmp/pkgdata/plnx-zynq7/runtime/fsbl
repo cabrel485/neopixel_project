@@ -1,0 +1,14 @@
+PN: fsbl
+PV: 2019.1+gitAUTOINC+26c14d9861
+PR: r0
+PKGV: 2019.1+git0+26c14d9861
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: FSBL
+SUMMARY: fsbl version 2019.1+gitAUTOINC+26c14d9861-r0
+RRECOMMENDS_fsbl: fsbl-lic
+SECTION: base
+PKG_fsbl: fsbl
+FILES_fsbl: /boot/fsbl.elf
+FILES_INFO: {"/boot/fsbl.elf": 560328}
+PKGSIZE_fsbl: 560328

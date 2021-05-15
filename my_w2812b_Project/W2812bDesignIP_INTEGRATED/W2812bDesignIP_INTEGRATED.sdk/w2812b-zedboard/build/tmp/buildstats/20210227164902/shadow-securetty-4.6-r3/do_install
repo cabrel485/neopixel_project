@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444747.02 
+shadow-securetty-4.6-r3: do_install
+Elapsed time: 0.15 seconds
+utime: 52
+stime: 12
+cutime: 1
+cstime: 4
+IO syscw: 957
+IO rchar: 188904
+IO cancelled_write_bytes: 0
+IO read_bytes: 352256
+IO wchar: 138217
+IO syscr: 811
+IO write_bytes: 81920
+rusage ru_utime: 0.525291
+rusage ru_stime: 0.12795499999999999
+rusage ru_maxrss: 132132
+rusage ru_minflt: 14829
+rusage ru_majflt: 0
+rusage ru_inblock: 184
+rusage ru_oublock: 144
+rusage ru_nvcsw: 140
+rusage ru_nivcsw: 318
+Child rusage ru_utime: 0.016042
+Child rusage ru_stime: 0.048645
+Child rusage ru_maxrss: 129932
+Child rusage ru_minflt: 3053
+Child rusage ru_majflt: 4
+Child rusage ru_inblock: 504
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 213
+Status: PASSED 
+Ended: 1614444747.17 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444671.81 
+libarchive-native-3.3.3-r0: do_populate_sysroot_setscene
+Elapsed time: 0.15 seconds
+utime: 24
+stime: 7
+cutime: 2
+cstime: 2
+IO wchar: 2082826
+IO syscr: 354
+IO write_bytes: 1122304
+IO cancelled_write_bytes: 118784
+IO read_bytes: 393216
+IO rchar: 1706931
+IO syscw: 291
+rusage ru_utime: 0.24728799999999998
+rusage ru_stime: 0.072284
+rusage ru_maxrss: 131592
+rusage ru_minflt: 15191
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 176
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 182
+Child rusage ru_utime: 0.025363
+Child rusage ru_stime: 0.025268
+Child rusage ru_maxrss: 128776
+Child rusage ru_minflt: 2704
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 752
+Child rusage ru_oublock: 2016
+Child rusage ru_nvcsw: 52
+Child rusage ru_nivcsw: 67
+Status: PASSED 
+Ended: 1614444671.97 

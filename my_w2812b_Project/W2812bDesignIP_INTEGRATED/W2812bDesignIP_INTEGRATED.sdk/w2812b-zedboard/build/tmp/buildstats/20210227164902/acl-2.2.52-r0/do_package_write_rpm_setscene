@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444609.86 
+acl-2.2.52-r0: do_package_write_rpm_setscene
+Elapsed time: 0.23 seconds
+utime: 25
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 823769
+IO syscr: 235
+IO write_bytes: 446464
+IO cancelled_write_bytes: 0
+IO read_bytes: 245760
+IO rchar: 840529
+IO syscw: 201
+rusage ru_utime: 0.255475
+rusage ru_stime: 0.051892999999999995
+rusage ru_maxrss: 131452
+rusage ru_minflt: 13362
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 196
+Child rusage ru_utime: 0.019631
+Child rusage ru_stime: 0.010761999999999999
+Child rusage ru_maxrss: 128700
+Child rusage ru_minflt: 2232
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 480
+Child rusage ru_oublock: 712
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444610.10 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444668.23 
+xorgproto-2018.4-r0: do_packagedata_setscene
+Elapsed time: 0.20 seconds
+utime: 23
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 202705
+IO syscr: 211
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 293724
+IO syscw: 171
+rusage ru_utime: 0.239367
+rusage ru_stime: 0.043884
+rusage ru_maxrss: 131384
+rusage ru_minflt: 13298
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.019157
+Child rusage ru_stime: 0.011006
+Child rusage ru_maxrss: 128612
+Child rusage ru_minflt: 2272
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 20
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1614444668.43 

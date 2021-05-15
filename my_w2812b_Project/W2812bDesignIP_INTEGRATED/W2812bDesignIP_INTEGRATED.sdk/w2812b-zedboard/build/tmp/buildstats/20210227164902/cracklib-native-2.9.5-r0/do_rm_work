@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444691.07 
+cracklib-native-2.9.5-r0: do_rm_work
+Elapsed time: 0.06 seconds
+utime: 21
+stime: 4
+cutime: 2
+cstime: 0
+IO wchar: 39135
+IO syscr: 183
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 164700
+IO syscw: 36
+rusage ru_utime: 0.212731
+rusage ru_stime: 0.043334
+rusage ru_maxrss: 131424
+rusage ru_minflt: 11080
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.021067
+Child rusage ru_stime: 0.009134
+Child rusage ru_maxrss: 128724
+Child rusage ru_minflt: 3456
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1614444691.13 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444774.75 
+udev-extraconf-1.1-r0: do_install
+Elapsed time: 0.21 seconds
+utime: 16
+stime: 4
+cutime: 3
+cstime: 2
+IO syscw: 1205
+IO rchar: 261978
+IO cancelled_write_bytes: 8192
+IO read_bytes: 0
+IO wchar: 188426
+IO syscr: 694
+IO write_bytes: 122880
+rusage ru_utime: 0.163987
+rusage ru_stime: 0.040996
+rusage ru_maxrss: 132068
+rusage ru_minflt: 8466
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 69
+rusage ru_nivcsw: 393
+Child rusage ru_utime: 0.035359999999999996
+Child rusage ru_stime: 0.025464
+Child rusage ru_maxrss: 129928
+Child rusage ru_minflt: 4833
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 54
+Child rusage ru_nivcsw: 396
+Status: PASSED 
+Ended: 1614444774.96 

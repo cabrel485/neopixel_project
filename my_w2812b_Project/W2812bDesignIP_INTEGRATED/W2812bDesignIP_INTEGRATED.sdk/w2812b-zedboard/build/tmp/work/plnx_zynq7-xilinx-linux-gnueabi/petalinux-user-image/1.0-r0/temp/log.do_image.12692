@@ -1,0 +1,8 @@
+DEBUG: Executing python function do_image
+NOTE: Executing mklibs_optimize_image ...
+DEBUG: Executing shell function mklibs_optimize_image
+DEBUG: Shell function mklibs_optimize_image finished
+NOTE: Executing reproducible_final_image_task ...
+DEBUG: Executing shell function reproducible_final_image_task
+DEBUG: Shell function reproducible_final_image_task finished
+DEBUG: Python function do_image finished

@@ -1,0 +1,20 @@
+PN: libcap
+PV: 2.25
+PR: r0
+PKGV: 2.25
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION: Library for getting/setting POSIX.1e capabilities.
+SUMMARY: Library for getting/setting POSIX.1e capabilities
+RDEPENDS_libcap-bin: libcap (>= 2.25) glibc (>= 2.28)
+RRECOMMENDS_libcap-bin: libcap-lic
+SECTION: base
+PKG_libcap-bin: libcap-bin
+FILES_libcap-bin: /usr/bin/* /usr/sbin/*
+FILES_INFO: {"/usr/sbin/capsh": 13700, "/usr/sbin/setcap": 9604, "/usr/sbin/getcap": 5508, "/usr/sbin/getpcaps": 5512}
+FILERDEPENDSFLIST_libcap-bin: /usr/sbin/capsh /usr/sbin/setcap /usr/sbin/getcap /usr/sbin/getpcaps
+FILERDEPENDS_/usr/sbin/capsh_libcap-bin:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/setcap_libcap-bin:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/getcap_libcap-bin:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/getpcaps_libcap-bin:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_libcap-bin: 34324

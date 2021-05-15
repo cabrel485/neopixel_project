@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445450.19 
+petalinux-user-image-1.0-r0: do_image_tar
+Elapsed time: 2.26 seconds
+utime: 35
+stime: 8
+cutime: 260
+cstime: 26
+IO syscw: 10633
+IO rchar: 40964223
+IO cancelled_write_bytes: 13692928
+IO read_bytes: 0
+IO wchar: 28260753
+IO syscr: 6783
+IO write_bytes: 26890240
+rusage ru_utime: 0.357863
+rusage ru_stime: 0.087283
+rusage ru_maxrss: 136148
+rusage ru_minflt: 18194
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 41
+rusage ru_nivcsw: 409
+Child rusage ru_utime: 2.6068439999999997
+Child rusage ru_stime: 0.261229
+Child rusage ru_maxrss: 134196
+Child rusage ru_minflt: 28937
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 52448
+Child rusage ru_nvcsw: 336
+Child rusage ru_nivcsw: 12400
+Status: PASSED 
+Ended: 1614445452.45 

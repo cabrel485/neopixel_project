@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445758.72 
+external-hdf-1.0-r0: do_package_write_rpm_setscene
+Elapsed time: 0.19 seconds
+utime: 20
+stime: 4
+cutime: 0
+cstime: 1
+IO cancelled_write_bytes: 0
+IO wchar: 112589
+IO syscr: 173
+IO syscw: 57
+IO rchar: 268268
+IO write_bytes: 86016
+IO read_bytes: 32768
+rusage ru_utime: 0.209807
+rusage ru_stime: 0.047503
+rusage ru_maxrss: 124388
+rusage ru_minflt: 13918
+rusage ru_majflt: 0
+rusage ru_inblock: 56
+rusage ru_oublock: 120
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 73
+Child rusage ru_utime: 0.009231
+Child rusage ru_stime: 0.019183
+Child rusage ru_maxrss: 121540
+Child rusage ru_minflt: 2054
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 19
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1614445758.91 

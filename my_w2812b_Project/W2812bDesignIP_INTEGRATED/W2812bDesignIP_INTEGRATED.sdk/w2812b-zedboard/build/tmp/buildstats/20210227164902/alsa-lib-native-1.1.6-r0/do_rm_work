@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444693.11 
+alsa-lib-native-1.1.6-r0: do_rm_work
+Elapsed time: 0.06 seconds
+utime: 22
+stime: 4
+cutime: 2
+cstime: 1
+IO wchar: 39089
+IO syscr: 183
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 164067
+IO syscw: 36
+rusage ru_utime: 0.220105
+rusage ru_stime: 0.042476
+rusage ru_maxrss: 131448
+rusage ru_minflt: 11105
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 59
+Child rusage ru_utime: 0.021152
+Child rusage ru_stime: 0.011748999999999999
+Child rusage ru_maxrss: 128748
+Child rusage ru_minflt: 3556
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 51
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1614444693.18 

@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-tproxy: iptables module xt-tproxy
+SUMMARY_iptables-module-xt-tproxy: iptables module xt-tproxy
+RDEPENDS_iptables-module-xt-tproxy: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-tproxy: iptables-module-xt-tproxy
+FILES_iptables-module-xt-tproxy: /usr/lib/xtables/libxt_TPROXY.so
+FILERPROVIDESFLIST_iptables-module-xt-tproxy: /usr/lib/xtables/libxt@underscore@TPROXY.so
+FILES_INFO: {"/usr/lib/xtables/libxt_TPROXY.so": 5720}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TPROXY.so_iptables-module-xt-tproxy:  libxt_TPROXY.so
+FILERDEPENDSFLIST_iptables-module-xt-tproxy: /usr/lib/xtables/libxt@underscore@TPROXY.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TPROXY.so_iptables-module-xt-tproxy:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-tproxy: 5720

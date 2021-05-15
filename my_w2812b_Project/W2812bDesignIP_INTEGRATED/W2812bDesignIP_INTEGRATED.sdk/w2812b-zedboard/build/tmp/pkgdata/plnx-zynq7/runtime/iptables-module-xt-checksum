@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-checksum: iptables module xt-checksum
+SUMMARY_iptables-module-xt-checksum: iptables module xt-checksum
+RDEPENDS_iptables-module-xt-checksum: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-checksum: iptables-module-xt-checksum
+FILES_iptables-module-xt-checksum: /usr/lib/xtables/libxt_CHECKSUM.so
+FILERPROVIDESFLIST_iptables-module-xt-checksum: /usr/lib/xtables/libxt@underscore@CHECKSUM.so
+FILES_INFO: {"/usr/lib/xtables/libxt_CHECKSUM.so": 5516}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CHECKSUM.so_iptables-module-xt-checksum:  libxt_CHECKSUM.so
+FILERDEPENDSFLIST_iptables-module-xt-checksum: /usr/lib/xtables/libxt@underscore@CHECKSUM.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CHECKSUM.so_iptables-module-xt-checksum:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-checksum: 5516

@@ -1,0 +1,13 @@
+PN: myapp
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Simple myapp application.
+SUMMARY: Simple myapp application
+SECTION: PETALINUX/apps
+PKG_myapp-lic: myapp-lic
+FILES_myapp-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/myapp/generic_MIT": 1080, "/usr/share/licenses/myapp/MIT": 1080}
+PKGSIZE_myapp-lic: 1080

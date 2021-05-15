@@ -1,0 +1,14 @@
+PN: canutils
+PV: 4.0.6
+PR: r0
+PKGV: 4.0.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_canutils-doc: canutils (PTX flavour).  This package contains documentation.
+SUMMARY_canutils-doc: canutils (PTX flavour) - Documentation files
+RRECOMMENDS_canutils-doc: canutils-lic
+SECTION_canutils-doc: doc
+PKG_canutils-doc: canutils-doc
+FILES_canutils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/candump.8": 988, "/usr/share/man/man8/cansend.8": 990, "/usr/share/man/man8/canconfig.8": 1747, "/usr/share/man/man8/canecho.8": 1184}
+PKGSIZE_canutils-doc: 4909

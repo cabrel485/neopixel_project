@@ -1,0 +1,3 @@
+DEBUG: SITE files ['endian-little', 'bit-32', 'common-linux', 'common-glibc', 'allarch-linux', 'common']
+DEBUG: Executing shell function do_rm_work
+DEBUG: Shell function do_rm_work finished

@@ -1,0 +1,13 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+SECTION: base
+PKG_e2fsprogs-lic: e2fsprogs-lic
+FILES_e2fsprogs-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/e2fsprogs/COPYING": 1391, "/usr/share/licenses/e2fsprogs/generic_GPLv2": 17611, "/usr/share/licenses/e2fsprogs/generic_BSD": 1499, "/usr/share/licenses/e2fsprogs/et_name.c": 569, "/usr/share/licenses/e2fsprogs/NOTICE": 44585, "/usr/share/licenses/e2fsprogs/ss.h": 949, "/usr/share/licenses/e2fsprogs/ext2fs.h": 228, "/usr/share/licenses/e2fsprogs/uuid.h.in": 1601, "/usr/share/licenses/e2fsprogs/generic_MIT": 1080, "/usr/share/licenses/e2fsprogs/generic_LGPLv2": 24925, "/usr/share/licenses/e2fsprogs/e2p.h": 192}
+PKGSIZE_e2fsprogs-lic: 94630

@@ -1,0 +1,14 @@
+PN: bridge-utils
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Tools for ethernet bridging.
+SUMMARY: Tools for ethernet bridging
+RRECOMMENDS_bridge-utils-locale: bridge-utils-lic
+SECTION: net
+PKG_bridge-utils-locale: bridge-utils-locale
+FILES_bridge-utils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_bridge-utils-locale: 0

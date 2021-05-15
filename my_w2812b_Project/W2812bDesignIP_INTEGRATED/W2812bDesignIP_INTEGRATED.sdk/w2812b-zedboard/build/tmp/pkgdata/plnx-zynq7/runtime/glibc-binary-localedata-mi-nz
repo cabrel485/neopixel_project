@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-mi-nz: binary locale definition for mi-nz
+SUMMARY_glibc-binary-localedata-mi-nz: binary locale definition for mi-nz
+SECTION: base
+PKG_glibc-binary-localedata-mi-nz: glibc-binary-localedata-mi-nz
+FILES_glibc-binary-localedata-mi-nz: /usr/lib/locale/mi_NZ
+FILES_INFO: {"/usr/lib/locale/mi_NZ/LC_IDENTIFICATION": 359, "/usr/lib/locale/mi_NZ/LC_NAME": 62, "/usr/lib/locale/mi_NZ/LC_COLLATE": 2587158, "/usr/lib/locale/mi_NZ/LC_PAPER": 34, "/usr/lib/locale/mi_NZ/LC_TELEPHONE": 51, "/usr/lib/locale/mi_NZ/LC_TIME": 3944, "/usr/lib/locale/mi_NZ/LC_NUMERIC": 54, "/usr/lib/locale/mi_NZ/LC_MEASUREMENT": 23, "/usr/lib/locale/mi_NZ/LC_CTYPE": 337024, "/usr/lib/locale/mi_NZ/LC_MONETARY": 286, "/usr/lib/locale/mi_NZ/LC_ADDRESS": 153, "/usr/lib/locale/mi_NZ/LC_MESSAGES/SYS_LC_MESSAGES": 73}
+PKGSIZE_glibc-binary-localedata-mi-nz: 2929221

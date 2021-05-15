@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444641.98 
+libsocketcan-0.0.10-r0: do_populate_sysroot_setscene
+Elapsed time: 0.20 seconds
+utime: 22
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 255956
+IO syscr: 192
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 339512
+IO syscw: 155
+rusage ru_utime: 0.22736499999999998
+rusage ru_stime: 0.055844
+rusage ru_maxrss: 131396
+rusage ru_minflt: 13284
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 104
+Child rusage ru_utime: 0.017388999999999998
+Child rusage ru_stime: 0.010999
+Child rusage ru_maxrss: 128604
+Child rusage ru_minflt: 2281
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 120
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1614444642.17 

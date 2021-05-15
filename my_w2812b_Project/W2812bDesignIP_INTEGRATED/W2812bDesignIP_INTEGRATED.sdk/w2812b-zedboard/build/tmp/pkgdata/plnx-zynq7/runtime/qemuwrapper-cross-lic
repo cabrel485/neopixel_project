@@ -1,0 +1,13 @@
+PN: qemuwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: QEMU wrapper script.
+SUMMARY: QEMU wrapper script
+SECTION: base
+PKG_qemuwrapper-cross-lic: qemuwrapper-cross-lic
+FILES_qemuwrapper-cross-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/qemuwrapper-cross/generic_MIT": 1080}
+PKGSIZE_qemuwrapper-cross-lic: 1080

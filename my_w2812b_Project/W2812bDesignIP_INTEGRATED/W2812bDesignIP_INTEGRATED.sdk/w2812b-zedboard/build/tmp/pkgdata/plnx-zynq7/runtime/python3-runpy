@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-runpy: Python helper for locating/executing scripts in module namespace
+RDEPENDS_python3-runpy: python3-core python3-pkgutil
+RRECOMMENDS_python3-runpy: python3-lic
+SECTION: devel/python
+PKG_python3-runpy: python3-runpy
+FILES_python3-runpy:  /usr/lib/python3.5/runpy.py /usr/lib/python3.5/__pycache__/runpy.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/runpy.cpython-35.opt-2.pyc": 7080, "/usr/lib/python3.5/__pycache__/runpy.cpython-35.pyc": 8629, "/usr/lib/python3.5/runpy.py": 11959, "/usr/lib/python3.5/__pycache__/runpy.cpython-35.opt-1.pyc": 8629}
+PKGSIZE_python3-runpy: 36297

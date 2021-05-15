@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tpi-pg: locale definition for tpi-pg
+SUMMARY_glibc-localedata-tpi-pg: locale definition for tpi-pg
+RDEPENDS_glibc-localedata-tpi-pg: glibc-localedata-en-us glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-tpi-pg: glibc-localedata-tpi-pg
+FILES_glibc-localedata-tpi-pg: /usr/share/i18n/locales/tpi_PG
+FILES_INFO: {"/usr/share/i18n/locales/tpi_PG": 3994}
+PKGSIZE_glibc-localedata-tpi-pg: 3994

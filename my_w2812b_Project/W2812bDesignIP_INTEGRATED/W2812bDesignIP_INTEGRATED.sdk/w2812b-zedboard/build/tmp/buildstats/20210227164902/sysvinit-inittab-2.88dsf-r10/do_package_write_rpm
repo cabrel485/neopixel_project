@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444768.54 
+sysvinit-inittab-2.88dsf-r10: do_package_write_rpm
+Elapsed time: 0.84 seconds
+utime: 25
+stime: 9
+cutime: 16
+cstime: 9
+IO syscw: 2525
+IO rchar: 1146195
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO wchar: 670395
+IO syscr: 2019
+IO write_bytes: 352256
+rusage ru_utime: 0.258914
+rusage ru_stime: 0.091873
+rusage ru_maxrss: 132760
+rusage ru_minflt: 15470
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 576
+rusage ru_nvcsw: 539
+rusage ru_nivcsw: 96
+Child rusage ru_utime: 0.16788599999999998
+Child rusage ru_stime: 0.099212
+Child rusage ru_maxrss: 130360
+Child rusage ru_minflt: 18919
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 547
+Child rusage ru_nivcsw: 617
+Status: PASSED 
+Ended: 1614444769.38 

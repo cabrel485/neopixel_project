@@ -1,0 +1,13 @@
+PN: autoconf-archive
+PV: 2018.03.13
+PR: r0
+PKGV: 2018.03.13
+PKGR: r0
+LICENSE: GPL-3.0-with-autoconf-exception
+DESCRIPTION: a collection of freely re-usable Autoconf macros.
+SUMMARY: a collection of freely re-usable Autoconf macros
+SECTION: devel
+PKG_autoconf-archive-lic: autoconf-archive-lic
+FILES_autoconf-archive-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/autoconf-archive/COPYING.EXCEPTION": 1865, "/usr/share/licenses/autoconf-archive/COPYING": 35150, "/usr/share/licenses/autoconf-archive/generic_GPL-3.0-with-autoconf-exception": 1847}
+PKGSIZE_autoconf-archive-lic: 38862

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/built-in.a := rm -f drivers/usb/gadget/udc/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD drivers/usb/gadget/udc/built-in.a drivers/usb/gadget/udc/core.o drivers/usb/gadget/udc/trace.o drivers/usb/gadget/udc/udc-xilinx.o

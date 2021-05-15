@@ -1,0 +1,12 @@
+intdiv.so:/usr/lib/gawk:4.2.1
+ordchr.so:/usr/lib/gawk:4.2.1
+fnmatch.so:/usr/lib/gawk:4.2.1
+revtwoway.so:/usr/lib/gawk:4.2.1
+rwarray.so:/usr/lib/gawk:4.2.1
+time.so:/usr/lib/gawk:4.2.1
+filefuncs.so:/usr/lib/gawk:4.2.1
+readdir.so:/usr/lib/gawk:4.2.1
+readfile.so:/usr/lib/gawk:4.2.1
+inplace.so:/usr/lib/gawk:4.2.1
+revoutput.so:/usr/lib/gawk:4.2.1
+fork.so:/usr/lib/gawk:4.2.1

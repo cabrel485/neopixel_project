@@ -1,0 +1,13 @@
+PN: coreutils
+PV: 8.30
+PR: r0
+PKGV: 8.30
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION: The GNU Core Utilities provide the basic file, shell and text manipulation utilities. These are the core utilities which are expected to exist on every system.
+SUMMARY: The basic file, shell and text manipulation utilities
+SECTION: base
+PKG_coreutils-lic: coreutils-lic
+FILES_coreutils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/coreutils/ls.c": 768, "/usr/share/licenses/coreutils/COPYING": 35147, "/usr/share/licenses/coreutils/generic_GPLv3": 34694}
+PKGSIZE_coreutils-lic: 70609

@@ -1,0 +1,15 @@
+PN: bash-completion
+PV: 2.8
+PR: r0
+PKGV: 2.8
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_bash-completion-staticdev: Programmable Completion for Bash 4.  This package contains static libraries for software development.
+SUMMARY_bash-completion-staticdev: Programmable Completion for Bash 4 - Development files (Static Libraries)
+RDEPENDS_bash-completion-staticdev: bash-completion-dev (= 2.8-r0)
+RRECOMMENDS_bash-completion-staticdev: bash-completion-lic
+SECTION_bash-completion-staticdev: devel
+PKG_bash-completion-staticdev: bash-completion-staticdev
+FILES_bash-completion-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/bash-completion/*.a
+FILES_INFO: {}
+PKGSIZE_bash-completion-staticdev: 0

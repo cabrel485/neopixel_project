@@ -1,0 +1,22 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/packagegroup-core-boot-1.0-r17.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/packagegroup-core-boot-ptest-1.0-r17.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/packagegroup-core-boot-dev-1.0-r17.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/packagegroup-core-boot-lic-1.0-r17.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/packagegroup-core-boot-dbg-1.0-r17.plnx_zynq7.rpm
+DEBUG: Removing manifest: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm/plnx_zynq7/
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/plnx_zynq7/
+deploy-rpms/plnx_zynq7/packagegroup-core-boot-1.0-r17.plnx_zynq7.rpm
+deploy-rpms/plnx_zynq7/packagegroup-core-boot-ptest-1.0-r17.plnx_zynq7.rpm
+deploy-rpms/plnx_zynq7/packagegroup-core-boot-dev-1.0-r17.plnx_zynq7.rpm
+deploy-rpms/plnx_zynq7/packagegroup-core-boot-lic-1.0-r17.plnx_zynq7.rpm
+deploy-rpms/plnx_zynq7/packagegroup-core-boot-dbg-1.0-r17.plnx_zynq7.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

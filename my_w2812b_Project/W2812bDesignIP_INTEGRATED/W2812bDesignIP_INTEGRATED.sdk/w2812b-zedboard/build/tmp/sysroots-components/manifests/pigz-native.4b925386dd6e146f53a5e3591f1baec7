@@ -1,0 +1,6 @@
+recipe-sysroot-native/sysroot-providers/pigz-native
+recipe-sysroot-native/bin/pigz
+recipe-sysroot-native/bin/unpigz
+recipe-sysroot-native/bin/pigzcat
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/bin/

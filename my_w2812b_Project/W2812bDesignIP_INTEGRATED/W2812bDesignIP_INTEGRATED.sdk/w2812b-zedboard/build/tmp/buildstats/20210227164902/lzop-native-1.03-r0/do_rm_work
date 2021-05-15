@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444699.61 
+lzop-native-1.03-r0: do_rm_work
+Elapsed time: 0.12 seconds
+utime: 19
+stime: 2
+cutime: 3
+cstime: 1
+IO wchar: 37720
+IO syscr: 181
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 163578
+IO syscw: 35
+rusage ru_utime: 0.190936
+rusage ru_stime: 0.030386
+rusage ru_maxrss: 131420
+rusage ru_minflt: 4681
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 72
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.032614
+Child rusage ru_stime: 0.015679
+Child rusage ru_maxrss: 128748
+Child rusage ru_minflt: 3489
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 47
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614444699.73 

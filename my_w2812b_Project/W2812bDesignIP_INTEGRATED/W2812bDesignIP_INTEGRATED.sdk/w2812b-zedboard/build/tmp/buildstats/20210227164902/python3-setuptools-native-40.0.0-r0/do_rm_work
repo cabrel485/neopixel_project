@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444706.88 
+python3-setuptools-native-40.0.0-r0: do_rm_work
+Elapsed time: 0.07 seconds
+utime: 16
+stime: 2
+cutime: 2
+cstime: 1
+IO wchar: 39944
+IO syscr: 189
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 32768
+IO rchar: 150925
+IO syscw: 37
+rusage ru_utime: 0.164491
+rusage ru_stime: 0.022952
+rusage ru_maxrss: 131436
+rusage ru_minflt: 4632
+rusage ru_majflt: 0
+rusage ru_inblock: 64
+rusage ru_oublock: 72
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 126
+Child rusage ru_utime: 0.020259
+Child rusage ru_stime: 0.017907
+Child rusage ru_maxrss: 128764
+Child rusage ru_minflt: 3554
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 47
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444706.96 

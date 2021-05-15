@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-http-tiny: perl module http-tiny
+SUMMARY_perl-module-http-tiny: perl module http-tiny
+RDEPENDS_perl-module-http-tiny: perl
+SECTION: devel
+PKG_perl-module-http-tiny: perl-module-http-tiny
+FILES_perl-module-http-tiny: /usr/lib/perl/5.24.4/HTTP/Tiny.pm
+FILERPROVIDESFLIST_perl-module-http-tiny: /usr/lib/perl/5.24.4/HTTP/Tiny.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/HTTP/Tiny.pm": 70040}
+FILERPROVIDES_/usr/lib/perl/5.24.4/HTTP/Tiny.pm_perl-module-http-tiny:  perl(HTTP::Tiny)
+PKGSIZE_perl-module-http-tiny: 70040

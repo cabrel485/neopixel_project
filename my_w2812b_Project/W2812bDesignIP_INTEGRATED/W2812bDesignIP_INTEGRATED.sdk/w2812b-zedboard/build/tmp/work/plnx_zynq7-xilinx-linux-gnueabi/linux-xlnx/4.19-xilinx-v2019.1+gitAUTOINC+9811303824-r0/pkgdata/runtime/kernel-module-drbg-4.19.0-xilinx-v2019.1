@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-drbg-4.19.0-xilinx-v2019.1: drbg kernel module; NIST SP800-90A Deterministic Random Bit Generator (DRBG) using following cores: HMAC 
+SUMMARY_kernel-module-drbg-4.19.0-xilinx-v2019.1: drbg kernel module
+RDEPENDS_kernel-module-drbg-4.19.0-xilinx-v2019.1: kernel-4.19.0-xilinx-v2019.1
+RPROVIDES_kernel-module-drbg-4.19.0-xilinx-v2019.1: kernel-module-drbg
+SECTION: kernel
+PKG_kernel-module-drbg-4.19.0-xilinx-v2019.1: kernel-module-drbg-4.19.0-xilinx-v2019.1
+FILES_kernel-module-drbg-4.19.0-xilinx-v2019.1: /lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/drbg.ko /etc/modules-load.d/drbg.conf /etc/modprobe.d/drbg.conf
+pkg_postinst_kernel-module-drbg-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-drbg-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\tdepmodwrapper -a -b $D 4.19.0-xilinx-v2019.1\nfi\n\n
+FILES_INFO: {"/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/drbg.ko": 15616}
+PKGSIZE_kernel-module-drbg-4.19.0-xilinx-v2019.1: 15616

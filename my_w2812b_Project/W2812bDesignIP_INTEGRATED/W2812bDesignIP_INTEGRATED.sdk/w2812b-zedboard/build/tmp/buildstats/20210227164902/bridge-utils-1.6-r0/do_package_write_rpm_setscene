@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444611.25 
+bridge-utils-1.6-r0: do_package_write_rpm_setscene
+Elapsed time: 0.25 seconds
+utime: 25
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 356349
+IO syscr: 203
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+IO read_bytes: 77824
+IO rchar: 443292
+IO syscw: 151
+rusage ru_utime: 0.250809
+rusage ru_stime: 0.051753999999999994
+rusage ru_maxrss: 131436
+rusage ru_minflt: 13346
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 184
+Child rusage ru_utime: 0.019674999999999998
+Child rusage ru_stime: 0.010966
+Child rusage ru_maxrss: 128664
+Child rusage ru_minflt: 2246
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 152
+Child rusage ru_oublock: 224
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1614444611.50 

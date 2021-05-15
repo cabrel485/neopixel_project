@@ -1,0 +1,14 @@
+PN: lzo
+PV: 2.10
+PR: r0
+PKGV: 2.10
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Lossless data compression library.
+SUMMARY: Lossless data compression library
+RPROVIDES_lzo-lic:  lzo-lic (=2.10)
+SECTION: libs
+PKG_lzo-lic: liblzo2-lic
+FILES_lzo-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/lzo/lzo_init.c": 936, "/usr/share/licenses/lzo/COPYING": 18092, "/usr/share/licenses/lzo/generic_GPLv2": 17611}
+PKGSIZE_lzo-lic: 36639

@@ -1,0 +1,30 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['pseudo-native']
+NOTE: Skipping as already exists in sysroot: ['quilt-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_install
++ tmp='115200;ttyPS0'
++ for i in $tmp
+++ echo '115200;ttyPS0'
+++ sed 's/;/ /g'
++ j='115200 ttyPS0'
+++ echo '115200;ttyPS0'
+++ sed -e s/tty// -e 's/^.*;//' -e 's/;.*//'
++ l=PS0
+++ echo PS0
+++ sed 's/.*\(....\)/\1/'
++ label=PS0
++ echo 'PS0:12345:respawn:/bin/start_getty 115200 ttyPS0 vt102'
++ '[' 1 = 1 ']'
++ cat
++ for n in 1
++ echo '1:12345:respawn:/sbin/getty 38400 tty1'
++ echo ''
++ sed -i s#/sbin/getty#/bin/start_getty#g /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/sysvinit-inittab/2.88dsf-r10/image/etc/inittab
++ ret=0
++ trap '' 0
++ exit 0
+DEBUG: Shell function do_install finished
+DEBUG: Executing shell function remove_libtool_la
+DEBUG: Shell function remove_libtool_la finished

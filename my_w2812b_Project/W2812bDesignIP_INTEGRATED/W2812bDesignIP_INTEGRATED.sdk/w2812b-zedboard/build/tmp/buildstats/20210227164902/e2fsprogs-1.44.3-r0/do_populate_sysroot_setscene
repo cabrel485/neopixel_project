@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444652.81 
+e2fsprogs-1.44.3-r0: do_populate_sysroot_setscene
+Elapsed time: 0.18 seconds
+utime: 24
+stime: 6
+cutime: 4
+cstime: 2
+IO wchar: 8158512
+IO syscr: 768
+IO write_bytes: 4177920
+IO cancelled_write_bytes: 0
+IO read_bytes: 1605632
+IO rchar: 5916314
+IO syscw: 773
+rusage ru_utime: 0.246421
+rusage ru_stime: 0.06930599999999999
+rusage ru_maxrss: 131604
+rusage ru_minflt: 13544
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 226
+Child rusage ru_utime: 0.042055999999999996
+Child rusage ru_stime: 0.027524
+Child rusage ru_maxrss: 128852
+Child rusage ru_minflt: 2274
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3136
+Child rusage ru_oublock: 7960
+Child rusage ru_nvcsw: 143
+Child rusage ru_nivcsw: 166
+Status: PASSED 
+Ended: 1614444652.99 

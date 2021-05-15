@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444736.33 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_validate_branches
+Elapsed time: 0.51 seconds
+utime: 26
+stime: 3
+cutime: 24
+cstime: 11
+IO wchar: 6512293
+IO syscr: 386
+IO write_bytes: 6475776
+IO cancelled_write_bytes: 0
+IO read_bytes: 360448
+IO rchar: 346152
+IO syscw: 857
+rusage ru_utime: 0.2632
+rusage ru_stime: 0.030964
+rusage ru_maxrss: 132196
+rusage ru_minflt: 6248
+rusage ru_majflt: 0
+rusage ru_inblock: 624
+rusage ru_oublock: 112
+rusage ru_nvcsw: 44
+rusage ru_nivcsw: 75
+Child rusage ru_utime: 0.24384199999999998
+Child rusage ru_stime: 0.112979
+Child rusage ru_maxrss: 279964
+Child rusage ru_minflt: 14720
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 12536
+Child rusage ru_nvcsw: 62
+Child rusage ru_nivcsw: 78
+Status: PASSED 
+Ended: 1614444736.85 

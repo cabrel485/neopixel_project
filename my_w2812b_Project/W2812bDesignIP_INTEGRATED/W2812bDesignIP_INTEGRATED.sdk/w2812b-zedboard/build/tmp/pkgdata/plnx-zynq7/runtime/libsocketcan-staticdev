@@ -1,0 +1,15 @@
+PN: libsocketcan
+PV: 0.0.10
+PR: r0
+PKGV: 0.0.10
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libsocketcan-staticdev: Control basic functions in socketcan from userspace.  This package contains static libraries for software development.
+SUMMARY_libsocketcan-staticdev: Control basic functions in socketcan from userspace - Development files (Static Libraries)
+RDEPENDS_libsocketcan-staticdev: libsocketcan-dev (= 0.0.10-r0)
+RRECOMMENDS_libsocketcan-staticdev: libsocketcan-lic
+SECTION_libsocketcan-staticdev: devel
+PKG_libsocketcan-staticdev: libsocketcan-staticdev
+FILES_libsocketcan-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libsocketcan/*.a
+FILES_INFO: {}
+PKGSIZE_libsocketcan-staticdev: 0

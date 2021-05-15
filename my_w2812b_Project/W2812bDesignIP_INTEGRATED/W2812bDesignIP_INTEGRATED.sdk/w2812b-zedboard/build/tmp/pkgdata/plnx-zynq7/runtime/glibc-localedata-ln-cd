@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ln-cd: locale definition for ln-cd
+SUMMARY_glibc-localedata-ln-cd: locale definition for ln-cd
+RDEPENDS_glibc-localedata-ln-cd: glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-ln-cd: glibc-localedata-ln-cd
+FILES_glibc-localedata-ln-cd: /usr/share/i18n/locales/ln_CD
+FILES_INFO: {"/usr/share/i18n/locales/ln_CD": 4813}
+PKGSIZE_glibc-localedata-ln-cd: 4813

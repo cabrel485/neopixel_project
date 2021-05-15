@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444842.86 
+packagegroup-core-boot-1.0-r17: do_package_write_rpm
+Elapsed time: 0.85 seconds
+utime: 33
+stime: 6
+cutime: 13
+cstime: 9
+IO syscw: 2455
+IO rchar: 1110881
+IO cancelled_write_bytes: 0
+IO read_bytes: 335872
+IO wchar: 658226
+IO syscr: 2028
+IO write_bytes: 356352
+rusage ru_utime: 0.333544
+rusage ru_stime: 0.061442
+rusage ru_maxrss: 133496
+rusage ru_minflt: 15791
+rusage ru_majflt: 0
+rusage ru_inblock: 376
+rusage ru_oublock: 592
+rusage ru_nvcsw: 570
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.13402799999999998
+Child rusage ru_stime: 0.09615699999999999
+Child rusage ru_maxrss: 131092
+Child rusage ru_minflt: 18876
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 280
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 690
+Child rusage ru_nivcsw: 308
+Status: PASSED 
+Ended: 1614444843.71 

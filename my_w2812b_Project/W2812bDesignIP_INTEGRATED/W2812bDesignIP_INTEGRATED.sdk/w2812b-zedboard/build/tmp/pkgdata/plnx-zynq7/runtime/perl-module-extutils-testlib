@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-testlib: perl module extutils-testlib
+SUMMARY_perl-module-extutils-testlib: perl module extutils-testlib
+RDEPENDS_perl-module-extutils-testlib: perl perl-module-cwd perl-module-file-spec perl-module-lib perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-extutils-testlib: perl-module-extutils-testlib
+FILES_perl-module-extutils-testlib: /usr/lib/perl/5.24.4/ExtUtils/testlib.pm
+FILERPROVIDESFLIST_perl-module-extutils-testlib: /usr/lib/perl/5.24.4/ExtUtils/testlib.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/testlib.pm": 893}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/testlib.pm_perl-module-extutils-testlib:  perl(ExtUtils::testlib)
+PKGSIZE_perl-module-extutils-testlib: 893

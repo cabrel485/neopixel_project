@@ -1,0 +1,81 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function package_get_auto_pr
+DEBUG: Python function package_get_auto_pr finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/glibc/cross-localedef-native_2.28.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/e2fsprogs/e2fsprogs_1.44.3.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/u-boot/u-boot-xlnx_2019.1.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/mtd/mtd-utils_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/opkg/opkg_0.3.6.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-support/lzop/lzop_1.03.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/binutils/binutils-cross_2.31.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/pbzip2/pbzip2_1.1.13.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/update-rc.d/update-rc.d_0.8.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/glibc/ldconfig-native_2.12.1.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/qemu/qemuwrapper-cross_1.0.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/createrepo-c/createrepo-c_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/mklibs/mklibs-native_0.1.43.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/depmodwrapper-cross_1.0.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/makedevs/makedevs_1.0.1.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/bc/bc_1.07.1.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/dtc/dtc_1.4.7.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/bison/bison_3.0.4.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-kernel/linux/linux-xlnx_2019.1.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/dnf/dnf_2.7.5.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/opkg-utils/opkg-utils_0.3.6.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/xz/xz_5.2.4.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/kmod-native_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/cpio/cpio_2.12.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/gcc/gcc-cross_8.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/pigz/pigz_2.4.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kern-tools/kern-tools-native_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/rpm/rpm_4.14.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-bsp/u-boot/u-boot-mkimage_2018.07.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['linux-xlnx']
+NOTE: Skipping as already exists in sysroot: ['cross-localedef-native', 'device-tree', 'fsbl', 'e2fsprogs-native', 'u-boot-xlnx', 'mtd-utils-native', 'opkg-native', 'lzop-native', 'binutils-cross-arm', 'pseudo-native', 'pbzip2-native', 'update-rc.d-native', 'ldconfig-native', 'qemuwrapper-cross', 'createrepo-c-native', 'mklibs-native', 'depmodwrapper-cross', 'makedevs-native', 'bc-native', 'dtc-native', 'bison-native', 'dnf-native', 'opkg-utils-native', 'xz-native', 'quilt-native', 'kmod-native', 'cpio-native', 'gcc-cross-arm', 'pigz-native', 'kern-tools-native', 'rpm-native', 'u-boot-mkimage-native', 'autoconf-native', 'automake-native', 'gnu-config-native', 'libtool-native', 'glibc', 'gcc-runtime', 'util-linux-native', 'attr-native', 'pkgconfig-native', 'texinfo-dummy-native', 'gettext-minimal-native', 'zlib-native', 'acl-native', 'lzo-native', 'libarchive-native', 'libsolv-native', 'flex-native', 'debianutils-native', 'openssl-native', 'bzip2-native', 'shadow-native', 'qemu-native', 'sqlite3-native', 'glib-2.0-native', 'libxml2-native', 'ninja-native', 'python3-native', 'curl-native', 'cmake-native', 'expat-native', 'file-native', 'readline-native', 'libcomps-native', 'librepo-native', 'python3-iniparse-native', 'libdnf-native', 'gtk-doc-native', 'linux-libc-headers', 'libmpc-native', 'mpfr-native', 'gmp-native', 'dbus-native', 'elfutils-native', 'db-native', 'nss-native', 'popt-native', 'm4-native', 'libgcc', 'ncurses-native', 'pixman-native', 'alsa-lib-native', 'gettext-native', 'libffi-native', 'libpcre-native', 're2c-native', 'gdbm-native', 'libcheck-native', 'gpgme-native', 'python3-six-native', 'gobject-introspection-native', 'nspr-native', 'libpng-native', 'util-macros-native', 'swig-native', 'libgpg-error-native', 'libassuan-native', 'python3-setuptools-native', 'unzip-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_deploy
+lib/
+lib/modules/
+lib/modules/4.19.0-xilinx-v2019.1/
+lib/modules/4.19.0-xilinx-v2019.1/modules.order
+lib/modules/4.19.0-xilinx-v2019.1/kernel/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/remoteproc.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/zynq_remoteproc.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/libcomposite.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/function/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/function/usb_f_ss_lb.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/legacy/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/legacy/g_zero.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/uio/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/uio/uio_pdrv_genirq.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/crypto/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/crypto/virtio/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/crypto/virtio/virtio_crypto.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/virtio/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/virtio/virtio_ring.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/virtio/virtio.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/virtio_rpmsg_bus.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/rpmsg_char.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/rpmsg_core.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/llc/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/llc/llc.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/8021q/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/8021q/8021q.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/ipv4/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/ipv4/ipip.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/bridge/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/bridge/bridge.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/p8022.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/stp.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/psnap.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/
+lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/drbg.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/echainiv.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/sha256_generic.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/crypto_engine.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/hmac.ko
+lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/jitterentropy_rng.ko
+lib/modules/4.19.0-xilinx-v2019.1/modules.builtin
+Copying fit-image.its source file...
+Copying linux.bin file...
+Copying fit-image-petalinux-user-image.its source file...
+Copying fitImage-petalinux-user-image file...
+DEBUG: Shell function do_deploy finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 0o002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-linux-xlnx for packaging at /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-deploy/deploy-linux-xlnx
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-deploy/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools' | tee /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-deploy/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-linux-xlnx to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/images/plnx-zynq7
+DEBUG: Python function sstate_task_postfunc finished

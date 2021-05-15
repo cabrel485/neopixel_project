@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444663.21 
+libcap-2.25-r0: do_populate_sysroot_setscene
+Elapsed time: 0.19 seconds
+utime: 23
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 471033
+IO syscr: 202
+IO write_bytes: 253952
+IO cancelled_write_bytes: 0
+IO read_bytes: 69632
+IO rchar: 477841
+IO syscw: 162
+rusage ru_utime: 0.23432399999999998
+rusage ru_stime: 0.039054
+rusage ru_maxrss: 131208
+rusage ru_minflt: 13194
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 30
+Child rusage ru_utime: 0.014247999999999999
+Child rusage ru_stime: 0.016488
+Child rusage ru_maxrss: 128508
+Child rusage ru_minflt: 2230
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 128
+Child rusage ru_oublock: 336
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1614444663.40 

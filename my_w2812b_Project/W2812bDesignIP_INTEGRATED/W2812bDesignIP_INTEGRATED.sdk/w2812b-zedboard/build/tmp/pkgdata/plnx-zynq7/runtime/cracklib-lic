@@ -1,0 +1,13 @@
+PN: cracklib
+PV: 2.9.5
+PR: r0
+PKGV: 2.9.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Password strength checker library.
+SUMMARY: Password strength checker library
+SECTION: base
+PKG_cracklib-lic: cracklib-lic
+FILES_cracklib-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/cracklib/COPYING.LIB": 26542, "/usr/share/licenses/cracklib/generic_LGPLv2.1": 25878}
+PKGSIZE_cracklib-lic: 52420

@@ -1,0 +1,20 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-rateest: iptables module xt-rateest
+SUMMARY_iptables-module-xt-rateest: iptables module xt-rateest
+RDEPENDS_iptables-module-xt-rateest: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-rateest: iptables-module-xt-rateest
+FILES_iptables-module-xt-rateest: /usr/lib/xtables/libxt_RATEEST.so /usr/lib/xtables/libxt_rateest.so
+FILERPROVIDESFLIST_iptables-module-xt-rateest: /usr/lib/xtables/libxt@underscore@rateest.so /usr/lib/xtables/libxt@underscore@RATEEST.so
+FILES_INFO: {"/usr/lib/xtables/libxt_RATEEST.so": 5516, "/usr/lib/xtables/libxt_rateest.so": 9608}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@rateest.so_iptables-module-xt-rateest:  libxt_rateest.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@RATEEST.so_iptables-module-xt-rateest:  libxt_RATEEST.so
+FILERDEPENDSFLIST_iptables-module-xt-rateest: /usr/lib/xtables/libxt@underscore@rateest.so /usr/lib/xtables/libxt@underscore@RATEEST.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@rateest.so_iptables-module-xt-rateest:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@RATEEST.so_iptables-module-xt-rateest:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libm.so.6(GLIBC_2.4) libxtables.so.12 libm.so.6 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-rateest: 15124

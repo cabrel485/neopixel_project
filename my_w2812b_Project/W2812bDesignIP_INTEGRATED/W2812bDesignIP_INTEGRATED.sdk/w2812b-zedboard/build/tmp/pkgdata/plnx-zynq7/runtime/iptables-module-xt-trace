@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-trace: iptables module xt-trace
+SUMMARY_iptables-module-xt-trace: iptables module xt-trace
+RDEPENDS_iptables-module-xt-trace: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-trace: iptables-module-xt-trace
+FILES_iptables-module-xt-trace: /usr/lib/xtables/libxt_TRACE.so
+FILERPROVIDESFLIST_iptables-module-xt-trace: /usr/lib/xtables/libxt@underscore@TRACE.so
+FILES_INFO: {"/usr/lib/xtables/libxt_TRACE.so": 5460}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TRACE.so_iptables-module-xt-trace:  libxt_TRACE.so
+FILERDEPENDSFLIST_iptables-module-xt-trace: /usr/lib/xtables/libxt@underscore@TRACE.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TRACE.so_iptables-module-xt-trace:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-trace: 5460

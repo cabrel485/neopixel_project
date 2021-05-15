@@ -1,0 +1,14 @@
+PN: fsbl
+PV: 2019.1+gitAUTOINC+26c14d9861
+PR: r0
+PKGV: 2019.1+git0+26c14d9861
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: FSBL
+SUMMARY: fsbl version 2019.1+gitAUTOINC+26c14d9861-r0
+RRECOMMENDS_fsbl-locale: fsbl-lic
+SECTION: base
+PKG_fsbl-locale: fsbl-locale
+FILES_fsbl-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_fsbl-locale: 0

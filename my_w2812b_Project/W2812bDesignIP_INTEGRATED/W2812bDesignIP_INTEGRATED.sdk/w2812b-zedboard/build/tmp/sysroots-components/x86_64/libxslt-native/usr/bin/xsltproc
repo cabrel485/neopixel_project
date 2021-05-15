@@ -1,0 +1,5 @@
+#!/bin/bash
+realpath=`readlink -fn $0`
+realdir=`dirname $realpath`
+export XML_CATALOG_FILES=$realdir/../../etc/xml/catalog.xml
+exec -a `dirname $realpath`/xsltproc `dirname $realpath`/xsltproc.real "$@"

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444640.60 
+modutils-initscripts-1.0-r7: do_package_write_rpm_setscene
+Elapsed time: 0.19 seconds
+utime: 21
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 199904
+IO syscr: 177
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 277975
+IO syscw: 129
+rusage ru_utime: 0.210122
+rusage ru_stime: 0.057305999999999996
+rusage ru_maxrss: 131300
+rusage ru_minflt: 13172
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.017716
+Child rusage ru_stime: 0.010298999999999999
+Child rusage ru_maxrss: 128536
+Child rusage ru_minflt: 2202
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 72
+Child rusage ru_nvcsw: 20
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1614444640.78 

@@ -1,0 +1,23 @@
+PN: openssh
+PV: 7.8p1+git
+PR: r0
+PKGV: 7.8p1+git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine.
+SUMMARY: A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server
+RDEPENDS_openssh-ssh: update-alternatives-opkg zlib (>= 1.2.11) libcrypto (>= 1.1.1a) glibc (>= 2.28)
+RPROVIDES_openssh-ssh: ssh
+RRECOMMENDS_openssh-ssh: openssh-lic
+SECTION: console/network
+PKG_openssh-ssh: openssh-ssh
+FILES_openssh-ssh: /usr/bin/ssh.openssh /etc/ssh/ssh_config
+CONFFILES_openssh-ssh: /etc/ssh/ssh_config
+pkg_postinst_openssh-ssh: #!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/ssh ssh /usr/bin/ssh.openssh 90\n
+pkg_prerm_openssh-ssh: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  ssh /usr/bin/ssh.openssh\n
+FILERPROVIDESFLIST_openssh-ssh:  /usr/bin/ssh.openssh
+FILES_INFO: {"/etc/ssh/ssh_config": 1548, "/usr/bin/ssh.openssh": 493384}
+FILERPROVIDES_/usr/bin/ssh.openssh_openssh-ssh:  /usr/bin/ssh
+FILERDEPENDSFLIST_openssh-ssh: /usr/bin/ssh.openssh
+FILERDEPENDS_/usr/bin/ssh.openssh_openssh-ssh:  ld-linux-armhf.so.3(GLIBC_2.4) libdl.so.2(GLIBC_2.4) libresolv.so.2(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.25) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.26) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libcrypto.so.1.1 libdl.so.2 libz.so.1 libresolv.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_openssh-ssh: 494932

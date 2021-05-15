@@ -1,0 +1,16 @@
+PN: expat
+PV: 2.2.6
+PR: r0
+PKGV: 2.2.6
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_expat-dbg: Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_expat-dbg: A stream-oriented XML parser library - Debugging files
+RPROVIDES_expat-dbg:  expat-dbg (=2.2.6)
+RRECOMMENDS_expat-dbg: expat-lic libgcc-dbg glibc-dbg
+SECTION_expat-dbg: devel
+PKG_expat-dbg: libexpat-dbg
+ALLOW_EMPTY_expat-dbg: 1
+FILES_expat-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmltok.h": 12676, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/xmlwf/xmlfile.c": 7937, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmltok.c": 47388, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/expat_external.h": 5532, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/xmlwf/xmlfile.h": 1976, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/nametab.h": 8634, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/xmlwf/xmlwf.c": 29588, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmlrole.c": 36159, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/xmlwf/codepage.c": 2865, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmlparse.c": 240800, "/usr/bin/.debug/xmlwf": 73048, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/xmlwf/filemap.h": 2273, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/xmlwf/unixfilemap.c": 2993, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/xmlwf/codepage.h": 1663, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/expat.h": 43513, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmltok_ns.c": 4605, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/siphash.h": 12317, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmltok_impl.c": 46098, "/usr/lib/.debug/libexpat.so.1.6.8": 413716, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmlrole.h": 4490, "/usr/src/debug/expat/2.2.6-r0/expat-2.2.6/lib/xmltok_impl.h": 2131}
+PKGSIZE_expat-dbg: 1000402

@@ -1,0 +1,19 @@
+menu "apps " 
+config gpio-demo  
+	 bool "gpio-demo"
+	 help
+	 gpio-demo application
+	
+config myapp  
+	 bool "myapp"
+	 help
+	 Simple myapp application
+	
+config peekpoke  
+	 bool "peekpoke"
+	 help
+	 peekpoke application
+	
+endmenu
+menu "user packages " 
+endmenu

@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-install: perl module extutils-install
+SUMMARY_perl-module-extutils-install: perl module extutils-install
+RDEPENDS_perl-module-extutils-install: perl perl-module-autosplit perl-module-carp perl-module-config perl-module-cwd perl-module-exporter perl-module-extutils-packlist perl-module-file-basename perl-module-file-compare perl-module-file-copy perl-module-file-find perl-module-file-path perl-module-file-spec perl-module-strict perl-module-vars
+SECTION: devel
+PKG_perl-module-extutils-install: perl-module-extutils-install
+FILES_perl-module-extutils-install: /usr/lib/perl/5.24.4/ExtUtils/Install.pm
+FILERPROVIDESFLIST_perl-module-extutils-install: /usr/lib/perl/5.24.4/ExtUtils/Install.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/Install.pm": 40219}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/Install.pm_perl-module-extutils-install:  perl(ExtUtils::Install) perl(ExtUtils::Install::Warn)
+PKGSIZE_perl-module-extutils-install: 40219

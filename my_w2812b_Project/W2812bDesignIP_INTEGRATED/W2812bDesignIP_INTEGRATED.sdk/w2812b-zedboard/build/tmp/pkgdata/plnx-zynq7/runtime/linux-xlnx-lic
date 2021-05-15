@@ -1,0 +1,13 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+SECTION: kernel
+PKG_linux-xlnx-lic: linux-xlnx-lic
+FILES_linux-xlnx-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/linux-xlnx/generic_GPLv2": 17611, "/usr/share/licenses/linux-xlnx/COPYING": 423}
+PKGSIZE_linux-xlnx-lic: 18034

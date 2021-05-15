@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-pap-cw: binary locale definition for pap-cw
+SUMMARY_glibc-binary-localedata-pap-cw: binary locale definition for pap-cw
+SECTION: base
+PKG_glibc-binary-localedata-pap-cw: glibc-binary-localedata-pap-cw
+FILES_glibc-binary-localedata-pap-cw: /usr/lib/locale/pap_CW
+FILES_INFO: {"/usr/lib/locale/pap_CW/LC_MEASUREMENT": 23, "/usr/lib/locale/pap_CW/LC_MONETARY": 290, "/usr/lib/locale/pap_CW/LC_CTYPE": 337024, "/usr/lib/locale/pap_CW/LC_IDENTIFICATION": 334, "/usr/lib/locale/pap_CW/LC_COLLATE": 2586242, "/usr/lib/locale/pap_CW/LC_TELEPHONE": 52, "/usr/lib/locale/pap_CW/LC_PAPER": 34, "/usr/lib/locale/pap_CW/LC_MESSAGES/SYS_LC_MESSAGES": 60, "/usr/lib/locale/pap_CW/LC_TIME": 3276, "/usr/lib/locale/pap_CW/LC_NUMERIC": 54, "/usr/lib/locale/pap_CW/LC_ADDRESS": 164, "/usr/lib/locale/pap_CW/LC_NAME": 62}
+PKGSIZE_glibc-binary-localedata-pap-cw: 2927615

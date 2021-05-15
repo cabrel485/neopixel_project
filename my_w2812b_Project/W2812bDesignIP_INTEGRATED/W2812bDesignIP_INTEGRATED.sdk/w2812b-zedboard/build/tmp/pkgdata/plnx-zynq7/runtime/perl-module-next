@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-next: perl module next
+SUMMARY_perl-module-next: perl module next
+RDEPENDS_perl-module-next: perl perl-module-carp perl-module-overload perl-module-strict
+SECTION: devel
+PKG_perl-module-next: perl-module-next
+FILES_perl-module-next: /usr/lib/perl/5.24.4/NEXT.pm
+FILERPROVIDESFLIST_perl-module-next: /usr/lib/perl/5.24.4/NEXT.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/NEXT.pm": 18481}
+FILERPROVIDES_/usr/lib/perl/5.24.4/NEXT.pm_perl-module-next:  perl(NEXT) perl(EVERY) perl(EVERY::LAST) perl(NEXT::ACTUAL) perl(NEXT::ACTUAL::DISTINCT) perl(NEXT::ACTUAL::UNSEEN) perl(NEXT::DISTINCT) perl(NEXT::DISTINCT::ACTUAL) perl(NEXT::UNSEEN) perl(NEXT::UNSEEN::ACTUAL)
+PKGSIZE_perl-module-next: 18481

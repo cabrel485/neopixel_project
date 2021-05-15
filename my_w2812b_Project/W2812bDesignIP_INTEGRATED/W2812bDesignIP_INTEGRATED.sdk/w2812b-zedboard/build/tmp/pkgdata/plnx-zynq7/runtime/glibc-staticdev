@@ -1,0 +1,16 @@
+PN: glibc
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-staticdev: The GNU C Library is used as the system C library in most systems with the Linux kernel.  This package contains static libraries for software development.
+SUMMARY_glibc-staticdev: GLIBC (GNU C Library) - Development files (Static Libraries)
+RDEPENDS_glibc-staticdev: glibc-dev (= 2.28-r0)
+RPROVIDES_glibc-staticdev: eglibc-staticdev libc-staticdev glibc-staticdev (=2.28)
+RRECOMMENDS_glibc-staticdev: glibc-lic
+SECTION_glibc-staticdev: devel
+PKG_glibc-staticdev: libc6-staticdev
+FILES_glibc-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/glibc/*.a /usr/lib/*.a /lib/*.a
+FILES_INFO: {"/usr/lib/libresolv.a": 556896, "/usr/lib/libg.a": 2314, "/usr/lib/libutil.a": 52756, "/usr/lib/libanl.a": 219312, "/usr/lib/libm.a": 12150494, "/usr/lib/libBrokenLocale.a": 24286, "/usr/lib/librt.a": 714946, "/usr/lib/libdl.a": 305690, "/usr/lib/libmcheck.a": 8900, "/usr/lib/libpthread.a": 5134026, "/usr/lib/libc.a": 30238062}
+PKGSIZE_glibc-staticdev: 49407682

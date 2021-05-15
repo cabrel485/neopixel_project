@@ -1,0 +1,20 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-tcpmss: iptables module xt-tcpmss
+SUMMARY_iptables-module-xt-tcpmss: iptables module xt-tcpmss
+RDEPENDS_iptables-module-xt-tcpmss: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-tcpmss: iptables-module-xt-tcpmss
+FILES_iptables-module-xt-tcpmss: /usr/lib/xtables/libxt_TCPMSS.so /usr/lib/xtables/libxt_tcpmss.so
+FILERPROVIDESFLIST_iptables-module-xt-tcpmss: /usr/lib/xtables/libxt@underscore@TCPMSS.so /usr/lib/xtables/libxt@underscore@tcpmss.so
+FILES_INFO: {"/usr/lib/xtables/libxt_TCPMSS.so": 5616, "/usr/lib/xtables/libxt_tcpmss.so": 5508}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@TCPMSS.so_iptables-module-xt-tcpmss:  libxt_TCPMSS.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@tcpmss.so_iptables-module-xt-tcpmss:  libxt_tcpmss.so
+FILERDEPENDSFLIST_iptables-module-xt-tcpmss: /usr/lib/xtables/libxt@underscore@TCPMSS.so /usr/lib/xtables/libxt@underscore@tcpmss.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@TCPMSS.so_iptables-module-xt-tcpmss:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@tcpmss.so_iptables-module-xt-tcpmss:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-tcpmss: 11124

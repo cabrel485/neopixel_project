@@ -1,0 +1,17 @@
+PN: util-linux
+PV: 2.32.1
+PR: r0
+PKGV: 2.32.1
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-sfdisk: ncurses-libtinfo (>= 6.1+20180630) util-linux-libfdisk (>= 2.32.1) util-linux-libsmartcols (>= 2.32.1) glibc (>= 2.28)
+RRECOMMENDS_util-linux-sfdisk: util-linux-lic
+SECTION: base
+PKG_util-linux-sfdisk: util-linux-sfdisk
+FILES_util-linux-sfdisk: /usr/sbin/sfdisk
+FILES_INFO: {"/usr/sbin/sfdisk": 75196}
+FILERDEPENDSFLIST_util-linux-sfdisk: /usr/sbin/sfdisk
+FILERDEPENDS_/usr/sbin/sfdisk_util-linux-sfdisk:  ld-linux-armhf.so.3(GLIBC_2.4) libsmartcols.so.1(SMARTCOLS_2.25) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libfdisk.so.1(FDISK_2.28) libfdisk.so.1(FDISK_2.29) libfdisk.so.1(FDISK_2.30) libfdisk.so.1(FDISK_2.27) libfdisk.so.1(FDISK_2.31) libfdisk.so.1(FDISK_2.26) libfdisk.so.1 libsmartcols.so.1 libtinfo.so.5 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_util-linux-sfdisk: 75196

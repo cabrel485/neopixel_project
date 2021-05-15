@@ -1,0 +1,14 @@
+PN: openssl
+PV: 1.1.1a
+PR: r0
+PKGV: 1.1.1a
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RRECOMMENDS_openssl-locale: openssl-lic
+SECTION: libs/network
+PKG_openssl-locale: openssl-locale
+FILES_openssl-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_openssl-locale: 0

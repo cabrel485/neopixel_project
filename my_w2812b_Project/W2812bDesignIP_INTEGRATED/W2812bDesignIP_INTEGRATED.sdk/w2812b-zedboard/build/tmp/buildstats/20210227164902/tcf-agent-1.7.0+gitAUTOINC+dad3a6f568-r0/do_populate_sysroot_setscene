@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444628.53 
+tcf-agent-1.7.0+gitAUTOINC+dad3a6f568-r0: do_populate_sysroot_setscene
+Elapsed time: 0.21 seconds
+utime: 30
+stime: 5
+cutime: 2
+cstime: 1
+IO wchar: 1030371
+IO syscr: 265
+IO write_bytes: 708608
+IO cancelled_write_bytes: 0
+IO read_bytes: 81920
+IO rchar: 810683
+IO syscw: 377
+rusage ru_utime: 0.31002599999999997
+rusage ru_stime: 0.051670999999999995
+rusage ru_maxrss: 131344
+rusage ru_minflt: 13292
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 98
+Child rusage ru_utime: 0.021294999999999998
+Child rusage ru_stime: 0.014648
+Child rusage ru_maxrss: 128592
+Child rusage ru_minflt: 2262
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 160
+Child rusage ru_oublock: 1168
+Child rusage ru_nvcsw: 40
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1614444628.74 

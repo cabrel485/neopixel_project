@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-bho-np: binary locale definition for bho-np
+SUMMARY_glibc-binary-localedata-bho-np: binary locale definition for bho-np
+SECTION: base
+PKG_glibc-binary-localedata-bho-np: glibc-binary-localedata-bho-np
+FILES_glibc-binary-localedata-bho-np: /usr/lib/locale/bho_NP
+FILES_INFO: {"/usr/lib/locale/bho_NP/LC_TIME": 4344, "/usr/lib/locale/bho_NP/LC_NUMERIC": 54, "/usr/lib/locale/bho_NP/LC_TELEPHONE": 53, "/usr/lib/locale/bho_NP/LC_ADDRESS": 146, "/usr/lib/locale/bho_NP/LC_MONETARY": 302, "/usr/lib/locale/bho_NP/LC_COLLATE": 2586242, "/usr/lib/locale/bho_NP/LC_PAPER": 34, "/usr/lib/locale/bho_NP/LC_MESSAGES/SYS_LC_MESSAGES": 79, "/usr/lib/locale/bho_NP/LC_IDENTIFICATION": 323, "/usr/lib/locale/bho_NP/LC_CTYPE": 339640, "/usr/lib/locale/bho_NP/LC_NAME": 124, "/usr/lib/locale/bho_NP/LC_MEASUREMENT": 23}
+PKGSIZE_glibc-binary-localedata-bho-np: 2931364

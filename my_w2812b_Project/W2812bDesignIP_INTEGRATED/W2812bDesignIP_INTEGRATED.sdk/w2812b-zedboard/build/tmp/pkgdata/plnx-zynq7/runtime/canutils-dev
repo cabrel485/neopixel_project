@@ -1,0 +1,16 @@
+PN: canutils
+PV: 4.0.6
+PR: r0
+PKGV: 4.0.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_canutils-dev: canutils (PTX flavour).  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_canutils-dev: canutils (PTX flavour) - Development files
+RDEPENDS_canutils-dev: canutils (= 4.0.6-r0)
+RRECOMMENDS_canutils-dev: canutils-lic libsocketcan-dev iproute2-dev glibc-dev
+SECTION_canutils-dev: devel
+PKG_canutils-dev: canutils-dev
+ALLOW_EMPTY_canutils-dev: 1
+FILES_canutils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/canutils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/lib/pkgconfig/canutils.pc": 172}
+PKGSIZE_canutils-dev: 172

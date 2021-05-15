@@ -1,0 +1,93 @@
+def do_rootfs(d):
+    from oe.rootfs import create_rootfs
+    from oe.manifest import create_manifest
+    import logging
+
+    logger = d.getVar('BB_TASK_LOGGER', False)
+    if logger:
+        logcatcher = bb.utils.LogCatcher()
+        logger.addHandler(logcatcher)
+    else:
+        logcatcher = None
+
+    # NOTE: if you add, remove or significantly refactor the stages of this
+    # process then you should recalculate the weightings here. This is quite
+    # easy to do - just change the MultiStageProgressReporter line temporarily
+    # to pass debug=True as the last parameter and you'll get a printout of
+    # the weightings as well as a map to the lines where next_stage() was
+    # called. Of course this isn't critical, but it helps to keep the progress
+    # reporting accurate.
+    stage_weights = [1, 203, 354, 186, 65, 4228, 1, 353, 49, 330, 382, 23, 1]
+    progress_reporter = bb.progress.MultiStageProgressReporter(d, stage_weights)
+    progress_reporter.next_stage()
+
+    # Handle package exclusions
+    excl_pkgs = d.getVar("PACKAGE_EXCLUDE").split()
+    inst_pkgs = d.getVar("PACKAGE_INSTALL").split()
+    inst_attempt_pkgs = d.getVar("PACKAGE_INSTALL_ATTEMPTONLY").split()
+
+    d.setVar('PACKAGE_INSTALL_ORIG', ' '.join(inst_pkgs))
+    d.setVar('PACKAGE_INSTALL_ATTEMPTONLY', ' '.join(inst_attempt_pkgs))
+
+    for pkg in excl_pkgs:
+        if pkg in inst_pkgs:
+            bb.warn("Package %s, set to be excluded, is in %s PACKAGE_INSTALL (%s).  It will be removed from the list." % (pkg, d.getVar('PN'), inst_pkgs))
+            inst_pkgs.remove(pkg)
+
+        if pkg in inst_attempt_pkgs:
+            bb.warn("Package %s, set to be excluded, is in %s PACKAGE_INSTALL_ATTEMPTONLY (%s).  It will be removed from the list." % (pkg, d.getVar('PN'), inst_pkgs))
+            inst_attempt_pkgs.remove(pkg)
+
+    d.setVar("PACKAGE_INSTALL", ' '.join(inst_pkgs))
+    d.setVar("PACKAGE_INSTALL_ATTEMPTONLY", ' '.join(inst_attempt_pkgs))
+
+    # Ensure we handle package name remapping
+    # We have to delay the runtime_mapping_rename until just before rootfs runs
+    # otherwise, the multilib renaming could step in and squash any fixups that
+    # may have occurred.
+    pn = d.getVar('PN')
+    runtime_mapping_rename("PACKAGE_INSTALL", pn, d)
+    runtime_mapping_rename("PACKAGE_INSTALL_ATTEMPTONLY", pn, d)
+    runtime_mapping_rename("BAD_RECOMMENDATIONS", pn, d)
+
+    # Generate the initial manifest
+    create_manifest(d)
+
+    progress_reporter.next_stage()
+
+    # generate rootfs
+    d.setVarFlag('REPRODUCIBLE_TIMESTAMP_ROOTFS', 'export', '1')
+    create_rootfs(d, progress_reporter=progress_reporter, logcatcher=logcatcher)
+
+    progress_reporter.finish()
+
+do_rootfs(d)
+
+def runtime_mapping_rename (varname, pkg, d):
+    #bb.note("%s before: %s" % (varname, d.getVar(varname)))
+
+    new_depends = {}
+    deps = bb.utils.explode_dep_versions2(d.getVar(varname) or "")
+    for depend in deps:
+        new_depend = get_package_mapping(depend, pkg, d)
+        new_depends[new_depend] = deps[depend]
+
+    d.setVar(varname, bb.utils.join_deps(new_depends, commasep=False))
+
+    #bb.note("%s after: %s" % (varname, d.getVar(varname)))
+
+def get_package_mapping (pkg, basepkg, d):
+    import oe.packagedata
+
+    data = oe.packagedata.read_subpkgdata(pkg, d)
+    key = "PKG_%s" % pkg
+
+    if key in data:
+        # Have to avoid undoing the write_extra_pkgs(global_variants...)
+        if bb.data.inherits_class('allarch', d) and not d.getVar('MULTILIB_VARIANTS') \
+            and data[key] == basepkg:
+            return pkg
+        return data[key]
+
+    return pkg
+

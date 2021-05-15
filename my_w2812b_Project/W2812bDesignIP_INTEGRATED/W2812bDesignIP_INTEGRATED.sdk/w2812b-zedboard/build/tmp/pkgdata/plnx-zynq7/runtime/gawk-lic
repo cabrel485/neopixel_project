@@ -1,0 +1,13 @@
+PN: gawk
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION: The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.
+SUMMARY: GNU awk text processing utility
+SECTION: console/utils
+PKG_gawk-lic: gawk-lic
+FILES_gawk-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/gawk/generic_GPLv3": 34694, "/usr/share/licenses/gawk/COPYING": 35147}
+PKGSIZE_gawk-lic: 69841

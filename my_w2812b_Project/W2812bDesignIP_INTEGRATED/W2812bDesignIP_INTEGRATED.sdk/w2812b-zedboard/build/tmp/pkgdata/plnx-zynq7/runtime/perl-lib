@@ -1,0 +1,21 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION: Perl scripting language.
+SUMMARY: Perl scripting language
+RDEPENDS_perl-lib: libxcrypt (>= 4.1.1) glibc (>= 2.28)
+RPROVIDES_perl-lib: perl-lib
+RRECOMMENDS_perl-lib: perl-lic
+SECTION: devel
+PKG_perl-lib: libperl5
+FILES_perl-lib: /usr/lib/libperl.so*                    /usr/lib/perl5                    /usr/lib/perl/config.sh \t\t   /usr/lib/perl/5.24.4/Config_git.pl                    /usr/lib/perl/5.24.4/Config_heavy.pl                    /usr/lib/perl/5.24.4/Config_heavy-target.pl
+pkg_postinst_perl-lib: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_perl-lib: /usr/lib/libperl.so.5.24.4
+FILES_INFO: {"/usr/lib/perl/5.24.4/Config_heavy-target.pl": 15, "/usr/lib/libperl.so.5.24.4": 1229436, "/usr/lib/perl/5.24.4/Config_heavy.pl": 49384, "/usr/lib/perl/5.24.4/Config_git.pl": 409, "/usr/lib/libperl.so.5": 17, "/usr/lib/perl/config.sh": 41518}
+FILERPROVIDES_/usr/lib/libperl.so.5.24.4_perl-lib:  libperl.so.5
+FILERDEPENDSFLIST_perl-lib: /usr/lib/libperl.so.5.24.4
+FILERDEPENDS_/usr/lib/libperl.so.5.24.4_perl-lib:  libcrypt.so.1(XCRYPT_2.0) libdl.so.2(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libm.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libpthread.so.0 libdl.so.2 libm.so.6 libcrypt.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-lib: 1320779

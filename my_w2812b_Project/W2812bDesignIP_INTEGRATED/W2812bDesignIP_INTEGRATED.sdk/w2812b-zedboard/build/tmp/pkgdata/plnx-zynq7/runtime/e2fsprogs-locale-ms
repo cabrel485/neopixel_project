@@ -1,0 +1,15 @@
+PN: e2fsprogs
+PV: 1.44.3
+PR: r0
+PKGV: 1.44.3
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-locale-ms: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains language translation files for the ms locale.
+SUMMARY_e2fsprogs-locale-ms: Ext2 Filesystem Utilities - ms translations
+RPROVIDES_e2fsprogs-locale-ms: e2fsprogs-locale ms-translation
+RRECOMMENDS_e2fsprogs-locale-ms: virtual-locale-ms
+SECTION: base
+PKG_e2fsprogs-locale-ms: e2fsprogs-locale-ms
+FILES_e2fsprogs-locale-ms: /usr/share/locale/ms
+FILES_INFO: {"/usr/share/locale/ms/LC_MESSAGES/e2fsprogs.mo": 18222}
+PKGSIZE_e2fsprogs-locale-ms: 18222

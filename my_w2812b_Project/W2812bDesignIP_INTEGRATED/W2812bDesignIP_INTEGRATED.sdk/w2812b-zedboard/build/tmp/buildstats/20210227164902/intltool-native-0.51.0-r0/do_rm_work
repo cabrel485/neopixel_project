@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444740.23 
+intltool-native-0.51.0-r0: do_rm_work
+Elapsed time: 0.08 seconds
+utime: 16
+stime: 2
+cutime: 2
+cstime: 0
+IO wchar: 40325
+IO syscr: 185
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 184320
+IO rchar: 164467
+IO syscw: 37
+rusage ru_utime: 0.168766
+rusage ru_stime: 0.022501999999999998
+rusage ru_maxrss: 131508
+rusage ru_minflt: 4698
+rusage ru_majflt: 0
+rusage ru_inblock: 64
+rusage ru_oublock: 80
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.022359
+Child rusage ru_stime: 0.008525
+Child rusage ru_maxrss: 128836
+Child rusage ru_minflt: 3474
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 296
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 72
+Child rusage ru_nivcsw: 45
+Status: PASSED 
+Ended: 1614444740.31 

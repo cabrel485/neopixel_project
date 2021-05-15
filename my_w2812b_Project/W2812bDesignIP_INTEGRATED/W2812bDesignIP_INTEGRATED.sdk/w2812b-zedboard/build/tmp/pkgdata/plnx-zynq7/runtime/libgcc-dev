@@ -1,0 +1,17 @@
+PN: libgcc
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE_libgcc-dev: GPL-3.0-with-GCC-exception
+DESCRIPTION_libgcc-dev: GNU cc and gcc C compilers.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libgcc-dev: GNU cc and gcc C compilers - Development files
+RDEPENDS_libgcc-dev: libgcc (= 8.2.0-r0)
+RPROVIDES_libgcc-dev:  libgcc-dev (=8.2.0)
+RRECOMMENDS_libgcc-dev: libgcc-lic glibc-dev
+SECTION_libgcc-dev: devel
+PKG_libgcc-dev: libgcc-s-dev
+ALLOW_EMPTY_libgcc-dev: 1
+FILES_libgcc-dev:     /lib/libgcc*.so          /usr/lib/arm-xilinx-linux-gnueabi/8.2.0*     /usr/lib/arm-xilinx* 
+FILES_INFO: {"/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/crtbegin.o": 1852, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/crtendS.o": 980, "/lib/libgcc_s.so": 132, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/crtbeginT.o": 2216, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/crtbeginS.o": 2196, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/libgcc.a": 26324452, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/libgcov.a": 553862, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/crtend.o": 980, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/libgcc_eh.a": 104176, "/usr/lib/arm-xilinx-linux-gnueabi/8.2.0/crtfastmath.o": 2984}
+PKGSIZE_libgcc-dev: 26993830

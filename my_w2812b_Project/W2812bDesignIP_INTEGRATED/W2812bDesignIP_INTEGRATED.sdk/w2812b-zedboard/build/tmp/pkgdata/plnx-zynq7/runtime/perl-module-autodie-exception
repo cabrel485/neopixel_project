@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-autodie-exception: perl module autodie-exception
+SUMMARY_perl-module-autodie-exception: perl module autodie-exception
+RDEPENDS_perl-module-autodie-exception: perl perl-module-carp perl-module-constant perl-module-fatal perl-module-fcntl perl-module-overload perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-autodie-exception: perl-module-autodie-exception
+FILES_perl-module-autodie-exception: /usr/lib/perl/5.24.4/autodie/exception.pm
+FILERPROVIDESFLIST_perl-module-autodie-exception: /usr/lib/perl/5.24.4/autodie/exception.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/autodie/exception.pm": 21720}
+FILERPROVIDES_/usr/lib/perl/5.24.4/autodie/exception.pm_perl-module-autodie-exception:  perl(autodie::exception)
+PKGSIZE_perl-module-autodie-exception: 21720

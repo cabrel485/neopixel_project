@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../../../usr
+exec_prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+host=x86_64-pc-linux-gnu
+
+Name: gpg-error
+Description: a library that defines common error values for all GnuPG components
+Version: 1.32-unknown
+Libs: -L${libdir} -lgpg-error
+Cflags: -I${includedir}

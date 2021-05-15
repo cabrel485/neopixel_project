@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444759.89 
+glib-2.0-1_2.58.0-r0: do_rm_work
+Elapsed time: 0.14 seconds
+utime: 15
+stime: 2
+cutime: 2
+cstime: 3
+IO wchar: 45886
+IO syscr: 298
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 102400
+IO rchar: 212752
+IO syscw: 49
+rusage ru_utime: 0.15556
+rusage ru_stime: 0.021020999999999998
+rusage ru_maxrss: 132408
+rusage ru_minflt: 4907
+rusage ru_majflt: 0
+rusage ru_inblock: 128
+rusage ru_oublock: 72
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 35
+Child rusage ru_utime: 0.026428
+Child rusage ru_stime: 0.03532
+Child rusage ru_maxrss: 129736
+Child rusage ru_minflt: 5843
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 72
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 85
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1614444760.03 

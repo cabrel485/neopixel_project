@@ -1,0 +1,20 @@
+!<thin>
+//                                              158       `
+i2c-boardinfo.o/
+i2c-core-base.o/
+i2c-core-smbus.o/
+i2c-core-of.o/
+i2c-dev.o/
+i2c-mux.o/
+algos/i2c-algo-bit.o/
+busses/i2c-cadence.o/
+muxes/i2c-mux-pca954x.o/
+/0             /0           0     0     644     3480      `
+/17            /0           0     0     644     42532     `
+/34             0           0     0     644     13804     `
+/52             0           0     0     644     7240      `
+/67             0           0     0     644     9784      `
+/78             0           0     0     644     8136      `
+/89             0           0     0     644     8268      `
+/111            0           0     0     644     10556     `
+/133            0           0     0     644     10016     `

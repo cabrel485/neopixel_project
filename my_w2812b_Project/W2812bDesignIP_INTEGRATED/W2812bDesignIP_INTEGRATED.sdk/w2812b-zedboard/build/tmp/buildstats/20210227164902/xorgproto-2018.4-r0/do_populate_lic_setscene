@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444625.19 
+xorgproto-2018.4-r0: do_populate_lic_setscene
+Elapsed time: 0.20 seconds
+utime: 21
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 153708
+IO syscr: 187
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 271323
+IO syscw: 133
+rusage ru_utime: 0.21870799999999999
+rusage ru_stime: 0.053717
+rusage ru_maxrss: 131392
+rusage ru_minflt: 13330
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 179
+Child rusage ru_utime: 0.017913
+Child rusage ru_stime: 0.01048
+Child rusage ru_maxrss: 128608
+Child rusage ru_minflt: 2250
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1614444625.39 

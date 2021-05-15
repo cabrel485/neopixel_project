@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444712.51 
+device-tree-xilinx+gitAUTOINC+73e546e312-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.44 seconds
+utime: 24
+stime: 18
+cutime: 3
+cstime: 7
+IO wchar: 1603551
+IO syscr: 854
+IO write_bytes: 1687552
+IO cancelled_write_bytes: 0
+IO read_bytes: 1687552
+IO rchar: 4035891
+IO syscw: 46958
+rusage ru_utime: 0.2427
+rusage ru_stime: 0.188766
+rusage ru_maxrss: 138900
+rusage ru_minflt: 8776
+rusage ru_majflt: 0
+rusage ru_inblock: 392
+rusage ru_oublock: 288
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 173
+Child rusage ru_utime: 0.03265
+Child rusage ru_stime: 0.074679
+Child rusage ru_maxrss: 135176
+Child rusage ru_minflt: 784
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 2904
+Child rusage ru_oublock: 3008
+Child rusage ru_nvcsw: 45
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1614444712.95 

@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-realm: iptables module ipt-realm
+SUMMARY_iptables-module-ipt-realm: iptables module ipt-realm
+RDEPENDS_iptables-module-ipt-realm: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-realm: iptables-module-ipt-realm
+FILES_iptables-module-ipt-realm: /usr/lib/xtables/libipt_realm.so
+FILERPROVIDESFLIST_iptables-module-ipt-realm: /usr/lib/xtables/libipt@underscore@realm.so
+FILES_INFO: {"/usr/lib/xtables/libipt_realm.so": 5508}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@realm.so_iptables-module-ipt-realm:  libipt_realm.so
+FILERDEPENDSFLIST_iptables-module-ipt-realm: /usr/lib/xtables/libipt@underscore@realm.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@realm.so_iptables-module-ipt-realm:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-realm: 5508

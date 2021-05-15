@@ -1,0 +1,16 @@
+PN: base-files
+PV: 3.0.14
+PR: r89
+PKGV: 3.0.14
+PKGR: r89
+LICENSE: GPLv2
+DESCRIPTION: The base-files package creates the basic system directory structure and provides a small set of key configuration files for the system.
+SUMMARY: Miscellaneous files for the base system
+RRECOMMENDS_base-files: base-files-lic
+SECTION: base
+PKG_base-files: base-files
+FILES_base-files: /
+CONFFILES_base-files: /etc/fstab /etc/hostname /etc/shells /etc/motd /etc/nsswitch.conf /etc/profile \t/etc/petalinux/bsp \t/etc/petalinux/config \t/etc/petalinux/product \t/etc/petalinux/version \t
+pkg_preinst_base-files: set -e\n    #!/bin/sh -e\n    if [ x"$D" = "x" ]; then\n        if [ -h "/var/lock" ]; then\n            # Remove the symbolic link\n            rm -f /var/lock\n        fi\n\n        if [ -h "/run" ]; then\n            # Remove the symbolic link\n            rm -f /run\n        fi\n    fi\n
+FILES_INFO: {"/etc/nsswitch.conf": 465, "/etc/default/usbd": 0, "/etc/hostname": 16, "/etc/host.conf": 26, "/var/lock": 11, "/etc/motd": 0, "/etc/profile": 984, "/etc/petalinux/product": 16, "/etc/mtab": 12, "/etc/petalinux/version": 5, "/etc/skel/.bashrc": 410, "/etc/issue.net": 21, "/etc/shells": 42, "/etc/petalinux/config": 8, "/etc/petalinux/bsp": 11, "/etc/filesystems": 38, "/etc/issue": 24, "/etc/skel/.profile": 241, "/etc/fstab": 637}
+PKGSIZE_base-files: 2967

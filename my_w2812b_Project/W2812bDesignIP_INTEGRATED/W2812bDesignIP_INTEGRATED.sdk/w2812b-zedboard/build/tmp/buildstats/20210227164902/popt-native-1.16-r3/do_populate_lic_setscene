@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444587.31 
+popt-native-1.16-r3: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 24
+stime: 7
+cutime: 1
+cstime: 1
+IO wchar: 143806
+IO syscr: 184
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 221166
+IO syscw: 137
+rusage ru_utime: 0.243583
+rusage ru_stime: 0.077503
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13364
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 199
+Child rusage ru_utime: 0.015583999999999999
+Child rusage ru_stime: 0.012473
+Child rusage ru_maxrss: 128716
+Child rusage ru_minflt: 2281
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1614444587.42 

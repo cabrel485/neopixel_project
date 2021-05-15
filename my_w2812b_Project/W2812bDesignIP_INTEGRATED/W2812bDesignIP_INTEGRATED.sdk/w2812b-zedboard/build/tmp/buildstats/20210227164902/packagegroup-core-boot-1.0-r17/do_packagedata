@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444694.25 
+packagegroup-core-boot-1.0-r17: do_packagedata
+Elapsed time: 0.22 seconds
+utime: 18
+stime: 4
+cutime: 2
+cstime: 2
+IO wchar: 143841
+IO syscr: 1352
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 346316
+IO syscw: 71
+rusage ru_utime: 0.187329
+rusage ru_stime: 0.049954
+rusage ru_maxrss: 131564
+rusage ru_minflt: 12115
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 118
+Child rusage ru_utime: 0.028241
+Child rusage ru_stime: 0.028029
+Child rusage ru_maxrss: 128816
+Child rusage ru_minflt: 4699
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 52
+Child rusage ru_nivcsw: 46
+Status: PASSED 
+Ended: 1614444694.47 

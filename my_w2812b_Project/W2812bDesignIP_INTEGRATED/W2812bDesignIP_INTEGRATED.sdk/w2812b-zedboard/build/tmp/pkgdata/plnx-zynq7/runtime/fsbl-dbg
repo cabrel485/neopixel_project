@@ -1,0 +1,15 @@
+PN: fsbl
+PV: 2019.1+gitAUTOINC+26c14d9861
+PR: r0
+PKGV: 2019.1+git0+26c14d9861
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_fsbl-dbg: FSBL  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_fsbl-dbg: fsbl version 2019.1+gitAUTOINC+26c14d9861-r0 - Debugging files
+RRECOMMENDS_fsbl-dbg: fsbl-lic
+SECTION_fsbl-dbg: devel
+PKG_fsbl-dbg: fsbl-dbg
+ALLOW_EMPTY_fsbl-dbg: 1
+FILES_fsbl-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_fsbl-dbg: 0

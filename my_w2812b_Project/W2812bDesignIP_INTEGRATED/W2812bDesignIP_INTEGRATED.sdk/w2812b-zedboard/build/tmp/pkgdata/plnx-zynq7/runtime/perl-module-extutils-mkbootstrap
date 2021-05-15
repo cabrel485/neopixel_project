@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mkbootstrap: perl module extutils-mkbootstrap
+SUMMARY_perl-module-extutils-mkbootstrap: perl module extutils-mkbootstrap
+RDEPENDS_perl-module-extutils-mkbootstrap: perl perl-module-config perl-module-dynaloader perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-mkbootstrap: perl-module-extutils-mkbootstrap
+FILES_perl-module-extutils-mkbootstrap: /usr/lib/perl/5.24.4/ExtUtils/Mkbootstrap.pm
+FILERPROVIDESFLIST_perl-module-extutils-mkbootstrap: /usr/lib/perl/5.24.4/ExtUtils/Mkbootstrap.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/Mkbootstrap.pm": 3184}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/Mkbootstrap.pm_perl-module-extutils-mkbootstrap:  perl(ExtUtils::Mkbootstrap) perl(DynaLoader)
+PKGSIZE_perl-module-extutils-mkbootstrap: 3184

@@ -1,0 +1,15 @@
+PN: grep
+PV: 3.1
+PR: r0
+PKGV: 3.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_grep-locale-ky: GNU grep utility.  This package contains language translation files for the ky locale.
+SUMMARY_grep-locale-ky: GNU grep utility - ky translations
+RPROVIDES_grep-locale-ky: grep-locale ky-translation
+RRECOMMENDS_grep-locale-ky: virtual-locale-ky
+SECTION: console/utils
+PKG_grep-locale-ky: grep-locale-ky
+FILES_grep-locale-ky: /usr/share/locale/ky
+FILES_INFO: {"/usr/share/locale/ky/LC_MESSAGES/grep.mo": 2929}
+PKGSIZE_grep-locale-ky: 2929

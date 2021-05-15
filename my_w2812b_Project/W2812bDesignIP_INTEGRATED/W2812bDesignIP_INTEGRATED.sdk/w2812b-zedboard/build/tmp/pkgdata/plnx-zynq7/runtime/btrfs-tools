@@ -1,0 +1,32 @@
+PN: btrfs-tools
+PV: 4.17.1
+PR: r0
+PKGV: 4.17.1
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. This package contains utilities (mkfs, fsck, btrfsctl) used to work with btrfs and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.
+SUMMARY: Checksumming Copy on Write Filesystem utilities
+RDEPENDS_btrfs-tools: libgcc python3-core util-linux-libuuid (>= 2.32.1) util-linux-libblkid (>= 2.32.1) libcomerr (>= 1.44.3) glibc (>= 2.28) lzo (>= 2.10) zlib (>= 1.2.11) libext2fs (>= 1.44.3)
+RRECOMMENDS_btrfs-tools: btrfs-tools-lic
+SECTION: base
+PKG_btrfs-tools: btrfs-tools
+FILES_btrfs-tools: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/btrfs-tools /usr/lib/btrfs-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/* /usr/lib/python3.5/*
+pkg_postinst_btrfs-tools: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_btrfs-tools: /usr/lib/libbtrfs.so.0.1 /usr/lib/libbtrfsutil.so.1.0.0
+FILES_INFO: {"/usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/top_level.txt": 10, "/usr/bin/btrfs-image": 354272, "/usr/bin/btrfs-convert": 358372, "/usr/bin/btrfs-map-logical": 333800, "/usr/lib/libbtrfs.so.0.1": 34232, "/usr/lib/libbtrfsutil.so.1.0.0": 17704, "/usr/lib/libbtrfs.so.0": 15, "/usr/bin/btrfstune": 333792, "/usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/SOURCES.txt": 203, "/usr/bin/btrfs": 637304, "/usr/bin/btrfsck": 5, "/usr/lib/python3.5/site-packages/btrfsutil.cpython-35m-arm-linux-gnueabihf.so": 27312, "/usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/dependency_links.txt": 1, "/usr/lib/libbtrfsutil.so.1": 21, "/usr/bin/mkfs.btrfs": 354288, "/usr/lib/python3.5/site-packages/btrfsutil-1.0.0-py3.5.egg-info/PKG-INFO": 242, "/lib/udev/rules.d/64-btrfs-dm.rules": 387, "/usr/bin/btrfs-find-root": 333796, "/usr/bin/btrfs-select-super": 333800, "/usr/bin/fsck.btrfs": 1185}
+FILERPROVIDES_/usr/lib/libbtrfs.so.0.1_btrfs-tools:  libbtrfs.so.0
+FILERPROVIDES_/usr/lib/libbtrfsutil.so.1.0.0_btrfs-tools:  libbtrfsutil.so.1
+FILERDEPENDSFLIST_btrfs-tools: /usr/bin/btrfs-select-super /usr/bin/btrfs-convert /usr/bin/btrfs-map-logical /usr/lib/libbtrfs.so.0.1 /usr/lib/libbtrfsutil.so.1.0.0 /usr/bin/btrfs-image /usr/bin/mkfs.btrfs /usr/bin/btrfs /usr/lib/python3.5/site-packages/btrfsutil.cpython-35m-arm-linux-gnueabihf.so /usr/bin/btrfstune /usr/bin/fsck.btrfs /usr/bin/btrfs-find-root
+FILERDEPENDS_/usr/bin/btrfs-select-super_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libuuid.so.1 libblkid.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/btrfs-convert_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libext2fs.so.2 libcom_err.so.2 libuuid.so.1 libblkid.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/btrfs-map-logical_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libuuid.so.1 libblkid.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libbtrfs.so.0.1_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.4) libuuid.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libbtrfsutil.so.1.0.0_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/btrfs-image_btrfs-tools:  libz.so.1(ZLIB_1.2.0) ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libuuid.so.1 libblkid.so.1 libz.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/mkfs.btrfs_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libuuid.so.1 libblkid.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/btrfs_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.5) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libuuid.so.1 libblkid.so.1 libz.so.1 liblzo2.so.2 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/site-packages/btrfsutil.cpython-35m-arm-linux-gnueabihf.so_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libbtrfsutil.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/btrfstune_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libuuid.so.1 libblkid.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/fsck.btrfs_btrfs-tools:  /bin/sh
+FILERDEPENDS_/usr/bin/btrfs-find-root_btrfs-tools:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libuuid.so.1(UUID_1.0) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libuuid.so.1 libblkid.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_btrfs-tools: 3120741

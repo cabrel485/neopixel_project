@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444656.71 
+autoconf-archive-2018.03.13-r0: do_populate_sysroot_setscene
+Elapsed time: 0.18 seconds
+utime: 14
+stime: 4
+cutime: 3
+cstime: 3
+IO wchar: 5094146
+IO syscr: 684
+IO write_bytes: 3616768
+IO cancelled_write_bytes: 0
+IO read_bytes: 499712
+IO rchar: 3334324
+IO syscw: 1663
+rusage ru_utime: 0.14490799999999998
+rusage ru_stime: 0.04308
+rusage ru_maxrss: 131640
+rusage ru_minflt: 6954
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 456
+rusage ru_nvcsw: 94
+rusage ru_nivcsw: 123
+Child rusage ru_utime: 0.035017
+Child rusage ru_stime: 0.033153999999999996
+Child rusage ru_maxrss: 128576
+Child rusage ru_minflt: 2299
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 968
+Child rusage ru_oublock: 6608
+Child rusage ru_nvcsw: 103
+Child rusage ru_nivcsw: 122
+Status: PASSED 
+Ended: 1614444656.89 

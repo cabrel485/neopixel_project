@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-sc: locale definition for en-sc
+SUMMARY_glibc-localedata-en-sc: locale definition for en-sc
+RDEPENDS_glibc-localedata-en-sc: glibc-localedata-en-gb glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-en-sc: glibc-localedata-en-sc
+FILES_glibc-localedata-en-sc: /usr/share/i18n/locales/en_SC
+FILES_INFO: {"/usr/share/i18n/locales/en_SC": 2548}
+PKGSIZE_glibc-localedata-en-sc: 2548

@@ -1,0 +1,21 @@
+PN: canutils
+PV: 4.0.6
+PR: r0
+PKGV: 4.0.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: canutils (PTX flavour).
+SUMMARY: canutils (PTX flavour)
+RDEPENDS_canutils: iproute2 libsocketcan (>= 0.0.10) glibc (>= 2.28)
+RRECOMMENDS_canutils: canutils-lic
+SECTION: console/network
+PKG_canutils: canutils
+FILES_canutils: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/canutils /usr/lib/canutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/cansequence": 9776, "/usr/bin/cansend": 9780, "/usr/sbin/canconfig": 13776, "/usr/bin/canecho": 9720, "/usr/bin/candump": 9740}
+FILERDEPENDSFLIST_canutils: /usr/bin/cansequence /usr/bin/cansend /usr/sbin/canconfig /usr/bin/canecho /usr/bin/candump
+FILERDEPENDS_/usr/bin/cansequence_canutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/cansend_canutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/canconfig_canutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libsocketcan.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/canecho_canutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/candump_canutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_canutils: 52792

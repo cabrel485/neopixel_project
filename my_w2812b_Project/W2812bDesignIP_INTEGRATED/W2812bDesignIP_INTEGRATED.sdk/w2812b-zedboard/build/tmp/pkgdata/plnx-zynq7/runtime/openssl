@@ -1,0 +1,15 @@
+PN: openssl
+PV: 1.1.1a
+PR: r0
+PKGV: 1.1.1a
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RDEPENDS_openssl: openssl-conf
+RRECOMMENDS_openssl: openssl-lic
+SECTION: libs/network
+PKG_openssl: openssl
+FILES_openssl: /usr/lib/ssl-1.1/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openssl /usr/lib/openssl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/lib/ssl-1.1/ct_log_list.cnf": 414, "/usr/lib/ssl-1.1/ct_log_list.cnf.dist": 414, "/usr/lib/ssl-1.1/openssl.cnf.dist": 10911, "/usr/lib/ssl-1.1/openssl.cnf": 28}
+PKGSIZE_openssl: 11767

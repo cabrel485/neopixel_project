@@ -1,0 +1,144 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for automount.rules in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/
+NOTE: Unpacking /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/automount.rules to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/udev-extraconf/1.1-r0/
+DEBUG: Searching for mount.sh in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/
+NOTE: Unpacking /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/mount.sh to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/udev-extraconf/1.1-r0/
+DEBUG: Searching for mount.blacklist in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/
+NOTE: Unpacking /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/mount.blacklist to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/udev-extraconf/1.1-r0/
+DEBUG: Searching for autonet.rules in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/
+NOTE: Unpacking /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/autonet.rules to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/udev-extraconf/1.1-r0/
+DEBUG: Searching for network.sh in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/
+NOTE: Unpacking /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/network.sh to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/udev-extraconf/1.1-r0/
+DEBUG: Searching for localextra.rules in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf-1.1/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/files/
+NOTE: Unpacking /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/udev/udev-extraconf/localextra.rules to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/udev-extraconf/1.1-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+DEBUG: Python function do_qa_unpack finished

@@ -1,0 +1,13 @@
+PN: ncurses
+PV: 6.1+20180630
+PR: r0
+PKGV: 6.1+20180630
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: SVr4 and XSI-Curses compatible curses library and terminfo tools including tic, infocmp, captoinfo. Supports color, multiple highlights, forms-drawing characters, and automatic recognition of keypad and function-key sequences. Extensions include resizable windows and mouse support on both xterm and Linux console using the gpm library.
+SUMMARY: The New Curses library
+SECTION: libs
+PKG_ncurses-lic: ncurses-lic
+FILES_ncurses-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/ncurses/version.c": 2107, "/usr/share/licenses/ncurses/generic_MIT": 1080}
+PKGSIZE_ncurses-lic: 3187

@@ -1,0 +1,14 @@
+PN: gnome-desktop-testing
+PV: 2014.1
+PR: r1
+PKGV: 2014.1
+PKGR: r1
+LICENSE: LGPLv2+
+DESCRIPTION: Test runner for GNOME-style installed tests.
+SUMMARY: Test runner for GNOME-style installed tests
+RRECOMMENDS_gnome-desktop-testing-locale: gnome-desktop-testing-lic
+SECTION: base
+PKG_gnome-desktop-testing-locale: gnome-desktop-testing-locale
+FILES_gnome-desktop-testing-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gnome-desktop-testing-locale: 0

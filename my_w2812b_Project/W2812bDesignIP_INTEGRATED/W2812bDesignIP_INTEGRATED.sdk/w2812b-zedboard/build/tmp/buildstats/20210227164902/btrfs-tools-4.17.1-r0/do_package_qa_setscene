@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444601.14 
+btrfs-tools-4.17.1-r0: do_package_qa_setscene
+Elapsed time: 0.17 seconds
+utime: 23
+stime: 4
+cutime: 1
+cstime: 0
+IO wchar: 142762
+IO syscr: 103
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 183832
+IO syscw: 125
+rusage ru_utime: 0.239067
+rusage ru_stime: 0.043829
+rusage ru_maxrss: 131380
+rusage ru_minflt: 12165
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 82
+Child rusage ru_utime: 0.01286
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 128656
+Child rusage ru_minflt: 1135
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1614444601.31 

@@ -1,0 +1,24 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION: Perl scripting language.
+SUMMARY: Perl scripting language
+RDEPENDS_perl: perl-lib (>= 5.24.4) glibc (>= 2.28)
+RPROVIDES_perl:  perl-module-strict perl-module-vars perl-module-config perl-module-warnings                     perl-module-warnings-register
+RRECOMMENDS_perl: perl-lic
+SECTION: devel
+PKG_perl: perl
+FILES_perl: /usr/bin/perl /usr/bin/perl5.24.4                /usr/lib/perl/5.24.4/Config.pm                /usr/lib/perl/5.24.4/strict.pm                /usr/lib/perl/5.24.4/warnings.pm                /usr/lib/perl/5.24.4/warnings                /usr/lib/perl/5.24.4/vars.pm               
+FILERPROVIDESFLIST_perl: /usr/lib/perl/5.24.4/warnings/register.pm /usr/lib/perl/5.24.4/vars.pm /usr/lib/perl/5.24.4/warnings.pm /usr/lib/perl/5.24.4/Config.pm /usr/lib/perl/5.24.4/strict.pm
+FILES_INFO: {"/usr/bin/perl5.24.4": 5512, "/usr/lib/perl/5.24.4/strict.pm": 4738, "/usr/lib/perl/5.24.4/warnings/register.pm": 759, "/usr/lib/perl/5.24.4/vars.pm": 2414, "/usr/lib/perl/5.24.4/warnings.pm": 44358, "/usr/bin/perl": 10, "/usr/lib/perl/5.24.4/Config.pm": 4616}
+FILERPROVIDES_/usr/lib/perl/5.24.4/warnings/register.pm_perl:  perl(warnings::register)
+FILERPROVIDES_/usr/lib/perl/5.24.4/vars.pm_perl:  perl(vars)
+FILERPROVIDES_/usr/lib/perl/5.24.4/warnings.pm_perl:  perl(warnings)
+FILERPROVIDES_/usr/lib/perl/5.24.4/Config.pm_perl:  perl(Config)
+FILERPROVIDES_/usr/lib/perl/5.24.4/strict.pm_perl:  perl(strict)
+FILERDEPENDSFLIST_perl: /usr/bin/perl5.24.4
+FILERDEPENDS_/usr/bin/perl5.24.4_perl:  libc.so.6(GLIBC_2.4) libperl.so.5 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_perl: 62407

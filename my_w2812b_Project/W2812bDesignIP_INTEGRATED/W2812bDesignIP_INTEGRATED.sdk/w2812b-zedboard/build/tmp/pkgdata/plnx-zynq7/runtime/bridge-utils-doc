@@ -1,0 +1,14 @@
+PN: bridge-utils
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_bridge-utils-doc: Tools for ethernet bridging.  This package contains documentation.
+SUMMARY_bridge-utils-doc: Tools for ethernet bridging - Documentation files
+RRECOMMENDS_bridge-utils-doc: bridge-utils-lic
+SECTION_bridge-utils-doc: doc
+PKG_bridge-utils-doc: bridge-utils-doc
+FILES_bridge-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/brctl.8": 6625}
+PKGSIZE_bridge-utils-doc: 6625

@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-vos: perl module extutils-mm-vos
+SUMMARY_perl-module-extutils-mm-vos: perl module extutils-mm-vos
+RDEPENDS_perl-module-extutils-mm-vos: perl perl-module-extutils-mm-unix perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-mm-vos: perl-module-extutils-mm-vos
+FILES_perl-module-extutils-mm-vos: /usr/lib/perl/5.24.4/ExtUtils/MM_VOS.pm
+FILERPROVIDESFLIST_perl-module-extutils-mm-vos: /usr/lib/perl/5.24.4/ExtUtils/MM@underscore@VOS.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/MM_VOS.pm": 726}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/MM@underscore@VOS.pm_perl-module-extutils-mm-vos:  perl(ExtUtils::MM_VOS)
+PKGSIZE_perl-module-extutils-mm-vos: 726

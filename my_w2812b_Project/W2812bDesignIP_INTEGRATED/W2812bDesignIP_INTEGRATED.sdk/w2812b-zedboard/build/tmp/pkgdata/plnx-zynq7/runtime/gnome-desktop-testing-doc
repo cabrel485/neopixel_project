@@ -1,0 +1,14 @@
+PN: gnome-desktop-testing
+PV: 2014.1
+PR: r1
+PKGV: 2014.1
+PKGR: r1
+LICENSE: LGPLv2+
+DESCRIPTION_gnome-desktop-testing-doc: Test runner for GNOME-style installed tests.  This package contains documentation.
+SUMMARY_gnome-desktop-testing-doc: Test runner for GNOME-style installed tests - Documentation files
+RRECOMMENDS_gnome-desktop-testing-doc: gnome-desktop-testing-lic
+SECTION_gnome-desktop-testing-doc: doc
+PKG_gnome-desktop-testing-doc: gnome-desktop-testing-doc
+FILES_gnome-desktop-testing-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_gnome-desktop-testing-doc: 0

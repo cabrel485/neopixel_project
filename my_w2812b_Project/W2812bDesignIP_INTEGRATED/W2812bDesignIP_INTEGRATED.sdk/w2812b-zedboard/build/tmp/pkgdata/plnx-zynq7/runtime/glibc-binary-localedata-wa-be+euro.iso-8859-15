@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-wa-be+euro.iso-8859-15: binary locale definition for wa-be+euro.iso-8859-15
+SUMMARY_glibc-binary-localedata-wa-be+euro.iso-8859-15: binary locale definition for wa-be+euro.iso-8859-15
+SECTION: base
+PKG_glibc-binary-localedata-wa-be+euro.iso-8859-15: glibc-binary-localedata-wa-be+euro.iso-8859-15
+FILES_glibc-binary-localedata-wa-be+euro.iso-8859-15: /usr/lib/locale/wa_BE@euro.ISO-8859-15
+FILES_INFO: {"/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_TIME": 3432, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_ADDRESS": 159, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_TELEPHONE": 57, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_COLLATE": 22408, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_IDENTIFICATION": 369, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_MEASUREMENT": 29, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_NUMERIC": 60, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_PAPER": 40, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_NAME": 79, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_MONETARY": 292, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_MESSAGES/SYS_LC_MESSAGES": 71, "/usr/lib/locale/wa_BE@euro.ISO-8859-15/LC_CTYPE": 289344}
+PKGSIZE_glibc-binary-localedata-wa-be+euro.iso-8859-15: 316340

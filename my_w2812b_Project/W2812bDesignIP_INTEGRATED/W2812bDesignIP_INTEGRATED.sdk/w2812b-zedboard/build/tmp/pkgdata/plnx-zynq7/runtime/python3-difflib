@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-difflib: Python helpers for computing deltas between objects
+RDEPENDS_python3-difflib: python3-core
+RRECOMMENDS_python3-difflib: python3-lic
+SECTION: devel/python
+PKG_python3-difflib: python3-difflib
+FILES_python3-difflib:  /usr/lib/python3.5/difflib.py /usr/lib/python3.5/__pycache__/difflib.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/difflib.cpython-35.pyc": 62232, "/usr/lib/python3.5/__pycache__/difflib.cpython-35.opt-2.pyc": 27606, "/usr/lib/python3.5/__pycache__/difflib.cpython-35.opt-1.pyc": 62184, "/usr/lib/python3.5/difflib.py": 84204}
+PKGSIZE_python3-difflib: 236226

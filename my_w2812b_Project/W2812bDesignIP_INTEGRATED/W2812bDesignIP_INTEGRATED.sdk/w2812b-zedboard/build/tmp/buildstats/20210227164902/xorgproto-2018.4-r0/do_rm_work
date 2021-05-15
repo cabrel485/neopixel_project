@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444691.42 
+xorgproto-2018.4-r0: do_rm_work
+Elapsed time: 0.09 seconds
+utime: 17
+stime: 5
+cutime: 3
+cstime: 0
+IO wchar: 34918
+IO syscr: 276
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 192214
+IO syscw: 38
+rusage ru_utime: 0.173173
+rusage ru_stime: 0.050026999999999995
+rusage ru_maxrss: 131660
+rusage ru_minflt: 10997
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 0.038121999999999996
+Child rusage ru_stime: 0.007899
+Child rusage ru_maxrss: 128960
+Child rusage ru_minflt: 5908
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 89
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444691.51 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444619.04 
+makedevs-native-1.0.1-r0: do_populate_lic_setscene
+Elapsed time: 0.09 seconds
+utime: 24
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 200729
+IO syscr: 181
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 274279
+IO syscw: 132
+rusage ru_utime: 0.24698299999999998
+rusage ru_stime: 0.048586
+rusage ru_maxrss: 131316
+rusage ru_minflt: 13184
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 77
+Child rusage ru_utime: 0.010489
+Child rusage ru_stime: 0.015359999999999999
+Child rusage ru_maxrss: 128584
+Child rusage ru_minflt: 2243
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1614444619.13 

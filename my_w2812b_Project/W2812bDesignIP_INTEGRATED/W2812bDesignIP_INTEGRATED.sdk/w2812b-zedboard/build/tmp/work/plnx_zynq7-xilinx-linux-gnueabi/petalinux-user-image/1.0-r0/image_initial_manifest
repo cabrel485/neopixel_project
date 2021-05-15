@@ -1,0 +1,26 @@
+# This file was generated automatically and contains the packages
+# passed on to the package manager in order to create the rootfs.
+
+# Format:
+#  <package_type>,<package_name>
+# where:
+#   <package_type> can be:
+#      'mip' = must install package
+#      'aop' = attempt only package
+#      'mlp' = multilib package
+#      'lgp' = language package
+
+mip,base-passwd
+mip,openssh-sftp-server
+mip,mtd-utils
+mip,run-postinsts
+mip,canutils
+mip,pciutils
+mip,packagegroup-core-ssh-dropbear
+mip,tcf-agent
+mip,bridge-utils
+mip,udev-extraconf
+mip,kernel-modules
+mip,packagegroup-core-boot
+mip,myapp
+mip,shadow

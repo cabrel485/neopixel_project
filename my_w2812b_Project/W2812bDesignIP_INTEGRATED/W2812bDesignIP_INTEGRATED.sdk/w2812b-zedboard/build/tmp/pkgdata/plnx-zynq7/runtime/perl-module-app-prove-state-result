@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-app-prove-state-result: perl module app-prove-state-result
+SUMMARY_perl-module-app-prove-state-result: perl module app-prove-state-result
+RDEPENDS_perl-module-app-prove-state-result: perl perl-module-app-prove-state-result-test perl-module-carp perl-module-constant perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-app-prove-state-result: perl-module-app-prove-state-result
+FILES_perl-module-app-prove-state-result: /usr/lib/perl/5.24.4/App/Prove/State/Result.pm
+FILERPROVIDESFLIST_perl-module-app-prove-state-result: /usr/lib/perl/5.24.4/App/Prove/State/Result.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/App/Prove/State/Result.pm": 4948}
+FILERPROVIDES_/usr/lib/perl/5.24.4/App/Prove/State/Result.pm_perl-module-app-prove-state-result:  perl(App::Prove::State::Result)
+PKGSIZE_perl-module-app-prove-state-result: 4948

@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-compression: Python high-level compression support
+RDEPENDS_python-compression: python-core python-io python-shell python-unixadmin python-zlib libpython2 (>= 2.7.15) libbz2 (>= 1.0.6) glibc (>= 2.28)
+RRECOMMENDS_python-compression: python-lic
+SECTION: devel/python
+PKG_python-compression: python-compression
+FILES_python-compression:  /usr/lib/python2.7/gzip.py /usr/lib/python2.7/gzip.pyc /usr/lib/python2.7/lib-dynload/bz2.so /usr/lib/python2.7/tarfile.py /usr/lib/python2.7/tarfile.pyc /usr/lib/python2.7/zipfile.py /usr/lib/python2.7/zipfile.pyc
+FILES_INFO: {"/usr/lib/python2.7/gzip.pyc": 15137, "/usr/lib/python2.7/tarfile.pyc": 75794, "/usr/lib/python2.7/gzip.py": 19027, "/usr/lib/python2.7/lib-dynload/bz2.so": 27724, "/usr/lib/python2.7/zipfile.pyc": 41407, "/usr/lib/python2.7/zipfile.py": 58813, "/usr/lib/python2.7/tarfile.py": 90568}
+FILERDEPENDSFLIST_python-compression: /usr/lib/python2.7/lib-dynload/bz2.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/bz2.so_python-compression:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libbz2.so.1 libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python-compression: 328470

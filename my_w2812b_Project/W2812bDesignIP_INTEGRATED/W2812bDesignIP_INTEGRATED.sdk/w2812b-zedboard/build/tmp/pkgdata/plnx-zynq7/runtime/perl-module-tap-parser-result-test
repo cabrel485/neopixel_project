@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-parser-result-test: perl module tap-parser-result-test
+SUMMARY_perl-module-tap-parser-result-test: perl module tap-parser-result-test
+RDEPENDS_perl-module-tap-parser-result-test: perl perl-module-base perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-tap-parser-result-test: perl-module-tap-parser-result-test
+FILES_perl-module-tap-parser-result-test: /usr/lib/perl/5.24.4/TAP/Parser/Result/Test.pm
+FILERPROVIDESFLIST_perl-module-tap-parser-result-test: /usr/lib/perl/5.24.4/TAP/Parser/Result/Test.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/TAP/Parser/Result/Test.pm": 6081}
+FILERPROVIDES_/usr/lib/perl/5.24.4/TAP/Parser/Result/Test.pm_perl-module-tap-parser-result-test:  perl(TAP::Parser::Result::Test)
+PKGSIZE_perl-module-tap-parser-result-test: 6081

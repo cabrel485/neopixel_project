@@ -1,0 +1,15 @@
+PN: libmnl
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libmnl-dbg: Minimalistic user-space library oriented to Netlink developers, providing     functions for common tasks in parsing, validating, and constructing both the Netlink header and TLVs.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libmnl-dbg: Minimalistic user-space Netlink utility library - Debugging files
+RRECOMMENDS_libmnl-dbg: libmnl-lic glibc-dbg
+SECTION_libmnl-dbg: devel
+PKG_libmnl-dbg: libmnl-dbg
+ALLOW_EMPTY_libmnl-dbg: 1
+FILES_libmnl-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/libmnl/1.0.4-r0/libmnl-1.0.4/src/nlmsg.c": 18775, "/usr/src/debug/libmnl/1.0.4-r0/libmnl-1.0.4/src/callback.c": 5226, "/usr/src/debug/libmnl/1.0.4-r0/libmnl-1.0.4/src/socket.c": 11205, "/usr/lib/.debug/libmnl.so.0.2.0": 51652, "/usr/src/debug/libmnl/1.0.4-r0/libmnl-1.0.4/include/linux/netlink.h": 5067, "/usr/src/debug/libmnl/1.0.4-r0/libmnl-1.0.4/include/libmnl/libmnl.h": 8002, "/usr/src/debug/libmnl/1.0.4-r0/libmnl-1.0.4/src/attr.c": 25486, "/usr/src/debug/libmnl/1.0.4-r0/libmnl-1.0.4/include/linux/socket.h": 738}
+PKGSIZE_libmnl-dbg: 126151

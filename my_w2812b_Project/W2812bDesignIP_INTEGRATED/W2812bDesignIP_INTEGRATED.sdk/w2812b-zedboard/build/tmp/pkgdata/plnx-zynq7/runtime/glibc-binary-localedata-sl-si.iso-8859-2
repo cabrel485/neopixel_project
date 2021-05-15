@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sl-si.iso-8859-2: binary locale definition for sl-si.iso-8859-2
+SUMMARY_glibc-binary-localedata-sl-si.iso-8859-2: binary locale definition for sl-si.iso-8859-2
+SECTION: base
+PKG_glibc-binary-localedata-sl-si.iso-8859-2: glibc-binary-localedata-sl-si.iso-8859-2
+FILES_glibc-binary-localedata-sl-si.iso-8859-2: /usr/lib/locale/sl_SI.ISO-8859-2
+FILES_INFO: {"/usr/lib/locale/sl_SI.ISO-8859-2/LC_IDENTIFICATION": 341, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_MESSAGES/SYS_LC_MESSAGES": 63, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_COLLATE": 21035, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_ADDRESS": 163, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_TELEPHONE": 57, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_MEASUREMENT": 28, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_CTYPE": 289024, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_NAME": 67, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_TIME": 3236, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_MONETARY": 299, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_NUMERIC": 59, "/usr/lib/locale/sl_SI.ISO-8859-2/LC_PAPER": 39}
+PKGSIZE_glibc-binary-localedata-sl-si.iso-8859-2: 314411

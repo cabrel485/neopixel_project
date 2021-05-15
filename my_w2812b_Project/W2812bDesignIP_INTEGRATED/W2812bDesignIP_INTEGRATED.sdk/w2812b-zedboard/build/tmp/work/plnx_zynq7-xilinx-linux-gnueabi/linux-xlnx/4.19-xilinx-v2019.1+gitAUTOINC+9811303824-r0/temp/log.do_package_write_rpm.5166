@@ -1,0 +1,956 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/rpm/rpm_4.14.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/kmod-native_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/depmodwrapper-cross_1.0.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['depmodwrapper-cross']
+NOTE: Skipping as already exists in sysroot: ['rpm-native', 'pseudo-native', 'kmod-native', 'xz-native', 'pkgconfig-native', 'automake-native', 'python3-native', 'dbus-native', 'nss-native', 'bzip2-native', 'gnu-config-native', 'gettext-minimal-native', 'libarchive-native', 'quilt-native', 'db-native', 'autoconf-native', 'libtool-native', 'elfutils-native', 'popt-native', 'file-native', 'gtk-doc-native', 'zlib-native', 'texinfo-dummy-native', 'readline-native', 'sqlite3-native', 'gdbm-native', 'openssl-native', 'expat-native', 'nspr-native', 'e2fsprogs-native', 'lzo-native', 'm4-native', 'ncurses-native', 'attr-native', 'util-linux-native']
+DEBUG: sed -e 's:^[^/]*/:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot/:g' /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/plnx_zynq7/depmodwrapper-cross/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/pkgdata/plnx-zynq7:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/temp/fifo.5166:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating RPM package for linux-xlnx-lic
+NOTE: Creating EMPTY RPM Package for kernel
+NOTE: Creating RPM package for kernel-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-vmlinux
+NOTE: Creating EMPTY RPM Package for kernel-image-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-dev
+NOTE: Creating EMPTY RPM Package for kernel-modules
+NOTE: Not creating empty RPM package for kernel-devicetree
+NOTE: Creating RPM package for kernel-image-uimage-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-image-fitimage-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-image-vmlinux-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-image-zimage-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-crypto-engine-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-drbg-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-echainiv-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-hmac-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-sha256-generic-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-remoteproc-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-g-zero-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-virtio-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-p8022-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-psnap-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-stp-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-8021q-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-bridge-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-ipip-4.19.0-xilinx-v2019.1
+NOTE: Creating RPM package for kernel-module-llc-4.19.0-xilinx-v2019.1
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7
+DEBUG: Executing shell function BUILDSPEC
+Building target platforms: plnx_zynq7-xilinx-linux
+Building for target plnx_zynq7-xilinx-linux
+Processing files: linux-xlnx-lic-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: linux-xlnx-lic = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Processing files: kernel-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+Processing files: kernel-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-4.19.0-xilinx-v2019.1 kernel-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0 kernel-base = 4.19+xilinx+v2019.1+git0+9811303824
+Requires(interp): /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh
+Recommends: linux-xlnx-lic
+Processing files: kernel-vmlinux-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-vmlinux = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: linux-xlnx-lic
+Processing files: kernel-image-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+Processing files: kernel-dev-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-dev = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: kernel-4.19.0-xilinx-v2019.1-dev kernel-base-dev kernel-image-fitimage-dev kernel-image-uimage-dev kernel-image-vmlinux-dev kernel-image-zimage-dev kernel-module-8021q-4.19.0-xilinx-v2019.1-dev kernel-module-bridge-4.19.0-xilinx-v2019.1-dev kernel-module-crypto-engine-4.19.0-xilinx-v2019.1-dev kernel-module-drbg-4.19.0-xilinx-v2019.1-dev kernel-module-echainiv-4.19.0-xilinx-v2019.1-dev kernel-module-g-zero-4.19.0-xilinx-v2019.1-dev kernel-module-hmac-4.19.0-xilinx-v2019.1-dev kernel-module-ipip-4.19.0-xilinx-v2019.1-dev kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1-dev kernel-module-libcomposite-4.19.0-xilinx-v2019.1-dev kernel-module-llc-4.19.0-xilinx-v2019.1-dev kernel-module-p8022-4.19.0-xilinx-v2019.1-dev kernel-module-psnap-4.19.0-xilinx-v2019.1-dev kernel-module-remoteproc-4.19.0-xilinx-v2019.1-dev kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1-dev kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1-dev kernel-module-sha256-generic-4.19.0-xilinx-v2019.1-dev kernel-module-stp-4.19.0-xilinx-v2019.1-dev kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1-dev kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1-dev kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-ring-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1-dev kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1-dev kernel-vmlinux-dev linux-xlnx-lic
+Processing files: kernel-modules-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+Processing files: kernel-image-uimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-image-uimage = 4.19+xilinx+v2019.1+git0+9811303824 kernel-image-uimage-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: linux-xlnx-lic
+Processing files: kernel-image-fitimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-image-fitimage = 4.19+xilinx+v2019.1+git0+9811303824 kernel-image-fitimage-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: linux-xlnx-lic
+Processing files: kernel-image-vmlinux-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-image-vmlinux = 4.19+xilinx+v2019.1+git0+9811303824 kernel-image-vmlinux-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: linux-xlnx-lic
+Processing files: kernel-image-zimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-image-zimage = 4.19+xilinx+v2019.1+git0+9811303824 kernel-image-zimage-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Recommends: linux-xlnx-lic
+Processing files: kernel-module-crypto-engine-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-crypto-engine kernel-module-crypto-engine-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-drbg-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-drbg kernel-module-drbg-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-echainiv-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-echainiv kernel-module-echainiv-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-hmac-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-hmac kernel-module-hmac-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-jitterentropy-rng kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-sha256-generic-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-sha256-generic kernel-module-sha256-generic-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-virtio-crypto kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-crypto-engine-4.19.0-xilinx-v2019.1 kernel-module-virtio-4.19.0-xilinx-v2019.1 kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-crypto-engine-4.19.0-xilinx-v2019.1 kernel-module-virtio-4.19.0-xilinx-v2019.1 kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-remoteproc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-remoteproc kernel-module-remoteproc-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-virtio-4.19.0-xilinx-v2019.1 kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-virtio-4.19.0-xilinx-v2019.1 kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-zynq-remoteproc kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-remoteproc-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-remoteproc-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-rpmsg-char kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-rpmsg-core kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-virtio-rpmsg-bus kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1 kernel-module-virtio-4.19.0-xilinx-v2019.1 kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1 kernel-module-virtio-4.19.0-xilinx-v2019.1 kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-uio-pdrv-genirq kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-usb-f-mass-storage kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-usb-f-ss-lb kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-g-zero-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-g-zero kernel-module-g-zero-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-libcomposite-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-libcomposite kernel-module-libcomposite-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-virtio-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-virtio kernel-module-virtio-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-virtio-ring-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-virtio-ring kernel-module-virtio-ring-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-p8022-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-p8022 kernel-module-p8022-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-psnap-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-psnap kernel-module-psnap-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-stp-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-stp kernel-module-stp-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-8021q-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-8021q kernel-module-8021q-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-bridge-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-bridge kernel-module-bridge-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1 kernel-module-stp-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1 kernel-module-stp-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-ipip-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-ipip kernel-module-ipip-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Processing files: kernel-module-llc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: kernel-module-llc kernel-module-llc-4.19.0-xilinx-v2019.1 = 4.19+xilinx+v2019.1+git0+9811303824-r0
+Requires(interp): /bin/sh /bin/sh
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires(post): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Requires(postun): /bin/sh kernel-4.19.0-xilinx-v2019.1
+Checking for unpackaged file(s): /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/usr/bin/../../usr/lib/rpm/check-files /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package
+Finished binary package job, result 0, filename (null)
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/linux-xlnx-lic-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/linux-xlnx-lic-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-modules-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-modules-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename (null)
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-dev-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-dev-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-uimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-uimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-vmlinux-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-vmlinux-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-fitimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-fitimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-crypto-engine-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-crypto-engine-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-drbg-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-drbg-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-echainiv-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-echainiv-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-hmac-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-hmac-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-sha256-generic-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-sha256-generic-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-remoteproc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-remoteproc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-g-zero-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-g-zero-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-libcomposite-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-libcomposite-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-ring-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-virtio-ring-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-p8022-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-p8022-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-psnap-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-psnap-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-stp-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-stp-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-8021q-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-8021q-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-zimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-image-zimage-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-ipip-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-ipip-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-llc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-llc-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-bridge-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-module-bridge-4.19.0-xilinx-v2019.1-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-vmlinux-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms/plnx_zynq7/kernel-vmlinux-4.19+xilinx+v2019.1+git0+9811303824-r0.plnx_zynq7.rpm
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 0o002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms for packaging at /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools' | tee /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/deploy-rpms to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm
+DEBUG: Python function sstate_task_postfunc finished

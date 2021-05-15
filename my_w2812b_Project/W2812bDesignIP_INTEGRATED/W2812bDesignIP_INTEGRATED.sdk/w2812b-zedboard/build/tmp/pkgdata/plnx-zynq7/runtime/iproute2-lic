@@ -1,0 +1,13 @@
+PN: iproute2
+PV: 4.19.0
+PR: r0
+PKGV: 4.19.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.
+SUMMARY: TCP / IP networking and traffic control utilities
+SECTION: base
+PKG_iproute2-lic: iproute2-lic
+FILES_iproute2-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/iproute2/generic_GPLv2": 17611, "/usr/share/licenses/iproute2/COPYING": 18011, "/usr/share/licenses/iproute2/ip.c": 262}
+PKGSIZE_iproute2-lic: 35884

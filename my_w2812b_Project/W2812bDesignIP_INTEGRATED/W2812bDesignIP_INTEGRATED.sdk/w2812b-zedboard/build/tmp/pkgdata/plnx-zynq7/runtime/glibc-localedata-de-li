@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-de-li: locale definition for de-li
+SUMMARY_glibc-localedata-de-li: locale definition for de-li
+RDEPENDS_glibc-localedata-de-li: glibc-localedata-de-ch
+SECTION: base
+PKG_glibc-localedata-de-li: glibc-localedata-de-li
+FILES_glibc-localedata-de-li: /usr/share/i18n/locales/de_LI
+FILES_INFO: {"/usr/share/i18n/locales/de_LI": 1824}
+PKGSIZE_glibc-localedata-de-li: 1824

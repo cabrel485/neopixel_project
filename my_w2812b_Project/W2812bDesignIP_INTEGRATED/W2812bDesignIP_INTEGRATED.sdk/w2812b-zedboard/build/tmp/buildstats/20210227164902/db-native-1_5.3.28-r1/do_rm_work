@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444687.48 
+db-native-1_5.3.28-r1: do_rm_work
+Elapsed time: 0.06 seconds
+utime: 22
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 37957
+IO syscr: 183
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 166771
+IO syscw: 35
+rusage ru_utime: 0.22973
+rusage ru_stime: 0.042831
+rusage ru_maxrss: 131420
+rusage ru_minflt: 11128
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 45
+Child rusage ru_utime: 0.016835
+Child rusage ru_stime: 0.012020999999999999
+Child rusage ru_maxrss: 128720
+Child rusage ru_minflt: 3463
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 53
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1614444687.54 

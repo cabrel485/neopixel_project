@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-eo: locale definition for eo
+SUMMARY_glibc-localedata-eo: locale definition for eo
+RDEPENDS_glibc-localedata-eo: glibc-localedata-i18n glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-eo: glibc-localedata-eo
+FILES_glibc-localedata-eo: /usr/share/i18n/locales/eo
+FILES_INFO: {"/usr/share/i18n/locales/eo": 4353}
+PKGSIZE_glibc-localedata-eo: 4353

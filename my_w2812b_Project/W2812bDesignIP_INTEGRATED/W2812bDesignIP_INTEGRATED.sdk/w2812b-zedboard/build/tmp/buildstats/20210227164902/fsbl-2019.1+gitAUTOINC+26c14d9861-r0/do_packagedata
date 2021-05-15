@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444886.33 
+fsbl-2019.1+gitAUTOINC+26c14d9861-r0: do_packagedata
+Elapsed time: 0.19 seconds
+utime: 18
+stime: 5
+cutime: 3
+cstime: 2
+IO wchar: 152094
+IO syscr: 351
+IO write_bytes: 122880
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 360854
+IO syscw: 77
+rusage ru_utime: 0.183203
+rusage ru_stime: 0.054570999999999995
+rusage ru_maxrss: 131688
+rusage ru_minflt: 12534
+rusage ru_majflt: 0
+rusage ru_inblock: 32
+rusage ru_oublock: 232
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.035234999999999995
+Child rusage ru_stime: 0.024052
+Child rusage ru_maxrss: 129016
+Child rusage ru_minflt: 4696
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 44
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614444886.52 

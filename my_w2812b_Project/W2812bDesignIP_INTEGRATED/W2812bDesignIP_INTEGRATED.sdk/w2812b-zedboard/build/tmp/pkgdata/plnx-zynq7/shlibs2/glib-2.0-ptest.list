@@ -1,0 +1,6 @@
+libgdbus-example-objectmanager.so.0:/usr/libexec/installed-tests/glib:2.58.0
+libmoduletestplugin_b.so:/usr/libexec/installed-tests/glib:2.58.0
+libmoduletestplugin_a.so:/usr/libexec/installed-tests/glib:2.58.0
+libresourceplugin.so:/usr/libexec/installed-tests/glib:2.58.0
+libtestmoduleb.so:/usr/libexec/installed-tests/glib/modules:2.58.0
+libtestmodulea.so:/usr/libexec/installed-tests/glib/modules:2.58.0

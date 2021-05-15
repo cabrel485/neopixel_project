@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-string: iptables module xt-string
+SUMMARY_iptables-module-xt-string: iptables module xt-string
+RDEPENDS_iptables-module-xt-string: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-string: iptables-module-xt-string
+FILES_iptables-module-xt-string: /usr/lib/xtables/libxt_string.so
+FILERPROVIDESFLIST_iptables-module-xt-string: /usr/lib/xtables/libxt@underscore@string.so
+FILES_INFO: {"/usr/lib/xtables/libxt_string.so": 9704}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@string.so_iptables-module-xt-string:  libxt_string.so
+FILERDEPENDSFLIST_iptables-module-xt-string: /usr/lib/xtables/libxt@underscore@string.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@string.so_iptables-module-xt-string:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-string: 9704

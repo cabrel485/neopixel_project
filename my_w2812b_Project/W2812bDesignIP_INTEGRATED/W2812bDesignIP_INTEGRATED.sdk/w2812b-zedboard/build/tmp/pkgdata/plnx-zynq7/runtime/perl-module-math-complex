@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-math-complex: perl module math-complex
+SUMMARY_perl-module-math-complex: perl module math-complex
+RDEPENDS_perl-module-math-complex: perl perl-module-config perl-module-exporter perl-module-overload perl-module-scalar-util perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-math-complex: perl-module-math-complex
+FILES_perl-module-math-complex: /usr/lib/perl/5.24.4/Math/Complex.pm
+FILERPROVIDESFLIST_perl-module-math-complex: /usr/lib/perl/5.24.4/Math/Complex.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Math/Complex.pm": 49439}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Math/Complex.pm_perl-module-math-complex:  perl(Math::Complex)
+PKGSIZE_perl-module-math-complex: 49439

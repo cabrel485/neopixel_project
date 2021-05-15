@@ -1,0 +1,28 @@
+DEBUG: Executing python function clean_recipe_sysroot
+DEBUG: Python function clean_recipe_sysroot finished
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Searching for securetty in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

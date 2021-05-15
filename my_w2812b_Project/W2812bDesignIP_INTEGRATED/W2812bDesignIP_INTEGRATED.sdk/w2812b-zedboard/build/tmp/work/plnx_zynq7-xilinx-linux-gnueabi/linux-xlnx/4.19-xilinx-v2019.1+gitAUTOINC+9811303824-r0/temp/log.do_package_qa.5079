@@ -1,0 +1,92 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/binutils/binutils-cross_2.31.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['pseudo-native', 'binutils-cross-arm', 'texinfo-dummy-native', 'quilt-native', 'autoconf-native', 'zlib-native', 'flex-native', 'gnu-config-native', 'm4-native', 'xz-native', 'gettext-minimal-native', 'automake-native', 'libtool-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package_qa
+NOTE: DO PACKAGE QA
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+NOTE: Checking Package: kernel-module-g-zero-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-g-zero-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/legacy/g_zero.ko
+NOTE: Checking Package: kernel-module-echainiv-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-echainiv-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/echainiv.ko
+NOTE: Checking Package: kernel-module-ipip-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-ipip-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/ipv4/ipip.ko
+NOTE: Checking Package: kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-libcomposite-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/libcomposite.ko
+NOTE: Checking Package: kernel-base
+NOTE: Checking Package: kernel-image-fitimage
+NOTE: Checking Package: kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/crypto/virtio/virtio_crypto.ko
+NOTE: Checking Package: kernel-module-remoteproc-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-remoteproc-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/remoteproc.ko
+NOTE: Checking Package: kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/rpmsg_char.ko
+NOTE: Checking Package: kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/rpmsg_core.ko
+NOTE: Checking Package: kernel-module-virtio-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-virtio-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/virtio/virtio.ko
+NOTE: Checking Package: kernel-module-drbg-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-drbg-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/drbg.ko
+NOTE: Checking Package: kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/jitterentropy_rng.ko
+NOTE: Checking Package: kernel-module-8021q-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-8021q-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/8021q/8021q.ko
+NOTE: Checking Package: kernel-module-psnap-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-psnap-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/psnap.ko
+NOTE: Checking Package: kernel-module-sha256-generic-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-sha256-generic-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/sha256_generic.ko
+NOTE: Checking Package: linux-xlnx-lic
+NOTE: Checking Package: kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/function/usb_f_ss_lb.ko
+NOTE: Checking Package: kernel-image-vmlinux
+NOTE: Checking Package: kernel-vmlinux
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-vmlinux/boot/vmlinux-4.19.0-xilinx-v2019.1
+NOTE: Checking Package: kernel-image
+NOTE: Checking Package: kernel-module-llc-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-llc-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/llc/llc.ko
+NOTE: Checking Package: kernel-image-uimage
+NOTE: Checking Package: kernel-image-zimage
+NOTE: Checking Package: kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/uio/uio_pdrv_genirq.ko
+NOTE: Checking Package: kernel-module-stp-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-stp-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/stp.ko
+NOTE: Checking Package: kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/zynq_remoteproc.ko
+NOTE: Checking Package: kernel-module-bridge-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-bridge-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/bridge/bridge.ko
+NOTE: Checking Package: kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/virtio_rpmsg_bus.ko
+NOTE: Checking Package: kernel
+NOTE: Checking Package: kernel-module-crypto-engine-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-crypto-engine-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/crypto_engine.ko
+NOTE: Checking Package: kernel-dev
+NOTE: Checking Package: kernel-modules
+NOTE: Checking Package: kernel-module-p8022-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-p8022-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/p8022.ko
+NOTE: Checking Package: kernel-devicetree
+NOTE: Checking Package: kernel-module-hmac-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-hmac-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/hmac.ko
+NOTE: Checking Package: kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko
+NOTE: Checking Package: kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+NOTE: arm-xilinx-linux-gnueabi-objdump -p /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/packages-split/kernel-module-virtio-ring-4.19.0-xilinx-v2019.1/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/virtio/virtio_ring.ko
+NOTE: DONE with PACKAGE QA
+DEBUG: Python function do_package_qa finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 0o002 (not 22) for sstate packaging
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-package_qa/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools' | tee /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-package_qa/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function sstate_task_postfunc finished

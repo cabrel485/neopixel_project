@@ -1,0 +1,13 @@
+PN: fsbl
+PV: 2019.1+gitAUTOINC+26c14d9861
+PR: r0
+PKGV: 2019.1+git0+26c14d9861
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: FSBL
+SUMMARY: fsbl version 2019.1+gitAUTOINC+26c14d9861-r0
+SECTION: base
+PKG_fsbl-lic: fsbl-lic
+FILES_fsbl-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/fsbl/license.txt": 1454050, "/usr/share/licenses/fsbl/generic_BSD": 1499}
+PKGSIZE_fsbl-lic: 1455549

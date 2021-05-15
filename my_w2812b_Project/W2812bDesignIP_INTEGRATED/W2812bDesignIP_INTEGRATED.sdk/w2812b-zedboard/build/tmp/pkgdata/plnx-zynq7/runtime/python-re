@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-re: Python Regular Expression APIs
+RDEPENDS_python-re: python-core
+RRECOMMENDS_python-re: python-lic
+SECTION: devel/python
+PKG_python-re: python-re
+FILES_python-re:  /usr/lib/python2.7/sre.py /usr/lib/python2.7/sre.pyc
+FILES_INFO: {"/usr/lib/python2.7/sre.py": 384, "/usr/lib/python2.7/sre.pyc": 517}
+PKGSIZE_python-re: 901

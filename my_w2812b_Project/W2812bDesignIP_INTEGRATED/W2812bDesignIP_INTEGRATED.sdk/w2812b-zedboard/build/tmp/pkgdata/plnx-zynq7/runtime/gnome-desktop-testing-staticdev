@@ -1,0 +1,15 @@
+PN: gnome-desktop-testing
+PV: 2014.1
+PR: r1
+PKGV: 2014.1
+PKGR: r1
+LICENSE: LGPLv2+
+DESCRIPTION_gnome-desktop-testing-staticdev: Test runner for GNOME-style installed tests.  This package contains static libraries for software development.
+SUMMARY_gnome-desktop-testing-staticdev: Test runner for GNOME-style installed tests - Development files (Static Libraries)
+RDEPENDS_gnome-desktop-testing-staticdev: gnome-desktop-testing-dev (= 2014.1-r1)
+RRECOMMENDS_gnome-desktop-testing-staticdev: gnome-desktop-testing-lic
+SECTION_gnome-desktop-testing-staticdev: devel
+PKG_gnome-desktop-testing-staticdev: gnome-desktop-testing-staticdev
+FILES_gnome-desktop-testing-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gnome-desktop-testing/*.a
+FILES_INFO: {}
+PKGSIZE_gnome-desktop-testing-staticdev: 0

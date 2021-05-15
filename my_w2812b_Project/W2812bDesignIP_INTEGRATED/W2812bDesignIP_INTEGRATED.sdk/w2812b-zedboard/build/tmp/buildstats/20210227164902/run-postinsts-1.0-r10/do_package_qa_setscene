@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444588.20 
+run-postinsts-1.0-r10: do_package_qa_setscene
+Elapsed time: 0.10 seconds
+utime: 14
+stime: 4
+cutime: 0
+cstime: 0
+IO wchar: 116770
+IO syscr: 83
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 130214
+IO syscw: 112
+rusage ru_utime: 0.14132999999999998
+rusage ru_stime: 0.040910999999999996
+rusage ru_maxrss: 131264
+rusage ru_minflt: 8392
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 117
+Child rusage ru_utime: 0.003191
+Child rusage ru_stime: 0.008569
+Child rusage ru_maxrss: 128568
+Child rusage ru_minflt: 1105
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1614444588.30 

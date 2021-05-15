@@ -1,0 +1,14 @@
+PN: canutils
+PV: 4.0.6
+PR: r0
+PKGV: 4.0.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: canutils (PTX flavour).
+SUMMARY: canutils (PTX flavour)
+RRECOMMENDS_canutils-locale: canutils-lic
+SECTION: console/network
+PKG_canutils-locale: canutils-locale
+FILES_canutils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_canutils-locale: 0

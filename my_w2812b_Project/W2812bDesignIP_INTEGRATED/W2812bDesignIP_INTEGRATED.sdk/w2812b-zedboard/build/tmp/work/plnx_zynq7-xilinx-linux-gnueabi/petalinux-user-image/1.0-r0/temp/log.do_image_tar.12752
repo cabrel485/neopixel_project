@@ -1,0 +1,13 @@
+DEBUG: Executing python function set_image_size
+DEBUG: 19900.400000 = 15308 * 1.300000
+DEBUG: 65536.000000 = max(19900.400000, 65536)[65536.000000] + 1
+DEBUG: 65536.000000 = int(65536.000000)
+DEBUG: 65536 = aligned(65536)
+DEBUG: returning 65536
+DEBUG: Python function set_image_size finished
+DEBUG: Executing shell function do_image_tar
+DEBUG: Shell function do_image_tar finished
+DEBUG: Executing python function create_symlinks
+NOTE: Creating symlink: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/deploy-petalinux-user-image-image-complete/petalinux-user-image-plnx-zynq7.tar.gz -> petalinux-user-image-plnx-zynq7-20210227164902.rootfs.tar.gz
+NOTE: Creating symlink: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/deploy-petalinux-user-image-image-complete/petalinux-user-image-plnx-zynq7.tar.bz2 -> petalinux-user-image-plnx-zynq7-20210227164902.rootfs.tar.bz2
+DEBUG: Python function create_symlinks finished

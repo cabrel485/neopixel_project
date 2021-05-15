@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/built-in.a := rm -f drivers/net/ethernet/intel/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD drivers/net/ethernet/intel/built-in.a drivers/net/ethernet/intel/e1000e/built-in.a

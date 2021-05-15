@@ -1,0 +1,16 @@
+do_prepare_recipe_sysroot (26186): log.do_prepare_recipe_sysroot.26186
+do_populate_lic (26280): log.do_populate_lic.26280
+do_rootfs (5298): log.do_rootfs.5298
+do_image_qa (12685): log.do_image_qa.12685
+do_image (12692): log.do_image.12692
+do_image_jffs2 (12696): log.do_image_jffs2.12696
+do_image_cpio (12697): log.do_image_cpio.12697
+do_image_ext4 (12698): log.do_image_ext4.12698
+do_image_tar (12752): log.do_image_tar.12752
+do_image_ext3 (12770): log.do_image_ext3.12770
+do_image_complete (12810): log.do_image_complete.12810
+do_populate_lic_deploy (18298): log.do_populate_lic_deploy.18298
+do_rm_work (18300): log.do_rm_work.18300
+do_prepare_recipe_sysroot (19244): log.do_prepare_recipe_sysroot.19244
+do_rootfs (19262): log.do_rootfs.19262
+do_image_qa (26647): log.do_image_qa.26647

@@ -1,0 +1,20 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-connmark: iptables module xt-connmark
+SUMMARY_iptables-module-xt-connmark: iptables module xt-connmark
+RDEPENDS_iptables-module-xt-connmark: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-connmark: iptables-module-xt-connmark
+FILES_iptables-module-xt-connmark: /usr/lib/xtables/libxt_CONNMARK.so /usr/lib/xtables/libxt_connmark.so
+FILERPROVIDESFLIST_iptables-module-xt-connmark: /usr/lib/xtables/libxt@underscore@connmark.so /usr/lib/xtables/libxt@underscore@CONNMARK.so
+FILES_INFO: {"/usr/lib/xtables/libxt_CONNMARK.so": 9716, "/usr/lib/xtables/libxt_connmark.so": 5612}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@connmark.so_iptables-module-xt-connmark:  libxt_connmark.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@CONNMARK.so_iptables-module-xt-connmark:  libxt_CONNMARK.so
+FILERDEPENDSFLIST_iptables-module-xt-connmark: /usr/lib/xtables/libxt@underscore@connmark.so /usr/lib/xtables/libxt@underscore@CONNMARK.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@connmark.so_iptables-module-xt-connmark:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@CONNMARK.so_iptables-module-xt-connmark:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-connmark: 15328

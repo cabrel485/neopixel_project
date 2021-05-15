@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444594.44 
+ldconfig-native-2.12.1-r2: do_populate_lic_setscene
+Elapsed time: 0.09 seconds
+utime: 11
+stime: 2
+cutime: 1
+cstime: 1
+IO wchar: 172860
+IO syscr: 179
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 234371
+IO syscw: 129
+rusage ru_utime: 0.11469499999999999
+rusage ru_stime: 0.022056
+rusage ru_maxrss: 131188
+rusage ru_minflt: 6498
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.016495
+Child rusage ru_stime: 0.013722
+Child rusage ru_maxrss: 128496
+Child rusage ru_minflt: 2251
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 12
+Status: PASSED 
+Ended: 1614444594.54 

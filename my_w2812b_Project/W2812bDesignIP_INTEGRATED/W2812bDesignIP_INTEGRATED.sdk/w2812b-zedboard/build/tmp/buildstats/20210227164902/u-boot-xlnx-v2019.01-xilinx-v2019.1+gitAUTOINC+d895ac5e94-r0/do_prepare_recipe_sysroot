@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444808.80 
+u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.79 seconds
+utime: 32
+stime: 25
+cutime: 3
+cstime: 7
+IO wchar: 2118468
+IO syscr: 1149
+IO write_bytes: 2179072
+IO cancelled_write_bytes: 0
+IO read_bytes: 2850816
+IO rchar: 5931281
+IO syscw: 51533
+rusage ru_utime: 0.326442
+rusage ru_stime: 0.257717
+rusage ru_maxrss: 142868
+rusage ru_minflt: 10995
+rusage ru_majflt: 0
+rusage ru_inblock: 5400
+rusage ru_oublock: 816
+rusage ru_nvcsw: 147
+rusage ru_nivcsw: 211
+Child rusage ru_utime: 0.034384
+Child rusage ru_stime: 0.07890899999999999
+Child rusage ru_maxrss: 139144
+Child rusage ru_minflt: 816
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 168
+Child rusage ru_oublock: 3440
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1614444809.59 

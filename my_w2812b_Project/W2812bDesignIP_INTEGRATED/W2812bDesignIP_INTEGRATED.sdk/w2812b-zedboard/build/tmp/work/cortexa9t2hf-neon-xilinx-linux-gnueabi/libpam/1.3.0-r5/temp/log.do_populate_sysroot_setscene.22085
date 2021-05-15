@@ -1,0 +1,200 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz for e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz
+DEBUG: Searching for e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo for e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/e3/sstate%3Alibpam%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.3.0%3Ar5%3Acortexa9t2hf-neon%3A3%3Ae3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo;downloadfilename=e3/sstate:libpam:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.3.0:r5:cortexa9t2hf-neon:3:e3eb784bdbe0ee4dfc16e6a25bc301e3_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/usr/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/Linux-PAM/
+sysroot-destdir/usr/share/Linux-PAM/xtests/
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch2.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_pwhistory1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_succeed_if1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_authsucceed
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_pwhistory1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack4a.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack5.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch5
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_cracklib2
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch4
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access2
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix4.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_group1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_authsucceed.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix3.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_cracklib2.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access4.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_succeed_if1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_succeed_if1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access2.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_authfail.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_authfail
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix2.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/group.conf
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix4.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack5.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix4
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch4.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack1a.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_cracklib1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access3
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access2.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix3
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack3a.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_pwhistory1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_assemble_line1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_limits1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/time.conf
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix2
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch3
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix2.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack4.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack4.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_group1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack3.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack5a.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix1.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_assemble_line1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack3.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access4
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_limits1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch2
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_group1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack2a.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack2.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/access.conf
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_cracklib1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_limits1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access3.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/run-xtests.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix3.sh
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_time1
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_time1.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch3.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_unix1
+sysroot-destdir/usr/share/Linux-PAM/xtests/limits.conf
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_substack2.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access3.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_dispatch5.pamd
+sysroot-destdir/usr/share/Linux-PAM/xtests/tst-pam_access4.sh
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/security/
+sysroot-destdir/usr/include/security/pam_filter.h
+sysroot-destdir/usr/include/security/pam_client.h
+sysroot-destdir/usr/include/security/pam_ext.h
+sysroot-destdir/usr/include/security/pam_misc.h
+sysroot-destdir/usr/include/security/_pam_types.h
+sysroot-destdir/usr/include/security/pam_modutil.h
+sysroot-destdir/usr/include/security/pam_modules.h
+sysroot-destdir/usr/include/security/pam_appl.h
+sysroot-destdir/usr/include/security/_pam_compat.h
+sysroot-destdir/usr/include/security/_pam_macros.h
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/libpam
+sysroot-destdir/lib/
+sysroot-destdir/lib/libpam.so.0
+sysroot-destdir/lib/libpam_misc.so.0
+sysroot-destdir/lib/libpam_misc.so
+sysroot-destdir/lib/libpamc.so.0.82.1
+sysroot-destdir/lib/libpamc.so
+sysroot-destdir/lib/libpamc.so.0
+sysroot-destdir/lib/libpam_misc.so.0.82.1
+sysroot-destdir/lib/libpam.so
+sysroot-destdir/lib/security/
+sysroot-destdir/lib/security/pam_faildelay.so
+sysroot-destdir/lib/security/pam_env.so
+sysroot-destdir/lib/security/pam_mail.so
+sysroot-destdir/lib/security/pam_filter/
+sysroot-destdir/lib/security/pam_filter/upperLOWER
+sysroot-destdir/lib/security/pam_tally2.so
+sysroot-destdir/lib/security/pam_access.so
+sysroot-destdir/lib/security/pam_permit.so
+sysroot-destdir/lib/security/pam_ftp.so
+sysroot-destdir/lib/security/pam_securetty.so
+sysroot-destdir/lib/security/pam_lastlog.so
+sysroot-destdir/lib/security/pam_stress.so
+sysroot-destdir/lib/security/pam_umask.so
+sysroot-destdir/lib/security/pam_namespace.so
+sysroot-destdir/lib/security/pam_listfile.so
+sysroot-destdir/lib/security/pam_shells.so
+sysroot-destdir/lib/security/pam_rhosts.so
+sysroot-destdir/lib/security/pam_exec.so
+sysroot-destdir/lib/security/pam_issue.so
+sysroot-destdir/lib/security/pam_xauth.so
+sysroot-destdir/lib/security/pam_time.so
+sysroot-destdir/lib/security/pam_localuser.so
+sysroot-destdir/lib/security/pam_keyinit.so
+sysroot-destdir/lib/security/pam_warn.so
+sysroot-destdir/lib/security/pam_mkhomedir.so
+sysroot-destdir/lib/security/pam_group.so
+sysroot-destdir/lib/security/pam_deny.so
+sysroot-destdir/lib/security/pam_cracklib.so
+sysroot-destdir/lib/security/pam_loginuid.so
+sysroot-destdir/lib/security/pam_debug.so
+sysroot-destdir/lib/security/pam_nologin.so
+sysroot-destdir/lib/security/pam_timestamp.so
+sysroot-destdir/lib/security/pam_succeed_if.so
+sysroot-destdir/lib/security/pam_rootok.so
+sysroot-destdir/lib/security/pam_tally.so
+sysroot-destdir/lib/security/pam_limits.so
+sysroot-destdir/lib/security/pam_echo.so
+sysroot-destdir/lib/security/pam_unix.so
+sysroot-destdir/lib/security/pam_filter.so
+sysroot-destdir/lib/security/pam_motd.so
+sysroot-destdir/lib/security/pam_pwhistory.so
+sysroot-destdir/lib/security/pam_wheel.so
+sysroot-destdir/lib/libpam.so.0.84.2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/libpam/1.3.0-r5/sysroot-destdir to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/cortexa9t2hf-neon/libpam
+DEBUG: Python function do_populate_sysroot_setscene finished

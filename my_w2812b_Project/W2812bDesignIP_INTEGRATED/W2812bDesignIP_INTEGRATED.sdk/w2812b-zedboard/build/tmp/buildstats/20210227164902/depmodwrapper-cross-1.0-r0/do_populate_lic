@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444795.73 
+depmodwrapper-cross-1.0-r0: do_populate_lic
+Elapsed time: 0.20 seconds
+utime: 14
+stime: 4
+cutime: 2
+cstime: 3
+IO wchar: 138536
+IO syscr: 315
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 315007
+IO syscw: 76
+rusage ru_utime: 0.142698
+rusage ru_stime: 0.043241999999999996
+rusage ru_maxrss: 131740
+rusage ru_minflt: 12268
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.024495
+Child rusage ru_stime: 0.030447
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 4373
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 40
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1614444795.94 

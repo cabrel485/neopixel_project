@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-nb-no: binary locale definition for nb-no
+SUMMARY_glibc-binary-localedata-nb-no: binary locale definition for nb-no
+SECTION: base
+PKG_glibc-binary-localedata-nb-no: glibc-binary-localedata-nb-no
+FILES_glibc-binary-localedata-nb-no: /usr/lib/locale/nb_NO
+FILES_INFO: {"/usr/lib/locale/nb_NO/LC_IDENTIFICATION": 395, "/usr/lib/locale/nb_NO/LC_TELEPHONE": 50, "/usr/lib/locale/nb_NO/LC_NAME": 62, "/usr/lib/locale/nb_NO/LC_PAPER": 34, "/usr/lib/locale/nb_NO/LC_CTYPE": 337152, "/usr/lib/locale/nb_NO/LC_COLLATE": 2586354, "/usr/lib/locale/nb_NO/LC_NUMERIC": 58, "/usr/lib/locale/nb_NO/LC_ADDRESS": 156, "/usr/lib/locale/nb_NO/LC_MONETARY": 290, "/usr/lib/locale/nb_NO/LC_TIME": 3408, "/usr/lib/locale/nb_NO/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/nb_NO/LC_MEASUREMENT": 23}
+PKGSIZE_glibc-binary-localedata-nb-no: 2928041

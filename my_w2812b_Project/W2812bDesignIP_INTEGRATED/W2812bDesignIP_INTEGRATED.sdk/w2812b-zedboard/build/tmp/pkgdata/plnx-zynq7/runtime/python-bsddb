@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-bsddb: Python bindings for the Berkeley Database
+RDEPENDS_python-bsddb: python-core libpython2 (>= 2.7.15) db (>= 5.3.28) glibc (>= 2.28)
+RRECOMMENDS_python-bsddb: python-lic
+SECTION: devel/python
+PKG_python-bsddb: python-bsddb
+FILES_python-bsddb:  /usr/lib/python2.7/bsddb /usr/lib/python2.7/lib-dynload/_bsddb.so
+FILES_INFO: {"/usr/lib/python2.7/bsddb/dbrecio.pyc": 5277, "/usr/lib/python2.7/bsddb/dbutils.py": 2964, "/usr/lib/python2.7/bsddb/dbobj.py": 11331, "/usr/lib/python2.7/bsddb/dbtables.pyc": 24410, "/usr/lib/python2.7/bsddb/dbshelve.py": 11558, "/usr/lib/python2.7/bsddb/dbutils.pyc": 1623, "/usr/lib/python2.7/lib-dynload/_bsddb.so": 118992, "/usr/lib/python2.7/bsddb/dbobj.pyc": 18609, "/usr/lib/python2.7/bsddb/dbtables.py": 30866, "/usr/lib/python2.7/bsddb/dbrecio.py": 5308, "/usr/lib/python2.7/bsddb/__init__.py": 15988, "/usr/lib/python2.7/bsddb/dbshelve.pyc": 12918, "/usr/lib/python2.7/bsddb/db.pyc": 590, "/usr/lib/python2.7/bsddb/__init__.pyc": 12376, "/usr/lib/python2.7/bsddb/db.py": 2730}
+FILERDEPENDSFLIST_python-bsddb: /usr/lib/python2.7/lib-dynload/@underscore@bsddb.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@bsddb.so_python-bsddb:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libdb-5.3.so libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python-bsddb: 275540

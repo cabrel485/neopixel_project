@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-net-config: perl module net-config
+SUMMARY_perl-module-net-config: perl module net-config
+RDEPENDS_perl-module-net-config: perl perl-module-exporter perl-module-socket perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-net-config: perl-module-net-config
+FILES_perl-module-net-config: /usr/lib/perl/5.24.4/Net/Config.pm
+FILERPROVIDESFLIST_perl-module-net-config: /usr/lib/perl/5.24.4/Net/Config.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Net/Config.pm": 8565}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Net/Config.pm_perl-module-net-config:  perl(Net::Config)
+PKGSIZE_perl-module-net-config: 8565

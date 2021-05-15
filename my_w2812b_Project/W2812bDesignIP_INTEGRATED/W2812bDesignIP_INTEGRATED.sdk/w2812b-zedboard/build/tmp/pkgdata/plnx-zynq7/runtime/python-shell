@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-shell: Python shell-like functionality
+RDEPENDS_python-shell: python-compression python-core python-io python-unixadmin python-zlib
+RRECOMMENDS_python-shell: python-lic
+SECTION: devel/python
+PKG_python-shell: python-shell
+FILES_python-shell:  /usr/lib/python2.7/cmd.py /usr/lib/python2.7/cmd.pyc /usr/lib/python2.7/commands.py /usr/lib/python2.7/commands.pyc /usr/lib/python2.7/dircache.py /usr/lib/python2.7/dircache.pyc /usr/lib/python2.7/fnmatch.py /usr/lib/python2.7/fnmatch.pyc /usr/lib/python2.7/glob.py /usr/lib/python2.7/glob.pyc /usr/lib/python2.7/popen2.py /usr/lib/python2.7/popen2.pyc /usr/lib/python2.7/shlex.py /usr/lib/python2.7/shlex.pyc /usr/lib/python2.7/shutil.py /usr/lib/python2.7/shutil.pyc
+FILES_INFO: {"/usr/lib/python2.7/commands.py": 2545, "/usr/lib/python2.7/glob.pyc": 2927, "/usr/lib/python2.7/dircache.pyc": 1568, "/usr/lib/python2.7/fnmatch.py": 3315, "/usr/lib/python2.7/popen2.pyc": 8993, "/usr/lib/python2.7/glob.py": 3114, "/usr/lib/python2.7/cmd.pyc": 13997, "/usr/lib/python2.7/fnmatch.pyc": 3602, "/usr/lib/python2.7/commands.pyc": 2457, "/usr/lib/python2.7/cmd.py": 15026, "/usr/lib/python2.7/shlex.pyc": 7532, "/usr/lib/python2.7/shutil.pyc": 18843, "/usr/lib/python2.7/shutil.py": 19515, "/usr/lib/python2.7/popen2.py": 8416, "/usr/lib/python2.7/dircache.py": 1126, "/usr/lib/python2.7/shlex.py": 11164}
+PKGSIZE_python-shell: 124140

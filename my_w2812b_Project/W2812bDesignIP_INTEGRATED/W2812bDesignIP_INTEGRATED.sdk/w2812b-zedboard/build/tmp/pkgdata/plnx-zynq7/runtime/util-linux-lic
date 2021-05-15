@@ -1,0 +1,13 @@
+PN: util-linux
+PV: 2.32.1
+PR: r0
+PKGV: 2.32.1
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+SECTION: base
+PKG_util-linux-lic: util-linux-lic
+FILES_util-linux-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/util-linux/README.licensing": 555, "/usr/share/licenses/util-linux/COPYING.LGPLv2.1": 26530, "/usr/share/licenses/util-linux/COPYING.0": 18092, "/usr/share/licenses/util-linux/generic_GPLv2": 17611, "/usr/share/licenses/util-linux/COPYING.BSD-3": 1391, "/usr/share/licenses/util-linux/generic_BSD": 1499, "/usr/share/licenses/util-linux/COPYING.1": 352, "/usr/share/licenses/util-linux/generic_LGPLv2.1": 25878, "/usr/share/licenses/util-linux/COPYING.GPLv2": 18092, "/usr/share/licenses/util-linux/COPYING.2": 217, "/usr/share/licenses/util-linux/COPYING.UCB": 1824}
+PKGSIZE_util-linux-lic: 112041

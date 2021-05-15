@@ -1,0 +1,13 @@
+PN: m4
+PV: 1.4.18
+PR: r0
+PKGV: 1.4.18
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION: GNU m4 is an implementation of the traditional Unix macro processor.  It is mostly SVR4 compatible although it has some extensions (for example, handling more than 9 positional parameters to macros). GNU M4 also has built-in functions for including files, running shell commands, doing arithmetic, etc.
+SUMMARY: Traditional Unix macro processor
+SECTION: base
+PKG_m4-lic: m4-lic
+FILES_m4-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/m4/COPYING.0": 35147, "/usr/share/licenses/m4/COPYING.1": 379, "/usr/share/licenses/m4/generic_GPLv3": 34694}
+PKGSIZE_m4-lic: 70220

@@ -1,0 +1,28 @@
+!<thin>
+//                                              242       `
+xilinx_drm_crtc.o/
+xilinx_drm_connector.o/
+xilinx_drm_drv.o/
+xilinx_drm_encoder.o/
+xilinx_drm_fb.o/
+xilinx_drm_gem.o/
+xilinx_drm_plane.o/
+xilinx_cresample.o/
+xilinx_osd.o/
+xilinx_rgb2yuv.o/
+xilinx_vtc.o/
+xilinx_drm_dp.o/
+xilinx_drm_dp_sub.o/
+/0              0           0     0     644     8808      `
+/19             0           0     0     644     3664      `
+/43             0           0     0     644     12580     `
+/61             0           0     0     644     3460      `
+/83            /0           0     0     644     7240      `
+/100            0           0     0     644     1320      `
+/118            0           0     0     644     13212     `
+/138            0           0     0     644     3272      `
+/158            0           0     0     644     5520      `
+/172            0           0     0     644     2780      `
+/190            0           0     0     644     7300      `
+/204           /0           0     0     644     17644     `
+/221            0           0     0     644     22456     `

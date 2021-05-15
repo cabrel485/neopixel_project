@@ -1,0 +1,14 @@
+PN: dropbear
+PV: 2018.76
+PR: r0
+PKGV: 2018.76
+PKGR: r0
+LICENSE: MIT & BSD-3-Clause & BSD-2-Clause & PD
+DESCRIPTION_dropbear-doc: A lightweight SSH and SCP implementation.  This package contains documentation.
+SUMMARY_dropbear-doc: A lightweight SSH and SCP implementation - Documentation files
+RRECOMMENDS_dropbear-doc: dropbear-lic
+SECTION_dropbear-doc: doc
+PKG_dropbear-doc: dropbear-doc
+FILES_dropbear-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_dropbear-doc: 0

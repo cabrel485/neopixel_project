@@ -1,0 +1,21 @@
+PN: sysfsutils
+PV: 2.1.0
+PR: r5
+PKGV: 2.1.0
+PKGR: r5
+LICENSE_sysfsutils: GPLv2
+DESCRIPTION: Tools for working with the sysfs virtual filesystem.  The tool 'systool' can query devices by bus, class and topology.
+SUMMARY: Tools for working with sysfs
+RDEPENDS_sysfsutils: libsysfs (>= 2.1.0) glibc (>= 2.28)
+RRECOMMENDS_sysfsutils: sysfsutils-lic
+SECTION: base
+PKG_sysfsutils: sysfsutils
+FILES_sysfsutils: /usr/bin/* /usr/sbin/* /usr/libexec/* /lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /lib/udev /usr/share/sysfsutils /lib/sysfsutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /lib/bonobo/servers
+FILES_INFO: {"/usr/bin/systool": 17812, "/usr/bin/get_module": 5512, "/usr/bin/get_driver": 5512, "/usr/bin/get_device": 5512, "/usr/bin/dlist_test": 9608}
+FILERDEPENDSFLIST_sysfsutils: /usr/bin/dlist@underscore@test /usr/bin/systool /usr/bin/get@underscore@driver /usr/bin/get@underscore@module /usr/bin/get@underscore@device
+FILERDEPENDS_/usr/bin/dlist@underscore@test_sysfsutils:  libc.so.6(GLIBC_2.4) libsysfs.so.2 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/systool_sysfsutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libsysfs.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/get@underscore@driver_sysfsutils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libsysfs.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/get@underscore@module_sysfsutils:  libc.so.6(GLIBC_2.4) libsysfs.so.2 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/get@underscore@device_sysfsutils:  libc.so.6(GLIBC_2.4) libsysfs.so.2 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_sysfsutils: 43956

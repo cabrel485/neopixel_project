@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RDEPENDS_kernel-image-vmlinux: kernel-vmlinux
+RPROVIDES_kernel-image-vmlinux:  kernel-image-vmlinux (=4.19-xilinx-v2019.1+git0+9811303824)
+RRECOMMENDS_kernel-image-vmlinux: linux-xlnx-lic
+SECTION: kernel
+PKG_kernel-image-vmlinux: kernel-image-vmlinux-4.19.0-xilinx-v2019.1
+ALLOW_EMPTY_kernel-image-vmlinux: 1
+FILES_kernel-image-vmlinux: /boot/vmlinux-4.19.0-xilinx-v2019.1 /boot/vmlinux
+FILES_INFO: {"/boot/vmlinux": 29}
+PKGSIZE_kernel-image-vmlinux: 29

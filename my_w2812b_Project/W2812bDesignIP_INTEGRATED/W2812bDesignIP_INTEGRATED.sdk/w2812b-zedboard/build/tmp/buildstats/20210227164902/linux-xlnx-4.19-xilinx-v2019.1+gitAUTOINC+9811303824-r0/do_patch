@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444739.35 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_patch
+Elapsed time: 0.12 seconds
+utime: 27
+stime: 1
+cutime: 3
+cstime: 0
+IO wchar: 98129
+IO syscr: 316
+IO write_bytes: 57344
+IO cancelled_write_bytes: 0
+IO read_bytes: 69632
+IO rchar: 313238
+IO syscw: 71
+rusage ru_utime: 0.273049
+rusage ru_stime: 0.016061
+rusage ru_maxrss: 132196
+rusage ru_minflt: 6271
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.032117
+Child rusage ru_stime: 0.0032679999999999996
+Child rusage ru_maxrss: 129276
+Child rusage ru_minflt: 4045
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 136
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 49
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444739.47 

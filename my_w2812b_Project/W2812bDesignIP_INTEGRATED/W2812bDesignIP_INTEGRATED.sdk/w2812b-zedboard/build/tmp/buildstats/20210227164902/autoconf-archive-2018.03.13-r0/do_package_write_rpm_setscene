@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444591.70 
+autoconf-archive-2018.03.13-r0: do_package_write_rpm_setscene
+Elapsed time: 0.13 seconds
+utime: 13
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 1271195
+IO syscr: 261
+IO write_bytes: 651264
+IO cancelled_write_bytes: 0
+IO read_bytes: 516096
+IO rchar: 1274770
+IO syscw: 205
+rusage ru_utime: 0.138309
+rusage ru_stime: 0.041117999999999995
+rusage ru_maxrss: 131328
+rusage ru_minflt: 6809
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 152
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 114
+Child rusage ru_utime: 0.016451
+Child rusage ru_stime: 0.016023
+Child rusage ru_maxrss: 128580
+Child rusage ru_minflt: 2180
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 992
+Child rusage ru_oublock: 1120
+Child rusage ru_nvcsw: 40
+Child rusage ru_nivcsw: 71
+Status: PASSED 
+Ended: 1614444591.83 

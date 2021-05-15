@@ -1,0 +1,16 @@
+PN: procps
+PV: 3.3.15
+PR: r0
+PKGV: 3.3.15
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2+
+DESCRIPTION_procps-dev: Procps contains a set of system utilities that provide system information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, and skill.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_procps-dev: System and process monitoring utilities - Development files
+RDEPENDS_procps-dev: procps (= 3.3.15-r0)
+RRECOMMENDS_procps-dev: ncurses-dev procps-lic update-alternatives-opkg-dev ncurses-libncurses-dev ncurses-libtinfo-dev glibc-dev
+SECTION_procps-dev: devel
+PKG_procps-dev: procps-dev
+ALLOW_EMPTY_procps-dev: 1
+FILES_procps-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/procps/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/lib/pkgconfig/libprocps.pc": 223, "/usr/include/proc/alloc.h": 509, "/usr/include/proc/pwcache.h": 305, "/usr/include/proc/wchan.h": 160, "/usr/include/proc/procps.h": 2936, "/usr/include/proc/sig.h": 1000, "/usr/include/proc/whattime.h": 202, "/usr/lib/libprocps.so": 18, "/usr/include/proc/readproc.h": 15204, "/usr/include/proc/version.h": 1480, "/usr/include/proc/sysinfo.h": 4820, "/usr/include/proc/devname.h": 457, "/usr/include/proc/numa.h": 1068, "/usr/include/proc/slab.h": 1797, "/usr/include/proc/escape.h": 913}
+PKGSIZE_procps-dev: 31092

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444598.70 
+debianutils-native-4.8.6-r0: do_populate_sysroot_setscene
+Elapsed time: 0.13 seconds
+utime: 36
+stime: 7
+cutime: 1
+cstime: 2
+IO wchar: 350353
+IO syscr: 228
+IO write_bytes: 225280
+IO cancelled_write_bytes: 45056
+IO read_bytes: 28672
+IO rchar: 395534
+IO syscw: 182
+rusage ru_utime: 0.369007
+rusage ru_stime: 0.075823
+rusage ru_maxrss: 131588
+rusage ru_minflt: 15163
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 176
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 213
+Child rusage ru_utime: 0.018711
+Child rusage ru_stime: 0.026973
+Child rusage ru_maxrss: 128776
+Child rusage ru_minflt: 2727
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 264
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 53
+Status: PASSED 
+Ended: 1614444598.83 

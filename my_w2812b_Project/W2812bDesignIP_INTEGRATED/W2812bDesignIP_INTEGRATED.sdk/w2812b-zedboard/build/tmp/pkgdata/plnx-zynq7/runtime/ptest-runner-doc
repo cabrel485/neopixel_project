@@ -1,0 +1,14 @@
+PN: ptest-runner
+PV: 2.2+gitAUTOINC+49956f65bb
+PR: r0
+PKGV: 2.2+git0+49956f65bb
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_ptest-runner-doc: The ptest-runner2 package installs a ptest-runner program which loops through all installed ptest test suites and runs them in sequence.  This package contains documentation.
+SUMMARY_ptest-runner-doc: A C program to run all installed ptests - Documentation files
+RRECOMMENDS_ptest-runner-doc: ptest-runner-lic
+SECTION_ptest-runner-doc: doc
+PKG_ptest-runner-doc: ptest-runner-doc
+FILES_ptest-runner-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ptest-runner-doc: 0

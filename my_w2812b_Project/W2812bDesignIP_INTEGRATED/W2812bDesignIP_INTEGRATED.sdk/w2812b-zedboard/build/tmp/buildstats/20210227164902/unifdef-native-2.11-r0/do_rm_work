@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444685.63 
+unifdef-native-2.11-r0: do_rm_work
+Elapsed time: 0.07 seconds
+utime: 22
+stime: 4
+cutime: 2
+cstime: 0
+IO wchar: 30846
+IO syscr: 173
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 142189
+IO syscw: 29
+rusage ru_utime: 0.226465
+rusage ru_stime: 0.044483999999999996
+rusage ru_maxrss: 131216
+rusage ru_minflt: 10995
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.02181
+Child rusage ru_stime: 0.007819999999999999
+Child rusage ru_maxrss: 128516
+Child rusage ru_minflt: 3464
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 53
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444685.70 

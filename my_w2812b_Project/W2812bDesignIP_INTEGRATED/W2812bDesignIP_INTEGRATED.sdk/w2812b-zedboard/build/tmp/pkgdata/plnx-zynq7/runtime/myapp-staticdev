@@ -1,0 +1,15 @@
+PN: myapp
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_myapp-staticdev: Simple myapp application.  This package contains static libraries for software development.
+SUMMARY_myapp-staticdev: Simple myapp application - Development files (Static Libraries)
+RDEPENDS_myapp-staticdev: myapp-dev (= 1.0-r0)
+RRECOMMENDS_myapp-staticdev: myapp-lic
+SECTION_myapp-staticdev: devel
+PKG_myapp-staticdev: myapp-staticdev
+FILES_myapp-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/myapp/*.a
+FILES_INFO: {}
+PKGSIZE_myapp-staticdev: 0

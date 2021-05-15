@@ -1,0 +1,21 @@
+PN: elfutils
+PV: 0.175
+PR: r0
+PKGV: 0.175
+PKGR: r0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION: Utilities and libraries for handling compiled object files.
+SUMMARY: Utilities and libraries for handling compiled object files
+RDEPENDS_libasm: libdw (>= 0.175) libelf (>= 0.175) glibc (>= 2.28)
+RPROVIDES_libasm:  libasm (=0.175)
+RRECOMMENDS_libasm: elfutils-lic
+SECTION: base
+PKG_libasm: libasm1
+FILES_libasm: /usr/lib/libasm-0.175.so /usr/lib/libasm.so.*
+pkg_postinst_libasm: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libasm: /usr/lib/libasm-0.175.so
+FILES_INFO: {"/usr/lib/libasm-0.175.so": 21948, "/usr/lib/libasm.so.1": 15}
+FILERPROVIDES_/usr/lib/libasm-0.175.so_libasm:  libasm.so.1(ELFUTILS_1.0) libasm.so.1
+FILERDEPENDSFLIST_libasm: /usr/lib/libasm-0.175.so
+FILERDEPENDS_/usr/lib/libasm-0.175.so_libasm:  libdw.so.1(ELFUTILS_0.167) ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.4) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.4) libelf.so.1 libdw.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_libasm: 21963

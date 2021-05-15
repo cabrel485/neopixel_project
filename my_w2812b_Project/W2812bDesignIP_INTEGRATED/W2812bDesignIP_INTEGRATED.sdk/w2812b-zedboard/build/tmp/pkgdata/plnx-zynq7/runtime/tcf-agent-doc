@@ -1,0 +1,14 @@
+PN: tcf-agent
+PV: 1.7.0+gitAUTOINC+dad3a6f568
+PR: r0
+PKGV: 1.7.0+git0+dad3a6f568
+PKGR: r0
+LICENSE: EPL-1.0 | EDL-1.0
+DESCRIPTION_tcf-agent-doc: Target Communication Framework for the Eclipse IDE.  This package contains documentation.
+SUMMARY_tcf-agent-doc: Target Communication Framework for the Eclipse IDE - Documentation files
+RRECOMMENDS_tcf-agent-doc: tcf-agent-lic
+SECTION_tcf-agent-doc: doc
+PKG_tcf-agent-doc: tcf-agent-doc
+FILES_tcf-agent-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_tcf-agent-doc: 0

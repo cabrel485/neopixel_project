@@ -1,0 +1,33 @@
+PN: glib-2.0
+PE: 1
+PV: 2.58.0
+PR: r0
+PKGE: 1
+PKGV: 2.58.0
+PKGR: r0
+LICENSE: LGPLv2.1+ & BSD & PD
+DESCRIPTION: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.
+SUMMARY: A general-purpose utility library
+RDEPENDS_glib-2.0: zlib (>= 1.2.11) libffi (>= 3.2.1) util-linux-libmount (>= 2.32.1) libpcre (>= 8.42) glibc (>= 2.28)
+RPROVIDES_glib-2.0:  glib-2.0 (=2.58.0)
+RRECOMMENDS_glib-2.0: glib-2.0-lic  shared-mime-info
+SECTION: libs
+PKG_glib-2.0: libglib-2.0-0
+FILES_glib-2.0: /usr/lib/lib*.so.*                /usr/lib/gio                /usr/libexec/*gio-querymodules                /usr/share/glib-2.0/schemas
+pkg_postinst_glib-2.0: #!/bin/sh\nset -e\nif [ "x$D" != "x" ]; then\n    $INTERCEPT_DIR/postinst_intercept update_gio_module_cache ${PKG} \\\n            mlprefix= \\\n            binprefix= \\\n            libdir=/usr/lib \\\n            libexecdir=/usr/libexec \\\n            base_libdir=/lib \\\n            bindir=/usr/bin\nelse\n    /usr/libexec/gio-querymodules /usr/lib/gio/modules/\nfi\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+pkg_postrm_glib-2.0: #!/bin/sh\nset -e\nif [ "x$D" != "x" ]; then\n    $INTERCEPT_DIR/postinst_intercept update_gio_module_cache ${PKG} \\\n            mlprefix= \\\n            binprefix= \\\n            libdir=/usr/lib \\\n            libexecdir=/usr/libexec \\\n            base_libdir=/lib \\\n            bindir=/usr/bin\nelse\n    /usr/libexec/gio-querymodules /usr/lib/gio/modules/\nfi\n
+FILERPROVIDESFLIST_glib-2.0: /usr/lib/libgio-2.0.so.0.5800.0 /usr/lib/libglib-2.0.so.0.5800.0 /usr/lib/libgobject-2.0.so.0.5800.0 /usr/lib/libgthread-2.0.so.0.5800.0 /usr/lib/libgmodule-2.0.so.0.5800.0
+FILES_INFO: {"/usr/lib/libgio-2.0.so.0": 22, "/usr/lib/libglib-2.0.so.0.5800.0": 854192, "/usr/libexec/gio-querymodules": 9616, "/usr/lib/libgthread-2.0.so.0": 26, "/usr/lib/libgobject-2.0.so.0": 26, "/usr/lib/libgio-2.0.so.0.5800.0": 1038372, "/usr/lib/libgthread-2.0.so.0.5800.0": 5368, "/usr/lib/libgobject-2.0.so.0.5800.0": 235672, "/usr/lib/libgmodule-2.0.so.0": 26, "/usr/lib/libgmodule-2.0.so.0.5800.0": 9496, "/usr/lib/libglib-2.0.so.0": 23}
+FILERPROVIDES_/usr/lib/libgio-2.0.so.0.5800.0_glib-2.0:  libgio-2.0.so.0
+FILERPROVIDES_/usr/lib/libglib-2.0.so.0.5800.0_glib-2.0:  libglib-2.0.so.0
+FILERPROVIDES_/usr/lib/libgobject-2.0.so.0.5800.0_glib-2.0:  libgobject-2.0.so.0
+FILERPROVIDES_/usr/lib/libgthread-2.0.so.0.5800.0_glib-2.0:  libgthread-2.0.so.0
+FILERPROVIDES_/usr/lib/libgmodule-2.0.so.0.5800.0_glib-2.0:  libgmodule-2.0.so.0
+FILERDEPENDSFLIST_glib-2.0: /usr/lib/libglib-2.0.so.0.5800.0 /usr/libexec/gio-querymodules /usr/lib/libgobject-2.0.so.0.5800.0 /usr/lib/libgio-2.0.so.0.5800.0 /usr/lib/libgthread-2.0.so.0.5800.0 /usr/lib/libgmodule-2.0.so.0.5800.0
+FILERDEPENDS_/usr/lib/libglib-2.0.so.0.5800.0_glib-2.0:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.9) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.16) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.12) libpthread.so.0(GLIBC_2.4) libpcre.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/libexec/gio-querymodules_glib-2.0:  libpthread.so.0(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libgmodule-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgobject-2.0.so.0.5800.0_glib-2.0:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libglib-2.0.so.0 libpcre.so.1 libpthread.so.0 libffi.so.6 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgio-2.0.so.0.5800.0_glib-2.0:  ld-linux-armhf.so.3(GLIBC_2.4) libresolv.so.2(GLIBC_2.4) libz.so.1(ZLIB_1.2.2) libpthread.so.0(GLIBC_2.4) libmount.so.1(MOUNT_2.20) libmount.so.1(MOUNT_2.19) libc.so.6(GLIBC_2.9) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.12) libc.so.6(GLIBC_2.5) libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libgobject-2.0.so.0 libgmodule-2.0.so.0 libdl.so.2 libglib-2.0.so.0 libpcre.so.1 libpthread.so.0 libffi.so.6 libz.so.1 libresolv.so.2 libmount.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgthread-2.0.so.0.5800.0_glib-2.0:  libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpcre.so.1 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgmodule-2.0.so.0.5800.0_glib-2.0:  libpthread.so.0(GLIBC_2.4) libdl.so.2(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libdl.so.2 libglib-2.0.so.0 libpcre.so.1 libpthread.so.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_glib-2.0: 2152839

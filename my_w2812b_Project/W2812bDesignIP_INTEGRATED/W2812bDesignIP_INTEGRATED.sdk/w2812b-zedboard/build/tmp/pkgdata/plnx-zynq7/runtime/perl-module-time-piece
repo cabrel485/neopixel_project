@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-time-piece: perl module time-piece
+SUMMARY_perl-module-time-piece: perl module time-piece
+RDEPENDS_perl-module-time-piece: perl perl-module-carp perl-module-constant perl-module-dynaloader perl-module-exporter perl-module-integer perl-module-overload perl-module-strict perl-module-time-local perl-module-time-seconds glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-time-piece: perl-module-time-piece
+FILES_perl-module-time-piece: /usr/lib/perl/5.24.4/auto/Time/Piece/Piece.so /usr/lib/perl/5.24.4/Time/Piece.pm
+FILERPROVIDESFLIST_perl-module-time-piece: /usr/lib/perl/5.24.4/Time/Piece.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/auto/Time/Piece/Piece.so": 13596, "/usr/lib/perl/5.24.4/Time/Piece.pm": 23891}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Time/Piece.pm_perl-module-time-piece:  perl(Time::Piece)
+FILERDEPENDSFLIST_perl-module-time-piece: /usr/lib/perl/5.24.4/auto/Time/Piece/Piece.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/Time/Piece/Piece.so_perl-module-time-piece:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-time-piece: 37487

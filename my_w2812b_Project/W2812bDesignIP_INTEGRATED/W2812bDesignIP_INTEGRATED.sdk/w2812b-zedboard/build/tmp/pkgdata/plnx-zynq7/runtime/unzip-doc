@@ -1,0 +1,16 @@
+PN: unzip
+PE: 1
+PV: 6.0
+PR: r5
+PKGE: 1
+PKGV: 6.0
+PKGR: r5
+LICENSE: BSD-3-Clause
+DESCRIPTION_unzip-doc: Utilities for extracting and viewing files in .zip archives.  This package contains documentation.
+SUMMARY_unzip-doc: Utilities for extracting and viewing files in .zip archives - Documentation files
+RRECOMMENDS_unzip-doc: unzip-lic
+SECTION_unzip-doc: doc
+PKG_unzip-doc: unzip-doc
+FILES_unzip-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/unzip.1": 49657, "/usr/share/man/man1/zipinfo.1": 23607, "/usr/share/man/man1/unzipsfx.1": 14661, "/usr/share/man/man1/funzip.1": 4938, "/usr/share/man/man1/zipgrep.1": 3811}
+PKGSIZE_unzip-doc: 96674

@@ -1,0 +1,14 @@
+PN: xorgproto
+PV: 2018.4
+PR: r0
+PKGV: 2018.4
+PKGR: r0
+LICENSE: MIT-style
+DESCRIPTION_xorgproto-doc: This package provides the headers and specification documents defining the core protocol and (many) extensions for the X Window System  This package contains documentation.
+SUMMARY_xorgproto-doc: XCalibrate: Touchscreen calibration headers - Documentation files
+RRECOMMENDS_xorgproto-doc: xorgproto-lic
+SECTION_xorgproto-doc: doc
+PKG_xorgproto-doc: xorgproto-doc
+FILES_xorgproto-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/xorgproto/resproto.txt": 18060, "/usr/share/doc/xorgproto/dri2proto.txt": 23085, "/usr/share/doc/xorgproto/randrproto.txt": 111007, "/usr/share/doc/xorgproto/PM_spec": 5148, "/usr/share/doc/xorgproto/compositeproto.txt": 11921, "/usr/share/doc/xorgproto/xv-protocol-v2.txt": 20331, "/usr/share/doc/xorgproto/dri3proto.txt": 19128, "/usr/share/doc/xorgproto/damageproto.txt": 7585, "/usr/share/doc/xorgproto/presentproto.txt": 22851, "/usr/share/doc/xorgproto/fixesproto.txt": 19233, "/usr/share/doc/xorgproto/renderproto.txt": 37809}
+PKGSIZE_xorgproto-doc: 296158

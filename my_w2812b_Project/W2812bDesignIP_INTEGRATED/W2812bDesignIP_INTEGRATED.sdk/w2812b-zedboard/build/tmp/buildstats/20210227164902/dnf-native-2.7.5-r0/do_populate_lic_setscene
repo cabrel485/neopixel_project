@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444629.15 
+dnf-native-2.7.5-r0: do_populate_lic_setscene
+Elapsed time: 0.09 seconds
+utime: 24
+stime: 6
+cutime: 1
+cstime: 1
+IO wchar: 218310
+IO syscr: 202
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 311108
+IO syscw: 144
+rusage ru_utime: 0.242968
+rusage ru_stime: 0.06833499999999999
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13437
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 124
+Child rusage ru_utime: 0.01329
+Child rusage ru_stime: 0.013432
+Child rusage ru_maxrss: 128748
+Child rusage ru_minflt: 2257
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444629.24 

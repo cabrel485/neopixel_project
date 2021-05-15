@@ -1,0 +1,13 @@
+PN: xorgproto
+PV: 2018.4
+PR: r0
+PKGV: 2018.4
+PKGR: r0
+LICENSE: MIT-style
+DESCRIPTION: This package provides the headers and specification documents defining the core protocol and (many) extensions for the X Window System
+SUMMARY: XCalibrate: Touchscreen calibration headers
+SECTION: x11/libs
+PKG_xorgproto-lic: xorgproto-lic
+FILES_xorgproto-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/xorgproto/generic_MIT-style": 1080, "/usr/share/licenses/xorgproto/COPYING-x11proto": 5276}
+PKGSIZE_xorgproto-lic: 6356

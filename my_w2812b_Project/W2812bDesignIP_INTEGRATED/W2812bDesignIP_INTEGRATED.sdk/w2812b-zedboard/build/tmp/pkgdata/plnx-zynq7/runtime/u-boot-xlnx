@@ -1,0 +1,14 @@
+PN: u-boot-xlnx
+PV: v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94
+PR: r0
+PKGV: v2019.01-xilinx-v2019.1+git0+d895ac5e94
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Universal Boot Loader for embedded devices.
+SUMMARY: Universal Boot Loader for embedded devices
+RRECOMMENDS_u-boot-xlnx: u-boot-xlnx-lic
+SECTION: base
+PKG_u-boot-xlnx: u-boot-xlnx
+FILES_u-boot-xlnx: /boot /etc
+FILES_INFO: {"/boot/u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf": 631396, "/boot/u-boot.bin": 70, "/boot/u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin": 565272, "/boot/u-boot.elf": 70}
+PKGSIZE_u-boot-xlnx: 1196808

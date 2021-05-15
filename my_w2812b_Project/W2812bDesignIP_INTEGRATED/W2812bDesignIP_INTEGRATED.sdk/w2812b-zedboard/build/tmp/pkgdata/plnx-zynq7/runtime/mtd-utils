@@ -1,0 +1,40 @@
+PN: mtd-utils
+PV: 2.0.2+AUTOINC+bc63d36e39
+PR: r0
+PKGV: 2.0.2+0+bc63d36e39
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: Tools for managing memory technology devices
+RDEPENDS_mtd-utils: update-alternatives-opkg glibc (>= 2.28)
+RRECOMMENDS_mtd-utils: mtd-utils-lic
+SECTION: base
+PKG_mtd-utils: mtd-utils
+FILES_mtd-utils: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/mtd-utils /usr/lib/mtd-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_mtd-utils: #!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/sbin/flashcp flashcp /usr/sbin/flashcp.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/flash_eraseall flash_eraseall /usr/sbin/flash_eraseall.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/flash_lock flash_lock /usr/sbin/flash_lock.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/flash_unlock flash_unlock /usr/sbin/flash_unlock.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/nanddump nanddump /usr/sbin/nanddump.mtd-utils 100\n\tupdate-alternatives --install /usr/sbin/nandwrite nandwrite /usr/sbin/nandwrite.mtd-utils 100\n
+pkg_prerm_mtd-utils: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  flashcp /usr/sbin/flashcp.mtd-utils\n\tupdate-alternatives --remove  flash_eraseall /usr/sbin/flash_eraseall.mtd-utils\n\tupdate-alternatives --remove  flash_lock /usr/sbin/flash_lock.mtd-utils\n\tupdate-alternatives --remove  flash_unlock /usr/sbin/flash_unlock.mtd-utils\n\tupdate-alternatives --remove  nanddump /usr/sbin/nanddump.mtd-utils\n\tupdate-alternatives --remove  nandwrite /usr/sbin/nandwrite.mtd-utils\n
+FILERPROVIDESFLIST_mtd-utils:  /usr/sbin/flashcp.mtd-utils /usr/sbin/flash@underscore@eraseall.mtd-utils /usr/sbin/flash@underscore@lock.mtd-utils /usr/sbin/flash@underscore@unlock.mtd-utils /usr/sbin/nanddump.mtd-utils /usr/sbin/nandwrite.mtd-utils
+FILES_INFO: {"/usr/sbin/flash_otp_dump": 5516, "/usr/sbin/flash_unlock.mtd-utils": 9676, "/usr/sbin/flash_eraseall.mtd-utils": 150, "/usr/sbin/nandwrite.mtd-utils": 34248, "/usr/sbin/flash_otp_write": 5516, "/usr/sbin/flash_otp_info": 5516, "/usr/sbin/flash_erase": 30144, "/usr/sbin/mtd_debug": 9660, "/usr/sbin/flash_otp_lock": 5516, "/usr/sbin/mtdinfo": 34232, "/usr/sbin/flashcp.mtd-utils": 9676, "/usr/sbin/flash_lock.mtd-utils": 9672, "/usr/sbin/nanddump.mtd-utils": 34248, "/usr/sbin/nandtest": 9660, "/usr/sbin/mtdpart": 9656}
+FILERPROVIDES_/usr/sbin/flashcp.mtd-utils_mtd-utils:  /usr/sbin/flashcp
+FILERPROVIDES_/usr/sbin/flash@underscore@eraseall.mtd-utils_mtd-utils:  /usr/sbin/flash_eraseall
+FILERPROVIDES_/usr/sbin/flash@underscore@lock.mtd-utils_mtd-utils:  /usr/sbin/flash_lock
+FILERPROVIDES_/usr/sbin/flash@underscore@unlock.mtd-utils_mtd-utils:  /usr/sbin/flash_unlock
+FILERPROVIDES_/usr/sbin/nanddump.mtd-utils_mtd-utils:  /usr/sbin/nanddump
+FILERPROVIDES_/usr/sbin/nandwrite.mtd-utils_mtd-utils:  /usr/sbin/nandwrite
+FILERDEPENDSFLIST_mtd-utils: /usr/sbin/flash@underscore@otp@underscore@dump /usr/sbin/flash@underscore@lock.mtd-utils /usr/sbin/flash@underscore@otp@underscore@info /usr/sbin/flashcp.mtd-utils /usr/sbin/nandwrite.mtd-utils /usr/sbin/flash@underscore@otp@underscore@lock /usr/sbin/flash@underscore@unlock.mtd-utils /usr/sbin/flash@underscore@eraseall.mtd-utils /usr/sbin/flash@underscore@otp@underscore@write /usr/sbin/flash@underscore@erase /usr/sbin/mtdinfo /usr/sbin/mtd@underscore@debug /usr/sbin/mtdpart /usr/sbin/nandtest /usr/sbin/nanddump.mtd-utils
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@dump_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@lock.mtd-utils_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@info_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flashcp.mtd-utils_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nandwrite.mtd-utils_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@lock_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@unlock.mtd-utils_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@eraseall.mtd-utils_mtd-utils:  /bin/sh
+FILERDEPENDS_/usr/sbin/flash@underscore@otp@underscore@write_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/flash@underscore@erase_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtdinfo_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtd@underscore@debug_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mtdpart_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nandtest_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/nanddump.mtd-utils_mtd-utils:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_mtd-utils: 213086

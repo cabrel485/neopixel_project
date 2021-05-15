@@ -1,0 +1,23 @@
+PN: zlib
+PV: 1.2.11
+PR: r0
+PKGV: 1.2.11
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION_zlib-ptest: Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.  This package contains a test directory /usr/lib/zlib/ptest for package test purposes.
+SUMMARY_zlib-ptest: Zlib Compression Library - Package test files
+RDEPENDS_zlib-ptest: make zlib (>= 1.2.11) glibc (>= 2.28)
+RPROVIDES_zlib-ptest:  zlib-ptest (=1.2.11)
+RRECOMMENDS_zlib-ptest: zlib-lic  ptest-runner
+SECTION_zlib-ptest: devel
+PKG_zlib-ptest: libz-ptest
+ALLOW_EMPTY_zlib-ptest: 1
+FILES_zlib-ptest: /usr/lib/zlib/ptest
+FILES_INFO: {"/usr/lib/zlib/ptest/Makefile": 14759, "/usr/lib/zlib/ptest/run-ptest": 157, "/usr/lib/zlib/ptest/minigzipsh": 9608, "/usr/lib/zlib/ptest/minigzip": 54716, "/usr/lib/zlib/ptest/example": 58820, "/usr/lib/zlib/ptest/examplesh": 13716}
+FILERDEPENDSFLIST_zlib-ptest: /usr/lib/zlib/ptest/minigzipsh /usr/lib/zlib/ptest/minigzip /usr/lib/zlib/ptest/run-ptest /usr/lib/zlib/ptest/example /usr/lib/zlib/ptest/examplesh
+FILERDEPENDS_/usr/lib/zlib/ptest/minigzipsh_zlib-ptest:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libz.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/zlib/ptest/minigzip_zlib-ptest:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/zlib/ptest/run-ptest_zlib-ptest:  /bin/sh
+FILERDEPENDS_/usr/lib/zlib/ptest/example_zlib-ptest:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/zlib/ptest/examplesh_zlib-ptest:  libz.so.1(ZLIB_1.2.0.2) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libz.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_zlib-ptest: 151776

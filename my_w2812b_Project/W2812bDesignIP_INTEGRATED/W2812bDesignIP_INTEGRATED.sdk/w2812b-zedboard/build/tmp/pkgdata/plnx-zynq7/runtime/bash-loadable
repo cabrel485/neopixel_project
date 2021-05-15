@@ -1,0 +1,41 @@
+PN: bash
+PV: 4.4.18
+PR: r0
+PKGV: 4.4.18
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION: An sh-compatible command language interpreter.
+SUMMARY: An sh-compatible command language interpreter
+RDEPENDS_bash-loadable: bash glibc (>= 2.28)
+RRECOMMENDS_bash-loadable: bash-lic
+SECTION: base/shell
+PKG_bash-loadable: bash-loadable
+FILES_bash-loadable:  /usr/lib/bash/*
+FILES_INFO: {"/usr/lib/bash/id": 5380, "/usr/lib/bash/Makefile.inc": 3217, "/usr/lib/bash/ln": 5400, "/usr/lib/bash/whoami": 5388, "/usr/lib/bash/printenv": 5392, "/usr/lib/bash/sleep": 5384, "/usr/lib/bash/mypid": 5392, "/usr/lib/bash/print": 5396, "/usr/lib/bash/mkdir": 9528, "/usr/lib/bash/head": 5396, "/usr/lib/bash/basename": 5400, "/usr/lib/bash/sync": 5384, "/usr/lib/bash/setpgid": 5400, "/usr/lib/bash/uname": 5388, "/usr/lib/bash/tty": 5396, "/usr/lib/bash/logname": 5396, "/usr/lib/bash/rmdir": 5392, "/usr/lib/bash/finfo": 9580, "/usr/lib/bash/push": 5400, "/usr/lib/bash/unlink": 5388, "/usr/lib/bash/realpath": 5408, "/usr/lib/bash/pathchk": 5400, "/usr/lib/bash/strftime": 5404, "/usr/lib/bash/tee": 5396, "/usr/lib/bash/dirname": 5392, "/usr/lib/bash/truefalse": 5432}
+FILERDEPENDSFLIST_bash-loadable: /usr/lib/bash/id /usr/lib/bash/ln /usr/lib/bash/whoami /usr/lib/bash/printenv /usr/lib/bash/sleep /usr/lib/bash/mypid /usr/lib/bash/print /usr/lib/bash/mkdir /usr/lib/bash/head /usr/lib/bash/basename /usr/lib/bash/sync /usr/lib/bash/setpgid /usr/lib/bash/uname /usr/lib/bash/tty /usr/lib/bash/logname /usr/lib/bash/rmdir /usr/lib/bash/finfo /usr/lib/bash/push /usr/lib/bash/unlink /usr/lib/bash/realpath /usr/lib/bash/pathchk /usr/lib/bash/strftime /usr/lib/bash/truefalse /usr/lib/bash/dirname /usr/lib/bash/tee
+FILERDEPENDS_/usr/lib/bash/id_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/ln_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/whoami_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/printenv_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/sleep_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/mypid_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/print_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/mkdir_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/head_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/basename_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/sync_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/setpgid_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/uname_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/tty_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/logname_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/rmdir_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/finfo_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/push_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/unlink_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/realpath_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/pathchk_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/strftime_bash-loadable:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/truefalse_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/dirname_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/bash/tee_bash-loadable:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+PKGSIZE_bash-loadable: 146429

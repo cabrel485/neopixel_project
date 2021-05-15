@@ -1,0 +1,12 @@
+DEBUG: Executing shell function do_configure
+MISC_ARG is  -hdf_type hdf -yamlconf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/device-tree.yaml
+APP_ARG is  -app "device-tree"
+Using xsct from: /home/wilson/Xilinx/Petalinux/tools/xsct/bin/xsct
+cmd is: xsct -sdx -nodisp /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/dtgen.tcl -ws /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/../components/plnx_workspace/device-tree -pname device-tree -rp /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/git -processor ps7_cortexa9_0 -hdf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/images/plnx-zynq7/Xilinx-plnx-zynq7.hdf -arch 32  -app "device-tree"  -hdf_type hdf -yamlconf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/device-tree/xilinx+gitAUTOINC+73e546e312-r0/device-tree.yaml
+INFO: [Hsi 55-1698] elapsed time for repository loading 0 seconds
+WARNING: ps7_ethernet_0: No reset found
+WARNING: ps7_usb_0: No reset found
+INFO: [Hsi 55-1698] elapsed time for repository loading 0 seconds
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+DEBUG: Python function do_qa_configure finished

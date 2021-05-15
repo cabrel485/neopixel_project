@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple-textcontent: perl module pod-simple-textcontent
+SUMMARY_perl-module-pod-simple-textcontent: perl module pod-simple-textcontent
+RDEPENDS_perl-module-pod-simple-textcontent: perl perl-module-carp perl-module-pod-simple perl-module-strict perl-module-vars
+SECTION: devel
+PKG_perl-module-pod-simple-textcontent: perl-module-pod-simple-textcontent
+FILES_perl-module-pod-simple-textcontent: /usr/lib/perl/5.24.4/Pod/Simple/TextContent.pm
+FILERPROVIDESFLIST_perl-module-pod-simple-textcontent: /usr/lib/perl/5.24.4/Pod/Simple/TextContent.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Pod/Simple/TextContent.pm": 2518}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Pod/Simple/TextContent.pm_perl-module-pod-simple-textcontent:  perl(Pod::Simple::TextContent)
+PKGSIZE_perl-module-pod-simple-textcontent: 2518

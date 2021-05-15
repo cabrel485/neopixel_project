@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444666.82 
+netbase-1_5.4-r0: do_packagedata_setscene
+Elapsed time: 0.21 seconds
+utime: 21
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 154884
+IO syscr: 174
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 246881
+IO syscw: 146
+rusage ru_utime: 0.211731
+rusage ru_stime: 0.047050999999999996
+rusage ru_maxrss: 131312
+rusage ru_minflt: 14015
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 125
+Child rusage ru_utime: 0.010903
+Child rusage ru_stime: 0.018364
+Child rusage ru_maxrss: 128516
+Child rusage ru_minflt: 2208
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1614444667.03 

@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: zynq-remoteproc kernel module; Zynq remote processor control driver
+SUMMARY_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: zynq-remoteproc kernel module
+RDEPENDS_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: kernel-4.19.0-xilinx-v2019.1 kernel-module-remoteproc-4.19.0-xilinx-v2019.1
+RPROVIDES_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: kernel-module-zynq-remoteproc
+SECTION: kernel
+PKG_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1
+FILES_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: /lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/zynq_remoteproc.ko /etc/modules-load.d/zynq_remoteproc.conf /etc/modprobe.d/zynq_remoteproc.conf
+pkg_postinst_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\tdepmodwrapper -a -b $D 4.19.0-xilinx-v2019.1\nfi\n\n
+FILES_INFO: {"/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/zynq_remoteproc.ko": 12652}
+PKGSIZE_kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1: 12652

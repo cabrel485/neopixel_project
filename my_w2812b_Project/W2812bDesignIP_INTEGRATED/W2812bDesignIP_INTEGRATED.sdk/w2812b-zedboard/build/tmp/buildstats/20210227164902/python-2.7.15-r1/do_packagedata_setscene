@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444626.54 
+python-2.7.15-r1: do_packagedata_setscene
+Elapsed time: 0.23 seconds
+utime: 32
+stime: 4
+cutime: 1
+cstime: 5
+IO wchar: 901203
+IO syscr: 387
+IO write_bytes: 630784
+IO cancelled_write_bytes: 0
+IO read_bytes: 184320
+IO rchar: 773066
+IO syscw: 565
+rusage ru_utime: 0.32620499999999997
+rusage ru_stime: 0.044853
+rusage ru_maxrss: 133064
+rusage ru_minflt: 14223
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 264
+rusage ru_nvcsw: 80
+rusage ru_nivcsw: 251
+Child rusage ru_utime: 0.012173999999999999
+Child rusage ru_stime: 0.053377
+Child rusage ru_maxrss: 130360
+Child rusage ru_minflt: 2292
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 360
+Child rusage ru_oublock: 968
+Child rusage ru_nvcsw: 37
+Child rusage ru_nivcsw: 161
+Status: PASSED 
+Ended: 1614444626.77 

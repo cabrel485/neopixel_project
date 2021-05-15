@@ -1,0 +1,15 @@
+PN: tzdata
+PV: 2018g
+PR: r0
+PKGV: 2018g
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-europe: tzdata-europe
+RRECOMMENDS_tzdata-europe: tzdata-lic
+SECTION: base
+PKG_tzdata-europe: tzdata-europe
+FILES_tzdata-europe:  /usr/share/zoneinfo/Europe/*
+FILES_INFO: {"/usr/share/zoneinfo/Europe/Tallinn": 2178, "/usr/share/zoneinfo/Europe/Astrakhan": 1183, "/usr/share/zoneinfo/Europe/Copenhagen": 2151, "/usr/share/zoneinfo/Europe/Brussels": 2961, "/usr/share/zoneinfo/Europe/San_Marino": 2683, "/usr/share/zoneinfo/Europe/Mariehamn": 1900, "/usr/share/zoneinfo/Europe/Vatican": 2683, "/usr/share/zoneinfo/Europe/Kiev": 2088, "/usr/share/zoneinfo/Europe/Jersey": 3678, "/usr/share/zoneinfo/Europe/Samara": 1215, "/usr/share/zoneinfo/Europe/Malta": 2620, "/usr/share/zoneinfo/Europe/Belgrade": 1948, "/usr/share/zoneinfo/Europe/Athens": 2262, "/usr/share/zoneinfo/Europe/Ljubljana": 1948, "/usr/share/zoneinfo/Europe/Madrid": 2628, "/usr/share/zoneinfo/Europe/Oslo": 2242, "/usr/share/zoneinfo/Europe/Ulyanovsk": 1267, "/usr/share/zoneinfo/Europe/Riga": 2226, "/usr/share/zoneinfo/Europe/Rome": 2683, "/usr/share/zoneinfo/Europe/Bucharest": 2212, "/usr/share/zoneinfo/Europe/Volgograd": 1183, "/usr/share/zoneinfo/Europe/Simferopol": 1481, "/usr/share/zoneinfo/Europe/Skopje": 1948, "/usr/share/zoneinfo/Europe/Nicosia": 2002, "/usr/share/zoneinfo/Europe/Uzhgorod": 2094, "/usr/share/zoneinfo/Europe/Prague": 2329, "/usr/share/zoneinfo/Europe/Tirane": 2084, "/usr/share/zoneinfo/Europe/Belfast": 3678, "/usr/share/zoneinfo/Europe/Kaliningrad": 1509, "/usr/share/zoneinfo/Europe/Berlin": 2326, "/usr/share/zoneinfo/Europe/Warsaw": 2696, "/usr/share/zoneinfo/Europe/Sofia": 2121, "/usr/share/zoneinfo/Europe/Budapest": 2396, "/usr/share/zoneinfo/Europe/Zurich": 1909, "/usr/share/zoneinfo/Europe/Vaduz": 1909, "/usr/share/zoneinfo/Europe/Zaporozhye": 2106, "/usr/share/zoneinfo/Europe/Saratov": 1183, "/usr/share/zoneinfo/Europe/Helsinki": 1900, "/usr/share/zoneinfo/Europe/Vilnius": 2190, "/usr/share/zoneinfo/Europe/Vienna": 2228, "/usr/share/zoneinfo/Europe/Gibraltar": 3052, "/usr/share/zoneinfo/Europe/Luxembourg": 2960, "/usr/share/zoneinfo/Europe/Busingen": 1909, "/usr/share/zoneinfo/Europe/Isle_of_Man": 3678, "/usr/share/zoneinfo/Europe/Tiraspol": 2436, "/usr/share/zoneinfo/Europe/Stockholm": 1909, "/usr/share/zoneinfo/Europe/Chisinau": 2436, "/usr/share/zoneinfo/Europe/Minsk": 1361, "/usr/share/zoneinfo/Europe/Dublin": 3522, "/usr/share/zoneinfo/Europe/Bratislava": 2329, "/usr/share/zoneinfo/Europe/Sarajevo": 1948, "/usr/share/zoneinfo/Europe/Monaco": 2944, "/usr/share/zoneinfo/Europe/Kirov": 1153, "/usr/share/zoneinfo/Europe/Andorra": 1742, "/usr/share/zoneinfo/Europe/Podgorica": 1948, "/usr/share/zoneinfo/Europe/Istanbul": 2157, "/usr/share/zoneinfo/Europe/Zagreb": 1948, "/usr/share/zoneinfo/Europe/Lisbon": 3469, "/usr/share/zoneinfo/Europe/Guernsey": 3678, "/usr/share/zoneinfo/Europe/Amsterdam": 2940}
+PKGSIZE_tzdata-europe: 135547

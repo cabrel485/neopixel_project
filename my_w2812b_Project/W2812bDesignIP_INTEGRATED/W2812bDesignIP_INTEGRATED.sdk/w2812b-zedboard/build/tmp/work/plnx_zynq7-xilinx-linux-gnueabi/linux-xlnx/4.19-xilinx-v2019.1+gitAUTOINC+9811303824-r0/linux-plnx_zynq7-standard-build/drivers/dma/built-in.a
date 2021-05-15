@@ -1,0 +1,13 @@
+!<thin>
+//                                              78        `
+dmaengine.o/
+of-dma.o/
+pl330.o/
+xilinx/xilinx_dma.o/
+xilinx/xilinx_frmbuf.o/
+
+/0              0           0     0     644     25480     `
+/13             0           0     0     644     7788      `
+/23             0           0     0     644     25048     `
+/32             0           0     0     644     25900     `
+/53            /0           0     0     644     20560     `

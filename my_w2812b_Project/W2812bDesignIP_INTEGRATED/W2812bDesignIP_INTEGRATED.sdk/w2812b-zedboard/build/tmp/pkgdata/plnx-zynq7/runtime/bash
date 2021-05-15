@@ -1,0 +1,23 @@
+PN: bash
+PV: 4.4.18
+PR: r0
+PKGV: 4.4.18
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION: An sh-compatible command language interpreter.
+SUMMARY: An sh-compatible command language interpreter
+RDEPENDS_bash: base-files update-alternatives-opkg ncurses-libtinfo (>= 6.1+20180630) glibc (>= 2.28)
+RPROVIDES_bash:  
+RRECOMMENDS_bash: bash-lic
+SECTION: base/shell
+PKG_bash: bash
+FILES_bash: /usr/bin/bash /bin/bash.bash
+pkg_postinst_bash: set -e\n\tgrep -q "^/bin/bash$" $D/etc/shells || echo /bin/bash >> $D/etc/shells\n\tupdate-alternatives --install /bin/bash bash /bin/bash.bash 100\n\tupdate-alternatives --install /bin/sh sh /bin/bash.bash 100\n
+pkg_postrm_bash: set -e\n\tprintf "$(grep -v "^/bin/bash$" $D/etc/shells)\\n" > $D/etc/shells\n
+pkg_prerm_bash: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  bash /bin/bash.bash\n\tupdate-alternatives --remove  sh /bin/bash.bash\n
+FILERPROVIDESFLIST_bash:  /bin/bash.bash
+FILES_INFO: {"/bin/bash.bash": 731240}
+FILERPROVIDES_/bin/bash.bash_bash:  /bin/bash /bin/sh
+FILERDEPENDSFLIST_bash: /bin/bash.bash
+FILERDEPENDS_/bin/bash.bash_bash:  libdl.so.2(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libtinfo.so.5 libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_bash: 731240

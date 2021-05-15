@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444598.18 
+ca-certificates-20180409-r0: do_package_write_rpm_setscene
+Elapsed time: 0.10 seconds
+utime: 13
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 502295
+IO syscr: 197
+IO write_bytes: 270336
+IO cancelled_write_bytes: 0
+IO read_bytes: 151552
+IO rchar: 522133
+IO syscw: 151
+rusage ru_utime: 0.134936
+rusage ru_stime: 0.034697
+rusage ru_maxrss: 131276
+rusage ru_minflt: 6650
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 0.011334
+Child rusage ru_stime: 0.017681
+Child rusage ru_maxrss: 128512
+Child rusage ru_minflt: 2165
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 296
+Child rusage ru_oublock: 384
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1614444598.28 

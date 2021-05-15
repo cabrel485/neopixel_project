@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY_libatomic-staticdev: GNU C++11 atomics support library - static development files
+RRECOMMENDS_libatomic-staticdev: gcc-runtime-lic
+SECTION: devel
+PKG_libatomic-staticdev: libatomic-staticdev
+FILES_libatomic-staticdev: /usr/lib/libatomic.a
+FILES_INFO: {"/usr/lib/libatomic.a": 211506}
+PKGSIZE_libatomic-staticdev: 211506

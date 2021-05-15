@@ -1,0 +1,14 @@
+!<thin>
+//                                              88        `
+eeprom/at24.o/
+eeprom/at25.o/
+sram.o/
+sram-exec.o/
+xilinx_trafgen.o/
+vexpress-syscfg.o/
+/0              0           0     0     644     15028     `
+/15             0           0     0     644     7100      `
+/30             0           0     0     644     8244      `
+/38             0           0     0     644     3064      `
+/51             0           0     0     644     16108     `
+/69             0           0     0     644     4964      `

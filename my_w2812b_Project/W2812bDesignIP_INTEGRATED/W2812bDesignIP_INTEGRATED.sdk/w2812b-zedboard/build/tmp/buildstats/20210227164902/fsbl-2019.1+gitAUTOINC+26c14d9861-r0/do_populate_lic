@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444849.69 
+fsbl-2019.1+gitAUTOINC+26c14d9861-r0: do_populate_lic
+Elapsed time: 0.27 seconds
+utime: 17
+stime: 5
+cutime: 5
+cstime: 2
+IO wchar: 1717530
+IO syscr: 516
+IO write_bytes: 258048
+IO cancelled_write_bytes: 0
+IO read_bytes: 176128
+IO rchar: 4688578
+IO syscw: 233
+rusage ru_utime: 0.17970899999999998
+rusage ru_stime: 0.055909
+rusage ru_maxrss: 131704
+rusage ru_minflt: 13464
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 272
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 77
+Child rusage ru_utime: 0.051766
+Child rusage ru_stime: 0.029811999999999998
+Child rusage ru_maxrss: 129016
+Child rusage ru_minflt: 4387
+Child rusage ru_majflt: 12
+Child rusage ru_inblock: 344
+Child rusage ru_oublock: 232
+Child rusage ru_nvcsw: 98
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1614444849.96 

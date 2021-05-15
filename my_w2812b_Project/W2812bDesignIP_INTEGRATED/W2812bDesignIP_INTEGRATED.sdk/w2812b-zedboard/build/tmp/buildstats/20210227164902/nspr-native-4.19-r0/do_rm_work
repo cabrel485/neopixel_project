@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444688.27 
+nspr-native-4.19-r0: do_rm_work
+Elapsed time: 0.24 seconds
+utime: 25
+stime: 5
+cutime: 8
+cstime: 8
+IO wchar: 39451
+IO syscr: 186
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 181075
+IO syscw: 37
+rusage ru_utime: 0.255031
+rusage ru_stime: 0.06
+rusage ru_maxrss: 131456
+rusage ru_minflt: 11141
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 64
+Child rusage ru_utime: 0.08920499999999999
+Child rusage ru_stime: 0.08175099999999999
+Child rusage ru_maxrss: 128756
+Child rusage ru_minflt: 3486
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 51
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1614444688.51 

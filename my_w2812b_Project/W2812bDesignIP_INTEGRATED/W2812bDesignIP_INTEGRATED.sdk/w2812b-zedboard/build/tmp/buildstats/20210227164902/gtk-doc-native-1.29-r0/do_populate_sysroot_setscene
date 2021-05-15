@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444658.38 
+gtk-doc-native-1.29-r0: do_populate_sysroot_setscene
+Elapsed time: 0.24 seconds
+utime: 36
+stime: 8
+cutime: 2
+cstime: 1
+IO wchar: 1352614
+IO syscr: 295
+IO write_bytes: 782336
+IO cancelled_write_bytes: 0
+IO read_bytes: 241664
+IO rchar: 1020467
+IO syscw: 337
+rusage ru_utime: 0.36488499999999996
+rusage ru_stime: 0.084204
+rusage ru_maxrss: 131480
+rusage ru_minflt: 13481
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 87
+Child rusage ru_utime: 0.024947
+Child rusage ru_stime: 0.014849
+Child rusage ru_maxrss: 128720
+Child rusage ru_minflt: 2286
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 472
+Child rusage ru_oublock: 1304
+Child rusage ru_nvcsw: 44
+Child rusage ru_nivcsw: 51
+Status: PASSED 
+Ended: 1614444658.62 

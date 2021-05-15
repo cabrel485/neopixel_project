@@ -1,0 +1,3 @@
+recipe-sysroot-native/usr/bin/crossscripts/libpng16-config
+recipe-sysroot-native/usr/bin/crossscripts/libpng-config
+recipe-sysroot-native/usr/bin/libpng16-config

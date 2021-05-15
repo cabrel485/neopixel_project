@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444689.24 
+libgcc-8.2.0-r0: do_rm_work
+Elapsed time: 0.10 seconds
+utime: 20
+stime: 4
+cutime: 2
+cstime: 2
+IO wchar: 40558
+IO syscr: 291
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 223312
+IO syscw: 45
+rusage ru_utime: 0.20124399999999998
+rusage ru_stime: 0.046439999999999995
+rusage ru_maxrss: 131708
+rusage ru_minflt: 11044
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 110
+Child rusage ru_utime: 0.022716999999999998
+Child rusage ru_stime: 0.023611
+Child rusage ru_maxrss: 129008
+Child rusage ru_minflt: 5821
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 76
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1614444689.34 

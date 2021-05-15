@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-audio: Python Audio Handling
+RDEPENDS_python-audio: python-core python-crypt python-fcntl python-io python-math libpython2 (>= 2.7.15) glibc (>= 2.28)
+RRECOMMENDS_python-audio: python-lic
+SECTION: devel/python
+PKG_python-audio: python-audio
+FILES_python-audio:  /usr/lib/python2.7/audiodev.py /usr/lib/python2.7/audiodev.pyc /usr/lib/python2.7/chunk.py /usr/lib/python2.7/chunk.pyc /usr/lib/python2.7/lib-dynload/audioop.so /usr/lib/python2.7/lib-dynload/ossaudiodev.so /usr/lib/python2.7/sndhdr.py /usr/lib/python2.7/sndhdr.pyc /usr/lib/python2.7/sunau.py /usr/lib/python2.7/sunau.pyc /usr/lib/python2.7/sunaudio.py /usr/lib/python2.7/sunaudio.pyc /usr/lib/python2.7/toaiff.py /usr/lib/python2.7/toaiff.pyc /usr/lib/python2.7/wave.py /usr/lib/python2.7/wave.pyc
+FILES_INFO: {"/usr/lib/python2.7/audiodev.pyc": 8415, "/usr/lib/python2.7/lib-dynload/audioop.so": 26284, "/usr/lib/python2.7/wave.py": 18582, "/usr/lib/python2.7/sunau.pyc": 18298, "/usr/lib/python2.7/chunk.py": 5419, "/usr/lib/python2.7/wave.pyc": 19911, "/usr/lib/python2.7/audiodev.py": 7597, "/usr/lib/python2.7/sunaudio.py": 1399, "/usr/lib/python2.7/sndhdr.py": 5973, "/usr/lib/python2.7/sndhdr.pyc": 7327, "/usr/lib/python2.7/sunau.py": 17222, "/usr/lib/python2.7/chunk.pyc": 5580, "/usr/lib/python2.7/toaiff.pyc": 3098, "/usr/lib/python2.7/sunaudio.pyc": 1977, "/usr/lib/python2.7/toaiff.py": 3142}
+FILERDEPENDSFLIST_python-audio: /usr/lib/python2.7/lib-dynload/audioop.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/audioop.so_python-audio:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python-audio: 150224

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444630.12 
+xcb-proto-1.13-r0: do_package_qa_setscene
+Elapsed time: 0.23 seconds
+utime: 24
+stime: 8
+cutime: 0
+cstime: 1
+IO wchar: 154048
+IO syscr: 1876
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 218715
+IO syscw: 127
+rusage ru_utime: 0.246914
+rusage ru_stime: 0.083632
+rusage ru_maxrss: 131404
+rusage ru_minflt: 13418
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 246
+Child rusage ru_utime: 0.006627
+Child rusage ru_stime: 0.01265
+Child rusage ru_maxrss: 128708
+Child rusage ru_minflt: 1556
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 14
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1614444630.35 

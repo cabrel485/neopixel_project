@@ -1,0 +1,16 @@
+PN: fsbl
+PV: 2019.1+gitAUTOINC+26c14d9861
+PR: r0
+PKGV: 2019.1+git0+26c14d9861
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_fsbl-dev: FSBL  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_fsbl-dev: fsbl version 2019.1+gitAUTOINC+26c14d9861-r0 - Development files
+RDEPENDS_fsbl-dev: fsbl (= 2019.1+git0+26c14d9861-r0)
+RRECOMMENDS_fsbl-dev: fsbl-lic
+SECTION_fsbl-dev: devel
+PKG_fsbl-dev: fsbl-dev
+ALLOW_EMPTY_fsbl-dev: 1
+FILES_fsbl-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fsbl/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {}
+PKGSIZE_fsbl-dev: 0

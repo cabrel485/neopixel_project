@@ -1,0 +1,55 @@
+PN: procps
+PV: 3.3.15
+PR: r0
+PKGV: 3.3.15
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2+
+DESCRIPTION: Procps contains a set of system utilities that provide system information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, and skill.
+SUMMARY: System and process monitoring utilities
+RDEPENDS_procps: update-alternatives-opkg ncurses-libncurses (>= 6.1+20180630) ncurses-libtinfo (>= 6.1+20180630) glibc (>= 2.28)
+RRECOMMENDS_procps: procps-lic
+SECTION: base
+PKG_procps: procps
+FILES_procps: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/procps /usr/lib/procps/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+CONFFILES_procps: /etc/sysctl.conf
+pkg_postinst_procps: #!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/free free /usr/bin/free.procps 200\n\tupdate-alternatives --install /usr/bin/pkill pkill /usr/bin/pkill.procps 200\n\tupdate-alternatives --install /usr/bin/pmap pmap /usr/bin/pmap.procps 200\n\tupdate-alternatives --install /usr/bin/pgrep pgrep /usr/bin/pgrep.procps 200\n\tupdate-alternatives --install /usr/bin/pwdx pwdx /usr/bin/pwdx.procps 200\n\tupdate-alternatives --install /usr/bin/skill skill /usr/bin/skill.procps 200\n\tupdate-alternatives --install /usr/bin/snice snice /usr/bin/snice.procps 200\n\tupdate-alternatives --install /usr/bin/top top /usr/bin/top.procps 200\n\tupdate-alternatives --install /usr/bin/uptime uptime /usr/bin/uptime.procps 200\n\tupdate-alternatives --install /usr/bin/w w /usr/bin/w.procps 200\n\tupdate-alternatives --install /bin/kill kill /bin/kill.procps 200\n\tupdate-alternatives --install /bin/pidof pidof /bin/pidof.procps 150\n\tupdate-alternatives --install /bin/ps ps /bin/ps.procps 200\n\tupdate-alternatives --install /bin/watch watch /bin/watch.procps 200\n\tupdate-alternatives --install /sbin/sysctl sysctl /sbin/sysctl.procps 200\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+pkg_prerm_procps: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  free /usr/bin/free.procps\n\tupdate-alternatives --remove  pkill /usr/bin/pkill.procps\n\tupdate-alternatives --remove  pmap /usr/bin/pmap.procps\n\tupdate-alternatives --remove  pgrep /usr/bin/pgrep.procps\n\tupdate-alternatives --remove  pwdx /usr/bin/pwdx.procps\n\tupdate-alternatives --remove  skill /usr/bin/skill.procps\n\tupdate-alternatives --remove  snice /usr/bin/snice.procps\n\tupdate-alternatives --remove  top /usr/bin/top.procps\n\tupdate-alternatives --remove  uptime /usr/bin/uptime.procps\n\tupdate-alternatives --remove  w /usr/bin/w.procps\n\tupdate-alternatives --remove  kill /bin/kill.procps\n\tupdate-alternatives --remove  pidof /bin/pidof.procps\n\tupdate-alternatives --remove  ps /bin/ps.procps\n\tupdate-alternatives --remove  watch /bin/watch.procps\n\tupdate-alternatives --remove  sysctl /sbin/sysctl.procps\n
+FILERPROVIDESFLIST_procps: /usr/lib/libprocps.so.7.1.0 /usr/bin/free.procps /usr/bin/pkill.procps /usr/bin/pmap.procps /usr/bin/pgrep.procps /usr/bin/pwdx.procps /usr/bin/skill.procps /usr/bin/snice.procps /usr/bin/top.procps /usr/bin/uptime.procps /usr/bin/w.procps /bin/kill.procps /bin/pidof.procps /bin/ps.procps /bin/watch.procps /sbin/sysctl.procps
+FILES_INFO: {"/usr/bin/top.procps": 90284, "/usr/bin/vmstat": 21956, "/usr/bin/free.procps": 13760, "/bin/ps.procps": 83556, "/sbin/sysctl.procps": 17880, "/bin/pidof.procps": 9664, "/bin/kill.procps": 17856, "/usr/bin/skill.procps": 17860, "/usr/bin/uptime.procps": 9664, "/usr/bin/slabtop": 13756, "/usr/bin/pkill.procps": 17868, "/usr/bin/snice.procps": 17860, "/bin/watch.procps": 18012, "/usr/bin/pmap.procps": 21956, "/usr/lib/libprocps.so.7": 18, "/usr/bin/pwdx.procps": 9660, "/usr/bin/w.procps": 13756, "/usr/bin/pgrep.procps": 17868, "/etc/sysctl.conf": 2049, "/usr/lib/libprocps.so.7.1.0": 50564, "/usr/bin/tload": 9672}
+FILERPROVIDES_/usr/lib/libprocps.so.7.1.0_procps:  libprocps.so.7(LIBPROCPS_0) libprocps.so.7
+FILERPROVIDES_/usr/bin/free.procps_procps:  /usr/bin/free
+FILERPROVIDES_/usr/bin/pkill.procps_procps:  /usr/bin/pkill
+FILERPROVIDES_/usr/bin/pmap.procps_procps:  /usr/bin/pmap
+FILERPROVIDES_/usr/bin/pgrep.procps_procps:  /usr/bin/pgrep
+FILERPROVIDES_/usr/bin/pwdx.procps_procps:  /usr/bin/pwdx
+FILERPROVIDES_/usr/bin/skill.procps_procps:  /usr/bin/skill
+FILERPROVIDES_/usr/bin/snice.procps_procps:  /usr/bin/snice
+FILERPROVIDES_/usr/bin/top.procps_procps:  /usr/bin/top
+FILERPROVIDES_/usr/bin/uptime.procps_procps:  /usr/bin/uptime
+FILERPROVIDES_/usr/bin/w.procps_procps:  /usr/bin/w
+FILERPROVIDES_/bin/kill.procps_procps:  /bin/kill
+FILERPROVIDES_/bin/pidof.procps_procps:  /bin/pidof
+FILERPROVIDES_/bin/ps.procps_procps:  /bin/ps
+FILERPROVIDES_/bin/watch.procps_procps:  /bin/watch
+FILERPROVIDES_/sbin/sysctl.procps_procps:  /sbin/sysctl
+FILERDEPENDSFLIST_procps: /usr/bin/top.procps /usr/bin/vmstat /usr/bin/free.procps /bin/ps.procps /sbin/sysctl.procps /bin/pidof.procps /bin/kill.procps /usr/bin/skill.procps /usr/bin/uptime.procps /usr/bin/slabtop /usr/bin/pkill.procps /usr/bin/pwdx.procps /usr/bin/pmap.procps /bin/watch.procps /usr/bin/snice.procps /usr/bin/w.procps /usr/bin/pgrep.procps /usr/lib/libprocps.so.7.1.0 /usr/bin/tload
+FILERDEPENDS_/usr/bin/top.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libtinfo.so.5 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/vmstat_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/free.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/bin/ps.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/sysctl.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.27) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/bin/pidof.procps_procps:  libprocps.so.7(LIBPROCPS_0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/bin/kill.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/skill.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/uptime.procps_procps:  libprocps.so.7(LIBPROCPS_0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/slabtop_procps:  libprocps.so.7(LIBPROCPS_0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7 libncurses.so.5 libtinfo.so.5 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pkill.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pwdx.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pmap.procps_procps:  libprocps.so.7(LIBPROCPS_0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/bin/watch.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libncurses.so.5 libtinfo.so.5 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/snice.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/w.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libc.so.6(GLIBC_2.4) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pgrep.procps_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libprocps.so.7.1.0_procps:  libdl.so.2(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/tload_procps:  ld-linux-armhf.so.3(GLIBC_2.4) libprocps.so.7(LIBPROCPS_0) libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libprocps.so.7 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_procps: 475519

@@ -1,0 +1,29 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for securetty in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty-4.6/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/shadow-securetty/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/
+NOTE: Unpacking /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/shadow/files/securetty to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/shadow-securetty/4.6-r3/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+DEBUG: Python function do_qa_unpack finished

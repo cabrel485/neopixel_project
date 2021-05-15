@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-clusterip: iptables module ipt-clusterip
+SUMMARY_iptables-module-ipt-clusterip: iptables module ipt-clusterip
+RDEPENDS_iptables-module-ipt-clusterip: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-clusterip: iptables-module-ipt-clusterip
+FILES_iptables-module-ipt-clusterip: /usr/lib/xtables/libipt_CLUSTERIP.so
+FILERPROVIDESFLIST_iptables-module-ipt-clusterip: /usr/lib/xtables/libipt@underscore@CLUSTERIP.so
+FILES_INFO: {"/usr/lib/xtables/libipt_CLUSTERIP.so": 5516}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@CLUSTERIP.so_iptables-module-ipt-clusterip:  libipt_CLUSTERIP.so
+FILERDEPENDSFLIST_iptables-module-ipt-clusterip: /usr/lib/xtables/libipt@underscore@CLUSTERIP.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@CLUSTERIP.so_iptables-module-ipt-clusterip:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-clusterip: 5516

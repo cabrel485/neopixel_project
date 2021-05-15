@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-lzh-tw: binary locale definition for lzh-tw
+SUMMARY_glibc-binary-localedata-lzh-tw: binary locale definition for lzh-tw
+SECTION: base
+PKG_glibc-binary-localedata-lzh-tw: glibc-binary-localedata-lzh-tw
+FILES_glibc-binary-localedata-lzh-tw: /usr/lib/locale/lzh_TW
+FILES_INFO: {"/usr/lib/locale/lzh_TW/LC_MONETARY": 290, "/usr/lib/locale/lzh_TW/LC_MEASUREMENT": 23, "/usr/lib/locale/lzh_TW/LC_CTYPE": 297092, "/usr/lib/locale/lzh_TW/LC_IDENTIFICATION": 321, "/usr/lib/locale/lzh_TW/LC_PAPER": 34, "/usr/lib/locale/lzh_TW/LC_ADDRESS": 160, "/usr/lib/locale/lzh_TW/LC_NUMERIC": 54, "/usr/lib/locale/lzh_TW/LC_COLLATE": 2586242, "/usr/lib/locale/lzh_TW/LC_MESSAGES/SYS_LC_MESSAGES": 70, "/usr/lib/locale/lzh_TW/LC_TIME": 3376, "/usr/lib/locale/lzh_TW/LC_TELEPHONE": 57, "/usr/lib/locale/lzh_TW/LC_NAME": 71}
+PKGSIZE_glibc-binary-localedata-lzh-tw: 2887790

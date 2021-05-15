@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444592.90 
+libarchive-native-3.3.3-r0: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 25
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 148853
+IO syscr: 195
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 240957
+IO syscw: 142
+rusage ru_utime: 0.259967
+rusage ru_stime: 0.059992
+rusage ru_maxrss: 131560
+rusage ru_minflt: 13366
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 107
+Child rusage ru_utime: 0.012506999999999999
+Child rusage ru_stime: 0.016781
+Child rusage ru_maxrss: 128784
+Child rusage ru_minflt: 2250
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 21
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1614444593.02 

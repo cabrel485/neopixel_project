@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../../../usr
+exec_prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+
+Name: GObject
+Description: GLib Type, Object, Parameter and Signal Library
+Requires: glib-2.0
+Version: 2.58.0
+Libs: -L${libdir} -lgobject-2.0
+Libs.private: -L${pcfiledir}/../../../usr/lib/pkgconfig/../../../usr/lib -lffi
+Cflags:

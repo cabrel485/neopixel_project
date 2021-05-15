@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444879.64 
+u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: do_populate_sysroot
+Elapsed time: 0.30 seconds
+utime: 24
+stime: 5
+cutime: 3
+cstime: 3
+IO wchar: 250063
+IO syscr: 1632
+IO write_bytes: 188416
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 475806
+IO syscw: 124
+rusage ru_utime: 0.24683
+rusage ru_stime: 0.052603
+rusage ru_maxrss: 131996
+rusage ru_minflt: 15398
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 352
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 103
+Child rusage ru_utime: 0.035199999999999995
+Child rusage ru_stime: 0.036869
+Child rusage ru_maxrss: 129220
+Child rusage ru_minflt: 6488
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 69
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1614444879.94 

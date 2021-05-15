@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444802.62 
+petalinux-user-image-1.0-r0: do_populate_lic
+Elapsed time: 0.35 seconds
+utime: 47
+stime: 8
+cutime: 2
+cstime: 4
+IO wchar: 160266
+IO syscr: 389
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 587717
+IO syscw: 100
+rusage ru_utime: 0.470906
+rusage ru_stime: 0.08491699999999999
+rusage ru_maxrss: 132496
+rusage ru_minflt: 25798
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 256
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 142
+Child rusage ru_utime: 0.021075999999999998
+Child rusage ru_stime: 0.042591
+Child rusage ru_maxrss: 129796
+Child rusage ru_minflt: 4619
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 32
+Status: PASSED 
+Ended: 1614444802.97 

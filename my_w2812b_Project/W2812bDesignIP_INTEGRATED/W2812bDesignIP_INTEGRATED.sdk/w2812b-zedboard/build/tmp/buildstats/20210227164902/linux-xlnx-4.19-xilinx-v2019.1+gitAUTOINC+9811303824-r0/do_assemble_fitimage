@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445376.03 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_assemble_fitimage
+Elapsed time: 0.24 seconds
+utime: 32
+stime: 6
+cutime: 3
+cstime: 4
+IO wchar: 12571151
+IO syscr: 1342
+IO write_bytes: 16736256
+IO cancelled_write_bytes: 4202496
+IO read_bytes: 438272
+IO rchar: 8853909
+IO syscw: 122
+rusage ru_utime: 0.327657
+rusage ru_stime: 0.067928
+rusage ru_maxrss: 132836
+rusage ru_minflt: 6460
+rusage ru_majflt: 0
+rusage ru_inblock: 664
+rusage ru_oublock: 144
+rusage ru_nvcsw: 61
+rusage ru_nivcsw: 134
+Child rusage ru_utime: 0.033828
+Child rusage ru_stime: 0.046069
+Child rusage ru_maxrss: 129732
+Child rusage ru_minflt: 11647
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 192
+Child rusage ru_oublock: 32544
+Child rusage ru_nvcsw: 52
+Child rusage ru_nivcsw: 80
+Status: PASSED 
+Ended: 1614445376.26 

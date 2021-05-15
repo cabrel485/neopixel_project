@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-doctest: Python framework for running examples in docstrings
+RDEPENDS_python3-doctest: python3-core python3-debugger python3-difflib python3-logging python3-pprint python3-shell python3-stringold python3-unittest
+RRECOMMENDS_python3-doctest: python3-lic
+SECTION: devel/python
+PKG_python3-doctest: python3-doctest
+FILES_python3-doctest:  /usr/lib/python3.5/doctest.py /usr/lib/python3.5/__pycache__/doctest.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/doctest.cpython-35.pyc": 79722, "/usr/lib/python3.5/__pycache__/doctest.cpython-35.opt-1.pyc": 79449, "/usr/lib/python3.5/__pycache__/doctest.cpython-35.opt-2.pyc": 44098, "/usr/lib/python3.5/doctest.py": 104036}
+PKGSIZE_python3-doctest: 307305

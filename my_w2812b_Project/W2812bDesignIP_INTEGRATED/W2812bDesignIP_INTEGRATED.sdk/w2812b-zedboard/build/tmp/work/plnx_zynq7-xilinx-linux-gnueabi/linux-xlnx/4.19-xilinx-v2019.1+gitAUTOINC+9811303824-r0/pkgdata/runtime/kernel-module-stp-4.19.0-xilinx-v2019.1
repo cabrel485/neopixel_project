@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-stp-4.19.0-xilinx-v2019.1: stp kernel module
+SUMMARY_kernel-module-stp-4.19.0-xilinx-v2019.1: stp kernel module
+RDEPENDS_kernel-module-stp-4.19.0-xilinx-v2019.1: kernel-4.19.0-xilinx-v2019.1 kernel-module-llc-4.19.0-xilinx-v2019.1
+RPROVIDES_kernel-module-stp-4.19.0-xilinx-v2019.1: kernel-module-stp
+SECTION: kernel
+PKG_kernel-module-stp-4.19.0-xilinx-v2019.1: kernel-module-stp-4.19.0-xilinx-v2019.1
+FILES_kernel-module-stp-4.19.0-xilinx-v2019.1: /lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/stp.ko /etc/modules-load.d/stp.conf /etc/modprobe.d/stp.conf
+pkg_postinst_kernel-module-stp-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-stp-4.19.0-xilinx-v2019.1: #!/bin/sh\nset -e\nif [ -z "$D" ]; then\n\tdepmod -a 4.19.0-xilinx-v2019.1\nelse\n\tdepmodwrapper -a -b $D 4.19.0-xilinx-v2019.1\nfi\n\n
+FILES_INFO: {"/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/stp.ko": 5332}
+PKGSIZE_kernel-module-stp-4.19.0-xilinx-v2019.1: 5332

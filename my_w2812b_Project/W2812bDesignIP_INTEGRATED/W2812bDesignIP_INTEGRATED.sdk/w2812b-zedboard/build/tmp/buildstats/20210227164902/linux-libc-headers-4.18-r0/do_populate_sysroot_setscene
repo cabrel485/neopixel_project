@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444677.32 
+linux-libc-headers-4.18-r0: do_populate_sysroot_setscene
+Elapsed time: 0.30 seconds
+utime: 25
+stime: 4
+cutime: 4
+cstime: 6
+IO wchar: 10573458
+IO syscr: 1192
+IO write_bytes: 7266304
+IO cancelled_write_bytes: 0
+IO read_bytes: 1294336
+IO rchar: 7042796
+IO syscw: 2775
+rusage ru_utime: 0.256751
+rusage ru_stime: 0.040117
+rusage ru_maxrss: 131720
+rusage ru_minflt: 13442
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 664
+rusage ru_nvcsw: 161
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.043955
+Child rusage ru_stime: 0.061581
+Child rusage ru_maxrss: 128580
+Child rusage ru_minflt: 2307
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2528
+Child rusage ru_oublock: 13528
+Child rusage ru_nvcsw: 191
+Child rusage ru_nivcsw: 208
+Status: PASSED 
+Ended: 1614444677.62 

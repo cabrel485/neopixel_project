@@ -1,0 +1,38 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['quilt-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for app.tcl in paths:
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl-2019.1+gitAUTOINC+26c14d9861/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/files/petalinux
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl-2019.1+gitAUTOINC+26c14d9861/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/files/plnx-zynq7
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl-2019.1+gitAUTOINC+26c14d9861/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/files/armv7a
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl-2019.1+gitAUTOINC+26c14d9861/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/files/zynq
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl-2019.1+gitAUTOINC+26c14d9861/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/files/zynq7z
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl-2019.1+gitAUTOINC+26c14d9861/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/files/arm
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/scripts/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl-2019.1+gitAUTOINC+26c14d9861/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl/
+    /home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/files/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

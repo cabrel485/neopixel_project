@@ -1,0 +1,14 @@
+librt.so.1:/lib:2.28
+libdl.so.2:/lib:2.28
+libm.so.6:/lib:2.28
+libBrokenLocale.so.1:/lib:2.28
+libnss_dns.so.2:/lib:2.28
+libanl.so.1:/lib:2.28
+libc.so.6:/lib:2.28
+libnss_files.so.2:/lib:2.28
+libnss_compat.so.2:/lib:2.28
+libutil.so.1:/lib:2.28
+ld-linux-armhf.so.3:/lib:2.28
+libpthread.so.0:/lib:2.28
+libresolv.so.2:/lib:2.28
+libnsl.so.1:/lib:2.28

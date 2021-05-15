@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-crypt: Python basic cryptographic and hashing support
+RDEPENDS_python-crypt: python-core libpython2 (>= 2.7.15) libxcrypt (>= 4.1.1) libcrypto (>= 1.1.1a) glibc (>= 2.28)
+RRECOMMENDS_python-crypt: python-lic openssl
+SECTION: devel/python
+PKG_python-crypt: python-crypt
+FILES_python-crypt:  /usr/lib/python2.7/hashlib.py /usr/lib/python2.7/hashlib.pyc /usr/lib/python2.7/lib-dynload/_hashlib.so /usr/lib/python2.7/lib-dynload/crypt.so /usr/lib/python2.7/md5.py /usr/lib/python2.7/md5.pyc /usr/lib/python2.7/sha.py /usr/lib/python2.7/sha.pyc
+FILES_INFO: {"/usr/lib/python2.7/hashlib.py": 7842, "/usr/lib/python2.7/sha.pyc": 419, "/usr/lib/python2.7/hashlib.pyc": 6891, "/usr/lib/python2.7/lib-dynload/crypt.so": 5740, "/usr/lib/python2.7/sha.py": 393, "/usr/lib/python2.7/md5.pyc": 376, "/usr/lib/python2.7/md5.py": 358, "/usr/lib/python2.7/lib-dynload/_hashlib.so": 15156}
+FILERDEPENDSFLIST_python-crypt: /usr/lib/python2.7/lib-dynload/crypt.so /usr/lib/python2.7/lib-dynload/@underscore@hashlib.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/crypt.so_python-crypt:  libcrypt.so.1(XCRYPT_2.0) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcrypt.so.1 libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@hashlib.so_python-crypt:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcrypto.so.1.1(OPENSSL_1_1_0) libcrypto.so.1.1 libpython2.7.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python-crypt: 37175

@@ -1,0 +1,21 @@
+PN: which
+PV: 2.21
+PR: r3
+PKGV: 2.21
+PKGR: r3
+LICENSE: GPLv3+
+DESCRIPTION: Which is a utility that prints out the full path of the executables that bash(1) would execute when the passed program names would have been entered on the shell prompt. It does this by using the exact same algorithm as bash.
+SUMMARY: Displays the full path of shell commands
+RDEPENDS_which: update-alternatives-opkg glibc (>= 2.28)
+RRECOMMENDS_which: which-lic
+SECTION: libs
+PKG_which: which
+FILES_which: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/which /usr/lib/which/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_which: #!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/which which /usr/bin/which.which 100\n
+pkg_prerm_which: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  which /usr/bin/which.which\n
+FILERPROVIDESFLIST_which:  /usr/bin/which.which
+FILES_INFO: {"/usr/bin/which.which": 18072}
+FILERPROVIDES_/usr/bin/which.which_which:  /usr/bin/which
+FILERDEPENDSFLIST_which: /usr/bin/which.which
+FILERDEPENDS_/usr/bin/which.which_which:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_which: 18072

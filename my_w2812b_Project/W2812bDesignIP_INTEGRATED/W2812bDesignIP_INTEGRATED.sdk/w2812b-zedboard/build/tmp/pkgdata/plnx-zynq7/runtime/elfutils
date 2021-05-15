@@ -1,0 +1,26 @@
+PN: elfutils
+PV: 0.175
+PR: r0
+PKGV: 0.175
+PKGR: r0
+LICENSE: (GPLv3 & Elfutils-Exception)
+DESCRIPTION: Utilities and libraries for handling compiled object files.
+SUMMARY: Utilities and libraries for handling compiled object files
+RDEPENDS_elfutils: libdw (>= 0.175) libstdc++ (>= 8.2.0) libelf (>= 0.175) glibc (>= 2.28)
+RRECOMMENDS_elfutils: elfutils-lic
+SECTION: base
+PKG_elfutils: elfutils
+FILES_elfutils: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/elfutils /usr/lib/elfutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/eu-strings": 13792, "/usr/bin/eu-elfcompress": 22144, "/usr/bin/eu-findtextrel": 13792, "/usr/bin/eu-elflint": 91608, "/usr/bin/eu-stack": 18316, "/usr/bin/eu-make-debug-archive": 2911, "/usr/bin/eu-ranlib": 13756, "/usr/bin/eu-elfcmp": 26072, "/usr/bin/eu-unstrip": 34236, "/usr/bin/eu-ar": 26068}
+FILERDEPENDSFLIST_elfutils: /usr/bin/eu-strings /usr/bin/eu-elfcompress /usr/bin/eu-elfcmp /usr/bin/eu-elflint /usr/bin/eu-stack /usr/bin/eu-make-debug-archive /usr/bin/eu-ranlib /usr/bin/eu-findtextrel /usr/bin/eu-ar /usr/bin/eu-unstrip
+FILERDEPENDS_/usr/bin/eu-strings_elfutils:  ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.4) libelf.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-elfcompress_elfutils:  libdw.so.1(ELFUTILS_0.167) ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.6) libelf.so.1(ELFUTILS_1.7) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.4) libelf.so.1 libdw.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-elfcmp_elfutils:  libdl.so.2(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.6) libelf.so.1(ELFUTILS_1.3) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.4) libelf.so.1 libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-elflint_elfutils:  libdl.so.2(GLIBC_2.4) ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.2) libelf.so.1(ELFUTILS_1.1.1) libelf.so.1(ELFUTILS_1.7) libelf.so.1(ELFUTILS_1.3) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.4) libelf.so.1 libdl.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-stack_elfutils:  libstdc++.so.6(CXXABI_1.3) libelf.so.1(ELFUTILS_1.0) ld-linux-armhf.so.3(GLIBC_2.4) libdw.so.1(ELFUTILS_0.130) libdw.so.1(ELFUTILS_0.138) libdw.so.1(ELFUTILS_0.158) libdw.so.1(ELFUTILS_0.122) libc.so.6(GLIBC_2.4) libelf.so.1 libdw.so.1 libstdc++.so.6 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-make-debug-archive_elfutils:  /bin/sh
+FILERDEPENDS_/usr/bin/eu-ranlib_elfutils:  ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.1.1) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libelf.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-findtextrel_elfutils:  libdw.so.1(ELFUTILS_0.122) ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libelf.so.1(ELFUTILS_1.6) libelf.so.1(ELFUTILS_1.0) libdw.so.1 libelf.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-ar_elfutils:  ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.1.1) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libelf.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/eu-unstrip_elfutils:  libdw.so.1(ELFUTILS_0.138) libdw.so.1(ELFUTILS_0.167) libdw.so.1(ELFUTILS_0.126) libdw.so.1(ELFUTILS_0.122) ld-linux-armhf.so.3(GLIBC_2.4) libelf.so.1(ELFUTILS_1.5) libelf.so.1(ELFUTILS_1.6) libelf.so.1(ELFUTILS_1.0) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libelf.so.1 libdw.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_elfutils: 262695

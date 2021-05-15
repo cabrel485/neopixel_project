@@ -1,0 +1,17 @@
+PN: ptest-runner
+PV: 2.2+gitAUTOINC+49956f65bb
+PR: r0
+PKGV: 2.2+git0+49956f65bb
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: The ptest-runner2 package installs a ptest-runner program which loops through all installed ptest test suites and runs them in sequence.
+SUMMARY: A C program to run all installed ptests
+RDEPENDS_ptest-runner: glibc (>= 2.28)
+RRECOMMENDS_ptest-runner: ptest-runner-lic
+SECTION: base
+PKG_ptest-runner: ptest-runner
+FILES_ptest-runner: /usr/bin/ptest-runner
+FILES_INFO: {"/usr/bin/ptest-runner": 13708}
+FILERDEPENDSFLIST_ptest-runner: /usr/bin/ptest-runner
+FILERDEPENDS_/usr/bin/ptest-runner_ptest-runner:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.9) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_ptest-runner: 13708

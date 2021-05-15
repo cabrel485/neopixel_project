@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-runpy: Python helper for locating/executing scripts in module namespace
+RDEPENDS_python-runpy: python-core python-pkgutil
+RRECOMMENDS_python-runpy: python-lic
+SECTION: devel/python
+PKG_python-runpy: python-runpy
+FILES_python-runpy:  /usr/lib/python2.7/runpy.py /usr/lib/python2.7/runpy.pyc
+FILES_INFO: {"/usr/lib/python2.7/runpy.pyc": 8763, "/usr/lib/python2.7/runpy.py": 11081}
+PKGSIZE_python-runpy: 19844

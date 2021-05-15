@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-nflog: iptables module xt-nflog
+SUMMARY_iptables-module-xt-nflog: iptables module xt-nflog
+RDEPENDS_iptables-module-xt-nflog: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-nflog: iptables-module-xt-nflog
+FILES_iptables-module-xt-nflog: /usr/lib/xtables/libxt_NFLOG.so
+FILERPROVIDESFLIST_iptables-module-xt-nflog: /usr/lib/xtables/libxt@underscore@NFLOG.so
+FILES_INFO: {"/usr/lib/xtables/libxt_NFLOG.so": 5512}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@NFLOG.so_iptables-module-xt-nflog:  libxt_NFLOG.so
+FILERDEPENDSFLIST_iptables-module-xt-nflog: /usr/lib/xtables/libxt@underscore@NFLOG.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@NFLOG.so_iptables-module-xt-nflog:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-nflog: 5512

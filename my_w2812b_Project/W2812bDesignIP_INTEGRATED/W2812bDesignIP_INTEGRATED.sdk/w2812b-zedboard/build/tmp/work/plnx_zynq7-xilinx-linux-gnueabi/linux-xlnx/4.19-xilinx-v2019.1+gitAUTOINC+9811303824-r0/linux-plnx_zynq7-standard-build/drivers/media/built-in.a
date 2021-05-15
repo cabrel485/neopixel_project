@@ -1,0 +1,67 @@
+!<thin>
+//                                              876       `
+i2c/adv7604.o/
+media-device.o/
+media-devnode.o/
+media-entity.o/
+v4l2-core/v4l2-fwnode.o/
+v4l2-core/v4l2-dev.o/
+v4l2-core/v4l2-ioctl.o/
+v4l2-core/v4l2-device.o/
+v4l2-core/v4l2-fh.o/
+v4l2-core/v4l2-event.o/
+v4l2-core/v4l2-ctrls.o/
+v4l2-core/v4l2-subdev.o/
+v4l2-core/v4l2-clk.o/
+v4l2-core/v4l2-async.o/
+v4l2-core/v4l2-mc.o/
+v4l2-core/v4l2-common.o/
+v4l2-core/v4l2-dv-timings.o/
+common/videobuf2/videobuf2-core.o/
+common/videobuf2/videobuf2-v4l2.o/
+common/videobuf2/videobuf2-memops.o/
+common/videobuf2/videobuf2-dma-contig.o/
+platform/xilinx/xilinx-dma.o/
+platform/xilinx/xilinx-vip.o/
+platform/xilinx/xilinx-vipp.o/
+platform/xilinx/xilinx-cfa.o/
+platform/xilinx/xilinx-cresample.o/
+platform/xilinx/xilinx-remapper.o/
+platform/xilinx/xilinx-rgb2yuv.o/
+platform/xilinx/xilinx-scaler.o/
+platform/xilinx/xilinx-switch.o/
+platform/xilinx/xilinx-tpg.o/
+platform/xilinx/xilinx-vtc.o/
+
+/0              0           0     0     644     51052     `
+/15             0           0     0     644     15184     `
+/31            /0           0     0     644     6168      `
+/48             0           0     0     644     23312     `
+/64             0           0     0     644     13544     `
+/89             0           0     0     644     21280     `
+/111            0           0     0     644     58888     `
+/135            0           0     0     644     8492      `
+/160            0           0     0     644     6036      `
+/181            0           0     0     644     10380     `
+/205            0           0     0     644     75552     `
+/229            0           0     0     644     11304     `
+/254            0           0     0     644     9812      `
+/276            0           0     0     644     9388      `
+/300            0           0     0     644     6820      `
+/321            0           0     0     644     11744     `
+/346            0           0     0     644     28884     `
+/375            0           0     0     644     39892     `
+/410            0           0     0     644     25800     `
+/445            0           0     0     644     3396      `
+/482            0           0     0     644     11984     `
+/523            0           0     0     644     14348     `
+/553            0           0     0     644     13468     `
+/583            0           0     0     644     9328      `
+/614            0           0     0     644     7232      `
+/644            0           0     0     644     8244      `
+/680            0           0     0     644     7268      `
+/715            0           0     0     644     10144     `
+/749           /0           0     0     644     9216      `
+/782           /0           0     0     644     7088      `
+/815            0           0     0     644     16852     `
+/845            0           0     0     644     7584      `

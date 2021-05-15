@@ -1,0 +1,7 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kern-tools/kern-tools-native_git.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['quilt-native', 'kern-tools-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_patch
+DEBUG: Shell function do_patch finished

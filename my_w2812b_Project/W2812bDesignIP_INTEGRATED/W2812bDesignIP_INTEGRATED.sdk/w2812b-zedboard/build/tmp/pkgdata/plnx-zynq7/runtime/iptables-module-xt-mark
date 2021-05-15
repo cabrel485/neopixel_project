@@ -1,0 +1,20 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-mark: iptables module xt-mark
+SUMMARY_iptables-module-xt-mark: iptables module xt-mark
+RDEPENDS_iptables-module-xt-mark: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-mark: iptables-module-xt-mark
+FILES_iptables-module-xt-mark: /usr/lib/xtables/libxt_MARK.so /usr/lib/xtables/libxt_mark.so
+FILERPROVIDESFLIST_iptables-module-xt-mark: /usr/lib/xtables/libxt@underscore@MARK.so /usr/lib/xtables/libxt@underscore@mark.so
+FILES_INFO: {"/usr/lib/xtables/libxt_mark.so": 5608, "/usr/lib/xtables/libxt_MARK.so": 9816}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@MARK.so_iptables-module-xt-mark:  libxt_MARK.so
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@mark.so_iptables-module-xt-mark:  libxt_mark.so
+FILERDEPENDSFLIST_iptables-module-xt-mark: /usr/lib/xtables/libxt@underscore@MARK.so /usr/lib/xtables/libxt@underscore@mark.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@MARK.so_iptables-module-xt-mark:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@mark.so_iptables-module-xt-mark:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-mark: 15424

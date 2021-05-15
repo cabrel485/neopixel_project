@@ -1,0 +1,15 @@
+PN: dbus-test
+PV: 1.12.10
+PR: r0
+PKGV: 1.12.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-test-dev: D-Bus test package (for D-bus functionality testing only).  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dbus-test-dev: D-Bus test package (for D-bus functionality testing only) - Development files
+RRECOMMENDS_dbus-test-dev: dbus-dev dbus-test-lic glib-2.0-dev libsm-dev bash-dev expat-dev glibc-dev make-dev
+SECTION_dbus-test-dev: devel
+PKG_dbus-test-dev: dbus-test-dev
+ALLOW_EMPTY_dbus-test-dev: 1
+FILES_dbus-test-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dbus-test/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {}
+PKGSIZE_dbus-test-dev: 0

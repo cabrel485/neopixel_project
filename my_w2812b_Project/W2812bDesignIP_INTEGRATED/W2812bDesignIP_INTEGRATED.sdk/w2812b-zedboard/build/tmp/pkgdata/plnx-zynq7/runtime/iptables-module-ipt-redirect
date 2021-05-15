@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-redirect: iptables module ipt-redirect
+SUMMARY_iptables-module-ipt-redirect: iptables module ipt-redirect
+RDEPENDS_iptables-module-ipt-redirect: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-redirect: iptables-module-ipt-redirect
+FILES_iptables-module-ipt-redirect: /usr/lib/xtables/libipt_REDIRECT.so
+FILERPROVIDESFLIST_iptables-module-ipt-redirect: /usr/lib/xtables/libipt@underscore@REDIRECT.so
+FILES_INFO: {"/usr/lib/xtables/libipt_REDIRECT.so": 5516}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@REDIRECT.so_iptables-module-ipt-redirect:  libipt_REDIRECT.so
+FILERDEPENDSFLIST_iptables-module-ipt-redirect: /usr/lib/xtables/libipt@underscore@REDIRECT.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@REDIRECT.so_iptables-module-ipt-redirect:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-redirect: 5516

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444751.45 
+device-tree-xilinx+gitAUTOINC+73e546e312-r0: do_compile
+Elapsed time: 0.11 seconds
+utime: 17
+stime: 4
+cutime: 0
+cstime: 0
+IO wchar: 60914
+IO syscr: 583
+IO write_bytes: 53248
+IO cancelled_write_bytes: 0
+IO read_bytes: 4214784
+IO rchar: 4080683
+IO syscw: 88
+rusage ru_utime: 0.177945
+rusage ru_stime: 0.041645999999999996
+rusage ru_maxrss: 131928
+rusage ru_minflt: 5701
+rusage ru_majflt: 0
+rusage ru_inblock: 7792
+rusage ru_oublock: 40
+rusage ru_nvcsw: 27
+rusage ru_nivcsw: 302
+Child rusage ru_utime: 0.005958
+Child rusage ru_stime: 0.00616
+Child rusage ru_maxrss: 128092
+Child rusage ru_minflt: 725
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 440
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1614444751.56 

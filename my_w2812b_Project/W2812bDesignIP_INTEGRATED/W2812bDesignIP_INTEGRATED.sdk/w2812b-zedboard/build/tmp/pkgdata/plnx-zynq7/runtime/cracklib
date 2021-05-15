@@ -1,0 +1,25 @@
+PN: cracklib
+PV: 2.9.5
+PR: r0
+PKGV: 2.9.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Password strength checker library.
+SUMMARY: Password strength checker library
+RDEPENDS_cracklib: zlib (>= 1.2.11) glibc (>= 2.28)
+RRECOMMENDS_cracklib: cracklib-lic
+SECTION: base
+PKG_cracklib: cracklib
+FILES_cracklib: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/cracklib /usr/lib/cracklib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_cracklib: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_cracklib: /lib/libcrack.so.2.9.0
+FILES_INFO: {"/usr/share/cracklib/cracklib-small": 477238, "/usr/share/cracklib/pw_dict.hwm": 1024, "/usr/sbin/cracklib-check": 5516, "/usr/sbin/cracklib-format": 218, "/usr/share/cracklib/pw_dict.pwi": 12424, "/lib/libcrack.so.2.9.0": 29988, "/usr/sbin/cracklib-packer": 5516, "/usr/sbin/create-cracklib-dict": 990, "/usr/sbin/cracklib-unpacker": 5520, "/lib/libcrack.so.2": 17, "/usr/share/cracklib/cracklib.magic": 360, "/usr/share/cracklib/pw_dict.pwd": 235429}
+FILERPROVIDES_/lib/libcrack.so.2.9.0_cracklib:  libcrack.so.2
+FILERDEPENDSFLIST_cracklib: /lib/libcrack.so.2.9.0 /usr/sbin/cracklib-packer /usr/sbin/create-cracklib-dict /usr/sbin/cracklib-unpacker /usr/sbin/cracklib-check /usr/sbin/cracklib-format
+FILERDEPENDS_/lib/libcrack.so.2.9.0_cracklib:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libz.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/cracklib-packer_cracklib:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcrack.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/create-cracklib-dict_cracklib:  /bin/sh
+FILERDEPENDS_/usr/sbin/cracklib-unpacker_cracklib:  libc.so.6(GLIBC_2.4) libcrack.so.2 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/cracklib-check_cracklib:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libcrack.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/cracklib-format_cracklib:  /bin/sh
+PKGSIZE_cracklib: 774240

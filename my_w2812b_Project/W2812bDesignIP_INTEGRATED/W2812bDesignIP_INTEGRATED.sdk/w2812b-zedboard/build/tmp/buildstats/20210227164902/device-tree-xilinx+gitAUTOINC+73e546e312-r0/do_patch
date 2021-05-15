@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444713.82 
+device-tree-xilinx+gitAUTOINC+73e546e312-r0: do_patch
+Elapsed time: 0.02 seconds
+utime: 14
+stime: 1
+cutime: 0
+cstime: 0
+IO wchar: 133558
+IO syscr: 44
+IO write_bytes: 94208
+IO cancelled_write_bytes: 4096
+IO read_bytes: 0
+IO rchar: 105138
+IO syscw: 56
+rusage ru_utime: 0.141198
+rusage ru_stime: 0.012296999999999999
+rusage ru_maxrss: 131900
+rusage ru_minflt: 4798
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 37
+Child rusage ru_utime: 0.0
+Child rusage ru_stime: 0.0028669999999999998
+Child rusage ru_maxrss: 128052
+Child rusage ru_minflt: 91
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 1
+Child rusage ru_nivcsw: 1
+Status: PASSED 
+Ended: 1614444713.85 

@@ -1,0 +1,15 @@
+PN: shared-mime-info
+PV: 1.10
+PR: r0
+PKGV: 1.10
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Shared MIME type database and specification.
+SUMMARY: Shared MIME type database and specification
+RDEPENDS_shared-mime-info-data: shared-mime-info
+RRECOMMENDS_shared-mime-info-data: shared-mime-info-lic
+SECTION: base
+PKG_shared-mime-info-data: shared-mime-info-data
+FILES_shared-mime-info-data: /usr/share/mime/packages/freedesktop.org.xml
+FILES_INFO: {"/usr/share/mime/packages/freedesktop.org.xml": 2280389}
+PKGSIZE_shared-mime-info-data: 2280389

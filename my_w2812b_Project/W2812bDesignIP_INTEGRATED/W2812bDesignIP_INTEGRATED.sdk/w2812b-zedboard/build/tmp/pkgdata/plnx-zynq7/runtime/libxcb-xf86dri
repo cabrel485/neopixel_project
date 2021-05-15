@@ -1,0 +1,20 @@
+PN: libxcb
+PV: 1.13
+PR: r0
+PKGV: 1.13
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libxcb-xf86dri: XCB library module for xf86dri
+SUMMARY_libxcb-xf86dri: XCB library module for xf86dri
+RDEPENDS_libxcb-xf86dri: libxcb (>= 1.13) libxau (>= 1.0.8) libxdmcp (>= 1.1.2) glibc (>= 2.28)
+RPROVIDES_libxcb-xf86dri:  libxcb-xf86dri (=1.13)
+SECTION: x11/libs
+PKG_libxcb-xf86dri: libxcb-xf86dri0
+FILES_libxcb-xf86dri: /usr/lib/libxcb-xf86dri.so.0 /usr/lib/libxcb-xf86dri.so.0.0.0
+pkg_postinst_libxcb-xf86dri: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libxcb-xf86dri: /usr/lib/libxcb-xf86dri.so.0.0.0
+FILES_INFO: {"/usr/lib/libxcb-xf86dri.so.0": 23, "/usr/lib/libxcb-xf86dri.so.0.0.0": 9520}
+FILERPROVIDES_/usr/lib/libxcb-xf86dri.so.0.0.0_libxcb-xf86dri:  libxcb-xf86dri.so.0
+FILERDEPENDSFLIST_libxcb-xf86dri: /usr/lib/libxcb-xf86dri.so.0.0.0
+FILERDEPENDS_/usr/lib/libxcb-xf86dri.so.0.0.0_libxcb-xf86dri:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxcb.so.1 libXau.so.6 libXdmcp.so.6 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_libxcb-xf86dri: 9543

@@ -1,0 +1,243 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/xz/xz_5.2.4.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/rpm/rpm_4.14.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/dtc/dtc_1.4.7.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-bsp/u-boot/u-boot-mkimage_2018.07.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/kmod-native_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/bison/bison_3.0.4.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/gcc/gcc-cross_8.2.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/binutils/binutils-cross_2.31.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kern-tools/kern-tools-native_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-support/lzop/lzop_1.03.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/dwarfsrcfiles/dwarfsrcfiles.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/bc/bc_1.07.1.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['rpm-native', 'dwarfsrcfiles-native', 'dbus-native', 'nss-native', 'libarchive-native', 'db-native', 'elfutils-native', 'popt-native', 'file-native', 'expat-native', 'nspr-native', 'e2fsprogs-native', 'attr-native', 'util-linux-native']
+NOTE: Skipping as already exists in sysroot: ['xz-native', 'dtc-native', 'u-boot-mkimage-native', 'kmod-native', 'device-tree', 'bison-native', 'gcc-cross-arm', 'quilt-native', 'binutils-cross-arm', 'pseudo-native', 'kern-tools-native', 'lzop-native', 'bc-native', 'libtool-native', 'gettext-minimal-native', 'automake-native', 'gnu-config-native', 'autoconf-native', 'flex-native', 'linux-libc-headers', 'zlib-native', 'texinfo-dummy-native', 'glibc', 'libmpc-native', 'mpfr-native', 'gmp-native', 'lzo-native', 'readline-native', 'pkgconfig-native', 'python3-native', 'bzip2-native', 'openssl-native', 'gtk-doc-native', 'm4-native', 'ncurses-native', 'sqlite3-native', 'gdbm-native', 'gcc-runtime', 'libgcc']
+DEBUG: sed -e 's:^[^/]*/:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native/:g' /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/rpm-native/fixmepath /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/dbus-native/fixmepath /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/elfutils-native/fixmepath /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/nspr-native/fixmepath /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/e2fsprogs-native/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/pkgdata/plnx-zynq7:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/temp/fifo.4861:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package
+DEBUG: Executing python function package_get_auto_pr
+DEBUG: Python function package_get_auto_pr finished
+DEBUG: Executing python function perform_packagecopy
+DEBUG: We need to use a SPDXLICENSEMAP for GPLv2
+DEBUG: Python function perform_packagecopy finished
+DEBUG: Executing python function split_and_strip_files
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/jitterentropy_rng.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/hmac.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/crypto_engine.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/sha256_generic.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/echainiv.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/crypto/drbg.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/psnap.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/stp.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/802/p8022.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/bridge/bridge.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/ipv4/ipip.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/8021q/8021q.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/net/llc/llc.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/rpmsg_core.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/rpmsg_char.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/rpmsg/virtio_rpmsg_bus.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/virtio/virtio.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/virtio/virtio_ring.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/crypto/virtio/virtio_crypto.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/uio/uio_pdrv_genirq.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/legacy/g_zero.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/function/usb_f_mass_storage.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/function/usb_f_ss_lb.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/usb/gadget/libcomposite.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/zynq_remoteproc.ko']
+DEBUG: runstrip: ['arm-xilinx-linux-gnueabi-strip', '--strip-debug', '--remove-section=.comment', '--remove-section=.note', '--preserve-dates', '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/package/lib/modules/4.19.0-xilinx-v2019.1/kernel/drivers/remoteproc/remoteproc.ko']
+DEBUG: Python function split_and_strip_files finished
+DEBUG: Executing python function fixup_perms
+DEBUG: Python function fixup_perms finished
+DEBUG: Executing python function split_kernel_packages
+DEBUG: Python function split_kernel_packages finished
+DEBUG: Executing python function split_kernel_module_packages
+DEBUG: Python function split_kernel_module_packages finished
+DEBUG: Executing python function package_do_split_locales
+DEBUG: No locale files in this package
+DEBUG: Python function package_do_split_locales finished
+DEBUG: Executing python function populate_packages
+DEBUG: Python function populate_packages finished
+DEBUG: Executing python function package_fixsymlinks
+DEBUG: kernel-image-vmlinux contains dangling link /boot/vmlinux-4.19.0-xilinx-v2019.1
+DEBUG: target found in kernel-vmlinux
+DEBUG: Python function package_fixsymlinks finished
+DEBUG: Executing python function package_name_hook
+DEBUG: Executing python function debian_package_name_hook
+DEBUG: LIBNAMES: pkg linux-xlnx-lic libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-vmlinux libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-modules libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-virtio-ring-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-virtio-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-stp-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-sha256-generic-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-remoteproc-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-psnap-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-p8022-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-llc-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-libcomposite-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-ipip-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-hmac-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-g-zero-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-echainiv-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-drbg-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-crypto-engine-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-bridge-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-module-8021q-4.19.0-xilinx-v2019.1 libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-image-zimage libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-image-vmlinux libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-image-uimage libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-image-fitimage libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-image libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-devicetree libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-dev libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel-base libs 0 bins 0 sonames []
+DEBUG: LIBNAMES: pkg kernel libs 0 bins 0 sonames []
+DEBUG: Python function debian_package_name_hook finished
+DEBUG: Python function package_name_hook finished
+DEBUG: Executing python function package_do_filedeps
+DEBUG: Python function package_do_filedeps finished
+DEBUG: Executing python function package_do_shlibs
+DEBUG: Reading shlib providers in /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/pkgdata/plnx-zynq7/shlibs2
+DEBUG: calculating shlib provides for linux-xlnx-lic
+DEBUG: LIBNAMES: pkg linux-xlnx-lic sonames set()
+DEBUG: calculating shlib provides for kernel
+DEBUG: LIBNAMES: pkg kernel sonames set()
+DEBUG: calculating shlib provides for kernel-base
+DEBUG: LIBNAMES: pkg kernel-base sonames set()
+DEBUG: calculating shlib provides for kernel-vmlinux
+DEBUG: LIBNAMES: pkg kernel-vmlinux sonames set()
+DEBUG: calculating shlib provides for kernel-image
+DEBUG: LIBNAMES: pkg kernel-image sonames set()
+DEBUG: calculating shlib provides for kernel-dev
+DEBUG: LIBNAMES: pkg kernel-dev sonames set()
+DEBUG: calculating shlib provides for kernel-modules
+DEBUG: LIBNAMES: pkg kernel-modules sonames set()
+DEBUG: calculating shlib provides for kernel-devicetree
+DEBUG: LIBNAMES: pkg kernel-devicetree sonames set()
+DEBUG: calculating shlib provides for kernel-image-uimage
+DEBUG: LIBNAMES: pkg kernel-image-uimage sonames set()
+DEBUG: calculating shlib provides for kernel-image-fitimage
+DEBUG: LIBNAMES: pkg kernel-image-fitimage sonames set()
+DEBUG: calculating shlib provides for kernel-image-vmlinux
+DEBUG: LIBNAMES: pkg kernel-image-vmlinux sonames set()
+DEBUG: calculating shlib provides for kernel-image-zimage
+DEBUG: LIBNAMES: pkg kernel-image-zimage sonames set()
+DEBUG: calculating shlib provides for kernel-module-crypto-engine-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-crypto-engine-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-drbg-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-drbg-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-echainiv-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-echainiv-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-hmac-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-hmac-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-sha256-generic-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-sha256-generic-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-remoteproc-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-remoteproc-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-g-zero-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-g-zero-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-libcomposite-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-virtio-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-virtio-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-virtio-ring-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-p8022-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-p8022-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-psnap-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-psnap-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-stp-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-stp-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-8021q-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-8021q-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-bridge-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-bridge-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-ipip-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-ipip-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib provides for kernel-module-llc-4.19.0-xilinx-v2019.1
+DEBUG: LIBNAMES: pkg kernel-module-llc-4.19.0-xilinx-v2019.1 sonames set()
+DEBUG: calculating shlib requirements for linux-xlnx-lic
+DEBUG: calculating shlib requirements for kernel
+DEBUG: calculating shlib requirements for kernel-base
+DEBUG: calculating shlib requirements for kernel-vmlinux
+DEBUG: calculating shlib requirements for kernel-image
+DEBUG: calculating shlib requirements for kernel-dev
+DEBUG: calculating shlib requirements for kernel-modules
+DEBUG: calculating shlib requirements for kernel-devicetree
+DEBUG: calculating shlib requirements for kernel-image-uimage
+DEBUG: calculating shlib requirements for kernel-image-fitimage
+DEBUG: calculating shlib requirements for kernel-image-vmlinux
+DEBUG: calculating shlib requirements for kernel-image-zimage
+DEBUG: calculating shlib requirements for kernel-module-crypto-engine-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-drbg-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-echainiv-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-hmac-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-sha256-generic-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-remoteproc-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-g-zero-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-libcomposite-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-virtio-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-virtio-ring-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-p8022-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-psnap-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-stp-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-8021q-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-bridge-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-ipip-4.19.0-xilinx-v2019.1
+DEBUG: calculating shlib requirements for kernel-module-llc-4.19.0-xilinx-v2019.1
+DEBUG: Python function package_do_shlibs finished
+DEBUG: Executing python function package_do_pkgconfig
+DEBUG: Python function package_do_pkgconfig finished
+DEBUG: Executing python function read_shlibdeps
+DEBUG: Python function read_shlibdeps finished
+DEBUG: Executing python function package_depchains
+DEBUG: Python function package_depchains finished
+DEBUG: Executing python function emit_pkgdata
+DEBUG: Python function emit_pkgdata finished
+DEBUG: Executing shell function emit_depmod_pkgdata
+DEBUG: Shell function emit_depmod_pkgdata finished
+DEBUG: Python function do_package finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 0o002 (not 22) for sstate packaging
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-package/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools' | tee /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/sstate-build-package/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/linux-xlnx/4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function sstate_task_postfunc finished

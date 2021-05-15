@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-xmlrpc: Python XML-RPC support
+RDEPENDS_python3-xmlrpc: python3-core python3-xml
+RRECOMMENDS_python3-xmlrpc: python3-lic
+SECTION: devel/python
+PKG_python3-xmlrpc: python3-xmlrpc
+FILES_python3-xmlrpc:  /usr/lib/python3.5/xmlrpc /usr/lib/python3.5/xmlrpc/__pycache__
+FILES_INFO: {"/usr/lib/python3.5/xmlrpc/__pycache__/__init__.cpython-35.pyc": 113, "/usr/lib/python3.5/xmlrpc/__pycache__/client.cpython-35.opt-2.pyc": 31147, "/usr/lib/python3.5/xmlrpc/__pycache__/client.cpython-35.pyc": 36781, "/usr/lib/python3.5/xmlrpc/__pycache__/server.cpython-35.opt-1.pyc": 31133, "/usr/lib/python3.5/xmlrpc/__pycache__/__init__.cpython-35.opt-1.pyc": 113, "/usr/lib/python3.5/xmlrpc/__pycache__/server.cpython-35.pyc": 31236, "/usr/lib/python3.5/xmlrpc/client.py": 48298, "/usr/lib/python3.5/xmlrpc/__pycache__/__init__.cpython-35.opt-2.pyc": 113, "/usr/lib/python3.5/xmlrpc/__init__.py": 38, "/usr/lib/python3.5/xmlrpc/server.py": 36701, "/usr/lib/python3.5/xmlrpc/__pycache__/server.cpython-35.opt-2.pyc": 19976, "/usr/lib/python3.5/xmlrpc/__pycache__/client.cpython-35.opt-1.pyc": 36615}
+PKGSIZE_python3-xmlrpc: 272264

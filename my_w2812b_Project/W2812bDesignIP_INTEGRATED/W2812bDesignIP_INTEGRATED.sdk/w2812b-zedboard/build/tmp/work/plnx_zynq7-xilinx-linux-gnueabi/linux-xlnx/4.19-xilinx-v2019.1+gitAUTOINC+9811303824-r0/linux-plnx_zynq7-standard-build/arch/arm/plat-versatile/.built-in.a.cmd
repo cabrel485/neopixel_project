@@ -1,0 +1,1 @@
+cmd_arch/arm/plat-versatile/built-in.a := rm -f arch/arm/plat-versatile/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD arch/arm/plat-versatile/built-in.a arch/arm/plat-versatile/headsmp.o arch/arm/plat-versatile/platsmp.o

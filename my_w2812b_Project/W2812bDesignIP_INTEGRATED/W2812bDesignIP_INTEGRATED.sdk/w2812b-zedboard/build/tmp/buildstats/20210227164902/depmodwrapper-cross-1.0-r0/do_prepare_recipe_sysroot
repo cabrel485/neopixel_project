@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444794.94 
+depmodwrapper-cross-1.0-r0: do_prepare_recipe_sysroot
+Elapsed time: 0.38 seconds
+utime: 20
+stime: 10
+cutime: 3
+cstime: 6
+IO wchar: 1584280
+IO syscr: 838
+IO write_bytes: 1687552
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 3901105
+IO syscw: 48419
+rusage ru_utime: 0.20948599999999998
+rusage ru_stime: 0.108772
+rusage ru_maxrss: 138276
+rusage ru_minflt: 8218
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.038231
+Child rusage ru_stime: 0.064098
+Child rusage ru_maxrss: 134552
+Child rusage ru_minflt: 780
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 3168
+Child rusage ru_nvcsw: 8
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1614444795.32 

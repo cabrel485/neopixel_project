@@ -1,0 +1,14 @@
+PN: sed
+PV: 4.2.2
+PR: r0
+PKGV: 4.2.2
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION_sed-doc: Stream EDitor (text filtering utility).  This package contains documentation.
+SUMMARY_sed-doc: Stream EDitor (text filtering utility) - Documentation files
+RRECOMMENDS_sed-doc: sed-lic
+SECTION_sed-doc: doc
+PKG_sed-doc: sed-doc
+FILES_sed-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/sed.info": 100872, "/usr/share/man/man1/sed.1": 9881}
+PKGSIZE_sed-doc: 110753

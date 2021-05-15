@@ -1,0 +1,31 @@
+[INFO] building project
+[INFO] sourcing bitbake
+SDK environment now set up; additionally you may now run devtool to perform development tasks.
+Run devtool --help for further details.
+
+### Shell environment set up for builds. ###
+
+You can now run 'bitbake <target>'
+
+Common targets are:
+    core-image-minimal
+    core-image-sato
+    meta-toolchain
+    meta-ide-support
+
+You can also run generated qemu images with a command like 'runqemu qemux86'
+NOTE: Starting bitbake server...
+[INFO] generating user layers
+NOTE: Starting bitbake server...
+NOTE: Resolving any missing task queue dependencies
+Sstate summary: Wanted 111 Found 12 Missed 198 Current 724 (10% match, 88% complete)
+NOTE: Executing SetScene Tasks
+NOTE: Running setscene task 825 of 837 (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-bsp/fsbl/fsbl_git.bb:do_package_write_rpm_setscene)
+NOTE: Running setscene task 826 of 837 (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/u-boot/u-boot-xlnx_2019.1.bb:do_package_write_rpm_setscene)
+NOTE: recipe fsbl-2019.1+gitAUTOINC+26c14d9861-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe fsbl-2019.1+gitAUTOINC+26c14d9861-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe u-boot-xlnx-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Executing RunQueue Tasks
+NOTE: Tasks Summary: Attempted 2532 tasks of which 2532 didn't need to be rerun and all succeeded.
+[INFO] successfully built project

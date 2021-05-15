@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444629.48 
+python3-cython-native-0.28.5-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 22
+stime: 6
+cutime: 1
+cstime: 0
+IO wchar: 187211
+IO syscr: 199
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 274239
+IO syscw: 141
+rusage ru_utime: 0.22444999999999998
+rusage ru_stime: 0.06412799999999999
+rusage ru_maxrss: 131448
+rusage ru_minflt: 13300
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 45
+Child rusage ru_utime: 0.019856
+Child rusage ru_stime: 0.009412
+Child rusage ru_maxrss: 128664
+Child rusage ru_minflt: 2256
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1614444629.59 

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-aa-er: binary locale definition for aa-er
+SUMMARY_glibc-binary-localedata-aa-er: binary locale definition for aa-er
+SECTION: base
+PKG_glibc-binary-localedata-aa-er: glibc-binary-localedata-aa-er
+FILES_glibc-binary-localedata-aa-er: /usr/lib/locale/aa_ER
+FILES_INFO: {"/usr/lib/locale/aa_ER/LC_CTYPE": 348812, "/usr/lib/locale/aa_ER/LC_COLLATE": 2586242, "/usr/lib/locale/aa_ER/LC_MESSAGES/SYS_LC_MESSAGES": 64, "/usr/lib/locale/aa_ER/LC_ADDRESS": 128, "/usr/lib/locale/aa_ER/LC_IDENTIFICATION": 382, "/usr/lib/locale/aa_ER/LC_NAME": 84, "/usr/lib/locale/aa_ER/LC_MEASUREMENT": 23, "/usr/lib/locale/aa_ER/LC_MONETARY": 294, "/usr/lib/locale/aa_ER/LC_TIME": 3744, "/usr/lib/locale/aa_ER/LC_NUMERIC": 54, "/usr/lib/locale/aa_ER/LC_TELEPHONE": 57, "/usr/lib/locale/aa_ER/LC_PAPER": 34}
+PKGSIZE_glibc-binary-localedata-aa-er: 2939918

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-gez-et+abegede: binary locale definition for gez-et+abegede
+SUMMARY_glibc-binary-localedata-gez-et+abegede: binary locale definition for gez-et+abegede
+SECTION: base
+PKG_glibc-binary-localedata-gez-et+abegede: glibc-binary-localedata-gez-et+abegede
+FILES_glibc-binary-localedata-gez-et+abegede: /usr/lib/locale/gez_ET@abegede
+FILES_INFO: {"/usr/lib/locale/gez_ET@abegede/LC_TIME": 3468, "/usr/lib/locale/gez_ET@abegede/LC_CTYPE": 348812, "/usr/lib/locale/gez_ET@abegede/LC_MEASUREMENT": 23, "/usr/lib/locale/gez_ET@abegede/LC_NUMERIC": 54, "/usr/lib/locale/gez_ET@abegede/LC_ADDRESS": 138, "/usr/lib/locale/gez_ET@abegede/LC_TELEPHONE": 56, "/usr/lib/locale/gez_ET@abegede/LC_IDENTIFICATION": 385, "/usr/lib/locale/gez_ET@abegede/LC_COLLATE": 2586766, "/usr/lib/locale/gez_ET@abegede/LC_PAPER": 34, "/usr/lib/locale/gez_ET@abegede/LC_MESSAGES/SYS_LC_MESSAGES": 73, "/usr/lib/locale/gez_ET@abegede/LC_NAME": 95, "/usr/lib/locale/gez_ET@abegede/LC_MONETARY": 290}
+PKGSIZE_glibc-binary-localedata-gez-et+abegede: 2940194

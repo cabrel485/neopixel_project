@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444593.46 
+cracklib-native-2.9.5-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 25
+stime: 6
+cutime: 1
+cstime: 1
+IO wchar: 246674
+IO syscr: 190
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 289245
+IO syscw: 143
+rusage ru_utime: 0.250765
+rusage ru_stime: 0.062691
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13374
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 101
+Child rusage ru_utime: 0.013828
+Child rusage ru_stime: 0.017997
+Child rusage ru_maxrss: 128708
+Child rusage ru_minflt: 2291
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 120
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1614444593.57 

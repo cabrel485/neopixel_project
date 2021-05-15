@@ -1,0 +1,17 @@
+PN: util-linux
+PV: 2.32.1
+PR: r0
+PKGV: 2.32.1
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-lsblk: glibc (>= 2.28) util-linux-libblkid (>= 2.32.1) util-linux-libsmartcols (>= 2.32.1) util-linux-libmount (>= 2.32.1)
+RRECOMMENDS_util-linux-lsblk: util-linux-lic
+SECTION: base
+PKG_util-linux-lsblk: util-linux-lsblk
+FILES_util-linux-lsblk: /usr/bin/lsblk
+FILES_INFO: {"/usr/bin/lsblk": 54716}
+FILERDEPENDSFLIST_util-linux-lsblk: /usr/bin/lsblk
+FILERDEPENDS_/usr/bin/lsblk_util-linux-lsblk:  ld-linux-armhf.so.3(GLIBC_2.4) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.15) libsmartcols.so.1(SMARTCOLS_2.30) libsmartcols.so.1(SMARTCOLS_2.27) libsmartcols.so.1(SMARTCOLS_2.25) libc.so.6(GLIBC_2.28) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.24) libmount.so.1(MOUNT_2.19) libblkid.so.1 libmount.so.1 libsmartcols.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_util-linux-lsblk: 54716

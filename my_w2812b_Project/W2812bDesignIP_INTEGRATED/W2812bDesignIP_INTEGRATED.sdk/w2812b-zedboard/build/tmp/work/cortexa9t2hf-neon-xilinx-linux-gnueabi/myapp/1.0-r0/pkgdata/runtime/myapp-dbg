@@ -1,0 +1,15 @@
+PN: myapp
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_myapp-dbg: Simple myapp application.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_myapp-dbg: Simple myapp application - Debugging files
+RRECOMMENDS_myapp-dbg: myapp-lic glibc-dbg
+SECTION_myapp-dbg: devel
+PKG_myapp-dbg: myapp-dbg
+ALLOW_EMPTY_myapp-dbg: 1
+FILES_myapp-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/myapp/1.0-r0/myapp.c": 11806, "/usr/bin/.debug/myapp": 38192, "/usr/src/debug/myapp/1.0-r0/led.c": 3794, "/usr/src/debug/myapp/1.0-r0/led.h": 1077}
+PKGSIZE_myapp-dbg: 54869

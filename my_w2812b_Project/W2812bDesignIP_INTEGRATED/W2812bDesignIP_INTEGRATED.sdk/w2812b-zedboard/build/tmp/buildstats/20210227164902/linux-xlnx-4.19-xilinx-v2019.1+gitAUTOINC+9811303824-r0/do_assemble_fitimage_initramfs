@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445506.17 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_assemble_fitimage_initramfs
+Elapsed time: 0.77 seconds
+utime: 79
+stime: 10
+cutime: 7
+cstime: 8
+IO wchar: 26275517
+IO syscr: 3415
+IO write_bytes: 37257216
+IO cancelled_write_bytes: 10944512
+IO read_bytes: 724992
+IO rchar: 16852003
+IO syscw: 4772
+rusage ru_utime: 0.794503
+rusage ru_stime: 0.105652
+rusage ru_maxrss: 138140
+rusage ru_minflt: 19136
+rusage ru_majflt: 0
+rusage ru_inblock: 1128
+rusage ru_oublock: 160
+rusage ru_nvcsw: 37
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.079942
+Child rusage ru_stime: 0.08165399999999999
+Child rusage ru_maxrss: 134388
+Child rusage ru_minflt: 24272
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 288
+Child rusage ru_oublock: 72608
+Child rusage ru_nvcsw: 78
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614445506.94 

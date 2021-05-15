@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-wal-et: binary locale definition for wal-et
+SUMMARY_glibc-binary-localedata-wal-et: binary locale definition for wal-et
+SECTION: base
+PKG_glibc-binary-localedata-wal-et: glibc-binary-localedata-wal-et
+FILES_glibc-binary-localedata-wal-et: /usr/lib/locale/wal_ET
+FILES_INFO: {"/usr/lib/locale/wal_ET/LC_IDENTIFICATION": 369, "/usr/lib/locale/wal_ET/LC_MEASUREMENT": 23, "/usr/lib/locale/wal_ET/LC_TIME": 3412, "/usr/lib/locale/wal_ET/LC_PAPER": 34, "/usr/lib/locale/wal_ET/LC_ADDRESS": 144, "/usr/lib/locale/wal_ET/LC_COLLATE": 2586242, "/usr/lib/locale/wal_ET/LC_MONETARY": 290, "/usr/lib/locale/wal_ET/LC_CTYPE": 348812, "/usr/lib/locale/wal_ET/LC_NAME": 98, "/usr/lib/locale/wal_ET/LC_NUMERIC": 54, "/usr/lib/locale/wal_ET/LC_MESSAGES/SYS_LC_MESSAGES": 73, "/usr/lib/locale/wal_ET/LC_TELEPHONE": 56}
+PKGSIZE_glibc-binary-localedata-wal-et: 2939607

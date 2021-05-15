@@ -1,0 +1,14 @@
+prefix=${pcfiledir}/../../../usr
+exec_prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+
+gmodule_supported=true
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Requires: glib-2.0
+Version: 2.58.0
+Libs: -L${libdir} -Wl,--export-dynamic -lgmodule-2.0 -pthread
+Libs.private: -ldl
+Cflags: -pthread

@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-threading: Python threading & synchronization support
+RDEPENDS_python3-threading: python3-core
+RRECOMMENDS_python3-threading: python3-lic
+SECTION: devel/python
+PKG_python3-threading: python3-threading
+FILES_python3-threading:  /usr/lib/python3.5/_dummy_thread.py /usr/lib/python3.5/_threading_local.py /usr/lib/python3.5/dummy_threading.py /usr/lib/python3.5/queue.py /usr/lib/python3.5/__pycache__/_dummy_thread.*.pyc /usr/lib/python3.5/__pycache__/_threading_local.*.pyc /usr/lib/python3.5/__pycache__/dummy_threading.*.pyc /usr/lib/python3.5/__pycache__/queue.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.opt-1.pyc": 5046, "/usr/lib/python3.5/__pycache__/queue.cpython-35.opt-2.pyc": 5377, "/usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.opt-2.pyc": 2834, "/usr/lib/python3.5/__pycache__/queue.cpython-35.pyc": 9179, "/usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.opt-1.pyc": 1184, "/usr/lib/python3.5/__pycache__/queue.cpython-35.opt-1.pyc": 9179, "/usr/lib/python3.5/__pycache__/_threading_local.cpython-35.opt-2.pyc": 3369, "/usr/lib/python3.5/__pycache__/_dummy_thread.cpython-35.pyc": 5046, "/usr/lib/python3.5/_threading_local.py": 7410, "/usr/lib/python3.5/__pycache__/_threading_local.cpython-35.pyc": 6884, "/usr/lib/python3.5/__pycache__/_threading_local.cpython-35.opt-1.pyc": 6884, "/usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.pyc": 1184, "/usr/lib/python3.5/_dummy_thread.py": 5118, "/usr/lib/python3.5/queue.py": 8780, "/usr/lib/python3.5/__pycache__/dummy_threading.cpython-35.opt-2.pyc": 809, "/usr/lib/python3.5/dummy_threading.py": 2815}
+PKGSIZE_python3-threading: 81098

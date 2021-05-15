@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-xsloader: perl module xsloader
+SUMMARY_perl-module-xsloader: perl module xsloader
+RDEPENDS_perl-module-xsloader: perl perl-module-carp perl-module-dynaloader
+SECTION: devel
+PKG_perl-module-xsloader: perl-module-xsloader
+FILES_perl-module-xsloader: /usr/lib/perl/5.24.4/XSLoader.pm
+FILERPROVIDESFLIST_perl-module-xsloader: /usr/lib/perl/5.24.4/XSLoader.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/XSLoader.pm": 11818}
+FILERPROVIDES_/usr/lib/perl/5.24.4/XSLoader.pm_perl-module-xsloader:  perl(XSLoader) perl(DynaLoader)
+PKGSIZE_perl-module-xsloader: 11818

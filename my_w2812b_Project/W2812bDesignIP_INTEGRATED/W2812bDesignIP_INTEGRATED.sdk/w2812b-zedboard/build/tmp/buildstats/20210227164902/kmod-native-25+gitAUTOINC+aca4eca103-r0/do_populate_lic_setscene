@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444597.14 
+kmod-native-25+gitAUTOINC+aca4eca103-r0: do_populate_lic_setscene
+Elapsed time: 0.12 seconds
+utime: 12
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 292395
+IO syscr: 209
+IO write_bytes: 167936
+IO cancelled_write_bytes: 0
+IO read_bytes: 28672
+IO rchar: 327339
+IO syscw: 152
+rusage ru_utime: 0.12403099999999999
+rusage ru_stime: 0.049611999999999996
+rusage ru_maxrss: 131404
+rusage ru_minflt: 6788
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 168
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 188
+Child rusage ru_utime: 0.017454
+Child rusage ru_stime: 0.014124999999999999
+Child rusage ru_maxrss: 128656
+Child rusage ru_minflt: 2299
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1614444597.26 

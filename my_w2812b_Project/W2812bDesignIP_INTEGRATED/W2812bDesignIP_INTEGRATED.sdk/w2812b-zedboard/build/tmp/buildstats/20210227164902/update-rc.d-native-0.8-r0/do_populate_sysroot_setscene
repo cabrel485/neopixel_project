@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444660.05 
+update-rc.d-native-0.8-r0: do_populate_sysroot_setscene
+Elapsed time: 0.13 seconds
+utime: 27
+stime: 2
+cutime: 0
+cstime: 2
+IO wchar: 163989
+IO syscr: 1417
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 258115
+IO syscw: 147
+rusage ru_utime: 0.27555399999999997
+rusage ru_stime: 0.027167
+rusage ru_maxrss: 131388
+rusage ru_minflt: 13194
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 176
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.005712999999999999
+Child rusage ru_stime: 0.023197
+Child rusage ru_maxrss: 128584
+Child rusage ru_minflt: 2267
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 20
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614444660.18 

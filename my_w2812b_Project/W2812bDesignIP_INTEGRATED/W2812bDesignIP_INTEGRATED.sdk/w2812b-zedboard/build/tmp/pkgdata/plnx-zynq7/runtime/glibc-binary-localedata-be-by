@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-be-by: binary locale definition for be-by
+SUMMARY_glibc-binary-localedata-be-by: binary locale definition for be-by
+SECTION: base
+PKG_glibc-binary-localedata-be-by: glibc-binary-localedata-be-by
+FILES_glibc-binary-localedata-be-by: /usr/lib/locale/be_BY
+FILES_INFO: {"/usr/lib/locale/be_BY/LC_ADDRESS": 175, "/usr/lib/locale/be_BY/LC_TIME": 3636, "/usr/lib/locale/be_BY/LC_CTYPE": 337024, "/usr/lib/locale/be_BY/LC_COLLATE": 2586218, "/usr/lib/locale/be_BY/LC_NAME": 62, "/usr/lib/locale/be_BY/LC_MONETARY": 302, "/usr/lib/locale/be_BY/LC_TELEPHONE": 54, "/usr/lib/locale/be_BY/LC_PAPER": 34, "/usr/lib/locale/be_BY/LC_IDENTIFICATION": 296, "/usr/lib/locale/be_BY/LC_NUMERIC": 54, "/usr/lib/locale/be_BY/LC_MESSAGES/SYS_LC_MESSAGES": 70, "/usr/lib/locale/be_BY/LC_MEASUREMENT": 23}
+PKGSIZE_glibc-binary-localedata-be-by: 2927948

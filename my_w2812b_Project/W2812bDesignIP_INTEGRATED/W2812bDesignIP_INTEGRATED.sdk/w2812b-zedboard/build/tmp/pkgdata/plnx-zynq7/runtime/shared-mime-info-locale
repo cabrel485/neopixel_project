@@ -1,0 +1,14 @@
+PN: shared-mime-info
+PV: 1.10
+PR: r0
+PKGV: 1.10
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Shared MIME type database and specification.
+SUMMARY: Shared MIME type database and specification
+RRECOMMENDS_shared-mime-info-locale: shared-mime-info-lic
+SECTION: base
+PKG_shared-mime-info-locale: shared-mime-info-locale
+FILES_shared-mime-info-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_shared-mime-info-locale: 0

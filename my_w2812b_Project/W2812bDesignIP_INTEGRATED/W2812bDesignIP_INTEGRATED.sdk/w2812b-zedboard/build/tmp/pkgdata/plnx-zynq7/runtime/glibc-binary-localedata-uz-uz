@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-uz-uz: binary locale definition for uz-uz
+SUMMARY_glibc-binary-localedata-uz-uz: binary locale definition for uz-uz
+SECTION: base
+PKG_glibc-binary-localedata-uz-uz: glibc-binary-localedata-uz-uz
+FILES_glibc-binary-localedata-uz-uz: /usr/lib/locale/uz_UZ
+FILES_INFO: {"/usr/lib/locale/uz_UZ/LC_IDENTIFICATION": 403, "/usr/lib/locale/uz_UZ/LC_MONETARY": 298, "/usr/lib/locale/uz_UZ/LC_MESSAGES/SYS_LC_MESSAGES": 72, "/usr/lib/locale/uz_UZ/LC_COLLATE": 2588226, "/usr/lib/locale/uz_UZ/LC_CTYPE": 338984, "/usr/lib/locale/uz_UZ/LC_NAME": 80, "/usr/lib/locale/uz_UZ/LC_TIME": 3128, "/usr/lib/locale/uz_UZ/LC_ADDRESS": 159, "/usr/lib/locale/uz_UZ/LC_MEASUREMENT": 23, "/usr/lib/locale/uz_UZ/LC_PAPER": 34, "/usr/lib/locale/uz_UZ/LC_NUMERIC": 54, "/usr/lib/locale/uz_UZ/LC_TELEPHONE": 52}
+PKGSIZE_glibc-binary-localedata-uz-uz: 2931513

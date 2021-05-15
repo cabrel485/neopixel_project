@@ -1,0 +1,213 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export AR="arm-xilinx-linux-gnueabi-ar"
+export AS="arm-xilinx-linux-gnueabi-as "
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export BUILD_CC="gcc "
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_CPP="gcc  -E"
+export BUILD_CPPFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/include"
+export BUILD_CXX="g++ "
+export BUILD_CXXFLAGS="-isystem/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_FC="gfortran "
+export BUILD_LD="ld "
+export BUILD_LDFLAGS="-L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/lib -L/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export BUILD_STRIP="strip"
+export CC="arm-xilinx-linux-gnueabi-gcc  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot"
+export CCACHE_DIR="/home/wilson/.ccache"
+export CCLD="arm-xilinx-linux-gnueabi-gcc  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot"
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0=/usr/src/debug/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native= "
+export CPP="arm-xilinx-linux-gnueabi-gcc -E --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security"
+export CPPFLAGS=""
+export CXX="arm-xilinx-linux-gnueabi-g++  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot"
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0=/usr/src/debug/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden"
+unset DISTRO
+export FC="arm-xilinx-linux-gnueabi-gfortran  -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot"
+export HOME="/home/wilson"
+export LC_ALL="en_US.UTF-8"
+export LD="arm-xilinx-linux-gnueabi-ld --sysroot=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot "
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now"
+export LOGNAME="wilson"
+unset MACHINE
+export MAKE="make"
+export NM="arm-xilinx-linux-gnueabi-nm"
+export OBJCOPY="arm-xilinx-linux-gnueabi-objcopy"
+export OBJDUMP="arm-xilinx-linux-gnueabi-objdump"
+export PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/scripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/bin/arm-xilinx-linux-gnueabi:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot/usr/bin/crossscripts:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/usr/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/sbin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/microblaze/lin/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/armr5/lin/gcc-arm-none-eabi/bin:/home/wilson/Xilinx/Petalinux/tools/xsct/gnu/aarch64/lin/aarch64-none/bin:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/bitbake/bin:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools"
+export PKG_CONFIG_DIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export PKG_CONFIG_LIBDIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot/usr/lib/pkgconfig:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot/usr/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR="/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot"
+export PKG_CONFIG_SYSTEM_INCLUDE_PATH="/usr/include"
+export PKG_CONFIG_SYSTEM_LIBRARY_PATH="/lib:/usr/lib"
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export RANLIB="arm-xilinx-linux-gnueabi-ranlib"
+export READELF="arm-xilinx-linux-gnueabi-readelf"
+unset SHELL
+export STRINGS="arm-xilinx-linux-gnueabi-strings"
+export STRIP="arm-xilinx-linux-gnueabi-strip"
+unset TARGET_ARCH
+export TARGET_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0=/usr/src/debug/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native= "
+export TARGET_CPPFLAGS=""
+export TARGET_CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0=/usr/src/debug/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot= -fdebug-prefix-map=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/recipe-sysroot-native= "
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now"
+export TERM="xterm-256color"
+export TZ="UTC"
+export USER="wilson"
+export base_bindir="/bin"
+export base_libdir="/lib"
+export base_prefix=""
+export base_sbindir="/sbin"
+export bindir="/usr/bin"
+export datadir="/usr/share"
+export docdir="/usr/share/doc"
+export exec_prefix="/usr"
+export includedir="/usr/include"
+export infodir="/usr/share/info"
+export libdir="/usr/lib"
+export libexecdir="/usr/libexec"
+export localstatedir="/var"
+export mandir="/usr/share/man"
+export nonarch_base_libdir="/lib"
+export nonarch_libdir="/usr/lib"
+export oldincludedir="/usr/include"
+export prefix="/usr"
+export sbindir="/usr/sbin"
+export servicedir="/srv"
+export sharedstatedir="/com"
+export sysconfdir="/etc"
+export systemd_system_unitdir="/lib/systemd/system"
+export systemd_unitdir="/lib/systemd"
+export systemd_user_unitdir="/usr/lib/systemd/user"
+
+do_deploy() {
+    if [ -n "${UBOOT_CONFIG}" ]
+    then
+        for config in zynq_zc702_config; do
+            i=$(expr $i + 1);
+            for type in ${UBOOT_CONFIG}; do
+                j=$(expr $j + 1);
+                if [ $j -eq $i ]
+                then
+                    install -d /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx
+                    install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build/${config}/u-boot-${type}.bin /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin
+                    cd /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx
+                    ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin u-boot-plnx-zynq7.bin-${type}
+                    ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin u-boot-plnx-zynq7.bin
+                    ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin u-boot.bin-${type}
+                    ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin u-boot.bin
+                fi
+            done
+            unset  j
+        done
+        unset  i
+    else
+        install -d /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx
+        install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build/u-boot.bin /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin
+        cd /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx
+        rm -f u-boot.bin u-boot-plnx-zynq7.bin
+        ln -sf u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin u-boot-plnx-zynq7.bin
+        ln -sf u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.bin u-boot.bin
+    fi
+
+    if [ -n "u-boot.elf" ]
+    then
+        if [ -n "${UBOOT_CONFIG}" ]
+        then
+            for config in zynq_zc702_config; do
+                i=$(expr $i + 1);
+                for type in ${UBOOT_CONFIG}; do
+                    j=$(expr $j + 1);
+                    if [ $j -eq $i ]
+                    then
+                        install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build/${config}/u-boot.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf
+                        ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot.elf-${type}
+                        ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot.elf
+                        ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot-plnx-zynq7.elf-${type}
+                        ln -sf u-boot-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot-plnx-zynq7.elf
+                    fi
+                done
+                unset j
+            done
+            unset i
+        else
+            install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build/u-boot.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf
+            ln -sf u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot.elf
+            ln -sf u-boot-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.elf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/u-boot-plnx-zynq7.elf
+        fi
+    fi
+
+
+     if [ -n "" ]
+     then
+        if [ -n "${UBOOT_CONFIG}" ]
+        then
+            for config in zynq_zc702_config; do
+                i=$(expr $i + 1);
+                for type in ${UBOOT_CONFIG}; do
+                    j=$(expr $j + 1);
+                    if [ $j -eq $i ]
+                    then
+                        install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build/${config}/ /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0
+                        rm -f /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/ /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7-${type}
+                        ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-${type}
+                        ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/
+                        ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7-${type}
+                        ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0-${type}-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7
+                    fi
+                done
+                unset  j
+            done
+            unset  i
+        else
+            install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build/ /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0
+            rm -f /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/ /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7
+            ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/
+            ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7
+        fi
+    fi
+
+
+    if [ -n "" ]
+    then
+        install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/.txt /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.txt
+        rm -f /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/.txt /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7.txt
+        ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.txt /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/.txt
+        ln -sf -plnx-zynq7-v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0.txt /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/-plnx-zynq7.txt
+    fi
+
+    if [ "${UBOOT_EXTLINUX}" = "1" ]
+    then
+        install -m 644 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build/extlinux.conf /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/extlinux.conf-plnx-zynq7-r0
+        ln -sf extlinux.conf-plnx-zynq7-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/extlinux.conf-plnx-zynq7
+        ln -sf extlinux.conf-plnx-zynq7-r0 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/deploy-u-boot-xlnx/extlinux.conf
+    fi
+}
+
+cd '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/u-boot-xlnx/v2019.01-xilinx-v2019.1+gitAUTOINC+d895ac5e94-r0/build'
+do_deploy
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

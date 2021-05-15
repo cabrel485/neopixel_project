@@ -1,0 +1,121 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz for 14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz
+DEBUG: Searching for 14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo for 14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/14/sstate%3Atzdata%3Aall-xilinx-linux%3A2018g%3Ar0%3Aallarch%3A3%3A14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo;downloadfilename=14/sstate:tzdata:all-xilinx-linux:2018g:r0:allarch:3:14a6805fb2bbfc393e4b10136d9d905e_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/tzdata
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/tzdata-atlantic
+pkgdata/runtime-reverse/tzdata-australia
+pkgdata/runtime-reverse/tzdata-africa
+pkgdata/runtime-reverse/tzdata-americas
+pkgdata/runtime-reverse/tzdata-misc
+pkgdata/runtime-reverse/tzdata-lic
+pkgdata/runtime-reverse/tzdata
+pkgdata/runtime-reverse/tzdata-asia
+pkgdata/runtime-reverse/tzdata-europe
+pkgdata/runtime-reverse/tzdata-posix
+pkgdata/runtime-reverse/tzdata-antarctica
+pkgdata/runtime-reverse/tzdata-pacific
+pkgdata/runtime-reverse/tzdata-arctic
+pkgdata/runtime-reverse/tzdata-right
+pkgdata/runtime/
+pkgdata/runtime/tzdata-atlantic
+pkgdata/runtime/tzdata-misc.packaged
+pkgdata/runtime/tzdata-asia.packaged
+pkgdata/runtime/tzdata-lic.packaged
+pkgdata/runtime/tzdata-australia
+pkgdata/runtime/tzdata-africa
+pkgdata/runtime/tzdata-americas
+pkgdata/runtime/tzdata-misc
+pkgdata/runtime/tzdata-antarctica.packaged
+pkgdata/runtime/tzdata-lic
+pkgdata/runtime/tzdata
+pkgdata/runtime/tzdata-right.packaged
+pkgdata/runtime/tzdata-asia
+pkgdata/runtime/tzdata-atlantic.packaged
+pkgdata/runtime/tzdata-americas.packaged
+pkgdata/runtime/tzdata.packaged
+pkgdata/runtime/tzdata-africa.packaged
+pkgdata/runtime/tzdata-pacific.packaged
+pkgdata/runtime/tzdata-europe
+pkgdata/runtime/tzdata-posix
+pkgdata/runtime/tzdata-antarctica
+pkgdata/runtime/tzdata-posix.packaged
+pkgdata/runtime/tzdata-pacific
+pkgdata/runtime/tzdata-europe.packaged
+pkgdata/runtime/tzdata-australia.packaged
+pkgdata/runtime/tzdata-arctic.packaged
+pkgdata/runtime/tzdata-arctic
+pkgdata/runtime/tzdata-right
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/tzdata-atlantic/
+pkgdata/runtime-rprovides/tzdata-atlantic/tzdata-atlantic
+pkgdata/runtime-rprovides/tzdata-australia/
+pkgdata/runtime-rprovides/tzdata-australia/tzdata-australia
+pkgdata/runtime-rprovides/tzdata-africa/
+pkgdata/runtime-rprovides/tzdata-africa/tzdata-africa
+pkgdata/runtime-rprovides/tzdata-americas/
+pkgdata/runtime-rprovides/tzdata-americas/tzdata-americas
+pkgdata/runtime-rprovides/tzdata-misc/
+pkgdata/runtime-rprovides/tzdata-misc/tzdata-misc
+pkgdata/runtime-rprovides/tzdata-asia/
+pkgdata/runtime-rprovides/tzdata-asia/tzdata-asia
+pkgdata/runtime-rprovides/tzdata-europe/
+pkgdata/runtime-rprovides/tzdata-europe/tzdata-europe
+pkgdata/runtime-rprovides/tzdata-posix/
+pkgdata/runtime-rprovides/tzdata-posix/tzdata-posix
+pkgdata/runtime-rprovides/tzdata-antarctica/
+pkgdata/runtime-rprovides/tzdata-antarctica/tzdata-antarctica
+pkgdata/runtime-rprovides/tzdata-pacific/
+pkgdata/runtime-rprovides/tzdata-pacific/tzdata-pacific
+pkgdata/runtime-rprovides/tzdata-arctic/
+pkgdata/runtime-rprovides/tzdata-arctic/tzdata-arctic
+pkgdata/runtime-rprovides/tzdata-right/
+pkgdata/runtime-rprovides/tzdata-right/tzdata-right
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/all-xilinx-linux/tzdata/2018g-r0/pkgdata to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/pkgdata/plnx-zynq7
+DEBUG: Python function do_packagedata_setscene finished

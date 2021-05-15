@@ -1,0 +1,14 @@
+PN: openssh
+PV: 7.8p1+git
+PR: r0
+PKGV: 7.8p1+git
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is a program for logging into a remote machine and for executing commands on a remote machine.
+SUMMARY: A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server
+RRECOMMENDS_openssh-locale: openssh-lic
+SECTION: console/network
+PKG_openssh-locale: openssh-locale
+FILES_openssh-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_openssh-locale: 0

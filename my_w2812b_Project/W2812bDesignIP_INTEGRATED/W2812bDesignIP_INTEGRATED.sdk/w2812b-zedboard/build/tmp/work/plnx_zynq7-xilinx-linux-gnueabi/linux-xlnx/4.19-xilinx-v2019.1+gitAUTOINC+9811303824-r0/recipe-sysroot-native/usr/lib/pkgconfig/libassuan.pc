@@ -1,0 +1,13 @@
+prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+api_version=2
+host=x86_64-pc-linux-gnu
+
+Name: libassuan
+Description: IPC library used by GnuPG and GPGME
+Requires:
+Version: 2.5.1-unknown
+Libs: -L${libdir} -lassuan
+Libs.private: -lgpg-error
+Cflags: -I${includedir}

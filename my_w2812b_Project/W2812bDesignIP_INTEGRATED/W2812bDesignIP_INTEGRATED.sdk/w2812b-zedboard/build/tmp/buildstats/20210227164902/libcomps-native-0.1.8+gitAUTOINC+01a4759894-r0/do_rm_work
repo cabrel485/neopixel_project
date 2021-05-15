@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444799.62 
+libcomps-native-0.1.8+gitAUTOINC+01a4759894-r0: do_rm_work
+Elapsed time: 0.11 seconds
+utime: 17
+stime: 1
+cutime: 2
+cstime: 0
+IO wchar: 38213
+IO syscr: 1122
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 278528
+IO rchar: 153861
+IO syscw: 34
+rusage ru_utime: 0.17876999999999998
+rusage ru_stime: 0.014593
+rusage ru_maxrss: 131740
+rusage ru_minflt: 4744
+rusage ru_majflt: 0
+rusage ru_inblock: 64
+rusage ru_oublock: 80
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 83
+Child rusage ru_utime: 0.02456
+Child rusage ru_stime: 0.007423
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 3527
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 480
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 70
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1614444799.73 

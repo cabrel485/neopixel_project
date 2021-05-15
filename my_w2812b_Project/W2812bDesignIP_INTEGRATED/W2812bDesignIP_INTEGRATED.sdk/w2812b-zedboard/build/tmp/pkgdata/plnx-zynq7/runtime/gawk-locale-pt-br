@@ -1,0 +1,15 @@
+PN: gawk
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_gawk-locale-pt-br: The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.  This package contains language translation files for the pt_BR locale.
+SUMMARY_gawk-locale-pt-br: GNU awk text processing utility - pt_BR translations
+RPROVIDES_gawk-locale-pt-br: gawk-locale pt-br-translation
+RRECOMMENDS_gawk-locale-pt-br: virtual-locale-pt-br
+SECTION: console/utils
+PKG_gawk-locale-pt-br: gawk-locale-pt-br
+FILES_gawk-locale-pt-br: /usr/share/locale/pt_BR
+FILES_INFO: {"/usr/share/locale/pt_BR/LC_MESSAGES/gawk.mo": 85026}
+PKGSIZE_gawk-locale-pt-br: 85026

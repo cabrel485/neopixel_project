@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444585.11 
+modutils-initscripts-1.0-r7: do_populate_sysroot_setscene
+Elapsed time: 0.21 seconds
+utime: 21
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 141328
+IO syscr: 172
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 195030
+IO syscw: 122
+rusage ru_utime: 0.217992
+rusage ru_stime: 0.048442
+rusage ru_maxrss: 131296
+rusage ru_minflt: 13130
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 0.012081999999999999
+Child rusage ru_stime: 0.018380999999999998
+Child rusage ru_maxrss: 128532
+Child rusage ru_minflt: 2221
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1614444585.32 

@@ -1,0 +1,1 @@
+cmd_scripts/dtc/dtc-parser.tab.c := bison -oscripts/dtc/dtc-parser.tab.c -t -l /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work-shared/plnx-zynq7/kernel-source/scripts/dtc/dtc-parser.y

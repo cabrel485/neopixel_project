@@ -1,0 +1,14 @@
+PN: libgcc
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception & GPLv3
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RPROVIDES_libgcc-lic:  libgcc-lic (=8.2.0)
+SECTION: devel
+PKG_libgcc-lic: libgcc-s-lic
+FILES_libgcc-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/libgcc/COPYING.LIB": 26527, "/usr/share/licenses/libgcc/generic_GPLv3": 34694, "/usr/share/licenses/libgcc/COPYING.RUNTIME": 3324, "/usr/share/licenses/libgcc/COPYING": 18002, "/usr/share/licenses/libgcc/COPYING3": 35147, "/usr/share/licenses/libgcc/COPYING3.LIB": 7639, "/usr/share/licenses/libgcc/generic_GPL-3.0-with-GCC-exception": 3406}
+PKGSIZE_libgcc-lic: 128739

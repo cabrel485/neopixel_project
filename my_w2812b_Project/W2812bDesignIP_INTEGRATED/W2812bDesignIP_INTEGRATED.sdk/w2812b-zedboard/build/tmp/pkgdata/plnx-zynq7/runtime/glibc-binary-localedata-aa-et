@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-aa-et: binary locale definition for aa-et
+SUMMARY_glibc-binary-localedata-aa-et: binary locale definition for aa-et
+SECTION: base
+PKG_glibc-binary-localedata-aa-et: glibc-binary-localedata-aa-et
+FILES_glibc-binary-localedata-aa-et: /usr/lib/locale/aa_ET
+FILES_INFO: {"/usr/lib/locale/aa_ET/LC_NAME": 84, "/usr/lib/locale/aa_ET/LC_COLLATE": 2586242, "/usr/lib/locale/aa_ET/LC_IDENTIFICATION": 384, "/usr/lib/locale/aa_ET/LC_PAPER": 34, "/usr/lib/locale/aa_ET/LC_MEASUREMENT": 23, "/usr/lib/locale/aa_ET/LC_TIME": 3652, "/usr/lib/locale/aa_ET/LC_MONETARY": 290, "/usr/lib/locale/aa_ET/LC_TELEPHONE": 56, "/usr/lib/locale/aa_ET/LC_CTYPE": 348812, "/usr/lib/locale/aa_ET/LC_MESSAGES/SYS_LC_MESSAGES": 64, "/usr/lib/locale/aa_ET/LC_NUMERIC": 54, "/usr/lib/locale/aa_ET/LC_ADDRESS": 128}
+PKGSIZE_glibc-binary-localedata-aa-et: 2939823

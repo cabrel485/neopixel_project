@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-kab-dz: locale definition for kab-dz
+SUMMARY_glibc-localedata-kab-dz: locale definition for kab-dz
+RDEPENDS_glibc-localedata-kab-dz: glibc-localedata-ar-dz glibc-localedata-ber-dz glibc-localedata-i18n glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-kab-dz: glibc-localedata-kab-dz
+FILES_glibc-localedata-kab-dz: /usr/share/i18n/locales/kab_DZ
+FILES_INFO: {"/usr/share/i18n/locales/kab_DZ": 3289}
+PKGSIZE_glibc-localedata-kab-dz: 3289

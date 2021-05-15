@@ -1,0 +1,17 @@
+PN: myapp
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Simple myapp application.
+SUMMARY: Simple myapp application
+RDEPENDS_myapp: glibc (>= 2.28)
+RRECOMMENDS_myapp: myapp-lic
+SECTION: PETALINUX/apps
+PKG_myapp: myapp
+FILES_myapp: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/myapp /usr/lib/myapp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/myapp": 9752}
+FILERDEPENDSFLIST_myapp: /usr/bin/myapp
+FILERDEPENDS_/usr/bin/myapp_myapp:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_myapp: 9752

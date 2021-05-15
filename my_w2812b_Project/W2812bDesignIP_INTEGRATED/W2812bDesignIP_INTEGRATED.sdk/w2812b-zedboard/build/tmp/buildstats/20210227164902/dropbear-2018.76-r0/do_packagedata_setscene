@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444640.60 
+dropbear-2018.76-r0: do_packagedata_setscene
+Elapsed time: 0.12 seconds
+utime: 22
+stime: 7
+cutime: 2
+cstime: 0
+IO wchar: 236842
+IO syscr: 248
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 306363
+IO syscw: 197
+rusage ru_utime: 0.222384
+rusage ru_stime: 0.07891
+rusage ru_maxrss: 131524
+rusage ru_minflt: 13392
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 35
+rusage ru_nivcsw: 273
+Child rusage ru_utime: 0.02034
+Child rusage ru_stime: 0.008213
+Child rusage ru_maxrss: 128772
+Child rusage ru_minflt: 2266
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1614444640.72 

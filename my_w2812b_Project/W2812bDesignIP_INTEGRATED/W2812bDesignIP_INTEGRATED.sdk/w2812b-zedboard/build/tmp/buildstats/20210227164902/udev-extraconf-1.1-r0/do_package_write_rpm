@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444781.55 
+udev-extraconf-1.1-r0: do_package_write_rpm
+Elapsed time: 0.92 seconds
+utime: 32
+stime: 5
+cutime: 15
+cstime: 10
+IO syscw: 2629
+IO rchar: 1053000
+IO cancelled_write_bytes: 0
+IO read_bytes: 28672
+IO wchar: 685777
+IO syscr: 2083
+IO write_bytes: 344064
+rusage ru_utime: 0.32948
+rusage ru_stime: 0.055625999999999995
+rusage ru_maxrss: 133488
+rusage ru_minflt: 15956
+rusage ru_majflt: 0
+rusage ru_inblock: 48
+rusage ru_oublock: 576
+rusage ru_nvcsw: 519
+rusage ru_nivcsw: 129
+Child rusage ru_utime: 0.150344
+Child rusage ru_stime: 0.109287
+Child rusage ru_maxrss: 131084
+Child rusage ru_minflt: 22148
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 508
+Child rusage ru_nivcsw: 749
+Status: PASSED 
+Ended: 1614444782.47 

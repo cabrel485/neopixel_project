@@ -1,0 +1,243 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz for 21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz
+DEBUG: Searching for 21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo for 21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/21/sstate%3Ae2fsprogs%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.44.3%3Ar0%3Acortexa9t2hf-neon%3A3%3A21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo;downloadfilename=21/sstate:e2fsprogs:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.44.3:r0:cortexa9t2hf-neon:3:21c0f815314e468ec787c6b207192e38_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/e2fsprogs
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libe2p2
+pkgdata/runtime-reverse/e2fsprogs
+pkgdata/runtime-reverse/e2fsprogs-locale-zh-cn
+pkgdata/runtime-reverse/e2fsprogs-locale-cs
+pkgdata/runtime-reverse/e2fsprogs-locale-sv
+pkgdata/runtime-reverse/e2fsprogs-mke2fs
+pkgdata/runtime-reverse/e2fsprogs-locale-id
+pkgdata/runtime-reverse/e2fsprogs-locale-nl
+pkgdata/runtime-reverse/e2fsprogs-locale-tr
+pkgdata/runtime-reverse/e2fsprogs-locale-es
+pkgdata/runtime-reverse/e2fsprogs-badblocks
+pkgdata/runtime-reverse/e2fsprogs-tune2fs
+pkgdata/runtime-reverse/libext2fs2
+pkgdata/runtime-reverse/e2fsprogs-locale-ms
+pkgdata/runtime-reverse/e2fsprogs-locale-it
+pkgdata/runtime-reverse/e2fsprogs-dbg
+pkgdata/runtime-reverse/e2fsprogs-locale-pl
+pkgdata/runtime-reverse/e2fsprogs-locale-fr
+pkgdata/runtime-reverse/e2fsprogs-doc
+pkgdata/runtime-reverse/e2fsprogs-locale-vi
+pkgdata/runtime-reverse/libcom-err2
+pkgdata/runtime-reverse/e2fsprogs-staticdev
+pkgdata/runtime-reverse/e2fsprogs-locale-da
+pkgdata/runtime-reverse/e2fsprogs-locale-uk
+pkgdata/runtime-reverse/e2fsprogs-dev
+pkgdata/runtime-reverse/e2fsprogs-locale-sr
+pkgdata/runtime-reverse/e2fsprogs-locale-de
+pkgdata/runtime-reverse/e2fsprogs-locale-eo
+pkgdata/runtime-reverse/e2fsprogs-locale-fi
+pkgdata/runtime-reverse/e2fsprogs-lic
+pkgdata/runtime-reverse/e2fsprogs-resize2fs
+pkgdata/runtime-reverse/e2fsprogs-locale-ca
+pkgdata/runtime-reverse/e2fsprogs-locale-hu
+pkgdata/runtime-reverse/libss2
+pkgdata/runtime-reverse/e2fsprogs-e2fsck
+pkgdata/runtime-reverse/e2fsprogs-ptest
+pkgdata/runtime/
+pkgdata/runtime/e2fsprogs-tune2fs.packaged
+pkgdata/runtime/e2fsprogs
+pkgdata/runtime/e2fsprogs-locale-zh-cn
+pkgdata/runtime/e2fsprogs-locale-sr.packaged
+pkgdata/runtime/e2fsprogs-e2fsck.packaged
+pkgdata/runtime/libcomerr
+pkgdata/runtime/e2fsprogs-locale-cs
+pkgdata/runtime/e2fsprogs-locale-sv
+pkgdata/runtime/e2fsprogs-doc.packaged
+pkgdata/runtime/e2fsprogs-locale-da.packaged
+pkgdata/runtime/e2fsprogs-locale-ms.packaged
+pkgdata/runtime/libcomerr.packaged
+pkgdata/runtime/e2fsprogs-locale-sv.packaged
+pkgdata/runtime/e2fsprogs-locale-de.packaged
+pkgdata/runtime/e2fsprogs-mke2fs
+pkgdata/runtime/e2fsprogs-locale-pl.packaged
+pkgdata/runtime/e2fsprogs-locale-id
+pkgdata/runtime/e2fsprogs-staticdev.packaged
+pkgdata/runtime/e2fsprogs-locale-nl
+pkgdata/runtime/e2fsprogs-locale-tr
+pkgdata/runtime/libe2p.packaged
+pkgdata/runtime/e2fsprogs-locale-es
+pkgdata/runtime/e2fsprogs-locale-cs.packaged
+pkgdata/runtime/e2fsprogs-ptest.packaged
+pkgdata/runtime/e2fsprogs-locale-tr.packaged
+pkgdata/runtime/e2fsprogs-dev.packaged
+pkgdata/runtime/e2fsprogs-locale-fi.packaged
+pkgdata/runtime/e2fsprogs-badblocks
+pkgdata/runtime/e2fsprogs-tune2fs
+pkgdata/runtime/e2fsprogs-locale-id.packaged
+pkgdata/runtime/e2fsprogs-locale-hu.packaged
+pkgdata/runtime/libext2fs.packaged
+pkgdata/runtime/e2fsprogs-locale-nl.packaged
+pkgdata/runtime/e2fsprogs-locale-ms
+pkgdata/runtime/e2fsprogs-locale-it
+pkgdata/runtime/e2fsprogs-dbg
+pkgdata/runtime/e2fsprogs-locale-pl
+pkgdata/runtime/e2fsprogs-lic.packaged
+pkgdata/runtime/e2fsprogs-locale-fr
+pkgdata/runtime/e2fsprogs-doc
+pkgdata/runtime/e2fsprogs-locale-vi
+pkgdata/runtime/e2fsprogs-mke2fs.packaged
+pkgdata/runtime/e2fsprogs-locale-uk.packaged
+pkgdata/runtime/e2fsprogs-locale-zh-cn.packaged
+pkgdata/runtime/e2fsprogs-staticdev
+pkgdata/runtime/e2fsprogs-locale-it.packaged
+pkgdata/runtime/e2fsprogs-badblocks.packaged
+pkgdata/runtime/e2fsprogs-locale-da
+pkgdata/runtime/e2fsprogs-locale-fr.packaged
+pkgdata/runtime/e2fsprogs-locale-uk
+pkgdata/runtime/e2fsprogs-dev
+pkgdata/runtime/e2fsprogs-locale-sr
+pkgdata/runtime/e2fsprogs-locale-de
+pkgdata/runtime/libss
+pkgdata/runtime/e2fsprogs-locale-eo
+pkgdata/runtime/e2fsprogs-locale-fi
+pkgdata/runtime/libext2fs
+pkgdata/runtime/e2fsprogs-lic
+pkgdata/runtime/e2fsprogs-locale-eo.packaged
+pkgdata/runtime/e2fsprogs-resize2fs
+pkgdata/runtime/libss.packaged
+pkgdata/runtime/e2fsprogs-dbg.packaged
+pkgdata/runtime/e2fsprogs-locale-ca
+pkgdata/runtime/e2fsprogs-locale-hu
+pkgdata/runtime/e2fsprogs-locale-vi.packaged
+pkgdata/runtime/e2fsprogs-resize2fs.packaged
+pkgdata/runtime/e2fsprogs.packaged
+pkgdata/runtime/e2fsprogs-locale-es.packaged
+pkgdata/runtime/e2fsprogs-locale-ca.packaged
+pkgdata/runtime/libe2p
+pkgdata/runtime/e2fsprogs-e2fsck
+pkgdata/runtime/e2fsprogs-ptest
+pkgdata/shlibs2/
+pkgdata/shlibs2/libext2fs.list
+pkgdata/shlibs2/libss.list
+pkgdata/shlibs2/libe2p.list
+pkgdata/shlibs2/e2fsprogs-dev.pclist
+pkgdata/shlibs2/libcomerr.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/libcomerr/
+pkgdata/runtime-rprovides/libcomerr/libcomerr
+pkgdata/runtime-rprovides/fr-translation/
+pkgdata/runtime-rprovides/fr-translation/e2fsprogs-locale-fr
+pkgdata/runtime-rprovides/sv-translation/
+pkgdata/runtime-rprovides/sv-translation/e2fsprogs-locale-sv
+pkgdata/runtime-rprovides/de-translation/
+pkgdata/runtime-rprovides/de-translation/e2fsprogs-locale-de
+pkgdata/runtime-rprovides/cs-translation/
+pkgdata/runtime-rprovides/cs-translation/e2fsprogs-locale-cs
+pkgdata/runtime-rprovides/da-translation/
+pkgdata/runtime-rprovides/da-translation/e2fsprogs-locale-da
+pkgdata/runtime-rprovides/hu-translation/
+pkgdata/runtime-rprovides/hu-translation/e2fsprogs-locale-hu
+pkgdata/runtime-rprovides/eo-translation/
+pkgdata/runtime-rprovides/eo-translation/e2fsprogs-locale-eo
+pkgdata/runtime-rprovides/tr-translation/
+pkgdata/runtime-rprovides/tr-translation/e2fsprogs-locale-tr
+pkgdata/runtime-rprovides/nl-translation/
+pkgdata/runtime-rprovides/nl-translation/e2fsprogs-locale-nl
+pkgdata/runtime-rprovides/es-translation/
+pkgdata/runtime-rprovides/es-translation/e2fsprogs-locale-es
+pkgdata/runtime-rprovides/vi-translation/
+pkgdata/runtime-rprovides/vi-translation/e2fsprogs-locale-vi
+pkgdata/runtime-rprovides/zh-cn-translation/
+pkgdata/runtime-rprovides/zh-cn-translation/e2fsprogs-locale-zh-cn
+pkgdata/runtime-rprovides/ms-translation/
+pkgdata/runtime-rprovides/ms-translation/e2fsprogs-locale-ms
+pkgdata/runtime-rprovides/(=1.44.3)/
+pkgdata/runtime-rprovides/(=1.44.3)/libcomerr
+pkgdata/runtime-rprovides/(=1.44.3)/libss
+pkgdata/runtime-rprovides/(=1.44.3)/libext2fs
+pkgdata/runtime-rprovides/(=1.44.3)/libe2p
+pkgdata/runtime-rprovides/id-translation/
+pkgdata/runtime-rprovides/id-translation/e2fsprogs-locale-id
+pkgdata/runtime-rprovides/ca-translation/
+pkgdata/runtime-rprovides/ca-translation/e2fsprogs-locale-ca
+pkgdata/runtime-rprovides/uk-translation/
+pkgdata/runtime-rprovides/uk-translation/e2fsprogs-locale-uk
+pkgdata/runtime-rprovides/sr-translation/
+pkgdata/runtime-rprovides/sr-translation/e2fsprogs-locale-sr
+pkgdata/runtime-rprovides/libss/
+pkgdata/runtime-rprovides/libss/libss
+pkgdata/runtime-rprovides/libext2fs/
+pkgdata/runtime-rprovides/libext2fs/libext2fs
+pkgdata/runtime-rprovides/e2fsprogs-locale/
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-zh-cn
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-cs
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-sv
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-id
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-nl
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-tr
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-es
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-ms
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-it
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-pl
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-fr
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-vi
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-da
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-uk
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-sr
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-de
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-eo
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-fi
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-ca
+pkgdata/runtime-rprovides/e2fsprogs-locale/e2fsprogs-locale-hu
+pkgdata/runtime-rprovides/fi-translation/
+pkgdata/runtime-rprovides/fi-translation/e2fsprogs-locale-fi
+pkgdata/runtime-rprovides/pl-translation/
+pkgdata/runtime-rprovides/pl-translation/e2fsprogs-locale-pl
+pkgdata/runtime-rprovides/it-translation/
+pkgdata/runtime-rprovides/it-translation/e2fsprogs-locale-it
+pkgdata/runtime-rprovides/libe2p/
+pkgdata/runtime-rprovides/libe2p/libe2p
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/e2fsprogs/1.44.3-r0/pkgdata to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/pkgdata/plnx-zynq7
+DEBUG: Python function do_packagedata_setscene finished

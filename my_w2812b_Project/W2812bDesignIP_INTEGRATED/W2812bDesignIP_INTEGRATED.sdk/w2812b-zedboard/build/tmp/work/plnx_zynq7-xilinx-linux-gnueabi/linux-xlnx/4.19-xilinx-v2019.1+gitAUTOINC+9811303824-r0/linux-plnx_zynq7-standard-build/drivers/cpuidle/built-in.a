@@ -1,0 +1,14 @@
+!<thin>
+//                                              76        `
+cpuidle.o/
+driver.o/
+governor.o/
+sysfs.o/
+governors/menu.o/
+cpuidle-zynq.o/
+/0              0           0     0     644     13704     `
+/11             0           0     0     644     4752      `
+/21             0           0     0     644     2648      `
+/33             0           0     0     644     10184     `
+/42             0           0     0     644     5060      `
+/60             0           0     0     644     3700      `

@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-pkgutil: Python package extension utility support
+RDEPENDS_python-pkgutil: python-core
+RRECOMMENDS_python-pkgutil: python-lic
+SECTION: devel/python
+PKG_python-pkgutil: python-pkgutil
+FILES_python-pkgutil:  /usr/lib/python2.7/pkgutil.py /usr/lib/python2.7/pkgutil.pyc
+FILES_INFO: {"/usr/lib/python2.7/pkgutil.pyc": 18893, "/usr/lib/python2.7/pkgutil.py": 20243}
+PKGSIZE_python-pkgutil: 39136

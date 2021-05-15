@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444589.71 
+binutils-cross-arm-2.31-r0: do_populate_lic_setscene
+Elapsed time: 0.24 seconds
+utime: 22
+stime: 6
+cutime: 1
+cstime: 1
+IO wchar: 517236
+IO syscr: 220
+IO write_bytes: 286720
+IO cancelled_write_bytes: 0
+IO read_bytes: 90112
+IO rchar: 479077
+IO syscw: 176
+rusage ru_utime: 0.223296
+rusage ru_stime: 0.067786
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13339
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 168
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 248
+Child rusage ru_utime: 0.016467
+Child rusage ru_stime: 0.016569
+Child rusage ru_maxrss: 128672
+Child rusage ru_minflt: 2281
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 104
+Child rusage ru_oublock: 392
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1614444589.95 

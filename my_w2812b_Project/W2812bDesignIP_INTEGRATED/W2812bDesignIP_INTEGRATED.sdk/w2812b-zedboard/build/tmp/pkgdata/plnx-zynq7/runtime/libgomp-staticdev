@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY_libgomp-staticdev: GNU OpenMP parallel programming library - static development files
+RRECOMMENDS_libgomp-staticdev: gcc-runtime-lic
+SECTION: devel
+PKG_libgomp-staticdev: libgomp-staticdev
+FILES_libgomp-staticdev: /usr/lib/libgomp*.a
+FILES_INFO: {"/usr/lib/libgomp.a": 1559602}
+PKGSIZE_libgomp-staticdev: 1559602

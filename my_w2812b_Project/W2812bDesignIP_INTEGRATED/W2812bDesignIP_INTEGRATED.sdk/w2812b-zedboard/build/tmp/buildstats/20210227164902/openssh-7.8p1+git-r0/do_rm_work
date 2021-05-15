@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444711.76 
+openssh-7.8p1+git-r0: do_rm_work
+Elapsed time: 0.10 seconds
+utime: 17
+stime: 1
+cutime: 5
+cstime: 0
+IO wchar: 39485
+IO syscr: 323
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 24576
+IO rchar: 255046
+IO syscw: 45
+rusage ru_utime: 0.175367
+rusage ru_stime: 0.019485
+rusage ru_maxrss: 132136
+rusage ru_minflt: 5029
+rusage ru_majflt: 0
+rusage ru_inblock: 48
+rusage ru_oublock: 72
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.051909
+Child rusage ru_stime: 0.0057009999999999995
+Child rusage ru_maxrss: 129464
+Child rusage ru_minflt: 6814
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 98
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614444711.86 

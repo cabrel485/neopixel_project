@@ -1,0 +1,14 @@
+PN: libxcrypt
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION: Forked code from glibc libary to extract only crypto part.
+SUMMARY: Extended cryptographic library (from glibc)
+RPROVIDES_libxcrypt-lic:  libxcrypt-lic (=4.1.1)
+SECTION: libs
+PKG_libxcrypt-lic: libcrypt-lic
+FILES_libxcrypt-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/libxcrypt/LICENSING": 3015, "/usr/share/licenses/libxcrypt/generic_LGPLv2.1": 25878, "/usr/share/licenses/libxcrypt/COPYING.LIB": 26530}
+PKGSIZE_libxcrypt-lic: 55423

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444691.87 
+util-macros-native-1_1.19.2-r0: do_rm_work
+Elapsed time: 0.07 seconds
+utime: 21
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 40483
+IO syscr: 186
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 164144
+IO syscw: 38
+rusage ru_utime: 0.219301
+rusage ru_stime: 0.043077
+rusage ru_maxrss: 131424
+rusage ru_minflt: 11112
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 80
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.017783999999999998
+Child rusage ru_stime: 0.011616999999999999
+Child rusage ru_maxrss: 128724
+Child rusage ru_minflt: 3519
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 52
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1614444691.94 

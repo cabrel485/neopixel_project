@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-attribute-handlers: perl module attribute-handlers
+SUMMARY_perl-module-attribute-handlers: perl module attribute-handlers
+RDEPENDS_perl-module-attribute-handlers: perl perl-module-carp perl-module-strict perl-module-vars perl-module-warnings
+SECTION: devel
+PKG_perl-module-attribute-handlers: perl-module-attribute-handlers
+FILES_perl-module-attribute-handlers: /usr/lib/perl/5.24.4/Attribute/Handlers.pm
+FILERPROVIDESFLIST_perl-module-attribute-handlers: /usr/lib/perl/5.24.4/Attribute/Handlers.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Attribute/Handlers.pm": 30409}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Attribute/Handlers.pm_perl-module-attribute-handlers:  perl(Attribute::Handlers)
+PKGSIZE_perl-module-attribute-handlers: 30409

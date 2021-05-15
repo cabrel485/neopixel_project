@@ -1,0 +1,17 @@
+PN: unzip
+PE: 1
+PV: 6.0
+PR: r5
+PKGE: 1
+PKGV: 6.0
+PKGR: r5
+LICENSE: BSD-3-Clause
+DESCRIPTION_unzip-staticdev: Utilities for extracting and viewing files in .zip archives.  This package contains static libraries for software development.
+SUMMARY_unzip-staticdev: Utilities for extracting and viewing files in .zip archives - Development files (Static Libraries)
+RDEPENDS_unzip-staticdev: unzip-dev (= 1:6.0-r5)
+RRECOMMENDS_unzip-staticdev: unzip-lic
+SECTION_unzip-staticdev: devel
+PKG_unzip-staticdev: unzip-staticdev
+FILES_unzip-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/unzip/*.a
+FILES_INFO: {}
+PKGSIZE_unzip-staticdev: 0

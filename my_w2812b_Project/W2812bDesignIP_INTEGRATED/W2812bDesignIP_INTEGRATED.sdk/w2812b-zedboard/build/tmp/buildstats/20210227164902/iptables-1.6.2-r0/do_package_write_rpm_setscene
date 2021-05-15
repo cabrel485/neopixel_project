@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444618.69 
+iptables-1.6.2-r0: do_package_write_rpm_setscene
+Elapsed time: 0.26 seconds
+utime: 24
+stime: 6
+cutime: 2
+cstime: 2
+IO wchar: 4306146
+IO syscr: 494
+IO write_bytes: 2445312
+IO cancelled_write_bytes: 0
+IO read_bytes: 1306624
+IO rchar: 3669361
+IO syscw: 623
+rusage ru_utime: 0.246859
+rusage ru_stime: 0.063705
+rusage ru_maxrss: 131396
+rusage ru_minflt: 13385
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 224
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 204
+Child rusage ru_utime: 0.024104
+Child rusage ru_stime: 0.021088
+Child rusage ru_maxrss: 128624
+Child rusage ru_minflt: 2270
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2552
+Child rusage ru_oublock: 4552
+Child rusage ru_nvcsw: 85
+Child rusage ru_nivcsw: 80
+Status: PASSED 
+Ended: 1614444618.96 

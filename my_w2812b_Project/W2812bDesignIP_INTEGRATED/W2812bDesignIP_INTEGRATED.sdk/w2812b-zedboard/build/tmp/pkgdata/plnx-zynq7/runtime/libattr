@@ -1,0 +1,19 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE_libattr: LGPLv2.1+
+DESCRIPTION: Utilities for manipulating filesystem extended attributes.
+SUMMARY: Utilities for manipulating filesystem extended attributes
+RDEPENDS_libattr: glibc (>= 2.28)
+RPROVIDES_libattr:  libattr (=2.4.47)
+RRECOMMENDS_libattr: attr-lic
+SECTION: libs
+PKG_libattr: libattr1
+FILES_libattr: /lib/lib*.so.*
+pkg_postinst_libattr: #!/bin/sh\nset -e\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libattr: /lib/libattr.so.1.1.0
+FILES_INFO: {"/lib/libattr.so.1.1.0": 13608, "/lib/libattr.so.1": 16}
+FILERPROVIDES_/lib/libattr.so.1.1.0_libattr:  libattr.so.1(ATTR_1.0) libattr.so.1(ATTR_1.1) libattr.so.1(ATTR_1.1) libattr.so.1(ATTR_1.2) libattr.so.1(ATTR_1.2) libattr.so.1
+PKGSIZE_libattr: 13624

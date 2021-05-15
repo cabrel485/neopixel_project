@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-pprint: Python pretty-print support
+RDEPENDS_python3-pprint: python3-core
+RRECOMMENDS_python3-pprint: python3-lic
+SECTION: devel/python
+PKG_python3-pprint: python3-pprint
+FILES_python3-pprint:  /usr/lib/python3.5/pprint.py /usr/lib/python3.5/__pycache__/pprint.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/pprint.cpython-35.pyc": 17464, "/usr/lib/python3.5/__pycache__/pprint.cpython-35.opt-1.pyc": 17410, "/usr/lib/python3.5/pprint.py": 20860, "/usr/lib/python3.5/__pycache__/pprint.cpython-35.opt-2.pyc": 15342}
+PKGSIZE_python3-pprint: 71076

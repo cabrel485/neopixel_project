@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444609.00 
+libpam-1.3.0-r5: do_package_write_rpm_setscene
+Elapsed time: 0.25 seconds
+utime: 22
+stime: 7
+cutime: 2
+cstime: 3
+IO wchar: 4722340
+IO syscr: 663
+IO write_bytes: 2539520
+IO cancelled_write_bytes: 0
+IO read_bytes: 1265664
+IO rchar: 3848312
+IO syscw: 789
+rusage ru_utime: 0.222217
+rusage ru_stime: 0.074072
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13389
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 94
+rusage ru_nivcsw: 264
+Child rusage ru_utime: 0.022458
+Child rusage ru_stime: 0.030300999999999998
+Child rusage ru_maxrss: 128680
+Child rusage ru_minflt: 2267
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2472
+Child rusage ru_oublock: 4720
+Child rusage ru_nvcsw: 95
+Child rusage ru_nivcsw: 143
+Status: PASSED 
+Ended: 1614444609.25 

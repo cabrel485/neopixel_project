@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-autodie-util: perl module autodie-util
+SUMMARY_perl-module-autodie-util: perl module autodie-util
+RDEPENDS_perl-module-autodie-util: perl perl-module-autodie-scope-guardstack perl-module-exporter perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-autodie-util: perl-module-autodie-util
+FILES_perl-module-autodie-util: /usr/lib/perl/5.24.4/autodie/Util.pm
+FILERPROVIDESFLIST_perl-module-autodie-util: /usr/lib/perl/5.24.4/autodie/Util.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/autodie/Util.pm": 7743}
+FILERPROVIDES_/usr/lib/perl/5.24.4/autodie/Util.pm_perl-module-autodie-util:  perl(autodie::Util)
+PKGSIZE_perl-module-autodie-util: 7743

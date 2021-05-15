@@ -1,0 +1,20 @@
+PN: mtd-utils
+PV: 2.0.2+AUTOINC+bc63d36e39
+PR: r0
+PKGV: 2.0.2+0+bc63d36e39
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: Tools for managing memory technology devices
+RDEPENDS_mtd-utils-jffs2: zlib (>= 1.2.11) lzo (>= 2.10) glibc (>= 2.28)
+RRECOMMENDS_mtd-utils-jffs2: mtd-utils-lic
+SECTION: base
+PKG_mtd-utils-jffs2: mtd-utils-jffs2
+FILES_mtd-utils-jffs2: /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
+FILES_INFO: {"/usr/sbin/jffs2reader": 9660, "/usr/sbin/jffs2dump": 17856, "/usr/sbin/sumtool": 18032, "/usr/sbin/mkfs.jffs2": 39024}
+FILERDEPENDSFLIST_mtd-utils-jffs2: /usr/sbin/jffs2reader /usr/sbin/jffs2dump /usr/sbin/sumtool /usr/sbin/mkfs.jffs2
+FILERDEPENDS_/usr/sbin/jffs2reader_mtd-utils-jffs2:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libz.so.1 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/jffs2dump_mtd-utils-jffs2:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/sumtool_mtd-utils-jffs2:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/mkfs.jffs2_mtd-utils-jffs2:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libz.so.1 liblzo2.so.2 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_mtd-utils-jffs2: 84572

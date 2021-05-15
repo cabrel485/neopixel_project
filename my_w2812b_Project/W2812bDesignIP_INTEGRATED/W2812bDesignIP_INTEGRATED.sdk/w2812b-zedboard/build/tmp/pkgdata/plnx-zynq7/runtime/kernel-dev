@@ -1,0 +1,14 @@
+PN: linux-xlnx
+PV: 4.19-xilinx-v2019.1+gitAUTOINC+9811303824
+PR: r0
+PKGV: 4.19-xilinx-v2019.1+git0+9811303824
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RRECOMMENDS_kernel-dev: linux-xlnx-lic kernel-base-dev kernel-image-fitimage-dev kernel-image-uimage-dev kernel-image-vmlinux-dev kernel-image-zimage-dev kernel-module-8021q-4.19.0-xilinx-v2019.1-dev kernel-module-bridge-4.19.0-xilinx-v2019.1-dev kernel-module-crypto-engine-4.19.0-xilinx-v2019.1-dev kernel-module-drbg-4.19.0-xilinx-v2019.1-dev kernel-module-echainiv-4.19.0-xilinx-v2019.1-dev kernel-module-g-zero-4.19.0-xilinx-v2019.1-dev kernel-module-hmac-4.19.0-xilinx-v2019.1-dev kernel-module-ipip-4.19.0-xilinx-v2019.1-dev kernel-module-jitterentropy-rng-4.19.0-xilinx-v2019.1-dev kernel-module-libcomposite-4.19.0-xilinx-v2019.1-dev kernel-module-llc-4.19.0-xilinx-v2019.1-dev kernel-module-p8022-4.19.0-xilinx-v2019.1-dev kernel-module-psnap-4.19.0-xilinx-v2019.1-dev kernel-module-remoteproc-4.19.0-xilinx-v2019.1-dev kernel-module-rpmsg-char-4.19.0-xilinx-v2019.1-dev kernel-module-rpmsg-core-4.19.0-xilinx-v2019.1-dev kernel-module-sha256-generic-4.19.0-xilinx-v2019.1-dev kernel-module-stp-4.19.0-xilinx-v2019.1-dev kernel-module-uio-pdrv-genirq-4.19.0-xilinx-v2019.1-dev kernel-module-usb-f-mass-storage-4.19.0-xilinx-v2019.1-dev kernel-module-usb-f-ss-lb-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-crypto-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-ring-4.19.0-xilinx-v2019.1-dev kernel-module-virtio-rpmsg-bus-4.19.0-xilinx-v2019.1-dev kernel-module-zynq-remoteproc-4.19.0-xilinx-v2019.1-dev kernel-vmlinux-dev kernel-4.19.0-xilinx-v2019.1-dev
+SECTION: kernel
+PKG_kernel-dev: kernel-dev
+FILES_kernel-dev: /boot/System.map* /boot/Module.symvers* /boot/config* /usr/src/kernel /lib/modules/4.19.0-xilinx-v2019.1/build
+FILES_INFO: {"/boot/Module.symvers-4.19.0-xilinx-v2019.1": 512067, "/boot/System.map-4.19.0-xilinx-v2019.1": 2008534, "/boot/config-4.19.0-xilinx-v2019.1": 123478}
+PKGSIZE_kernel-dev: 2644079

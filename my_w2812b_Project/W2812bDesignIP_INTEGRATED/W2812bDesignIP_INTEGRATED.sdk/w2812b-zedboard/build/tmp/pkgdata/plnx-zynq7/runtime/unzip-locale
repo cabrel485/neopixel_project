@@ -1,0 +1,16 @@
+PN: unzip
+PE: 1
+PV: 6.0
+PR: r5
+PKGE: 1
+PKGV: 6.0
+PKGR: r5
+LICENSE: BSD-3-Clause
+DESCRIPTION: Utilities for extracting and viewing files in .zip archives.
+SUMMARY: Utilities for extracting and viewing files in .zip archives
+RRECOMMENDS_unzip-locale: unzip-lic
+SECTION: console/utils
+PKG_unzip-locale: unzip-locale
+FILES_unzip-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_unzip-locale: 0

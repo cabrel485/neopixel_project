@@ -1,0 +1,13 @@
+PN: eudev
+PV: 3.2.5
+PR: r0
+PKGV: 3.2.5
+PKGR: r0
+LICENSE: GPLv2.0+ & LGPL-2.1+
+DESCRIPTION: eudev is a fork of systemd's udev.
+SUMMARY: eudev is a fork of systemd's udev
+SECTION: base
+PKG_eudev-lic: eudev-lic
+FILES_eudev-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/eudev/generic_LGPL-2.1": 25878, "/usr/share/licenses/eudev/generic_GPLv2.0": 17611, "/usr/share/licenses/eudev/COPYING": 17987}
+PKGSIZE_eudev-lic: 61476

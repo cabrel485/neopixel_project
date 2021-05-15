@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-harness-env: perl module tap-harness-env
+SUMMARY_perl-module-tap-harness-env: perl module tap-harness-env
+RDEPENDS_perl-module-tap-harness-env: perl perl-module-constant perl-module-strict perl-module-tap-object perl-module-text-parsewords perl-module-warnings
+SECTION: devel
+PKG_perl-module-tap-harness-env: perl-module-tap-harness-env
+FILES_perl-module-tap-harness-env: /usr/lib/perl/5.24.4/TAP/Harness/Env.pm
+FILERPROVIDESFLIST_perl-module-tap-harness-env: /usr/lib/perl/5.24.4/TAP/Harness/Env.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/TAP/Harness/Env.pm": 5419}
+FILERPROVIDES_/usr/lib/perl/5.24.4/TAP/Harness/Env.pm_perl-module-tap-harness-env:  perl(TAP::Harness::Env)
+PKGSIZE_perl-module-tap-harness-env: 5419

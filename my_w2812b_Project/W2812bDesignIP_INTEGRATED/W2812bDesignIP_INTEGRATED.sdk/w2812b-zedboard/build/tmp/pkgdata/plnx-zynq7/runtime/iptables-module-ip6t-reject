@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ip6t-reject: iptables module ip6t-reject
+SUMMARY_iptables-module-ip6t-reject: iptables module ip6t-reject
+RDEPENDS_iptables-module-ip6t-reject: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ip6t-reject: iptables-module-ip6t-reject
+FILES_iptables-module-ip6t-reject: /usr/lib/xtables/libip6t_REJECT.so
+FILERPROVIDESFLIST_iptables-module-ip6t-reject: /usr/lib/xtables/libip6t@underscore@REJECT.so
+FILES_INFO: {"/usr/lib/xtables/libip6t_REJECT.so": 5516}
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@REJECT.so_iptables-module-ip6t-reject:  libip6t_REJECT.so
+FILERDEPENDSFLIST_iptables-module-ip6t-reject: /usr/lib/xtables/libip6t@underscore@REJECT.so
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@REJECT.so_iptables-module-ip6t-reject:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ip6t-reject: 5516

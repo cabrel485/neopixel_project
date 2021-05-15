@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-miq-ni: locale definition for miq-ni
+SUMMARY_glibc-localedata-miq-ni: locale definition for miq-ni
+RDEPENDS_glibc-localedata-miq-ni: glibc-localedata-es-es glibc-localedata-es-ni glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-miq-ni: glibc-localedata-miq-ni
+FILES_glibc-localedata-miq-ni: /usr/share/i18n/locales/miq_NI
+FILES_INFO: {"/usr/share/i18n/locales/miq_NI": 5117}
+PKGSIZE_glibc-localedata-miq-ni: 5117

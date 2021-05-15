@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sm-ws: locale definition for sm-ws
+SUMMARY_glibc-localedata-sm-ws: locale definition for sm-ws
+RDEPENDS_glibc-localedata-sm-ws: glibc-localedata-en-us glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-sm-ws: glibc-localedata-sm-ws
+FILES_glibc-localedata-sm-ws: /usr/share/i18n/locales/sm_WS
+FILES_INFO: {"/usr/share/i18n/locales/sm_WS": 3707}
+PKGSIZE_glibc-localedata-sm-ws: 3707

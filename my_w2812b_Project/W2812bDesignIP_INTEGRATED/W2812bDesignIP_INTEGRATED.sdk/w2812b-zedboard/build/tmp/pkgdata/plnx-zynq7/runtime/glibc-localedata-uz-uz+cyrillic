@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-uz-uz+cyrillic: locale definition for uz-uz+cyrillic
+SUMMARY_glibc-localedata-uz-uz+cyrillic: locale definition for uz-uz+cyrillic
+RDEPENDS_glibc-localedata-uz-uz+cyrillic: glibc-localedata-i18n glibc-localedata-translit-combining glibc-localedata-uz-uz
+SECTION: base
+PKG_glibc-localedata-uz-uz+cyrillic: glibc-localedata-uz-uz+cyrillic
+FILES_glibc-localedata-uz-uz+cyrillic: /usr/share/i18n/locales/uz_UZ@cyrillic
+FILES_INFO: {"/usr/share/i18n/locales/uz_UZ@cyrillic": 8340}
+PKGSIZE_glibc-localedata-uz-uz+cyrillic: 8340

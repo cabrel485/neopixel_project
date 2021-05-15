@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444631.99 
+libxau-1_1.0.8-r0: do_package_write_rpm_setscene
+Elapsed time: 0.19 seconds
+utime: 21
+stime: 6
+cutime: 1
+cstime: 1
+IO wchar: 289894
+IO syscr: 200
+IO write_bytes: 163840
+IO cancelled_write_bytes: 0
+IO read_bytes: 36864
+IO rchar: 371015
+IO syscw: 146
+rusage ru_utime: 0.21362399999999998
+rusage ru_stime: 0.061035
+rusage ru_maxrss: 131412
+rusage ru_minflt: 13368
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 86
+Child rusage ru_utime: 0.01022
+Child rusage ru_stime: 0.019357
+Child rusage ru_maxrss: 128644
+Child rusage ru_minflt: 2242
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 72
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1614444632.18 

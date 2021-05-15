@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-html: Python HTML processing support
+RDEPENDS_python3-html: python3-core
+RRECOMMENDS_python3-html: python3-lic
+SECTION: devel/python
+PKG_python3-html: python3-html
+FILES_python3-html:  /usr/lib/python3.5/formatter.py /usr/lib/python3.5/html /usr/lib/python3.5/__pycache__/formatter.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/html/__pycache__/entities.cpython-35.opt-1.pyc": 55420, "/usr/lib/python3.5/html/__init__.py": 4756, "/usr/lib/python3.5/formatter.py": 15143, "/usr/lib/python3.5/html/__pycache__/parser.cpython-35.opt-1.pyc": 11741, "/usr/lib/python3.5/html/__pycache__/__init__.cpython-35.opt-1.pyc": 3612, "/usr/lib/python3.5/__pycache__/formatter.cpython-35.opt-1.pyc": 18796, "/usr/lib/python3.5/__pycache__/formatter.cpython-35.pyc": 18796, "/usr/lib/python3.5/html/__pycache__/__init__.cpython-35.pyc": 3612, "/usr/lib/python3.5/html/__pycache__/entities.cpython-35.opt-2.pyc": 55368, "/usr/lib/python3.5/html/__pycache__/entities.cpython-35.pyc": 55420, "/usr/lib/python3.5/html/__pycache__/parser.cpython-35.pyc": 12210, "/usr/lib/python3.5/html/__pycache__/__init__.cpython-35.opt-2.pyc": 2951, "/usr/lib/python3.5/html/entities.py": 75315, "/usr/lib/python3.5/html/__pycache__/parser.cpython-35.opt-2.pyc": 10372, "/usr/lib/python3.5/__pycache__/formatter.cpython-35.opt-2.pyc": 16344, "/usr/lib/python3.5/html/parser.py": 17727}
+PKGSIZE_python3-html: 377583

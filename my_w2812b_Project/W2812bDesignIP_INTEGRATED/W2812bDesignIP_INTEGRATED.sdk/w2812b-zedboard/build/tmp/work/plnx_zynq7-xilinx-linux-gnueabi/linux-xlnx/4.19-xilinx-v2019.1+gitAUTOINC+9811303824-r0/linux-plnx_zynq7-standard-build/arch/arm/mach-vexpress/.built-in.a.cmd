@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-vexpress/built-in.a := rm -f arch/arm/mach-vexpress/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD arch/arm/mach-vexpress/built-in.a arch/arm/mach-vexpress/v2m.o arch/arm/mach-vexpress/platsmp.o arch/arm/mach-vexpress/hotplug.o

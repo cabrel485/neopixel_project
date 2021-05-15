@@ -1,0 +1,10 @@
+def do_image(d):
+    from oe.utils import execute_pre_post_process
+
+    d.setVarFlag('REPRODUCIBLE_TIMESTAMP_ROOTFS', 'export', '1')
+    pre_process_cmds = d.getVar("IMAGE_PREPROCESS_COMMAND")
+
+    execute_pre_post_process(d, pre_process_cmds)
+
+do_image(d)
+

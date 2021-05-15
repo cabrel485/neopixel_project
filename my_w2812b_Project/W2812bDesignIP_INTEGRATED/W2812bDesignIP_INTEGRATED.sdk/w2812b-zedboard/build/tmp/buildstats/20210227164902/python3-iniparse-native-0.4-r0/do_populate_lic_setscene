@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444632.43 
+python3-iniparse-native-0.4-r0: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 23
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 199324
+IO syscr: 195
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 286847
+IO syscw: 142
+rusage ru_utime: 0.234475
+rusage ru_stime: 0.059612
+rusage ru_maxrss: 131448
+rusage ru_minflt: 13290
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 113
+Child rusage ru_utime: 0.015865
+Child rusage ru_stime: 0.015811
+Child rusage ru_maxrss: 128664
+Child rusage ru_minflt: 2264
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1614444632.54 

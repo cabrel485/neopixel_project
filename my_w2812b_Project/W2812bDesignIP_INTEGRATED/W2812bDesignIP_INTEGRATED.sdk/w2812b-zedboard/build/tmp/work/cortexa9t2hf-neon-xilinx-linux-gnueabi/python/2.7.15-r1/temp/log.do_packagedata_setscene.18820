@@ -1,0 +1,286 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz for 03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz
+DEBUG: Searching for 03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo for 03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/03/sstate%3Apython%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A2.7.15%3Ar1%3Acortexa9t2hf-neon%3A3%3A03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo;downloadfilename=03/sstate:python:cortexa9t2hf-neon-xilinx-linux-gnueabi:2.7.15:r1:cortexa9t2hf-neon:3:03b47ac4d92548eb9d9e6861484aa6c0_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/python
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/python-fcntl
+pkgdata/runtime-reverse/python-contextlib
+pkgdata/runtime-reverse/python-gdbm
+pkgdata/runtime-reverse/python-image
+pkgdata/runtime-reverse/python-shell
+pkgdata/runtime-reverse/python-distutils-staticdev
+pkgdata/runtime-reverse/python-compression
+pkgdata/runtime-reverse/python-xml
+pkgdata/runtime-reverse/python-smtpd
+pkgdata/runtime-reverse/python-subprocess
+pkgdata/runtime-reverse/python-tkinter
+pkgdata/runtime-reverse/python-pprint
+pkgdata/runtime-reverse/python-db
+pkgdata/runtime-reverse/python-lang
+pkgdata/runtime-reverse/python-zlib
+pkgdata/runtime-reverse/python-netserver
+pkgdata/runtime-reverse/python-textutils
+pkgdata/runtime-reverse/python-pydoc
+pkgdata/runtime-reverse/python-argparse
+pkgdata/runtime-reverse/python-syslog
+pkgdata/runtime-reverse/python-netclient
+pkgdata/runtime-reverse/python-runpy
+pkgdata/runtime-reverse/python-unittest
+pkgdata/runtime-reverse/python-idle
+pkgdata/runtime-reverse/python-dbg
+pkgdata/runtime-reverse/python-xmlrpc
+pkgdata/runtime-reverse/python-compiler
+pkgdata/runtime-reverse/python-profile
+pkgdata/runtime-reverse/python-io
+pkgdata/runtime-reverse/python-plistlib
+pkgdata/runtime-reverse/python-bsddb
+pkgdata/runtime-reverse/python-stringold
+pkgdata/runtime-reverse/libpython2.7-1.0
+pkgdata/runtime-reverse/python-modules
+pkgdata/runtime-reverse/python-robotparser
+pkgdata/runtime-reverse/python-doctest
+pkgdata/runtime-reverse/python-2to3
+pkgdata/runtime-reverse/python-compile
+pkgdata/runtime-reverse/python-core
+pkgdata/runtime-reverse/python-unixadmin
+pkgdata/runtime-reverse/python-distutils
+pkgdata/runtime-reverse/python-datetime
+pkgdata/runtime-reverse/python-difflib
+pkgdata/runtime-reverse/python-logging
+pkgdata/runtime-reverse/python-html
+pkgdata/runtime-reverse/python-json
+pkgdata/runtime-reverse/python-doc
+pkgdata/runtime-reverse/python-lic
+pkgdata/runtime-reverse/python-threading
+pkgdata/runtime-reverse/python-mmap
+pkgdata/runtime-reverse/python-pkgutil
+pkgdata/runtime-reverse/python-terminal
+pkgdata/runtime-reverse/python-numbers
+pkgdata/runtime-reverse/python-pickle
+pkgdata/runtime-reverse/python-sqlite3
+pkgdata/runtime-reverse/python-hotshot
+pkgdata/runtime-reverse/python-resource
+pkgdata/runtime-reverse/python-tests
+pkgdata/runtime-reverse/python-mailbox
+pkgdata/runtime-reverse/python-ptest
+pkgdata/runtime-reverse/python-math
+pkgdata/runtime-reverse/python-curses
+pkgdata/runtime-reverse/python-multiprocessing
+pkgdata/runtime-reverse/python-misc
+pkgdata/runtime-reverse/python-email
+pkgdata/runtime-reverse/python-ctypes
+pkgdata/runtime-reverse/python-re
+pkgdata/runtime-reverse/python-dev
+pkgdata/runtime-reverse/python-audio
+pkgdata/runtime-reverse/python-debugger
+pkgdata/runtime-reverse/python-codecs
+pkgdata/runtime-reverse/python-mime
+pkgdata/runtime-reverse/python-crypt
+pkgdata/runtime/
+pkgdata/runtime/python-email.packaged
+pkgdata/runtime/python-fcntl
+pkgdata/runtime/python-dev.packaged
+pkgdata/runtime/python-contextlib
+pkgdata/runtime/python-pprint.packaged
+pkgdata/runtime/python-netclient.packaged
+pkgdata/runtime/python-gdbm
+pkgdata/runtime/python-logging.packaged
+pkgdata/runtime/python-image
+pkgdata/runtime/python-shell.packaged
+pkgdata/runtime/python-shell
+pkgdata/runtime/python-distutils-staticdev
+pkgdata/runtime/python-json.packaged
+pkgdata/runtime/python-compression
+pkgdata/runtime/python-ptest.packaged
+pkgdata/runtime/python-xml
+pkgdata/runtime/python-unittest.packaged
+pkgdata/runtime/python-smtpd
+pkgdata/runtime/python-subprocess.packaged
+pkgdata/runtime/python-contextlib.packaged
+pkgdata/runtime/python-subprocess
+pkgdata/runtime/python-curses.packaged
+pkgdata/runtime/python-tkinter
+pkgdata/runtime/python-netserver.packaged
+pkgdata/runtime/python-pprint
+pkgdata/runtime/python-numbers.packaged
+pkgdata/runtime/python-db
+pkgdata/runtime/python-crypt.packaged
+pkgdata/runtime/python-lang
+pkgdata/runtime/python-zlib
+pkgdata/runtime/python-modules.packaged
+pkgdata/runtime/python-distutils.packaged
+pkgdata/runtime/python-netserver
+pkgdata/runtime/python-textutils
+pkgdata/runtime/python-lic.packaged
+pkgdata/runtime/python-stringold.packaged
+pkgdata/runtime/python-io.packaged
+pkgdata/runtime/python-mmap.packaged
+pkgdata/runtime/python-html.packaged
+pkgdata/runtime/python-pickle.packaged
+pkgdata/runtime/python-pydoc
+pkgdata/runtime/python-mailbox.packaged
+pkgdata/runtime/python-audio.packaged
+pkgdata/runtime/python-fcntl.packaged
+pkgdata/runtime/python-doc.packaged
+pkgdata/runtime/python-argparse
+pkgdata/runtime/python-syslog
+pkgdata/runtime/python-lang.packaged
+pkgdata/runtime/python-netclient
+pkgdata/runtime/python-codecs.packaged
+pkgdata/runtime/python-runpy
+pkgdata/runtime/python-unittest
+pkgdata/runtime/python-compile.packaged
+pkgdata/runtime/python-idle
+pkgdata/runtime/python-dbg
+pkgdata/runtime/python-sqlite3.packaged
+pkgdata/runtime/python-2to3.packaged
+pkgdata/runtime/python-math.packaged
+pkgdata/runtime/python-xml.packaged
+pkgdata/runtime/python-smtpd.packaged
+pkgdata/runtime/python-xmlrpc
+pkgdata/runtime/python-staticdev
+pkgdata/runtime/python-compiler
+pkgdata/runtime/python-tests.packaged
+pkgdata/runtime/python-profile
+pkgdata/runtime/python-io
+pkgdata/runtime/python-plistlib
+pkgdata/runtime/python-re.packaged
+pkgdata/runtime/python-bsddb
+pkgdata/runtime/python-gdbm.packaged
+pkgdata/runtime/python-stringold
+pkgdata/runtime/python-modules
+pkgdata/runtime/python-db.packaged
+pkgdata/runtime/python-debugger.packaged
+pkgdata/runtime/python-profile.packaged
+pkgdata/runtime/python-robotparser
+pkgdata/runtime/python-bsddb.packaged
+pkgdata/runtime/python-doctest
+pkgdata/runtime/python-2to3
+pkgdata/runtime/python-robotparser.packaged
+pkgdata/runtime/python-compile
+pkgdata/runtime/python-doctest.packaged
+pkgdata/runtime/python-core
+pkgdata/runtime/python-unixadmin.packaged
+pkgdata/runtime/python-unixadmin
+pkgdata/runtime/python-distutils
+pkgdata/runtime/python-datetime
+pkgdata/runtime/python-difflib
+pkgdata/runtime/libpython2.packaged
+pkgdata/runtime/python-xmlrpc.packaged
+pkgdata/runtime/python-logging
+pkgdata/runtime/python-html
+pkgdata/runtime/python-pkgutil.packaged
+pkgdata/runtime/python-compression.packaged
+pkgdata/runtime/python-misc.packaged
+pkgdata/runtime/python-json
+pkgdata/runtime/python-doc
+pkgdata/runtime/python-mime.packaged
+pkgdata/runtime/python-lic
+pkgdata/runtime/python-threading
+pkgdata/runtime/python-terminal.packaged
+pkgdata/runtime/python-datetime.packaged
+pkgdata/runtime/python-pydoc.packaged
+pkgdata/runtime/python-mmap
+pkgdata/runtime/python-core.packaged
+pkgdata/runtime/python-zlib.packaged
+pkgdata/runtime/python-compiler.packaged
+pkgdata/runtime/python-pkgutil
+pkgdata/runtime/python-terminal
+pkgdata/runtime/python-numbers
+pkgdata/runtime/python-man
+pkgdata/runtime/python-pickle
+pkgdata/runtime/python-sqlite3
+pkgdata/runtime/python-threading.packaged
+pkgdata/runtime/python-argparse.packaged
+pkgdata/runtime/python-hotshot
+pkgdata/runtime/python-resource
+pkgdata/runtime/python-dbg.packaged
+pkgdata/runtime/python-tests
+pkgdata/runtime/python-syslog.packaged
+pkgdata/runtime/python-mailbox
+pkgdata/runtime/python-idle.packaged
+pkgdata/runtime/python-resource.packaged
+pkgdata/runtime/python-ptest
+pkgdata/runtime/python-math
+pkgdata/runtime/python-curses
+pkgdata/runtime/python-multiprocessing
+pkgdata/runtime/python-ctypes.packaged
+pkgdata/runtime/python-hotshot.packaged
+pkgdata/runtime/python-misc
+pkgdata/runtime/python-email
+pkgdata/runtime/python-ctypes
+pkgdata/runtime/libpython2
+pkgdata/runtime/python-re
+pkgdata/runtime/python-multiprocessing.packaged
+pkgdata/runtime/python-runpy.packaged
+pkgdata/runtime/python-distutils-staticdev.packaged
+pkgdata/runtime/python-locale
+pkgdata/runtime/python-tkinter.packaged
+pkgdata/runtime/python-plistlib.packaged
+pkgdata/runtime/python-dev
+pkgdata/runtime/python-audio
+pkgdata/runtime/python-debugger
+pkgdata/runtime/python-codecs
+pkgdata/runtime/python-mime
+pkgdata/runtime/python-crypt
+pkgdata/runtime/python-difflib.packaged
+pkgdata/runtime/python-textutils.packaged
+pkgdata/runtime/python-image.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/python-dev.pclist
+pkgdata/shlibs2/libpython2.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/python/
+pkgdata/runtime-rprovides/python/python-core
+pkgdata/runtime-rprovides/libpython2/
+pkgdata/runtime-rprovides/libpython2/libpython2
+pkgdata/runtime-rprovides/(=2.7.15)/
+pkgdata/runtime-rprovides/(=2.7.15)/libpython2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/python/2.7.15-r1/pkgdata to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/pkgdata/plnx-zynq7
+DEBUG: Python function do_packagedata_setscene finished

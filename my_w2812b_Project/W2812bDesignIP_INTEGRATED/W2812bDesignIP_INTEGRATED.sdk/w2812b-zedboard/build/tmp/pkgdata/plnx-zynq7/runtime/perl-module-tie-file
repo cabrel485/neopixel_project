@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tie-file: perl module tie-file
+SUMMARY_perl-module-tie-file: perl module tie-file
+RDEPENDS_perl-module-tie-file: perl perl-module-carp perl-module-fcntl perl-module-posix perl-module-strict perl-module-symbol
+SECTION: devel
+PKG_perl-module-tie-file: perl-module-tie-file
+FILES_perl-module-tie-file: /usr/lib/perl/5.24.4/Tie/File.pm
+FILERPROVIDESFLIST_perl-module-tie-file: /usr/lib/perl/5.24.4/Tie/File.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Tie/File.pm": 77444}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Tie/File.pm_perl-module-tie-file:  perl(Tie::File) perl(Tie::File::Cache) perl(Tie::File::Heap)
+PKGSIZE_perl-module-tie-file: 77444

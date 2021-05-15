@@ -1,0 +1,201 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz for b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz
+DEBUG: Searching for b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo for b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/b9/sstate%3Aiptables%3Acortexa9t2hf-neon-xilinx-linux-gnueabi%3A1.6.2%3Ar0%3Acortexa9t2hf-neon%3A3%3Ab93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo;downloadfilename=b9/sstate:iptables:cortexa9t2hf-neon-xilinx-linux-gnueabi:1.6.2:r0:cortexa9t2hf-neon:3:b93b1d0bdfde6b31554429a67765e670_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/usr/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/licenses/
+sysroot-destdir/usr/share/licenses/iptables/
+sysroot-destdir/usr/share/licenses/iptables/COPYING
+sysroot-destdir/usr/share/licenses/iptables/generic_GPLv2
+sysroot-destdir/usr/share/licenses/iptables/iptables.c
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libip4tc.so
+sysroot-destdir/usr/lib/libip6tc.so
+sysroot-destdir/usr/lib/libiptc.so.0.0.0
+sysroot-destdir/usr/lib/libiptc.so
+sysroot-destdir/usr/lib/libip6tc.so.0
+sysroot-destdir/usr/lib/libip4tc.so.0
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/libiptc.pc
+sysroot-destdir/usr/lib/pkgconfig/libip6tc.pc
+sysroot-destdir/usr/lib/pkgconfig/xtables.pc
+sysroot-destdir/usr/lib/pkgconfig/libip4tc.pc
+sysroot-destdir/usr/lib/xtables/
+sysroot-destdir/usr/lib/xtables/libxt_ecn.so
+sysroot-destdir/usr/lib/xtables/libxt_hashlimit.so
+sysroot-destdir/usr/lib/xtables/libip6t_NETMAP.so
+sysroot-destdir/usr/lib/xtables/libebt_802_3.so
+sysroot-destdir/usr/lib/xtables/libebt_mark_m.so
+sysroot-destdir/usr/lib/xtables/libxt_TPROXY.so
+sysroot-destdir/usr/lib/xtables/libip6t_SNAT.so
+sysroot-destdir/usr/lib/xtables/libxt_MARK.so
+sysroot-destdir/usr/lib/xtables/libxt_IDLETIMER.so
+sysroot-destdir/usr/lib/xtables/libxt_time.so
+sysroot-destdir/usr/lib/xtables/libxt_ipvs.so
+sysroot-destdir/usr/lib/xtables/libip6t_ipv6header.so
+sysroot-destdir/usr/lib/xtables/libxt_limit.so
+sysroot-destdir/usr/lib/xtables/libip6t_DNAT.so
+sysroot-destdir/usr/lib/xtables/libipt_CLUSTERIP.so
+sysroot-destdir/usr/lib/xtables/libxt_dscp.so
+sysroot-destdir/usr/lib/xtables/libxt_sctp.so
+sysroot-destdir/usr/lib/xtables/libxt_rpfilter.so
+sysroot-destdir/usr/lib/xtables/libxt_ipcomp.so
+sysroot-destdir/usr/lib/xtables/libxt_mac.so
+sysroot-destdir/usr/lib/xtables/libxt_iprange.so
+sysroot-destdir/usr/lib/xtables/libxt_RATEEST.so
+sysroot-destdir/usr/lib/xtables/libxt_NFQUEUE.so
+sysroot-destdir/usr/lib/xtables/libxt_pkttype.so
+sysroot-destdir/usr/lib/xtables/libxt_state.so
+sysroot-destdir/usr/lib/xtables/libxt_connmark.so
+sysroot-destdir/usr/lib/xtables/libipt_LOG.so
+sysroot-destdir/usr/lib/xtables/libxt_multiport.so
+sysroot-destdir/usr/lib/xtables/libxt_nfacct.so
+sysroot-destdir/usr/lib/xtables/libxt_SECMARK.so
+sysroot-destdir/usr/lib/xtables/libipt_ah.so
+sysroot-destdir/usr/lib/xtables/libxt_quota.so
+sysroot-destdir/usr/lib/xtables/libxt_recent.so
+sysroot-destdir/usr/lib/xtables/libxt_NFLOG.so
+sysroot-destdir/usr/lib/xtables/libip6t_eui64.so
+sysroot-destdir/usr/lib/xtables/libxt_addrtype.so
+sysroot-destdir/usr/lib/xtables/libebt_log.so
+sysroot-destdir/usr/lib/xtables/libxt_AUDIT.so
+sysroot-destdir/usr/lib/xtables/libipt_REJECT.so
+sysroot-destdir/usr/lib/xtables/libxt_osf.so
+sysroot-destdir/usr/lib/xtables/libxt_conntrack.so
+sysroot-destdir/usr/lib/xtables/libxt_helper.so
+sysroot-destdir/usr/lib/xtables/libip6t_LOG.so
+sysroot-destdir/usr/lib/xtables/libxt_TOS.so
+sysroot-destdir/usr/lib/xtables/libxt_socket.so
+sysroot-destdir/usr/lib/xtables/libxt_LED.so
+sysroot-destdir/usr/lib/xtables/libip6t_ah.so
+sysroot-destdir/usr/lib/xtables/libxt_dccp.so
+sysroot-destdir/usr/lib/xtables/libipt_DNAT.so
+sysroot-destdir/usr/lib/xtables/libxt_TEE.so
+sysroot-destdir/usr/lib/xtables/libipt_icmp.so
+sysroot-destdir/usr/lib/xtables/libxt_CHECKSUM.so
+sysroot-destdir/usr/lib/xtables/libip6t_dst.so
+sysroot-destdir/usr/lib/xtables/libxt_cgroup.so
+sysroot-destdir/usr/lib/xtables/libxt_TCPMSS.so
+sysroot-destdir/usr/lib/xtables/libxt_rateest.so
+sysroot-destdir/usr/lib/xtables/libip6t_hbh.so
+sysroot-destdir/usr/lib/xtables/libxt_cpu.so
+sysroot-destdir/usr/lib/xtables/libip6t_srh.so
+sysroot-destdir/usr/lib/xtables/libipt_REDIRECT.so
+sysroot-destdir/usr/lib/xtables/libxt_cluster.so
+sysroot-destdir/usr/lib/xtables/libxt_tos.so
+sysroot-destdir/usr/lib/xtables/libxt_DSCP.so
+sysroot-destdir/usr/lib/xtables/libip6t_frag.so
+sysroot-destdir/usr/lib/xtables/libxt_mangle.so
+sysroot-destdir/usr/lib/xtables/libxt_NOTRACK.so
+sysroot-destdir/usr/lib/xtables/libxt_TCPOPTSTRIP.so
+sysroot-destdir/usr/lib/xtables/libxt_physdev.so
+sysroot-destdir/usr/lib/xtables/libipt_NETMAP.so
+sysroot-destdir/usr/lib/xtables/libxt_devgroup.so
+sysroot-destdir/usr/lib/xtables/libxt_tcp.so
+sysroot-destdir/usr/lib/xtables/libxt_comment.so
+sysroot-destdir/usr/lib/xtables/libip6t_REJECT.so
+sysroot-destdir/usr/lib/xtables/libxt_TRACE.so
+sysroot-destdir/usr/lib/xtables/libxt_SYNPROXY.so
+sysroot-destdir/usr/lib/xtables/libxt_bpf.so
+sysroot-destdir/usr/lib/xtables/libxt_CLASSIFY.so
+sysroot-destdir/usr/lib/xtables/libip6t_DNPT.so
+sysroot-destdir/usr/lib/xtables/libxt_CONNMARK.so
+sysroot-destdir/usr/lib/xtables/libip6t_HL.so
+sysroot-destdir/usr/lib/xtables/libebt_ip.so
+sysroot-destdir/usr/lib/xtables/libip6t_MASQUERADE.so
+sysroot-destdir/usr/lib/xtables/libxt_u32.so
+sysroot-destdir/usr/lib/xtables/libxt_standard.so
+sysroot-destdir/usr/lib/xtables/libip6t_mh.so
+sysroot-destdir/usr/lib/xtables/libxt_mark.so
+sysroot-destdir/usr/lib/xtables/libxt_set.so
+sysroot-destdir/usr/lib/xtables/libxt_HMARK.so
+sysroot-destdir/usr/lib/xtables/libxt_udp.so
+sysroot-destdir/usr/lib/xtables/libipt_SNAT.so
+sysroot-destdir/usr/lib/xtables/libipt_ECN.so
+sysroot-destdir/usr/lib/xtables/libxt_SET.so
+sysroot-destdir/usr/lib/xtables/libipt_ttl.so
+sysroot-destdir/usr/lib/xtables/libxt_tcpmss.so
+sysroot-destdir/usr/lib/xtables/libipt_TTL.so
+sysroot-destdir/usr/lib/xtables/libipt_realm.so
+sysroot-destdir/usr/lib/xtables/libxt_CT.so
+sysroot-destdir/usr/lib/xtables/libxt_CONNSECMARK.so
+sysroot-destdir/usr/lib/xtables/libip6t_icmp6.so
+sysroot-destdir/usr/lib/xtables/libxt_owner.so
+sysroot-destdir/usr/lib/xtables/libip6t_REDIRECT.so
+sysroot-destdir/usr/lib/xtables/libxt_statistic.so
+sysroot-destdir/usr/lib/xtables/libipt_MASQUERADE.so
+sysroot-destdir/usr/lib/xtables/libip6t_hl.so
+sysroot-destdir/usr/lib/xtables/libxt_string.so
+sysroot-destdir/usr/lib/xtables/libipt_ULOG.so
+sysroot-destdir/usr/lib/xtables/libip6t_rt.so
+sysroot-destdir/usr/lib/xtables/libxt_connlimit.so
+sysroot-destdir/usr/lib/xtables/libxt_esp.so
+sysroot-destdir/usr/lib/xtables/libxt_length.so
+sysroot-destdir/usr/lib/xtables/libip6t_SNPT.so
+sysroot-destdir/usr/lib/xtables/libxt_connbytes.so
+sysroot-destdir/usr/lib/xtables/libxt_policy.so
+sysroot-destdir/usr/lib/libxtables.so
+sysroot-destdir/usr/lib/libiptc.so.0
+sysroot-destdir/usr/lib/libip4tc.so.0.1.0
+sysroot-destdir/usr/lib/libxtables.so.12.0.0
+sysroot-destdir/usr/lib/libip6tc.so.0.1.0
+sysroot-destdir/usr/lib/libxtables.so.12
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/libiptc/
+sysroot-destdir/usr/include/libiptc/xtcshared.h
+sysroot-destdir/usr/include/libiptc/ipt_kernel_headers.h
+sysroot-destdir/usr/include/libiptc/libxtc.h
+sysroot-destdir/usr/include/libiptc/libip6tc.h
+sysroot-destdir/usr/include/libiptc/libiptc.h
+sysroot-destdir/usr/include/xtables-version.h
+sysroot-destdir/usr/include/xtables.h
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/iptables
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/iptables/1.6.2-r0/sysroot-destdir to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/cortexa9t2hf-neon/iptables
+DEBUG: Python function do_populate_sysroot_setscene finished

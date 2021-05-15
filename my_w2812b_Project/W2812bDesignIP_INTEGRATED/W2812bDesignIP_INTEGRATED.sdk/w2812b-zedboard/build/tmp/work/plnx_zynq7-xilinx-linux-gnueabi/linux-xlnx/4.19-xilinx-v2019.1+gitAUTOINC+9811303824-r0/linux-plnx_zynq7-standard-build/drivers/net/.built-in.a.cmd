@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.a := rm -f drivers/net/built-in.a; arm-xilinx-linux-gnueabi-ar rcSTPD drivers/net/built-in.a drivers/net/Space.o drivers/net/loopback.o drivers/net/phy/built-in.a drivers/net/can/built-in.a drivers/net/ethernet/built-in.a drivers/net/wireless/built-in.a drivers/net/usb/built-in.a

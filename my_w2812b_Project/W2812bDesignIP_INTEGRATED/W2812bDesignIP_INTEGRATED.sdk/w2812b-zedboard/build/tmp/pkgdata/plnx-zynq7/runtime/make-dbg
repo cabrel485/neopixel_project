@@ -1,0 +1,15 @@
+PN: make
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: GPLv3 & LGPLv2
+DESCRIPTION_make-dbg: Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.  Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_make-dbg: GNU tool that controls the build process - Debugging files
+RRECOMMENDS_make-dbg: make-lic glibc-dbg
+SECTION_make-dbg: devel
+PKG_make-dbg: make-dbg
+ALLOW_EMPTY_make-dbg: 1
+FILES_make-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/make/4.2.1-r0/make-4.2.1/strcache.c": 9363, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/variable.c": 55683, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/commands.h": 1943, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/debug.h": 1427, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/job.h": 5098, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/getopt.h": 4472, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/dep.h": 4792, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/hash.c": 8246, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/guile.c": 4007, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/job.c": 106450, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/load.c": 6964, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/gnumake.h": 2912, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/version.c": 1169, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/file.c": 32208, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/misc.c": 16392, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/posixos.c": 10762, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/filedef.h": 10108, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/default.c": 21408, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/makeint.h": 22638, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/remote-stub.c": 2865, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/loadapi.c": 2063, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/rule.c": 15440, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/remake.c": 56090, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/hash.h": 8553, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/output.c": 17710, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/implicit.c": 34447, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/vpath.c": 19117, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/rule.h": 2170, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/function.c": 70187, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/dir.c": 36131, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/main.c": 106694, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/read.c": 101253, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/output.h": 1877, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/expand.c": 18100, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/arscan.c": 28170, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/os.h": 3017, "/usr/bin/.debug/make": 694988, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/variable.h": 10428, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/ar.c": 8487, "/usr/src/debug/make/4.2.1-r0/make-4.2.1/commands.c": 18521}
+PKGSIZE_make-dbg: 1582350

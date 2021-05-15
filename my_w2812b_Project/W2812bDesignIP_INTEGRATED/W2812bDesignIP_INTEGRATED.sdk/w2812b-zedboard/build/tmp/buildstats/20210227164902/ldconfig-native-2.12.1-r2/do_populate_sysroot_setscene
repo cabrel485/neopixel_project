@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444611.58 
+ldconfig-native-2.12.1-r2: do_populate_sysroot_setscene
+Elapsed time: 0.11 seconds
+utime: 12
+stime: 1
+cutime: 1
+cstime: 1
+IO wchar: 307961
+IO syscr: 194
+IO write_bytes: 192512
+IO cancelled_write_bytes: 49152
+IO read_bytes: 20480
+IO rchar: 353772
+IO syscw: 148
+rusage ru_utime: 0.12986899999999998
+rusage ru_stime: 0.015740999999999998
+rusage ru_maxrss: 131220
+rusage ru_minflt: 7504
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 13
+Child rusage ru_utime: 0.013774999999999999
+Child rusage ru_stime: 0.017341
+Child rusage ru_maxrss: 128492
+Child rusage ru_minflt: 2428
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 208
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 13
+Status: PASSED 
+Ended: 1614444611.69 

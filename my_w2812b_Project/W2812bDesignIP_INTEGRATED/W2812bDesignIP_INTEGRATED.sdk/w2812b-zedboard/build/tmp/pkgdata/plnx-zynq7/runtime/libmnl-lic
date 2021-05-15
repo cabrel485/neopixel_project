@@ -1,0 +1,13 @@
+PN: libmnl
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Minimalistic user-space library oriented to Netlink developers, providing     functions for common tasks in parsing, validating, and constructing both the Netlink header and TLVs.
+SUMMARY: Minimalistic user-space Netlink utility library
+SECTION: libs
+PKG_libmnl-lic: libmnl-lic
+FILES_libmnl-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/libmnl/COPYING": 26530, "/usr/share/licenses/libmnl/generic_LGPLv2.1": 25878}
+PKGSIZE_libmnl-lic: 52408

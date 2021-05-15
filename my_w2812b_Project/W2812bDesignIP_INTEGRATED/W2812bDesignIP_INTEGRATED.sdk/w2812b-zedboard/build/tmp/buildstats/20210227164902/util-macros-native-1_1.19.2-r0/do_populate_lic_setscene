@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444647.15 
+util-macros-native-1_1.19.2-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 26
+stime: 4
+cutime: 1
+cstime: 1
+IO wchar: 148859
+IO syscr: 194
+IO write_bytes: 94208
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 275495
+IO syscw: 140
+rusage ru_utime: 0.264501
+rusage ru_stime: 0.043425
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13427
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 87
+Child rusage ru_utime: 0.018556
+Child rusage ru_stime: 0.010631999999999999
+Child rusage ru_maxrss: 128720
+Child rusage ru_minflt: 2288
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1614444647.25 

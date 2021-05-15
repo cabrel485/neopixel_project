@@ -1,0 +1,14 @@
+PN: fsbl
+PV: 2019.1+gitAUTOINC+26c14d9861
+PR: r0
+PKGV: 2019.1+git0+26c14d9861
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_fsbl-doc: FSBL  This package contains documentation.
+SUMMARY_fsbl-doc: fsbl version 2019.1+gitAUTOINC+26c14d9861-r0 - Documentation files
+RRECOMMENDS_fsbl-doc: fsbl-lic
+SECTION_fsbl-doc: doc
+PKG_fsbl-doc: fsbl-doc
+FILES_fsbl-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_fsbl-doc: 0

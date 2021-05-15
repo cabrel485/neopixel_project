@@ -1,0 +1,15 @@
+PN: tzdata
+PV: 2018g
+PR: r0
+PKGV: 2018g
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-africa: tzdata-africa
+RRECOMMENDS_tzdata-africa: tzdata-lic
+SECTION: base
+PKG_tzdata-africa: tzdata-africa
+FILES_tzdata-africa:  /usr/share/zoneinfo/Africa/*
+FILES_INFO: {"/usr/share/zoneinfo/Africa/Accra": 828, "/usr/share/zoneinfo/Africa/Johannesburg": 262, "/usr/share/zoneinfo/Africa/Malabo": 157, "/usr/share/zoneinfo/Africa/Monrovia": 224, "/usr/share/zoneinfo/Africa/El_Aaiun": 839, "/usr/share/zoneinfo/Africa/Luanda": 157, "/usr/share/zoneinfo/Africa/Conakry": 156, "/usr/share/zoneinfo/Africa/Djibouti": 271, "/usr/share/zoneinfo/Africa/Gaborone": 157, "/usr/share/zoneinfo/Africa/Casablanca": 969, "/usr/share/zoneinfo/Africa/Mbabane": 262, "/usr/share/zoneinfo/Africa/Blantyre": 157, "/usr/share/zoneinfo/Africa/Niamey": 157, "/usr/share/zoneinfo/Africa/Kinshasa": 157, "/usr/share/zoneinfo/Africa/Dar_es_Salaam": 271, "/usr/share/zoneinfo/Africa/Lagos": 157, "/usr/share/zoneinfo/Africa/Harare": 157, "/usr/share/zoneinfo/Africa/Douala": 157, "/usr/share/zoneinfo/Africa/Maseru": 262, "/usr/share/zoneinfo/Africa/Bissau": 194, "/usr/share/zoneinfo/Africa/Khartoum": 699, "/usr/share/zoneinfo/Africa/Sao_Tome": 225, "/usr/share/zoneinfo/Africa/Maputo": 157, "/usr/share/zoneinfo/Africa/Kigali": 157, "/usr/share/zoneinfo/Africa/Brazzaville": 157, "/usr/share/zoneinfo/Africa/Windhoek": 979, "/usr/share/zoneinfo/Africa/Asmara": 271, "/usr/share/zoneinfo/Africa/Juba": 669, "/usr/share/zoneinfo/Africa/Ceuta": 2050, "/usr/share/zoneinfo/Africa/Algiers": 751, "/usr/share/zoneinfo/Africa/Addis_Ababa": 271, "/usr/share/zoneinfo/Africa/Asmera": 271, "/usr/share/zoneinfo/Africa/Banjul": 156, "/usr/share/zoneinfo/Africa/Mogadishu": 271, "/usr/share/zoneinfo/Africa/Bujumbura": 157, "/usr/share/zoneinfo/Africa/Timbuktu": 156, "/usr/share/zoneinfo/Africa/Nairobi": 271, "/usr/share/zoneinfo/Africa/Bamako": 156, "/usr/share/zoneinfo/Africa/Freetown": 156, "/usr/share/zoneinfo/Africa/Lome": 156, "/usr/share/zoneinfo/Africa/Tripoli": 641, "/usr/share/zoneinfo/Africa/Dakar": 156, "/usr/share/zoneinfo/Africa/Nouakchott": 156, "/usr/share/zoneinfo/Africa/Lubumbashi": 157, "/usr/share/zoneinfo/Africa/Kampala": 271, "/usr/share/zoneinfo/Africa/Tunis": 701, "/usr/share/zoneinfo/Africa/Abidjan": 156, "/usr/share/zoneinfo/Africa/Ouagadougou": 156, "/usr/share/zoneinfo/Africa/Libreville": 157, "/usr/share/zoneinfo/Africa/Bangui": 157, "/usr/share/zoneinfo/Africa/Lusaka": 157, "/usr/share/zoneinfo/Africa/Ndjamena": 211, "/usr/share/zoneinfo/Africa/Porto-Novo": 157}
+PKGSIZE_tzdata-africa: 17320

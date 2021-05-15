@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/bin/ncurses5-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/recipe-sysroot-native/usr/bin/ncurses5-config'
+exit 1

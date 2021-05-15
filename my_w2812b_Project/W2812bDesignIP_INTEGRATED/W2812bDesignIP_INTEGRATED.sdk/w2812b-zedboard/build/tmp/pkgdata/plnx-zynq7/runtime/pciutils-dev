@@ -1,0 +1,16 @@
+PN: pciutils
+PV: 3.6.2
+PR: r0
+PKGV: 3.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_pciutils-dev: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_pciutils-dev: PCI utilities - Development files
+RDEPENDS_pciutils-dev: libpci pciutils (= 3.6.2-r0)
+RRECOMMENDS_pciutils-dev: kmod-dev pciutils-lic zlib-dev glibc-dev libpci-dev pciutils-ids-dev libkmod-dev
+SECTION_pciutils-dev: devel
+PKG_pciutils-dev: pciutils-dev
+ALLOW_EMPTY_pciutils-dev: 1
+FILES_pciutils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pciutils/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/include/pci/pci.h": 10387, "/usr/include/pci/config-32.h": 537, "/usr/include/pci/config.h": 1922, "/usr/include/pci/header.h": 69601, "/usr/include/pci/types.h": 1713, "/usr/lib/pkgconfig/libpci.pc": 182, "/usr/lib/libpci.so": 11}
+PKGSIZE_pciutils-dev: 84353

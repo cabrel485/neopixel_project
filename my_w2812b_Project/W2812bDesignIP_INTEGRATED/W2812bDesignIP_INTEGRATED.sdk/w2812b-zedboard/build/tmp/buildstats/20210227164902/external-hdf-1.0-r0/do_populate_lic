@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444715.17 
+external-hdf-1.0-r0: do_populate_lic
+Elapsed time: 0.24 seconds
+utime: 16
+stime: 5
+cutime: 2
+cstime: 4
+IO wchar: 136886
+IO syscr: 313
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+IO read_bytes: 585728
+IO rchar: 309678
+IO syscw: 76
+rusage ru_utime: 0.160967
+rusage ru_stime: 0.05889
+rusage ru_maxrss: 131488
+rusage ru_minflt: 12704
+rusage ru_majflt: 0
+rusage ru_inblock: 864
+rusage ru_oublock: 256
+rusage ru_nvcsw: 30
+rusage ru_nivcsw: 226
+Child rusage ru_utime: 0.020356
+Child rusage ru_stime: 0.043991999999999996
+Child rusage ru_maxrss: 128816
+Child rusage ru_minflt: 4347
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 280
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 117
+Status: PASSED 
+Ended: 1614444715.41 

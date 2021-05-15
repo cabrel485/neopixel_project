@@ -1,0 +1,15 @@
+PN: tzdata
+PV: 2018g
+PR: r0
+PKGV: 2018g
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-atlantic: tzdata-atlantic
+RRECOMMENDS_tzdata-atlantic: tzdata-lic
+SECTION: base
+PKG_tzdata-atlantic: tzdata-atlantic
+FILES_tzdata-atlantic:  /usr/share/zoneinfo/Atlantic/*
+FILES_INFO: {"/usr/share/zoneinfo/Atlantic/Stanley": 1242, "/usr/share/zoneinfo/Atlantic/Bermuda": 1990, "/usr/share/zoneinfo/Atlantic/Cape_Verde": 270, "/usr/share/zoneinfo/Atlantic/Faeroe": 1815, "/usr/share/zoneinfo/Atlantic/Jan_Mayen": 2242, "/usr/share/zoneinfo/Atlantic/Azores": 3484, "/usr/share/zoneinfo/Atlantic/Madeira": 3475, "/usr/share/zoneinfo/Atlantic/St_Helena": 156, "/usr/share/zoneinfo/Atlantic/South_Georgia": 172, "/usr/share/zoneinfo/Atlantic/Faroe": 1815, "/usr/share/zoneinfo/Atlantic/Canary": 1897, "/usr/share/zoneinfo/Atlantic/Reykjavik": 1174}
+PKGSIZE_tzdata-atlantic: 19732

@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-list-util-xs: perl module list-util-xs
+SUMMARY_perl-module-list-util-xs: perl module list-util-xs
+RDEPENDS_perl-module-list-util-xs: perl perl-module-list-util perl-module-strict
+SECTION: devel
+PKG_perl-module-list-util-xs: perl-module-list-util-xs
+FILES_perl-module-list-util-xs: /usr/lib/perl/5.24.4/List/Util/XS.pm
+FILERPROVIDESFLIST_perl-module-list-util-xs: /usr/lib/perl/5.24.4/List/Util/XS.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/List/Util/XS.pm": 1007}
+FILERPROVIDES_/usr/lib/perl/5.24.4/List/Util/XS.pm_perl-module-list-util-xs:  perl(List::Util::XS)
+PKGSIZE_perl-module-list-util-xs: 1007

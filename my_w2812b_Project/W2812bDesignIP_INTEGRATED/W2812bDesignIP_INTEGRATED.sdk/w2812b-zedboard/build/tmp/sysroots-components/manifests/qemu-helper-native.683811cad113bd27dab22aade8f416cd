@@ -1,0 +1,5 @@
+recipe-sysroot-native/sysroot-providers/qemu-helper-native
+recipe-sysroot-native/usr/bin/tunctl
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/

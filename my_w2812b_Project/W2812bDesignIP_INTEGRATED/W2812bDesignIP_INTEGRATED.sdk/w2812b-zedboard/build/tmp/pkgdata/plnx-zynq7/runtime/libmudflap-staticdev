@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY_libmudflap-staticdev: Pointer debugging library for gcc - static development files
+RRECOMMENDS_libmudflap-staticdev: gcc-runtime-lic
+SECTION: devel
+PKG_libmudflap-staticdev: libmudflap-staticdev
+FILES_libmudflap-staticdev: /usr/lib/libmudflap.a
+FILES_INFO: {}
+PKGSIZE_libmudflap-staticdev: 0

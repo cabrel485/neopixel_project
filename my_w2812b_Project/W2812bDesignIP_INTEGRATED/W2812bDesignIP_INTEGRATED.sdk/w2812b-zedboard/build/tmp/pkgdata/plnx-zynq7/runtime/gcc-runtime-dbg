@@ -1,0 +1,15 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION_gcc-runtime-dbg: Runtime libraries from GCC.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gcc-runtime-dbg: Runtime libraries from GCC - Debugging files
+RRECOMMENDS_gcc-runtime-dbg: gcc-runtime-lic libgcc-dbg glibc-dbg
+SECTION_gcc-runtime-dbg: devel
+PKG_gcc-runtime-dbg: gcc-runtime-dbg
+ALLOW_EMPTY_gcc-runtime-dbg: 1
+FILES_gcc-runtime-dbg: /usr/lib/debug /usr/src/debug     /usr/lib/libstdc++.so.*-gdb.py     /usr/share/gcc-8.2.0/python/libstdcxx 
+FILES_INFO: {"/usr/lib/.debug/libatomic.so.1.2.0": 81936, "/usr/share/gcc-8.2.0/python/libstdcxx/v6/__init__.py": 1161, "/usr/lib/.debug/libstdc++.so.6.0.25": 10352100, "/usr/lib/libstdc++.so.6.0.25-gdb.py": 2376, "/usr/share/gcc-8.2.0/python/libstdcxx/v6/printers.py": 66996, "/usr/share/gcc-8.2.0/python/libstdcxx/__init__.py": 1, "/usr/lib/.debug/libgomp.so.1.0.0": 946540, "/usr/share/gcc-8.2.0/python/libstdcxx/v6/xmethods.py": 27705, "/usr/lib/.debug/libitm.so.1.0.0": 1094656}
+PKGSIZE_gcc-runtime-dbg: 12573471

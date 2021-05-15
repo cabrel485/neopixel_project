@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445400.90 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_populate_sysroot
+Elapsed time: 0.23 seconds
+utime: 35
+stime: 5
+cutime: 3
+cstime: 2
+IO wchar: 226057
+IO syscr: 389
+IO write_bytes: 184320
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 455664
+IO syscw: 125
+rusage ru_utime: 0.35053999999999996
+rusage ru_stime: 0.052378999999999995
+rusage ru_maxrss: 132592
+rusage ru_minflt: 17175
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 352
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 205
+Child rusage ru_utime: 0.032861999999999995
+Child rusage ru_stime: 0.027318
+Child rusage ru_maxrss: 129732
+Child rusage ru_minflt: 4844
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 45
+Child rusage ru_nivcsw: 103
+Status: PASSED 
+Ended: 1614445401.13 

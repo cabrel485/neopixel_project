@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444650.92 
+sqlite3-3_3.23.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.38 seconds
+utime: 28
+stime: 6
+cutime: 8
+cstime: 4
+IO wchar: 11846622
+IO syscr: 984
+IO write_bytes: 5947392
+IO cancelled_write_bytes: 0
+IO read_bytes: 2531328
+IO rchar: 8647825
+IO syscw: 906
+rusage ru_utime: 0.28408
+rusage ru_stime: 0.064932
+rusage ru_maxrss: 131404
+rusage ru_minflt: 13316
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.087574
+Child rusage ru_stime: 0.047499
+Child rusage ru_maxrss: 128616
+Child rusage ru_minflt: 2269
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 4944
+Child rusage ru_oublock: 11448
+Child rusage ru_nvcsw: 204
+Child rusage ru_nivcsw: 230
+Status: PASSED 
+Ended: 1614444651.30 

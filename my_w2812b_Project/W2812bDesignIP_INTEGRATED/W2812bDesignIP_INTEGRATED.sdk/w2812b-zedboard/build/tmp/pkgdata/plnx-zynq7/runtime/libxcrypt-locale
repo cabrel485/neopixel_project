@@ -1,0 +1,15 @@
+PN: libxcrypt
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION: Forked code from glibc libary to extract only crypto part.
+SUMMARY: Extended cryptographic library (from glibc)
+RPROVIDES_libxcrypt-locale:  libxcrypt-locale (=4.1.1)
+RRECOMMENDS_libxcrypt-locale: libxcrypt-lic
+SECTION: libs
+PKG_libxcrypt-locale: libcrypt-locale
+FILES_libxcrypt-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libxcrypt-locale: 0

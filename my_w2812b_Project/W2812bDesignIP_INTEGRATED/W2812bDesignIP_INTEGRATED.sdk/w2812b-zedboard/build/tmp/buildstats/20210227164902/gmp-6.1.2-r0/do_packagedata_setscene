@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444653.15 
+gmp-6.1.2-r0: do_packagedata_setscene
+Elapsed time: 0.20 seconds
+utime: 23
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 276467
+IO syscr: 195
+IO write_bytes: 163840
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 328937
+IO syscw: 199
+rusage ru_utime: 0.231088
+rusage ru_stime: 0.059764
+rusage ru_maxrss: 131392
+rusage ru_minflt: 13358
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 64
+Child rusage ru_utime: 0.014273999999999998
+Child rusage ru_stime: 0.015826
+Child rusage ru_maxrss: 128616
+Child rusage ru_minflt: 2254
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1614444653.35 

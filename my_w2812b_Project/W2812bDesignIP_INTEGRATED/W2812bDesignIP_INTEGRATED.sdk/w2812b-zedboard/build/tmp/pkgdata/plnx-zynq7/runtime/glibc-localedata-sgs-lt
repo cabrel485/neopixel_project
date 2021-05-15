@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sgs-lt: locale definition for sgs-lt
+SUMMARY_glibc-localedata-sgs-lt: locale definition for sgs-lt
+RDEPENDS_glibc-localedata-sgs-lt: glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-lt-lt glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-sgs-lt: glibc-localedata-sgs-lt
+FILES_glibc-localedata-sgs-lt: /usr/share/i18n/locales/sgs_LT
+FILES_INFO: {"/usr/share/i18n/locales/sgs_LT": 3185}
+PKGSIZE_glibc-localedata-sgs-lt: 3185

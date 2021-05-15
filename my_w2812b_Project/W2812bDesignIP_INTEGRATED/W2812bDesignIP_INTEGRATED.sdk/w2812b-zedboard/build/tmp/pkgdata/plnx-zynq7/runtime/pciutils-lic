@@ -1,0 +1,13 @@
+PN: pciutils
+PV: 3.6.2
+PR: r0
+PKGV: 3.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.
+SUMMARY: PCI utilities
+SECTION: console/utils
+PKG_pciutils-lic: pciutils-lic
+FILES_pciutils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/pciutils/generic_GPLv2": 17611, "/usr/share/licenses/pciutils/COPYING": 17987}
+PKGSIZE_pciutils-lic: 35598

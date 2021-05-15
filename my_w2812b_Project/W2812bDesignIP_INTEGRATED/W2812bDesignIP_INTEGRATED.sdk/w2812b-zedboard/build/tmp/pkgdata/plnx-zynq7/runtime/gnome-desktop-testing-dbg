@@ -1,0 +1,15 @@
+PN: gnome-desktop-testing
+PV: 2014.1
+PR: r1
+PKGV: 2014.1
+PKGR: r1
+LICENSE: LGPLv2+
+DESCRIPTION_gnome-desktop-testing-dbg: Test runner for GNOME-style installed tests.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gnome-desktop-testing-dbg: Test runner for GNOME-style installed tests - Debugging files
+RRECOMMENDS_gnome-desktop-testing-dbg: gnome-desktop-testing-lic glib-2.0-dbg glibc-dbg
+SECTION_gnome-desktop-testing-dbg: devel
+PKG_gnome-desktop-testing-dbg: gnome-desktop-testing-dbg
+ALLOW_EMPTY_gnome-desktop-testing-dbg: 1
+FILES_gnome-desktop-testing-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-log.c": 4860, "/usr/lib/gnome-desktop-testing/.debug/libgsystem.so": 165296, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-subprocess.h": 4440, "/usr/bin/.debug/gnome-desktop-testing-runner": 66252, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-subprocess.c": 26577, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-local-alloc.c": 4017, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-log.h": 1401, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-shutil.c": 8695, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-file-utils.c": 31800, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-subprocess-context.h": 6152, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-subprocess-context.c": 14572, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-console.h": 2275, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-subprocess-context-private.h": 1681, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-local-alloc.h": 3971, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/gnome-desktop-testing-runner.c": 22017, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-file-utils.h": 5743, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-console.c": 11696, "/usr/src/debug/gnome-desktop-testing/2014.1-r1/gnome-desktop-testing-2014.1/src/libgsystem/gsystem-shutil.h": 1501}
+PKGSIZE_gnome-desktop-testing-dbg: 382946

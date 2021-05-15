@@ -1,0 +1,16 @@
+PN: db
+PE: 1
+PV: 5.3.28
+PR: r1
+PKGE: 1
+PKGV: 5.3.28
+PKGR: r1
+LICENSE: Sleepycat
+DESCRIPTION: Berkeley Database v5.
+SUMMARY: Berkeley Database v5
+RRECOMMENDS_db-locale: db-lic
+SECTION: libs
+PKG_db-locale: db-locale
+FILES_db-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_db-locale: 0

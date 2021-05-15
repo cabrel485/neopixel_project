@@ -1,0 +1,17 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_localedef: glibc: compile locale definition files
+SUMMARY: Locale data from glibc
+RDEPENDS_localedef: glibc (>= 2.28)
+RRECOMMENDS_localedef: glibc-locale-lic
+SECTION: base
+PKG_localedef: localedef
+FILES_localedef: /usr/bin/localedef
+FILES_INFO: {"/usr/bin/localedef": 190996}
+FILERDEPENDSFLIST_localedef: /usr/bin/localedef
+FILERDEPENDS_/usr/bin/localedef_localedef:  libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libc.so.6
+PKGSIZE_localedef: 190996

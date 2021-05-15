@@ -1,0 +1,15 @@
+PN: canutils
+PV: 4.0.6
+PR: r0
+PKGV: 4.0.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_canutils-staticdev: canutils (PTX flavour).  This package contains static libraries for software development.
+SUMMARY_canutils-staticdev: canutils (PTX flavour) - Development files (Static Libraries)
+RDEPENDS_canutils-staticdev: canutils-dev (= 4.0.6-r0)
+RRECOMMENDS_canutils-staticdev: canutils-lic
+SECTION_canutils-staticdev: devel
+PKG_canutils-staticdev: canutils-staticdev
+FILES_canutils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/canutils/*.a
+FILES_INFO: {}
+PKGSIZE_canutils-staticdev: 0

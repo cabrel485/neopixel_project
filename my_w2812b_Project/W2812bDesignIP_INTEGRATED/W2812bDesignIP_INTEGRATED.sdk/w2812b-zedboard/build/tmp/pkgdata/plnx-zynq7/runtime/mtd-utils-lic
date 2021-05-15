@@ -1,0 +1,13 @@
+PN: mtd-utils
+PV: 2.0.2+AUTOINC+bc63d36e39
+PR: r0
+PKGV: 2.0.2+0+bc63d36e39
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: Tools for managing memory technology devices
+SECTION: base
+PKG_mtd-utils-lic: mtd-utils-lic
+FILES_mtd-utils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/mtd-utils/generic_GPLv2": 17611, "/usr/share/licenses/mtd-utils/COPYING": 18007, "/usr/share/licenses/mtd-utils/common.h": 752}
+PKGSIZE_mtd-utils-lic: 36370

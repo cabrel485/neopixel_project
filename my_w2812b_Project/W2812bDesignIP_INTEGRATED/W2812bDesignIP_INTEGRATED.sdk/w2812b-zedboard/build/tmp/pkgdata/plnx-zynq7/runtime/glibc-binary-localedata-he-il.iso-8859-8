@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-he-il.iso-8859-8: binary locale definition for he-il.iso-8859-8
+SUMMARY_glibc-binary-localedata-he-il.iso-8859-8: binary locale definition for he-il.iso-8859-8
+SECTION: base
+PKG_glibc-binary-localedata-he-il.iso-8859-8: glibc-binary-localedata-he-il.iso-8859-8
+FILES_glibc-binary-localedata-he-il.iso-8859-8: /usr/lib/locale/he_IL.ISO-8859-8
+FILES_INFO: {"/usr/lib/locale/he_IL.ISO-8859-8/LC_ADDRESS": 153, "/usr/lib/locale/he_IL.ISO-8859-8/LC_MESSAGES/SYS_LC_MESSAGES": 63, "/usr/lib/locale/he_IL.ISO-8859-8/LC_PAPER": 39, "/usr/lib/locale/he_IL.ISO-8859-8/LC_CTYPE": 289392, "/usr/lib/locale/he_IL.ISO-8859-8/LC_NUMERIC": 59, "/usr/lib/locale/he_IL.ISO-8859-8/LC_TIME": 3108, "/usr/lib/locale/he_IL.ISO-8859-8/LC_TELEPHONE": 73, "/usr/lib/locale/he_IL.ISO-8859-8/LC_COLLATE": 20155, "/usr/lib/locale/he_IL.ISO-8859-8/LC_MONETARY": 299, "/usr/lib/locale/he_IL.ISO-8859-8/LC_NAME": 67, "/usr/lib/locale/he_IL.ISO-8859-8/LC_MEASUREMENT": 28, "/usr/lib/locale/he_IL.ISO-8859-8/LC_IDENTIFICATION": 346}
+PKGSIZE_glibc-binary-localedata-he-il.iso-8859-8: 313782

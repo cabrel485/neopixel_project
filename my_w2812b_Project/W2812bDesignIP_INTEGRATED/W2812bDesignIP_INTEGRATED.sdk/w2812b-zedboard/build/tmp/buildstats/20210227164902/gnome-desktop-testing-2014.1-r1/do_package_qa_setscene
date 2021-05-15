@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444605.60 
+gnome-desktop-testing-2014.1-r1: do_package_qa_setscene
+Elapsed time: 0.16 seconds
+utime: 21
+stime: 4
+cutime: 0
+cstime: 0
+IO wchar: 137386
+IO syscr: 89
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 179048
+IO syscw: 118
+rusage ru_utime: 0.219907
+rusage ru_stime: 0.043196
+rusage ru_maxrss: 131336
+rusage ru_minflt: 12101
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.0068509999999999995
+Child rusage ru_stime: 0.005607
+Child rusage ru_maxrss: 128608
+Child rusage ru_minflt: 1153
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 12
+Child rusage ru_nivcsw: 5
+Status: PASSED 
+Ended: 1614444605.76 

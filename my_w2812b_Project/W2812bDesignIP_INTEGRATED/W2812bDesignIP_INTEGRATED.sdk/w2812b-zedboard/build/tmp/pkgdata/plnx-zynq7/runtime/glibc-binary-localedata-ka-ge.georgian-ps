@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ka-ge.georgian-ps: binary locale definition for ka-ge.georgian-ps
+SUMMARY_glibc-binary-localedata-ka-ge.georgian-ps: binary locale definition for ka-ge.georgian-ps
+SECTION: base
+PKG_glibc-binary-localedata-ka-ge.georgian-ps: glibc-binary-localedata-ka-ge.georgian-ps
+FILES_glibc-binary-localedata-ka-ge.georgian-ps: /usr/lib/locale/ka_GE.GEORGIAN-PS
+FILES_INFO: {"/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_COLLATE": 24164, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_MONETARY": 300, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_TIME": 3420, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_MESSAGES/SYS_LC_MESSAGES": 71, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_ADDRESS": 169, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_NUMERIC": 60, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_CTYPE": 289852, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_PAPER": 40, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_TELEPHONE": 60, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_IDENTIFICATION": 321, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_MEASUREMENT": 29, "/usr/lib/locale/ka_GE.GEORGIAN-PS/LC_NAME": 68}
+PKGSIZE_glibc-binary-localedata-ka-ge.georgian-ps: 318554

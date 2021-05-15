@@ -1,0 +1,17 @@
+PN: unzip
+PE: 1
+PV: 6.0
+PR: r5
+PKGE: 1
+PKGV: 6.0
+PKGR: r5
+LICENSE: BSD-3-Clause
+DESCRIPTION_unzip-dbg: Utilities for extracting and viewing files in .zip archives.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_unzip-dbg: Utilities for extracting and viewing files in .zip archives - Debugging files
+RRECOMMENDS_unzip-dbg: unzip-lic glibc-dbg
+SECTION_unzip-dbg: devel
+PKG_unzip-dbg: unzip-dbg
+ALLOW_EMPTY_unzip-dbg: 1
+FILES_unzip-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/unzip/1_6.0-r5/unzip60/consts.h": 2012, "/usr/src/debug/unzip/1_6.0-r5/unzip60/unzip.h": 26144, "/usr/src/debug/unzip/1_6.0-r5/unzip60/ttyio.c": 21020, "/usr/src/debug/unzip/1_6.0-r5/unzip60/crypt.h": 4757, "/usr/src/debug/unzip/1_6.0-r5/unzip60/process.c": 109847, "/usr/src/debug/unzip/1_6.0-r5/unzip60/match.c": 15866, "/usr/src/debug/unzip/1_6.0-r5/unzip60/crc32.c": 38638, "/usr/src/debug/unzip/1_6.0-r5/unzip60/ebcdic.h": 15723, "/usr/src/debug/unzip/1_6.0-r5/unzip60/globals.c": 6491, "/usr/src/debug/unzip/1_6.0-r5/unzip60/unix/unix.c": 64573, "/usr/src/debug/unzip/1_6.0-r5/unzip60/crc32.h": 1777, "/usr/src/debug/unzip/1_6.0-r5/unzip60/globals.h": 16953, "/usr/src/debug/unzip/1_6.0-r5/unzip60/fileio.c": 95107, "/usr/bin/.debug/funzip": 113928, "/usr/src/debug/unzip/1_6.0-r5/unzip60/explode.c": 24077, "/usr/src/debug/unzip/1_6.0-r5/unzip60/extract.c": 105608, "/usr/src/debug/unzip/1_6.0-r5/unzip60/unzpriv.h": 109117, "/usr/src/debug/unzip/1_6.0-r5/unzip60/unzip.c": 100921, "/usr/src/debug/unzip/1_6.0-r5/unzip60/crypt.c": 22690, "/usr/src/debug/unzip/1_6.0-r5/unzip60/unix/unxcfg.h": 7035, "/usr/src/debug/unzip/1_6.0-r5/unzip60/ttyio.h": 5348, "/usr/bin/.debug/unzipsfx": 322936, "/usr/bin/.debug/zipinfo": 556228, "/usr/src/debug/unzip/1_6.0-r5/unzip60/unshrink.c": 12350, "/usr/src/debug/unzip/1_6.0-r5/unzip60/funzip.c": 19711, "/usr/src/debug/unzip/1_6.0-r5/unzip60/envargs.c": 10000, "/usr/src/debug/unzip/1_6.0-r5/unzip60/list.c": 28024, "/usr/src/debug/unzip/1_6.0-r5/unzip60/inflate.c": 63629, "/usr/src/debug/unzip/1_6.0-r5/unzip60/zipinfo.c": 100356}
+PKGSIZE_unzip-dbg: 2020866

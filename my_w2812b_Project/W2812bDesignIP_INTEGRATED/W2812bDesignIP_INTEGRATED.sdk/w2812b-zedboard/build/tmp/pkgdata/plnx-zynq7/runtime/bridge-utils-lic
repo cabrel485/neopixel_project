@@ -1,0 +1,13 @@
+PN: bridge-utils
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Tools for ethernet bridging.
+SUMMARY: Tools for ethernet bridging
+SECTION: net
+PKG_bridge-utils-lic: bridge-utils-lic
+FILES_bridge-utils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/bridge-utils/COPYING": 17983, "/usr/share/licenses/bridge-utils/generic_GPLv2": 17611}
+PKGSIZE_bridge-utils-lic: 35594

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444657.72 
+ncurses-6.1+20180630-r0: do_populate_sysroot_setscene
+Elapsed time: 0.46 seconds
+utime: 32
+stime: 4
+cutime: 8
+cstime: 9
+IO wchar: 11196980
+IO syscr: 5629
+IO write_bytes: 10149888
+IO cancelled_write_bytes: 0
+IO read_bytes: 1331200
+IO rchar: 7841045
+IO syscw: 7790
+rusage ru_utime: 0.329551
+rusage ru_stime: 0.045313
+rusage ru_maxrss: 132160
+rusage ru_minflt: 13906
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 1584
+rusage ru_nvcsw: 2386
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.085325
+Child rusage ru_stime: 0.095693
+Child rusage ru_maxrss: 128744
+Child rusage ru_minflt: 2318
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 2592
+Child rusage ru_oublock: 18240
+Child rusage ru_nvcsw: 443
+Child rusage ru_nivcsw: 2777
+Status: PASSED 
+Ended: 1614444658.18 

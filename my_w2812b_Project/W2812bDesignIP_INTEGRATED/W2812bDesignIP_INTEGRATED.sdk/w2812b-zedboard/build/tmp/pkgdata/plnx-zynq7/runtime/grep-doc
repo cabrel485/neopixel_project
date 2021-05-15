@@ -1,0 +1,14 @@
+PN: grep
+PV: 3.1
+PR: r0
+PKGV: 3.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_grep-doc: GNU grep utility.  This package contains documentation.
+SUMMARY_grep-doc: GNU grep utility - Documentation files
+RRECOMMENDS_grep-doc: grep-lic
+SECTION_grep-doc: doc
+PKG_grep-doc: grep-doc
+FILES_grep-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/egrep.1": 16, "/usr/share/man/man1/fgrep.1": 16, "/usr/share/man/man1/grep.1": 29932, "/usr/share/info/grep.info": 119530}
+PKGSIZE_grep-doc: 149494

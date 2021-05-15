@@ -1,0 +1,13 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/update-rc.d/update-rc.d_0.8.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/gcc/gcc-runtime_8.2.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/gcc/gcc-cross_8.2.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/glibc/glibc_2.28.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/opkg-utils/opkg-utils_0.3.6.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/libxcrypt/libxcrypt_4.1.1.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kern-tools/kern-tools-native_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/initscripts/initscripts_1.0.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['pseudo-native']
+NOTE: Skipping as already exists in sysroot: ['update-rc.d', 'gcc-runtime', 'gcc-cross-arm', 'quilt-native', 'glibc', 'opkg-utils', 'libxcrypt', 'kern-tools-native', 'initscripts', 'linux-libc-headers', 'libgcc', 'xz-native', 'automake-native', 'zlib-native', 'gnu-config-native', 'texinfo-dummy-native', 'binutils-cross-arm', 'autoconf-native', 'libtool-native', 'flex-native', 'libmpc-native', 'mpfr-native', 'gmp-native', 'gettext-minimal-native', 'm4-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_install
+DEBUG: Shell function do_install finished
+DEBUG: Executing shell function remove_libtool_la
+DEBUG: Shell function remove_libtool_la finished
+DEBUG: Executing python function rm_systemd_unitdir
+DEBUG: Python function rm_systemd_unitdir finished
+DEBUG: Executing python function rm_sysvinit_initddir
+DEBUG: Python function rm_sysvinit_initddir finished

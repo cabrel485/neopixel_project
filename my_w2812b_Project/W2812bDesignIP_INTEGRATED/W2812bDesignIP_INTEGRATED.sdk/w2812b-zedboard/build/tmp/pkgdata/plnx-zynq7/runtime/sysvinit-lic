@@ -1,0 +1,13 @@
+PN: sysvinit
+PV: 2.88dsf
+PR: r14
+PKGV: 2.88dsf
+PKGR: r14
+LICENSE: GPLv2+
+DESCRIPTION: This package is required to boot in most configurations.  It provides the /sbin/init program.  This is the first process started on boot, and the last process terminated before the system halts.
+SUMMARY: System-V like init
+SECTION: base
+PKG_sysvinit-lic: sysvinit-lic
+FILES_sysvinit-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/sysvinit/generic_GPLv2": 17611, "/usr/share/licenses/sysvinit/COPYRIGHT": 780, "/usr/share/licenses/sysvinit/COPYING": 17987}
+PKGSIZE_sysvinit-lic: 36378

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-mfe-mu: binary locale definition for mfe-mu
+SUMMARY_glibc-binary-localedata-mfe-mu: binary locale definition for mfe-mu
+SECTION: base
+PKG_glibc-binary-localedata-mfe-mu: glibc-binary-localedata-mfe-mu
+FILES_glibc-binary-localedata-mfe-mu: /usr/lib/locale/mfe_MU
+FILES_INFO: {"/usr/lib/locale/mfe_MU/LC_MONETARY": 294, "/usr/lib/locale/mfe_MU/LC_NUMERIC": 54, "/usr/lib/locale/mfe_MU/LC_NAME": 77, "/usr/lib/locale/mfe_MU/LC_COLLATE": 2586242, "/usr/lib/locale/mfe_MU/LC_TELEPHONE": 49, "/usr/lib/locale/mfe_MU/LC_PAPER": 34, "/usr/lib/locale/mfe_MU/LC_ADDRESS": 166, "/usr/lib/locale/mfe_MU/LC_IDENTIFICATION": 322, "/usr/lib/locale/mfe_MU/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/mfe_MU/LC_MEASUREMENT": 23, "/usr/lib/locale/mfe_MU/LC_CTYPE": 295484, "/usr/lib/locale/mfe_MU/LC_TIME": 3096}
+PKGSIZE_glibc-binary-localedata-mfe-mu: 2885900

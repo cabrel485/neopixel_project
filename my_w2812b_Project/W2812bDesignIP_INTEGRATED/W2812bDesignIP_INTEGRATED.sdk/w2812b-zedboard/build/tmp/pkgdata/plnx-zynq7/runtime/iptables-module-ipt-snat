@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-snat: iptables module ipt-snat
+SUMMARY_iptables-module-ipt-snat: iptables module ipt-snat
+RDEPENDS_iptables-module-ipt-snat: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-snat: iptables-module-ipt-snat
+FILES_iptables-module-ipt-snat: /usr/lib/xtables/libipt_SNAT.so
+FILERPROVIDESFLIST_iptables-module-ipt-snat: /usr/lib/xtables/libipt@underscore@SNAT.so
+FILES_INFO: {"/usr/lib/xtables/libipt_SNAT.so": 9608}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@SNAT.so_iptables-module-ipt-snat:  libipt_SNAT.so
+FILERDEPENDSFLIST_iptables-module-ipt-snat: /usr/lib/xtables/libipt@underscore@SNAT.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@SNAT.so_iptables-module-ipt-snat:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-snat: 9608

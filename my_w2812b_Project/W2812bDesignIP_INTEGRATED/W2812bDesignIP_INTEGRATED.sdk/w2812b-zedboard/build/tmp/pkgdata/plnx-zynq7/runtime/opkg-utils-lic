@@ -1,0 +1,13 @@
+PN: opkg-utils
+PV: 0.3.6
+PR: r0
+PKGV: 0.3.6
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Additional utilities for the opkg package manager.
+SUMMARY: Additional utilities for the opkg package manager
+SECTION: base
+PKG_opkg-utils-lic: opkg-utils-lic
+FILES_opkg-utils-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/opkg-utils/COPYING": 17992, "/usr/share/licenses/opkg-utils/opkg.py": 819, "/usr/share/licenses/opkg-utils/generic_GPLv2": 17611}
+PKGSIZE_opkg-utils-lic: 36422

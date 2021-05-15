@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444784.66 
+myapp-1.0-r0: do_unpack
+Elapsed time: 0.07 seconds
+utime: 10
+stime: 2
+cutime: 1
+cstime: 1
+IO wchar: 65129
+IO syscr: 142
+IO write_bytes: 61440
+IO cancelled_write_bytes: 0
+IO read_bytes: 24576
+IO rchar: 134847
+IO syscw: 44
+rusage ru_utime: 0.106305
+rusage ru_stime: 0.026576
+rusage ru_maxrss: 131720
+rusage ru_minflt: 6995
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.010137
+Child rusage ru_stime: 0.018698
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 2108
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 10
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1614444784.72 

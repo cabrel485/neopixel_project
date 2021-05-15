@@ -1,0 +1,9 @@
+def do_image_complete(d):
+    from oe.utils import execute_pre_post_process
+
+    post_process_cmds = d.getVar("IMAGE_POSTPROCESS_COMMAND")
+
+    execute_pre_post_process(d, post_process_cmds)
+
+do_image_complete(d)
+

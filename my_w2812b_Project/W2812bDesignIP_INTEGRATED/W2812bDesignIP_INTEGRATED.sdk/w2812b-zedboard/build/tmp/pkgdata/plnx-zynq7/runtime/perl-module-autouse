@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-autouse: perl module autouse
+SUMMARY_perl-module-autouse: perl module autouse
+RDEPENDS_perl-module-autouse: perl perl-module-carp
+SECTION: devel
+PKG_perl-module-autouse: perl-module-autouse
+FILES_perl-module-autouse: /usr/lib/perl/5.24.4/autouse.pm
+FILERPROVIDESFLIST_perl-module-autouse: /usr/lib/perl/5.24.4/autouse.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/autouse.pm": 4238}
+FILERPROVIDES_/usr/lib/perl/5.24.4/autouse.pm_perl-module-autouse:  perl(autouse)
+PKGSIZE_perl-module-autouse: 4238

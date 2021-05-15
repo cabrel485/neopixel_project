@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444685.99 
+gperf-native-3.1-r0: do_rm_work
+Elapsed time: 0.08 seconds
+utime: 22
+stime: 5
+cutime: 2
+cstime: 1
+IO wchar: 37742
+IO syscr: 181
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 163172
+IO syscw: 35
+rusage ru_utime: 0.227091
+rusage ru_stime: 0.050797999999999996
+rusage ru_maxrss: 131404
+rusage ru_minflt: 11184
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 92
+Child rusage ru_utime: 0.02102
+Child rusage ru_stime: 0.012183999999999999
+Child rusage ru_maxrss: 128704
+Child rusage ru_minflt: 3500
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 50
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1614444686.07 

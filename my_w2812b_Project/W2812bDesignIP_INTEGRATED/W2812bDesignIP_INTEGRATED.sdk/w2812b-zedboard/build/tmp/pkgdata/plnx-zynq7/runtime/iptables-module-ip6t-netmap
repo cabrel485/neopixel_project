@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ip6t-netmap: iptables module ip6t-netmap
+SUMMARY_iptables-module-ip6t-netmap: iptables module ip6t-netmap
+RDEPENDS_iptables-module-ip6t-netmap: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ip6t-netmap: iptables-module-ip6t-netmap
+FILES_iptables-module-ip6t-netmap: /usr/lib/xtables/libip6t_NETMAP.so
+FILERPROVIDESFLIST_iptables-module-ip6t-netmap: /usr/lib/xtables/libip6t@underscore@NETMAP.so
+FILES_INFO: {"/usr/lib/xtables/libip6t_NETMAP.so": 5516}
+FILERPROVIDES_/usr/lib/xtables/libip6t@underscore@NETMAP.so_iptables-module-ip6t-netmap:  libip6t_NETMAP.so
+FILERDEPENDSFLIST_iptables-module-ip6t-netmap: /usr/lib/xtables/libip6t@underscore@NETMAP.so
+FILERDEPENDS_/usr/lib/xtables/libip6t@underscore@NETMAP.so_iptables-module-ip6t-netmap:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ip6t-netmap: 5516

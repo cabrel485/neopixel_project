@@ -1,0 +1,13 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION: Perl scripting language.
+SUMMARY: Perl scripting language
+SECTION: devel
+PKG_perl-lic: perl-lic
+FILES_perl-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/perl/generic_GPL-1.0": 12647, "/usr/share/licenses/perl/Copying": 12632, "/usr/share/licenses/perl/generic_Artistic-1.0": 4785, "/usr/share/licenses/perl/Artistic": 6321}
+PKGSIZE_perl-lic: 36385

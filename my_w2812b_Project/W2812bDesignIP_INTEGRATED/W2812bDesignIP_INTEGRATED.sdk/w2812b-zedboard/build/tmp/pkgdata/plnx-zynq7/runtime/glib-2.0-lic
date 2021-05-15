@@ -1,0 +1,16 @@
+PN: glib-2.0
+PE: 1
+PV: 2.58.0
+PR: r0
+PKGE: 1
+PKGV: 2.58.0
+PKGR: r0
+LICENSE: LGPLv2.1+ & BSD & PD
+DESCRIPTION: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.
+SUMMARY: A general-purpose utility library
+RPROVIDES_glib-2.0-lic:  glib-2.0-lic (=2.58.0)
+SECTION: libs
+PKG_glib-2.0-lic: libglib-2.0-lic
+FILES_glib-2.0-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/glib-2.0/generic_PD": 52, "/usr/share/licenses/glib-2.0/COPYING.0": 26530, "/usr/share/licenses/glib-2.0/generic_BSD": 1499, "/usr/share/licenses/glib-2.0/gmodule.h": 673, "/usr/share/licenses/glib-2.0/generic_LGPLv2.1": 25878, "/usr/share/licenses/glib-2.0/pcre.h": 1689, "/usr/share/licenses/glib-2.0/COPYING.1": 1698, "/usr/share/licenses/glib-2.0/glib.h": 673}
+PKGSIZE_glib-2.0-lic: 58692

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444593.49 
+zlib-1.2.11-r0: do_package_write_rpm_setscene
+Elapsed time: 0.23 seconds
+utime: 23
+stime: 4
+cutime: 0
+cstime: 2
+IO wchar: 1198963
+IO syscr: 258
+IO write_bytes: 626688
+IO cancelled_write_bytes: 0
+IO read_bytes: 491520
+IO rchar: 1231951
+IO syscw: 201
+rusage ru_utime: 0.231785
+rusage ru_stime: 0.043733
+rusage ru_maxrss: 131312
+rusage ru_minflt: 13205
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 153
+Child rusage ru_utime: 0.008303999999999999
+Child rusage ru_stime: 0.021068
+Child rusage ru_maxrss: 128528
+Child rusage ru_minflt: 2196
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 952
+Child rusage ru_oublock: 1064
+Child rusage ru_nvcsw: 39
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1614444593.72 

@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-resource: Python resource control interface
+RDEPENDS_python3-resource: python3-core libpython3 (>= 3.5.6) glibc (>= 2.28)
+RRECOMMENDS_python3-resource: python3-lic
+SECTION: devel/python
+PKG_python3-resource: python3-resource
+FILES_python3-resource:  /usr/lib/python3.5/lib-dynload/resource.*.so
+FILES_INFO: {"/usr/lib/python3.5/lib-dynload/resource.cpython-35m-arm-linux-gnueabihf.so": 10056}
+FILERDEPENDSFLIST_python3-resource: /usr/lib/python3.5/lib-dynload/resource.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/resource.cpython-35m-arm-linux-gnueabihf.so_python3-resource:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.13) libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_python3-resource: 10056

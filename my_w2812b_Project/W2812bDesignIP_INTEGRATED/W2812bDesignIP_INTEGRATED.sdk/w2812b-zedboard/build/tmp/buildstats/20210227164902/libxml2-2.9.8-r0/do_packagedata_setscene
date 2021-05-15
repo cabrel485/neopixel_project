@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444643.88 
+libxml2-2.9.8-r0: do_packagedata_setscene
+Elapsed time: 0.21 seconds
+utime: 23
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 1169562
+IO syscr: 257
+IO write_bytes: 626688
+IO cancelled_write_bytes: 0
+IO read_bytes: 73728
+IO rchar: 819471
+IO syscw: 246
+rusage ru_utime: 0.230617
+rusage ru_stime: 0.057654
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13422
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 131
+Child rusage ru_utime: 0.018727999999999998
+Child rusage ru_stime: 0.014211
+Child rusage ru_maxrss: 128716
+Child rusage ru_minflt: 2273
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 144
+Child rusage ru_oublock: 1048
+Child rusage ru_nvcsw: 36
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1614444644.09 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444695.18 
+libice-1_1.0.9-r0: do_rm_work
+Elapsed time: 0.13 seconds
+utime: 14
+stime: 2
+cutime: 2
+cstime: 1
+IO wchar: 35626
+IO syscr: 278
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 194344
+IO syscw: 39
+rusage ru_utime: 0.149313
+rusage ru_stime: 0.020177
+rusage ru_maxrss: 131692
+rusage ru_minflt: 4606
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 72
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 53
+Child rusage ru_utime: 0.028221999999999997
+Child rusage ru_stime: 0.018356
+Child rusage ru_maxrss: 129020
+Child rusage ru_minflt: 6045
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 81
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1614444695.31 

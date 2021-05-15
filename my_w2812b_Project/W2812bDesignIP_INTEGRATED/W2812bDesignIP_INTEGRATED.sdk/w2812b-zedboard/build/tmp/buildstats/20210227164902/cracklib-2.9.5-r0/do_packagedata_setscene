@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444666.11 
+cracklib-2.9.5-r0: do_packagedata_setscene
+Elapsed time: 0.25 seconds
+utime: 21
+stime: 6
+cutime: 2
+cstime: 1
+IO wchar: 465749
+IO syscr: 385
+IO write_bytes: 311296
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 501709
+IO syscw: 506
+rusage ru_utime: 0.218711
+rusage ru_stime: 0.06787499999999999
+rusage ru_maxrss: 131420
+rusage ru_minflt: 13337
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 264
+rusage ru_nvcsw: 96
+rusage ru_nivcsw: 190
+Child rusage ru_utime: 0.02419
+Child rusage ru_stime: 0.017964
+Child rusage ru_maxrss: 128628
+Child rusage ru_minflt: 2266
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 344
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 117
+Status: PASSED 
+Ended: 1614444666.36 

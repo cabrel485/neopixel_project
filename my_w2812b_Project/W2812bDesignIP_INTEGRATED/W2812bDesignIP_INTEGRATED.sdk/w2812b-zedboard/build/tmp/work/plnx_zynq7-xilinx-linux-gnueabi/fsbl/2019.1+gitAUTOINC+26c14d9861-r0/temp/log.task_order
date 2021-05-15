@@ -1,0 +1,17 @@
+do_fetch (1012): log.do_fetch.1012
+do_prepare_recipe_sysroot (1201): log.do_prepare_recipe_sysroot.1201
+do_create_yaml (1317): log.do_create_yaml.1317
+do_unpack (1325): log.do_unpack.1325
+do_patch (1741): log.do_patch.1741
+do_populate_lic (1766): log.do_populate_lic.1766
+do_configure (1836): log.do_configure.1836
+do_compile (3762): log.do_compile.3762
+do_deploy (5916): log.do_deploy.5916
+do_install (5917): log.do_install.5917
+do_populate_sysroot (5962): log.do_populate_sysroot.5962
+do_package (5961): log.do_package.5961
+do_packagedata (6145): log.do_packagedata.6145
+do_package_qa (6192): log.do_package_qa.6192
+do_package_write_rpm (6195): log.do_package_write_rpm.6195
+do_rm_work (6340): log.do_rm_work.6340
+do_package_write_rpm_setscene (27416): log.do_package_write_rpm_setscene.27416

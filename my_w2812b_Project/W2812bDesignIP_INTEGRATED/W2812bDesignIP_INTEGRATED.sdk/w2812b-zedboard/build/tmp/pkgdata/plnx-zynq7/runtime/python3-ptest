@@ -1,0 +1,18 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION_python3-ptest: The Python Programming Language.  This package contains a test directory /usr/lib/python3/ptest for package test purposes.
+SUMMARY_python3-ptest: The Python Programming Language - Package test files
+RDEPENDS_python3-ptest: bzip2 python3-modules python3-tests unzip
+RRECOMMENDS_python3-ptest: python3-lic  ptest-runner
+SECTION_python3-ptest: devel
+PKG_python3-ptest: python3-ptest
+ALLOW_EMPTY_python3-ptest: 1
+FILES_python3-ptest: /usr/lib/python3/ptest
+FILES_INFO: {"/usr/lib/python3/ptest/run-ptest": 235}
+FILERDEPENDSFLIST_python3-ptest: /usr/lib/python3/ptest/run-ptest
+FILERDEPENDS_/usr/lib/python3/ptest/run-ptest_python3-ptest:  /bin/sh
+PKGSIZE_python3-ptest: 235

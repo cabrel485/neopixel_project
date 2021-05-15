@@ -1,0 +1,14 @@
+PN: dbus-test
+PV: 1.12.10
+PR: r0
+PKGV: 1.12.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION: D-Bus test package (for D-bus functionality testing only).
+SUMMARY: D-Bus test package (for D-bus functionality testing only)
+RRECOMMENDS_dbus-test-locale: dbus-test-lic
+SECTION: base
+PKG_dbus-test-locale: dbus-test-locale
+FILES_dbus-test-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dbus-test-locale: 0

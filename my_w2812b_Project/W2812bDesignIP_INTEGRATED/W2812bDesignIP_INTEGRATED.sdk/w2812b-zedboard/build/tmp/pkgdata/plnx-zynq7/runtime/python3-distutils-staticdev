@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-distutils-staticdev: Python distribution utilities (static libraries)
+RDEPENDS_python3-distutils-staticdev: python3-distutils
+RRECOMMENDS_python3-distutils-staticdev: python3-lic
+SECTION: devel/python
+PKG_python3-distutils-staticdev: python3-distutils-staticdev
+FILES_python3-distutils-staticdev:  /usr/lib/python3.5/config/lib*.a /usr/lib/python3.5/config/__pycache__/lib*.a
+FILES_INFO: {}
+PKGSIZE_python3-distutils-staticdev: 0

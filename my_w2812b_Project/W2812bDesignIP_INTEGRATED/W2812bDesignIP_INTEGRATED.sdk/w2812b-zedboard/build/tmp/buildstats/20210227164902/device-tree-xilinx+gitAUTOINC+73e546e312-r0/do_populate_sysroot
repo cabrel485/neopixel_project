@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444754.47 
+device-tree-xilinx+gitAUTOINC+73e546e312-r0: do_populate_sysroot
+Elapsed time: 0.31 seconds
+utime: 25
+stime: 5
+cutime: 4
+cstime: 3
+IO wchar: 260663
+IO syscr: 482
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 496528
+IO syscw: 125
+rusage ru_utime: 0.2522
+rusage ru_stime: 0.056044
+rusage ru_maxrss: 132112
+rusage ru_minflt: 15160
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 360
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 106
+Child rusage ru_utime: 0.048584999999999996
+Child rusage ru_stime: 0.032406
+Child rusage ru_maxrss: 129276
+Child rusage ru_minflt: 7102
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 76
+Child rusage ru_nivcsw: 58
+Status: PASSED 
+Ended: 1614444754.78 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444665.38 
+util-linux-2.32.1-r0: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 28
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 380044
+IO syscr: 219
+IO write_bytes: 225280
+IO cancelled_write_bytes: 0
+IO read_bytes: 24576
+IO rchar: 445423
+IO syscw: 172
+rusage ru_utime: 0.281673
+rusage ru_stime: 0.051573999999999995
+rusage ru_maxrss: 132436
+rusage ru_minflt: 13874
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 59
+Child rusage ru_utime: 0.011116
+Child rusage ru_stime: 0.016443
+Child rusage ru_maxrss: 129672
+Child rusage ru_minflt: 2281
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 288
+Child rusage ru_nvcsw: 29
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1614444665.49 

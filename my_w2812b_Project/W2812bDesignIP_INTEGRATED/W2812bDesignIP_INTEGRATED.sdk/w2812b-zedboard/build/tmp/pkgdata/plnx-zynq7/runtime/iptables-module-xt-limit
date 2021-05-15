@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-limit: iptables module xt-limit
+SUMMARY_iptables-module-xt-limit: iptables module xt-limit
+RDEPENDS_iptables-module-xt-limit: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-limit: iptables-module-xt-limit
+FILES_iptables-module-xt-limit: /usr/lib/xtables/libxt_limit.so
+FILERPROVIDESFLIST_iptables-module-xt-limit: /usr/lib/xtables/libxt@underscore@limit.so
+FILES_INFO: {"/usr/lib/xtables/libxt_limit.so": 9604}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@limit.so_iptables-module-xt-limit:  libxt_limit.so
+FILERDEPENDSFLIST_iptables-module-xt-limit: /usr/lib/xtables/libxt@underscore@limit.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@limit.so_iptables-module-xt-limit:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-limit: 9604

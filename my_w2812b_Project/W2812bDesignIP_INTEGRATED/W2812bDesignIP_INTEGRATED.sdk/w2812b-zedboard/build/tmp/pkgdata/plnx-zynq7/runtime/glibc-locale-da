@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-da: Locale data from glibc.  This package contains language translation files for the da locale.
+SUMMARY_glibc-locale-da: Locale data from glibc - da translations
+RPROVIDES_glibc-locale-da: glibc-locale da-translation
+RRECOMMENDS_glibc-locale-da: virtual-locale-da
+SECTION: base
+PKG_glibc-locale-da: glibc-locale-da
+FILES_glibc-locale-da: /usr/share/locale/da
+FILES_INFO: {}
+PKGSIZE_glibc-locale-da: 0

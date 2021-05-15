@@ -1,0 +1,4 @@
+recipe-sysroot-native/usr/share/gdb/auto-load/scratch/petalinux-yocto/yocto_downloads_2019.1_zynq-generic/build_zynq-generic/tmp/work/x86_64-linux/glib-2.0-native/1_2.58.0-r0/recipe-sysroot-native/usr/lib/libglib-2.0.so.0.5800.0-gdb.py
+recipe-sysroot-native/usr/share/gdb/auto-load/scratch/petalinux-yocto/yocto_downloads_2019.1_zynq-generic/build_zynq-generic/tmp/work/x86_64-linux/glib-2.0-native/1_2.58.0-r0/recipe-sysroot-native/usr/lib/libgobject-2.0.so.0.5800.0-gdb.py
+recipe-sysroot-native/usr/bin/glib-gettextize
+recipe-sysroot-native/usr/bin/gdbus-codegen

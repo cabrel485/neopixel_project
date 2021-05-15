@@ -1,0 +1,15 @@
+PN: procps
+PV: 3.3.15
+PR: r0
+PKGV: 3.3.15
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2+
+DESCRIPTION_procps-locale-sv: Procps contains a set of system utilities that provide system information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, and skill.  This package contains language translation files for the sv locale.
+SUMMARY_procps-locale-sv: System and process monitoring utilities - sv translations
+RPROVIDES_procps-locale-sv: procps-locale sv-translation
+RRECOMMENDS_procps-locale-sv: virtual-locale-sv
+SECTION: base
+PKG_procps-locale-sv: procps-locale-sv
+FILES_procps-locale-sv: /usr/share/locale/sv
+FILES_INFO: {"/usr/share/locale/sv/LC_MESSAGES/procps-ng.mo": 85941}
+PKGSIZE_procps-locale-sv: 85941

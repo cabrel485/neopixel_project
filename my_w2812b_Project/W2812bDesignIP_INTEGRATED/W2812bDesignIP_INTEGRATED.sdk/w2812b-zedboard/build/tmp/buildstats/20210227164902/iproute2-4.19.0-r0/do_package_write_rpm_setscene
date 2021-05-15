@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444603.32 
+iproute2-4.19.0-r0: do_package_write_rpm_setscene
+Elapsed time: 0.17 seconds
+utime: 21
+stime: 6
+cutime: 2
+cstime: 2
+IO wchar: 5418962
+IO syscr: 597
+IO write_bytes: 2736128
+IO cancelled_write_bytes: 0
+IO read_bytes: 2523136
+IO rchar: 5402301
+IO syscw: 496
+rusage ru_utime: 0.212557
+rusage ru_stime: 0.061314
+rusage ru_maxrss: 131392
+rusage ru_minflt: 13261
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 200
+Child rusage ru_utime: 0.024059
+Child rusage ru_stime: 0.023323
+Child rusage ru_maxrss: 128628
+Child rusage ru_minflt: 2188
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 4928
+Child rusage ru_oublock: 5192
+Child rusage ru_nvcsw: 103
+Child rusage ru_nivcsw: 126
+Status: PASSED 
+Ended: 1614444603.49 

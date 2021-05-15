@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444592.69 
+xcb-proto-1.13-r0: do_package_write_rpm_setscene
+Elapsed time: 0.26 seconds
+utime: 27
+stime: 6
+cutime: 1
+cstime: 2
+IO wchar: 439832
+IO syscr: 1334
+IO write_bytes: 249856
+IO cancelled_write_bytes: 0
+IO read_bytes: 118784
+IO rchar: 503598
+IO syscw: 162
+rusage ru_utime: 0.275808
+rusage ru_stime: 0.061748
+rusage ru_maxrss: 131404
+rusage ru_minflt: 15222
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 208
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 173
+Child rusage ru_utime: 0.014294999999999999
+Child rusage ru_stime: 0.024082
+Child rusage ru_maxrss: 128708
+Child rusage ru_minflt: 2670
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 224
+Child rusage ru_oublock: 280
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1614444592.95 

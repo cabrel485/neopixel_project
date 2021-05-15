@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444624.93 
+libcomps-native-0.1.8+gitAUTOINC+01a4759894-r0: do_populate_sysroot_setscene
+Elapsed time: 0.11 seconds
+utime: 23
+stime: 6
+cutime: 1
+cstime: 1
+IO wchar: 1129565
+IO syscr: 262
+IO write_bytes: 614400
+IO cancelled_write_bytes: 0
+IO read_bytes: 131072
+IO rchar: 870540
+IO syscw: 275
+rusage ru_utime: 0.237672
+rusage ru_stime: 0.064133
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13415
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 192
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 125
+Child rusage ru_utime: 0.017054
+Child rusage ru_stime: 0.015127
+Child rusage ru_maxrss: 128680
+Child rusage ru_minflt: 2289
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 248
+Child rusage ru_oublock: 1008
+Child rusage ru_nvcsw: 38
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1614444625.04 

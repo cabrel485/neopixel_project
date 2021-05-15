@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444798.68 
+gpgme-native-1.11.1-r0: do_rm_work
+Elapsed time: 0.09 seconds
+utime: 15
+stime: 3
+cutime: 2
+cstime: 1
+IO wchar: 44556
+IO syscr: 194
+IO write_bytes: 40960
+IO cancelled_write_bytes: 0
+IO read_bytes: 335872
+IO rchar: 170973
+IO syscw: 41
+rusage ru_utime: 0.155281
+rusage ru_stime: 0.035834
+rusage ru_maxrss: 131740
+rusage ru_minflt: 4762
+rusage ru_majflt: 0
+rusage ru_inblock: 312
+rusage ru_oublock: 80
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 35
+Child rusage ru_utime: 0.020017
+Child rusage ru_stime: 0.012895
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 3501
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 344
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 84
+Child rusage ru_nivcsw: 60
+Status: PASSED 
+Ended: 1614444798.77 

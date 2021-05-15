@@ -1,0 +1,14 @@
+PN: mtd-utils
+PV: 2.0.2+AUTOINC+bc63d36e39
+PR: r0
+PKGV: 2.0.2+0+bc63d36e39
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_mtd-utils-doc: Tools for managing memory technology devices.  This package contains documentation.
+SUMMARY_mtd-utils-doc: Tools for managing memory technology devices - Documentation files
+RRECOMMENDS_mtd-utils-doc: mtd-utils-lic
+SECTION_mtd-utils-doc: doc
+PKG_mtd-utils-doc: mtd-utils-doc
+FILES_mtd-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/mkfs.jffs2.1": 6787, "/usr/share/man/man8/ubinize.8": 4900}
+PKGSIZE_mtd-utils-doc: 11687

@@ -1,0 +1,20 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-ttl: iptables module ipt-ttl
+SUMMARY_iptables-module-ipt-ttl: iptables module ipt-ttl
+RDEPENDS_iptables-module-ipt-ttl: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-ttl: iptables-module-ipt-ttl
+FILES_iptables-module-ipt-ttl: /usr/lib/xtables/libipt_TTL.so /usr/lib/xtables/libipt_ttl.so
+FILERPROVIDESFLIST_iptables-module-ipt-ttl: /usr/lib/xtables/libipt@underscore@ttl.so /usr/lib/xtables/libipt@underscore@TTL.so
+FILES_INFO: {"/usr/lib/xtables/libipt_TTL.so": 5512, "/usr/lib/xtables/libipt_ttl.so": 5508}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@ttl.so_iptables-module-ipt-ttl:  libipt_ttl.so
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@TTL.so_iptables-module-ipt-ttl:  libipt_TTL.so
+FILERDEPENDSFLIST_iptables-module-ipt-ttl: /usr/lib/xtables/libipt@underscore@ttl.so /usr/lib/xtables/libipt@underscore@TTL.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@ttl.so_iptables-module-ipt-ttl:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@TTL.so_iptables-module-ipt-ttl:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-ttl: 11020

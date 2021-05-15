@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444687.52 
+expat-native-2.2.6-r0: do_rm_work
+Elapsed time: 0.09 seconds
+utime: 22
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 38748
+IO syscr: 183
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 0
+IO rchar: 163536
+IO syscw: 36
+rusage ru_utime: 0.22811099999999998
+rusage ru_stime: 0.03948
+rusage ru_maxrss: 131416
+rusage ru_minflt: 11117
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 73
+Child rusage ru_utime: 0.013543999999999999
+Child rusage ru_stime: 0.01761
+Child rusage ru_maxrss: 128716
+Child rusage ru_minflt: 3513
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 50
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1614444687.61 

@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-file-spec-amigaos: perl module file-spec-amigaos
+SUMMARY_perl-module-file-spec-amigaos: perl module file-spec-amigaos
+RDEPENDS_perl-module-file-spec-amigaos: perl perl-module-file-spec-unix perl-module-strict perl-module-vars
+SECTION: devel
+PKG_perl-module-file-spec-amigaos: perl-module-file-spec-amigaos
+FILES_perl-module-file-spec-amigaos: /usr/lib/perl/5.24.4/File/Spec/AmigaOS.pm
+FILERPROVIDESFLIST_perl-module-file-spec-amigaos: /usr/lib/perl/5.24.4/File/Spec/AmigaOS.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/File/Spec/AmigaOS.pm": 1002}
+FILERPROVIDES_/usr/lib/perl/5.24.4/File/Spec/AmigaOS.pm_perl-module-file-spec-amigaos:  perl(File::Spec::AmigaOS)
+PKGSIZE_perl-module-file-spec-amigaos: 1002

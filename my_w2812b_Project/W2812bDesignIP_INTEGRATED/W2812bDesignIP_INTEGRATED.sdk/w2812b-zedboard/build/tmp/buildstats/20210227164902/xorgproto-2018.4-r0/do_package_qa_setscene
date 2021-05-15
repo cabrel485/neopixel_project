@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444592.01 
+xorgproto-2018.4-r0: do_package_qa_setscene
+Elapsed time: 0.17 seconds
+utime: 24
+stime: 3
+cutime: 0
+cstime: 0
+IO wchar: 135566
+IO syscr: 89
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 161170
+IO syscw: 120
+rusage ru_utime: 0.241703
+rusage ru_stime: 0.036254999999999996
+rusage ru_maxrss: 131332
+rusage ru_minflt: 12111
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 160
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 0.007447
+Child rusage ru_stime: 0.004018
+Child rusage ru_maxrss: 128612
+Child rusage ru_minflt: 1136
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 3
+Status: PASSED 
+Ended: 1614444592.18 

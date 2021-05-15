@@ -1,0 +1,57 @@
+DEBUG: Executing python function set_image_size
+DEBUG: 19900.400000 = 15308 * 1.300000
+DEBUG: 65536.000000 = max(19900.400000, 65536)[65536.000000] + 1
+DEBUG: 65536.000000 = int(65536.000000)
+DEBUG: 65536 = aligned(65536)
+DEBUG: returning 65536
+DEBUG: Python function set_image_size finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/opkg-utils/opkg-utils_0.3.6.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/pigz/pigz_2.4.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/dnf/dnf_2.7.5.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/depmodwrapper-cross_1.0.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/update-rc.d/update-rc.d_0.8.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/rpm/rpm_4.14.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/pbzip2/pbzip2_1.1.13.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/e2fsprogs/e2fsprogs_1.44.3.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/glibc/ldconfig-native_2.12.1.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/qemu/qemuwrapper-cross_1.0.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-bsp/u-boot/u-boot-mkimage_2018.07.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/glibc/cross-localedef-native_2.28.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/createrepo-c/createrepo-c_git.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/mklibs/mklibs-native_0.1.43.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/makedevs/makedevs_1.0.1.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/opkg/opkg_0.3.6.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['pseudo-native', 'opkg-utils-native', 'pigz-native', 'dnf-native', 'depmodwrapper-cross', 'update-rc.d-native', 'rpm-native', 'pbzip2-native', 'e2fsprogs-native', 'ldconfig-native', 'qemuwrapper-cross', 'u-boot-mkimage-native', 'cross-localedef-native', 'createrepo-c-native', 'mklibs-native', 'makedevs-native', 'opkg-native', 'quilt-native', 'zlib-native', 'gettext-minimal-native', 'libdnf-native', 'ninja-native', 'python3-native', 'cmake-native', 'libcomps-native', 'librepo-native', 'python3-iniparse-native', 'kmod-native', 'shadow-native', 'xz-native', 'pkgconfig-native', 'automake-native', 'dbus-native', 'nss-native', 'bzip2-native', 'gnu-config-native', 'libarchive-native', 'db-native', 'autoconf-native', 'libtool-native', 'elfutils-native', 'popt-native', 'file-native', 'texinfo-dummy-native', 'attr-native', 'util-linux-native', 'debianutils-native', 'openssl-native', 'qemu-native', 'flex-native', 'curl-native', 'expat-native', 'libxml2-native', 'glib-2.0-native', 'sqlite3-native', 'libsolv-native', 'gobject-introspection-native', 'gtk-doc-native', 'libcheck-native', 're2c-native', 'gdbm-native', 'readline-native', 'gpgme-native', 'python3-six-native', 'nspr-native', 'lzo-native', 'm4-native', 'ncurses-native', 'dtc-native', 'alsa-lib-native', 'pixman-native', 'libpcre-native', 'libffi-native', 'gettext-native', 'libgpg-error-native', 'swig-native', 'libassuan-native', 'python3-setuptools-native', 'libpng-native', 'util-macros-native', 'unzip-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_image_ext3
+DEBUG: Executing dd if=/dev/zero of=/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/deploy-petalinux-user-image-image-complete/petalinux-user-image-plnx-zynq7-20210227164902.rootfs.ext3 seek=65536 count=0 bs=1024
+0+0 records in
+0+0 records out
+0 bytes copied, 0.000107418 s, 0.0 kB/s
+DEBUG: Actual Rootfs size:  15308	/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs
+DEBUG: Actual Partion size: 67108864
+DEBUG: Executing mkfs.ext3 -F -i 4096 /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/deploy-petalinux-user-image-image-complete/petalinux-user-image-plnx-zynq7-20210227164902.rootfs.ext3 -d /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/rootfs
+mke2fs 1.44.3 (10-July-2018)
+Discarding device blocks:  1024/65536           done                            
+Creating filesystem with 65536 1k blocks and 16384 inodes
+Filesystem UUID: 306f7d26-9d5c-41be-af32-0fa7339d0aad
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345
+
+Allocating group tables: 0/8   done                            
+Writing inode tables: 0/8   done                            
+Creating journal (4096 blocks): done
+Copying files into the device: done
+Writing superblocks and filesystem accounting information: 0/8   done
+
+
+        1203 inodes used (7.34%, out of 16384)
+           2 non-contiguous files (0.2%)
+           6 non-contiguous directories (0.5%)
+             # of inodes with ind/dind/tind blocks: 172/9/0
+       20706 blocks used (31.59%, out of 65536)
+           0 bad blocks
+           0 large files
+
+         691 regular files
+         152 directories
+           0 character device files
+           0 block device files
+           0 fifos
+           4 links
+         351 symbolic links (351 fast symbolic links)
+           0 sockets
+------------
+        1198 files
+DEBUG: Shell function do_image_ext3 finished
+DEBUG: Executing python function create_symlinks
+NOTE: Creating symlink: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/deploy-petalinux-user-image-image-complete/petalinux-user-image-plnx-zynq7.ext3.bz2 -> petalinux-user-image-plnx-zynq7-20210227164902.rootfs.ext3.bz2
+NOTE: Creating symlink: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/petalinux-user-image/1.0-r0/deploy-petalinux-user-image-image-complete/petalinux-user-image-plnx-zynq7.ext3 -> petalinux-user-image-plnx-zynq7-20210227164902.rootfs.ext3
+DEBUG: Python function create_symlinks finished

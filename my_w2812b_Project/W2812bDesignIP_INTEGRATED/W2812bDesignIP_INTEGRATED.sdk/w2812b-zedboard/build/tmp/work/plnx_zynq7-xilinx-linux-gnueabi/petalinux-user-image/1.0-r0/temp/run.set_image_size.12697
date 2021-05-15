@@ -1,0 +1,66 @@
+def set_image_size(d):
+        rootfs_size = get_rootfs_size(d)
+        d.setVar('ROOTFS_SIZE', str(rootfs_size))
+        d.setVarFlag('ROOTFS_SIZE', 'export', '1')
+
+set_image_size(d)
+
+def get_rootfs_size(d):
+    import subprocess
+
+    rootfs_alignment = int(d.getVar('IMAGE_ROOTFS_ALIGNMENT'))
+    overhead_factor = float(d.getVar('IMAGE_OVERHEAD_FACTOR'))
+    rootfs_req_size = int(d.getVar('IMAGE_ROOTFS_SIZE'))
+    rootfs_extra_space = eval(d.getVar('IMAGE_ROOTFS_EXTRA_SPACE'))
+    rootfs_maxsize = d.getVar('IMAGE_ROOTFS_MAXSIZE')
+    image_fstypes = d.getVar('IMAGE_FSTYPES') or ''
+    initramfs_fstypes = d.getVar('INITRAMFS_FSTYPES') or ''
+    initramfs_maxsize = d.getVar('INITRAMFS_MAXSIZE')
+
+    output = subprocess.check_output(['du', '-ks',
+                                      d.getVar('IMAGE_ROOTFS')])
+    size_kb = int(output.split()[0])
+
+    base_size = size_kb * overhead_factor
+    bb.debug(1, '%f = %d * %f' % (base_size, size_kb, overhead_factor))
+    base_size2 = max(base_size, rootfs_req_size) + rootfs_extra_space
+    bb.debug(1, '%f = max(%f, %d)[%f] + %d' % (base_size2, base_size, rootfs_req_size, max(base_size, rootfs_req_size), overhead_factor))
+
+    base_size = base_size2
+    if base_size != int(base_size):
+        base_size = int(base_size + 1)
+    else:
+        base_size = int(base_size)
+    bb.debug(1, '%f = int(%f)' % (base_size, base_size2))
+
+    base_size_saved = base_size
+    base_size += rootfs_alignment - 1
+    base_size -= base_size % rootfs_alignment
+    bb.debug(1, '%d = aligned(%d)' % (base_size, base_size_saved))
+
+    # Do not check image size of the debugfs image. This is not supposed
+    # to be deployed, etc. so it doesn't make sense to limit the size
+    # of the debug.
+    if (d.getVar('IMAGE_BUILDING_DEBUGFS') or "") == "true":
+        bb.debug(1, 'returning debugfs size %d' % (base_size))
+        return base_size
+
+    # Check the rootfs size against IMAGE_ROOTFS_MAXSIZE (if set)
+    if rootfs_maxsize:
+        rootfs_maxsize_int = int(rootfs_maxsize)
+        if base_size > rootfs_maxsize_int:
+            bb.fatal("The rootfs size %d(K) overrides IMAGE_ROOTFS_MAXSIZE: %d(K)" % \
+                (base_size, rootfs_maxsize_int))
+
+    # Check the initramfs size against INITRAMFS_MAXSIZE (if set)
+    if image_fstypes == initramfs_fstypes != ''  and initramfs_maxsize:
+        initramfs_maxsize_int = int(initramfs_maxsize)
+        if base_size > initramfs_maxsize_int:
+            bb.error("The initramfs size %d(K) overrides INITRAMFS_MAXSIZE: %d(K)" % \
+                (base_size, initramfs_maxsize_int))
+            bb.error("You can set INITRAMFS_MAXSIZE a larger value. Usually, it should")
+            bb.fatal("be less than 1/2 of ram size, or you may fail to boot it.\n")
+
+    bb.debug(1, 'returning %d' % (base_size))
+    return base_size
+

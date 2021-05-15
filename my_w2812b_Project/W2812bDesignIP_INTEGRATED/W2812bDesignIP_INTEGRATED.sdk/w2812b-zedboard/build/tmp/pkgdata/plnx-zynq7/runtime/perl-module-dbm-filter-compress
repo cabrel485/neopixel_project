@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-dbm-filter-compress: perl module dbm-filter-compress
+SUMMARY_perl-module-dbm-filter-compress: perl module dbm-filter-compress
+RDEPENDS_perl-module-dbm-filter-compress: perl perl-module-carp perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-dbm-filter-compress: perl-module-dbm-filter-compress
+FILES_perl-module-dbm-filter-compress: /usr/lib/perl/5.24.4/DBM_Filter/compress.pm
+FILERPROVIDESFLIST_perl-module-dbm-filter-compress: /usr/lib/perl/5.24.4/DBM@underscore@Filter/compress.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/DBM_Filter/compress.pm": 854}
+FILERPROVIDES_/usr/lib/perl/5.24.4/DBM@underscore@Filter/compress.pm_perl-module-dbm-filter-compress:  perl(DBM_Filter::compress)
+PKGSIZE_perl-module-dbm-filter-compress: 854

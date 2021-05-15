@@ -1,0 +1,14 @@
+!<thin>
+//                                              90        `
+hid-core.o/
+hid-input.o/
+hid-quirks.o/
+hid-generic.o/
+hid-microsoft.o/
+usbhid/hid-core.o/
+/0              0           0     0     644     39324     `
+/12             0           0     0     644     29216     `
+/25             0           0     0     644     12060     `
+/39             0           0     0     644     3464      `
+/54            /0           0     0     644     5784      `
+/71             0           0     0     644     23540     `

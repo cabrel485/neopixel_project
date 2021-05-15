@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444615.45 
+bridge-utils-1.6-r0: do_packagedata_setscene
+Elapsed time: 0.21 seconds
+utime: 23
+stime: 5
+cutime: 1
+cstime: 0
+IO wchar: 168843
+IO syscr: 193
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 236407
+IO syscw: 162
+rusage ru_utime: 0.23336099999999999
+rusage ru_stime: 0.05445
+rusage ru_maxrss: 131440
+rusage ru_minflt: 13309
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 0.018415
+Child rusage ru_stime: 0.009597
+Child rusage ru_maxrss: 128668
+Child rusage ru_minflt: 2242
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1614444615.66 

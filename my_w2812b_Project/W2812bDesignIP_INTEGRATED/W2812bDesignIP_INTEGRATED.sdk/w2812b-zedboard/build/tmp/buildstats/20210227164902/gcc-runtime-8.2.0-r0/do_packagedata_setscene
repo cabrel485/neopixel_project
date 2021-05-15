@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444669.11 
+gcc-runtime-8.2.0-r0: do_packagedata_setscene
+Elapsed time: 0.12 seconds
+utime: 27
+stime: 4
+cutime: 0
+cstime: 2
+IO wchar: 362909
+IO syscr: 229
+IO write_bytes: 274432
+IO cancelled_write_bytes: 0
+IO read_bytes: 20480
+IO rchar: 437177
+IO syscw: 259
+rusage ru_utime: 0.27572399999999997
+rusage ru_stime: 0.045323999999999996
+rusage ru_maxrss: 131656
+rusage ru_minflt: 13739
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 200
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 128
+Child rusage ru_utime: 0.0058189999999999995
+Child rusage ru_stime: 0.025155999999999998
+Child rusage ru_maxrss: 128900
+Child rusage ru_minflt: 2286
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 336
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1614444669.23 

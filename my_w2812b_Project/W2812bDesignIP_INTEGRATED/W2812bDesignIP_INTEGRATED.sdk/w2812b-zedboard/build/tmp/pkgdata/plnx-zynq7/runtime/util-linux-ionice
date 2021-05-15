@@ -1,0 +1,21 @@
+PN: util-linux
+PV: 2.32.1
+PR: r0
+PKGV: 2.32.1
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-ionice: update-alternatives-opkg glibc (>= 2.28)
+RRECOMMENDS_util-linux-ionice: util-linux-lic
+SECTION: base
+PKG_util-linux-ionice: util-linux-ionice
+FILES_util-linux-ionice: /usr/bin/ionice.util-linux
+pkg_postinst_util-linux-ionice: #!/bin/sh\nset -e\n\tupdate-alternatives --install /usr/bin/ionice ionice /usr/bin/ionice.util-linux 80\n
+pkg_prerm_util-linux-ionice: #!/bin/sh\nset -e\n\tupdate-alternatives --remove  ionice /usr/bin/ionice.util-linux\n
+FILERPROVIDESFLIST_util-linux-ionice:  /usr/bin/ionice.util-linux
+FILES_INFO: {"/usr/bin/ionice.util-linux": 17864}
+FILERPROVIDES_/usr/bin/ionice.util-linux_util-linux-ionice:  /usr/bin/ionice
+FILERDEPENDSFLIST_util-linux-ionice: /usr/bin/ionice.util-linux
+FILERDEPENDS_/usr/bin/ionice.util-linux_util-linux-ionice:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_util-linux-ionice: 17864

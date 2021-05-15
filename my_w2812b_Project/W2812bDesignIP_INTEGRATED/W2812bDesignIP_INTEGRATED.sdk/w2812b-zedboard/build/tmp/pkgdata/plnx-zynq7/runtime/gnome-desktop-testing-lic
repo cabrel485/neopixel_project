@@ -1,0 +1,13 @@
+PN: gnome-desktop-testing
+PV: 2014.1
+PR: r1
+PKGV: 2014.1
+PKGR: r1
+LICENSE: LGPLv2+
+DESCRIPTION: Test runner for GNOME-style installed tests.
+SUMMARY: Test runner for GNOME-style installed tests
+SECTION: base
+PKG_gnome-desktop-testing-lic: gnome-desktop-testing-lic
+FILES_gnome-desktop-testing-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/gnome-desktop-testing/COPYING": 25292, "/usr/share/licenses/gnome-desktop-testing/generic_LGPLv2": 24925, "/usr/share/licenses/gnome-desktop-testing/gnome-desktop-testing-runner.c": 874}
+PKGSIZE_gnome-desktop-testing-lic: 51091

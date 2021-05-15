@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-ipt-ecn: iptables module ipt-ecn
+SUMMARY_iptables-module-ipt-ecn: iptables module ipt-ecn
+RDEPENDS_iptables-module-ipt-ecn: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-ipt-ecn: iptables-module-ipt-ecn
+FILES_iptables-module-ipt-ecn: /usr/lib/xtables/libipt_ECN.so
+FILERPROVIDESFLIST_iptables-module-ipt-ecn: /usr/lib/xtables/libipt@underscore@ECN.so
+FILES_INFO: {"/usr/lib/xtables/libipt_ECN.so": 5512}
+FILERPROVIDES_/usr/lib/xtables/libipt@underscore@ECN.so_iptables-module-ipt-ecn:  libipt_ECN.so
+FILERDEPENDSFLIST_iptables-module-ipt-ecn: /usr/lib/xtables/libipt@underscore@ECN.so
+FILERDEPENDS_/usr/lib/xtables/libipt@underscore@ECN.so_iptables-module-ipt-ecn:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-ipt-ecn: 5512

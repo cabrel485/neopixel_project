@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444769.53 
+sysvinit-inittab-2.88dsf-r10: do_rm_work
+Elapsed time: 0.24 seconds
+utime: 12
+stime: 1
+cutime: 7
+cstime: 7
+IO wchar: 27450
+IO syscr: 605
+IO write_bytes: 167936
+IO cancelled_write_bytes: 225280
+IO read_bytes: 0
+IO rchar: 303883
+IO syscw: 44
+rusage ru_utime: 0.126045
+rusage ru_stime: 0.012197
+rusage ru_maxrss: 131740
+rusage ru_minflt: 4424
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 26
+Child rusage ru_utime: 0.07990699999999999
+Child rusage ru_stime: 0.074947
+Child rusage ru_maxrss: 129068
+Child rusage ru_minflt: 13355
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 272
+Child rusage ru_nvcsw: 187
+Child rusage ru_nivcsw: 92
+Status: PASSED 
+Ended: 1614444769.77 

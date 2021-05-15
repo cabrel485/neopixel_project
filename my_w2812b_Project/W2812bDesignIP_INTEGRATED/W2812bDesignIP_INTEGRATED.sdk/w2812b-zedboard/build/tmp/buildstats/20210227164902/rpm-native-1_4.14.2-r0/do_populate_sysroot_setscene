@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444670.57 
+rpm-native-1_4.14.2-r0: do_populate_sysroot_setscene
+Elapsed time: 0.27 seconds
+utime: 24
+stime: 10
+cutime: 3
+cstime: 7
+IO wchar: 4692190
+IO syscr: 893
+IO write_bytes: 2805760
+IO cancelled_write_bytes: 233472
+IO read_bytes: 638976
+IO rchar: 3460824
+IO syscw: 1044
+rusage ru_utime: 0.244922
+rusage ru_stime: 0.102709
+rusage ru_maxrss: 131620
+rusage ru_minflt: 18908
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 344
+rusage ru_nvcsw: 142
+rusage ru_nivcsw: 57
+Child rusage ru_utime: 0.037859
+Child rusage ru_stime: 0.07489799999999999
+Child rusage ru_maxrss: 128728
+Child rusage ru_minflt: 4086
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1224
+Child rusage ru_oublock: 5136
+Child rusage ru_nvcsw: 104
+Child rusage ru_nivcsw: 149
+Status: PASSED 
+Ended: 1614444670.84 

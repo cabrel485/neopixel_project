@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 8.2.0
+PR: r0
+PKGV: 8.2.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY_libssp-staticdev: GNU stack smashing protection library - static development files
+RRECOMMENDS_libssp-staticdev: gcc-runtime-lic
+SECTION: devel
+PKG_libssp-staticdev: libssp-staticdev
+FILES_libssp-staticdev: /usr/lib/libssp*.a
+FILES_INFO: {}
+PKGSIZE_libssp-staticdev: 0

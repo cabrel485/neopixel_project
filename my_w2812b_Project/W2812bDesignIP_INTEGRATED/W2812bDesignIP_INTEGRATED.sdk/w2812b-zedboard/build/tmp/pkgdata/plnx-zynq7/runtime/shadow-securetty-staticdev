@@ -1,0 +1,15 @@
+PN: shadow-securetty
+PV: 4.6
+PR: r3
+PKGV: 4.6
+PKGR: r3
+LICENSE: MIT
+DESCRIPTION_shadow-securetty-staticdev: Provider of the machine specific securetty file.  This package contains static libraries for software development.
+SUMMARY_shadow-securetty-staticdev: Provider of the machine specific securetty file - Development files (Static Libraries)
+RDEPENDS_shadow-securetty-staticdev: shadow-securetty-dev (= 4.6-r3)
+RRECOMMENDS_shadow-securetty-staticdev: shadow-securetty-lic
+SECTION_shadow-securetty-staticdev: devel
+PKG_shadow-securetty-staticdev: shadow-securetty-staticdev
+FILES_shadow-securetty-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/shadow-securetty/*.a
+FILES_INFO: {}
+PKGSIZE_shadow-securetty-staticdev: 0

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444596.78 
+tzdata-2018g-r0: do_package_write_rpm_setscene
+Elapsed time: 0.23 seconds
+utime: 18
+stime: 6
+cutime: 2
+cstime: 1
+IO wchar: 1290209
+IO syscr: 244
+IO write_bytes: 675840
+IO cancelled_write_bytes: 0
+IO read_bytes: 352256
+IO rchar: 1127152
+IO syscw: 221
+rusage ru_utime: 0.187714
+rusage ru_stime: 0.063902
+rusage ru_maxrss: 131300
+rusage ru_minflt: 12996
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 143
+Child rusage ru_utime: 0.024482
+Child rusage ru_stime: 0.013294
+Child rusage ru_maxrss: 128560
+Child rusage ru_minflt: 2143
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 688
+Child rusage ru_oublock: 1176
+Child rusage ru_nvcsw: 40
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1614444597.00 

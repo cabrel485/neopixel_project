@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444599.55 
+shared-mime-info-native-1.10-r0: do_populate_lic_setscene
+Elapsed time: 0.11 seconds
+utime: 26
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 213378
+IO syscr: 196
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+IO read_bytes: 12288
+IO rchar: 275485
+IO syscw: 143
+rusage ru_utime: 0.265801
+rusage ru_stime: 0.054723
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13407
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 157
+Child rusage ru_utime: 0.012237
+Child rusage ru_stime: 0.014832
+Child rusage ru_maxrss: 128728
+Child rusage ru_minflt: 2270
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 22
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1614444599.67 

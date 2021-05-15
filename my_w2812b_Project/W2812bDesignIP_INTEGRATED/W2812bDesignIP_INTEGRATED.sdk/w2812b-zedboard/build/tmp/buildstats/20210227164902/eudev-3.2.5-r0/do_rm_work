@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444710.59 
+eudev-3.2.5-r0: do_rm_work
+Elapsed time: 0.10 seconds
+utime: 15
+stime: 2
+cutime: 4
+cstime: 1
+IO wchar: 37159
+IO syscr: 282
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 200704
+IO rchar: 203192
+IO syscw: 41
+rusage ru_utime: 0.15997899999999998
+rusage ru_stime: 0.026663
+rusage ru_maxrss: 132204
+rusage ru_minflt: 4778
+rusage ru_majflt: 0
+rusage ru_inblock: 272
+rusage ru_oublock: 72
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.041663
+Child rusage ru_stime: 0.015448
+Child rusage ru_maxrss: 129532
+Child rusage ru_minflt: 5936
+Child rusage ru_majflt: 2
+Child rusage ru_inblock: 120
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 85
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1614444710.69 

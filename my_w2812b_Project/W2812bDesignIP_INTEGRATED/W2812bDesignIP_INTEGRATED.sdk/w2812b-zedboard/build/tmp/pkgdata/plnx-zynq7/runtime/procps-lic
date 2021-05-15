@@ -1,0 +1,13 @@
+PN: procps
+PV: 3.3.15
+PR: r0
+PKGV: 3.3.15
+PKGR: r0
+LICENSE: GPLv2+ & LGPLv2+
+DESCRIPTION: Procps contains a set of system utilities that provide system information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, and skill.
+SUMMARY: System and process monitoring utilities
+SECTION: base
+PKG_procps-lic: procps-lic
+FILES_procps-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/procps/COPYING.LIB": 25381, "/usr/share/licenses/procps/generic_GPLv2": 17611, "/usr/share/licenses/procps/COPYING": 18092, "/usr/share/licenses/procps/generic_LGPLv2": 24925}
+PKGSIZE_procps-lic: 86009

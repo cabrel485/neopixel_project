@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-dsb-de: locale definition for dsb-de
+SUMMARY_glibc-localedata-dsb-de: locale definition for dsb-de
+RDEPENDS_glibc-localedata-dsb-de: glibc-localedata-de-de glibc-localedata-i18n glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-dsb-de: glibc-localedata-dsb-de
+FILES_glibc-localedata-dsb-de: /usr/share/i18n/locales/dsb_DE
+FILES_INFO: {"/usr/share/i18n/locales/dsb_DE": 6352}
+PKGSIZE_glibc-localedata-dsb-de: 6352

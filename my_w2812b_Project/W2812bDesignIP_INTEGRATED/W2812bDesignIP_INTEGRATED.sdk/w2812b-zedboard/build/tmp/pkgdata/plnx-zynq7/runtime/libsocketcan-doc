@@ -1,0 +1,14 @@
+PN: libsocketcan
+PV: 0.0.10
+PR: r0
+PKGV: 0.0.10
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libsocketcan-doc: Control basic functions in socketcan from userspace.  This package contains documentation.
+SUMMARY_libsocketcan-doc: Control basic functions in socketcan from userspace - Documentation files
+RRECOMMENDS_libsocketcan-doc: libsocketcan-lic
+SECTION_libsocketcan-doc: doc
+PKG_libsocketcan-doc: libsocketcan-doc
+FILES_libsocketcan-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/libsocketcan/README": 681, "/usr/share/doc/libsocketcan/INSTALL": 9240}
+PKGSIZE_libsocketcan-doc: 9921

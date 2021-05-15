@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444587.17 
+mtd-utils-native-2.0.2+AUTOINC+bc63d36e39-r0: do_populate_sysroot_setscene
+Elapsed time: 0.81 seconds
+utime: 32
+stime: 30
+cutime: 14
+cstime: 25
+IO wchar: 6810103
+IO syscr: 1546
+IO write_bytes: 4898816
+IO cancelled_write_bytes: 2199552
+IO read_bytes: 765952
+IO rchar: 5671255
+IO syscw: 743
+rusage ru_utime: 0.321354
+rusage ru_stime: 0.301517
+rusage ru_maxrss: 131616
+rusage ru_minflt: 41438
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 240
+rusage ru_nvcsw: 292
+rusage ru_nivcsw: 139
+Child rusage ru_utime: 0.140739
+Child rusage ru_stime: 0.251597
+Child rusage ru_maxrss: 128800
+Child rusage ru_minflt: 13543
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1496
+Child rusage ru_oublock: 9328
+Child rusage ru_nvcsw: 173
+Child rusage ru_nivcsw: 419
+Status: PASSED 
+Ended: 1614444587.98 

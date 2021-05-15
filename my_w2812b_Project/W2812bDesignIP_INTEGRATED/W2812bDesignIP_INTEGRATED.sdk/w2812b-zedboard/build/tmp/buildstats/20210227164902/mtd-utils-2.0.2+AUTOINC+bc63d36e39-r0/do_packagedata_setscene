@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444609.58 
+mtd-utils-2.0.2+AUTOINC+bc63d36e39-r0: do_packagedata_setscene
+Elapsed time: 0.15 seconds
+utime: 26
+stime: 3
+cutime: 1
+cstime: 1
+IO wchar: 270221
+IO syscr: 185
+IO write_bytes: 176128
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 294690
+IO syscw: 179
+rusage ru_utime: 0.260722
+rusage ru_stime: 0.038912999999999996
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13400
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 224
+Child rusage ru_utime: 0.018258999999999997
+Child rusage ru_stime: 0.010825
+Child rusage ru_maxrss: 128736
+Child rusage ru_minflt: 2297
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1614444609.73 

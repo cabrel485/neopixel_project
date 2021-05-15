@@ -1,0 +1,16 @@
+PN: shared-mime-info
+PV: 1.10
+PR: r0
+PKGV: 1.10
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_shared-mime-info-dev: Shared MIME type database and specification.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_shared-mime-info-dev: Shared MIME type database and specification - Development files
+RDEPENDS_shared-mime-info-dev: shared-mime-info (= 1.10-r0)
+RRECOMMENDS_shared-mime-info-dev: glib-2.0-dev libxml2-dev shared-mime-info-lic glibc-dev
+SECTION_shared-mime-info-dev: devel
+PKG_shared-mime-info-dev: shared-mime-info-dev
+ALLOW_EMPTY_shared-mime-info-dev: 1
+FILES_shared-mime-info-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/shared-mime-info/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake /usr/share/pkgconfig/shared-mime-info.pc
+FILES_INFO: {"/usr/share/pkgconfig/shared-mime-info.pc": 120}
+PKGSIZE_shared-mime-info-dev: 120

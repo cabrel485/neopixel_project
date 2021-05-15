@@ -1,0 +1,15 @@
+PN: python
+PV: 2.7.15
+PR: r1
+PKGV: 2.7.15
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-tkinter: Python Tcl/Tk bindings
+RDEPENDS_python-tkinter: python-core
+RRECOMMENDS_python-tkinter: python-lic
+SECTION: devel/python
+PKG_python-tkinter: python-tkinter
+FILES_python-tkinter:  /usr/lib/python2.7/lib-tk
+FILES_INFO: {"/usr/lib/python2.7/lib-tk/tkColorChooser.py": 1784, "/usr/lib/python2.7/lib-tk/SimpleDialog.pyc": 4317, "/usr/lib/python2.7/lib-tk/Tkinter.pyc": 198893, "/usr/lib/python2.7/lib-tk/tkColorChooser.pyc": 1410, "/usr/lib/python2.7/lib-tk/Dialog.py": 1567, "/usr/lib/python2.7/lib-tk/tkSimpleDialog.pyc": 9061, "/usr/lib/python2.7/lib-tk/Tkconstants.py": 1493, "/usr/lib/python2.7/lib-tk/Tkdnd.pyc": 12773, "/usr/lib/python2.7/lib-tk/tkFileDialog.pyc": 5129, "/usr/lib/python2.7/lib-tk/ttk.pyc": 62352, "/usr/lib/python2.7/lib-tk/tkSimpleDialog.py": 7723, "/usr/lib/python2.7/lib-tk/ttk.py": 56173, "/usr/lib/python2.7/lib-tk/FixTk.pyc": 2086, "/usr/lib/python2.7/lib-tk/FileDialog.pyc": 9674, "/usr/lib/python2.7/lib-tk/ScrolledText.py": 1836, "/usr/lib/python2.7/lib-tk/tkMessageBox.pyc": 3872, "/usr/lib/python2.7/lib-tk/turtle.pyc": 139113, "/usr/lib/python2.7/lib-tk/Tkinter.py": 160467, "/usr/lib/python2.7/lib-tk/tkFont.pyc": 7132, "/usr/lib/python2.7/lib-tk/Canvas.py": 7463, "/usr/lib/python2.7/lib-tk/tkMessageBox.py": 3687, "/usr/lib/python2.7/lib-tk/Tix.pyc": 95424, "/usr/lib/python2.7/lib-tk/tkCommonDialog.py": 1418, "/usr/lib/python2.7/lib-tk/tkFont.py": 6162, "/usr/lib/python2.7/lib-tk/turtle.py": 139035, "/usr/lib/python2.7/lib-tk/Tkdnd.py": 11488, "/usr/lib/python2.7/lib-tk/Canvas.pyc": 15404, "/usr/lib/python2.7/lib-tk/ScrolledText.pyc": 2654, "/usr/lib/python2.7/lib-tk/Tix.py": 77215, "/usr/lib/python2.7/lib-tk/SimpleDialog.py": 3728, "/usr/lib/python2.7/lib-tk/tkFileDialog.py": 5727, "/usr/lib/python2.7/lib-tk/tkCommonDialog.pyc": 1504, "/usr/lib/python2.7/lib-tk/Tkconstants.pyc": 2244, "/usr/lib/python2.7/lib-tk/Dialog.pyc": 1910, "/usr/lib/python2.7/lib-tk/FixTk.py": 3018, "/usr/lib/python2.7/lib-tk/FileDialog.py": 8831}
+PKGSIZE_python-tkinter: 1073767

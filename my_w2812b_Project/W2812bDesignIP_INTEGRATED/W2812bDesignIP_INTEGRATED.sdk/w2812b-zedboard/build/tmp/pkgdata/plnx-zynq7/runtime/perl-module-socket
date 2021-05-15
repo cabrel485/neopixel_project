@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-socket: perl module socket
+SUMMARY_perl-module-socket: perl module socket
+RDEPENDS_perl-module-socket: perl perl-module-carp perl-module-exporter perl-module-scalar-util perl-module-strict perl-module-warnings-register perl-module-xsloader glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-socket: perl-module-socket
+FILES_perl-module-socket: /usr/lib/perl/5.24.4/auto/Socket/Socket.so /usr/lib/perl/5.24.4/Socket.pm
+FILERPROVIDESFLIST_perl-module-socket: /usr/lib/perl/5.24.4/Socket.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/Socket.pm": 36431, "/usr/lib/perl/5.24.4/auto/Socket/Socket.so": 25884}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Socket.pm_perl-module-socket:  perl(Socket)
+FILERDEPENDSFLIST_perl-module-socket: /usr/lib/perl/5.24.4/auto/Socket/Socket.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/Socket/Socket.so_perl-module-socket:  ld-linux-armhf.so.3(GLIBC_2.4) libc.so.6(GLIBC_2.4) libc.so.6 ld-linux-armhf.so.3 rtld(GNU_HASH)
+PKGSIZE_perl-module-socket: 62315

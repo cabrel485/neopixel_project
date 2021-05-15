@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-hif-fj: locale definition for hif-fj
+SUMMARY_glibc-localedata-hif-fj: locale definition for hif-fj
+RDEPENDS_glibc-localedata-hif-fj: glibc-localedata-hi-in glibc-localedata-i18n glibc-localedata-iso14651-t1 glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-hif-fj: glibc-localedata-hif-fj
+FILES_glibc-localedata-hif-fj: /usr/share/i18n/locales/hif_FJ
+FILES_INFO: {"/usr/share/i18n/locales/hif_FJ": 3795}
+PKGSIZE_glibc-localedata-hif-fj: 3795

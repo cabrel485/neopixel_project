@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-autodie-scope-guardstack: perl module autodie-scope-guardstack
+SUMMARY_perl-module-autodie-scope-guardstack: perl module autodie-scope-guardstack
+RDEPENDS_perl-module-autodie-scope-guardstack: perl perl-module-autodie-scope-guard perl-module-strict perl-module-warnings
+SECTION: devel
+PKG_perl-module-autodie-scope-guardstack: perl-module-autodie-scope-guardstack
+FILES_perl-module-autodie-scope-guardstack: /usr/lib/perl/5.24.4/autodie/Scope/GuardStack.pm
+FILERPROVIDESFLIST_perl-module-autodie-scope-guardstack: /usr/lib/perl/5.24.4/autodie/Scope/GuardStack.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/autodie/Scope/GuardStack.pm": 3424}
+FILERPROVIDES_/usr/lib/perl/5.24.4/autodie/Scope/GuardStack.pm_perl-module-autodie-scope-guardstack:  perl(autodie::Scope::GuardStack)
+PKGSIZE_perl-module-autodie-scope-guardstack: 3424

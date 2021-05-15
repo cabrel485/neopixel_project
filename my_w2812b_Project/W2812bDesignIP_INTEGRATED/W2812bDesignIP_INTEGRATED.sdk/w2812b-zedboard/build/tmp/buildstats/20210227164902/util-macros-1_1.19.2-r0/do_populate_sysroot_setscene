@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444668.58 
+util-macros-1_1.19.2-r0: do_populate_sysroot_setscene
+Elapsed time: 0.22 seconds
+utime: 24
+stime: 3
+cutime: 2
+cstime: 0
+IO wchar: 346432
+IO syscr: 197
+IO write_bytes: 188416
+IO cancelled_write_bytes: 0
+IO read_bytes: 24576
+IO rchar: 388254
+IO syscw: 159
+rusage ru_utime: 0.24665199999999998
+rusage ru_stime: 0.038915
+rusage ru_maxrss: 131404
+rusage ru_minflt: 13325
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 170
+Child rusage ru_utime: 0.02054
+Child rusage ru_stime: 0.007600999999999999
+Child rusage ru_maxrss: 128604
+Child rusage ru_minflt: 2278
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 208
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1614444668.80 

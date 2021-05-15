@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION_python3-staticdev: The Python Programming Language.  This package contains static libraries for software development.
+SUMMARY_python3-staticdev: The Python Programming Language - Development files (Static Libraries)
+RDEPENDS_python3-staticdev: python3-dev (= 3.5.6-r1.0)
+RRECOMMENDS_python3-staticdev: python3-lic
+SECTION_python3-staticdev: devel
+PKG_python3-staticdev: python3-staticdev
+FILES_python3-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/python3/*.a
+FILES_INFO: {}
+PKGSIZE_python3-staticdev: 0

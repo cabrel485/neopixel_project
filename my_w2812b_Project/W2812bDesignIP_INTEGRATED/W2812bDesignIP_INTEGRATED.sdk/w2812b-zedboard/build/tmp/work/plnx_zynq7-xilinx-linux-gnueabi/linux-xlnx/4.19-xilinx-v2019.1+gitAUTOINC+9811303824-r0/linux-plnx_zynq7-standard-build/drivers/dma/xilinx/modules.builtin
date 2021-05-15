@@ -1,0 +1,2 @@
+kernel/drivers/dma/xilinx/xilinx_dma.ko
+kernel/drivers/dma/xilinx/xilinx_frmbuf.ko

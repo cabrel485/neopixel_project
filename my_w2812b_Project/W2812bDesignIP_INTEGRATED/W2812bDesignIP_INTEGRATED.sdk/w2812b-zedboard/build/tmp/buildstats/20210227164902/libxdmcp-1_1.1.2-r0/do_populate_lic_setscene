@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444604.64 
+libxdmcp-1_1.1.2-r0: do_populate_lic_setscene
+Elapsed time: 0.18 seconds
+utime: 22
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 140897
+IO syscr: 188
+IO write_bytes: 90112
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 251438
+IO syscw: 135
+rusage ru_utime: 0.220347
+rusage ru_stime: 0.056088
+rusage ru_maxrss: 131404
+rusage ru_minflt: 13314
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 26
+Child rusage ru_utime: 0.013828
+Child rusage ru_stime: 0.010955999999999999
+Child rusage ru_maxrss: 128632
+Child rusage ru_minflt: 2261
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 13
+Status: PASSED 
+Ended: 1614444604.82 

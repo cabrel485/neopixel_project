@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-crh-ua: binary locale definition for crh-ua
+SUMMARY_glibc-binary-localedata-crh-ua: binary locale definition for crh-ua
+SECTION: base
+PKG_glibc-binary-localedata-crh-ua: glibc-binary-localedata-crh-ua
+FILES_glibc-binary-localedata-crh-ua: /usr/lib/locale/crh_UA
+FILES_INFO: {"/usr/lib/locale/crh_UA/LC_ADDRESS": 151, "/usr/lib/locale/crh_UA/LC_MEASUREMENT": 23, "/usr/lib/locale/crh_UA/LC_NAME": 62, "/usr/lib/locale/crh_UA/LC_TELEPHONE": 52, "/usr/lib/locale/crh_UA/LC_COLLATE": 2586170, "/usr/lib/locale/crh_UA/LC_MONETARY": 294, "/usr/lib/locale/crh_UA/LC_MESSAGES/SYS_LC_MESSAGES": 66, "/usr/lib/locale/crh_UA/LC_PAPER": 34, "/usr/lib/locale/crh_UA/LC_CTYPE": 207696, "/usr/lib/locale/crh_UA/LC_IDENTIFICATION": 338, "/usr/lib/locale/crh_UA/LC_TIME": 3244, "/usr/lib/locale/crh_UA/LC_NUMERIC": 54}
+PKGSIZE_glibc-binary-localedata-crh-ua: 2798184

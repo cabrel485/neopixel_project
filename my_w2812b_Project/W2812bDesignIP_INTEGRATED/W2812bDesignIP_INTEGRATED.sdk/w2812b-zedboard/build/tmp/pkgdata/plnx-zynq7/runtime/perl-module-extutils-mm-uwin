@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-uwin: perl module extutils-mm-uwin
+SUMMARY_perl-module-extutils-mm-uwin: perl module extutils-mm-uwin
+RDEPENDS_perl-module-extutils-mm-uwin: perl perl-module-extutils-mm-unix perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-mm-uwin: perl-module-extutils-mm-uwin
+FILES_perl-module-extutils-mm-uwin: /usr/lib/perl/5.24.4/ExtUtils/MM_UWIN.pm
+FILERPROVIDESFLIST_perl-module-extutils-mm-uwin: /usr/lib/perl/5.24.4/ExtUtils/MM@underscore@UWIN.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/MM_UWIN.pm": 958}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/MM@underscore@UWIN.pm_perl-module-extutils-mm-uwin:  perl(ExtUtils::MM_UWIN)
+PKGSIZE_perl-module-extutils-mm-uwin: 958

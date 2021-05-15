@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444660.56 
+dtc-native-1.4.7-r0: do_populate_sysroot_setscene
+Elapsed time: 0.20 seconds
+utime: 23
+stime: 8
+cutime: 3
+cstime: 2
+IO wchar: 1596466
+IO syscr: 340
+IO write_bytes: 970752
+IO cancelled_write_bytes: 241664
+IO read_bytes: 208896
+IO rchar: 1308411
+IO syscw: 259
+rusage ru_utime: 0.23993499999999998
+rusage ru_stime: 0.083786
+rusage ru_maxrss: 131436
+rusage ru_minflt: 15994
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 176
+rusage ru_nvcsw: 33
+rusage ru_nivcsw: 182
+Child rusage ru_utime: 0.033713
+Child rusage ru_stime: 0.029727999999999997
+Child rusage ru_maxrss: 128608
+Child rusage ru_minflt: 3111
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 384
+Child rusage ru_oublock: 1720
+Child rusage ru_nvcsw: 45
+Child rusage ru_nivcsw: 71
+Status: PASSED 
+Ended: 1614444660.76 

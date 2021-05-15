@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-de-at.iso-8859-1: binary locale definition for de-at.iso-8859-1
+SUMMARY_glibc-binary-localedata-de-at.iso-8859-1: binary locale definition for de-at.iso-8859-1
+SECTION: base
+PKG_glibc-binary-localedata-de-at.iso-8859-1: glibc-binary-localedata-de-at.iso-8859-1
+FILES_glibc-binary-localedata-de-at.iso-8859-1: /usr/lib/locale/de_AT.ISO-8859-1
+FILES_INFO: {"/usr/lib/locale/de_AT.ISO-8859-1/LC_MESSAGES/SYS_LC_MESSAGES": 65, "/usr/lib/locale/de_AT.ISO-8859-1/LC_ADDRESS": 159, "/usr/lib/locale/de_AT.ISO-8859-1/LC_MEASUREMENT": 28, "/usr/lib/locale/de_AT.ISO-8859-1/LC_TIME": 3200, "/usr/lib/locale/de_AT.ISO-8859-1/LC_PAPER": 39, "/usr/lib/locale/de_AT.ISO-8859-1/LC_NAME": 87, "/usr/lib/locale/de_AT.ISO-8859-1/LC_CTYPE": 289124, "/usr/lib/locale/de_AT.ISO-8859-1/LC_MONETARY": 299, "/usr/lib/locale/de_AT.ISO-8859-1/LC_COLLATE": 21267, "/usr/lib/locale/de_AT.ISO-8859-1/LC_TELEPHONE": 61, "/usr/lib/locale/de_AT.ISO-8859-1/LC_NUMERIC": 59, "/usr/lib/locale/de_AT.ISO-8859-1/LC_IDENTIFICATION": 370}
+PKGSIZE_glibc-binary-localedata-de-at.iso-8859-1: 314758

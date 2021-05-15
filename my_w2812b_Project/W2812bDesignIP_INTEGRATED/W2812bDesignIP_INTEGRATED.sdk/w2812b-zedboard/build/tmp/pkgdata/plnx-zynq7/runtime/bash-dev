@@ -1,0 +1,16 @@
+PN: bash
+PV: 4.4.18
+PR: r0
+PKGV: 4.4.18
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION_bash-dev: An sh-compatible command language interpreter.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_bash-dev: An sh-compatible command language interpreter - Development files
+RDEPENDS_bash-dev: bash (= 4.4.18-r0)
+RRECOMMENDS_bash-dev: bash-lic ncurses-dev locale-base-de-de-dev locale-base-fr-fr-dev make-dev glibc-dev base-files-dev update-alternatives-opkg-dev ncurses-libtinfo-dev
+SECTION_bash-dev: devel
+PKG_bash-dev: bash-dev
+ALLOW_EMPTY_bash-dev: 1
+FILES_bash-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bash/*.la /lib/*.la /usr/lib/cmake /usr/share/cmake
+FILES_INFO: {"/usr/include/bash/arrayfunc.h": 3074, "/usr/include/bash/unwind_prot.h": 2003, "/usr/include/bash/alias.h": 2128, "/usr/include/bash/include/systimes.h": 1778, "/usr/include/bash/command.h": 15227, "/usr/include/bash/hashlib.h": 3036, "/usr/include/bash/builtins/common.h": 7684, "/usr/include/bash/general.h": 10698, "/usr/include/bash/include/memalloc.h": 1994, "/usr/include/bash/include/unionwait.h": 2973, "/usr/include/bash/include/gettext.h": 3014, "/usr/include/bash/include/posixtime.h": 1509, "/usr/include/bash/include/posixwait.h": 3068, "/usr/include/bash/builtins/bashgetopt.h": 1263, "/usr/include/bash/config-bot.h": 6514, "/usr/include/bash/include/posixjmp.h": 1407, "/usr/include/bash/conftypes.h": 1709, "/usr/include/bash/include/stat-time.h": 6088, "/usr/include/bash/variables.h": 16993, "/usr/include/bash/siglist.h": 1544, "/usr/include/bash/version.h": 579, "/usr/include/bash/include/posixdir.h": 2305, "/usr/include/bash/bashjmp.h": 1614, "/usr/include/bash/include/shmbutil.h": 13095, "/usr/include/bash/array.h": 4030, "/usr/include/bash/error.h": 3053, "/usr/include/bash/shell.h": 5174, "/usr/include/bash/externs.h": 18429, "/usr/include/bash/sig.h": 4485, "/usr/include/bash/include/shmbchar.h": 4319, "/usr/include/bash/pathnames.h": 1208, "/usr/include/bash/syntax.h": 3544, "/usr/include/bash/include/typemax.h": 2704, "/usr/include/bash/config.h": 31673, "/usr/lib/pkgconfig/bash.pc": 946, "/usr/include/bash/include/chartypes.h": 4125, "/usr/include/bash/bashtypes.h": 1086, "/usr/include/bash/include/ocache.h": 3669, "/usr/include/bash/include/posixstat.h": 4318, "/usr/include/bash/include/filecntl.h": 1581, "/usr/include/bash/builtins.h": 2309, "/usr/include/bash/make_cmd.h": 2927, "/usr/include/bash/bashansi.h": 1262, "/usr/include/bash/bashintl.h": 1363, "/usr/include/bash/include/ansi_stdlib.h": 1437, "/usr/include/bash/jobs.h": 9289, "/usr/include/bash/builtins/getopt.h": 2582, "/usr/include/bash/signames.h": 247, "/usr/include/bash/config-top.h": 6483, "/usr/include/bash/assoc.h": 2302, "/usr/include/bash/include/shtty.h": 3636, "/usr/include/bash/dispose_cmd.h": 1397, "/usr/include/bash/quit.h": 2541, "/usr/include/bash/include/stdc.h": 2351, "/usr/include/bash/include/maxpath.h": 2113, "/usr/include/bash/subst.h": 14425, "/usr/include/bash/builtins/builtext.h": 6715, "/usr/include/bash/xmalloc.h": 1759}
+PKGSIZE_bash-dev: 270779

@@ -1,0 +1,13 @@
+PN: packagegroup-core-ssh-dropbear
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: MIT
+DESCRIPTION: Dropbear SSH client/server.
+SUMMARY: Dropbear SSH client/server
+SECTION: base
+PKG_packagegroup-core-ssh-dropbear-lic: packagegroup-core-ssh-dropbear-lic
+FILES_packagegroup-core-ssh-dropbear-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/packagegroup-core-ssh-dropbear/generic_MIT": 1080}
+PKGSIZE_packagegroup-core-ssh-dropbear-lic: 1080

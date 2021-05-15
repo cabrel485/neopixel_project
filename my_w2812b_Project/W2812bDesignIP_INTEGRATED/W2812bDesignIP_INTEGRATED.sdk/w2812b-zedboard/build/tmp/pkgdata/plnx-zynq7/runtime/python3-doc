@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION_python3-doc: The Python Programming Language.  This package contains documentation.
+SUMMARY_python3-doc: The Python Programming Language - Documentation files
+RRECOMMENDS_python3-doc: python3-lic
+SECTION_python3-doc: doc
+PKG_python3-doc: python3-doc
+FILES_python3-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/python3.1": 11, "/usr/share/man/man1/python3.5.1": 13420}
+PKGSIZE_python3-doc: 13431

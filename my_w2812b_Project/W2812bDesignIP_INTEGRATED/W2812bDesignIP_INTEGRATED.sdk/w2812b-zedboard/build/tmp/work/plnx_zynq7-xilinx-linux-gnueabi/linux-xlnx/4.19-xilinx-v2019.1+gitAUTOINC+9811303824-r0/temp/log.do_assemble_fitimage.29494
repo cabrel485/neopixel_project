@@ -1,0 +1,44 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/binutils/binutils-cross_2.31.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/bc/bc_1.07.1.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-bsp/u-boot/u-boot-mkimage_2018.07.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kmod/kmod-native_git.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-extended/xz/xz_5.2.4.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/bison/bison_3.0.4.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-support/lzop/lzop_1.03.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/gcc/gcc-cross_8.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/dtc/dtc_1.4.7.bb:do_populate_sysroot', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-kernel/kern-tools/kern-tools-native_git.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['device-tree', 'gcc-runtime', 'pseudo-native', 'libgcc']
+NOTE: Skipping as already exists in sysroot: ['binutils-cross-arm', 'bc-native', 'u-boot-mkimage-native', 'kmod-native', 'xz-native', 'quilt-native', 'bison-native', 'lzop-native', 'gcc-cross-arm', 'dtc-native', 'kern-tools-native', 'gnu-config-native', 'zlib-native', 'autoconf-native', 'texinfo-dummy-native', 'flex-native', 'openssl-native', 'automake-native', 'libtool-native', 'gettext-minimal-native', 'readline-native', 'gtk-doc-native', 'python3-native', 'pkgconfig-native', 'lzo-native', 'linux-libc-headers', 'libmpc-native', 'glibc', 'mpfr-native', 'gmp-native', 'm4-native', 'ncurses-native', 'sqlite3-native', 'bzip2-native', 'gdbm-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing shell function do_assemble_fitimage
+none
+arch/arm/boot/fitImage.tmp: Warning (unit_address_vs_reg): /images/kernel@1: node has a unit name, but no reg property
+arch/arm/boot/fitImage.tmp: Warning (unit_address_vs_reg): /images/kernel@1/hash@1: node has a unit name, but no reg property
+arch/arm/boot/fitImage.tmp: Warning (unit_address_vs_reg): /images/fdt@system-top.dtb: node has a unit name, but no reg property
+arch/arm/boot/fitImage.tmp: Warning (unit_address_vs_reg): /images/fdt@system-top.dtb/hash@1: node has a unit name, but no reg property
+arch/arm/boot/fitImage.tmp: Warning (unit_address_vs_reg): /configurations/conf@system-top.dtb: node has a unit name, but no reg property
+arch/arm/boot/fitImage.tmp: Warning (unit_address_vs_reg): /configurations/conf@system-top.dtb/hash@1: node has a unit name, but no reg property
+FIT description: U-Boot fitImage for PetaLinux/4.19-xilinx-v2019.1+gitAUTOINC+9811303824/plnx-zynq7
+Created:         Sat Feb 27 17:02:56 2021
+ Image 0 (kernel@1)
+  Description:  Linux kernel
+  Created:      Sat Feb 27 17:02:56 2021
+  Type:         Kernel Image
+  Compression:  uncompressed
+  Data Size:    4140776 Bytes = 4043.73 KiB = 3.95 MiB
+  Architecture: ARM
+  OS:           Linux
+  Load Address: 0x00008000
+  Entry Point:  0x00008000
+  Hash algo:    sha1
+  Hash value:   8a3dc5db7b10d6706d5d4db0a6a5bb8db698a2bf
+ Image 1 (fdt@system-top.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sat Feb 27 17:02:56 2021
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    15336 Bytes = 14.98 KiB = 0.01 MiB
+  Architecture: ARM
+  Hash algo:    sha1
+  Hash value:   c9eac878da646fcf0811bd699fcf6aafc176947a
+ Default Configuration: 'conf@system-top.dtb'
+ Configuration 0 (conf@system-top.dtb)
+  Description:  1 Linux kernel, FDT blob
+  Kernel:       kernel@1
+  FDT:          fdt@system-top.dtb
+  Hash algo:    sha1
+  Hash value:   unavailable
+DEBUG: Shell function do_assemble_fitimage finished

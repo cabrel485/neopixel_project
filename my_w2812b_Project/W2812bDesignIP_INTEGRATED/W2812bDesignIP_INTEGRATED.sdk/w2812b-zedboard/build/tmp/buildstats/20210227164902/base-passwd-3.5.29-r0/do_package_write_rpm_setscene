@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444620.59 
+base-passwd-3.5.29-r0: do_package_write_rpm_setscene
+Elapsed time: 0.20 seconds
+utime: 23
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 350330
+IO syscr: 199
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+IO read_bytes: 65536
+IO rchar: 425744
+IO syscw: 153
+rusage ru_utime: 0.230261
+rusage ru_stime: 0.050734999999999995
+rusage ru_maxrss: 131408
+rusage ru_minflt: 13333
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.016607999999999998
+Child rusage ru_stime: 0.012093
+Child rusage ru_maxrss: 128632
+Child rusage ru_minflt: 2238
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 128
+Child rusage ru_oublock: 216
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1614444620.79 

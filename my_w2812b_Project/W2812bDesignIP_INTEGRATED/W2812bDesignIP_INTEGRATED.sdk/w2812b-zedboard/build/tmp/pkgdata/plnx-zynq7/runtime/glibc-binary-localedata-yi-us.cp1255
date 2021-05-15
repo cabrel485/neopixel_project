@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-yi-us.cp1255: binary locale definition for yi-us.cp1255
+SUMMARY_glibc-binary-localedata-yi-us.cp1255: binary locale definition for yi-us.cp1255
+SECTION: base
+PKG_glibc-binary-localedata-yi-us.cp1255: glibc-binary-localedata-yi-us.cp1255
+FILES_glibc-binary-localedata-yi-us.cp1255: /usr/lib/locale/yi_US.CP1255
+FILES_INFO: {"/usr/lib/locale/yi_US.CP1255/LC_TIME": 3572, "/usr/lib/locale/yi_US.CP1255/LC_MEASUREMENT": 24, "/usr/lib/locale/yi_US.CP1255/LC_NAME": 78, "/usr/lib/locale/yi_US.CP1255/LC_IDENTIFICATION": 329, "/usr/lib/locale/yi_US.CP1255/LC_NUMERIC": 55, "/usr/lib/locale/yi_US.CP1255/LC_COLLATE": 24927, "/usr/lib/locale/yi_US.CP1255/LC_CTYPE": 289952, "/usr/lib/locale/yi_US.CP1255/LC_PAPER": 35, "/usr/lib/locale/yi_US.CP1255/LC_TELEPHONE": 60, "/usr/lib/locale/yi_US.CP1255/LC_MONETARY": 287, "/usr/lib/locale/yi_US.CP1255/LC_ADDRESS": 171, "/usr/lib/locale/yi_US.CP1255/LC_MESSAGES/SYS_LC_MESSAGES": 62}
+PKGSIZE_glibc-binary-localedata-yi-us.cp1255: 319552

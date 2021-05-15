@@ -1,0 +1,18 @@
+PN: iptables
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iptables-module-xt-policy: iptables module xt-policy
+SUMMARY_iptables-module-xt-policy: iptables module xt-policy
+RDEPENDS_iptables-module-xt-policy: iptables (>= 1.6.2) glibc (>= 2.28)
+SECTION: base
+PKG_iptables-module-xt-policy: iptables-module-xt-policy
+FILES_iptables-module-xt-policy: /usr/lib/xtables/libxt_policy.so
+FILERPROVIDESFLIST_iptables-module-xt-policy: /usr/lib/xtables/libxt@underscore@policy.so
+FILES_INFO: {"/usr/lib/xtables/libxt_policy.so": 9704}
+FILERPROVIDES_/usr/lib/xtables/libxt@underscore@policy.so_iptables-module-xt-policy:  libxt_policy.so
+FILERDEPENDSFLIST_iptables-module-xt-policy: /usr/lib/xtables/libxt@underscore@policy.so
+FILERDEPENDS_/usr/lib/xtables/libxt@underscore@policy.so_iptables-module-xt-policy:  libc.so.6(GLIBC_2.4) libxtables.so.12 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_iptables-module-xt-policy: 9704

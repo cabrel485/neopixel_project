@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614445398.75 
+linux-xlnx-4.19-xilinx-v2019.1+gitAUTOINC+9811303824-r0: do_install
+Elapsed time: 1.87 seconds
+utime: 30
+stime: 6
+cutime: 95
+cstime: 68
+IO syscw: 11222
+IO rchar: 42879570
+IO cancelled_write_bytes: 12017664
+IO read_bytes: 311296
+IO wchar: 40792116
+IO syscr: 10893
+IO write_bytes: 39886848
+rusage ru_utime: 0.307558
+rusage ru_stime: 0.06880499999999999
+rusage ru_maxrss: 132984
+rusage ru_minflt: 11154
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 461
+rusage ru_nivcsw: 12
+Child rusage ru_utime: 0.9594929999999999
+Child rusage ru_stime: 0.6896829999999999
+Child rusage ru_maxrss: 130912
+Child rusage ru_minflt: 216961
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 608
+Child rusage ru_oublock: 77712
+Child rusage ru_nvcsw: 4571
+Child rusage ru_nivcsw: 3687
+Status: PASSED 
+Ended: 1614445400.62 

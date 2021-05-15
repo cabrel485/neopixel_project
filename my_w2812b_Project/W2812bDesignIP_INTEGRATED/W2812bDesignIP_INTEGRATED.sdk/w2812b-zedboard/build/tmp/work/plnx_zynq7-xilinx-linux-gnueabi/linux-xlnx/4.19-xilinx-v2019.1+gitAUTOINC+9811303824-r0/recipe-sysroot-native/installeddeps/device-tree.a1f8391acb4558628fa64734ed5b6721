@@ -1,0 +1,12 @@
+recipe-sysroot/sysroot-providers/virtual_dtb
+recipe-sysroot/sysroot-providers/device-tree
+recipe-sysroot/usr/share/licenses/device-tree/generic_GPLv2
+recipe-sysroot/usr/share/licenses/device-tree/xadcps.mdd
+recipe-sysroot/boot/devicetree/system-top.dtb
+recipe-sysroot/usr/share/licenses/device-tree/
+recipe-sysroot/usr/share/licenses/
+recipe-sysroot/sysroot-providers/
+recipe-sysroot/boot/devicetree/
+recipe-sysroot/usr/share/
+recipe-sysroot/boot/
+recipe-sysroot/usr/

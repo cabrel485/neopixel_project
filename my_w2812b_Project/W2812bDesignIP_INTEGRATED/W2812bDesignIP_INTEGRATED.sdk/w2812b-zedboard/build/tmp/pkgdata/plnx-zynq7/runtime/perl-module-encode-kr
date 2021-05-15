@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-kr: perl module encode-kr
+SUMMARY_perl-module-encode-kr: perl module encode-kr
+RDEPENDS_perl-module-encode-kr: perl perl-module-encode perl-module-encode-kr-2022-kr perl-module-strict perl-module-warnings perl-module-xsloader glibc (>= 2.28)
+SECTION: devel
+PKG_perl-module-encode-kr: perl-module-encode-kr
+FILES_perl-module-encode-kr: /usr/lib/perl/5.24.4/auto/Encode/KR/KR.so /usr/lib/perl/5.24.4/Encode/KR.pm
+FILERPROVIDESFLIST_perl-module-encode-kr: /usr/lib/perl/5.24.4/Encode/KR.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/auto/Encode/KR/KR.so": 1107224, "/usr/lib/perl/5.24.4/Encode/KR.pm": 1960}
+FILERPROVIDES_/usr/lib/perl/5.24.4/Encode/KR.pm_perl-module-encode-kr:  perl(Encode::KR)
+FILERDEPENDSFLIST_perl-module-encode-kr: /usr/lib/perl/5.24.4/auto/Encode/KR/KR.so
+FILERDEPENDS_/usr/lib/perl/5.24.4/auto/Encode/KR/KR.so_perl-module-encode-kr:  libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+PKGSIZE_perl-module-encode-kr: 1109184

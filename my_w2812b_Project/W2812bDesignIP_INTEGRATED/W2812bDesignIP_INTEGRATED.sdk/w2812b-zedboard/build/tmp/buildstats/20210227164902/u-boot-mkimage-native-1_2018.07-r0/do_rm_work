@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444699.32 
+u-boot-mkimage-native-1_2018.07-r0: do_rm_work
+Elapsed time: 0.07 seconds
+utime: 16
+stime: 0
+cutime: 2
+cstime: 1
+IO wchar: 32600
+IO syscr: 175
+IO write_bytes: 36864
+IO cancelled_write_bytes: 0
+IO read_bytes: 94208
+IO rchar: 144052
+IO syscw: 30
+rusage ru_utime: 0.16033
+rusage ru_stime: 0.008222
+rusage ru_maxrss: 131344
+rusage ru_minflt: 4610
+rusage ru_majflt: 0
+rusage ru_inblock: 184
+rusage ru_oublock: 72
+rusage ru_nvcsw: 6
+rusage ru_nivcsw: 28
+Child rusage ru_utime: 0.021228
+Child rusage ru_stime: 0.010022
+Child rusage ru_maxrss: 128672
+Child rusage ru_minflt: 3453
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 52
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1614444699.39 

@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.6
+PR: r1.0
+PKGV: 3.5.6
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-compile: Python bytecode compilation support
+RDEPENDS_python3-compile: python3-asyncio python3-compression python3-core python3-crypt python3-io python3-logging python3-math python3-multiprocessing python3-pickle python3-shell python3-stringold python3-threading python3-unixadmin
+RRECOMMENDS_python3-compile: python3-lic
+SECTION: devel/python
+PKG_python3-compile: python3-compile
+FILES_python3-compile:  /usr/lib/python3.5/compileall.py /usr/lib/python3.5/py_compile.py /usr/lib/python3.5/__pycache__/compileall.*.pyc /usr/lib/python3.5/__pycache__/py_compile.*.pyc
+FILES_INFO: {"/usr/lib/python3.5/__pycache__/py_compile.cpython-35.pyc": 7013, "/usr/lib/python3.5/__pycache__/compileall.cpython-35.pyc": 8734, "/usr/lib/python3.5/__pycache__/py_compile.cpython-35.opt-1.pyc": 7013, "/usr/lib/python3.5/__pycache__/compileall.cpython-35.opt-1.pyc": 8734, "/usr/lib/python3.5/compileall.py": 11711, "/usr/lib/python3.5/__pycache__/compileall.cpython-35.opt-2.pyc": 6594, "/usr/lib/python3.5/py_compile.py": 7388, "/usr/lib/python3.5/__pycache__/py_compile.cpython-35.opt-2.pyc": 3405}
+PKGSIZE_python3-compile: 60592

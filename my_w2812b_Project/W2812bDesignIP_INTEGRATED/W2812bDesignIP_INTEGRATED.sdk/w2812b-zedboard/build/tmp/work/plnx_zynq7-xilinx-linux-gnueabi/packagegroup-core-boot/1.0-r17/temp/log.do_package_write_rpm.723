@@ -1,0 +1,78 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/rpm/rpm_4.14.2.bb:do_populate_sysroot', 'virtual:native:/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/pseudo/pseudo_git.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['rpm-native', 'pseudo-native', 'xz-native', 'pkgconfig-native', 'automake-native', 'python3-native', 'dbus-native', 'nss-native', 'bzip2-native', 'gnu-config-native', 'gettext-minimal-native', 'libarchive-native', 'quilt-native', 'db-native', 'autoconf-native', 'libtool-native', 'elfutils-native', 'popt-native', 'file-native', 'texinfo-dummy-native', 'readline-native', 'sqlite3-native', 'zlib-native', 'gdbm-native', 'openssl-native', 'expat-native', 'nspr-native', 'e2fsprogs-native', 'lzo-native', 'm4-native', 'ncurses-native', 'attr-native', 'util-linux-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating RPM package for packagegroup-core-boot-lic
+NOTE: Creating RPM package for packagegroup-core-boot
+NOTE: Creating EMPTY RPM Package for packagegroup-core-boot
+NOTE: Creating EMPTY RPM Package for packagegroup-core-boot-dbg
+NOTE: Creating EMPTY RPM Package for packagegroup-core-boot-dev
+NOTE: Creating EMPTY RPM Package for packagegroup-core-boot-ptest
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7
+DEBUG: Executing shell function BUILDSPEC
+Building target platforms: plnx_zynq7-xilinx-linux
+Building for target plnx_zynq7-xilinx-linux
+Processing files: packagegroup-core-boot-1.0-r17.plnx_zynq7
+Processing files: packagegroup-core-boot-lic-1.0-r17.plnx_zynq7
+warning: Deprecated external dependency generator is used!
+Finding  Provides: 
+Finding  Requires(interp): 
+Finding  Requires(rpmlib): 
+Finding  Requires(verify): 
+Finding  Requires(pre): 
+Finding  Requires(post): 
+Finding  Requires(preun): 
+Finding  Requires(postun): 
+Finding  Requires(pretrans): 
+Finding  Requires(posttrans): 
+Finding  Requires: 
+Finding  Conflicts: 
+Finding  Obsoletes: 
+Finding  Recommends: 
+Finding  Suggests: 
+Finding  Supplements: 
+Finding  Enhances: 
+Provides: packagegroup-core-boot-lic = 1.0-r17
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Processing files: packagegroup-core-boot-dbg-1.0-r17.plnx_zynq7
+Processing files: packagegroup-core-boot-dev-1.0-r17.plnx_zynq7
+Processing files: packagegroup-core-boot-ptest-1.0-r17.plnx_zynq7
+Checking for unpackaged file(s): /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native/usr/bin/../../usr/lib/rpm/check-files /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/package
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-1.0-r17.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-1.0-r17.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-dbg-1.0-r17.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-dbg-1.0-r17.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-ptest-1.0-r17.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-ptest-1.0-r17.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-dev-1.0-r17.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-dev-1.0-r17.plnx_zynq7.rpm
+Wrote: /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-lic-1.0-r17.plnx_zynq7.rpm
+Finished binary package job, result 0, filename /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms/plnx_zynq7/packagegroup-core-boot-lic-1.0-r17.plnx_zynq7.rpm
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+NOTE: Using umask 0o002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms for packaging at /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native' -e '/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools' | tee /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native:FIXMESTAGINGDIRHOST:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/plnx_zynq7-xilinx-linux-gnueabi/packagegroup-core-boot/1.0-r17/deploy-rpms to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/deploy/rpm
+DEBUG: Python function sstate_task_postfunc finished

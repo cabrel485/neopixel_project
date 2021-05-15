@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.28
+PR: r0
+PKGV: 2.28
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-es-ni: binary locale definition for es-ni
+SUMMARY_glibc-binary-localedata-es-ni: binary locale definition for es-ni
+SECTION: base
+PKG_glibc-binary-localedata-es-ni: glibc-binary-localedata-es-ni
+FILES_glibc-binary-localedata-es-ni: /usr/lib/locale/es_NI
+FILES_INFO: {"/usr/lib/locale/es_NI/LC_CTYPE": 337024, "/usr/lib/locale/es_NI/LC_PAPER": 34, "/usr/lib/locale/es_NI/LC_TELEPHONE": 52, "/usr/lib/locale/es_NI/LC_NUMERIC": 54, "/usr/lib/locale/es_NI/LC_IDENTIFICATION": 357, "/usr/lib/locale/es_NI/LC_COLLATE": 2586242, "/usr/lib/locale/es_NI/LC_MONETARY": 290, "/usr/lib/locale/es_NI/LC_ADDRESS": 155, "/usr/lib/locale/es_NI/LC_MESSAGES/SYS_LC_MESSAGES": 59, "/usr/lib/locale/es_NI/LC_NAME": 62, "/usr/lib/locale/es_NI/LC_TIME": 3332, "/usr/lib/locale/es_NI/LC_MEASUREMENT": 23}
+PKGSIZE_glibc-binary-localedata-es-ni: 2927684

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444613.09 
+openssh-7.8p1+git-r0: do_populate_lic_setscene
+Elapsed time: 0.13 seconds
+utime: 28
+stime: 5
+cutime: 1
+cstime: 1
+IO wchar: 181454
+IO syscr: 200
+IO write_bytes: 106496
+IO cancelled_write_bytes: 0
+IO read_bytes: 8192
+IO rchar: 330320
+IO syscw: 144
+rusage ru_utime: 0.286413
+rusage ru_stime: 0.050315
+rusage ru_maxrss: 131680
+rusage ru_minflt: 13543
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 203
+Child rusage ru_utime: 0.014124
+Child rusage ru_stime: 0.015021
+Child rusage ru_maxrss: 128932
+Child rusage ru_minflt: 2269
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1614444613.22 

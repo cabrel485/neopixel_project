@@ -1,0 +1,15 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: ['quilt-native']
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+NOTE: Applying patch 'busybox-udhcpc-no_deconfig.patch' (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/busybox/busybox/busybox-udhcpc-no_deconfig.patch)
+NOTE: Applying patch 'fail_on_no_media.patch' (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/busybox/busybox/fail_on_no_media.patch)
+NOTE: Applying patch 'recognize_connmand.patch' (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/busybox/busybox/recognize_connmand.patch)
+NOTE: Applying patch 'busybox-cross-menuconfig.patch' (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/busybox/busybox/busybox-cross-menuconfig.patch)
+NOTE: Applying patch '0001-Use-CC-when-linking-instead-of-LD-and-use-CFLAGS-and.patch' (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/busybox/busybox/0001-Use-CC-when-linking-instead-of-LD-and-use-CFLAGS-and.patch)
+NOTE: Applying patch 'makefile-libbb-race.patch' (/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/layers/core/meta/recipes-core/busybox/busybox/makefile-libbb-race.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

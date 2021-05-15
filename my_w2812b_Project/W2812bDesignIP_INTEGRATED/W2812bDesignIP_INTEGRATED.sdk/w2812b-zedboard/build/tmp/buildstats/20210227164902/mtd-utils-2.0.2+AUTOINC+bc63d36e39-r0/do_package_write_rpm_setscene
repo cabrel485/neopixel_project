@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444588.52 
+mtd-utils-2.0.2+AUTOINC+bc63d36e39-r0: do_package_write_rpm_setscene
+Elapsed time: 0.13 seconds
+utime: 25
+stime: 4
+cutime: 2
+cstime: 1
+IO wchar: 3879677
+IO syscr: 473
+IO write_bytes: 1961984
+IO cancelled_write_bytes: 0
+IO read_bytes: 1761280
+IO rchar: 3858053
+IO syscw: 390
+rusage ru_utime: 0.252526
+rusage ru_stime: 0.040083
+rusage ru_maxrss: 131460
+rusage ru_minflt: 13391
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 168
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 43
+Child rusage ru_utime: 0.024465999999999998
+Child rusage ru_stime: 0.018082
+Child rusage ru_maxrss: 128724
+Child rusage ru_minflt: 2251
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3440
+Child rusage ru_oublock: 3664
+Child rusage ru_nvcsw: 79
+Child rusage ru_nivcsw: 85
+Status: PASSED 
+Ended: 1614444588.65 

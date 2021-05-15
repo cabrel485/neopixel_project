@@ -1,0 +1,188 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz for universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz
+DEBUG: Searching for universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo in paths:
+    /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache
+DEBUG: Defaulting to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/sstate-cache/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo for universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', 'universal/(.*)', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/\\1', '', '', OrderedDict()]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal-4.8/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning file:///home/wilson/Xilinx/Petalinux/components/yocto/source/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '/proj/yocto/daily-sstatecache_2019.1/arm/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning file:///proj/yocto/daily-sstatecache_2019.1/arm/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2019/arm/sstate-cache/PATH', '', '', OrderedDict([('downloadfilename', 'PATH')])]
+DEBUG: For url file://universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2019/arm/sstate-cache/universal/0e/sstate%3Aqemu-native%3Ax86_64-linux%3A3.0.0%3Ar0%3Ax86_64%3A3%3A0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo;downloadfilename=universal/0e/sstate:qemu-native:x86_64-linux:3.0.0:r0:x86_64:3:0e3d63642ff47aa77dad9dcb4d0a359a_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/libexec/
+recipe-sysroot-native/usr/libexec/qemu-bridge-helper
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/qemu/
+recipe-sysroot-native/usr/share/qemu/u-boot-sam460-20100605.bin
+recipe-sysroot-native/usr/share/qemu/vgabios-vmware.bin
+recipe-sysroot-native/usr/share/qemu/s390-netboot.img
+recipe-sysroot-native/usr/share/qemu/vgabios-stdvga.bin
+recipe-sysroot-native/usr/share/qemu/efi-eepro100.rom
+recipe-sysroot-native/usr/share/qemu/petalogix-s3adsp1800.dtb
+recipe-sysroot-native/usr/share/qemu/pxe-ne2k_pci.rom
+recipe-sysroot-native/usr/share/qemu/efi-vmxnet3.rom
+recipe-sysroot-native/usr/share/qemu/openbios-ppc
+recipe-sysroot-native/usr/share/qemu/openbios-sparc32
+recipe-sysroot-native/usr/share/qemu/sgabios.bin
+recipe-sysroot-native/usr/share/qemu/efi-e1000e.rom
+recipe-sysroot-native/usr/share/qemu/pxe-e1000.rom
+recipe-sysroot-native/usr/share/qemu/s390-ccw.img
+recipe-sysroot-native/usr/share/qemu/bios.bin
+recipe-sysroot-native/usr/share/qemu/hppa-firmware.img
+recipe-sysroot-native/usr/share/qemu/pxe-eepro100.rom
+recipe-sysroot-native/usr/share/qemu/qemu_logo_no_text.svg
+recipe-sysroot-native/usr/share/qemu/bamboo.dtb
+recipe-sysroot-native/usr/share/qemu/QEMU,cgthree.bin
+recipe-sysroot-native/usr/share/qemu/QEMU,tcx.bin
+recipe-sysroot-native/usr/share/qemu/ppc_rom.bin
+recipe-sysroot-native/usr/share/qemu/keymaps/
+recipe-sysroot-native/usr/share/qemu/keymaps/cz
+recipe-sysroot-native/usr/share/qemu/keymaps/fr-ca
+recipe-sysroot-native/usr/share/qemu/keymaps/sl
+recipe-sysroot-native/usr/share/qemu/keymaps/fr-be
+recipe-sysroot-native/usr/share/qemu/keymaps/fr-ch
+recipe-sysroot-native/usr/share/qemu/keymaps/ar
+recipe-sysroot-native/usr/share/qemu/keymaps/tr
+recipe-sysroot-native/usr/share/qemu/keymaps/sv
+recipe-sysroot-native/usr/share/qemu/keymaps/modifiers
+recipe-sysroot-native/usr/share/qemu/keymaps/mk
+recipe-sysroot-native/usr/share/qemu/keymaps/en-gb
+recipe-sysroot-native/usr/share/qemu/keymaps/hr
+recipe-sysroot-native/usr/share/qemu/keymaps/pl
+recipe-sysroot-native/usr/share/qemu/keymaps/ja
+recipe-sysroot-native/usr/share/qemu/keymaps/pt
+recipe-sysroot-native/usr/share/qemu/keymaps/common
+recipe-sysroot-native/usr/share/qemu/keymaps/is
+recipe-sysroot-native/usr/share/qemu/keymaps/lv
+recipe-sysroot-native/usr/share/qemu/keymaps/bepo
+recipe-sysroot-native/usr/share/qemu/keymaps/fr
+recipe-sysroot-native/usr/share/qemu/keymaps/ru
+recipe-sysroot-native/usr/share/qemu/keymaps/nl
+recipe-sysroot-native/usr/share/qemu/keymaps/th
+recipe-sysroot-native/usr/share/qemu/keymaps/de
+recipe-sysroot-native/usr/share/qemu/keymaps/lt
+recipe-sysroot-native/usr/share/qemu/keymaps/hu
+recipe-sysroot-native/usr/share/qemu/keymaps/it
+recipe-sysroot-native/usr/share/qemu/keymaps/fo
+recipe-sysroot-native/usr/share/qemu/keymaps/fi
+recipe-sysroot-native/usr/share/qemu/keymaps/es
+recipe-sysroot-native/usr/share/qemu/keymaps/da
+recipe-sysroot-native/usr/share/qemu/keymaps/no
+recipe-sysroot-native/usr/share/qemu/keymaps/et
+recipe-sysroot-native/usr/share/qemu/keymaps/en-us
+recipe-sysroot-native/usr/share/qemu/keymaps/nl-be
+recipe-sysroot-native/usr/share/qemu/keymaps/de-ch
+recipe-sysroot-native/usr/share/qemu/keymaps/pt-br
+recipe-sysroot-native/usr/share/qemu/efi-pcnet.rom
+recipe-sysroot-native/usr/share/qemu/vgabios-qxl.bin
+recipe-sysroot-native/usr/share/qemu/openbios-sparc64
+recipe-sysroot-native/usr/share/qemu/multiboot.bin
+recipe-sysroot-native/usr/share/qemu/bios-256k.bin
+recipe-sysroot-native/usr/share/qemu/slof.bin
+recipe-sysroot-native/usr/share/qemu/pxe-rtl8139.rom
+recipe-sysroot-native/usr/share/qemu/qemu_vga.ndrv
+recipe-sysroot-native/usr/share/qemu/efi-ne2k_pci.rom
+recipe-sysroot-native/usr/share/qemu/efi-rtl8139.rom
+recipe-sysroot-native/usr/share/qemu/vgabios-cirrus.bin
+recipe-sysroot-native/usr/share/qemu/pxe-virtio.rom
+recipe-sysroot-native/usr/share/qemu/vgabios.bin
+recipe-sysroot-native/usr/share/qemu/qemu-icon.bmp
+recipe-sysroot-native/usr/share/qemu/petalogix-ml605.dtb
+recipe-sysroot-native/usr/share/qemu/efi-e1000.rom
+recipe-sysroot-native/usr/share/qemu/trace-events-all
+recipe-sysroot-native/usr/share/qemu/skiboot.lid
+recipe-sysroot-native/usr/share/qemu/efi-virtio.rom
+recipe-sysroot-native/usr/share/qemu/canyonlands.dtb
+recipe-sysroot-native/usr/share/qemu/linuxboot.bin
+recipe-sysroot-native/usr/share/qemu/kvmvapic.bin
+recipe-sysroot-native/usr/share/qemu/linuxboot_dma.bin
+recipe-sysroot-native/usr/share/qemu/u-boot.e500
+recipe-sysroot-native/usr/share/qemu/vgabios-virtio.bin
+recipe-sysroot-native/usr/share/qemu/powerpc_rom.bin
+recipe-sysroot-native/usr/share/qemu/spapr-rtas.bin
+recipe-sysroot-native/usr/share/qemu/palcode-clipper
+recipe-sysroot-native/usr/share/qemu/pxe-pcnet.rom
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/qemu-system-mips64
+recipe-sysroot-native/usr/bin/qemu-system-nios2
+recipe-sysroot-native/usr/bin/qemu-mips64
+recipe-sysroot-native/usr/bin/qemu-system-mips64el
+recipe-sysroot-native/usr/bin/qemu-system-ppc
+recipe-sysroot-native/usr/bin/qemu-arm
+recipe-sysroot-native/usr/bin/qemu-system-i386
+recipe-sysroot-native/usr/bin/qemu-microblaze
+recipe-sysroot-native/usr/bin/qemu-system-x86_64
+recipe-sysroot-native/usr/bin/qemu-img
+recipe-sysroot-native/usr/bin/qemu-nios2
+recipe-sysroot-native/usr/bin/qemu-pr-helper
+recipe-sysroot-native/usr/bin/ivshmem-server
+recipe-sysroot-native/usr/bin/qemu-ppc
+recipe-sysroot-native/usr/bin/qemu-system-mips
+recipe-sysroot-native/usr/bin/qemu-mips
+recipe-sysroot-native/usr/bin/qemu-system-arm
+recipe-sysroot-native/usr/bin/qemu-system-microblazeel
+recipe-sysroot-native/usr/bin/qemu-io
+recipe-sysroot-native/usr/bin/qemu-aarch64
+recipe-sysroot-native/usr/bin/qemu-system-mipsel
+recipe-sysroot-native/usr/bin/qemu-system-microblaze
+recipe-sysroot-native/usr/bin/qemu-mips64el
+recipe-sysroot-native/usr/bin/qemu-ga
+recipe-sysroot-native/usr/bin/qemu-x86_64
+recipe-sysroot-native/usr/bin/qemu-system-aarch64
+recipe-sysroot-native/usr/bin/qemu-i386
+recipe-sysroot-native/usr/bin/ivshmem-client
+recipe-sysroot-native/usr/bin/qemu-microblazeel
+recipe-sysroot-native/usr/bin/qemu-mipsel
+recipe-sysroot-native/usr/bin/qemu-mips.real
+recipe-sysroot-native/usr/bin/qemu-nbd
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/qemu-native
+recipe-sysroot-native/var/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/qemu-native/3.0.0-r0/sysroot-destdir/home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/work/x86_64-linux/qemu-native/3.0.0-r0/recipe-sysroot-native to /home/wilson/Documents/Project/my_w2812b_Project/W2812bDesignIP_INTEGRATED/W2812bDesignIP_INTEGRATED.sdk/w2812b-zedboard/build/tmp/sysroots-components/x86_64/qemu-native
+DEBUG: Python function do_populate_sysroot_setscene finished

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444640.35 
+packagegroup-core-ssh-dropbear-1.0-r1: do_packagedata_setscene
+Elapsed time: 0.11 seconds
+utime: 12
+stime: 3
+cutime: 0
+cstime: 1
+IO wchar: 150725
+IO syscr: 175
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+IO read_bytes: 4096
+IO rchar: 208649
+IO syscw: 145
+rusage ru_utime: 0.123259
+rusage ru_stime: 0.038518
+rusage ru_maxrss: 131176
+rusage ru_minflt: 6670
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 106
+Child rusage ru_utime: 0.009523
+Child rusage ru_stime: 0.019148
+Child rusage ru_maxrss: 128484
+Child rusage ru_minflt: 2175
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1614444640.45 

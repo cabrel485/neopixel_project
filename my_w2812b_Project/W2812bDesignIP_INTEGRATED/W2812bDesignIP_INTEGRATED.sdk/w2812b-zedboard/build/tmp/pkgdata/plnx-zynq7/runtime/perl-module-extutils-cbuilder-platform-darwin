@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-cbuilder-platform-darwin: perl module extutils-cbuilder-platform-darwin
+SUMMARY_perl-module-extutils-cbuilder-platform-darwin: perl module extutils-cbuilder-platform-darwin
+RDEPENDS_perl-module-extutils-cbuilder-platform-darwin: perl perl-module-extutils-cbuilder-platform-unix perl-module-strict perl-module-vars perl-module-warnings
+SECTION: devel
+PKG_perl-module-extutils-cbuilder-platform-darwin: perl-module-extutils-cbuilder-platform-darwin
+FILES_perl-module-extutils-cbuilder-platform-darwin: /usr/lib/perl/5.24.4/ExtUtils/CBuilder/Platform/darwin.pm
+FILERPROVIDESFLIST_perl-module-extutils-cbuilder-platform-darwin: /usr/lib/perl/5.24.4/ExtUtils/CBuilder/Platform/darwin.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/ExtUtils/CBuilder/Platform/darwin.pm": 558}
+FILERPROVIDES_/usr/lib/perl/5.24.4/ExtUtils/CBuilder/Platform/darwin.pm_perl-module-extutils-cbuilder-platform-darwin:  perl(ExtUtils::CBuilder::Platform::darwin)
+PKGSIZE_perl-module-extutils-cbuilder-platform-darwin: 558

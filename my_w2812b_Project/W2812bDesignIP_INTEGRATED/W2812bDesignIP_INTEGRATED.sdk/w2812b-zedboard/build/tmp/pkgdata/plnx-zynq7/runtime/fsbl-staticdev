@@ -1,0 +1,15 @@
+PN: fsbl
+PV: 2019.1+gitAUTOINC+26c14d9861
+PR: r0
+PKGV: 2019.1+git0+26c14d9861
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_fsbl-staticdev: FSBL  This package contains static libraries for software development.
+SUMMARY_fsbl-staticdev: fsbl version 2019.1+gitAUTOINC+26c14d9861-r0 - Development files (Static Libraries)
+RDEPENDS_fsbl-staticdev: fsbl-dev (= 2019.1+git0+26c14d9861-r0)
+RRECOMMENDS_fsbl-staticdev: fsbl-lic
+SECTION_fsbl-staticdev: devel
+PKG_fsbl-staticdev: fsbl-staticdev
+FILES_fsbl-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/fsbl/*.a
+FILES_INFO: {}
+PKGSIZE_fsbl-staticdev: 0

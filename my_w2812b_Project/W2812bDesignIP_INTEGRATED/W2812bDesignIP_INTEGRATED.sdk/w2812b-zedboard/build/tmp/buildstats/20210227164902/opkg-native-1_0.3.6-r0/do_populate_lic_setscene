@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1614444596.83 
+opkg-native-1_0.3.6-r0: do_populate_lic_setscene
+Elapsed time: 0.10 seconds
+utime: 25
+stime: 6
+cutime: 0
+cstime: 2
+IO wchar: 220262
+IO syscr: 194
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+IO read_bytes: 16384
+IO rchar: 290133
+IO syscw: 145
+rusage ru_utime: 0.253876
+rusage ru_stime: 0.063469
+rusage ru_maxrss: 131472
+rusage ru_minflt: 13427
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 160
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 87
+Child rusage ru_utime: 0.007816
+Child rusage ru_stime: 0.022913
+Child rusage ru_maxrss: 128760
+Child rusage ru_minflt: 2263
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1614444596.94 

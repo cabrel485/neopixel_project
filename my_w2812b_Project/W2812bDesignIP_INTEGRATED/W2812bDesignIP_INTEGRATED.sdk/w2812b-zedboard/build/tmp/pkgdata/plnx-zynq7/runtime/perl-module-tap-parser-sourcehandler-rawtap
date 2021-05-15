@@ -1,0 +1,16 @@
+PN: perl
+PV: 5.24.4
+PR: r0
+PKGV: 5.24.4
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-parser-sourcehandler-rawtap: perl module tap-parser-sourcehandler-rawtap
+SUMMARY_perl-module-tap-parser-sourcehandler-rawtap: perl module tap-parser-sourcehandler-rawtap
+RDEPENDS_perl-module-tap-parser-sourcehandler-rawtap: perl perl-module-base perl-module-strict perl-module-tap-parser-iterator-array perl-module-tap-parser-iteratorfactory perl-module-warnings
+SECTION: devel
+PKG_perl-module-tap-parser-sourcehandler-rawtap: perl-module-tap-parser-sourcehandler-rawtap
+FILES_perl-module-tap-parser-sourcehandler-rawtap: /usr/lib/perl/5.24.4/TAP/Parser/SourceHandler/RawTAP.pm
+FILERPROVIDESFLIST_perl-module-tap-parser-sourcehandler-rawtap: /usr/lib/perl/5.24.4/TAP/Parser/SourceHandler/RawTAP.pm
+FILES_INFO: {"/usr/lib/perl/5.24.4/TAP/Parser/SourceHandler/RawTAP.pm": 2845}
+FILERPROVIDES_/usr/lib/perl/5.24.4/TAP/Parser/SourceHandler/RawTAP.pm_perl-module-tap-parser-sourcehandler-rawtap:  perl(TAP::Parser::SourceHandler::RawTAP)
+PKGSIZE_perl-module-tap-parser-sourcehandler-rawtap: 2845

@@ -1,0 +1,13 @@
+PN: shadow-securetty
+PV: 4.6
+PR: r3
+PKGV: 4.6
+PKGR: r3
+LICENSE: MIT
+DESCRIPTION: Provider of the machine specific securetty file.
+SUMMARY: Provider of the machine specific securetty file
+SECTION: base utils
+PKG_shadow-securetty-lic: shadow-securetty-lic
+FILES_shadow-securetty-lic: /usr/share/licenses/
+FILES_INFO: {"/usr/share/licenses/shadow-securetty/COPYING.MIT": 1035, "/usr/share/licenses/shadow-securetty/generic_MIT": 1080}
+PKGSIZE_shadow-securetty-lic: 2115
